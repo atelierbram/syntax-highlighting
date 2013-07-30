@@ -1,0 +1,120 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+
+    <title>Syntax highlighting</title>
+    <link href="../assets/css/screen.css" media="screen, projection" rel="stylesheet" type="text/css" />
+    <link href="../assets/css/print.css" media="print" rel="stylesheet" type="text/css" />
+    <!--[if IE]>
+    <link href="../assets/css/ie.css" media="screen, projection" rel="stylesheet" type="text/css" />
+    <![endif]-->
+    <meta name="viewport" content="width=device-width">
+    <meta name="author" content="Bram de Haan">
+    <meta name="robots" content="index, follow">  <meta name="description" content="Colection of colorschemes for Code Syntax highlighting"/> 
+    <link rel="author" href="https://plus.google.com/111567145811003203990/posts"> 
+  </head>
+  <body>
+ 
+    <!-- Header and Nav -->
+
+    <header class="row">
+    <div class="large-3 columns">
+      <h1 class="repo-title"><a href="http://atelierbram.github.io/syntax-highlighting/">Syntax Highlighting Themes</a></h1>
+    </div>
+    <nav class="large-9 columns">
+    <ul class="inline-list right">
+      <li><a href="http://atelierbram.github.io/syntax-highlighting/">Home</a> 
+      </li>
+    </ul>
+    </nav>
+    </header>
+
+    <!-- End Header and Nav --> 
+
+    <div class="row">    
+
+      <!-- Main Content Section -->
+      <!-- This has been source ordered to come first in the markup (and on small devices) but to be to the right of the nav on larger screens -->
+      <article class="large-9 push-3 columns">
+
+      <h2 class="project-title">Chrome Devtools <small>colorschemes</small></h2> 
+      <p>One can change the way Chrome Developer Tools looks by having a custom CSS stylesheet, named <code>Custom.css</code>.
+      The path for the directory that contains the file:</p> 
+      <pre><code>
+Mac: "Library/Application Support/Google/Chrome/Default/User StyleSheets/" 
+Linux: "~/.config/chrome/Default/User StyleSheets/" 
+Windows: "C:\Users\**Your username**\AppData\Local\Google\Chrome\User Data\Default\User StyleSheets\"
+</code></pre>
+
+      <p>For tweaking the theme you can use DevTools itself to inspect Devtools:
+      </p>
+      <ol>
+        <li> 
+        undock DevTools 
+        </li>
+        <li> 
+        then hit Ctrl-Alt-i or Cmd+alt+i on Mac 
+        </li> 
+        <li>
+        now you have yet another undocked DevTools window with all the DevTools markup to inspect the DevTools-window you undocked in step 1 &hellip;
+        </li>
+
+      </ol> 
+
+      <h3 id="solarized-light">Solarized Light</h3>
+
+      <p>Solarized Light is a syntax highlighting colorscheme, made by <a href="http://ethanschoonover.com/">Ethan Schoonover</a>. It is well balanced, and thoroughly tested, and comes in two varieties: a dark, or a light background. </p>
+
+      <p>For <a href="http://atelierbram.github.io/syntax-highlighting/chrome-devtools/css/Custom.css">this Chrome-DevTools colorscheme</a> the light background-color variety was the starting point. In a few places the dark background give some extra contrast.</p> 
+
+      <figure class="sh-fig sh-screenshot">
+      <img src="../assets/img/screenshot_chrome-devtools_solarized-light_640x480.png" alt="screenshot" class="sh-img" >
+      <figcaption class="fig-cap">
+   <pre>Screenshot of Chome DevTools (undocked), themed with Solarized-Light</pre>
+      </figcaption>
+      </figure>
+      <p><a href="http://atelierbram.github.io/syntax-highlighting/chrome-devtools/css/Custom-solarized-light.css" class="sh-button">download</a></p>
+
+      <h3 id="external-links">External Links</h3>
+      <ul>
+        <li><a href="http://darcyclarke.me/design/skin-your-chrome-inspector/">Skin your Chrome Inspector, by Darcy Clarke</a></li>
+        <li><a href="https://plus.google.com/+AddyOsmani/posts/UZF34wPJXsL">Tips and links by Addy Osmani</a></li>
+        <li><a href="http://devthemez.com/themes/chrome-developer-tools">more Themes for Chrome Developer Tools</a></li>
+        <li><a href="http://ethanschoonover.com/solarized">Solarized project page</a></li>
+        <li><a href="https://github.com/altercation/solarized">Solarized on Github</a></li>
+      </ul>
+
+      </article> 
+
+      <!-- Nav Sidebar -->
+      <!-- This is source ordered to be pulled to the left on larger screens -->
+      <nav class="large-3 pull-9 columns"> 
+      <ul class="side-nav">
+        <li><a href="#solarized-light">Solarized light</a></li>
+        <li><a href="#external-links">External Links</a></li>
+      </ul> 
+      </nav> 
+    </div>
+
+
+    <!-- Footer -->
+
+    <footer class="page-footer row">
+    <div class="large-12 columns">
+      <div class="row">
+        <div class="large-6 columns">
+          <!-- <p>&copy; Copyright no one at all. Go to town.</p> -->
+        </div>
+        <div class="large-6 columns">
+          <ul class="inline-list right">
+            <li><a href="http://atelierbramdehaan.nl/">by Atelier Bram de Haan</a></li>
+            <li><a href="https://github.com/atelierbram/syntax-highlighting">this repo on Github</a></li>
+          </ul>
+        </div>
+      </div>
+    </div> 
+    </footer>
+  </body>
+</html>
+

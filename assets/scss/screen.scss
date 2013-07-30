@@ -1,0 +1,164 @@
+@import "partials/base";
+
+%unit-right {
+  float: right;
+} 
+%mbm {
+  margin-bottom: emCalc(16);
+} 
+%mtl {
+  margin-top: emCalc(32);
+} 
+%mbl {
+  margin-bottom: emCalc(32);
+}
+// buttons
+.sh-button {
+  @include button($padding, $bg, $radius, $full-width, $disabled, $is-input);
+  @extend %unit-right;
+}
+
+html,
+body {
+  background-color: $sh-bg-color;
+}
+.repo-title,
+.project-title {
+  letter-spacing: -1px; 
+  word-spacing: 1px;
+}
+a,
+.side-nav li a {
+  color: $sh-blue-color;
+} 
+.side-nav li a:hover {
+  color: white;
+  text-decoration: underline;
+} 
+article {
+  background-color: #fbfbfb;
+  background-color: rgba(white,.95); 
+  padding-top: emCalc(32);
+  padding-bottom: emCalc(32);
+}
+article p,
+article ul,
+article ol {
+  margin: 0;
+  padding: emCalc(8) 0; 
+  line-height: 1.375;
+}
+
+article ul {
+  list-style: none;
+}
+article h3 + p,
+article h3 + ul {
+  //  padding-top: 0; 
+  margin-top: 1px;
+  border-top: 2px solid darken($sh-bg-color,15%);
+} 
+article h3 {
+  margin: 0;
+  padding: emCalc(8) 0 0; 
+  border-bottom: 1px solid $sh-bg-color;
+} 
+article > pre {
+  @extend %mbm; 
+} 
+article a {
+  color: adjust-hue($sh-blue-color,-20);
+}
+article ul a {
+  display: block;
+  padding: .25em 0;
+} 
+pre,
+code {
+  font-family: $sh-code-font-family; 
+}
+pre > code {
+  font-size: emCalc(14); 
+  line-height: 1.375;
+  font-weight: normal;
+  color: $sh-code-color;
+}
+/* figure */ 
+.sh-screenshot { 
+  padding: emCalc(2); 
+  border: 2px solid darken($sh-bg-color,25%); 
+  background-color: darken($sh-bg-color,15%); 
+  outline: 1px solid darken($sh-bg-color,35%); 
+} 
+.fig-cap {
+  padding: emCalc(16) emCalc(8) emCalc(8); 
+} 
+.sh-screenshot .fig-cap {
+  // background-color: rgba(white,.5); 
+  background-color: $sh-bg-color; 
+}
+.fig-cap pre {
+  font-size: emCalc(13); 
+}
+.page-footer {
+  @extend %mtl; 
+}
+
+@media only screen and (min-width: 550px) {
+
+  article p,
+  article h2, 
+  article h3, 
+  article figure,
+  article > pre,
+  article ul,
+  article ol {
+    margin-left: 10%;
+    margin-right: 10%;
+  } 
+  ul {
+    list-style: circle;
+  } 
+} 
+@media only screen and (min-width: 768px) { 
+  article { 
+    border-radius: emCalc(4);
+    border: 1px solid darken($sh-bg-color,15%);
+    // box-shadow: 0 4px 12px rgba(black,.5);
+  } 
+  article p, 
+  article h2, 
+  article h3, 
+  article figure,
+  article > pre,
+  article ul,
+  article ol {
+    margin-left: 5%;
+    margin-right: 0;
+  }
+  article p {
+    font-size: emCalc(18);
+  } 
+}
+@media only screen and (min-width: 940px) {
+  article p, 
+  article h2, 
+  article h3, 
+  article figure,
+  article > pre,
+  article ul,
+  article ol {
+    margin-right: 7.5%;
+  } 
+} 
+@media only screen and (min-width: 1280px) {
+  article p, 
+  article h2, 
+  article h3, 
+  article figure,
+  article > pre,
+  article ul, 
+  article ol {
+    margin-right: 12.5%;
+  } 
+} 
