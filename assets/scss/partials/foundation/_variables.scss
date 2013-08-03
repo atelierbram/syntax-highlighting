@@ -51,8 +51,8 @@ $em-base: 16 !default;
 
 $default-float: left;
 
-// $body-bg: #fff;
-// $body-font-color: #222;
+$body-bg: #bdbab9;
+$body-font-color: #111;
 $body-font-family: FeuraSans-Regular, Corbel, "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "Trebuchet Ms","DejaVu Sans", "Bitstream Vera Sans", "Liberation Sans", Verdana, "Verdana Ref", sans-serif;
 // $body-font-weight: normal;
 // $body-font-style: normal;
@@ -67,7 +67,8 @@ $body-font-family: FeuraSans-Regular, Corbel, "Lucida Grande", "Lucida Sans Unic
 
 // Colors
 
-// $primary-color: #2ba6cb;
+// $primary-color: #00478f#2ba6cb;
+$primary-color: #00478f;
 // $secondary-color: #e9e9e9;
 // $alert-color: #c60f13;
 // $success-color: #5da423;
@@ -161,7 +162,7 @@ $body-font-family: FeuraSans-Regular, Corbel, "Lucida Grande", "Lucida Sans Unic
 // Control header font styles
 
 $header-font-family: FeuraSans-Bold, Corbel, "Lucida Grande", "Lucida Sans", "Trebuchet Ms", "DejaVu Sans", "Bitstream Vera Sans", "Liberation Sans", "Helvetica Neue", sans-serif;
-// $header-font-weight: bold;
+$header-font-weight: normal;
 // $header-font-style: normal;
 // $header-font-color: #222;
 // $header-line-height: 1.4;

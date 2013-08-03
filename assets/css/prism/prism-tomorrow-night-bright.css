@@ -1,0 +1,102 @@
+/* 
+ * Tomorrow Night Bright Theme 
+ * Original theme - https://github.com/chriskempson/tomorrow-theme 
+ * http://softwaremaniacs.org/media/soft/highlight/styles/tomorrow-night-bright.css 
+*/
+
+code[class*="language-"], pre[class*="language-"] {
+  -moz-tab-size: 4;
+  -o-tab-size: 4;
+  tab-size: 4;
+  -webkit-hyphens: none;
+  -moz-hyphens: none;
+  -ms-hyphens: none;
+  hyphens: none;
+  white-space: pre;
+  white-space: pre-wrap;
+  word-break: break-all;
+  word-wrap: break-word;
+  font-family: Menlo, Monaco, "Courier New", monospace;
+  font-size: 15px;
+  line-height: 1.5;
+  color: #eaeaea;
+  text-shadow: 0;
+}
+
+pre[class*="language-"], :not(pre) > code[class*="language-"] {
+  border-radius: 5px;
+  border: 1px solid #aaa;
+  color: #eaeaea;
+  background: #000 
+}
+
+pre[class*="language-"] {
+  padding: 12px; }
+
+:not(pre) > code[class*="language-"] {
+  padding: 2px 6px; }
+
+code[class*="language-"] .namespace, pre[class*="language-"] .namespace {
+  opacity: .7; }
+code[class*="language-"] .token.comment, code[class*="language-"] .token.prolog, code[class*="language-"] .token.doctype, code[class*="language-"] .token.cdata, pre[class*="language-"] .token.comment, pre[class*="language-"] .token.prolog, pre[class*="language-"] .token.doctype, pre[class*="language-"] .token.cdata {
+  color: #969896;
+}
+code[class*="language-"] .token.null, code[class*="language-"] .token.operator, code[class*="language-"] .token.boolean, pre[class*="language-"] .token.null, pre[class*="language-"] .token.operator, pre[class*="language-"] .token.boolean {
+  color: #fff; }
+code[class*="language-"] .token.number,
+ code[class*="language-"] .token.string, pre[class*="language-"] .token.string, pre[class*="language-"] .token.number  { 
+  color: #70c0b1;
+}
+
+code[class*="language-"] .token.attr-name,
+pre[class*="language-"] .token.attr-name {
+  color: #7aa6da;
+ }
+code[class*="language-"] .token.entity, code[class*="language-"] .token.url, .language-css code[class*="language-"] .token.string, .style code[class*="language-"] .token.string, pre[class*="language-"] .token.entity, pre[class*="language-"] .token.url, .language-css pre[class*="language-"] .token.string, .style pre[class*="language-"] .token.string { 
+  color: #b9ca4a; }
+code[class*="language-"] .token.selector, pre[class*="language-"] .token.selector { 
+  color: #d54e53; }
+code[class*="language-"] .token.atrule, code[class*="language-"] code[class*="language-"] .token.keyword, code[class*="language-"] .token.control, code[class*="language-"] .token.directive, code[class*="language-"] .token.important, code[class*="language-"] .token.unit, pre[class*="language-"] .token.atrule, pre[class*="language-"] .token.keyword, pre[class*="language-"] .token.control, pre[class*="language-"] .token.directive, pre[class*="language-"] .token.important, pre[class*="language-"] .token.unit { 
+  color: #c397d8;
+ }
+
+.token.attr-value, 
+pre[class*="language-"] .token.attr-value { 
+  color: #b9ca4a;
+}
+code[class*="language-"] .token.regex, code[class*="language-"] .token.statement, pre[class*="language-"] .token.regex, pre[class*="language-"] .token.statement {
+   }
+code[class*="language-"] .token.placeholder, code[class*="language-"] .token.variable, pre[class*="language-"] .token.placeholder, pre[class*="language-"] .token.variable {
+  color: #d54e53; }
+
+.token.property, .token.tag, .token.boolean, .token.number, code[class*="language-"] .token.property, pre[class*="language-"] .token.property {
+  color: #e7c547;
+}
+code[class*="language-"] .token.tag, pre[class*="language-"] .token.tag {
+  color: #ffb03b; }  
+code[class*="language-"] .token.important, code[class*="language-"] .token.statement, pre[class*="language-"] .token.important, pre[class*="language-"] .token.statement {
+  /* font-weight: bold; */
+  color: #cb4b16;
+}
+code[class*="language-"] .token.punctuation, pre[class*="language-"] .token.punctuation {
+  color:  #fff; }
+code[class*="language-"] .token.entity, pre[class*="language-"] .token.entity {
+  cursor: help; }
+code[class*="language-"] .token.debug, pre[class*="language-"] .token.debug {
+  color: red; }
+ 
+.tomorrow-night-bright-colors {
+  color: #969896;
+  color: #d54e53; 
+  color: #e78c45;
+  color: #e7c547;
+  color: #b9ca4a;
+  color: #70c0b1;
+  color: #7aa6da;
+  color: #c397d8;
+  color: #cb4b16;
+  color: #eaeaea;
+  color: #fff; 
+  color: #000;
+} 
+

@@ -20,7 +20,7 @@
 /**
  * Correct `block` display not defined in IE 8/9.
  */
-/* line 22, ../scss/partials/normalize.scss */
+/* line 22, ../scss/partials/_normalize.scss */
 article,
 aside,
 details,
@@ -39,7 +39,7 @@ summary {
 /**
  * Correct `inline-block` display not defined in IE 8/9.
  */
-/* line 32, ../scss/partials/normalize.scss */
+/* line 32, ../scss/partials/_normalize.scss */
 audio,
 canvas,
 video {
@@ -50,7 +50,7 @@ video {
  * Prevent modern browsers from displaying `audio` without controls.
  * Remove excess height in iOS 5 devices.
  */
-/* line 41, ../scss/partials/normalize.scss */
+/* line 41, ../scss/partials/_normalize.scss */
 audio:not([controls]) {
   display: none;
   height: 0;
@@ -59,7 +59,7 @@ audio:not([controls]) {
 /**
  * Address styling not present in IE 8/9.
  */
-/* line 50, ../scss/partials/normalize.scss */
+/* line 50, ../scss/partials/_normalize.scss */
 [hidden] {
   display: none;
 }
@@ -76,7 +76,7 @@ audio:not([controls]) {
  * 4. Prevent iOS text size adjust after orientation change, without disabling
  *    user zoom.
  */
-/* line 68, ../scss/partials/normalize.scss */
+/* line 68, ../scss/partials/_normalize.scss */
 html {
   background: #fff;
   /* 1 */
@@ -93,7 +93,7 @@ html {
 /**
  * Remove default margin.
  */
-/* line 80, ../scss/partials/normalize.scss */
+/* line 80, ../scss/partials/_normalize.scss */
 body {
   margin: 0;
 }
@@ -104,7 +104,7 @@ body {
 /**
  * Address `outline` inconsistency between Chrome and other browsers.
  */
-/* line 92, ../scss/partials/normalize.scss */
+/* line 92, ../scss/partials/_normalize.scss */
 a:focus {
   outline: thin dotted;
 }
@@ -112,7 +112,7 @@ a:focus {
 /**
  * Improve readability when focused and also mouse hovered in all browsers.
  */
-/* line 101, ../scss/partials/normalize.scss */
+/* line 101, ../scss/partials/_normalize.scss */
 a:active,
 a:hover {
   outline: 0;
@@ -125,7 +125,7 @@ a:hover {
  * Address variable `h1` font-size and margin within `section` and `article`
  * contexts in Firefox 4+, Safari 5, and Chrome.
  */
-/* line 114, ../scss/partials/normalize.scss */
+/* line 114, ../scss/partials/_normalize.scss */
 h1 {
   font-size: 2em;
   margin: 0.67em 0;
@@ -134,7 +134,7 @@ h1 {
 /**
  * Address styling not present in IE 8/9, Safari 5, and Chrome.
  */
-/* line 123, ../scss/partials/normalize.scss */
+/* line 123, ../scss/partials/_normalize.scss */
 abbr[title] {
   border-bottom: 1px dotted;
 }
@@ -142,7 +142,7 @@ abbr[title] {
 /**
  * Address style set to `bolder` in Firefox 4+, Safari 5, and Chrome.
  */
-/* line 132, ../scss/partials/normalize.scss */
+/* line 132, ../scss/partials/_normalize.scss */
 b,
 strong {
   font-weight: bold;
@@ -151,7 +151,7 @@ strong {
 /**
  * Address styling not present in Safari 5 and Chrome.
  */
-/* line 140, ../scss/partials/normalize.scss */
+/* line 140, ../scss/partials/_normalize.scss */
 dfn {
   font-style: italic;
 }
@@ -159,7 +159,7 @@ dfn {
 /**
  * Address differences between Firefox and other browsers.
  */
-/* line 148, ../scss/partials/normalize.scss */
+/* line 148, ../scss/partials/_normalize.scss */
 hr {
   -moz-box-sizing: content-box;
   box-sizing: content-box;
@@ -169,7 +169,7 @@ hr {
 /**
  * Address styling not present in IE 8/9.
  */
-/* line 158, ../scss/partials/normalize.scss */
+/* line 158, ../scss/partials/_normalize.scss */
 mark {
   background: #ff0;
   color: #000;
@@ -178,7 +178,7 @@ mark {
 /**
  * Correct font family set oddly in Safari 5 and Chrome.
  */
-/* line 170, ../scss/partials/normalize.scss */
+/* line 170, ../scss/partials/_normalize.scss */
 code,
 kbd,
 pre,
@@ -190,7 +190,7 @@ samp {
 /**
  * Improve readability of pre-formatted text in all browsers.
  */
-/* line 179, ../scss/partials/normalize.scss */
+/* line 179, ../scss/partials/_normalize.scss */
 pre {
   white-space: pre-wrap;
 }
@@ -198,7 +198,7 @@ pre {
 /**
  * Set consistent quote types.
  */
-/* line 187, ../scss/partials/normalize.scss */
+/* line 187, ../scss/partials/_normalize.scss */
 q {
   quotes: "\201C" "\201D" "\2018" "\2019";
 }
@@ -206,7 +206,7 @@ q {
 /**
  * Address inconsistent and variable font size in all browsers.
  */
-/* line 195, ../scss/partials/normalize.scss */
+/* line 195, ../scss/partials/_normalize.scss */
 small {
   font-size: 80%;
 }
@@ -214,7 +214,7 @@ small {
 /**
  * Prevent `sub` and `sup` affecting `line-height` in all browsers.
  */
-/* line 204, ../scss/partials/normalize.scss */
+/* line 204, ../scss/partials/_normalize.scss */
 sub,
 sup {
   font-size: 75%;
@@ -223,12 +223,12 @@ sup {
   vertical-align: baseline;
 }
 
-/* line 211, ../scss/partials/normalize.scss */
+/* line 211, ../scss/partials/_normalize.scss */
 sup {
   top: -0.5em;
 }
 
-/* line 215, ../scss/partials/normalize.scss */
+/* line 215, ../scss/partials/_normalize.scss */
 sub {
   bottom: -0.25em;
 }
@@ -239,7 +239,7 @@ sub {
 /**
  * Remove border when inside `a` element in IE 8/9.
  */
-/* line 227, ../scss/partials/normalize.scss */
+/* line 227, ../scss/partials/_normalize.scss */
 img {
   border: 0;
 }
@@ -247,7 +247,7 @@ img {
 /**
  * Correct overflow displayed oddly in IE 9.
  */
-/* line 235, ../scss/partials/normalize.scss */
+/* line 235, ../scss/partials/_normalize.scss */
 svg:not(:root) {
   overflow: hidden;
 }
@@ -258,7 +258,7 @@ svg:not(:root) {
 /**
  * Address margin not present in IE 8/9 and Safari 5.
  */
-/* line 247, ../scss/partials/normalize.scss */
+/* line 247, ../scss/partials/_normalize.scss */
 figure {
   margin: 0;
 }
@@ -269,7 +269,7 @@ figure {
 /**
  * Define consistent border, margin, and padding.
  */
-/* line 259, ../scss/partials/normalize.scss */
+/* line 259, ../scss/partials/_normalize.scss */
 fieldset {
   border: 1px solid #c0c0c0;
   margin: 0 2px;
@@ -280,7 +280,7 @@ fieldset {
  * 1. Correct `color` not being inherited in IE 8/9.
  * 2. Remove padding so people aren't caught out if they zero out fieldsets.
  */
-/* line 270, ../scss/partials/normalize.scss */
+/* line 270, ../scss/partials/_normalize.scss */
 legend {
   border: 0;
   /* 1 */
@@ -293,7 +293,7 @@ legend {
  * 2. Correct font size not being inherited in all browsers.
  * 3. Address margins set differently in Firefox 4+, Safari 5, and Chrome.
  */
-/* line 284, ../scss/partials/normalize.scss */
+/* line 284, ../scss/partials/_normalize.scss */
 button,
 input,
 select,
@@ -310,7 +310,7 @@ textarea {
  * Address Firefox 4+ setting `line-height` on `input` using `!important` in
  * the UA stylesheet.
  */
-/* line 296, ../scss/partials/normalize.scss */
+/* line 296, ../scss/partials/_normalize.scss */
 button,
 input {
   line-height: normal;
@@ -322,7 +322,7 @@ input {
  * Correct `button` style inheritance in Chrome, Safari 5+, and IE 8+.
  * Correct `select` style inheritance in Firefox 4+ and Opera.
  */
-/* line 308, ../scss/partials/normalize.scss */
+/* line 308, ../scss/partials/_normalize.scss */
 button,
 select {
   text-transform: none;
@@ -335,7 +335,7 @@ select {
  * 3. Improve usability and consistency of cursor style between image-type
  *    `input` and others.
  */
-/* line 323, ../scss/partials/normalize.scss */
+/* line 323, ../scss/partials/_normalize.scss */
 button,
 html input[type="button"],
 input[type="reset"],
@@ -349,7 +349,7 @@ input[type="submit"] {
 /**
  * Re-set default cursor for disabled elements.
  */
-/* line 333, ../scss/partials/normalize.scss */
+/* line 333, ../scss/partials/_normalize.scss */
 button[disabled],
 html input[disabled] {
   cursor: default;
@@ -359,7 +359,7 @@ html input[disabled] {
  * 1. Address box sizing set to `content-box` in IE 8/9.
  * 2. Remove excess padding in IE 8/9.
  */
-/* line 343, ../scss/partials/normalize.scss */
+/* line 343, ../scss/partials/_normalize.scss */
 input[type="checkbox"],
 input[type="radio"] {
   box-sizing: border-box;
@@ -373,7 +373,7 @@ input[type="radio"] {
  * 2. Address `box-sizing` set to `border-box` in Safari 5 and Chrome
  *    (include `-moz` to future-proof).
  */
-/* line 354, ../scss/partials/normalize.scss */
+/* line 354, ../scss/partials/_normalize.scss */
 input[type="search"] {
   -webkit-appearance: textfield;
   /* 1 */
@@ -387,7 +387,7 @@ input[type="search"] {
  * Remove inner padding and search cancel button in Safari 5 and Chrome
  * on OS X.
  */
-/* line 367, ../scss/partials/normalize.scss */
+/* line 367, ../scss/partials/_normalize.scss */
 input[type="search"]::-webkit-search-cancel-button,
 input[type="search"]::-webkit-search-decoration {
   -webkit-appearance: none;
@@ -396,7 +396,7 @@ input[type="search"]::-webkit-search-decoration {
 /**
  * Remove inner padding and border in Firefox 4+.
  */
-/* line 376, ../scss/partials/normalize.scss */
+/* line 376, ../scss/partials/_normalize.scss */
 button::-moz-focus-inner,
 input::-moz-focus-inner {
   border: 0;
@@ -407,7 +407,7 @@ input::-moz-focus-inner {
  * 1. Remove default vertical scrollbar in IE 8/9.
  * 2. Improve readability and alignment in all browsers.
  */
-/* line 386, ../scss/partials/normalize.scss */
+/* line 386, ../scss/partials/_normalize.scss */
 textarea {
   overflow: auto;
   /* 1 */
@@ -421,7 +421,7 @@ textarea {
 /**
  * Remove most spacing between table cells.
  */
-/* line 399, ../scss/partials/normalize.scss */
+/* line 399, ../scss/partials/_normalize.scss */
 table {
   border-collapse: collapse;
   border-spacing: 0;
@@ -444,8 +444,8 @@ body {
 
 /* line 272, ../scss/partials/foundation/components/_global.scss */
 body {
-  background: white;
-  color: #222222;
+  background: #bdbab9;
+  color: #111111;
   padding: 0;
   margin: 0;
   font-family: FeuraSans-Regular, Corbel, "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "Trebuchet Ms", "DejaVu Sans", "Bitstream Vera Sans", "Liberation Sans", Verdana, "Verdana Ref", sans-serif;
@@ -1116,440 +1116,6 @@ select {
     float: right !important;
   }
 }
-/* Foundation Visibility HTML Classes */
-/* line 11, ../scss/partials/foundation/components/_visibility.scss */
-.show-for-small,
-.show-for-medium-down,
-.show-for-large-down {
-  display: inherit !important;
-}
-
-/* line 17, ../scss/partials/foundation/components/_visibility.scss */
-.show-for-medium,
-.show-for-medium-up,
-.show-for-large,
-.show-for-large-up,
-.show-for-xlarge {
-  display: none !important;
-}
-
-/* line 23, ../scss/partials/foundation/components/_visibility.scss */
-.hide-for-medium,
-.hide-for-medium-up,
-.hide-for-large,
-.hide-for-large-up,
-.hide-for-xlarge {
-  display: inherit !important;
-}
-
-/* line 27, ../scss/partials/foundation/components/_visibility.scss */
-.hide-for-small,
-.hide-for-medium-down,
-.hide-for-large-down {
-  display: none !important;
-}
-
-/* Specific visilbity for tables */
-/* line 38, ../scss/partials/foundation/components/_visibility.scss */
-table.show-for-small, table.show-for-medium-down, table.show-for-large-down, table.hide-for-medium, table.hide-for-medium-up, table.hide-for-large, table.hide-for-large-up, table.hide-for-xlarge {
-  display: table;
-}
-
-/* line 48, ../scss/partials/foundation/components/_visibility.scss */
-thead.show-for-small, thead.show-for-medium-down, thead.show-for-large-down, thead.hide-for-medium, thead.hide-for-medium-up, thead.hide-for-large, thead.hide-for-large-up, thead.hide-for-xlarge {
-  display: table-header-group !important;
-}
-
-/* line 58, ../scss/partials/foundation/components/_visibility.scss */
-tbody.show-for-small, tbody.show-for-medium-down, tbody.show-for-large-down, tbody.hide-for-medium, tbody.hide-for-medium-up, tbody.hide-for-large, tbody.hide-for-large-up, tbody.hide-for-xlarge {
-  display: table-row-group !important;
-}
-
-/* line 68, ../scss/partials/foundation/components/_visibility.scss */
-tr.show-for-small, tr.show-for-medium-down, tr.show-for-large-down, tr.hide-for-medium, tr.hide-for-medium-up, tr.hide-for-large, tr.hide-for-large-up, tr.hide-for-xlarge {
-  display: table-row !important;
-}
-
-/* line 79, ../scss/partials/foundation/components/_visibility.scss */
-td.show-for-small, td.show-for-medium-down, td.show-for-large-down, td.hide-for-medium, td.hide-for-medium-up, td.hide-for-large, td.hide-for-large-up, td.hide-for-xlarge,
-th.show-for-small,
-th.show-for-medium-down,
-th.show-for-large-down,
-th.hide-for-medium,
-th.hide-for-medium-up,
-th.hide-for-large,
-th.hide-for-large-up,
-th.hide-for-xlarge {
-  display: table-cell !important;
-}
-
-/* Medium Displays: 768px - 1279px */
-@media only screen and (min-width: 768px) {
-  /* line 85, ../scss/partials/foundation/components/_visibility.scss */
-  .show-for-medium,
-  .show-for-medium-up {
-    display: inherit !important;
-  }
-
-  /* line 87, ../scss/partials/foundation/components/_visibility.scss */
-  .show-for-small {
-    display: none !important;
-  }
-
-  /* line 89, ../scss/partials/foundation/components/_visibility.scss */
-  .hide-for-small {
-    display: inherit !important;
-  }
-
-  /* line 92, ../scss/partials/foundation/components/_visibility.scss */
-  .hide-for-medium,
-  .hide-for-medium-up {
-    display: none !important;
-  }
-
-  /* Specific visilbity for tables */
-  /* line 98, ../scss/partials/foundation/components/_visibility.scss */
-  table.show-for-medium, table.show-for-medium-up, table.hide-for-small {
-    display: table;
-  }
-
-  /* line 103, ../scss/partials/foundation/components/_visibility.scss */
-  thead.show-for-medium, thead.show-for-medium-up, thead.hide-for-small {
-    display: table-header-group !important;
-  }
-
-  /* line 108, ../scss/partials/foundation/components/_visibility.scss */
-  tbody.show-for-medium, tbody.show-for-medium-up, tbody.hide-for-small {
-    display: table-row-group !important;
-  }
-
-  /* line 113, ../scss/partials/foundation/components/_visibility.scss */
-  tr.show-for-medium, tr.show-for-medium-up, tr.hide-for-small {
-    display: table-row !important;
-  }
-
-  /* line 119, ../scss/partials/foundation/components/_visibility.scss */
-  td.show-for-medium, td.show-for-medium-up, td.hide-for-small,
-  th.show-for-medium,
-  th.show-for-medium-up,
-  th.hide-for-small {
-    display: table-cell !important;
-  }
-}
-/* Large Displays: 1280px - 1440px */
-@media only screen and (min-width: 1280px) {
-  /* line 126, ../scss/partials/foundation/components/_visibility.scss */
-  .show-for-large,
-  .show-for-large-up {
-    display: inherit !important;
-  }
-
-  /* line 129, ../scss/partials/foundation/components/_visibility.scss */
-  .show-for-medium,
-  .show-for-medium-down {
-    display: none !important;
-  }
-
-  /* line 132, ../scss/partials/foundation/components/_visibility.scss */
-  .hide-for-medium,
-  .hide-for-medium-down {
-    display: inherit !important;
-  }
-
-  /* line 135, ../scss/partials/foundation/components/_visibility.scss */
-  .hide-for-large,
-  .hide-for-large-up {
-    display: none !important;
-  }
-
-  /* Specific visilbity for tables */
-  /* line 142, ../scss/partials/foundation/components/_visibility.scss */
-  table.show-for-large, table.show-for-large-up, table.hide-for-medium, table.hide-for-medium-down {
-    display: table;
-  }
-
-  /* line 148, ../scss/partials/foundation/components/_visibility.scss */
-  thead.show-for-large, thead.show-for-large-up, thead.hide-for-medium, thead.hide-for-medium-down {
-    display: table-header-group !important;
-  }
-
-  /* line 154, ../scss/partials/foundation/components/_visibility.scss */
-  tbody.show-for-large, tbody.show-for-large-up, tbody.hide-for-medium, tbody.hide-for-medium-down {
-    display: table-row-group !important;
-  }
-
-  /* line 160, ../scss/partials/foundation/components/_visibility.scss */
-  tr.show-for-large, tr.show-for-large-up, tr.hide-for-medium, tr.hide-for-medium-down {
-    display: table-row !important;
-  }
-
-  /* line 167, ../scss/partials/foundation/components/_visibility.scss */
-  td.show-for-large, td.show-for-large-up, td.hide-for-medium, td.hide-for-medium-down,
-  th.show-for-large,
-  th.show-for-large-up,
-  th.hide-for-medium,
-  th.hide-for-medium-down {
-    display: table-cell !important;
-  }
-}
-/* X-Large Displays: 1400px and up */
-@media only screen and (min-width: 1440px) {
-  /* line 173, ../scss/partials/foundation/components/_visibility.scss */
-  .show-for-xlarge {
-    display: inherit !important;
-  }
-
-  /* line 176, ../scss/partials/foundation/components/_visibility.scss */
-  .show-for-large,
-  .show-for-large-down {
-    display: none !important;
-  }
-
-  /* line 179, ../scss/partials/foundation/components/_visibility.scss */
-  .hide-for-large,
-  .hide-for-large-down {
-    display: inherit !important;
-  }
-
-  /* line 181, ../scss/partials/foundation/components/_visibility.scss */
-  .hide-for-xlarge {
-    display: none !important;
-  }
-
-  /* Specific visilbity for tables */
-  /* line 187, ../scss/partials/foundation/components/_visibility.scss */
-  table.show-for-xlarge, table.hide-for-large, table.hide-for-large-down {
-    display: table;
-  }
-
-  /* line 192, ../scss/partials/foundation/components/_visibility.scss */
-  thead.show-for-xlarge, thead.hide-for-large, thead.hide-for-large-down {
-    display: table-header-group !important;
-  }
-
-  /* line 197, ../scss/partials/foundation/components/_visibility.scss */
-  tbody.show-for-xlarge, tbody.hide-for-large, tbody.hide-for-large-down {
-    display: table-row-group !important;
-  }
-
-  /* line 202, ../scss/partials/foundation/components/_visibility.scss */
-  tr.show-for-xlarge, tr.hide-for-large, tr.hide-for-large-down {
-    display: table-row !important;
-  }
-
-  /* line 208, ../scss/partials/foundation/components/_visibility.scss */
-  td.show-for-xlarge, td.hide-for-large, td.hide-for-large-down,
-  th.show-for-xlarge,
-  th.hide-for-large,
-  th.hide-for-large-down {
-    display: table-cell !important;
-  }
-}
-/* Orientation targeting */
-/* line 215, ../scss/partials/foundation/components/_visibility.scss */
-.show-for-landscape,
-.hide-for-portrait {
-  display: inherit !important;
-}
-
-/* line 217, ../scss/partials/foundation/components/_visibility.scss */
-.hide-for-landscape,
-.show-for-portrait {
-  display: none !important;
-}
-
-/* Specific visilbity for tables */
-/* line 222, ../scss/partials/foundation/components/_visibility.scss */
-table.hide-for-landscape, table.show-for-portrait {
-  display: table;
-}
-
-/* line 226, ../scss/partials/foundation/components/_visibility.scss */
-thead.hide-for-landscape, thead.show-for-portrait {
-  display: table-header-group !important;
-}
-
-/* line 230, ../scss/partials/foundation/components/_visibility.scss */
-tbody.hide-for-landscape, tbody.show-for-portrait {
-  display: table-row-group !important;
-}
-
-/* line 234, ../scss/partials/foundation/components/_visibility.scss */
-tr.hide-for-landscape, tr.show-for-portrait {
-  display: table-row !important;
-}
-
-/* line 239, ../scss/partials/foundation/components/_visibility.scss */
-td.hide-for-landscape, td.show-for-portrait,
-th.hide-for-landscape,
-th.show-for-portrait {
-  display: table-cell !important;
-}
-
-@media only screen and (orientation: landscape) {
-  /* line 244, ../scss/partials/foundation/components/_visibility.scss */
-  .show-for-landscape,
-  .hide-for-portrait {
-    display: inherit !important;
-  }
-
-  /* line 246, ../scss/partials/foundation/components/_visibility.scss */
-  .hide-for-landscape,
-  .show-for-portrait {
-    display: none !important;
-  }
-
-  /* Specific visilbity for tables */
-  /* line 251, ../scss/partials/foundation/components/_visibility.scss */
-  table.show-for-landscape, table.hide-for-portrait {
-    display: table;
-  }
-
-  /* line 255, ../scss/partials/foundation/components/_visibility.scss */
-  thead.show-for-landscape, thead.hide-for-portrait {
-    display: table-header-group !important;
-  }
-
-  /* line 259, ../scss/partials/foundation/components/_visibility.scss */
-  tbody.show-for-landscape, tbody.hide-for-portrait {
-    display: table-row-group !important;
-  }
-
-  /* line 263, ../scss/partials/foundation/components/_visibility.scss */
-  tr.show-for-landscape, tr.hide-for-portrait {
-    display: table-row !important;
-  }
-
-  /* line 268, ../scss/partials/foundation/components/_visibility.scss */
-  td.show-for-landscape, td.hide-for-portrait,
-  th.show-for-landscape,
-  th.hide-for-portrait {
-    display: table-cell !important;
-  }
-}
-@media only screen and (orientation: portrait) {
-  /* line 274, ../scss/partials/foundation/components/_visibility.scss */
-  .show-for-portrait,
-  .hide-for-landscape {
-    display: inherit !important;
-  }
-
-  /* line 276, ../scss/partials/foundation/components/_visibility.scss */
-  .hide-for-portrait,
-  .show-for-landscape {
-    display: none !important;
-  }
-
-  /* Specific visilbity for tables */
-  /* line 281, ../scss/partials/foundation/components/_visibility.scss */
-  table.show-for-portrait, table.hide-for-landscape {
-    display: table;
-  }
-
-  /* line 285, ../scss/partials/foundation/components/_visibility.scss */
-  thead.show-for-portrait, thead.hide-for-landscape {
-    display: table-header-group !important;
-  }
-
-  /* line 289, ../scss/partials/foundation/components/_visibility.scss */
-  tbody.show-for-portrait, tbody.hide-for-landscape {
-    display: table-row-group !important;
-  }
-
-  /* line 293, ../scss/partials/foundation/components/_visibility.scss */
-  tr.show-for-portrait, tr.hide-for-landscape {
-    display: table-row !important;
-  }
-
-  /* line 298, ../scss/partials/foundation/components/_visibility.scss */
-  td.show-for-portrait, td.hide-for-landscape,
-  th.show-for-portrait,
-  th.hide-for-landscape {
-    display: table-cell !important;
-  }
-}
-/* Touch-enabled device targeting */
-/* line 303, ../scss/partials/foundation/components/_visibility.scss */
-.show-for-touch {
-  display: none !important;
-}
-
-/* line 304, ../scss/partials/foundation/components/_visibility.scss */
-.hide-for-touch {
-  display: inherit !important;
-}
-
-/* line 305, ../scss/partials/foundation/components/_visibility.scss */
-.touch .show-for-touch {
-  display: inherit !important;
-}
-
-/* line 306, ../scss/partials/foundation/components/_visibility.scss */
-.touch .hide-for-touch {
-  display: none !important;
-}
-
-/* Specific visilbity for tables */
-/* line 309, ../scss/partials/foundation/components/_visibility.scss */
-table.hide-for-touch {
-  display: table;
-}
-
-/* line 310, ../scss/partials/foundation/components/_visibility.scss */
-.touch table.show-for-touch {
-  display: table;
-}
-
-/* line 311, ../scss/partials/foundation/components/_visibility.scss */
-thead.hide-for-touch {
-  display: table-header-group !important;
-}
-
-/* line 312, ../scss/partials/foundation/components/_visibility.scss */
-.touch thead.show-for-touch {
-  display: table-header-group !important;
-}
-
-/* line 313, ../scss/partials/foundation/components/_visibility.scss */
-tbody.hide-for-touch {
-  display: table-row-group !important;
-}
-
-/* line 314, ../scss/partials/foundation/components/_visibility.scss */
-.touch tbody.show-for-touch {
-  display: table-row-group !important;
-}
-
-/* line 315, ../scss/partials/foundation/components/_visibility.scss */
-tr.hide-for-touch {
-  display: table-row !important;
-}
-
-/* line 316, ../scss/partials/foundation/components/_visibility.scss */
-.touch tr.show-for-touch {
-  display: table-row !important;
-}
-
-/* line 317, ../scss/partials/foundation/components/_visibility.scss */
-td.hide-for-touch {
-  display: table-cell !important;
-}
-
-/* line 318, ../scss/partials/foundation/components/_visibility.scss */
-.touch td.show-for-touch {
-  display: table-cell !important;
-}
-
-/* line 319, ../scss/partials/foundation/components/_visibility.scss */
-th.hide-for-touch {
-  display: table-cell !important;
-}
-
-/* line 320, ../scss/partials/foundation/components/_visibility.scss */
-.touch th.show-for-touch {
-  display: table-cell !important;
-}
-
 /* Foundation Block Grids for below small breakpoint */
 @media only screen {
   /* line 50, ../scss/partials/foundation/components/_block-grid.scss */
@@ -2019,13 +1585,13 @@ td {
 /* Default Link Styles */
 /* line 151, ../scss/partials/foundation/components/_type.scss */
 a {
-  color: #2ba6cb;
+  color: #00478f;
   text-decoration: none;
   line-height: inherit;
 }
 /* line 157, ../scss/partials/foundation/components/_type.scss */
 a:hover, a:focus {
-  color: #2795b6;
+  color: #003a76;
 }
 /* line 159, ../scss/partials/foundation/components/_type.scss */
 a img {
@@ -2053,7 +1619,7 @@ p aside {
 /* line 181, ../scss/partials/foundation/components/_type.scss */
 h1, h2, h3, h4, h5, h6 {
   font-family: FeuraSans-Bold, Corbel, "Lucida Grande", "Lucida Sans", "Trebuchet Ms", "DejaVu Sans", "Bitstream Vera Sans", "Liberation Sans", "Helvetica Neue", sans-serif;
-  font-weight: bold;
+  font-weight: normal;
   font-style: normal;
   color: #222222;
   text-rendering: optimizeLegibility;
@@ -2207,7 +1773,7 @@ abbr,
 acronym {
   text-transform: uppercase;
   font-size: 90%;
-  color: #222222;
+  color: #111111;
   border-bottom: 1px dotted #dddddd;
   cursor: help;
 }
@@ -2429,13 +1995,13 @@ button, .button {
   padding-bottom: 0.8125em;
   padding-left: 1.5em;
   font-size: 1em;
-  background-color: #2ba6cb;
-  border-color: #2284a1;
+  background-color: #00478f;
+  border-color: #002e5c;
   color: white;
 }
 /* line 122, ../scss/partials/foundation/components/_buttons.scss */
 button:hover, button:focus, .button:hover, .button:focus {
-  background-color: #2284a1;
+  background-color: #002e5c;
 }
 /* line 133, ../scss/partials/foundation/components/_buttons.scss */
 button:hover, button:focus, .button:hover, .button:focus {
@@ -2525,8 +2091,8 @@ button.right-align, .button.right-align {
 }
 /* line 188, ../scss/partials/foundation/components/_buttons.scss */
 button.disabled, button[disabled], .button.disabled, .button[disabled] {
-  background-color: #2ba6cb;
-  border-color: #2284a1;
+  background-color: #00478f;
+  border-color: #002e5c;
   color: white;
   cursor: default;
   opacity: 0.6;
@@ -2535,7 +2101,7 @@ button.disabled, button[disabled], .button.disabled, .button[disabled] {
 }
 /* line 122, ../scss/partials/foundation/components/_buttons.scss */
 button.disabled:hover, button.disabled:focus, button[disabled]:hover, button[disabled]:focus, .button.disabled:hover, .button.disabled:focus, .button[disabled]:hover, .button[disabled]:focus {
-  background-color: #2284a1;
+  background-color: #002e5c;
 }
 /* line 133, ../scss/partials/foundation/components/_buttons.scss */
 button.disabled:hover, button.disabled:focus, button[disabled]:hover, button[disabled]:focus, .button.disabled:hover, .button.disabled:focus, .button[disabled]:hover, .button[disabled]:focus {
@@ -2543,7 +2109,7 @@ button.disabled:hover, button.disabled:focus, button[disabled]:hover, button[dis
 }
 /* line 146, ../scss/partials/foundation/components/_buttons.scss */
 button.disabled:hover, button.disabled:focus, button[disabled]:hover, button[disabled]:focus, .button.disabled:hover, .button.disabled:focus, .button[disabled]:hover, .button[disabled]:focus {
-  background-color: #2ba6cb;
+  background-color: #00478f;
 }
 /* line 189, ../scss/partials/foundation/components/_buttons.scss */
 button.disabled.secondary, button[disabled].secondary, .button.disabled.secondary, .button[disabled].secondary {
@@ -2930,7 +2496,7 @@ button.large, .button.large {
 /* line 43, ../scss/partials/foundation/components/_side-nav.scss */
 .side-nav li a {
   display: block;
-  color: #2ba6cb;
+  color: #00478f;
 }
 /* line 48, ../scss/partials/foundation/components/_side-nav.scss */
 .side-nav li.active > a:first-child {
@@ -2979,7 +2545,7 @@ button.large, .button.large {
   -webkit-border-radius: 1000px;
   border-radius: 1000px;
   font-weight: bold;
-  background: #2ba6cb;
+  background: #00478f;
   padding: 0.1875em 0.5625em;
   cursor: default;
   color: white;
@@ -3006,7 +2572,7 @@ article > pre {
   margin-top: 2em;
 }
 
-/* line 16, ../scss/screen.scss */
+/* line 19, ../scss/screen.scss */
 .sh-button {
   border-style: solid;
   border-width: 1px;
@@ -3039,40 +2605,123 @@ article > pre {
   color: white;
 }
 
-/* line 22, ../scss/screen.scss */
-html,
-body {
+/* line 24, ../scss/screen.scss */
+html {
   background-color: #bdbab9;
 }
 
-/* line 26, ../scss/screen.scss */
-.repo-title,
-.project-title {
+/* line 27, ../scss/screen.scss */
+.repo-title {
   letter-spacing: -1px;
   word-spacing: 1px;
+  text-shadow: -1px -1px 3px rgba(250, 239, 127, 0.85), 1px 1px 1px black, -10px 12px 7px rgba(0, 0, 0, 0.75);
+  line-height: 1.25;
+  color: transparent;
+  margin-top: 2em;
 }
 
-/* line 31, ../scss/screen.scss */
+/* line 36, ../scss/screen.scss */
+h1 a {
+  color: white;
+  -webkit-transition-property: all;
+  -moz-transition-property: all;
+  -o-transition-property: all;
+  transition-property: all;
+  -webkit-transition-duration: 1s;
+  -moz-transition-duration: 1s;
+  -o-transition-duration: 1s;
+  transition-duration: 1s;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: inline-block;
+  padding: .25em .5em;
+  border-style: solid;
+  border-width: 2px 2px 1px 1px;
+  border-color: rgba(0, 0, 0, 0.7) rgba(0, 0, 0, 0.3) rgba(255, 255, 255, 0.8) rgba(255, 255, 255, 0.7);
+  -webkit-border-radius: 7px;
+  -moz-border-radius: 7px;
+  -ms-border-radius: 7px;
+  -o-border-radius: 7px;
+  border-radius: 7px;
+  box-shadow: inset -7px 9px 24px rgba(0, 0, 0, 0.75);
+}
+
+/* line 49, ../scss/screen.scss */
+h1 a:hover {
+  color: #f9ec66;
+  background-color: rgba(0, 0, 0, 0.75);
+  box-shadow: inset -7px 9px 24px black;
+  text-shadow: -10px 12px 7px black;
+}
+
+/* line 55, ../scss/screen.scss */
+.tagline {
+  color: #f9ec66;
+  font-family: FeuraSans-Regular, Corbel, "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "Trebuchet Ms", "DejaVu Sans", "Bitstream Vera Sans", "Liberation Sans", Verdana, "Verdana Ref", sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  word-spacing: 0;
+  text-shadow: 0px 0px 6px rgba(0, 0, 0, 0.85), 1px 1px 1px black, -4px 5px 4px rgba(0, 0, 0, 0.75);
+  display: inline-block;
+  margin-left: 0.3125em;
+}
+
+/* line 65, ../scss/screen.scss */
+.tagline:hover {
+  color: #fff;
+}
+
+/* line 68, ../scss/screen.scss */
+.header .inline-list a {
+  padding: 0.25em 1em;
+  background-color: #f5e000;
+  margin-bottom: .5em;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.35) 0 0 12px;
+  -moz-box-shadow: rgba(0, 0, 0, 0.35) 0 0 12px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0 0 12px;
+  border-bottom-left-radius: 0.25em;
+  border-bottom-right-radius: 0.25em;
+  border: 1px solid #a99a00;
+  border-top: none;
+}
+
+/* line 78, ../scss/screen.scss */
+.header .inline-list a:hover {
+  background-color: #ffef42;
+}
+
+/* line 81, ../scss/screen.scss */
+.header .inline-list > li {
+  margin-left: 1em;
+}
+
+/* line 85, ../scss/screen.scss */
 a,
 .side-nav li a {
-  color: #00478f;
+  font-family: FeuraSans-Bold, Corbel, "Lucida Grande", "Lucida Sans", "Trebuchet Ms", "DejaVu Sans", "Bitstream Vera Sans", "Liberation Sans", "Helvetica Neue", sans-serif;
 }
 
-/* line 34, ../scss/screen.scss */
+/* line 89, ../scss/screen.scss */
 .side-nav li a:hover {
-  color: white;
   text-decoration: underline;
 }
 
-/* line 38, ../scss/screen.scss */
+/* line 93, ../scss/screen.scss */
+.nav-anchor-links {
+  background-color: #f5e000;
+}
+
+/* line 96, ../scss/screen.scss */
 article {
   background-color: #fbfbfb;
-  background-color: rgba(255, 255, 255, 0.95);
+}
+
+/* line 99, ../scss/screen.scss */
+article {
   padding-top: 2em;
   padding-bottom: 2em;
 }
 
-/* line 46, ../scss/screen.scss */
+/* line 105, ../scss/screen.scss */
 article p,
 article ul,
 article ol {
@@ -3081,43 +2730,44 @@ article ol {
   line-height: 1.375;
 }
 
-/* line 52, ../scss/screen.scss */
+/* line 111, ../scss/screen.scss */
+article ol,
 article ul {
   list-style: none;
 }
 
-/* line 56, ../scss/screen.scss */
+/* line 115, ../scss/screen.scss */
 article h3 + p,
 article h3 + ul {
   margin-top: 1px;
   border-top: 2px solid #989392;
 }
 
-/* line 61, ../scss/screen.scss */
+/* line 120, ../scss/screen.scss */
 article h3 {
   margin: 0;
   padding: 0.5em 0 0;
   border-bottom: 1px solid #bdbab9;
 }
 
-/* line 69, ../scss/screen.scss */
+/* line 128, ../scss/screen.scss */
 article a {
   color: #00778f;
 }
 
-/* line 72, ../scss/screen.scss */
+/* line 131, ../scss/screen.scss */
 article ul a {
   display: block;
   padding: .25em 0;
 }
 
-/* line 77, ../scss/screen.scss */
+/* line 136, ../scss/screen.scss */
 pre,
 code {
   font-family: Consolas, Menlo, "DejaVu Sans Mono", "Bitstream Vera Sans Mono", Monaco, "Andale Mono WT", "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", "Liberation Mono", "Nimbus Mono L", "Courier New", monospace;
 }
 
-/* line 80, ../scss/screen.scss */
+/* line 139, ../scss/screen.scss */
 pre > code {
   font-size: 0.875em;
   line-height: 1.375;
@@ -3126,7 +2776,7 @@ pre > code {
 }
 
 /* figure */
-/* line 87, ../scss/screen.scss */
+/* line 146, ../scss/screen.scss */
 .sh-screenshot {
   padding: 0.125em;
   border: 2px solid #7f7978;
@@ -3134,84 +2784,133 @@ pre > code {
   outline: 1px solid #65605f;
 }
 
-/* line 93, ../scss/screen.scss */
+/* line 152, ../scss/screen.scss */
 .fig-cap {
   padding: 1em 0.5em 0.5em;
 }
 
-/* line 96, ../scss/screen.scss */
+/* line 155, ../scss/screen.scss */
 .sh-screenshot .fig-cap {
   background-color: #bdbab9;
 }
 
-/* line 100, ../scss/screen.scss */
+/* line 159, ../scss/screen.scss */
 .fig-cap pre {
   font-size: 0.8125em;
 }
 
+/* line 165, ../scss/screen.scss */
+.sh-small {
+  font-size: 0.5625em;
+}
+
+/* line 168, ../scss/screen.scss */
+.note {
+  color: #000;
+  background-color: #f9ec66;
+  border: 1px solid #f5e000;
+  padding: 1em 1.5em;
+  margin-bottom: 2em;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.35) -4px 6px 8px;
+  -moz-box-shadow: rgba(0, 0, 0, 0.35) -4px 6px 8px;
+  box-shadow: rgba(0, 0, 0, 0.35) -4px 6px 8px;
+  font-size: 1em;
+}
+
+/* line 179, ../scss/screen.scss */
+i {
+  font-style: normal;
+  font-weight: normal !important;
+  font-family: FeuraSans-Regular, Corbel, "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "Trebuchet Ms", "DejaVu Sans", "Bitstream Vera Sans", "Liberation Sans", Verdana, "Verdana Ref", sans-serif !important;
+  color: #444;
+}
+
 @media only screen and (min-width: 550px) {
-  /* line 115, ../scss/screen.scss */
-  article p,
-  article h2,
-  article h3,
-  article figure,
-  article > pre,
-  article ul,
-  article ol {
+  /* line 187, ../scss/screen.scss */
+  .inner-wrap {
     margin-left: 10%;
     margin-right: 10%;
   }
 
-  /* line 119, ../scss/screen.scss */
-  ul {
+  /* line 192, ../scss/screen.scss */
+  article ul {
     list-style: circle;
+  }
+  /* line 195, ../scss/screen.scss */
+  article ol {
+    list-style: decimal;
   }
 }
 @media only screen and (min-width: 768px) {
-  /* line 124, ../scss/screen.scss */
+  /* line 202, ../scss/screen.scss */
+  .repo-title {
+    margin-top: .25em;
+  }
+
+  /* line 205, ../scss/screen.scss */
+  .tagline {
+    display: block;
+  }
+
+  /* line 208, ../scss/screen.scss */
   article {
     border-radius: 0.25em;
     border: 1px solid #989392;
+    -webkit-box-shadow: rgba(0, 0, 0, 0.35) -8px 16px 12px;
+    -moz-box-shadow: rgba(0, 0, 0, 0.35) -8px 16px 12px;
+    box-shadow: rgba(0, 0, 0, 0.35) -8px 16px 12px;
   }
 
-  /* line 135, ../scss/screen.scss */
-  article p,
-  article h2,
-  article h3,
-  article figure,
-  article > pre,
-  article ul,
-  article ol {
+  /* line 214, ../scss/screen.scss */
+  .inner-wrap {
     margin-left: 5%;
     margin-right: 0;
   }
 
-  /* line 139, ../scss/screen.scss */
+  /* line 218, ../scss/screen.scss */
   article p {
     font-size: 1.125em;
   }
+
+  /* line 221, ../scss/screen.scss */
+  .nav-anchor-links {
+    width: 23%;
+    right: 75%;
+    top: 8em;
+    right: calc(75% - 1px);
+    border: 1px solid #989392;
+    border-right-color: #bdbab9;
+    border-top-left-radius: 0.25em;
+    border-bottom-left-radius: 0.25em;
+    -webkit-box-shadow: rgba(0, 0, 0, 0.35) -8px 16px 12px;
+    -moz-box-shadow: rgba(0, 0, 0, 0.35) -8px 16px 12px;
+    box-shadow: rgba(0, 0, 0, 0.35) -8px 16px 12px;
+  }
+
+  /* line 232, ../scss/screen.scss */
+  .note {
+    padding: 2em 4em;
+  }
 }
 @media only screen and (min-width: 940px) {
-  /* line 150, ../scss/screen.scss */
-  article p,
-  article h2,
-  article h3,
-  article figure,
-  article > pre,
-  article ul,
-  article ol {
+  /* line 238, ../scss/screen.scss */
+  .inner-wrap {
     margin-right: 7.5%;
   }
 }
 @media only screen and (min-width: 1280px) {
-  /* line 161, ../scss/screen.scss */
-  article p,
-  article h2,
-  article h3,
-  article figure,
-  article > pre,
-  article ul,
-  article ol {
+  /* line 243, ../scss/screen.scss */
+  .inner-wrap {
     margin-right: 12.5%;
+  }
+}
+@media only screen and (min-width: 1680px) {
+  /* line 248, ../scss/screen.scss */
+  .note {
+    float: right;
+    margin-right: -72%;
+    width: 50%;
+    margin-top: -100%;
+    padding: 1em 2em;
   }
 }

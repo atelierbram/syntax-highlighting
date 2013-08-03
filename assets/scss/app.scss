@@ -1,0 +1,68 @@
+@import "partials/foundation-app";
+
+.styleswitchers {
+  // position: fixed;
+  position: absolute;
+  top: 0; 
+  z-index: 200;
+  width: 100%;
+}
+.styleswitchers .dropdown {
+  box-shadow: 0 0 12px rgba(0,0,0,.5);
+  background-color: $sh-blue-color;
+  text-transform: uppercase;
+  border-color: darken($sh-blue-color,5);
+} 
+.styleswitchers .dropdown:hover { 
+  background-color: adjust-hue($sh-blue-color,-20);
+}
+.styleswitchers .open {
+  box-shadow: 0 .5em 1em rgba(0,0,0,.5); 
+} 
+.styleswitchers a {
+  display: block;
+  padding: .25em .5em;
+  line-height: 1.25;
+}
+
+.f-dropdown .styleswitch { 
+  background: lighten($sh-bg-color,20); 
+  color: #111;
+} 
+// .styleswitchers .f-dropdown li:hover, 
+// .styleswitchers .f-dropdown li:focus, 
+.f-dropdown .styleswitch:hover, 
+.f-dropdown .styleswitch:focus { 
+  background: #fff;
+  // color: #111;
+}
+.f-dropdown:before { 
+  border-bottom-color: lighten($sh-bg-color,20) ; 
+}
+.f-dropdown .is-selected, 
+.f-dropdown .is-selected:hover {
+  background: adjust-hue($sh-blue-color,-20); 
+  color: #fff;
+} 
+
+/* grid helpers */
+.ptl {
+  padding-top: 2em;
+} 
+.pbl {
+  padding-bottom: 2em;
+} 
+.mbl {
+  margin-bottom: 2em;
+}
+.pad-v  {
+  padding: 1em 0;
+} 
+.outer-wrap {
+  position: relative; 
+}
+.language-markup pre[class*="language-"] {
+  margin-bottom: 2em;
+  font-size: emCalc(16);
+} 
+

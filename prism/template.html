@@ -1,0 +1,305 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8"> 
+    <title>Colorschemes Syntax highlighting for Prism</title>
+
+    <link href="../assets/css/screen.css" media="screen, projection" rel="stylesheet" type="text/css" />
+    <link href="../assets/css/print.css" media="print" rel="stylesheet" type="text/css" />
+    <!--[if IE]>
+    <link href="../assets/css/ie.css" media="screen, projection" rel="stylesheet" type="text/css" />
+    <![endif]--> 
+
+    <link rel="stylesheet" href="../assets/css/app.css" /> 
+    <link rel="stylesheet" href="../assets/css/prism/prism.css" id="stylesheet--code" /> 
+
+    <script src="../assets/js/vendor/custom.modernizr.js"></script> 
+    <!-- <script src="../assets/js/vendor/prefixfree.min.js"></script> -->
+
+    <meta name="viewport" content="width=device-width">
+    <meta name="author" content="Bram de Haan">
+    <meta name="robots" content="index, follow">  <meta name="description" content="Colection of colorschemes for Code Syntax highlighting"/> 
+    <link rel="author" href="https://plus.google.com/111567145811003203990/posts"> 
+  </head>
+
+  <body> 
+    <!-- Header and Nav --> 
+    <header class="row">
+    <div class="large-3 columns">
+      <h1 class="repo-title"><a href="http://atelierbram.github.io/syntax-highlighting/">Syntax Highlighting Themes</a></h1>
+    </div>
+    <nav class="large-9 columns">
+    <ul class="inline-list right">
+      <li><a href="http://atelierbram.github.io/syntax-highlighting/">Home</a> 
+      </li>
+    </ul>
+    </nav>
+    </header>
+
+    <!-- End Header and Nav --> 
+    <div class="line styleswitchers"> 
+      <div class="row"> 
+
+        <div class="large-9 push-3 columns">
+          <a href="#" data-dropdown="drop2" class="button dropdown">Syntax Highlighting<span data-dropdown="drop2"></span></a><br>
+
+          <ul id="drop2" class="f-dropdown" data-dropdown-content>
+            <li><a class="styleswitch code-default" href="?prism" title="code-default">light (default)</a></li> 
+            <li><a class="styleswitch code-dark" href="?prism-dark" title="code-dark">dark</a></li>
+            <li><a class="styleswitch code-funky" href="?prism-funky" title="code-funky">funky</a></li> 
+            <li><a class="styleswitch code-okaidia" href="?prism-okaidia" title="code-okaidia">okaidia</a></li> 
+            <li><a class="styleswitch code-twilight" href="?prism-twilight" title="code-twilight">twilight</a></li> 
+            <li><a class="styleswitch code-tomorrow" href="?prism-tomorrow" title="code-tomorrow">tomorrow</a></li> 
+            <li><a class="styleswitch code-tomorrow-night-bright" href="?prism-tomorrow-night-bright" title="code-tomorrow-night-bright">tomorrow-night-bright</a></li> 
+
+            <li><a class="styleswitch code-solarized-light" href="?prism-solarized-light" title="code-solarized-light">solarized-light</a></li> 
+
+            <li><a class="styleswitch code-solarized-dark" href="?prism-solarized-dark" title="code-solarized-dark">solarized-dark</a></li> 
+            <li><a class="styleswitch code-xonokai" href="?prism-xonokai" title="code-xonokai">xonokai</a></li> 
+            <li><a class="styleswitch code-monokai" href="?prism-mooxai" title="code-monokai">monokai</a></li> 
+
+            <li><a class="styleswitch code-cbavota" href="?prism-cbavota" title="code-cbavota">cbavota</a></li> 
+            <li><a class="styleswitch code-pojoaque" href="?prism-pojoaque" title="code-pojoaque">pojoaque</a></li> 
+            <li><a class="styleswitch code-rainbow" href="?prism-rainbow" title="code-rainbow">rainbow</a></li> 
+
+
+          </ul>  
+        </div>
+
+      </div><!-- /.row -->
+    </div><!-- /.line .styleswitchers --> 
+
+     <div class="row">    
+
+      <!-- Main Content Section -->
+      <!-- This has been source ordered to come first in the markup (and on small devices) but to be to the right of the nav on larger screens -->
+      <article class="large-9 push-3 columns">
+
+       <div class="inner-wrap">
+
+        <div class="section-container auto" data-section>
+          <section id="html-highlighting" class="language-markup">
+          <p class="title" data-section-title><a href="#panel1">HTML example</a></p>
+          <div class="content" data-section-content>
+<!-- more about code markup and syntax highlighting on prismjs.com/#basic-usage -->
+<!--http://www.elliotswan.com/postable/-->
+  <pre><code>
+&lt;!-- main grid section --&gt; 
+&lt;div class=&quot;row&quot;&gt; 
+ &lt;div class=&quot;large-3 columns&quot;&gt;
+   &lt;div class=&quot;panel&quot;&gt;
+     &lt;h5&gt;panel title&lt;/h5&gt;
+     &lt;p&gt;this is a three columns grid panel with an arbitrary height.&lt;/p&gt;
+   &lt;/div&gt;
+ &lt;/div&gt;
+ &lt;div class=&quot;large-6 columns&quot;&gt;
+   &lt;div class=&quot;panel&quot;&gt;
+     &lt;h5&gt;panel title&lt;/h5&gt;
+     &lt;p&gt;this is a six columns grid panel with an arbitrary height. bacon ipsum dolor sit amet salami ham hock biltong ball tip drumstick sirloin pancetta meatball short loin.&lt;/p&gt;
+   &lt;/div&gt;
+ &lt;/div&gt;
+ &lt;div class=&quot;large-3  columns&quot;&gt;
+   &lt;div class=&quot;panel&quot;&gt;
+</code></pre> 
+    </div> 
+      </section> 
+
+      <section id="css-highlighting" class="language-markup">
+          <p class="title" data-section-title><a href="#panel2">CSS example</a></p>
+
+          <div class="content" data-section-content>
+  <pre><code class="language-css"> 
+/* comment */ 
+@media only screen { 
+footer { 
+  overflow: hidden;
+  text-align: center;
+  text-transform: uppercase;
+}
+footer ul {
+  list-style: none;
+  padding-left: 0; 
+} 
+.cf:before,
+.cf:after {
+  content: "";
+  display: table;
+} 
+.cf:after { clear: both; }
+</code></pre>
+     </div> 
+      </section> 
+
+      <section id="javascript-highlighting" class="language-markup">
+          <p class="title" data-section-title><a href="#panel3">Javascript example</a></p> 
+
+          <div class="content" data-section-content>
+<pre><code class="language-javascript">
+// comment
+events : function () {
+  var self = this;
+
+  $(this.scope)
+    .on(&#39;click.joyride&#39;, &#39;.joyride-next-tip, .joyride-modal-bg&#39;, function (e) {
+      e.preventDefault();
+
+      if (this.settings.$li.next().length &lt; 1) {
+        this.end();
+      } else if (this.settings.timer &gt; 0) {
+        clearTimeout(this.settings.automate);
+        this.hide();
+        this.show();
+        this.startTimer();
+      } else {
+        this.hide();
+</code></pre>
+
+<!--http://ahrengot.com/web-development/pretty-code/-->
+      </div> 
+      </section> 
+
+      <section id="php-highlighting" class="language-markup">
+          <p class="title" data-section-title><a href="#panel4">PHP example</a></p> 
+
+          <div class="content" data-section-content>
+<pre class="language-php"><code class="language-php">
+/*	human readable time. i.e. '7 hours ago', '2 days ago', etc.  */
+       switch ($period)
+        {
+          case 'y': $name = 'year'; break;
+          case 'm': $name = 'month'; break;
+          case 'd': $name = 'day'; break;
+          case 'h': $name = 'hour'; break;
+          case 'i': $name = 'minute'; break;
+          case 's': $name = 'second'; break;
+        }
+        return $value.' '.$name.($value&gt;1?'s':'').' ago';
+      }
+    }
+    return '0 seconds ago';
+  }
+  catch (exception $e) { die ($e-&gt;getmessage()); }
+}
+</code></pre>
+          </div> 
+          </section> 
+
+        </div><!-- /.selection-container (tabs) -->
+
+
+        <!-- /.row prism syntax highlight examples --> 
+
+
+        <h2 class="project-title">Chrome Devtools <small>colorschemes</small></h2> 
+        <p>One can change the way Chrome Developer Tools looks by having a custom CSS stylesheet, named <code>Custom.css</code>.
+        The path for the directory that contains the file:</p> 
+        <pre><code>
+Mac: "Library/Application Support/Google/Chrome/Default/User StyleSheets/" 
+Linux: "~/.config/chrome/Default/User StyleSheets/" 
+Windows: "C:\Users\**Your username**\AppData\Local\Google\Chrome\User Data\Default\User StyleSheets\"
+</code></pre>
+
+        <p>For tweaking the theme you can use DevTools itself to inspect Devtools:
+        </p>
+        <ol>
+          <li> 
+          undock DevTools 
+          </li>
+          <li> 
+          then hit Ctrl-Alt-i or Cmd+alt+i on Mac 
+          </li> 
+          <li>
+          now you have yet another undocked DevTools window with all the DevTools markup to inspect the DevTools-window you undocked in step 1 &hellip;
+          </li>
+
+        </ol> 
+
+        <h3 id="solarized-light">Solarized Light</h3>
+
+        <p>Solarized Light is a syntax highlighting colorscheme, made by <a href="http://ethanschoonover.com/">Ethan Schoonover</a>. It is well balanced, and thoroughly tested, and comes in two varieties: a dark, or a light background. </p>
+
+        <p>For <a href="http://atelierbram.github.io/syntax-highlighting/chrome-devtools/css/Custom.css">this Chrome-DevTools colorscheme</a> the light background-color variety was the starting point. In a few places the dark background give some extra contrast.</p> 
+
+        <figure class="sh-fig sh-screenshot">
+        <img src="../assets/img/screenshot_chrome-devtools_solarized-light_640x480.png" alt="screenshot Chrome DevTools with solarized-light colorscheme" class="sh-img" >
+        <figcaption class="fig-cap">
+   <pre>Screenshot of Chome DevTools (undocked), themed with Solarized-Light</pre>
+        </figcaption>
+        </figure>
+        <p><a href="http://atelierbram.github.io/syntax-highlighting/chrome-devtools/css/Custom-solarized-light.css" class="sh-button">download</a></p>
+
+        <h3 id="external-links">External Links</h3>
+        <ul>
+          <li><a href="http://darcyclarke.me/design/skin-your-chrome-inspector/">Skin your Chrome Inspector, by Darcy Clarke</a></li>
+          <li><a href="https://plus.google.com/+AddyOsmani/posts/UZF34wPJXsL">Tips and links by Addy Osmani</a></li>
+          <li><a href="http://devthemez.com/themes/chrome-developer-tools">more Themes for Chrome Developer Tools</a></li>
+          <li><a href="http://ethanschoonover.com/solarized">Solarized project page</a></li>
+          <li><a href="https://github.com/altercation/solarized">Solarized on Github</a></li>
+        </ul>
+          
+        </div>
+
+        </article> 
+
+        <!-- Nav Sidebar -->
+        <!-- This is source ordered to be pulled to the left on larger screens -->
+        <nav class="large-3 pull-9 columns"> 
+        <ul class="side-nav">
+          <li><a href="#solarized-light">Solarized light</a></li>
+          <li><a href="#external-links">External Links</a></li>
+        </ul> 
+        </nav> 
+      </div>
+
+
+      <!-- Footer -->
+
+      <footer class="page-footer row">
+      <div class="large-12 columns">
+        <div class="row">
+          <div class="large-6 columns">
+            <!-- <p>&copy; Copyright no one at all. Go to town.</p> -->
+          </div>
+          <div class="large-6 columns">
+            <ul class="inline-list right">
+              <li><a href="http://atelierbramdehaan.nl/">by Atelier Bram de Haan</a></li>
+              <li><a href="https://github.com/atelierbram/syntax-highlighting">this repo on Github</a></li>
+            </ul>
+          </div>
+        </div>
+      </div> 
+      </footer>
+      <script src="../assets/js/vendor/sh.js" data-default-language="markup"></script>
+
+      <script>
+        document.write('<script src=' +
+          ('__proto__' in {} ? '../assets/js/vendor/zepto' : 'js/vendor/jquery') +
+          '.js><\/script>')
+        </script> 
+
+
+        <script src="../assets/js/foundation/foundation.js"></script>
+        <!-- <script src="../assets/js/foundation/foundation.min.js"></script> -->
+        <!-- <script src="../assets/js/foundation/foundation.alerts.js"></script> -->
+        <!-- <script src="../assets/js/foundation/foundation.clearing.js"></script> -->
+        <!-- <script src="../assets/js/foundation/foundation.cookie.js"></script> -->
+        <script src="../assets/js/foundation/foundation.dropdown.js"></script>
+        <!-- <script src="../assets/js/foundation/foundation.forms.js"></script> -->
+        <!-- <script src="../assets/js/foundation/foundation.joyride.js"></script> -->
+        <!-- <script src="../assets/js/foundation/foundation.magellan.js"></script> -->
+        <!-- <script src="../assets/js/foundation/foundation.orbit.js"></script> -->
+        <!-- <script src="../assets/js/foundation/foundation.placeholder.js"></script> -->
+        <!-- <script src="../assets/js/foundation/foundation.reveal.js"></script> -->
+        <script src="../assets/js/foundation/foundation.section.js"></script>
+        <!-- <script src="../assets/js/foundation/foundation.tooltips.js"></script> -->
+        <!-- <script src="../assets/js/foundation/foundation.topbar.js"></script> -->
+        <!-- <script src="../assets/js/foundation/foundation.interchange.js"></script> -->
+        <script>
+          $(document).foundation();
+        </script> 
+        <script src="../assets/js/app/styleswitcher.js"></script>
+
+
+      </body>
+    </html>
+
