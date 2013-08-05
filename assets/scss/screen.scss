@@ -65,9 +65,14 @@ h1 a:hover {
 .tagline:hover { 
   color: #fff;
 } 
+.nav-anchor-links, 
+.side-nav li a, 
+.header .inline-list a {
+  background-color: $sh-yellow-color;  
+  color: #000;
+}
 .header .inline-list a {
   padding: emCalc(4) emCalc(16);
-  background-color: $sh-yellow-color; 
   margin-bottom: .5em;
   @include box-shadow (rgba(black,.35) 0 0 12px); 
   border-bottom-left-radius: emCalc(4);
@@ -79,26 +84,24 @@ h1 a:hover {
   background-color: lighten($sh-yellow-color,15); 
 }
 .header .inline-list > li {
-  margin-left: emCalc(16); 
+  margin-left: emCalc(8); 
 }
 a,
 .side-nav li a {
-  // color: $sh-lila-color;
   font-family: $header-font-family;
 } 
-.side-nav li a:hover { 
-  // color: darken($sh-lila-color,10);
-  text-decoration: underline;
-} 
-.nav-anchor-links { 
-  background-color: $sh-yellow-color;
+footer a {
+  color: $sh-red-color; 
 }
-article {
-  background-color: #fbfbfb;
+footer a:hover, 
+.side-nav li a:hover { 
+  text-decoration: underline;
+  color: darken($sh-red-color, 5); 
 } 
 article { 
   padding-top: emCalc(32);
   padding-bottom: emCalc(32);
+  background-color: #fbfbfb;
 }
 article p,
 article ul,

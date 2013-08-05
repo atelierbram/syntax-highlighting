@@ -1,14 +1,12 @@
 // colours
 $sh-bg-color: #bdbab9;
 $sh-blue-color: #00478f;
-$sh-darkbrown-color: #23231a;
-$sh-yellow-color:
-#f5e000;
-$sh-lila-color: #90f;
+$sh-yellow-color: #f5e000;
+$sh-red-color: #b30;
+$sh-darkbrown-color: #23231a; 
+$sh-success-color: $sh-red-color;
 
 $sh-pad: .25em .5em;
-$sh-success-color: #b30;
-
 $sh-alt-float: float-right;
 $sh-code-color: darken($sh-success-color, 5%);
 $sh-code-font-family: Consolas, Menlo, "DejaVu Sans Mono", "Bitstream Vera Sans Mono", Monaco, "Andale Mono WT", "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", "Liberation Mono", "Nimbus Mono L", "Courier New", monospace; 

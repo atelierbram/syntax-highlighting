@@ -2670,10 +2670,17 @@ h1 a:hover {
   color: #fff;
 }
 
-/* line 68, ../scss/screen.scss */
+/* line 70, ../scss/screen.scss */
+.nav-anchor-links,
+.side-nav li a,
+.header .inline-list a {
+  background-color: #f5e000;
+  color: #000;
+}
+
+/* line 74, ../scss/screen.scss */
 .header .inline-list a {
   padding: 0.25em 1em;
-  background-color: #f5e000;
   margin-bottom: .5em;
   -webkit-box-shadow: rgba(0, 0, 0, 0.35) 0 0 12px;
   -moz-box-shadow: rgba(0, 0, 0, 0.35) 0 0 12px;
@@ -2684,44 +2691,42 @@ h1 a:hover {
   border-top: none;
 }
 
-/* line 78, ../scss/screen.scss */
+/* line 83, ../scss/screen.scss */
 .header .inline-list a:hover {
   background-color: #ffef42;
 }
 
-/* line 81, ../scss/screen.scss */
+/* line 86, ../scss/screen.scss */
 .header .inline-list > li {
-  margin-left: 1em;
+  margin-left: 0.5em;
 }
 
-/* line 85, ../scss/screen.scss */
+/* line 90, ../scss/screen.scss */
 a,
 .side-nav li a {
   font-family: FeuraSans-Bold, Corbel, "Lucida Grande", "Lucida Sans", "Trebuchet Ms", "DejaVu Sans", "Bitstream Vera Sans", "Liberation Sans", "Helvetica Neue", sans-serif;
 }
 
-/* line 89, ../scss/screen.scss */
+/* line 93, ../scss/screen.scss */
+footer a {
+  color: #bb3300;
+}
+
+/* line 97, ../scss/screen.scss */
+footer a:hover,
 .side-nav li a:hover {
   text-decoration: underline;
+  color: #a22c00;
 }
 
-/* line 93, ../scss/screen.scss */
-.nav-anchor-links {
-  background-color: #f5e000;
-}
-
-/* line 96, ../scss/screen.scss */
-article {
-  background-color: #fbfbfb;
-}
-
-/* line 99, ../scss/screen.scss */
+/* line 101, ../scss/screen.scss */
 article {
   padding-top: 2em;
   padding-bottom: 2em;
+  background-color: #fbfbfb;
 }
 
-/* line 105, ../scss/screen.scss */
+/* line 108, ../scss/screen.scss */
 article p,
 article ul,
 article ol {
@@ -2730,44 +2735,44 @@ article ol {
   line-height: 1.375;
 }
 
-/* line 111, ../scss/screen.scss */
+/* line 114, ../scss/screen.scss */
 article ol,
 article ul {
   list-style: none;
 }
 
-/* line 115, ../scss/screen.scss */
+/* line 118, ../scss/screen.scss */
 article h3 + p,
 article h3 + ul {
   margin-top: 1px;
   border-top: 2px solid #989392;
 }
 
-/* line 120, ../scss/screen.scss */
+/* line 123, ../scss/screen.scss */
 article h3 {
   margin: 0;
   padding: 0.5em 0 0;
   border-bottom: 1px solid #bdbab9;
 }
 
-/* line 128, ../scss/screen.scss */
+/* line 131, ../scss/screen.scss */
 article a {
   color: #00778f;
 }
 
-/* line 131, ../scss/screen.scss */
+/* line 134, ../scss/screen.scss */
 article ul a {
   display: block;
   padding: .25em 0;
 }
 
-/* line 136, ../scss/screen.scss */
+/* line 139, ../scss/screen.scss */
 pre,
 code {
   font-family: Consolas, Menlo, "DejaVu Sans Mono", "Bitstream Vera Sans Mono", Monaco, "Andale Mono WT", "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", "Liberation Mono", "Nimbus Mono L", "Courier New", monospace;
 }
 
-/* line 139, ../scss/screen.scss */
+/* line 142, ../scss/screen.scss */
 pre > code {
   font-size: 0.875em;
   line-height: 1.375;
@@ -2776,7 +2781,7 @@ pre > code {
 }
 
 /* figure */
-/* line 146, ../scss/screen.scss */
+/* line 149, ../scss/screen.scss */
 .sh-screenshot {
   padding: 0.125em;
   border: 2px solid #7f7978;
@@ -2784,27 +2789,27 @@ pre > code {
   outline: 1px solid #65605f;
 }
 
-/* line 152, ../scss/screen.scss */
+/* line 155, ../scss/screen.scss */
 .fig-cap {
   padding: 1em 0.5em 0.5em;
 }
 
-/* line 155, ../scss/screen.scss */
+/* line 158, ../scss/screen.scss */
 .sh-screenshot .fig-cap {
   background-color: #bdbab9;
 }
 
-/* line 159, ../scss/screen.scss */
+/* line 162, ../scss/screen.scss */
 .fig-cap pre {
   font-size: 0.8125em;
 }
 
-/* line 165, ../scss/screen.scss */
+/* line 168, ../scss/screen.scss */
 .sh-small {
   font-size: 0.5625em;
 }
 
-/* line 168, ../scss/screen.scss */
+/* line 171, ../scss/screen.scss */
 .note {
   color: #000;
   background-color: #f9ec66;
@@ -2817,7 +2822,7 @@ pre > code {
   font-size: 1em;
 }
 
-/* line 179, ../scss/screen.scss */
+/* line 182, ../scss/screen.scss */
 i {
   font-style: normal;
   font-weight: normal !important;
@@ -2826,33 +2831,33 @@ i {
 }
 
 @media only screen and (min-width: 550px) {
-  /* line 187, ../scss/screen.scss */
+  /* line 190, ../scss/screen.scss */
   .inner-wrap {
     margin-left: 10%;
     margin-right: 10%;
   }
 
-  /* line 192, ../scss/screen.scss */
+  /* line 195, ../scss/screen.scss */
   article ul {
     list-style: circle;
   }
-  /* line 195, ../scss/screen.scss */
+  /* line 198, ../scss/screen.scss */
   article ol {
     list-style: decimal;
   }
 }
 @media only screen and (min-width: 768px) {
-  /* line 202, ../scss/screen.scss */
+  /* line 205, ../scss/screen.scss */
   .repo-title {
     margin-top: .25em;
   }
 
-  /* line 205, ../scss/screen.scss */
+  /* line 208, ../scss/screen.scss */
   .tagline {
     display: block;
   }
 
-  /* line 208, ../scss/screen.scss */
+  /* line 211, ../scss/screen.scss */
   article {
     border-radius: 0.25em;
     border: 1px solid #989392;
@@ -2861,18 +2866,18 @@ i {
     box-shadow: rgba(0, 0, 0, 0.35) -8px 16px 12px;
   }
 
-  /* line 214, ../scss/screen.scss */
+  /* line 217, ../scss/screen.scss */
   .inner-wrap {
     margin-left: 5%;
     margin-right: 0;
   }
 
-  /* line 218, ../scss/screen.scss */
+  /* line 221, ../scss/screen.scss */
   article p {
     font-size: 1.125em;
   }
 
-  /* line 221, ../scss/screen.scss */
+  /* line 224, ../scss/screen.scss */
   .nav-anchor-links {
     width: 23%;
     right: 75%;
@@ -2887,25 +2892,25 @@ i {
     box-shadow: rgba(0, 0, 0, 0.35) -8px 16px 12px;
   }
 
-  /* line 232, ../scss/screen.scss */
+  /* line 235, ../scss/screen.scss */
   .note {
     padding: 2em 4em;
   }
 }
 @media only screen and (min-width: 940px) {
-  /* line 238, ../scss/screen.scss */
+  /* line 241, ../scss/screen.scss */
   .inner-wrap {
     margin-right: 7.5%;
   }
 }
 @media only screen and (min-width: 1280px) {
-  /* line 243, ../scss/screen.scss */
+  /* line 246, ../scss/screen.scss */
   .inner-wrap {
     margin-right: 12.5%;
   }
 }
 @media only screen and (min-width: 1680px) {
-  /* line 248, ../scss/screen.scss */
+  /* line 251, ../scss/screen.scss */
   .note {
     float: right;
     margin-right: -72%;
