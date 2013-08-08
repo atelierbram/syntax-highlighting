@@ -1,0 +1,169 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+
+    <title>Syntax highlighting</title>
+    <link href="../assets/css/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> 
+    <link href="../assets/css/kermis.css" media="screen, projection" rel="stylesheet" type="text/css" />
+    <link href="../assets/css/prism/prism-kermis-dark.css" media="screen, projection" rel="stylesheet" type="text/css" />
+    <link href="../assets/css/print.css" media="print" rel="stylesheet" type="text/css" />
+    <!--[if IE]>
+    <link href="../assets/css/ie.css" media="screen, projection" rel="stylesheet" type="text/css" />
+    <![endif]-->
+    <meta name="viewport" content="width=device-width">
+    <meta name="author" content="Bram de Haan">
+    <meta name="robots" content="index, follow">  <meta name="description" content="Colection of colorschemes for Code Syntax highlighting"/> 
+    <link rel="author" href="https://plus.google.com/111567145811003203990/posts"> 
+  </head>
+  <body>
+
+    <!-- Header and Nav -->
+
+    <header class="row header">
+    <div class="large-3 columns">
+      <h1 class="repo-title"><a href="http://atelierbram.github.io/syntax-highlighting/">Syntax Highlighting <span class="tagline sh-small">colorschemes</span></a></h1>
+
+    </div>
+    <nav class="large-9 columns">
+      <ul class="inline-list right">
+        <li><a href="../chrome-devtools/">Chrome Devtools</a></li>
+        <li><a href="../prism/">Prism</a></li>
+        <!-- <li><a href="vim/">Vim</a></li> -->
+        <!-- <li><a href="#">?</a></li> -->
+      </ul>
+    </nav>
+    </header>
+
+    <!-- End Header and Nav -->
+
+
+    <div class="row outer-wrap">    
+
+      <!-- Main Content Section -->
+      <!-- This has been source ordered to come first in the markup (and on small devices) but to be to the right of the nav on larger screens -->
+      <article class="large-9 push-3 columns">
+
+      <div id="wrap" class="inner-wrap" id="about-kermis">
+        <h2>Kermis <small>colorscheme</small></h2> 
+
+<p>
+Constructing this colorscheme, <a href="http://ethanschoonover.com/solarized">Solarized colorscheme</a> was a model: sixteen colors in aestheticaly logic coherence. Like in <a href="https://github.com/altercation/solarized/">Solarized</a>, the colorscheme comes both in a light &#8211; and in a dark background version, and because the colornames are the same as in Solarized, it&#8217;s quite easy to do a <i>&#8220;search and replace&#8221;</i> in a texteditor, and swap the colors (when converting any copy of a Solarized theme file &hellip;).  
+</p>
+
+          <figure id="screenshot-1" class="sh-fig sh-screenshot mtm mbl">
+         <img src="../assets/img/kermis-dark_sublime_640x480.png" alt="screenshot of Kermis colorscheme - dark version - in Sublime text editor" />
+
+       <figcaption class="fig-cap">
+   <pre>Screenshot &#8211; dark version &#8211; in Sublime text editor</pre>
+        </figcaption>
+        </figure>
+
+
+<p> 
+Starting point was the idea to have brownish colors for the background, not unlike a colorsheme like <a href="http://joebergantine.com/projects/color-schemes/birds-of-paradise/">&#8220;Birds of Paradise&#8221;</a> by <a href="http://joebergantine.com/">Joe Bergantine</a>, but a bit muddier on the browns, less red and more greyed out, like in clay. The name <a href="http://en.wikipedia.org/wiki/Kermesse_(festival)">&#8220;Kermis&#8221;</a> comes from the Dutch word for &#8220;fair&#8221;, or &#8220;funfair&#8221;. <!-- ( <i>bright colors, amusement rides, shooting galleries, candyfloss, clay, and mud</i> ) -->   
+</p>
+
+<h3 id="demo-tiles">Sixteen color values</h3>
+ <div class="sh-c"> 
+        <div class="unit base03 sh-c-light">  base03  </div> 
+        <div class="unit base02 sh-c-light">  base02  </div>
+        <div class="unit base01">  base01  </div>
+        <div class="unit base00">  base00  </div>
+        <div class="unit base0">   base0   </div>
+        <div class="unit base1">   base1   </div>
+        <div class="unit base2">   base2   </div>
+        <div class="unit base3">   base3   </div>
+        <div class="unit yellow">  yellow  </div>
+        <div class="unit orange">  orange  </div>
+        <div class="unit red">     red     </div>
+        <div class="unit magenta"> magenta </div>
+        <div class="unit violet">  violet  </div>
+        <div class="unit blue">    blue    </div>
+        <div class="unit cyan">    cyan    </div>
+        <div class="unit green">   green   </div> 
+ </div>
+
+         <!-- <p><a href="http://atelierbram.github.io/syntax-highlighting/chrome-devtools/css/Custom-solarized-light.css" class="sh-button">toggle outline</a></p> -->
+         <!-- <p><a href="http://atelierbram.github.io/syntax-highlighting/chrome-devtools/css/Custom-solarized-light.css" class="sh-button">toggle background-color</a></p> --> 
+
+        <h3 id="color-code" class="mtm no-border">Colors in code <small>Scss variables</small></h3> 
+        <pre class=" language-scss"><code class=" language-scss">
+<span class="token variable">$base03</span><span class="token punctuation">:</span>  hsl(16, 5%, 10%)<span class="token punctuation">;</span>    <span class="token comment" spellcheck="true">/* #1b1918 */</span>
+<span class="token variable">$base02</span><span class="token punctuation">:</span>  hsl(16, 15%, 15%)<span class="token punctuation">;</span>   <span class="base02 sh-c-comm"><span class="token comment" spellcheck="true">/* #2c2421 */</span></span>
+<span class="token variable">$base01</span><span class="token punctuation">:</span>  hsl(16, 5%, 39%)<span class="token punctuation">;</span>    <span class="base01 sh-c-comm sh-c-dark"><span class="token comment" spellcheck="true">/* #68615e */</span></span>
+<span class="token variable">$base00</span><span class="token punctuation">:</span>  hsl(16, 5%, 44%)<span class="token punctuation">;</span>    <span class="base00 sh-c-comm sh-c-dark"><span class="token comment" spellcheck="true">/* #766e6b */</span></span>
+<span class="token variable">$base0</span><span class="token punctuation">:</span>   hsl(16, 5%, 59%)<span class="token punctuation">;</span>    <span class="base0 sh-c-comm sh-c-dark"><span class="token comment" spellcheck="true">/* #9c9491 */</span></span>
+<span class="token variable">$base1</span><span class="token punctuation">:</span>   hsl(16, 5%, 64%)<span class="token punctuation">;</span>    <span class="base1 sh-c-comm sh-c-dark"><span class="token comment" spellcheck="true">/* #a8a19f */</span></span>
+<span class="token variable">$base2</span><span class="token punctuation">:</span>   hsl(16, 10%, 89%)<span class="token punctuation">;</span>   <span class="base2 sh-c-comm"><span class="token comment" spellcheck="true">/* #e6e2e0 */</span></span>
+<span class="token variable">$base3</span><span class="token punctuation">:</span>   hsl(16, 10%, 94%)<span class="token punctuation">;</span>   <span class="base3 sh-c-comm"><span class="token comment" spellcheck="true">/* #f1efee */</span></span>
+<span class="token variable">$yellow</span><span class="token punctuation">:</span>  hsl(38, 78%, 47%)<span class="token punctuation">;</span>   <span class="yellow sh-c-comm sh-c-dark"><span class="token comment" spellcheck="true">/* #d5911a */</span></span>
+<span class="token variable">$orange</span><span class="token punctuation">:</span>  hsl(16, 75%, 50%)<span class="token punctuation">;</span>   <span class="orange sh-c-comm sh-c-dark"><span class="token comment" spellcheck="true">/* #df5320 */</span></span>
+<span class="token variable">$red</span><span class="token punctuation">:</span>     hsl(354, 88%, 56%)<span class="token punctuation">;</span>  <span class="red sh-c-comm sh-c-dark"><span class="token comment" spellcheck="true">/* #f22c40 */</span></span>
+<span class="token variable">$magenta</span><span class="token punctuation">:</span> hsl(284, 88%, 60%)<span class="token punctuation">;</span>  <span class="magenta sh-c-comm sh-c-dark"><span class="token comment" spellcheck="true">/* #c33ff3 */</span></span>
+<span class="token variable">$violet</span><span class="token punctuation">:</span>  hsl(240, 76%, 66%)<span class="token punctuation">;</span>  <span class="violet sh-c-comm sh-c-dark"><span class="token comment" spellcheck="true">/* #6666ea */</span></span>
+<span class="token variable">$blue</span><span class="token punctuation">:</span>    hsl(218, 78%, 58%)<span class="token punctuation">;</span>  <span class="blue sh-c-comm sh-c-dark"><span class="token comment" spellcheck="true">/* #407ee7 */</span></span>
+<span class="token variable">$cyan</span><span class="token punctuation">:</span>    hsl(174, 100%, 34%)<span class="token punctuation">;</span> <span class="cyan sh-c-comm sh-c-dark"><span class="token comment" spellcheck="true">/* #00ad9c */</span></span>
+<span class="token variable">$green</span><span class="token punctuation">:</span>   hsl(104, 53%, 47%)<span class="token punctuation">;</span>  <span class="green sh-c-comm sh-c-dark"><span class="token comment" spellcheck="true">/* #5ab738 */</span></span> 
+        </code></pre>
+
+           <figure id="screenshot-2" class="sh-fig sh-screenshot mtm mbl">
+         <img src="../assets/img/kermis-light_vim_640x480.png" alt="screenshot of Kermis colorscheme - light version - in Vim text editor, in split window" />
+
+       <figcaption class="fig-cap">
+   <pre>Screenshot &#8211; light version &#8211; in Vim text editor ( split window )</pre>
+        </figcaption>
+        </figure>
+ 
+       <h3 id="implementation" class="mtm">Implementation</h3>
+       <ul class="">
+         <li><a href="../assets/css/prism/prism-kermis-light.css">Prism - light theme</a></li> 
+         <li><a href="../assets/css/prism/prism-kermis-dark.css">Prism - dark theme</a></li> 
+         <li><a href="../vim/colors/kermis.vim">Vim theme</a></li>
+         <li><a href="kermis-light.tmTheme">Sublime2 light theme</a></li>
+         <li><a href="kermis-dark.tmTheme">Sublime2 dark theme</a></li>
+         <!-- <li><a href="../chrome-devtools#kermis/">Chrome Devtools - theme</a></li> -->
+         <!-- <li><a href="#">this demo on CodePen</a></li> -->
+       </ul> 
+
+
+     </div><!-- \.inner-wrap -->
+     </article>
+
+     <!-- Nav Sidebar -->
+     <!-- This is source ordered to be pulled to the left on larger screens -->
+     <nav class="large-3 pull-9 columns nav-anchor-links">
+
+     <ul class="side-nav">
+       <li><a href="#about-kermis">Colorscheme</a></li>
+       <li><a href="#demo-tiles">Sixteen Colors</a></li>
+       <li><a href="#color-code">Colors in Code</a></li>
+       <li><a href="#implementation">Implementation</a></li>
+     </ul>
+
+     </nav>
+
+   </div>
+
+
+   <!-- Footer -->
+
+   <footer class="page-footer row">
+   <div class="large-12 columns">
+     <div class="row">
+       <div class="large-6 columns">
+         <!-- <p>&copy; Copyright no one at all. Go to town.</p> -->
+       </div>
+       <div class="large-6 columns">
+         <ul class="inline-list right">
+           <li><a href="http://atelierbramdehaan.nl/">by Atelier Bram de Haan</a></li>
+           <li><a href="https://github.com/atelierbram/syntax-highlighting">this repo on Github</a></li>
+
+         </ul>
+       </div>
+     </div>
+   </div> 
+   </footer>
+ </body>
+</html>
+

@@ -65,7 +65,16 @@ $(function() {
     $("#stylesheet--code").attr("href", "../assets/css/prism/prism-pojoaque.css");
     return false;
   });
+  $(".code-kermis-light").click(function(){
+    $("#stylesheet--code").attr("href", "../assets/css/prism/prism-kermis-light.css");
+    return false;
+  }); 
 
+  $(".code-kermis-dark").click(function(){
+    $("#stylesheet--code").attr("href", "../assets/css/prism/prism-kermis-dark.css");
+    return false;
+  }); 
+ 
 /* $(".code-rainbow").click(function(){
    $("#stylesheet--code").attr("href", "../assets/css/prism/prism-rainbow.css");
    return false;
