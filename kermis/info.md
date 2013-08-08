@@ -3,7 +3,7 @@ Kermis colorscheme
 
 Constructing this colorscheme, [Solarized colorscheme](http://ethanschoonover.com/solarized) was a model: sixteen colors in aestheticaly logic coherence. Like in [Solarized](https://github.com/altercation/solarized/), the colorscheme comes both in a light &#8211; and in a dark background version, and because the colornames are the same as in Solarized, it&#8217;s quite easy to do a _&#8220;search and replace&#8221;_ in a texteditor, and swap the colors (when converting any copy of a Solarized theme file &hellip;).
 
-         ![screenshot of Kermis colorscheme - dark version - in Sublime text editor](http://atelierbram.github.io/syntax-highlighting/assets/img/kermis-dark_sublime_640x480.png) 
+![screenshot of Kermis colorscheme, dark version, in Sublime text editor](http://atelierbram.github.io/syntax-highlighting/assets/img/kermis-dark_sublime_640x480.png) 
 
 Starting point was the idea to have brownish colors for the background, not unlike a colorsheme like [&#8220;Birds of Paradise&#8221;](http://joebergantine.com/projects/color-schemes/birds-of-paradise/) by [Joe Bergantine](http://joebergantine.com/), but a bit muddier on the browns, less red and more greyed out, like in clay. The name [&#8220;Kermis&#8221;](http://en.wikipedia.org/wiki/Kermesse_(festival)) comes from the Dutch word for &#8220;fair&#8221;, or &#8220;funfair&#8221;.
 
@@ -29,7 +29,7 @@ $green:   hsl(104, 53%, 47%);  /* #5ab738  */
 ```
 
 
-         ![screenshot of Kermis colorscheme - light version - in Vim text editor, in split window](http://atelierbram.github.io/syntax-highlighting/assets/img/kermis-light_vim_640x480.png)
+![screenshot of Kermis colorscheme, light version, in Vim text editor, in split window](http://atelierbram.github.io/syntax-highlighting/assets/img/kermis-light_vim_640x480.png)
 
 
 ### Implementation
