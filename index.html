@@ -5,6 +5,7 @@
 
     <title>Syntax highlighting</title>
     <link href="assets/css/screen.css" media="screen, projection" rel="stylesheet" type="text/css" />
+    <link href="assets/css/app.css" media="screen, projection" rel="stylesheet" type="text/css" /> 
     <link href="assets/css/print.css" media="print" rel="stylesheet" type="text/css" />
     <!--[if IE]>
     <link href="assets/css/ie.css" media="screen, projection" rel="stylesheet" type="text/css" />
@@ -19,17 +20,25 @@
     <!-- Header and Nav -->
 
     <header class="row header">
-    <div class="large-3 columns">
+    <div class="large-4 columns">
       <h1 class="repo-title"><a href="http://atelierbram.github.io/syntax-highlighting/">Syntax Highlighting <span class="tagline sh-small">colorschemes</span></a></h1>
 
     </div>
-    <div class="large-9 columns">
+    <div class="large-8 columns">
       <ul class="inline-list right">
-        <li><a href="chrome-devtools/">Chrome Devtools</a></li>
-        <li><a href="prism/">Prism</a></li>
-        <li><a href="kermis/">Kermis</a></li>
-        <!-- <li><a href="vim/">Vim</a></li> -->
-        <!-- <li><a href="#">?</a></li> -->
+        <li><a href="chrome-devtools">Chrome Devtools</a></li>
+        <li><a href="prism">Prism</a></li>
+        <li><a href="atelier-schemes/" data-dropdown="drop-atelierschemes" class="button dropdown dropdown-atelier">Atelier Schemes<span data-dropdown="drop-atelierschemes"></span></a><br> 
+        <ul id="drop-atelierschemes" class="f-dropdown small" data-dropdown-content>
+          <li><a href="atelier-schemes">index - overview</a></li>
+          <li><a href="atelier-schemes/forest">Forest</a></li>
+          <li><a href="../heath">heath</a></li>
+          <li><a href="atelier-schemes/lakeside">Lakeside</a></li>
+          <li><a href="atelier-schemes/seaside">Seaside</a></li> 
+          <li><a href="atelier-schemes/output">Output</a></li> 
+        </ul> 
+        </li> 
+
       </ul>
     </div>
     </header>
@@ -46,15 +55,13 @@
       <div class="inner-wrap">
         <h3>Colorschemes <small>collection</small></h3> 
         <p> 
-Collection of syntax highlight colorschemes.
+        Collection of syntax highlight colorschemes.
         </p>        
-       <ul class="">
-        <li><a href="chrome-devtools/">Chrome Devtools</a></li>
-        <li><a href="prism/">Prism</a></li>
-        <li><a href="kermis/">Kermis</a></li>
-        <!-- <li><a href="vim/">Vim</a></li> -->
-        <!-- <li><a href="#">?</a></li> -->
-      </ul> 
+        <ul class="">
+          <li><a href="chrome-devtools/">Chrome Devtools</a></li>
+          <li><a href="prism/">Prism</a></li>
+          <li><a href="atelier-schemes">Atelier Schemes</a></li>
+        </ul> 
 
       </div> 
       </article>
@@ -68,6 +75,7 @@ Collection of syntax highlight colorschemes.
         <!--    <li><a href="#">Section 1</a></li> -->
         <!--    <li><a href="#">Section 2</a></li> -->
         <!--    <li><a href="#">Section 3</a></li> -->
+        <li><a href="../output">Output</a></li>
         <!-- </ul> -->
 
       <!-- </nav> -->
@@ -93,6 +101,33 @@ Collection of syntax highlight colorschemes.
       </div>
     </div> 
     </footer>
-  </body>
-</html>
+    <script>
+      document.write('<script src=' +
+        ('__proto__' in {} ? 'assets/js/vendor/zepto' : 'assets/js/vendor/jquery') +
+        '.js><\/script>')
+      </script> 
+
+
+      <script src="assets/js/foundation/foundation.js"></script>
+      <!-- <script src="assets/js/foundation/foundation.min.js"></script> -->
+      <!-- <script src="assets/js/foundation/foundation.alerts.js"></script> -->
+      <!-- <script src="assets/js/foundation/foundation.clearing.js"></script> -->
+      <!-- <script src="assets/js/foundation/foundation.cookie.js"></script> -->
+      <script src="assets/js/foundation/foundation.dropdown.js"></script>
+      <!-- <script src="assets/js/foundation/foundation.forms.js"></script> -->
+      <!-- <script src="assets/js/foundation/foundation.joyride.js"></script> -->
+      <!-- <script src="assets/js/foundation/foundation.magellan.js"></script> -->
+      <!-- <script src="assets/js/foundation/foundation.orbit.js"></script> -->
+      <!-- <script src="assets/js/foundation/foundation.placeholder.js"></script> -->
+      <!-- <script src="assets/js/foundation/foundation.reveal.js"></script> -->
+      <!-- <script src="assets/js/foundation/foundation.section.js"></script> -->
+      <!-- <script src="assets/js/foundation/foundation.tooltips.js"></script> -->
+      <!-- <script src="assets/js/foundation/foundation.topbar.js"></script> -->
+      <!-- <script src="assets/js/foundation/foundation.interchange.js"></script> -->
+      <script>
+        $(document).foundation();
+      </script> 
+
+    </body>
+  </html>
 

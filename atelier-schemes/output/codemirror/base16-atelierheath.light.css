@@ -1,0 +1,33 @@
+/*
+
+    Name:       Base16 Atelier Heath Light
+    Author:     Bram de Haan (http://atelierbram.github.io/syntax-highlighting/atelier-schemes/heath)
+
+    CodeMirror template by Jan T. Sott (https://github.com/idleberg/base16-chrome-devtools)
+    Original Base16 color scheme by Chris Kempson (https://github.com/chriskempson/base16)
+
+*/
+
+.cm-s-base16-atelierheath-light.CodeMirror {background: #f7f3f7; color: #292329;}
+.cm-s-base16-atelierheath-light div.CodeMirror-selected {background: #d8cad8 !important;}
+.cm-s-base16-atelierheath-light .CodeMirror-gutters {background: #f7f3f7; border-right: 0px;}
+.cm-s-base16-atelierheath-light .CodeMirror-linenumber {color: #9e8f9e;}
+.cm-s-base16-atelierheath-light .CodeMirror-cursor {border-left: 1px solid #776977 !important;}
+
+.cm-s-base16-atelierheath-light span.cm-comment {color: #cc33cc;}
+.cm-s-base16-atelierheath-light span.cm-atom {color: #7b59c0;}
+.cm-s-base16-atelierheath-light span.cm-number {color: #7b59c0;}
+
+.cm-s-base16-atelierheath-light span.cm-property, .cm-s-base16-atelierheath-light span.cm-attribute {color: #379a37;}
+.cm-s-base16-atelierheath-light span.cm-keyword {color: #ca402b;}
+.cm-s-base16-atelierheath-light span.cm-string {color: #bb8a35;}
+
+.cm-s-base16-atelierheath-light span.cm-variable {color: #379a37;}
+.cm-s-base16-atelierheath-light span.cm-variable-2 {color: #516aec;}
+.cm-s-base16-atelierheath-light span.cm-def {color: #a65926;}
+.cm-s-base16-atelierheath-light span.cm-error {background: #ca402b; color: #776977;}
+.cm-s-base16-atelierheath-light span.cm-bracket {color: #292329;}
+.cm-s-base16-atelierheath-light span.cm-tag {color: #ca402b;}
+.cm-s-base16-atelierheath-light span.cm-link {color: #7b59c0;}
+
+.cm-s-base16-atelierheath-light .CodeMirror-matchingbracket { text-decoration: underline; color: white !important;}

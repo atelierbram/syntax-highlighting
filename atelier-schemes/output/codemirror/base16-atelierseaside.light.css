@@ -1,0 +1,33 @@
+/*
+
+    Name:       Base16 Atelier Seaside Light
+    Author:     Bram de Haan (http://atelierbram.github.io/syntax-highlighting/atelier-schemes/seaside/)
+
+    CodeMirror template by Jan T. Sott (https://github.com/idleberg/base16-chrome-devtools)
+    Original Base16 color scheme by Chris Kempson (https://github.com/chriskempson/base16)
+
+*/
+
+.cm-s-base16-atelierseaside-light.CodeMirror {background: #f0fff0; color: #242924;}
+.cm-s-base16-atelierseaside-light div.CodeMirror-selected {background: #cfe8cf !important;}
+.cm-s-base16-atelierseaside-light .CodeMirror-gutters {background: #f0fff0; border-right: 0px;}
+.cm-s-base16-atelierseaside-light .CodeMirror-linenumber {color: #809980;}
+.cm-s-base16-atelierseaside-light .CodeMirror-cursor {border-left: 1px solid #687d68 !important;}
+
+.cm-s-base16-atelierseaside-light span.cm-comment {color: #e619c3;}
+.cm-s-base16-atelierseaside-light span.cm-atom {color: #ad2bee;}
+.cm-s-base16-atelierseaside-light span.cm-number {color: #ad2bee;}
+
+.cm-s-base16-atelierseaside-light span.cm-property, .cm-s-base16-atelierseaside-light span.cm-attribute {color: #29a329;}
+.cm-s-base16-atelierseaside-light span.cm-keyword {color: #e6193c;}
+.cm-s-base16-atelierseaside-light span.cm-string {color: #c3c322;}
+
+.cm-s-base16-atelierseaside-light span.cm-variable {color: #29a329;}
+.cm-s-base16-atelierseaside-light span.cm-variable-2 {color: #3d62f5;}
+.cm-s-base16-atelierseaside-light span.cm-def {color: #87711d;}
+.cm-s-base16-atelierseaside-light span.cm-error {background: #e6193c; color: #687d68;}
+.cm-s-base16-atelierseaside-light span.cm-bracket {color: #242924;}
+.cm-s-base16-atelierseaside-light span.cm-tag {color: #e6193c;}
+.cm-s-base16-atelierseaside-light span.cm-link {color: #ad2bee;}
+
+.cm-s-base16-atelierseaside-light .CodeMirror-matchingbracket { text-decoration: underline; color: white !important;}

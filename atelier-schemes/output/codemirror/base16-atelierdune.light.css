@@ -1,0 +1,33 @@
+/*
+
+    Name:       Base16 Atelier Dune Light
+    Author:     Bram de Haan (http://atelierbram.github.io/syntax-highlighting/atelier-schemes/dune)
+
+    CodeMirror template by Jan T. Sott (https://github.com/idleberg/base16-chrome-devtools)
+    Original Base16 color scheme by Chris Kempson (https://github.com/chriskempson/base16)
+
+*/
+
+.cm-s-base16-atelierdune-light.CodeMirror {background: #fefbec; color: #292824;}
+.cm-s-base16-atelierdune-light div.CodeMirror-selected {background: #e8e4cf !important;}
+.cm-s-base16-atelierdune-light .CodeMirror-gutters {background: #fefbec; border-right: 0px;}
+.cm-s-base16-atelierdune-light .CodeMirror-linenumber {color: #999580;}
+.cm-s-base16-atelierdune-light .CodeMirror-cursor {border-left: 1px solid #7d7a68 !important;}
+
+.cm-s-base16-atelierdune-light span.cm-comment {color: #d43552;}
+.cm-s-base16-atelierdune-light span.cm-atom {color: #b854d4;}
+.cm-s-base16-atelierdune-light span.cm-number {color: #b854d4;}
+
+.cm-s-base16-atelierdune-light span.cm-property, .cm-s-base16-atelierdune-light span.cm-attribute {color: #60ac39;}
+.cm-s-base16-atelierdune-light span.cm-keyword {color: #d73737;}
+.cm-s-base16-atelierdune-light span.cm-string {color: #cfb017;}
+
+.cm-s-base16-atelierdune-light span.cm-variable {color: #60ac39;}
+.cm-s-base16-atelierdune-light span.cm-variable-2 {color: #6684e1;}
+.cm-s-base16-atelierdune-light span.cm-def {color: #b65611;}
+.cm-s-base16-atelierdune-light span.cm-error {background: #d73737; color: #7d7a68;}
+.cm-s-base16-atelierdune-light span.cm-bracket {color: #292824;}
+.cm-s-base16-atelierdune-light span.cm-tag {color: #d73737;}
+.cm-s-base16-atelierdune-light span.cm-link {color: #b854d4;}
+
+.cm-s-base16-atelierdune-light .CodeMirror-matchingbracket { text-decoration: underline; color: white !important;}

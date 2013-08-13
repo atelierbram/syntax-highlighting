@@ -1,4 +1,3 @@
-@charset "UTF-8";
 /* line 264, ../scss/partials/foundation/components/_global.scss */
 *,
 *:before,
@@ -1713,7 +1712,12 @@ button.large, .button.large {
 /* This whether button is full-width. Set to true or false */
 /* This controls whether disabled styles are used. Set to true or false */
 /* This controls padding for inputs, they are a little different */
-/* line 3, ../scss/app.scss */
+/* line 4, ../scss/app.scss */
+body {
+  background-image: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI1IiBoZWlnaHQ9IjUiPgo8cmVjdCB3aWR0aD0iNSIgaGVpZ2h0PSI1IiBmaWxsPSIjYmRiYWI5Ij48L3JlY3Q+CjxwYXRoIGQ9Ik0wIDVMNSAwWk02IDRMNCA2Wk0tMSAxTDEgLTFaIiBzdHJva2U9IiM4MzdlN2MiIHN0cm9rZS13aWR0aD0iMSI+PC9wYXRoPgo8L3N2Zz4=");
+}
+
+/* line 7, ../scss/app.scss */
 .styleswitchers {
   position: absolute;
   top: 0;
@@ -1721,7 +1725,7 @@ button.large, .button.large {
   width: 100%;
 }
 
-/* line 10, ../scss/app.scss */
+/* line 14, ../scss/app.scss */
 .styleswitchers .dropdown {
   box-shadow: 0 0 12px rgba(0, 0, 0, 0.5);
   background-color: #00478f;
@@ -1729,74 +1733,109 @@ button.large, .button.large {
   border-color: #003a76;
 }
 
-/* line 16, ../scss/app.scss */
+/* line 20, ../scss/app.scss */
 .styleswitchers .dropdown:hover {
   background-color: #00778f;
 }
 
-/* line 19, ../scss/app.scss */
+/* line 24, ../scss/app.scss */
+.f-dropdown.open,
 .styleswitchers .open {
-  box-shadow: 0 0.5em 1em rgba(0, 0, 0, 0.5);
+  box-shadow: 0 0.5em 1em rgba(0, 0, 0, 0.25);
 }
 
-/* line 22, ../scss/app.scss */
+/* line 27, ../scss/app.scss */
 .styleswitchers a {
   display: block;
   padding: .25em .5em;
   line-height: 1.25;
 }
 
-/* line 28, ../scss/app.scss */
+/* line 33, ../scss/app.scss */
+.f-dropdown li a {
+  border-top: 1px solid #fff;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+/* line 38, ../scss/app.scss */
+.f-dropdown li:first-child a {
+  border-top: none;
+}
+
+/* line 41, ../scss/app.scss */
+.f-dropdown li:last-child a {
+  border-bottom: none;
+}
+
+/* line 45, ../scss/app.scss */
+.f-dropdown a,
 .f-dropdown .styleswitch {
   background: #efeeee;
   color: #111;
 }
 
-/* line 35, ../scss/app.scss */
+/* line 53, ../scss/app.scss */
+.f-dropdown a:hover,
+.f-dropdown a:focus,
 .f-dropdown .styleswitch:hover,
 .f-dropdown .styleswitch:focus {
   background: #fff;
 }
 
-/* line 39, ../scss/app.scss */
+/* line 56, ../scss/app.scss */
 .f-dropdown:before {
   border-bottom-color: #efeeee;
 }
 
-/* line 43, ../scss/app.scss */
+/* line 60, ../scss/app.scss */
 .f-dropdown .is-selected,
 .f-dropdown .is-selected:hover {
   background: #00778f;
   color: #fff;
+  border-top-color: transparent;
+  border-bottom-color: transparent;
+  pointer-events: none;
+  cursor: default;
+}
+
+/* line 68, ../scss/app.scss */
+.header .f-dropdown.small {
+  max-width: 170px;
+}
+
+/* line 71, ../scss/app.scss */
+.dropdown-atelier.button:before {
+  border-color: #000 transparent transparent transparent;
+  right: 0.5em;
 }
 
 /* grid helpers */
-/* line 49, ../scss/app.scss */
+/* line 76, ../scss/app.scss */
 .ptl {
   padding-top: 2em;
 }
 
-/* line 52, ../scss/app.scss */
+/* line 79, ../scss/app.scss */
 .pbl {
   padding-bottom: 2em;
 }
 
-/* line 55, ../scss/app.scss */
+/* line 82, ../scss/app.scss */
 .mbl {
   margin-bottom: 2em;
 }
 
-/* line 58, ../scss/app.scss */
+/* line 85, ../scss/app.scss */
 .pad-v {
   padding: 1em 0;
 }
 
-/* line 61, ../scss/app.scss */
+/* line 88, ../scss/app.scss */
 .outer-wrap {
   position: relative;
 }
 
-/* line 64, ../scss/app.scss */
+/* line 91, ../scss/app.scss */
 .language-markup pre[class*="language-"] {
   margin-bottom: 2em;
   font-size: 1em;

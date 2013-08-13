@@ -1,0 +1,255 @@
+/* #131513; */
+/* #242924; */
+/* #5e6e5e; */
+/* #687d68; */
+/* #809980; */
+/* #8ca68c; */
+/* #cfe8cf; */
+/* #f0fff0; */
+/* #e6193c; */
+/* #87711d; */
+/* #c3c322; */
+/* #29a329; */
+/* #1999b3; */
+/* #3d62f5; */
+/* #ad2bee; */
+/* #e619c3; */
+/* line 1, ../scss/partials/_atelier-schemes.scss */
+.wrap {
+  margin: 0 4em;
+  overflow: auto;
+  padding: .5em 0 4em;
+}
+
+/* line 4, ../scss/partials/_atelier-schemes.scss */
+.btn {
+  padding: .5em 1em;
+  float: right;
+  font-size: 1em;
+  border-radius: .25em;
+}
+
+/* line 11, ../scss/partials/_atelier-schemes.scss */
+.unit {
+  float: left;
+  width: 25%;
+  padding: 4em 0;
+  text-align: center;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+/* line 20, ../scss/partials/_atelier-schemes.scss */
+.outline .unit {
+  outline: 5px solid honeydew;
+}
+
+/* line 23, ../scss/partials/_atelier-schemes.scss */
+.alt .outline .unit {
+  outline: 5px solid #131513;
+}
+
+/* line 26, ../scss/partials/_atelier-schemes.scss */
+.base00-background {
+  background-color: #131513;
+}
+
+/* line 27, ../scss/partials/_atelier-schemes.scss */
+.base01-background {
+  background-color: #242924;
+}
+
+/* line 28, ../scss/partials/_atelier-schemes.scss */
+.base02-background {
+  background-color: #5e6e5e;
+}
+
+/* line 29, ../scss/partials/_atelier-schemes.scss */
+.base03-background {
+  background-color: #687d68;
+}
+
+/* line 30, ../scss/partials/_atelier-schemes.scss */
+.base04-background {
+  background-color: #809980;
+}
+
+/* line 31, ../scss/partials/_atelier-schemes.scss */
+.base05-background {
+  background-color: #8ca68c;
+}
+
+/* line 32, ../scss/partials/_atelier-schemes.scss */
+.base06-background {
+  background-color: #cfe8cf;
+}
+
+/* line 33, ../scss/partials/_atelier-schemes.scss */
+.base07-background {
+  background-color: honeydew;
+}
+
+/* line 35, ../scss/partials/_atelier-schemes.scss */
+.base08-background,
+.red-background {
+  background-color: #e6193c;
+}
+
+/* line 37, ../scss/partials/_atelier-schemes.scss */
+.base09-background,
+.orange-background {
+  background-color: #87711d;
+}
+
+/* line 39, ../scss/partials/_atelier-schemes.scss */
+.base0A-background,
+.yellow-background {
+  background-color: #c3c322;
+}
+
+/* line 41, ../scss/partials/_atelier-schemes.scss */
+.base0B-background,
+.green-background {
+  background-color: #29a329;
+}
+
+/* line 43, ../scss/partials/_atelier-schemes.scss */
+.base0C-background,
+.cyan-background {
+  background-color: #1999b3;
+}
+
+/* line 45, ../scss/partials/_atelier-schemes.scss */
+.base0D-background,
+.blue-background {
+  background-color: #476bfa;
+}
+
+/* line 47, ../scss/partials/_atelier-schemes.scss */
+.base0E-background,
+.violet-background {
+  background-color: #ad2bee;
+}
+
+/* line 49, ../scss/partials/_atelier-schemes.scss */
+.base0F-background,
+.magenta-background {
+  background-color: #e619c3;
+}
+
+/* line 51, ../scss/partials/_atelier-schemes.scss */
+.base00 {
+  color: #131513;
+}
+
+/* line 52, ../scss/partials/_atelier-schemes.scss */
+.base01 {
+  color: #242924;
+}
+
+/* line 53, ../scss/partials/_atelier-schemes.scss */
+.base02 {
+  color: #5e6e5e;
+}
+
+/* line 54, ../scss/partials/_atelier-schemes.scss */
+.base03 {
+  color: #687d68;
+}
+
+/* line 55, ../scss/partials/_atelier-schemes.scss */
+.base04 {
+  color: #809980;
+}
+
+/* line 56, ../scss/partials/_atelier-schemes.scss */
+.base05 {
+  color: #8ca68c;
+}
+
+/* line 57, ../scss/partials/_atelier-schemes.scss */
+.base06 {
+  color: #cfe8cf;
+}
+
+/* line 58, ../scss/partials/_atelier-schemes.scss */
+.base07 {
+  color: honeydew;
+}
+
+/* line 60, ../scss/partials/_atelier-schemes.scss */
+.base08,
+.red {
+  color: #e6193c;
+}
+
+/* line 62, ../scss/partials/_atelier-schemes.scss */
+.base09,
+.orange {
+  color: #87711d;
+}
+
+/* line 64, ../scss/partials/_atelier-schemes.scss */
+.base0A,
+.yellow {
+  color: #c3c322;
+}
+
+/* line 66, ../scss/partials/_atelier-schemes.scss */
+.base0B,
+.green {
+  color: #29a329;
+}
+
+/* line 68, ../scss/partials/_atelier-schemes.scss */
+.base0C,
+.cyan {
+  color: #1999b3;
+}
+
+/* line 70, ../scss/partials/_atelier-schemes.scss */
+.base0D,
+.blue {
+  color: #476bfa;
+}
+
+/* line 72, ../scss/partials/_atelier-schemes.scss */
+.base0E,
+.violet {
+  color: #ad2bee;
+}
+
+/* line 74, ../scss/partials/_atelier-schemes.scss */
+.base0F,
+.magenta {
+  color: #e619c3;
+}
+
+/* line 76, ../scss/partials/_atelier-schemes.scss */
+pre[class*="language"].base00-background {
+  background-color: #131513;
+}
+
+/* line 79, ../scss/partials/_atelier-schemes.scss */
+.sh-c {
+  overflow: auto;
+  color: #1b1918 !important;
+}
+
+/* line 83, ../scss/partials/_atelier-schemes.scss */
+.sh-c-comm {
+  padding: .25em .5em;
+}
+
+/* line 87, ../scss/partials/_atelier-schemes.scss */
+.sh-c-light,
+.sh-c-light .comment {
+  color: #a8a19f !important;
+}
+
+/* line 91, ../scss/partials/_atelier-schemes.scss */
+.sh-c-dark,
+.sh-c-dark .comment {
+  color: #1b1918 !important;
+}

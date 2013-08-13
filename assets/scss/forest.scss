@@ -1,0 +1,28 @@
+$base00: hsl(16, 5%, 10%);    /* #1b1918 */
+$base01: hsl(16, 15%, 15%);   /* #2c2421 */
+$base02: hsl(16, 5%, 39%);    /* #68615e */
+$base03: hsl(16, 5%, 44%);    /* #766e6b */
+$base04: hsl(16, 5%, 59%);    /* #9c9491 */
+$base05: hsl(16, 5%, 64%);    /* #a8a19f */
+$base06: hsl(16, 10%, 89%);   /* #e6e2e0 */
+$base07: hsl(16, 10%, 94%);   /* #f1efee */
+$base08: hsl(354, 88%, 56%);  /* #f22c40 */
+$base09: hsl(16, 75%, 50%);   /* #df5320 */
+$base0a: hsl(38, 78%, 47%);   /* #d5911a */
+$base0b: hsl(104, 53%, 47%);  /* #5ab738 */
+$base0c: hsl(174, 100%, 34%); /* #00ad9c */
+$base0d: hsl(218, 78%, 58%);  /* #407ee7 */
+$base0e: hsl(240, 76%, 66%);  /* #6666ea */
+$base0f: hsl(284, 88%, 60%);  /* #c33ff3 */
+
+$red:     $base08;
+$orange:  $base09;
+$yellow:  $base0a;
+$green:   $base0b;
+$cyan:    $base0c;
+$blue:    $base0d;
+$violet:  $base0e;
+$magenta: $base0f;
+
+@import "partials/atelier-schemes";
+
