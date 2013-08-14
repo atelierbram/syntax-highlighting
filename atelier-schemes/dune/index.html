@@ -7,7 +7,6 @@
     <link href="../../assets/css/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> 
     <link href="../../assets/css/app.css" media="screen, projection" rel="stylesheet" type="text/css" /> 
     <link href="../../assets/css/dune.css" media="screen, projection" rel="stylesheet" type="text/css" />
-    <link href="../../assets/css/prism/prism-kermis-dark.css" media="screen, projection" rel="stylesheet" type="text/css" />
     <link href="../../assets/css/print.css" media="print" rel="stylesheet" type="text/css" />
     <!--[if IE]>../
     <link href="../../assets/css/ie.css" media="screen, projection" rel="stylesheet" type="text/css" />
@@ -37,6 +36,7 @@
           <li><a href="../heath">Heath</a></li>
           <li><a href="../lakeside">Lakeside</a></li> 
           <li><a href="../seaside">Seaside</a></li>
+          <li class="is-selected"><a href="#" class="is-selected">Dune</a></li> 
           <li><a href="../output">Output</a></li>
           </ul> 
           </li> 
@@ -85,8 +85,8 @@ Base color for Dune is yellow, and then yellowish brown greyed colors for the ba
  </div>
  
         <h3 id="color-code" class="mtm no-border">Colors in code <small>Scss variables</small></h3> 
-         <pre class="base00-background language-scss"><code class=" language-scss">
-$base00: hsl(50, 5%, 12%);   /* #20201d */
+         <pre class="base00-background language-scss"><code class="language-scss sh-c-light">
+$base00: <span class="sh-c-comm">hsl(50, 5%, 12%);   /* #20201d */</span>
 $base01: <span class="base01-background sh-c-comm">hsl(50, 6%, 15%);   /* #292824 */</span>
 $base02: <span class="base02-background sh-c-comm sh-c-dark">hsl(50, 8%, 40%);   /* #6e6b5e */</span>
 $base03: <span class="base03-background sh-c-comm sh-c-dark">hsl(50, 9%, 45%);   /* #7d7a68 */</span>
@@ -179,18 +179,18 @@ $base0f: <span class="base0F-background sh-c-comm sh-c-dark">hsl(349, 65%, 52%);
        <h3 id="screenshots" class="mtm no-border">Screenshots</h3>
 
       <figure id="screenshot-1" class="sh-fig sh-screenshot mtm mbl">
-      <img src="../../assets/img/kermis-dark_sublime_640x480.png" alt="screenshot of forest colorscheme - dark version - in Sublime text editor" />
+      <img src="../../assets/img/dune-dark_vim_640x480.png" alt="screenshot of Dune colorscheme - dark version - in Vim" />
 
       <figcaption class="fig-cap">
-   <pre>Screenshot &#8211; dark version &#8211; in Sublime text editor</pre>
+   <pre>Screenshot &#8211; dark version &#8211; in Vim</pre>
       </figcaption>
       </figure> 
 
       <figure id="screenshot-2" class="sh-fig sh-screenshot mtm mbl">
-      <img src="../../assets/img/kermis-light_vim_640x480.png" alt="screenshot of forest colorscheme - light version - in Vim text editor, in split window" />
+      <img src="../../assets/img/dune-light_sublime_640x480.png" alt="screenshot of Dune colorscheme - light version - in Sublime" />
 
       <figcaption class="fig-cap">
-   <pre>Screenshot &#8211; light version &#8211; in Vim text editor ( split window )</pre>
+   <pre>Screenshot &#8211; light version &#8211; in Sublime Text</pre>
       </figcaption>
       </figure>
 
@@ -205,10 +205,6 @@ $base0f: <span class="base0F-background sh-c-comm sh-c-dark">hsl(349, 65%, 52%);
         <li>And credits to <a href="http://chriskempson.com/">Chris Kempson</a>, whose <a href="https://github.com/chriskempson/base16-builder">Base16 Builder</a>  was used for conversion to the different output formats.</li> 
       </ul>
 
-      <h3 id="license" class="mtm">License</h3>
-      <p>&copy; 2013 Bram de Haan</p>
-      <p>Released under <a href="http://atelierbram.mit-license.org">MIT License</a></p> 
-
       <p><a href="#wrap" class="go-to-top sh-button">&#11014;<span class="visuallyhidden">Go to top</span></a></p> 
  
      </div><!-- \.inner-wrap -->
@@ -219,10 +215,10 @@ $base0f: <span class="base0F-background sh-c-comm sh-c-dark">hsl(349, 65%, 52%);
      <nav class="large-3 pull-9 columns nav-anchor-links">
 
      <ul class="side-nav">
-       <li><a href="#demo-tiles">Colorscheme</a></li>
-       <li><a href="#color-code">Colors in Code</a></li>
-       <li><a href="#downloads">Downloads</a></li>
-       <li><a href="#credits">Credits</a></li>
+       <li><a href="#demo-tiles"><span>Colorscheme</span></a></li>
+       <li><a href="#color-code"><span>Colors in Code</span></a></li>
+       <li><a href="#downloads"><span>Downloads</span></a></li>
+       <li><a href="#credits"><span>Credits</span></a></li>
      </ul>
 
      </nav>
@@ -235,15 +231,13 @@ $base0f: <span class="base0F-background sh-c-comm sh-c-dark">hsl(349, 65%, 52%);
    <footer class="page-footer row">
    <div class="large-12 columns">
      <div class="row">
-       <div class="large-6 columns">
-         <!-- <p>&copy; Copyright no one at all. Go to town.</p> -->
+       <div class="large-8 columns">
+         <p id="license" class="copyright">&copy; 2013 <a href="http://atelierbramdehaan.nl" class="underline">Atelier Bram de Haan</a>, Releases under <a href="http://atelierbram.mit-license.org" class="underline">MIT License</a></p>
        </div>
-       <div class="large-6 columns">
-         <ul class="inline-list right">
-           <li><a href="http://atelierbramdehaan.nl/">by Atelier Bram de Haan</a></li>
-           <li><a href="https://github.com/atelierbram/syntax-highlighting">this repo on Github</a></li>
+       <div class="large-4 columns">
+<a href="https://github.com/atelierbram/syntax-highlighting" class="sh-button">This repo on Github</a>
 
-         </ul>
+         
        </div>
      </div>
    </div> 

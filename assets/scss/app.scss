@@ -92,4 +92,9 @@ body {
   margin-bottom: 2em;
   font-size: emCalc(16);
 } 
+@media only screen and (min-width: 768px) {
+  .section-container.auto {
+    overflow-x: hidden;
+  }
+}
 

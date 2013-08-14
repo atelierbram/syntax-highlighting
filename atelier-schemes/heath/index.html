@@ -7,7 +7,6 @@
     <link href="../../assets/css/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> 
     <link href="../../assets/css/app.css" media="screen, projection" rel="stylesheet" type="text/css" /> 
     <link href="../../assets/css/heath.css" media="screen, projection" rel="stylesheet" type="text/css" />
-    <link href="../../assets/css/prism/prism-kermis-dark.css" media="screen, projection" rel="stylesheet" type="text/css" />
     <link href="../../assets/css/print.css" media="print" rel="stylesheet" type="text/css" />
     <!--[if IE]>../
     <link href="../../assets/css/ie.css" media="screen, projection" rel="stylesheet" type="text/css" />
@@ -87,8 +86,8 @@ Base color for Heath is magenta, and here the background-colors have these cool-
  
 
         <h3 id="color-code" class="mtm no-border">Colors in code <small>Scss variables</small></h3> 
-<pre class="base00-background language-scss"><code class="language-scss"> 
-$base00: hsl(300, 5%, 10%);  /* #1b181b */
+<pre class="base00-background language-scss"><code class="language-scss sh-c-light"> 
+$base00: <span class="sh-c-comm">hsl(300, 5%, 10%);  /* #1b181b */</span>
 $base01: <span class="base01-background sh-c-comm">hsl(300, 8%, 15%);  /* #292329 */</span>
 $base02: <span class="base02-background sh-c-comm sh-c-dark">hsl(300, 6%, 39%);  /* #695d69 */</span>
 $base03: <span class="base03-background sh-c-comm sh-c-dark">hsl(300, 6%, 44%);  /* #776977 */</span>
@@ -188,7 +187,7 @@ $base0f: <span class="base0F-background sh-c-comm sh-c-dark">hsl(300, 60%, 50%);
         </figure> 
 
        <figure id="screenshot-2" class="sh-fig sh-screenshot mtm mbl">
-       <img src="../../assets/img/heath-light_vim_640x480.png" alt="screenshot of heath colorscheme - light version - in Vim text editor, in split window" />
+       <img src="../../assets/img/heath-light_vim_640x480.png" alt="screenshot of heath colorscheme - light version - in Vim" />
 
        <figcaption class="fig-cap">
    <pre>Screenshot &#8211; light version &#8211; in Vim</pre>
@@ -208,10 +207,6 @@ $base0f: <span class="base0F-background sh-c-comm sh-c-dark">hsl(300, 60%, 50%);
           <li>And credits to <a href="http://chriskempson.com/">Chris Kempson</a>, whose <a href="https://github.com/chriskempson/base16-builder">Base16 Builder</a>  was used for conversion to the different output formats.</li> 
         </ul>
 
-        <h3 id="license" class="mtm">License</h3>
-        <p>&copy; 2013 Bram de Haan</p>
-        <p>Released under <a href="http://atelierbram.mit-license.org">MIT License</a></p>
- 
         <p><a href="#wrap" class="go-to-top sh-button">&#11014;<span class="visuallyhidden">Go to top</span></a></p> 
 
      </div><!-- \.inner-wrap -->
@@ -222,11 +217,11 @@ $base0f: <span class="base0F-background sh-c-comm sh-c-dark">hsl(300, 60%, 50%);
      <nav class="large-3 pull-9 columns nav-anchor-links">
 
      <ul class="side-nav">
-       <li><a href="#demo-tiles">Colorscheme</a></li>
-       <li><a href="#color-code">Colors in Code</a></li>
-       <li><a href="#screenshots">Screenshots</a></li>
-       <li><a href="#downloads">Downloads</a></li>
-       <li><a href="#credits">Credits</a></li>
+       <li><a href="#demo-tiles"><span>Colorscheme</span></a></li>
+       <li><a href="#color-code"><span>Colors in Code</span></a></li>
+       <li><a href="#screenshots"><span>Screenshots</span></a></li>
+       <li><a href="#downloads"><span>Downloads</span></a></li>
+       <li><a href="#credits"><span>Credits</span></a></li>
      </ul>
 
      </nav>
@@ -239,15 +234,13 @@ $base0f: <span class="base0F-background sh-c-comm sh-c-dark">hsl(300, 60%, 50%);
    <footer class="page-footer row">
    <div class="large-12 columns">
      <div class="row">
-       <div class="large-6 columns">
-         <!-- <p>&copy; Copyright no one at all. Go to town.</p> -->
+       <div class="large-8 columns">
+         <p id="license" class="copyright">&copy; 2013 <a href="http://atelierbramdehaan.nl" class="underline">Atelier Bram de Haan</a>, Releases under <a href="http://atelierbram.mit-license.org" class="underline">MIT License</a></p>
        </div>
-       <div class="large-6 columns">
-         <ul class="inline-list right">
-           <li><a href="http://atelierbramdehaan.nl/">by Atelier Bram de Haan</a></li>
-           <li><a href="https://github.com/atelierbram/syntax-highlighting">this repo on Github</a></li>
+       <div class="large-4 columns">
+<a href="https://github.com/atelierbram/syntax-highlighting" class="sh-button">This repo on Github</a>
 
-         </ul>
+         
        </div>
      </div>
    </div> 

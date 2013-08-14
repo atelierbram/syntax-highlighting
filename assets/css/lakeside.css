@@ -239,16 +239,17 @@ pre[class*="language"].base00-background {
 
 /* line 83, ../scss/partials/_atelier-schemes.scss */
 .sh-c-comm {
-  padding: .25em .5em;
+  padding: .2em .5em;
+  display: inline-block;
 }
 
-/* line 87, ../scss/partials/_atelier-schemes.scss */
+/* line 88, ../scss/partials/_atelier-schemes.scss */
 .sh-c-light,
 .sh-c-light .comment {
   color: #a8a19f !important;
 }
 
-/* line 91, ../scss/partials/_atelier-schemes.scss */
+/* line 92, ../scss/partials/_atelier-schemes.scss */
 .sh-c-dark,
 .sh-c-dark .comment {
   color: #1b1918 !important;

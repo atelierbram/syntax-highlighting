@@ -122,8 +122,32 @@ h1 a:hover {
   @include border-radius(3px);
 } 
 .side-nav span {
+ position: relative;
  padding: .25em .5em;
+ @include transition-property(background-color);
+ @include transition-duration(.7s); 
+} 
+.side-nav a span[style] {
+  color: #111;
 }
+.side-nav a:hover span[style] {
+  background-color: transparent !important; 
+} 
+.side-nav a span:after {
+  position: absolute;
+  content: "";
+  top: 0;
+  left: 0;
+  margin-left: 100%;
+	width: 0;
+	height: 0;
+	border-top: 12px solid transparent;
+	border-left: 20px solid transparent;
+	border-bottom: 12px solid transparent;
+}
+.side-nav a:hover span:after { 
+	border-left-color: #b30;
+} 
 a, 
 .header .inline-list > li > a,
 .side-nav li a {
@@ -132,12 +156,26 @@ a,
 } 
 footer a {
   color: $sh-red-color; 
-}
+} 
+.side-nav a:hover span[style],
 footer a:hover, 
 .side-nav li a:hover { 
-  text-decoration: underline;
   color: darken($sh-red-color, 5); 
+}
+.underline:hover, 
+.side-nav li a:hover { 
+  text-decoration: underline;
 } 
+.copyright {
+  background-color: #ffd5c7;
+  padding: .25em .25em .25em 1.25em;
+  border: 1px solid rgb(131, 126, 124);
+  border-bottom-color: rgba(255, 247, 244,.75);
+  border-left-color: rgba(131, 126, 124,.8);
+  border-right-color: rgba(255, 247, 244,.5); 
+  @include box-shadow (rgb(131, 126, 124) 1px 2px 12px inset);
+  @include border-radius(3px);
+}
 article { 
   padding-top: emCalc(32);
   padding-bottom: emCalc(32);

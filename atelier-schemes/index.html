@@ -66,7 +66,7 @@
 
         <h3 id="forest"><a href="forest">Forest</a></h3> 
         <p> 
-        Base color for Forest is orange, and the idea is to have brownish colors for the background, not unlike a colorsheme like <a href="http://joebergantine.com/projects/color-schemes/birds-of-paradise/">&#8220;Birds of Paradise&#8221;</a>, but a bit muddier on the browns, less red and more greyed out, like clay. 
+        Base color for Forest is orange, and the idea is to have brownish colors for the background, not unlike a colorscheme like <a href="http://joebergantine.com/projects/color-schemes/birds-of-paradise/">&#8220;Birds of Paradise&#8221;</a>, but a bit muddier on the browns, less red and more greyed out, like clay. 
         </p> 
 
         <div id="forest-color-values" class="demo-tiles sh-c"> 
@@ -219,10 +219,6 @@
           <li>And credits to <a href="http://chriskempson.com/">Chris Kempson</a>, whose <a href="https://github.com/chriskempson/base16-builder">Base16 Builder</a>  was used for conversion to the different output formats. It&#8217;s a remarkable building tool, and I would also recommend trying out <a href="https://github.com/chriskempson/base16">the colorschemes</a> he made with them.</li> 
         </ul>
 
-        <h3 id="license" class="mtm">License</h3>
-        <p>&copy; 2013 Bram de Haan</p>
-        <p>Released under <a href="http://atelierbram.mit-license.org">MIT License</a></p>
-
         <p><a href="#wrap" class="go-to-top sh-button">&#11014;<span class="visuallyhidden">Go to top</span></a></p> 
 
       </div><!-- \.inner-wrap -->
@@ -232,14 +228,14 @@
       <!-- This is source ordered to be pulled to the left on larger screens -->
       <nav class="large-3 pull-9 columns nav-anchor-links"> 
       <ul class="side-nav">
-        <li><a href="#forest"><span style="background-color:#a8a19f;">Forest</span></a> 
-        <li><a href="#heath"><span style="background-color:#ab9bab;">Heath</a>
-        <li><a href="#lakeside"><span style="background-color:#7ea2b4;">Lakeside</a> 
-        <li><a href="#seaside"><span style="background-color:#8ca68c;">Seaside</a> 
-        <li><a href="#dune"><span style="background-color:#a6a28c;">Dune</a>
-        <li><a href="#downloads">Downloads</a>
-        <li><a href="#credits">Credits</a> 
-        <li><a href="#license">License</a> 
+        <li><a href="#forest"><span style="background-color:#a8a19f;">Forest</span></a>    </li>
+        <li><a href="#heath"><span style="background-color:#ab9bab;">Heath</span></a>      </li>
+        <li><a href="#lakeside"><span style="background-color:#7ea2b4;">Lakeside</span></a></li>
+        <li><a href="#seaside"><span style="background-color:#8ca68c;">Seaside</span></a>  </li>
+        <li><a href="#dune"><span style="background-color:#a6a28c;">Dune</span></a>        </li>
+        <li><a href="#downloads"><span>Downloads</span></a>                                </li>
+        <li><a href="#credits">  <span>Credits  </span></a>                                </li>
+        <li><a href="#license">  <span>License  </span></a>                                </li>
       </ul> 
       </nav>
 
@@ -250,22 +246,25 @@
     <footer class="page-footer row">
     <div class="large-12 columns">
       <div class="row">
-        <div class="large-6 columns">
-          <!-- <p>&copy; Copyright no one at all. Go to town.</p> -->
+        <div class="large-8 columns">
+          <p id="license" class="copyright">&copy; 2013 <a href="http://atelierbramdehaan.nl/" class="underline">Atelier Bram de Haan</a>, Released under <a href="http://atelierbram.mit-license.org" class="underline">MIT License</a></p> 
         </div>
-        <div class="large-6 columns">
-          <ul class="inline-list right">
-            <li><a href="http://atelierbramdehaan.nl/">by Atelier Bram de Haan</a></li>
-            <li><a href="https://github.com/atelierbram/syntax-highlighting">this repo on Github</a></li>
+        <div class="large-4 columns">
+          <!-- <ul class="inline-list right"> -->
+            <!-- <li><a href="http://atelierbramdehaan.nl/">by Atelier Bram de Haan</a></li> -->
+            <!-- <li> -->
+            
+            <a href="https://github.com/atelierbram/syntax-highlighting" class="sh-button">This repo on Github</a>
+            <!-- </li> -->
 
-          </ul>
+          <!-- </ul> -->
         </div>
       </div>
     </div> 
     </footer>
     <script>
       document.write('<script src=' +
-        ('__proto__' in {} ? '../assets/js/vendor/zepto' : 'js/vendor/jquery') +
+        ('__proto__' in {} ? '../assets/js/vendor/jquery' : '../assets/js/vendor/zepto') +
         '.js><\/script>')
       </script> 
 
@@ -286,11 +285,8 @@
       <!-- <script src="../assets/js/foundation/foundation.tooltips.js"></script> -->
       <!-- <script src="../assets/js/foundation/foundation.topbar.js"></script> -->
       <!-- <script src="../assets/js/foundation/foundation.interchange.js"></script> -->
-      <script>
-        $(document).foundation();
-      </script> 
-      <script src="../assets/js/app/styleswitcher.js"></script>
-
+      <script>$(document).foundation();</script> 
+      <script src="../assets/js/vendor/jquery.scoped-0.6.min.js"></script><script>$.scoped();</script> 
     </body>
   </html>
 
