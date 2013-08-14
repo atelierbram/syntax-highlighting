@@ -1,7 +1,8 @@
 Atelier Schemes
 ===============
 
-For the construction of these colorschemes,  [Solarized colorscheme](http://ethanschoonover.com/solarized) stood as a model, and [Base16 Builder](https://github.com/chriskempson/base16-builder) was a building tool. Like in Solarized, the colorschemes come in a light – and in a dark background version. It’s really just variations on the same idea, but each with it’s own color-value relations, interdependent on each other and their base (background-)color.
+For the construction of these colorschemes,  [Solarized colorscheme](http://ethanschoonover.com/solarized) stood as a model, and [Base16 Builder](https://github.com/chriskempson/base16-builder) was a building tool. Like in Solarized, the colorschemes come in a light – and in a dark background version. It’s really just variations on the same idea, but each with it’s own color-value relations, interdependent on each other and their base (background-)color.   
+[Go to Demopage](http://atelierbram.github.io/syntax-highlighting/atelier-schemes)
 
 ## Downloads
 All downloads can be [found in the output folder](https://github.com/atelierbram/syntax-highlighting/tree/master/atelier-schemes/output). There one can find these colorschemes for: Bbedit, ChromeDevtools, CodeMirror, Console2, Emacs, Geany, Gedit, Gimp-palette, Gnome-termina, Highlight.js, iTerm2, Mintty, Mou, Notepad++, Putty, Rouge, Secure-shell, Shell, Sublime Text, Terminal-app, Textadept, Textmate, Vim, Visual-studio, Windows-command-prompt, Xcode4, Xfce4-terminal, Xresources.     
