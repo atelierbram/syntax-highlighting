@@ -1,4 +1,4 @@
-Chrome Devtools - colour theme
+Chrome Devtools - Colorscheme
 =============================
 
 [Go to Demopage](http://atelierbram.github.io/syntax-highlighting/chrome-devtools)
