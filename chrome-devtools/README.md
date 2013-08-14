@@ -33,4 +33,8 @@ For [this Chrome-DevTools colourscheme](http://atelierbram.github.io/syntax-high
 * [Solarized project page](http://ethanschoonover.com/solarized)
 * [Solarized on Github](https://github.com/altercation/solarized)
 
+## License
 
+Copyright (c) 2013 Bram de Haan
+
+Released under [MIT Licence](http://atelierbram.mit-license.org)

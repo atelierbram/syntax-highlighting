@@ -26,3 +26,9 @@ When possible, backlinks to their origin, and information about their creators a
 * [Prism on Twitter](https://twitter.com/prismjs)
 * [Lea Verou &#8211; personal website and blog](http://lea.verou.me/)
 
+## License
+
+Copyright (c) 2013 Bram de Haan
+
+Released under [MIT Licence](http://atelierbram.mit-license.org)
+

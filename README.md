@@ -17,4 +17,9 @@ Collection of colorschemes.
 
 ![screenshot of Dune colorscheme - dark version - in Vim](http://atelierbram.github.io/syntax-highlighting/assets/img/dune-dark_vim_640x480.png)
 
+## License
+
+Copyright (c) 2013 Bram de Haan
+
+Released under [MIT Licence](http://atelierbram.mit-license.org)
 
