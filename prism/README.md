@@ -1,7 +1,8 @@
 Prism colorschemes   
 ==================
 
-Prism is a lightweight, robust, elegant syntax highlighting library. It is written in javascript, and the colorschemes are CSS stylesheets; so highly customisable.
+Prism is a lightweight, robust, elegant syntax highlighting library. It is written in javascript, and the colorschemes are CSS stylesheets; so highly customisable.    
+[Go to Demopage](http://atelierbram.github.io/syntax-highlighting/prism)
 
 ## Customising
 
