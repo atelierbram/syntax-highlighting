@@ -1,6 +1,8 @@
 Chrome Devtools - colour theme
 =============================
 
+[Go to Demopage](http://atelierbram.github.io/syntax-highlighting/chrome-devtools)
+
 One can change the way Chrome Developer Tools look by having a custom CSS stylesheet, named `Custom.css`.
 The path for the directory that contains the file:
 
