@@ -14,8 +14,6 @@
     <link rel="stylesheet" href="../assets/css/app.css" /> 
     <link rel="stylesheet" href="../assets/css/prism/prism.css" id="stylesheet--code" /> 
 
-    <script src="../assets/js/vendor/custom.modernizr.js"></script> 
-    <!-- <script src="../assets/js/vendor/prefixfree.min.js"></script> -->
 
     <meta name="viewport" content="width=device-width">
     <meta name="author" content="Bram de Haan">
@@ -25,7 +23,7 @@
 
   <body class="sh-prism"> 
     <!-- Header and Nav --> 
-    <header class="row header">
+    <header id="header" class="row header">
     <div class="large-4 columns">
       <h1 class="repo-title"><a href="http://atelierbram.github.io/syntax-highlighting/">Syntax Highlighting <span class="tagline sh-small">colorschemes</span></a></h1>
 
@@ -237,9 +235,9 @@ events : function () {
           <li><a href="../assets/css/prism/prism-pojoaque.css">Pojoaque</a>, 
           Original by <a href="http://web-cms-designs.com/ftopict-10-pojoaque-style-for-highlight-js-code-highlighter.html">Jason Tate</a></li>
           <li><a href="../assets/css/prism/prism-forest-light.css">forest Light</a>, 
-          Original by <a href="http://atelierbram.github.io/syntax-highlighting/forest/">Bram de Haan</a></li> 
+          Original by <a href="http://atelierbramdehaan.nl">Bram de Haan</a></li> 
           <li><a href="../assets/css/prism/prism-forest-dark.css">forest Dark</a>, 
-          Original by <a href="http://atelierbram.github.io/syntax-highlighting/forest/">Bram de Haan</a></li> 
+          Original by <a href="http://atelierbramdehaan.nl">Bram de Haan</a></li> 
           <!-- <li><a href="../assets/css/prism/prism-rainbow.css">Rainbow</a>, Original by <a href="http://craig.is/making/rainbows">Craig Cambell</a></li>  -->
         </ol>
 
@@ -251,6 +249,17 @@ events : function () {
           <li><a href="https://twitter.com/prismjs">Prism on Twitter</a></li>
           <li><a href="http://lea.verou.me/">Lea Verou &#8211; personal website and blog<!--<i>(if anything, hover over the RSS-icon, right in the top navigation bar &hellip;, be amazed, and then subscribe to the feed &hellip;) </i>--></a></li>
         </ul>
+
+        <p><a href="#header" class="go-to-top sh-button"><svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="50px" height="50px" viewBox="0 0 50 50" enable-background="new 0 0 50 50" xml:space="preserve"> 
+          <g id="outline-black">
+          <path opacity="0.5" d="M25,3L3,34l12-1v13h20V33l12,1L25,3z"/>
+          </g>
+          <g id="inner-white">
+          <polygon fill="#FFFFFF" points="42,31 25,7 8,31 18,30 18,44 32,44 32,30 	"/>
+          </g>
+          </svg><span class="up-arrow">&#11014;</span>
+          <span class="visuallyhidden">Go to Top</span></a>
+        </p>  
 
       </div><!-- \.inner-wrap -->
       </article> 
@@ -265,26 +274,22 @@ events : function () {
         <li><a href="#external-links"><span>External Links</span></a></li>
       </ul> 
       </nav> 
-    </div>
-
+    </div> 
 
     <!-- Footer -->
-
     <footer class="page-footer row">
     <div class="large-12 columns">
       <div class="row">
-        <div class="large-6 columns">
-          <!-- <p>&copy; Copyright no one at all. Go to town.</p> -->
+        <div class="large-8 columns">
+          <p id="license" class="copyright">&copy; 2013 <a href="http://atelierbramdehaan.nl" class="underline">Atelier Bram de Haan</a>, Releases under <a href="http://atelierbram.mit-license.org" class="underline">MIT License</a></p>
         </div>
-        <div class="large-6 columns">
-          <ul class="inline-list right">
-            <li><a href="http://atelierbramdehaan.nl/">by Atelier Bram de Haan</a></li>
-            <li><a href="https://github.com/atelierbram/syntax-highlighting">this repo on Github</a></li>
-          </ul>
+        <div class="large-4 columns">
+          <a href="https://github.com/atelierbram/syntax-highlighting" class="sh-button">This repo on Github</a> 
         </div>
       </div>
     </div> 
-    </footer>
+    </footer>  
+
     <script src="../assets/js/vendor/prism.js" data-default-language="markup"></script>
 
     <script>
@@ -313,8 +318,8 @@ events : function () {
       <script>
         $(document).foundation();
       </script> 
-      <script src="../assets/js/app/styleswitcher.min.js"></script>
-
+      <script src="../assets/js/vendor/custom.modernizr.js"></script> 
+      <script src="../assets/js/app/styleswitcher.min.js"></script> 
     </body>
   </html>
 

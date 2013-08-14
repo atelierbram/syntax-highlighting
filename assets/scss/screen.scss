@@ -33,7 +33,12 @@
   background-color: rgba(black,.75);
   border-color: rgba(black,.4);
   border-width: 3px;
+} 
+.no-svg .go-to-top svg,
+.svg .up-arrow {
+  display: none; 
 }
+
 html {
   background-color: $body-bg;
 } 

@@ -20,7 +20,7 @@
 
     <!-- Header and Nav -->
 
-    <header class="row header">
+    <header id="header" class="row header">
     <div class="large-4 columns">
       <h1 class="repo-title"><a href="http://atelierbram.github.io/syntax-highlighting/">Syntax Highlighting <span class="tagline sh-small">colorschemes</span></a></h1>
 
@@ -62,7 +62,7 @@
 <p> 
 Base color for Dune is yellow, and then yellowish brown greyed colors for the background.
 </p>
- 
+
 
 <h3 id="demo-tiles">Sixteen colors</h3>
  <div class="sh-c"> 
@@ -83,7 +83,7 @@ Base color for Dune is yellow, and then yellowish brown greyed colors for the ba
           <div class="unit cyan-background">    cyan    </div>
           <div class="unit green-background">   green   </div>   
  </div>
- 
+
         <h3 id="color-code" class="mtm no-border">Colors in code <small>Scss variables</small></h3> 
          <pre class="base00-background language-scss"><code class="language-scss sh-c-light">
 $base00: <span class="sh-c-comm">hsl(50, 5%, 12%);   /* #20201d */</span>
@@ -102,7 +102,7 @@ $base0c: <span class="base0C-background sh-c-comm sh-c-dark">hsl(162, 70%, 40%);
 $base0d: <span class="base0D-background sh-c-comm sh-c-dark">hsl(225, 67%, 64%); /* #6684e1 */</span>
 $base0e: <span class="base0E-background sh-c-comm sh-c-dark">hsl(287, 60%, 58%); /* #b854d4 */</span>
 $base0f: <span class="base0F-background sh-c-comm sh-c-dark">hsl(349, 65%, 52%); /* #d43552 */</span> 
- 
+
 <span class="red-background sh-c-comm sh-c-dark">$red:</span>     $base08;
 <span class="orange-background sh-c-comm sh-c-dark">$orange:</span>  $base09;
 <span class="yellow-background sh-c-comm sh-c-dark">$yellow:</span>  $base0a;
@@ -111,7 +111,7 @@ $base0f: <span class="base0F-background sh-c-comm sh-c-dark">hsl(349, 65%, 52%);
 <span class="blue-background sh-c-comm sh-c-dark">$blue:</span>    $base0d;
 <span class="violet-background sh-c-comm sh-c-dark">$violet:</span>  $base0e;
 <span class="magenta-background sh-c-comm sh-c-dark">$magenta:</span> $base0f; 
- 
+
         </code></pre>
 
       <pre class="base00-background base05">
@@ -128,13 +128,13 @@ $base0f: <span class="base0F-background sh-c-comm sh-c-dark">hsl(349, 65%, 52%);
 
 <span class="base03"># This is a comment</span>
 <span class="base0E">class</span> <span class="base0A">Person</span>
-  
+
   <span class="base0D">attr_accessor</span> <span class="base0B">:name</span>
-  
+
   <span class="base0E">def</span> <span class="base0D">initialize</span>(<span class="base08">attributes</span> = {})
     <span class="base08">@name</span> = <span class="base08">attributes</span>[<span class="base0B">:name</span>]
   <span class="base0E">end</span>
-  
+
   <span class="base0E">def</span> <span class="base0E">self</span>.<span class="base0D">greet</span>
     <span class="base02-background"><span class="base0B">"hello"</span></span>
   <span class="base0E">end</span>
@@ -144,7 +144,7 @@ $base0f: <span class="base0F-background sh-c-comm sh-c-dark">hsl(349, 65%, 52%);
 <span class="base0D">print</span> <span class="base0A">Person</span>::<span class="base0D">greet</span>, <span class="base0B">" "</span>, <span class="base08">person1</span>.<span class="base0D">name</span>, <span class="base0B">"<span class="base09">\n</span>"</span>
 <span class="base0D">puts</span> <span class="base0B">"another </span><span class="base0F">#{</span><span class="base0A">Person</span>::<span class="base0D">greet</span><span class="base0F">}</span> <span class="base0F">#{</span><span class="base08">person1</span>.<span class="base0D">name</span><span class="base0F">}</span><span class="base0B">"</span>
       </pre>
-      
+
       <pre class="base07-background base02">
 <span class="base0E">require</span> <span class="base0B">"rubygems"</span>
 
@@ -176,7 +176,7 @@ $base0f: <span class="base0F-background sh-c-comm sh-c-dark">hsl(349, 65%, 52%);
 <span class="base0D">puts</span> <span class="base0B">"another </span><span class="base0F">#{</span><span class="base0A">Person</span>::<span class="base0D">greet</span><span class="base0F">}</span> <span class="base0F">#{</span><span class="base08">person1</span>.<span class="base0D">name</span><span class="base0F">}</span><span class="base0B">"</span>
       </pre>
 
-       <h3 id="screenshots" class="mtm no-border">Screenshots</h3>
+      <h3 id="screenshots" class="mtm no-border">Screenshots</h3>
 
       <figure id="screenshot-1" class="sh-fig sh-screenshot mtm mbl">
       <img src="../../assets/img/dune-dark_vim_640x480.png" alt="screenshot of Dune colorscheme - dark version - in Vim" />
@@ -205,70 +205,77 @@ $base0f: <span class="base0F-background sh-c-comm sh-c-dark">hsl(349, 65%, 52%);
         <li>And credits to <a href="http://chriskempson.com/">Chris Kempson</a>, whose <a href="https://github.com/chriskempson/base16-builder">Base16 Builder</a>  was used for conversion to the different output formats.</li> 
       </ul>
 
-      <p><a href="#wrap" class="go-to-top sh-button">&#11014;<span class="visuallyhidden">Go to top</span></a></p> 
- 
-     </div><!-- \.inner-wrap -->
-     </article>
+      <p><a href="#header" class="go-to-top sh-button"><svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="50px" height="50px" viewBox="0 0 50 50" enable-background="new 0 0 50 50" xml:space="preserve"> 
+        <g id="outline-black">
+        <path opacity="0.5" d="M25,3L3,34l12-1v13h20V33l12,1L25,3z"/>
+        </g>
+        <g id="inner-white">
+        <polygon fill="#FFFFFF" points="42,31 25,7 8,31 18,30 18,44 32,44 32,30 	"/>
+        </g>
+        </svg><span class="up-arrow">&#11014;</span>
+        <span class="visuallyhidden">Go to Top</span></a></p>  
+    </div><!-- \.inner-wrap -->
+    </article>
 
-     <!-- Nav Sidebar -->
-     <!-- This is source ordered to be pulled to the left on larger screens -->
-     <nav class="large-3 pull-9 columns nav-anchor-links">
+    <!-- Nav Sidebar -->
+    <!-- This is source ordered to be pulled to the left on larger screens -->
+    <nav class="large-3 pull-9 columns nav-anchor-links">
 
-     <ul class="side-nav">
-       <li><a href="#demo-tiles"><span>Colorscheme</span></a></li>
-       <li><a href="#color-code"><span>Colors in Code</span></a></li>
-       <li><a href="#downloads"><span>Downloads</span></a></li>
-       <li><a href="#credits"><span>Credits</span></a></li>
-     </ul>
+    <ul class="side-nav">
+      <li><a href="#demo-tiles"><span>Colorscheme</span></a></li>
+      <li><a href="#color-code"><span>Colors in Code</span></a></li>
+      <li><a href="#downloads"><span>Downloads</span></a></li>
+      <li><a href="#credits"><span>Credits</span></a></li>
+    </ul>
 
-     </nav>
+    </nav>
 
-   </div>
-
-
-   <!-- Footer -->
-
-   <footer class="page-footer row">
-   <div class="large-12 columns">
-     <div class="row">
-       <div class="large-8 columns">
-         <p id="license" class="copyright">&copy; 2013 <a href="http://atelierbramdehaan.nl" class="underline">Atelier Bram de Haan</a>, Releases under <a href="http://atelierbram.mit-license.org" class="underline">MIT License</a></p>
-       </div>
-       <div class="large-4 columns">
-<a href="https://github.com/atelierbram/syntax-highlighting" class="sh-button">This repo on Github</a>
-
-         
-       </div>
-     </div>
-   </div> 
-   </footer>
-   <script>
-     document.write('<script src=' +
-       ('__proto__' in {} ? '../../assets/js/vendor/zepto' : '../../assets/js/vendor/jquery') +
-       '.js><\/script>')
-     </script> 
+  </div>
 
 
-     <script src="../../assets/js/foundation/foundation.js"></script>
-     <!-- <script src="../../assets/js/foundation/foundation.min.js"></script> -->
-     <!-- <script src="../../assets/js/foundation/foundation.alerts.js"></script> -->
-     <!-- <script src="../../assets/js/foundation/foundation.clearing.js"></script> -->
-     <!-- <script src="../../assets/js/foundation/foundation.cookie.js"></script> -->
-     <script src="../../assets/js/foundation/foundation.dropdown.js"></script>
-     <!-- <script src="../../assets/js/foundation/foundation.forms.js"></script> -->
-     <!-- <script src="../../assets/js/foundation/foundation.joyride.js"></script> -->
-     <!-- <script src="../../assets/js/foundation/foundation.magellan.js"></script> -->
-     <!-- <script src="../../assets/js/foundation/foundation.orbit.js"></script> -->
-     <!-- <script src="../../assets/js/foundation/foundation.placeholder.js"></script> -->
-     <!-- <script src="../../assets/js/foundation/foundation.reveal.js"></script> -->
-     <!-- <script src="../../assets/js/foundation/foundation.section.js"></script> -->
-     <!-- <script src="../../assets/js/foundation/foundation.tooltips.js"></script> -->
-     <!-- <script src="../../assets/js/foundation/foundation.topbar.js"></script> -->
-     <!-- <script src="../../assets/js/foundation/foundation.interchange.js"></script> -->
-     <script>
-       $(document).foundation();
-     </script> 
+  <!-- Footer -->
 
-   </body>
- </html>
+  <footer class="page-footer row">
+  <div class="large-12 columns">
+    <div class="row">
+      <div class="large-8 columns">
+        <p id="license" class="copyright">&copy; 2013 <a href="http://atelierbramdehaan.nl" class="underline">Atelier Bram de Haan</a>, Releases under <a href="http://atelierbram.mit-license.org" class="underline">MIT License</a></p>
+      </div>
+      <div class="large-4 columns">
+        <a href="https://github.com/atelierbram/syntax-highlighting" class="sh-button">This repo on Github</a>
+
+
+      </div>
+    </div>
+  </div> 
+  </footer>
+  <script>
+    document.write('<script src=' +
+      ('__proto__' in {} ? '../../assets/js/vendor/zepto' : '../../assets/js/vendor/jquery') +
+      '.js><\/script>')
+    </script> 
+
+
+    <script src="../../assets/js/foundation/foundation.js"></script>
+    <!-- <script src="../../assets/js/foundation/foundation.min.js"></script> -->
+    <!-- <script src="../../assets/js/foundation/foundation.alerts.js"></script> -->
+    <!-- <script src="../../assets/js/foundation/foundation.clearing.js"></script> -->
+    <!-- <script src="../../assets/js/foundation/foundation.cookie.js"></script> -->
+    <script src="../../assets/js/foundation/foundation.dropdown.js"></script>
+    <!-- <script src="../../assets/js/foundation/foundation.forms.js"></script> -->
+    <!-- <script src="../../assets/js/foundation/foundation.joyride.js"></script> -->
+    <!-- <script src="../../assets/js/foundation/foundation.magellan.js"></script> -->
+    <!-- <script src="../../assets/js/foundation/foundation.orbit.js"></script> -->
+    <!-- <script src="../../assets/js/foundation/foundation.placeholder.js"></script> -->
+    <!-- <script src="../../assets/js/foundation/foundation.reveal.js"></script> -->
+    <!-- <script src="../../assets/js/foundation/foundation.section.js"></script> -->
+    <!-- <script src="../../assets/js/foundation/foundation.tooltips.js"></script> -->
+    <!-- <script src="../../assets/js/foundation/foundation.topbar.js"></script> -->
+    <!-- <script src="../../assets/js/foundation/foundation.interchange.js"></script> -->
+    <script>
+      $(document).foundation();
+    </script> 
+    <script src="../../assets/js/vendor/custom.modernizr.js"></script> 
+  </body>
+</html>
 
