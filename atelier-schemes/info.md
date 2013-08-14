@@ -1,41 +1,40 @@
-Kermis colorscheme
-==================
+Atelier Schemes
+===============
 
-Constructing this colorscheme, [Solarized colorscheme](http://ethanschoonover.com/solarized) was a model: sixteen colors in aestheticaly logic coherence. Like in [Solarized](https://github.com/altercation/solarized/), the colorscheme comes both in a light &#8211; and in a dark background version, and because the colornames are the same as in Solarized, it&#8217;s quite easy to do a _&#8220;search and replace&#8221;_ in a texteditor, and swap the colors (when converting any copy of a Solarized theme file &hellip;).
+For the construction of these colorschemes,  [Solarized colorscheme](http://ethanschoonover.com/solarized) stood as a model, and [Base16 Builder](https://github.com/chriskempson/base16-builder) was a building tool. Like in Solarized, the colorschemes come in a light – and in a dark background version. It’s really just variations on the same idea, but each with it’s own color-value relations, interdependent on each other and their base (background-)color.
 
-![screenshot of Kermis colorscheme, dark version, in Sublime text editor](http://atelierbram.github.io/syntax-highlighting/assets/img/kermis-dark_sublime_640x480.png) 
+## Downloads
+All downloads can be [found in the output folder](https://github.com/atelierbram/syntax-highlighting/tree/master/atelier-schemes/output). There one can find these colorschemes for: Bbedit, ChromeDevtools, CodeMirror, Console2, Emacs, Geany, Gedit, Gimp-palette, Gnome-termina, Highlight.js, iTerm2, Mintty, Mou, Notepad++, Putty, Rouge, Secure-shell, Shell, Sublime Text, Terminal-app, Textadept, Textmate, Vim, Visual-studio, Windows-command-prompt, Xcode4, Xfce4-terminal, Xresources.     
+**Note**: For Sublime Text, go to [Textmate](https://github.com/atelierbram/syntax-highlighting/tree/master/atelier-schemes/output/textmate) folder.
 
-Starting point was the idea to have brownish colors for the background, not unlike a colorsheme like [&#8220;Birds of Paradise&#8221;](http://joebergantine.com/projects/color-schemes/birds-of-paradise/) by [Joe Bergantine](http://joebergantine.com/), but a bit muddier on the browns, less red and more greyed out, like in clay. The name [&#8220;Kermis&#8221;](http://en.wikipedia.org/wiki/Kermesse_(festival)) comes from the Dutch word for &#8220;fair&#8221;, or &#8220;funfair&#8221;.
+## Forest 
+Base color for Forest is orange, and the idea is to have brownish colors for the background, not unlike a colorscheme like [“Birds of Paradise”](http://joebergantine.com/projects/color-schemes/birds-of-paradise/), but a bit muddier on the browns, less red and more greyed out, like clay.     
+[More info](http://localhost/~bram/syntax-highlighting/atelier-schemes/forest). 
+ 
+![screenshot of Forest colorscheme, light version, in Sublime Text](http://atelierbram.github.io/syntax-highlighting/assets/img/forest-light_sublime_640x480.png)
 
-### Colors in code
+## Heath
+Base color for Heath is magenta, and here the background-colors have these cool-red colors for the background, but then obviously toned down quite a bit.     
+[More info](http://atelierbram.github.io/syntax-highlighting/atelier-schemes/heath)
 
-```scss
-$base03:  hsl(16, 5%, 10%);    /* #1b1918  */
-$base02:  hsl(16, 15%, 15%);   /* #2c2421  */
-$base01:  hsl(16, 5%, 39%);    /* #68615e  */
-$base00:  hsl(16, 5%, 44%);    /* #766e6b  */
-$base0:   hsl(16, 5%, 59%);    /* #9c9491  */
-$base1:   hsl(16, 5%, 64%);    /* #a8a19f  */
-$base2:   hsl(16, 10%, 89%);   /* #e6e2e0  */
-$base3:   hsl(16, 10%, 94%);   /* #f1efee  */
-$yellow:  hsl(38, 78%, 47%);   /* #d5911a  */
-$orange:  hsl(16, 75%, 50%);   /* #df5320  */
-$red:     hsl(354, 88%, 56%);  /* #f22c40  */
-$magenta: hsl(284, 88%, 60%);  /* #c33ff3  */
-$violet:  hsl(240, 76%, 66%);  /* #6666ea  */
-$blue:    hsl(218, 78%, 58%);  /* #407ee7  */
-$cyan:    hsl(174, 100%, 34%); /* #00ad9c  */
-$green:   hsl(104, 53%, 47%);  /* #5ab738  */
-```
+![screenshot of Heath colorscheme, dark version, in Vim](http://atelierbram.github.io/syntax-highlighting/assets/img/heath-dark_vim_640x480.png)
 
+## Lakeside
+Base color for Lakeside is blue, which means bluish colors for the background.     
+[More info](http://atelierbram.github.io/syntax-highlighting/atelier-schemes/lakeside)
 
-![screenshot of Kermis colorscheme, light version, in Vim text editor, in split window](http://atelierbram.github.io/syntax-highlighting/assets/img/kermis-light_vim_640x480.png)
+![screenshot of Lakeside colorscheme, light version, in Sublime Text](http://atelierbram.github.io/syntax-highlighting/assets/img/lakeside-light_sublime_640x480.png)
 
+## Seaside 
+Base color for Lakeside is green, which leads to greenish colors for the background.    
+[More info](http://atelierbram.github.io/syntax-highlighting/atelier-schemes/seaside)
 
-### Implementation
-*   [Prism - light theme](http://atelierbram.github.io/syntax-highlighting/assets/css/prism/prism-kermis-light.css)
-*   [Prism - dark theme](http://atelierbram.github.io/syntax-highlighting/assets/css/prism/prism-kermis-dark.css)
-*   [Vim theme](http://atelierbram.github.io/syntax-highlighting/vim/colors/kermis.vim)
-*   [Sublime2 light theme](http://atelierbram.github.io/syntax-highlighting/kermis/kermis-light.tmTheme)
-*   [Sublime2 dark theme](http://atelierbram.github.io/syntax-highlighting/kermis/kermis-dark.tmTheme)
+![screenshot of Seaside colorscheme, dark version, in Vim](http://atelierbram.github.io/syntax-highlighting/assets/img/seaside-dark_vim_640x480.png)
 
+## Dune
+Base color for Dune is yellow, and then yellowish brown greyed colors for the background.   
+[More info](http://atelierbram.github.io/syntax-highlighting/atelier-schemes/dune)
+
+![screenshot of Dune colorscheme, light version, in Sublime Text](http://atelierbram.github.io/syntax-highlighting/assets/img/dune-light_sublime_640x480.png)
+
+ 
