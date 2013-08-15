@@ -12,31 +12,31 @@ All downloads can be [found in the output folder](https://github.com/atelierbram
 Base color for Forest is orange, and the idea is to have brownish colors for the background, not unlike a colorscheme like [“Birds of Paradise”](http://joebergantine.com/projects/color-schemes/birds-of-paradise/), but a bit muddier on the browns, less red and more greyed out, like clay.     
 [More info](http://localhost/~bram/syntax-highlighting/atelier-schemes/forest). 
  
-![screenshot of Forest colorscheme, light version, in Sublime Text](http://atelierbram.github.io/syntax-highlighting/assets/img/forest-light_sublime_640x480.png)
+![screenshot of Forest colorscheme, light version, in Sublime Text](http://atelierbram.github.io/syntax-highlighting/assets/img/forest-light_sublime_640x425.png)
 
 ## Heath
 Base color for Heath is magenta, and here the background-colors have these cool-red colors for the background, but then obviously toned down quite a bit.     
 [More info](http://atelierbram.github.io/syntax-highlighting/atelier-schemes/heath)
 
-![screenshot of Heath colorscheme, dark version, in Vim](http://atelierbram.github.io/syntax-highlighting/assets/img/heath-dark_vim_640x480.png)
+![screenshot of Heath colorscheme, dark version, in Vim](http://atelierbram.github.io/syntax-highlighting/assets/img/heath-dark_vim_640x425.png)
 
 ## Lakeside
 Base color for Lakeside is blue, which means bluish colors for the background.     
 [More info](http://atelierbram.github.io/syntax-highlighting/atelier-schemes/lakeside)
 
-![screenshot of Lakeside colorscheme, light version, in Sublime Text](http://atelierbram.github.io/syntax-highlighting/assets/img/lakeside-light_sublime_640x480.png)
+![screenshot of Lakeside colorscheme, light version, in Sublime Text](http://atelierbram.github.io/syntax-highlighting/assets/img/lakeside-light_sublime_640x425.png)
 
 ## Seaside 
 Base color for Lakeside is green, which leads to greenish colors for the background.    
 [More info](http://atelierbram.github.io/syntax-highlighting/atelier-schemes/seaside)
 
-![screenshot of Seaside colorscheme, dark version, in Vim](http://atelierbram.github.io/syntax-highlighting/assets/img/seaside-dark_vim_640x480.png)
+![screenshot of Seaside colorscheme, dark version, in Vim](http://atelierbram.github.io/syntax-highlighting/assets/img/seaside-dark_vim_640x425.png)
 
 ## Dune
 Base color for Dune is yellow, and then yellowish brown greyed colors for the background.   
 [More info](http://atelierbram.github.io/syntax-highlighting/atelier-schemes/dune)
 
-![screenshot of Dune colorscheme, light version, in Sublime Text](http://atelierbram.github.io/syntax-highlighting/assets/img/dune-light_sublime_640x480.png) 
+![screenshot of Dune colorscheme, light version, in Sublime Text](http://atelierbram.github.io/syntax-highlighting/assets/img/dune-light_sublime_640x425.png) 
  
 ## License
 

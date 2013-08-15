@@ -15,7 +15,7 @@ Collection of colorschemes.
     * [Dune](http://atelierbram.github.io/syntax-highlighting/atelier-schemes/dune)
 * [Downloads](https://github.com/atelierbram/syntax-highlighting/tree/master/atelier-schemes/output)
 
-![screenshot of Dune colorscheme - dark version - in Vim](http://atelierbram.github.io/syntax-highlighting/assets/img/dune-dark_vim_640x480.png)
+![screenshot of Dune colorscheme - dark version - in Vim](http://atelierbram.github.io/syntax-highlighting/assets/img/dune-dark_vim_640x425.png)
 
 ## License
 

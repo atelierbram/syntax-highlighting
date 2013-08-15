@@ -22,7 +22,7 @@ For tweaking the theme you can use DevTools itself to inspect Devtools:
 Solarized Light is a syntax highlighting colorscheme, made by [Ethan Schoonover](http://ethanschoonover.com/). It is well balanced, and thoroughly tested, and comes in two varieties: a dark, or a light background. 
 
 For [this Chrome-DevTools colourscheme](http://atelierbram.github.io/syntax-highlighting/chrome-devtools/#solarized-light) the light background-colour variety was the starting point. In a few places the dark background give some extra contrast.
-![screenshot Chrome DevTools with solarized-light colorscheme](../assets/img/screenshot_chrome-devtools_solarized-light_640x480.png) 
+![screenshot Chrome DevTools with solarized-light colorscheme](../assets/img/screenshot_chrome-devtools_solarized-light_640x425.png) 
 
 [download the stylesheet, and/or copy and paste the contents in you're Custom.css](https://github.com/atelierbram/syntax-highlighting/blob/master/chrome-devtools/css/Custom-solarized-light.css) 
 
