@@ -21,7 +21,7 @@ When possible, backlinks to their origin, and information about their creators a
 6. [Cbavota](http://atelierbram.github.io/syntax-highlighting/assets/css/prism/prism-cbavota.css), original by [C. Bavota](http://cbavota.bitbucket.org/syntax-highlighter/)
 7. [Pojoaque](http://atelierbram.github.io/syntax-highlighting/assets/css/prism/prism-pojoaque.css), original by [Jason Tate](http://web-cms-designs.com/ftopict-10-pojoaque-style-for-highlight-js-code-highlighter.html)
 8. [Forest Light](http://atelierbram.github.io/syntax-highlighting/assets/css/prism/prism-forest-light.css), original by [Bram de Haan](http://atelierbramdehaan.nl)
-9. [Forest Dark](http://atelierbram.github.io/syntax-highlighting/assets/css/prism/prism-forest-dark.css), original by [Bram de Haan](http://atelierbram.nl)
+9. [Forest Dark](http://atelierbram.github.io/syntax-highlighting/assets/css/prism/prism-forest-dark.css), original by [Bram de Haan](http://atelierbramdehaan.nl)
 
 ## External Links 
 * [Prism Project site](http://prismjs.com/)
