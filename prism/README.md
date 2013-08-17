@@ -4,6 +4,10 @@ Prism colorschemes
 Prism is a lightweight, robust, elegant syntax highlighting library. It is written in javascript, and the colorschemes are CSS stylesheets; so highly customisable.    
 [Go to Demopage](http://atelierbram.github.io/syntax-highlighting/prism)
 
+![screenshot of styleswitcher for Prism](https://lh6.googleusercontent.com/-27KX3QAEzAc/Ug9O3QH1t2I/AAAAAAAAAlw/tdEU6foUIXM/s800/prism-styleswitcher_screenshot_546x364.png)
+
+screenshot of styleswitcher for Prism
+
 ## Customising
 
 Except for the six that come with Prism, this repo contains more colorschemes, colected (stolen) from elsewhere and further adapted (tweaked).
