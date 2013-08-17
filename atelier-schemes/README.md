@@ -14,11 +14,15 @@ Base color for Forest is orange, and the idea is to have brownish colors for the
  
 ![screenshot of Forest colorscheme, light version, in Sublime Text](http://atelierbram.github.io/syntax-highlighting/assets/img/forest-light_sublime_640x425.png)
 
+screenshot of Forest colorscheme, light version, in Sublime Text
+
 ## Heath
 Base color for Heath is magenta, and here the background-colors have these cool-red colors for the background, but then obviously toned down quite a bit.     
 [More info](http://atelierbram.github.io/syntax-highlighting/atelier-schemes/heath)
 
 ![screenshot of Heath colorscheme, dark version, in Vim](http://atelierbram.github.io/syntax-highlighting/assets/img/heath-dark_vim_640x425.png)
+
+screenshot of Heath colorscheme, dark version, in Vim
 
 ## Lakeside
 Base color for Lakeside is blue, which means bluish colors for the background.     
@@ -26,18 +30,24 @@ Base color for Lakeside is blue, which means bluish colors for the background.
 
 ![screenshot of Lakeside colorscheme, light version, in Sublime Text](http://atelierbram.github.io/syntax-highlighting/assets/img/lakeside-light_sublime_640x425.png)
 
+screenshot of Lakeside colorscheme, light version, in Sublime Text
+
 ## Seaside 
 Base color for Lakeside is green, which leads to greenish colors for the background.    
 [More info](http://atelierbram.github.io/syntax-highlighting/atelier-schemes/seaside)
 
 ![screenshot of Seaside colorscheme, dark version, in Vim](http://atelierbram.github.io/syntax-highlighting/assets/img/seaside-dark_vim_640x425.png)
 
+screenshot of Seaside colorscheme, dark version, in Vim
+
 ## Dune
 Base color for Dune is yellow, and then yellowish brown greyed colors for the background.   
 [More info](http://atelierbram.github.io/syntax-highlighting/atelier-schemes/dune)
 
 ![screenshot of Dune colorscheme, light version, in Sublime Text](http://atelierbram.github.io/syntax-highlighting/assets/img/dune-light_sublime_640x425.png) 
- 
+
+screenshot of Dune colorscheme, light version, in Sublime Text
+
 ## License
 
 Copyright (c) 2013 Bram de Haan
