@@ -10,7 +10,7 @@ All downloads can be [found in the output folder](https://github.com/atelierbram
 
 ## Forest 
 Base color for Forest is orange, and the idea is to have brownish colors for the background, not unlike a colorscheme like [“Birds of Paradise”](http://joebergantine.com/projects/color-schemes/birds-of-paradise/), but a bit muddier on the browns, less red and more greyed out, like clay.     
-[More info](http://localhost/~bram/syntax-highlighting/atelier-schemes/forest). 
+[More info](http://atelierbram.github.io/syntax-highlighting/atelier-schemes/forest). 
  
 ![screenshot of Forest colorscheme, light version, in Sublime Text](http://atelierbram.github.io/syntax-highlighting/assets/img/forest-light_sublime_640x425.png)
 
