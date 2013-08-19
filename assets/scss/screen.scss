@@ -341,9 +341,6 @@ i {
     margin-left: 5%;
     margin-right: 0;
   } 
-  article p {
-    font-size: emCalc(18);
-  } 
   .nav-anchor-links {
     width: 23%;  
     right: 75%;
@@ -358,7 +355,7 @@ i {
     @include background-image(linear-gradient(left, lighten($sh-blue-color,60), lighten($sh-blue-color,60) 97.5%, lighten($sh-blue-color,50)));
   }
   .note {
-    padding: emCalc(32) emCalc(64);
+    padding: emCalc(32);
   }
 
 }
@@ -366,6 +363,9 @@ i {
   .inner-wrap {
     margin-right: 7.5%;
   } 
+   article p {
+    font-size: emCalc(18);
+  }  
 } 
 @media only screen and (min-width: 1280px) {
   .inner-wrap {

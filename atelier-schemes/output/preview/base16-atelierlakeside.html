@@ -5,12 +5,12 @@
     <style type="text/css" media="screen">
       body { margin: 5% 20%; }
       .scheme, .author, pre, .block { font-family: "menlo", monospace; }
-      .block { display: inline-block; font-size: 13px; font-weight: bold; padding: 15px; margin: 0 5px 10px 0; }
-      pre {
-        font-size: 14px;
-        padding: 10px 20px;
-      }
-
+  	  .block { display: inline-block; font-size: 13px; font-weight: bold; padding: 15px; margin: 0 5px 10px 0; }
+  	  pre {
+  	    font-size: 14px;
+  	    padding: 10px 20px;
+  	  }
+  	  
       .base00-background { background-color: #161b1d; }
       .base01-background { background-color: #1f292e; }
       .base02-background { background-color: #516d7b; }
@@ -27,7 +27,7 @@
       .base0D-background { background-color: #257fad; }
       .base0E-background { background-color: #5d5db1; }
       .base0F-background { background-color: #b72dd2; }
-
+      
       .base00 { color: #161b1d; }
       .base01 { color: #1f292e; }
       .base02 { color: #516d7b; }
@@ -83,13 +83,13 @@
 
 <span class="base03"># This is a comment</span>
 <span class="base0E">class</span> <span class="base0A">Person</span>
-
+  
   <span class="base0D">attr_accessor</span> <span class="base0B">:name</span>
-
+  
   <span class="base0E">def</span> <span class="base0D">initialize</span>(<span class="base08">attributes</span> = {})
     <span class="base08">@name</span> = <span class="base08">attributes</span>[<span class="base0B">:name</span>]
   <span class="base0E">end</span>
-
+  
   <span class="base0E">def</span> <span class="base0E">self</span>.<span class="base0D">greet</span>
     <span class="base02-background"><span class="base0B">"hello"</span></span>
   <span class="base0E">end</span>
@@ -99,7 +99,7 @@
 <span class="base0D">print</span> <span class="base0A">Person</span>::<span class="base0D">greet</span>, <span class="base0B">" "</span>, <span class="base08">person1</span>.<span class="base0D">name</span>, <span class="base0B">"<span class="base09">\n</span>"</span>
 <span class="base0D">puts</span> <span class="base0B">"another </span><span class="base0F">#{</span><span class="base0A">Person</span>::<span class="base0D">greet</span><span class="base0F">}</span> <span class="base0F">#{</span><span class="base08">person1</span>.<span class="base0D">name</span><span class="base0F">}</span><span class="base0B">"</span>
       </pre>
-
+      
       <pre class="base07-background base02">
 <span class="base0E">require</span> <span class="base0B">"rubygems"</span>
 
@@ -130,7 +130,6 @@
 <span class="base0D">print</span> <span class="base0A">Person</span>::<span class="base0D">greet</span>, <span class="base0B">" "</span>, <span class="base08">person1</span>.<span class="base0D">name</span>, <span class="base0B">"<span class="base09">\n</span>"</span>
 <span class="base0D">puts</span> <span class="base0B">"another </span><span class="base0F">#{</span><span class="base0A">Person</span>::<span class="base0D">greet</span><span class="base0F">}</span> <span class="base0F">#{</span><span class="base08">person1</span>.<span class="base0D">name</span><span class="base0F">}</span><span class="base0B">"</span>
       </pre>
-
     </div>
   </body>
 </html>

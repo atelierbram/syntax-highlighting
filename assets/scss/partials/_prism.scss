@@ -1,0 +1,217 @@
+/**
+ * Prism base code highlighter theme using Sass 
+ *
+ * @author @MoOx
+ */
+
+// prism selector
+$code-selector: "code[class*=\"language-\"], pre[class*=\"language-\"]";
+$code-selector-block: "pre[class*=\"language-\"]";
+$code-selector-inline: ":not(pre) > code[class*=\"language-\"]";
+
+// generic stuff
+$code-font-family: Menlo, Monaco, "Courier New", monospace	!default;
+$code-font-size: 12px	!default;
+$code-line-height: 18px	!default;
+
+$code-tab-size:	4	!default;
+$code-hyphens: none	!default;
+
+$code-block-padding: 12px	!default;
+$code-inline-padding:	2px 6px	!default;
+$code-border-radius: 5px !default;
+
+$code-border:	1px solid #e1e1e8 !default;
+$code-background:	#2a2a2a !default;
+$code-color: #fff !default;
+$code-color-fade:	#bebec5 !default;
+$code-text-shadow: 0 1px 0 #000 !default;
+$code-box-shadow: 1px 1px .3em -.1em #000 inset !default;
+$code-color-property: #b58900 !default;
+$code-color-important: #cb4b16 !default;
+$code-color-tag: #268bd2 !default; 
+$code-color-atrule: #2aa198 !default;
+$code-color-attr-name: #b65611 !default;
+
+// $code-linenums-padding:		7px !default;
+// $code-linenums-width: 			40px !default;
+// $code-linenums-background:		#444 !default;
+// $code-linenums-border-color:	#555 !default;
+// $code-linenums-border-width:	1px !default;
+
+@if $code-selector != null {
+	#{$code-selector} {
+		-moz-tab-size: $code-tab-size;
+		-o-tab-size: $code-tab-size;
+		tab-size: $code-tab-size;
+
+		-webkit-hyphens: $code-hyphens;
+		-moz-hyphens: $code-hyphens;
+		-ms-hyphens: $code-hyphens;
+		hyphens: $code-hyphens;
+
+		// whitespace management
+		white-space: pre; // fallback
+		white-space: pre-wrap;
+		word-break: break-all;
+		word-wrap: break-word;
+		
+		font-family: $code-font-family;
+		font-size: 	$code-font-size;
+		line-height: $code-line-height;
+
+		color: $code-color;
+		text-shadow: $code-text-shadow;
+		background: $code-background;
+	}
+}
+
+%code-background {
+	border-radius: $code-border-radius;
+	border: $code-border;
+	box-shadow: $code-box-shadow;
+}
+
+@if $code-selector-block != null {
+	#{$code-selector-block} {
+		@extend %code-background;
+		padding: $code-block-padding;
+	}
+}
+
+@if $code-selector-inline != null {
+	#{$code-selector-inline} {
+		@extend %code-background;
+		padding: $code-inline-padding;
+	}
+}
+
+// pre[class*="language-"],
+// :not(pre) > code[class*="language-"] {
+// 	background: $code-background;
+// }
+
+// prism tokens
+// 
+$code-color-comment: null !default;
+$code-color-keyword: null !default;
+$code-color-value: null !default;
+$code-color-string:	null !default;
+$code-color-name:	null !default;
+$code-color-number:	null !default;
+$code-color-variable:	null !default;
+$code-color-selector:	null !default;
+$code-color-punctuation: $code-color-fade !default;
+
+#{$code-selector} {
+	.namespace {
+		opacity: .7;
+	}
+
+	.token {
+		&.comment,
+		&.prolog,
+		&.doctype,
+		&.cdata {
+			color: $code-color-comment;
+		}
+
+		&.null,
+		&.operator,
+		&.boolean,
+		&.number {
+			color: $code-color-number;
+		}
+
+		&.string {
+			color: $code-color-string;
+		}
+ 		&.attr-name {
+			color: $code-color-attr-name;
+		} 
+
+		&.entity,
+		&.url,
+		.language-css &.string,
+		.style &.string {
+			color: $code-color-string;
+		}
+
+		&.selector {
+			color: $code-color-selector;
+		}
+     
+		&.attr-value,
+		&.keyword,
+		&.control,
+		&.directive,
+		&.unit {
+			color: $code-color-keyword;
+		} 
+		&.important {
+			color: $code-color-important;
+		} 
+		&.atrule{
+			color: $code-color-atrule;
+    }
+
+		&.regex,
+		&.statement {
+			color: $code-color-value;
+		}
+
+		&.placeholder,
+		&.variable {
+			color: $code-color-variable;
+		}
+
+		&.property,
+		&.tag {
+		 // font-style: italic;
+		}
+
+ 		&.property {
+      color: $code-color-property;
+		}
+ 		&.tag {
+      color: $code-color-tag;
+		}
+ 
+
+		&.important,
+		&.statement {
+			font-weight: bold;
+		}
+
+		// todo ?
+		// &.mixin
+		// &.gradient
+		// &.abslength
+		// &.easing
+		// &.time
+		// &.angle
+		// &.fontfamily
+
+		// ruby/vim https://github.com/LeaVerou/prism/pull/18
+		// &.inst-var
+		// &.builtin
+		// &.const
+		// &.symbol
+		//
+		// php https://github.com/LeaVerou/prism/pull/20
+		// &.deliminator
+		// &.function
+
+		&.punctuation {
+			color: $code-color-punctuation;
+		}
+
+		&.entity {
+			cursor: help;
+		}
+
+		// for dev :)
+		&.debug { color: red }
+	}
+}
+
