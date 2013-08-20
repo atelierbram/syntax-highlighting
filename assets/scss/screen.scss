@@ -247,6 +247,13 @@ pre > code {
   background-color: darken($sh-bg-color,15%); 
   outline: 1px solid darken($sh-bg-color,35%); 
 } 
+.sh-square-400 {
+  max-width: 410px; 
+}
+.img-block {
+  display: block;
+  margin: 0 auto; 
+}
 .fig-cap {
   padding: emCalc(16) emCalc(8) emCalc(8); 
 } 

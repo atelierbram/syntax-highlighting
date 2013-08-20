@@ -53,6 +53,11 @@ screenshot of Dune colorscheme, light version, in Sublime Text
 * [Demo for Highlight.js](http://atelierbram.github.io/syntax-highlighting/atelier-schemes/demo/highlight-js.html)
 * [Demo for Prism](http://atelierbram.github.io/syntax-highlighting/prism)
 
+## Lab
+
+* [Colorscheme Lab on CodePen](http://codepen.io/atelierbram/pen/JnbIt)
+* [Colorscheme Lab as Github Gist](https://gist.github.com/atelierbram/6283373)
+
 ### License
 
 Copyright (c) 2013 Bram de Haan
