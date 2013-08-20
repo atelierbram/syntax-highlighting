@@ -48,7 +48,12 @@ Base color for Dune is yellow, and then yellowish brown greyed colors for the ba
 
 screenshot of Dune colorscheme, light version, in Sublime Text
 
-## License
+## Demo
+
+* [Demo for Highlight.js](http://atelierbram.github.io/syntax-highlighting/atelier-schemes/demo/highlight-js.html)
+* [Demo for Prism](http://atelierbram.github.io/syntax-highlighting/prism)
+
+### License
 
 Copyright (c) 2013 Bram de Haan
 
