@@ -27,6 +27,7 @@ Colorschemes for Prism [ demopage](http://atelierbram.github.io/syntax-highlight
 ![screenshot of styleswitcher for Prism themes](https://lh6.googleusercontent.com/-27KX3QAEzAc/Ug9O3QH1t2I/AAAAAAAAAlw/tdEU6foUIXM/s800/prism-styleswitcher_screenshot_546x364.png)
 
 screenshot of styleswitcher for Prism themes
+
 ## Chrome DevTools
 
 Solarized Light theme [demopage](http://atelierbram.github.io/syntax-highlighting/chrome-devtools)     
@@ -34,6 +35,12 @@ Solarized Light theme [demopage](http://atelierbram.github.io/syntax-highlightin
 ![Screenshot of Chrome DevTools (undocked), themed with Solarized-Light](https://lh3.googleusercontent.com/-RBaou2IeYOw/Ug6SDCxgI0I/AAAAAAAAAlQ/0yR4Ugm2gGM/s800/screenshot_chrome-devtools_solarized-light_640x480.png)
 
 Screenshot of Chrome DevTools (undocked), themed with Solarized-Light
+
+## Colorscheme Lab
+
+![Screenshot of Colorscheme Lab, a Code Syntax Highlighter Builder](https://lh6.googleusercontent.com/-ZZiLu6PVYCc/UhT1RHORo3I/AAAAAAAAAnQ/bXsZ82HGwtI/s800/screenshot_colorscheme-lab_640x480.png)
+
+Screenshot of [Colorscheme Lab](http://atelierbram.github.io/syntax-highlighting/lab), a Code Syntax Highlighter Builder
  
 ## External
 * [Colorscheme Lab on CodePen](http://codepen.io/atelierbram/pen/JnbIt) 

@@ -26,6 +26,11 @@ For [this Chrome-DevTools colourscheme](http://atelierbram.github.io/syntax-high
 
 [download the stylesheet, and/or copy and paste the contents in you're Custom.css](https://github.com/atelierbram/syntax-highlighting/blob/master/chrome-devtools/css/Custom-solarized-light.css) 
 
+## Colorscheme Lab
+* [Colorscheme Lab](http://atelierbram.github.io/syntax-highlighting/lab), a Code Syntax Highlighter Builder
+* [Colorscheme Lab on CodePen](http://codepen.io/atelierbram/pen/JnbIt)
+* [Colorscheme Lab as Github Gist](https://gist.github.com/atelierbram/6283373)
+
 ## External Links
 * [Skin your Chrome Inspector, by Darcy Clarke](http://darcyclarke.me/design/skin-your-chrome-inspector/)
 * [Tips and links by Addy Osmani](https://plus.google.com/+AddyOsmani/posts/UZF34wPJXsL)

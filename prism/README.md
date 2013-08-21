@@ -50,11 +50,12 @@ And then some more, made by [me, Bram de Haan](http://atelierbramdehaan.nl) with
 9.  [Dune Light](../atelier-schemes/output/prism/base16-atelierdune.light.css)
 10.  [Dune Dark](../atelier-schemes/output/prism/base16-atelierdune.dark.css)     
 
-## Lab
+## Colorscheme Lab
 
+* [Colorscheme Lab](http://atelierbram.github.io/syntax-highlighting/lab), a Code Syntax Highlighter Builder
 * [Colorscheme Lab on CodePen](http://codepen.io/atelierbram/pen/JnbIt)
-* [Colorscheme Lab as Github Gist](https://gist.github.com/atelierbram/6283373) 
-
+* [Colorscheme Lab as Github Gist](https://gist.github.com/atelierbram/6283373)
+ 
 ## External Links
 
 * [Prism Project site](http://prismjs.com/)
