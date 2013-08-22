@@ -47,9 +47,9 @@ Screenshot of [Colorscheme Lab](http://atelierbram.github.io/syntax-highlighting
 * [Colorscheme Lab as Github Gist](https://gist.github.com/atelierbram/6283373)
 * [More Themes for Web Developer's Toys](http://devthemez.com)
 
-## License
+### License
 
-Copyright (c) 2013 Bram de Haan
+Copyright (c) 2013 [Bram de Haan](http://atelierbramdehaan)     
 
 Released under [MIT Licence](http://atelierbram.mit-license.org)
 
