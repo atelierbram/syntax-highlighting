@@ -10,7 +10,7 @@ Screenshot of Colorscheme Lab
 Edit the sixteen color-value variables, and create your own syntax highlighter colorscheme.   
 
 When using Base16 Builder as a building tool, you can, like Solarized, make colorschemes that come in a light, - and in a dark background version.      
-  The Sass variables that are used here in this 'Colorscheme Lab', are basically the same as in the template.erb files by Base16 Builder, so after creating a colorscheme with this lab, converting to many application formats for syntax highlighting comes within reach.    
+  The class-names that are used here in this 'Colorscheme Lab', are basically the same as in the template.erb files by Base16 Builder, so after creating a colorscheme with this lab, converting to many application formats for syntax highlighting comes within reach.    
   Base16 Builder requires Ruby 1.9 or greater, [see the repository](https://github.com/chriskempson/base16-builder) for more information.
 
 ## External 
