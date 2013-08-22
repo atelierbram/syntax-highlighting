@@ -101,6 +101,7 @@ h1 a:hover {
   border: 1px solid darken($sh-yellow-color, 15);
   border-top: none;
   line-height: 1.375;
+  position: relative;
 }
 .header .inline-list > li > a:hover { 
   background-color: lighten($sh-yellow-color,15); 
