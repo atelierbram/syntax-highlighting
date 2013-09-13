@@ -548,6 +548,11 @@ body#-webkit-web-inspector .help-window-main .tabbed-pane-header {
 body#-webkit-web-inspector .help-window-main {
   box-shadow: 1px 1px 5px 2px rgba(0,0,0,.5) !important; 
 }
+
+body#-webkit-web-inspector .help-window-main .tabbed-pane-header-tab-title { 
+  color: #859900 !important; 
+}
+
 body#-webkit-web-inspector .settings-tab .help-section-title,
 body#-webkit-web-inspector .settings-tab-container .help-section-title {
   color: #66fff2 !important;
@@ -654,5 +659,5 @@ body#-webkit-web-inspector .revision-history-link {
 }
 #-webkit-web-inspector .text-editor-lines {
   background-color: #002b36 !important; 
-} 
+}
 
