@@ -153,12 +153,15 @@ h1 a:hover {
 .side-nav a:hover span:after { 
 	border-left-color: #b30;
 } 
-a, 
+
+/* a, 
 .header .inline-list > li > a,
 .side-nav li a {
   font-family: $header-font-family;
   font-weight: $header-font-weight;
 } 
+*/ 
+
 footer a {
   color: $sh-red-color; 
 } 
