@@ -1,6 +1,6 @@
 # Fira Sans 
 
-On commission of Mozilla, and on behalf of Eden Spiekermann in Berlin, from July 2012 to August 2013, [Ralph du Carois from Carrois Type Design](http://www.carrois.com/type.html) and [Erik Spiekermann](http://spiekermann.com/) designed the Fira Sans typeface ( initially called Feura Sans ).    
+On commission from Mozilla, and on behalf of Eden Spiekermann in Berlin, from July 2012 to August 2013, [Ralph du Carois from Carrois Type Design](http://www.carrois.com/type.html) and [Erik Spiekermann](http://spiekermann.com/) designed the Fira Sans typeface ( initially called Feura Sans ).    
 Fira is the new font family for Firefox OS. So far Fira includes 8 Sans Cuts - 4 uprights and 4 Italics - and 2 monos. Fira is the younger sister of Meta. ( Meta typeface, designed and developed by Erik Spiekermann in the late 1980s, which is being used as the brand typeface of the Mozilla Foundation ). Although the typeface was redrawn from scratch, it is clearly stylistically akin to Meta.
 A serif version of Fira is expected to follow soon, as well as Arabic and Hebrew versions.
 
