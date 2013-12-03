@@ -2,8 +2,8 @@
 # Base16 Atelier Seaside - Gnome Terminal color scheme install script
 # Bram de Haan (http://atelierbram.github.io/syntax-highlighting/atelier-schemes/seaside/)
 
-[[ -z "$PROFILE_NAME" ]] && PROFILE_NAME="Base 16 Atelier Seaside"
-[[ -z "$PROFILE_SLUG" ]] && PROFILE_SLUG="base-16-atelierseaside"
+[[ -z "$PROFILE_NAME" ]] && PROFILE_NAME="Base 16 Atelier Seaside Dark"
+[[ -z "$PROFILE_SLUG" ]] && PROFILE_SLUG="base-16-atelierseaside-dark"
 [[ -z "$GCONFTOOL" ]] && GCONFTOOL=gconftool
 [[ -z "$BASE_KEY" ]] && BASE_KEY=/apps/gnome-terminal/profiles
 
@@ -37,7 +37,7 @@ glist_append() {
 glist_append string /apps/gnome-terminal/global/profile_list "$PROFILE_SLUG"
 
 gset string visible_name "$PROFILE_NAME"
-gset string palette "#131513:#e6193c:#29a329:#c3c322:#3d62f5:#ad2bee:#1999b3:#8ca68c:#687d68:#87711d:#242924:#5e6e5e:#809980:#cfe8cf:#e619c3:#f0fff0"
+gset string palette "#131513:#e6193c:#29a329:#c3c322:#3d62f5:#ad2bee:#1999b3:#8ca68c:#687d68:#e6193c:#29a329:#c3c322:#3d62f5:#ad2bee:#1999b3:#f0fff0"
 gset string background_color "#131513"
 gset string foreground_color "#8ca68c"
 gset string bold_color "#8ca68c"
