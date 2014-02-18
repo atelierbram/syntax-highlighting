@@ -11,6 +11,16 @@ Mac: "Library/Application Support/Google/Chrome/Default/User StyleSheets/"
 Linux: "~/.config/chrome/Default/User StyleSheets/" 
 Windows: "C:\Users\**Your username**\AppData\Local\Google\Chrome\User Data\Default\User StyleSheets\"
 ```
+
+Method above will not work anymore.
+
+To make Solarized Light Theme work in Crome Canary, follow the instructions on:
+
+* [Official method (Chrome 33+ only) taken from stackoverflow](http://stackoverflow.com/questions/21207474/custom-css-stop-to-work-in-32-0-1700-76-m-google-chrome-update)
+* [ZeroDarkMatrix Theme for Chrome](https://github.com/mauricecruz/chrome-devtools-zerodarkmatrix-theme)
+
+[You can download the stylesheet](zero-base-themes/canary-theme-extension/styles.css), but better (edit and) regenerate the [.less file](zero-base-themes/themes/solarized-light.less), which is build on top of [Zero Base Themes](https://github.com/mauricecruz/zero-base-themes).
+
 For tweaking the theme you can use DevTools itself to inspect Devtools: 
 
 1. undock DevTools
