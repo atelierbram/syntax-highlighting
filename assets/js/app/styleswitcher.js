@@ -72,6 +72,10 @@ $(function() {
   $(".code-base16-ocean").click(function(){$("#stylesheet--code").attr("href","../assets/css/prism/base16-ocean.dark.css");return false;});
   $(".code-base16-ocean-light").click(function(){$("#stylesheet--code").attr("href","../assets/css/prism/base16-ocean.light.css");return false;});
   $(".code-base16-ocean-dark").click(function(){$("#stylesheet--code").attr("href","../assets/css/prism/base16-ocean.dark.css");return false;});
+  $(".code-base16-paraiso-light").click(function(){$("#stylesheet--code").attr("href","../assets/css/prism/base16-paraiso.light.css");return false;});
+  $(".code-base16-paraiso-dark").click(function(){$("#stylesheet--code").attr("href","../assets/css/prism/base16-paraiso.dark.css");return false;});
+  $(".code-base16-pop-light").click(function(){$("#stylesheet--code").attr("href","../assets/css/prism/base16-pop.light.css");return false;});
+  $(".code-base16-pop-dark").click(function(){$("#stylesheet--code").attr("href","../assets/css/prism/base16-pop.dark.css");return false;});
   $(".code-base16-railscasts").click(function(){$("#stylesheet--code").attr("href","../assets/css/prism/base16-railscasts.dark.css");return false;});
   $(".code-base16-railscasts-light").click(function(){$("#stylesheet--code").attr("href","../assets/css/prism/base16-railscasts.light.css");return false;});
   $(".code-base16-railscasts-dark").click(function(){$("#stylesheet--code").attr("href","../assets/css/prism/base16-railscasts.dark.css");return false;});
