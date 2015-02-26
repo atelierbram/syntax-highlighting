@@ -1,7 +1,7 @@
 <!doctype html>
 <html lang="en">
   <head>
-    <meta charset="utf-8"> 
+    <meta charset="utf-8">
     <title>Colorschemes Syntax highlighting for Prism</title>
 
     <link href="../assets/css/screen.css" media="screen, projection" rel="stylesheet" type="text/css" />
@@ -9,20 +9,20 @@
 
     <!--[if IE]>
     <link href="../assets/css/ie.css" media="screen, projection" rel="stylesheet" type="text/css" />
-    <![endif]--> 
+    <![endif]-->
 
-    <link rel="stylesheet" href="../assets/css/app.css" /> 
-    <link rel="stylesheet" href="../assets/css/prism/prism.css" id="stylesheet--code" /> 
+    <link rel="stylesheet" href="../assets/css/app.css" />
+    <link rel="stylesheet" href="../assets/css/prism/prism.css" id="stylesheet--code" />
 
 
     <meta name="viewport" content="width=device-width">
     <meta name="author" content="Bram de Haan">
-    <meta name="robots" content="index, follow">  <meta name="description" content="Colection of colorschemes for Code Syntax highlighting"/> 
-    <link rel="author" href="https://plus.google.com/111567145811003203990/posts"> 
+    <meta name="robots" content="index, follow">  <meta name="description" content="Colection of colorschemes for Code Syntax highlighting"/>
+    <link rel="author" href="https://plus.google.com/+BramdeHaan/posts">
   </head>
 
-  <body class="sh-prism"> 
-    <!-- Header and Nav --> 
+  <body class="sh-prism">
+    <!-- Header and Nav -->
     <header id="header" class="row header">
     <div class="large-4 columns">
       <h1 class="repo-title"><a href="http://atelierbram.github.io/syntax-highlighting/">Syntax Highlighting <span class="tagline sh-small">colorschemes</span></a></h1>
@@ -30,78 +30,131 @@
     </div>
     <nav class="large-8 columns ">
     <ul class="inline-list right">
-       <li><a href="./chrome-devtools">Chrome DevTools</a></li> 
+       <li><a href="./chrome-devtools">Chrome DevTools</a></li>
        <li><a href="../lab">Lab</a></li>
-       <li><a href="../atelier-schemes/" data-dropdown="drop-atelierschemes" class="button dropdown dropdown-atelier">Atelier Schemes<span data-dropdown="drop-atelierschemes"></span></a><br> 
+       <li><a href="../atelier-schemes/" data-dropdown="drop-atelierschemes" class="button dropdown dropdown-atelier">Atelier Schemes<span data-dropdown="drop-atelierschemes"></span></a><br>
           <ul id="drop-atelierschemes" class="f-dropdown small" data-dropdown-content>
           <li><a href="../atelier-schemes">index - overview</a></li>
           <li><a href="../atelier-schemes/forest">Forest</a></li>
 <li><a href="../heath">Heath</a></li>
           <li><a href="../atelier-schemes/lakeside">Lakeside</a></li>
-          <li><a href="../atelier-schemes/seaside">Seaside</a></li> 
-          <li><a href="../atelier-schemes/dune">Dune</a></li> 
+          <li><a href="../atelier-schemes/seaside">Seaside</a></li>
+          <li><a href="../atelier-schemes/dune">Dune</a></li>
           <li><a href="../atelier-schemes/output">Output</a></li>
-          </ul> 
-          </li> 
+          </ul>
+          </li>
     </ul>
     </nav>
     </header>
 
-    <!-- End Header and Nav --> 
-     <div class="row outer-wrap">    
-       <div class="line styleswitchers"> 
+    <!-- End Header and Nav -->
+     <div class="row outer-wrap">
+       <div class="line styleswitchers">
       <!-- <div class="row">  -->
 
         <div class="large-4 push-7 columns">
           <a href="#" data-dropdown="drop1" class="button dropdown medium">colorschemes<span data-dropdown="drop1"></span></a><br>
 
           <ul id="drop1" class="f-dropdown small" data-dropdown-content>
-            <li><a class="styleswitch code-default" href="?prism" title="code-default">light (default)</a></li> 
+            <li><a class="styleswitch code-default" href="?prism" title="code-default">light (default)</a></li>
             <li><a class="styleswitch code-dark" href="?prism-dark" title="code-dark">dark</a></li>
-            <li><a class="styleswitch code-funky" href="?prism-funky" title="code-funky">funky</a></li> 
-            <li><a class="styleswitch code-okaidia" href="?prism-okaidia" title="code-okaidia">okaidia</a></li> 
-            <li><a class="styleswitch code-twilight" href="?prism-twilight" title="code-twilight">twilight</a></li> 
-            <li><a class="styleswitch code-tomorrow" href="?prism-tomorrow" title="code-tomorrow">tomorrow</a></li> 
-            <li><a class="styleswitch code-xonokai" href="?prism-xonokai" title="code-xonokai">xonokai</a></li> 
-            <li><a class="styleswitch code-cbavota" href="?prism-cbavota" title="code-cbavota">cbavota</a></li> 
-            <li><a class="styleswitch code-pojoaque" href="?prism-pojoaque" title="code-pojoaque">pojoaque</a></li> 
+            <li><a class="styleswitch code-funky" href="?prism-funky" title="code-funky">funky</a></li>
+            <li><a class="styleswitch code-okaidia" href="?prism-okaidia" title="code-okaidia">okaidia</a></li>
+            <li><a class="styleswitch code-twilight" href="?prism-twilight" title="code-twilight">twilight</a></li>
+            <li><a class="styleswitch code-tomorrow" href="?prism-tomorrow" title="code-tomorrow">tomorrow</a></li>
+            <li><a class="styleswitch code-xonokai" href="?prism-xonokai" title="code-xonokai">xonokai</a></li>
+            <li><a class="styleswitch code-cbavota" href="?prism-cbavota" title="code-cbavota">cbavota</a></li>
+            <li><a class="styleswitch code-pojoaque" href="?prism-pojoaque" title="code-pojoaque">pojoaque</a></li>
 
-            <li><a class="styleswitch code-base16-3024" href="?base16-3024.dark.css" title="code-base16-3024">Base16-3024</a></li> 
-            <li><a class="styleswitch code-base16-chalk" href="?base16-chalk.dark.css" title="code-base16-chalk">Base16-Chalk</a></li> 
-            <li><a class="styleswitch code-base16-eighties" href="?base16-eighties.dark.css" title="code-base16-eighties">Base16-Eighties</a></li> 
-            <li><a class="styleswitch code-base16-greenscreen" href="?base16-greenscreen.dark.css" title="code-base16-greenscreen">Base16-Greenscreen</a></li> 
-            <li><a class="styleswitch code-base16-mocha" href="?base16-mocha.dark.css" title="code-base16-mocha">Base16-Mocha</a></li> 
-            <li><a class="styleswitch code-base16-monokai" href="?base16-monokai.dark.css" title="code-base16-monokai">Base16-Monokai</a></li> 
-            <li><a class="styleswitch code-base16-ocean" href="?base16-ocean.dark.css" title="code-base16-ocean">Base16-Ocean</a></li> 
-            <li><a class="styleswitch code-base16-railscasts" href="?base16-railscasts.dark.css" title="code-base16-railscasts">Base16-Railscasts</a></li> 
-            <li><a class="styleswitch code-base16-solarized-dark" href="?base16-solarized.dark.css" title="code-base16-solarized-dark">Base16-Solarized-dark</a></li> 
-            <li><a class="styleswitch code-base16-solarized-light" href="?base16-solarized.light.css" title="code-base16-solarized-light">Base16-Solarized-light</a></li> 
-            <li><a class="styleswitch code-base16-tomorrow" href="?base16-tomorrow.dark.css" title="code-base16-tomorrow">Base16-Tomorrow</a></li> 
+            <li><a class="styleswitch code-base16-3024-light" href="?base16-3024.light.css" title="code-base16-3024-light">Base16-3024-light</a></li>
+            <li><a class="styleswitch code-base16-3024-dark" href="?base16-3024.dark.css" title="code-base16-3024-dark">Base16-3024-dark</a></li>
+            <li><a class="styleswitch code-base16-apathy-light" href="?base16-apathy.light.css" title="code-base16-apathy-light">Base16-Apathy-light</a></li>
+            <li><a class="styleswitch code-base16-apathy-dark" href="?base16-apathy.dark.css" title="code-base16-apathy-dark">Base16-Apathy-dark</a></li>
+            <li><a class="styleswitch code-base16-ashes-light" href="?base16-ashes.light.css" title="code-base16-ashes-light">Base16-Ashes-light</a></li>
+            <li><a class="styleswitch code-base16-ashes-dark" href="?base16-ashes.dark.css" title="code-base16-ashes-dark">Base16-Ashes-dark</a></li>
+            <li><a class="styleswitch code-base16-atelierforest-light" href="?base16-atelier-forest-light" title="code-base16-atelier-forest-light">Base16-Atelier-Forest-light</a></li>
+            <li><a class="styleswitch code-base16-atelierforest-dark" href="?base16-atelier-forest-dark" title="code-base16-atelier-forest-dark">Base16-Atelier-Forest-dark</a></li>
+            <li><a class="styleswitch code-base16-atelierheath-light" href="?base16-atelier-heath-light" title="code-base16-atelier-heath-light">Base16-Atelier-Heath-light</a></li>
+            <li><a class="styleswitch code-base16-atelierheath-dark" href="?base16-atelier-heath-dark" title="code-base16-atelier-heath-dark">Base16-Atelier-Heath-dark</a></li>
+            <li><a class="styleswitch code-base16-atelierlakeside-light" href="?base16-atelier-lakeside-light" title="code-base16-atelier-lakeside-light">Base16-Atelier-Lakeside-light</a></li>
+            <li><a class="styleswitch code-base16-atelierlakeside-dark" href="?base16-atelier-lakeside-dark" title="code-base16-atelier-lakeside-dark">Base16-Atelier-Lakeside-dark</a></li>
+            <li><a class="styleswitch code-base16-atelierseaside-light" href="?base16-atelier-seaside-light" title="code-base16-atelier-seaside-light">Base16-Atelier-Seaside-light</a></li>
+            <li><a class="styleswitch code-base16-atelierseaside-dark" href="?base16-atelier-seaside-dark" title="code-base16-atelier-seaside-dark">Base16-Atelier-Seaside-dark</a></li>
+            <li><a class="styleswitch code-base16-atelierdune-light" href="?base16-atelier-dune-light" title="code-base16-atelier-dune-light">Base16-Atelier-Dune-light</a></li>
+            <li><a class="styleswitch code-base16-atelierdune-dark" href="?base16-atelier-dune-dark" title="code-base16-atelier-dune-dark">Base16-Atelier-Dune-dark</a></li>
+            <li><a class="styleswitch code-base16-bespin-light" href="?base16-bespin.light.css" title="code-base16-bespin-light">Base16-Bespin-light</a></li>
+            <li><a class="styleswitch code-base16-bespin-dark" href="?base16-bespin.dark.css" title="code-base16-bespin-dark">Base16-Bespin-dark</a></li>
+            <li><a class="styleswitch code-base16-brewer-light" href="?base16-brewer.light.css" title="code-base16-brewer-light">Base16-Brewer-light</a></li>
+            <li><a class="styleswitch code-base16-brewer-dark" href="?base16-brewer.dark.css" title="code-base16-brewer-dark">Base16-Brewe-dark</a></li>
+            <li><a class="styleswitch code-base16-bright-light" href="?base16-bright.light.css" title="code-base16-bright-light">Base16-Bright-light</a></li>
+            <li><a class="styleswitch code-base16-bright-dark" href="?base16-bright.dark.css" title="code-base16-bright-dark">Base16-Bright-dark</a></li>
+            <li><a class="styleswitch code-base16-chalk-light" href="?base16-chalk.light.css" title="code-base16-chalk-light">Base16-Chalk-light</a></li>
+            <li><a class="styleswitch code-base16-chalk-dark" href="?base16-chalk.dark.css" title="code-base16-chalk-dark">Base16-Chalk-dark</a></li>
+            <li><a class="styleswitch code-base16-codeschool-light" href="?base16-codeschool.light.css" title="code-base16-codeschool-light">Base16-Codeschool-light</a></li>
+            <li><a class="styleswitch code-base16-codeschool-dark" href="?base16-codeschool.dark.css" title="code-base16-codeschool-dark">Base16-Codeschool-dark</a></li>
+            <li><a class="styleswitch code-base16-colors-light" href="?base16-colors.light.css" title="code-base16-colors-light">Base16-Colors-light</a></li>
+            <li><a class="styleswitch code-base16-colors-dark" href="?base16-colors.dark.css" title="code-base16-colors-dark">Base16-Colors-dark</a></li>
+            <li><a class="styleswitch code-base16-default-light" href="?base16-default.light.css" title="code-base16-default-light">Base16-Default-light</a></li>
+            <li><a class="styleswitch code-base16-default-dark" href="?base16-default.dark.css" title="code-base16-default-dark">Base16-Default-dark</a></li>
+            <li><a class="styleswitch code-base16-eighties-light" href="?base16-eighties.light.css" title="code-base16-eighties-light">Base16-Eighties-light</a></li>
+            <li><a class="styleswitch code-base16-eighties-dark" href="?base16-eighties.dark.css" title="code-base16-eighties-dark">Base16-Eighties-dark</a></li>
+            <li><a class="styleswitch code-base16-embers-light" href="?base16-embers.light.css" title="code-base16-embers-light">Base16-Embers-light</a></li>
+            <li><a class="styleswitch code-base16-embers-dark" href="?base16-embers.dark.css" title="code-base16-embers-dark">Base16-Embers-dark</a></li>
+            <li><a class="styleswitch code-base16-flat-light" href="?base16-flat.light.css" title="code-base16-flat-light">Base16-Flat-light</a></li>
+            <li><a class="styleswitch code-base16-flat-dark" href="?base16-flat.dark.css" title="code-base16-flat-dark">Base16-Flat-dark</a></li>
+            <li><a class="styleswitch code-base16-google-light" href="?base16-google.light.css" title="code-base16-google-light">Base16-Google-light</a></li>
+            <li><a class="styleswitch code-base16-google-dark" href="?base16-google.dark.css" title="code-base16-google-dark">Base16-Google-dark</a></li>
+            <li><a class="styleswitch code-base16-grayscale-light" href="?base16-grayscale.light.css" title="code-base16-grayscale-light">Base16-Grayscale-light</a></li>
+            <li><a class="styleswitch code-base16-grayscale-dark" href="?base16-grayscale.dark.css" title="code-base16-grayscale-dark">Base16-Grayscale-dark</a></li>
+            <li><a class="styleswitch code-base16-greenscreen-light" href="?base16-greenscreen.light.css" title="code-base16-greenscreen-light">Base16-Greenscreen-light</a></li>
+            <li><a class="styleswitch code-base16-greenscreen-dark" href="?base16-greenscreen.dark.css" title="code-base16-greenscreen-dark">Base16-Greenscreen-dark</a></li>
+            <li><a class="styleswitch code-base16-harmonic16-light" href="?base16-harmonic16.light.css" eitle="code-base16-harmonic16-light">Base16-Harmonic16-light</a></li>
+            <li><a class="styleswitch code-base16-harmonic16-dark" href="?base16-harmonic16.dark.css" title="code-base16-harmonic16-dark">Base16-Harmonic16-dark</a></li>
+            <li><a class="styleswitch code-base16-hopscotch-light" href="?base16-hopscotch.light.css" title="code-base16-hopscotch-light">Base16-Hopscotch-light</a></li>
+            <li><a class="styleswitch code-base16-hopscotch-dark" href="?base16-hopscotch.dark.css" title="code-base16-hopscotch-dark">Base16-Hopscotch-dark</a></li>
+            <li><a class="styleswitch code-base16-isotope-light" href="?base16-isotope.light.css" title="code-base16-isotope-light">Base16-Isotope-light</a></li>
+            <li><a class="styleswitch code-base16-isotope-dark" href="?base16-isotope.dark.css" title="code-base16-isotope-dark">Base16-Isotope-dark</a></li>
+            <li><a class="styleswitch code-base16-marrakesh-light" href="?base16-marrakesh.light.css" title="code-base16-marrakesh-light">Base16-marrakesh-light</a></li>
+            <li><a class="styleswitch code-base16-marrakesh-dark" href="?base16-marrakesh.dark.css" title="code-base16-marrakesh-dark">Base16-marrakesh-dark</a></li>
+            <li><a class="styleswitch code-base16-mocha-light" href="?base16-mocha.light.css" title="code-base16-mocha-light">Base16-Mocha-light</a></li>
+            <li><a class="styleswitch code-base16-mocha-dark" href="?base16-mocha.dark.css" title="code-base16-mocha-dark">Base16-Mocha-dark</a></li>
+            <li><a class="styleswitch code-base16-monokai-light" href="?base16-monokai.light.css" title="code-base16-monokai-light">Base16-Monokai-light</a></li>
+            <li><a class="styleswitch code-base16-monokai-dark" href="?base16-monokai.dark.css" title="code-base16-monokai-dark">Base16-Monokai-dark</a></li>
+            <li><a class="styleswitch code-base16-ocean-light" href="?base16-ocean.light.css" title="code-base16-ocean-light">Base16-Ocean-light</a></li>
+            <li><a class="styleswitch code-base16-ocean-dark" href="?base16-ocean.dark.css" title="code-base16-ocean-dark">Base16-Ocean-dark</a></li>
+            <li><a class="styleswitch code-base16-paraiso-light" href="?base16-paraiso.light.css" title="code-base16-paraiso-light">Base16-Paraiso-light</a></li>
+            <li><a class="styleswitch code-base16-paraiso-dark" href="?base16-paraiso.dark.css" title="code-base16-paraiso-dark">Base16-Paraiso-dark</a></li>
+            <li><a class="styleswitch code-base16-pop" href="?base16-pop.light.css" title="code-base16.pop.light">Base16-Pop-light</a></li>
+            <li><a class="styleswitch code-base16-pop" href="?base16-pop.dark.css" title="code-base16-pop.dark">Base16-Pop-dark</a></li>
+            <li><a class="styleswitch code-base16-railscasts-light" href="?base16-railscasts.light.css" title="code-base16-railscasts-light">Base16-Railscasts-light</a></li>
+            <li><a class="styleswitch code-base16-railscasts-dark" href="?base16-railscasts.dark.css" title="code-base16-railscasts-dark">Base16-Railscasts-dark</a></li>
+            <li><a class="styleswitch code-base16-shapeshifter-light" href="?base16-shapeshifter.light.css" title="code-base16-shapeshifter-light">Base16-shapeshifter-light</a></li>
+            <li><a class="styleswitch code-base16-shapeshifter-dark" href="?base16-shapeshifter.dark.css" title="code-base16-shapeshifter-dark">Base16-shapeshifter-dark</a></li>
+            <li><a class="styleswitch code-base16-solarized-light" href="?base16-solarized.light.css" title="code-base16-solarized-light">Base16-Solarized-light</a></li>
+            <li><a class="styleswitch code-base16-solarized-dark" href="?base16-solarized.dark.css" title="code-base16-solarized-dark">Base16-Solarized-dark</a></li>
+            <li><a class="styleswitch code-base16-summerfruit-light" href="?base16-summerfuit.light.css" title="code-base16-summerfuit-light">Base16-Summerfuit-light</a></li>
+            <li><a class="styleswitch code-base16-summerfruit-dark" href="?base16-summerfuit.dark.css" title="code-base16-summerfuit-dark">Base16-Summerfuit-dark</a></li>
+            <li><a class="styleswitch code-base16-tomorrow-light" href="?base16-tomorrow.light.css" title="code-base16-tomorrow-light">Base16-Tomorrow-light</a></li>
+            <li><a class="styleswitch code-base16-tomorrow-dark" href="?base16-tomorrow.dark.css" title="code-base16-tomorrow-dark">Base16-Tomorrow-dark</a></li>
+            <li><a class="styleswitch code-base16-londontube-light" href="?base16-londontube.light.css" title="code-base16-londontube-light">Base16-London-Tube-light</a></li>
+            <li><a class="styleswitch code-base16-londontube-dark" href="?base16-londontube.dark.css" title="code-base16-londontube-dark">Base16-London-Tube-dark</a></li>
+            <li><a class="styleswitch code-base16-twilight-light" href="?base16-twilight.light.css" title="code-base16-twilight-light">Base16-Twilight-light</a></li>
+            <li><a class="styleswitch code-base16-twilight-dark" href="?base16-twilight.dark.css" title="code-base16-twilight-dark">Base16-Twilight-dark</a></li>
 
-            <li><a class="styleswitch code-forest-light" href="?prism-forest-light" title="code-forest-light">forest-light</a></li> 
-            <li><a class="styleswitch code-forest-dark" href="?prism-forest-dark" title="code-forest-dark">forest-dark</a></li>  
-            <li><a class="styleswitch code-heath-light" href="?prism-heath-light" title="code-heath-light">heath-light</a></li> 
-            <li><a class="styleswitch code-heath-dark" href="?prism-heath-dark" title="code-heath-dark">heath-dark</a></li>   
-            <li><a class="styleswitch code-lakeside-light" href="?prism-lakeside-light" title="code-lakeside-light">lakeside-light</a></li> 
-            <li><a class="styleswitch code-lakeside-dark" href="?prism-lakeside-dark" title="code-lakeside-dark">lakeside-dark</a></li>   
-            <li><a class="styleswitch code-seaside-light" href="?prism-seaside-light" title="code-seaside-light">seaside-light</a></li> 
-            <li><a class="styleswitch code-seaside-dark" href="?prism-seaside-dark" title="code-seaside-dark">seaside-dark</a></li>   
-            <li><a class="styleswitch code-dune-light" href="?prism-dune-light" title="code-dune-light">dune-light</a></li>  
-            <li><a class="styleswitch code-dune-dark" href="?prism-dune-dark" title="code-dune-dark">dune-dark</a></li>  
-          </ul>  
+          </ul>
         </div>
 
       <!-- </div> -->
       <!-- /.row -->
-    </div><!-- /.line .styleswitchers --> 
+    </div><!-- /.line .styleswitchers -->
 
       <!-- Main Content Section -->
       <!-- This has been source ordered to come first in the markup (and on small devices) but to be to the right of the nav on larger screens -->
       <article class="large-8 push-3 columns">
       <div class="inner-wrap">
 
-         <h2 class="project-title" id="about-prism">Prism <small>colorschemes</small></h2> 
-        <p><a href="http://prismjs.com/">Prism</a> is a lightweight, robust, elegant syntax highlighting library. It is written in javascript, and the colorschemes are CSS stylesheets; so highly customisable.</p> 
+         <h2 class="project-title" id="about-prism">Prism <small>colorschemes</small></h2>
+        <p><a href="http://prismjs.com/">Prism</a> is a lightweight, robust, elegant syntax highlighting library. It is written in javascript, and the colorschemes are CSS stylesheets; so highly customisable.</p>
 
 
         <div class="section-container auto" data-section>
@@ -111,8 +164,8 @@
 <!-- more about code markup and syntax highlighting on prismjs.com/#basic-usage -->
 <!--http://www.elliotswan.com/postable/-->
   <pre><code>
-&lt;!-- main grid section --&gt; 
-&lt;div class=&quot;row&quot;&gt; 
+&lt;!-- main grid section --&gt;
+&lt;div class=&quot;row&quot;&gt;
  &lt;div class=&quot;large-4 columns&quot;&gt;
    &lt;div class=&quot;panel&quot;&gt;
      &lt;h5&gt;panel title&lt;/h5&gt;
@@ -127,38 +180,38 @@
  &lt;/div&gt;
  &lt;div class=&quot;large-3  columns&quot;&gt;
    &lt;div class=&quot;panel&quot;&gt;
-</code></pre> 
-    </div> 
-      </section> 
+</code></pre>
+    </div>
+      </section>
 
       <section id="css-highlighting" class="language-markup">
           <p class="title" data-section-title><a href="#panel2">CSS</a></p>
 
           <div class="content" data-section-content>
-  <pre><code class="language-css"> 
-/* comment */ 
-@media only screen { 
-footer { 
+  <pre><code class="language-css">
+/* comment */
+@media only screen {
+footer {
   overflow: hidden;
   text-align: center;
   text-transform: uppercase;
 }
 footer ul {
   list-style: none;
-  padding-left: 0; 
-} 
+  padding-left: 0;
+}
 .cf:before,
 .cf:after {
   content: "";
   display: table;
-} 
+}
 .cf:after { clear: both; }
 </code></pre>
-     </div> 
-      </section> 
+     </div>
+      </section>
 
       <section id="javascript-highlighting" class="language-markup">
-          <p class="title" data-section-title><a href="#panel3">Javascript</a></p> 
+          <p class="title" data-section-title><a href="#panel3">Javascript</a></p>
 
           <div class="content" data-section-content>
 <pre><code class="language-javascript">
@@ -182,11 +235,11 @@ events : function () {
 </code></pre>
 
 <!--http://ahrengot.com/web-development/pretty-code/-->
-      </div> 
-      </section> 
+      </div>
+      </section>
 
       <section id="php-highlighting" class="language-markup">
-          <p class="title" data-section-title><a href="#panel4">SVG</a></p> 
+          <p class="title" data-section-title><a href="#panel4">SVG</a></p>
 
           <div class="content" data-section-content>
 <pre class="language-markup svg-markup"><code class="language-markup">
@@ -201,11 +254,11 @@ events : function () {
 &lt;/svg&gt;
 
 </code></pre>
-          </div> 
-          </section> 
+          </div>
+          </section>
 
         </div><!-- /.selection-container (tabs) -->
-        <p class="note">When clicking the style-switcher in the top right corner to quickly switch between colorschemes, you can get a feeling for how the different schemes look, and also explore how they behave in different language-code-syntax (, while clicking through the tabs in the different code examples &hellip;).</p> 
+        <p class="note">When clicking the style-switcher in the top right corner to quickly switch between colorschemes, you can get a feeling for how the different schemes look, and also explore how they behave in different language-code-syntax (, while clicking through the tabs in the different code examples &hellip;).</p>
 
         <p>Prism comes with six colorschemes:</p>
         <ol>
@@ -213,71 +266,71 @@ events : function () {
           <li><a href="https://raw.github.com/LeaVerou/prism/gh-pages/prism-dark.css">Dark</a></li>
           <li><a href="https://raw.github.com/LeaVerou/prism/gh-pages/prism-funky.css">Funky</a></li>
           <li><a href="https://raw.github.com/LeaVerou/prism/gh-pages/prism-okaidia.css">Okaidia</a></li>
-          <li><a href="https://raw.github.com/LeaVerou/prism/gh-pages/prism-twilight.css">Twilight</a></li> 
+          <li><a href="https://raw.github.com/LeaVerou/prism/gh-pages/prism-twilight.css">Twilight</a></li>
           <li><a href="https://raw.github.com/LeaVerou/prism/gh-pages/prism-tomorrow.css">Tomorrow</a></li>
         </ol>
 
         <p> One can <a href="https://github.com/LeaVerou/prism">download those directly from Github.</a></p>
 
-        <!-- /.row prism syntax highlight examples --> 
+        <!-- /.row prism syntax highlight examples -->
 
 
 
         <h3 id="customising">Customising</h3>
 
-        <p>Except for the six that come with Prism, this repo contains more colorschemes, collected (<i>stolen</i>) from elsewhere and further adapted (<i>tweaked</i>).</p> 
-        <p>When possible, backlinks to their origin, and information about their creators are included.</p> 
+        <p>Except for the six that come with Prism, this repo contains more colorschemes, collected (<i>stolen</i>) from elsewhere and further adapted (<i>tweaked</i>).</p>
+        <p>When possible, backlinks to their origin, and information about their creators are included.</p>
 
-        <ol> 
-          <li><a href="../assets/css/prism/prism-xonokai.css">Xonokai</a>, 
-          original scheme by <a href="http://moox.fr/">Maxime Thirouin</a>, 
+        <ol>
+          <li><a href="../assets/css/prism/prism-xonokai.css">Xonokai</a>,
+          original scheme by <a href="http://moox.fr/">Maxime Thirouin</a>,
           <a href="https://github.com/MoOx/sass-prism-theme-base">colorscheme on Github </a></li>
-          <li><a href="../assets/css/prism/prism-cbavota.css">Cbavota</a>, 
+          <li><a href="../assets/css/prism/prism-cbavota.css">Cbavota</a>,
           original scheme by <a href="http://cbavota.bitbucket.org/syntax-highlighter/">C. Bavota</a></li>
-          <li><a href="../assets/css/prism/prism-pojoaque.css">Pojoaque</a>, 
-          original scheme by <a href="http://web-cms-designs.com/ftopict-10-pojoaque-style-for-highlight-js-code-highlighter.html">Jason Tate</a></li> 
+          <li><a href="../assets/css/prism/prism-pojoaque.css">Pojoaque</a>,
+          original scheme by <a href="http://web-cms-designs.com/ftopict-10-pojoaque-style-for-highlight-js-code-highlighter.html">Jason Tate</a></li>
         </ol>
 
         <h3 id="base16-schemes">Base16 Schemes</h3>
-        <p>Colorschemes produced, and if not tributed to someone else, also made by <a href="http://chriskempson.com">Chris Kempson</a> with <a href="https://github.com/chriskempson/base16-builder">base16 builder</a>. 
+        <p>Colorschemes produced, and if not tributed to someone else, also made by <a href="http://chriskempson.com">Chris Kempson</a> with <a href="https://github.com/chriskempson/base16-builder">base16 builder</a>.
         </p>
 
         <ol>
-          <li><a href="../assets/css/prism/base16-3024.dark.css">Base16-3024</a>, original scheme by <a href="http://github.com/idleberg">Jan T. Sott</a></li> 
-          <li><a href="../assets/css/prism/base16-chalk.dark.css">Base16-Chalk</a></li> 
-          <li><a href="../assets/css/prism/base16-eighties.dark.css">Base16-Eighties</a></li> 
-          <li><a href="../assets/css/prism/base16-greenscreen.dark.css">Base16-Greenscreen</a></li> 
-          <li><a href="../assets/css/prism/base16-mocha.dark.css">Base16-Mocha</a></li> 
-          <li><a href="../assets/css/prism/base16-monokai.dark.css">Base16-Monokai</a>, original scheme by <a href="http://www.monokai.nl">Wimer Hazenberg</a></li> 
-          <li><a href="../assets/css/prism/base16-ocean.dark.css">Base16-Ocean</a></li> 
-          <li><a href="../assets/css/prism/base16-railscasts.dark.css">Base16-Railscasts</a>, original scheme by <a href="http://railscasts.com">Ryan Bates</a></li> 
-          <li><a href="../assets/css/prism/base16-solarized.dark.css">Base16-Solarized-dark</a>, original scheme by <a href="http://ethanschoonover.com/solarized">Ethan Schoonover</a></li> 
-          <li><a href="../assets/css/prism/base16-solarized.light.css">Base16-Solarized-light</a>, original scheme by <a href="http://ethanschoonover.com/solarized">Ethan Schoonover</a></li> 
-          <li><a href="../assets/css/prism/base16-tomorrow.dark.css">Base16-Tomorrow</a></li> 
-        </ol> 
+          <li><a href="../assets/css/prism/base16-3024.dark.css">Base16-3024</a>, original scheme by <a href="http://github.com/idleberg">Jan T. Sott</a></li>
+          <li><a href="../assets/css/prism/base16-chalk.dark.css">Base16-Chalk</a></li>
+          <li><a href="../assets/css/prism/base16-eighties.dark.css">Base16-Eighties</a></li>
+          <li><a href="../assets/css/prism/base16-greenscreen.dark.css">Base16-Greenscreen</a></li>
+          <li><a href="../assets/css/prism/base16-mocha.dark.css">Base16-Mocha</a></li>
+          <li><a href="../assets/css/prism/base16-monokai.dark.css">Base16-Monokai</a>, original scheme by <a href="http://www.monokai.nl">Wimer Hazenberg</a></li>
+          <li><a href="../assets/css/prism/base16-ocean.dark.css">Base16-Ocean</a></li>
+          <li><a href="../assets/css/prism/base16-railscasts.dark.css">Base16-Railscasts</a>, original scheme by <a href="http://railscasts.com">Ryan Bates</a></li>
+          <li><a href="../assets/css/prism/base16-solarized.dark.css">Base16-Solarized-dark</a>, original scheme by <a href="http://ethanschoonover.com/solarized">Ethan Schoonover</a></li>
+          <li><a href="../assets/css/prism/base16-solarized.light.css">Base16-Solarized-light</a>, original scheme by <a href="http://ethanschoonover.com/solarized">Ethan Schoonover</a></li>
+          <li><a href="../assets/css/prism/base16-tomorrow.dark.css">Base16-Tomorrow</a></li>
+        </ol>
 
         <h3 id="atelier-schemes">Atelier Schemes</h3>
         <p>And then some more, made by <a href="http://atelierbramdehaan.nl">me, Bram de Haan</a> with <a href="https://github.com/chriskempson/base16-builder">base16 builder</a>. You can find them in the <a href="https://github.com/atelierbram/syntax-highlighting/tree/master/atelier-schemes/output/prism">prism folder, within the output folder of Atelier schemes</a>.</p>
 
         <ol>
-          <li><a href="../atelier-schemes/output/prism/base16-atelierforest.light.css">Forest Light</a></li> 
-          <li><a href="../atelier-schemes/output/prism/base16-atelierforest.dark.css">Forest Dark</a></li> 
-          <li><a href="../atelier-schemes/output/prism/base16-atelierheath.light.css">Heath Light</a></li> 
-          <li><a href="../atelier-schemes/output/prism/base16-atelierheath.dark.css">Heath Dark</a></li> 
-          <li><a href="../atelier-schemes/output/prism/base16-atelierlakeside.light.css">Lakeside Light</a></li> 
-          <li><a href="../atelier-schemes/output/prism/base16-atelierlakeside.dark.css">lakeside Dark</a></li> 
-          <li><a href="../atelier-schemes/output/prism/base16-atelierseaside.light.css">Seaside Light</a></li> 
-          <li><a href="../atelier-schemes/output/prism/base16-atelierseaside.dark.css">Seaside Dark</a></li> 
-          <li><a href="../atelier-schemes/output/prism/base16-atelierdune.light.css">Dune Light</a></li> 
-          <li><a href="../atelier-schemes/output/prism/base16-atelierdune.dark.css">Dune Dark</a></li> 
+          <li><a href="../atelier-schemes/output/prism/base16-atelierforest.light.css">Forest Light</a></li>
+          <li><a href="../atelier-schemes/output/prism/base16-atelierforest.dark.css">Forest Dark</a></li>
+          <li><a href="../atelier-schemes/output/prism/base16-atelierheath.light.css">Heath Light</a></li>
+          <li><a href="../atelier-schemes/output/prism/base16-atelierheath.dark.css">Heath Dark</a></li>
+          <li><a href="../atelier-schemes/output/prism/base16-atelierlakeside.light.css">Lakeside Light</a></li>
+          <li><a href="../atelier-schemes/output/prism/base16-atelierlakeside.dark.css">lakeside Dark</a></li>
+          <li><a href="../atelier-schemes/output/prism/base16-atelierseaside.light.css">Seaside Light</a></li>
+          <li><a href="../atelier-schemes/output/prism/base16-atelierseaside.dark.css">Seaside Dark</a></li>
+          <li><a href="../atelier-schemes/output/prism/base16-atelierdune.light.css">Dune Light</a></li>
+          <li><a href="../atelier-schemes/output/prism/base16-atelierdune.dark.css">Dune Dark</a></li>
         </ol>
 
-         <h3 id="#lab" class="mtm">Lab</h3> 
+         <h3 id="#lab" class="mtm">Lab</h3>
         <ul>
           <li><a href="http://codepen.io/atelierbram/pen/JnbIt">Colorscheme Lab on CodePen</a></li>
           <li><a href="https://gist.github.com/atelierbram/6283373">Colorscheme Lab as Github Gist</a></li>
         </ul>
- 
+
 
         <h3 id="external-links">External Links</h3>
         <ul>
@@ -290,7 +343,7 @@ events : function () {
           <li><a href="https://github.com/chriskempson/base16">Base16 on Github</a></li>
         </ul>
 
-        <p><a href="#header" class="go-to-top sh-button"><svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="50px" height="50px" viewBox="0 0 50 50" enable-background="new 0 0 50 50" xml:space="preserve"> 
+        <p><a href="#header" class="go-to-top sh-button"><svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="50px" height="50px" viewBox="0 0 50 50" enable-background="new 0 0 50 50" xml:space="preserve">
           <g id="outline-black">
           <path opacity="0.5" d="M25,3L3,34l12-1v13h20V33l12,1L25,3z"/>
           </g>
@@ -299,25 +352,25 @@ events : function () {
           </g>
           </svg><span class="up-arrow">&#11014;</span>
           <span class="visuallyhidden">Go to Top</span></a>
-        </p>  
+        </p>
 
       </div><!-- \.inner-wrap -->
-      </article> 
+      </article>
 
       <!-- Nav Sidebar -->
       <!-- This is source ordered to be pulled to the left on larger screens -->
-      <nav class="large-3 pull-9 columns nav-anchor-links nav-anchor-links"> 
+      <nav class="large-3 pull-9 columns nav-anchor-links nav-anchor-links">
       <ul class="side-nav">
         <li><a href="#about-prism"><span>About Prism</span></a></li>
         <li><a href="#html-highlighting"><span>Code Examples</span></a></li>
-        <li><a href="#customising"><span>Customising</span></a></li> 
+        <li><a href="#customising"><span>Customising</span></a></li>
         <li><a href="#base16-schemes"><span>Base16 Schemes</span></a></li>
         <li><a href="#atelier-schemes"><span>Atelier Schemes</span></a></li>
         <li><a href="#lab"><span>Lab</span></a></li>
         <li><a href="#external-links"><span>External Links</span></a></li>
-      </ul> 
-      </nav> 
-    </div> 
+      </ul>
+      </nav>
+    </div>
 
     <!-- Footer -->
     <footer class="page-footer row">
@@ -327,11 +380,11 @@ events : function () {
           <p id="license" class="copyright">&copy; 2013 <a href="http://atelierbramdehaan.nl" class="underline">Atelier Bram de Haan</a>, Releases under <a href="http://atelierbram.mit-license.org" class="underline">MIT License</a></p>
         </div>
         <div class="large-4 columns">
-          <a href="https://github.com/atelierbram/syntax-highlighting" class="sh-button">This repo on Github</a> 
+          <a href="https://github.com/atelierbram/syntax-highlighting" class="sh-button">This repo on Github</a>
         </div>
       </div>
-    </div> 
-    </footer>  
+    </div>
+    </footer>
 
     <script src="../assets/js/vendor/prism.js" data-default-language="markup"></script>
 
@@ -339,7 +392,7 @@ events : function () {
       document.write('<script src=' +
         ('__proto__' in {} ? '../assets/js/vendor/zepto' : 'js/vendor/jquery') +
         '.js><\/script>')
-      </script> 
+      </script>
 
 
       <script src="../assets/js/foundation/foundation.min.js"></script>
@@ -360,9 +413,10 @@ events : function () {
       <!-- <script src="../assets/js/foundation/foundation.interchange.js"></script> -->
       <script>
         $(document).foundation();
-      </script> 
-      <script src="../assets/js/vendor/custom.modernizr.js"></script> 
-      <script src="../assets/js/app/styleswitcher.min.js"></script> 
+      </script>
+      <script src="../assets/js/vendor/custom.modernizr.js"></script>
+      <!-- <script src="../assets/js/app/styleswitcher.min.js"></script> -->
+      <script src="../assets/js/app/styleswitcher.js"></script>
     </body>
   </html>
 

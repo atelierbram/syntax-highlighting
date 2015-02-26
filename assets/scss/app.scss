@@ -7,7 +7,7 @@ body {
 .styleswitchers {
   // position: fixed;
   position: absolute;
-  top: 0; 
+  top: 0;
   z-index: 200;
   width: 100%;
 }
@@ -16,56 +16,56 @@ body {
   background-color: $sh-blue-color;
   text-transform: uppercase;
   border-color: darken($sh-blue-color,5);
-} 
-.styleswitchers .dropdown:hover { 
+}
+.styleswitchers .dropdown:hover {
   background-color: adjust-hue($sh-blue-color,-20);
 }
 .f-dropdown.open,
 .styleswitchers .open {
-  box-shadow: 0 .5em 1em rgba(black,.25); 
-} 
+  box-shadow: 0 .5em 1em rgba(black,.25);
+  max-height: 260px;
+  overflow-y: auto;
+}
 .styleswitchers a {
   display: block;
   padding: .25em .5em;
   line-height: 1.25;
-} 
+}
 
 .f-dropdown li a {
   border-top: 1px solid #fff;
-  border-bottom: 1px solid rgba(black,.2); 
+  border-bottom: 1px solid rgba(black,.2);
   // outline: 1px solid rgba(black,.25);
 }
 .f-dropdown li:first-child a {
   border-top: none;
-} 
+}
 .f-dropdown li:last-child a {
   border-bottom: none;
-} 
-.f-dropdown a,
-.f-dropdown .styleswitch { 
-  background: lighten($sh-bg-color,20); 
+}
+.f-dropdown a {
+  background: lighten($sh-bg-color,20);
   color: #111;
-} 
+}
 
 .f-dropdown a:hover,
-.f-dropdown a:focus,
-.f-dropdown .styleswitch:hover,
-.f-dropdown .styleswitch:focus { 
+.f-dropdown a:focus {
   background: #fff;
 }
-.f-dropdown:before { 
-  border-bottom-color: lighten($sh-bg-color,20) ; 
+.f-dropdown:before {
+  border-bottom-color: lighten($sh-bg-color,20) ;
 }
-.f-dropdown .is-selected, 
-.f-dropdown .is-selected:hover {
-  background: adjust-hue($sh-blue-color,-20); 
+.f-dropdown .is-selected,
+.f-dropdown .is-selected:hover,
+.f-dropdown .is-selected:active {
+  background: adjust-hue($sh-blue-color,-20) !important;
   color: #fff;
   border-top-color: transparent;
   border-bottom-color: transparent;
   pointer-events: none;
   cursor: default;
-} 
-.header .f-dropdown.small { 
+}
+.header .f-dropdown.small {
   max-width: 170px;
 }
 .dropdown-atelier.button:before {
@@ -75,23 +75,23 @@ body {
 /* grid helpers */
 .ptl {
   padding-top: 2em;
-} 
+}
 .pbl {
   padding-bottom: 2em;
-} 
+}
 .mbl {
   margin-bottom: 2em;
 }
 .pad-v  {
   padding: 1em 0;
-} 
+}
 .outer-wrap {
-  position: relative; 
+  position: relative;
 }
 .language-markup pre[class*="language-"] {
   margin-bottom: 2em;
   font-size: emCalc(16);
-} 
+}
 @media only screen and (min-width: 768px) {
   .section-container.auto {
     overflow-x: hidden;

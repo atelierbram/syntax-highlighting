@@ -6,17 +6,20 @@ Author:     Wimer Hazenberg (http://www.monokai.nl)
 Prism template by Bram de Haan (http://atelierbram.github.io/syntax-highlighting/prism/)
 Original Base16 color scheme by Chris Kempson (https://github.com/chriskempson/base16)
 
- */ 
+*/
 
 code[class*="language-"],
 pre[class*="language-"] {
   color: #f9f8f5;
+  text-shadow: none;
   font-family: Consolas, Menlo, Monaco, "Andale Mono WT", "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", "DejaVu Sans Mono", "Bitstream Vera Sans Mono", "Liberation Mono", "Nimbus Mono L", "Courier New", Courier, monospace;
   font-size: 14px;
   line-height: 1.375;
   direction: ltr;
   text-align: left;
+  white-space: pre;
   word-spacing: normal;
+  word-break: normal;
 
   -moz-tab-size: 4;
   -o-tab-size: 4;
@@ -25,20 +28,28 @@ pre[class*="language-"] {
   -webkit-hyphens: none;
   -moz-hyphens: none;
   -ms-hyphens: none;
-  hyphens: none; 
-  white-space: pre; 
-  white-space: pre-wrap; 
-  word-break: break-all;
-  word-wrap: break-word; 
-  background: #272822; 
+  hyphens: none;
+  background: #272822;
   color: #f8f8f2;
+}
+
+pre[class*="language-"]::-moz-selection, pre[class*="language-"] ::-moz-selection,
+code[class*="language-"]::-moz-selection, code[class*="language-"] ::-moz-selection {
+  text-shadow: none;
+  background: #a59f85;
+}
+
+pre[class*="language-"]::selection, pre[class*="language-"] ::selection,
+code[class*="language-"]::selection, code[class*="language-"] ::selection {
+  text-shadow: none;
+  background: #a59f85;
 }
 
 /* Code blocks */
 pre[class*="language-"] {
   padding: 1em;
   margin: .5em 0;
-  overflow: auto;	
+  overflow: auto;
 }
 
 /* Inline code */
@@ -51,7 +62,7 @@ pre[class*="language-"] {
 .token.prolog,
 .token.doctype,
 .token.cdata {
-  color: #49483e;
+  color: #75715e;
 }
 
 .token.punctuation {
@@ -67,24 +78,24 @@ pre[class*="language-"] {
 .token.boolean,
 .token.number {
   color: #fd971f;
-} 
-.token.property { 
+}
+.token.property {
   color: #f4bf75;
 }
-.token.tag { 
+.token.tag {
   color: #66d9ef;
-} 
+}
 .token.string {
   color: #a1efe4;
-} 
-.token.selector { 
+}
+.token.selector {
   color: #ae81ff;
 }
-.token.attr-name { 
+.token.attr-name {
   color: #fd971f;
-} 
+}
 .token.entity,
-.token.url, 
+.token.url,
 .language-css .token.string,
 .style .token.string {
   color: #a1efe4;
@@ -96,30 +107,30 @@ pre[class*="language-"] {
 .token.directive,
 .token.unit {
   color: #a6e22e;
-} 
+}
 
 .token.statement,
-.token.regex, 
-.token.atrule { 
+.token.regex,
+.token.atrule {
   color: #a1efe4;
 }
 
 .token.placeholder,
 .token.variable {
   color: #66d9ef;
-} 
+}
 
 .token.important {
   color: #f92672;
   font-weight: bold;
-} 
+}
 
 .token.entity {
   cursor: help;
-} 
+}
 
 pre > code.highlight {
-  outline: .4em solid red;
+  outline: .4em solid #f92672;
   outline-offset: .4em;
-} 
+}
 
