@@ -1,0 +1,29 @@
+# schema for konsole (KDE3)
+# put in ~/.kde/share/apps/konsole/
+
+title = Base16 Atelier Seaside
+
+
+#   slot    transparent bold
+#      | red grn blu  | |
+#      V V--color--V  V V
+color  0 140 166 140  0 0 # 0 - Foreground Color
+color  1  19  21  19  1 0 # 1 - Background Color
+color  2  19  21  19  0 0 # 2 - Color 0 (black)
+color  3 230  25  60  0 0 # 3 - Color 1 (red)
+color  4  41 163  41  0 0 # 3 - Color 2 (green)
+color  5 152 152  27  0 0 # 3 - Color 3 (yellow)
+color  6  61  98 245  0 0 # 3 - Color 4 (blue)
+color  7 173  43 238  0 0 # 3 - Color 5 (magenta)
+color  8  25 153 179  0 0 # 3 - Color 6 (cyan)
+color  9 140 166 140  0 0 # 3 - Color 7 (white)
+color 10 192 208 192  0 1 # 3 - Foreground Intensive Color
+color 11 131 136 131  1 0 # 3 - Background Intensive Color
+color 12 131 136 131  0 0 # 3 - Color 0 Intensive (grey)
+color 13 237 138 152  0 0 # 3 - Color 1 Intensive (light red)
+color 14 142 207 142  0 0 # 3 - Color 2 Intensive (light green)
+color 15 198 201 135  0 0 # 3 - Color 3 Intensive (light yellow)
+color 16 152 174 244  0 0 # 3 - Color 4 Intensive (light blue)
+color 17 208 147 241  0 0 # 3 - Color 5 Intensive (light magenta)
+color 18 134 202 211  0 0 # 3 - Color 6 Intensive (light cyan)
+color 19 192 208 192  0 0 # 3 - Color 7 Intensive (white)

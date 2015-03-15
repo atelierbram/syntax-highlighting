@@ -1,0 +1,23 @@
+/* Base16 Atelier Dune
+Scheme: Bram de Haan (http://atelierbram.github.io/syntax-highlighting/atelier-schemes/dune) */
+
+table.sourceCode, tr.sourceCode, td.sourceCode, table.sourceCode pre
+{ margin: 0; padding: 0; border: 0; vertical-align: baseline; border: none; background-color: #20201d; color: #a6a28c }
+td.nums { text-align: right; padding-right: 5px; padding-left: 5px; background-color: #292824; }
+td.sourceCode { padding-left: 5px; }
+code.sourceCode { background-color: #20201d; }
+pre.sourceCode { background-color: #20201d; line-height: 125% }
+td.nums pre { background-color: #292824; line-height: 125% }
+code.sourceCode span.kw { color: #6684e1; font-weight: bold } /* Keyword */
+code.sourceCode span.dt { color: #b854d4} /* Keyword.Type */
+code.sourceCode span.dv { color: #b65611 } /* Literal.Number.Integer */
+code.sourceCode span.bn { color: #b65611 } /* Literal.Number.Hex */
+code.sourceCode span.fl { color: #b65611 } /* Literal.Number.Float */
+code.sourceCode span.ch { color: #60ac39} /* Literal.String.Char */
+code.sourceCode span.st { color: #60ac39 } /* Literal.String */
+code.sourceCode span.co { color: #7d7a68 } /* Comment */
+code.sourceCode span.ot { color: #d43552 } /* Comment.Preproc */
+code.sourceCode span.al { color: #b854d4 } /* Generic.Error */
+code.sourceCode span.fu { color: #ae9513 } /* Name.Function */
+code.sourceCode span.re { color: #1fad83}
+code.sourceCode span.er { color: #d73737; border: 1px solid #b854d4 } /* Error */
