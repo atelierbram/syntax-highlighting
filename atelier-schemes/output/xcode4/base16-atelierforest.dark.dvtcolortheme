@@ -29,7 +29,7 @@
   <key>DVTConsoleTextSelectionColor</key>
   <string>0.40784313725490196 0.3803921568627451 0.3686274509803922 1</string>
   <key>DVTDebuggerInstructionPointerColor</key>
-  <string>0.35294117647058826 0.7176470588235294 0.2196078431372549 1</string>
+  <string>0.4823529411764706 0.592156862745098 0.14901960784313725 1</string>
   <key>DVTSourceTextBackground</key>
   <string>0.10588235294117647 0.09803921568627451 0.09411764705882353 1</string>
   <key>DVTSourceTextBlockDimBackgroundColor</key>
@@ -45,7 +45,7 @@
     <key>xcode.syntax.attribute</key>
     <string>0.4 0.4 0.9176470588235294 1</string>
     <key>xcode.syntax.character</key>
-    <string>0.35294117647058826 0.7176470588235294 0.2196078431372549 1</string>
+    <string>0.4823529411764706 0.592156862745098 0.14901960784313725 1</string>
     <key>xcode.syntax.comment</key>
     <string>0.4627450980392157 0.43137254901960786 0.4196078431372549 1</string>
     <key>xcode.syntax.comment.doc</key>
@@ -61,7 +61,7 @@
     <key>xcode.syntax.identifier.constant.system</key>
     <string>0.7647058823529411 0.24705882352941178 0.9529411764705882 1</string>
     <key>xcode.syntax.identifier.function</key>
-    <string>0.8352941176470589 0.5686274509803921 0.10196078431372549 1</string>
+    <string>0.7647058823529411 0.5176470588235295 0.09411764705882353 1</string>
     <key>xcode.syntax.identifier.function.system</key>
     <string>0.8745098039215686 0.3254901960784314 0.12549019607843137 1</string>
     <key>xcode.syntax.identifier.macro</key>
@@ -79,13 +79,13 @@
     <key>xcode.syntax.keyword</key>
     <string>0.25098039215686274 0.49411764705882355 0.9058823529411765 1</string>
     <key>xcode.syntax.number</key>
-    <string>0.35294117647058826 0.7176470588235294 0.2196078431372549 1</string>
+    <string>0.4823529411764706 0.592156862745098 0.14901960784313725 1</string>
     <key>xcode.syntax.plain</key>
     <string>0.9450980392156862 0.9372549019607843 0.9333333333333333 1</string>
     <key>xcode.syntax.preprocessor</key>
-    <string>0.0 0.6784313725490196 0.611764705882353 1</string>
+    <string>0.23921568627450981 0.592156862745098 0.7215686274509804 1</string>
     <key>xcode.syntax.string</key>
-    <string>0.35294117647058826 0.7176470588235294 0.2196078431372549 1</string>
+    <string>0.4823529411764706 0.592156862745098 0.14901960784313725 1</string>
     <key>xcode.syntax.url</key>
     <string>0.4 0.4 0.9176470588235294 1</string>
   </dict>

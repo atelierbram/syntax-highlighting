@@ -61,7 +61,7 @@
     <key>xcode.syntax.identifier.constant.system</key>
     <string>0.8313725490196079 0.20784313725490197 0.3215686274509804 1</string>
     <key>xcode.syntax.identifier.function</key>
-    <string>0.8117647058823529 0.6901960784313725 0.09019607843137255 1</string>
+    <string>0.6823529411764706 0.5843137254901961 0.07450980392156863 1</string>
     <key>xcode.syntax.identifier.function.system</key>
     <string>0.7137254901960784 0.33725490196078434 0.06666666666666667 1</string>
     <key>xcode.syntax.identifier.macro</key>

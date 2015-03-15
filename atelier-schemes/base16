@@ -18,8 +18,10 @@ class Theme
     @output_dir = File.join(BASE_PATH, "output")
   end
 
-  def build(scheme_file)
-
+  def build(scheme_file, template_dir)
+    if template_dir then
+      build_single_template(template_dir)
+    end
     if scheme_file then
       build_single_scheme(scheme_file)
     else
@@ -53,6 +55,12 @@ class Theme
     Dir.glob(File.join(@scheme_dir, '**', '*.yml'))
   rescue StandardError
     abort(read_error_message(scheme_dir))
+  end
+
+  def build_single_template(template_dir)
+    @template_dir = File.join(BASE_PATH, "templates", template_dir)
+  rescue StandardError
+    abort(read_error_message(@template_dir))
   end
 
   def read_template_dir
@@ -238,13 +246,32 @@ help_message = <<-EOF
 Base16 Builder v0.1
 https://github.com/chriskempson/base16-builder
 
-usage: base16               build all schemes
-   or: base16 scheme.yml    build specified scheme
+usage: base16               build all schemes and templates
+   or: base16 [-s <scheme>] [-t <template>]
+
+-h, --help                  opens this help prompt
+-s, --scheme                build specified scheme
+-t, --template              build specified template
 EOF
 
-case ARGV[0]
-  when "-h", "--help"
-      puts help_message
-  else
-    Theme.new.build(ARGV[0])
+if ARGV[0] != nil then
+  tmp_template = false
+  tmp_scheme = false
+
+  ARGV.length.times do |i|
+    case ARGV[i]
+      when "-h", "--help"
+        puts help_message
+      when "-s", "--scheme"
+        tmp_scheme = ARGV[i+1]
+      when "-t", "--template"
+        tmp_template = ARGV[i+1]
+    end
+  end
+
+  if tmp_template or tmp_scheme then
+    Theme.new.build(tmp_scheme, tmp_template)
+  end
+else
+  Theme.new.build(false,false)
 end

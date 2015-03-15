@@ -41,7 +41,7 @@
 				<key>invisibles</key>
 				<string>#<%= @base["03"]["hex"] %></string>
 				<key>lineHighlight</key>
-				<string>#<%= @base["01"]["hex"] %></string>
+				<string>#<%= @base["03"]["hex"] %>55</string>
 				<key>selection</key>
 				<string>#<%= @base["02"]["hex"] %></string>
 			</dict>
@@ -364,7 +364,7 @@
 			<key>name</key>
 			<string>Link Text</string>
 			<key>scope</key>
-			<string>string.other.link</string>
+      <string>string.other.link, punctuation.definition.string.end.markdown</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -496,7 +496,7 @@
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>Invalid</string>
+			<string>Illegal</string>
 			<key>scope</key>
 			<string>invalid.illegal</string>
 			<key>settings</key>
@@ -504,7 +504,46 @@
 				<key>background</key>
 				<string>#<%= @base["08"]["hex"] %></string>
 				<key>foreground</key>
+				<string>#<%= @base["07"]["hex"] %></string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Broken</string>
+			<key>scope</key>
+			<string>invalid.broken</string>
+			<key>settings</key>
+			<dict>
+				<key>background</key>
+				<string>#<%= @base["09"]["hex"] %></string>
+				<key>foreground</key>
 				<string>#<%= @base["00"]["hex"] %></string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Deprecated</string>
+			<key>scope</key>
+			<string>invalid.deprecated</string>
+			<key>settings</key>
+			<dict>
+				<key>background</key>
+				<string>#<%= @base["0F"]["hex"] %></string>
+				<key>foreground</key>
+				<string>#<%= @base["07"]["hex"] %></string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Unimplemented</string>
+			<key>scope</key>
+			<string>invalid.unimplemented</string>
+			<key>settings</key>
+			<dict>
+				<key>background</key>
+				<string>#<%= @base["03"]["hex"] %></string>
+				<key>foreground</key>
+				<string>#<%= @base["07"]["hex"] %></string>
 			</dict>
 		</dict>
 	</array>

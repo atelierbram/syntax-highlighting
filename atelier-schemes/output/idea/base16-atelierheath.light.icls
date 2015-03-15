@@ -7,7 +7,7 @@
   <option name="CONSOLE_LINE_SPACING" value="1.0" />
   <option name="EDITOR_FONT_NAME" value="Menlo" />
   <colors>
-    <option name="ADDED_LINES_COLOR" value="379a37" />
+    <option name="ADDED_LINES_COLOR" value="918b3b" />
     <option name="ANNOTATIONS_COLOR" value="695d69" />
     <option name="CARET_COLOR" value="292329" />
     <option name="CARET_ROW_COLOR" value="d8cad8" />
@@ -20,7 +20,7 @@
     <option name="INDENT_GUIDE" value="9e8f9e" />
     <option name="LINE_NUMBERS_COLOR" value="1b181b" />
     <option name="METHOD_SEPARATORS_COLOR" value="ab9bab" />
-    <option name="MODIFIED_LINES_COLOR" value="379a37" />
+    <option name="MODIFIED_LINES_COLOR" value="918b3b" />
     <option name="NOTIFICATION_BACKGROUND" value="292329" />
     <option name="READONLY_FRAGMENT_BACKGROUND" value="1b181b" />
     <option name="RECURSIVE_CALL_ATTRIBUTES" value="ab9bab" />
@@ -67,7 +67,7 @@
     </option>
     <option name="DEFAULT_STRING">
         <value>
-            <option name="FOREGROUND" value="379a37" />
+            <option name="FOREGROUND" value="918b3b" />
             <option name="FONT_TYPE" value="1" />
         </value>
     </option>
@@ -492,7 +492,7 @@
     </option>
     <option name="DIFF_INSERTED">
       <value>
-        <option name="BACKGROUND" value="379a37" />
+        <option name="BACKGROUND" value="918b3b" />
         <option name="ERROR_STRIPE_COLOR" value="baeeba" />
       </value>
     </option>
@@ -694,7 +694,7 @@
     </option>
     <option name="Map key">
       <value>
-        <option name="FOREGROUND" value="379a37" />
+        <option name="FOREGROUND" value="918b3b" />
       </value>
     </option>
     <option name="NOT_USED_ELEMENT_ATTRIBUTES">

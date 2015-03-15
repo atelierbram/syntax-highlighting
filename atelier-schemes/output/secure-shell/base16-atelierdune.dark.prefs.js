@@ -9,7 +9,7 @@ term_.prefs_.set('color-palette-overrides', [
     '#20201d',
     '#d73737',
     '#60ac39',
-    '#cfb017',
+    '#ae9513',
     '#6684e1',
     '#b854d4',
     '#1fad83',

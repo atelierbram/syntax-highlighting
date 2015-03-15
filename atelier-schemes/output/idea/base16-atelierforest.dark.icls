@@ -7,14 +7,14 @@
   <option name="CONSOLE_LINE_SPACING" value="1.0" />
   <option name="EDITOR_FONT_NAME" value="Menlo" />
   <colors>
-    <option name="ADDED_LINES_COLOR" value="5ab738" />
+    <option name="ADDED_LINES_COLOR" value="7b9726" />
     <option name="ANNOTATIONS_COLOR" value="68615e" />
     <option name="CARET_COLOR" value="e6e2e0" />
     <option name="CARET_ROW_COLOR" value="2c2421" />
     <option name="CONSOLE_BACKGROUND_KEY" value="1b1918" />
     <option name="FILESTATUS_ADDED" value="407ee7" />
     <option name="FILESTATUS_IDEA_FILESTATUS_IGNORED" value="c33ff3" />
-    <option name="FILESTATUS_MODIFIED" value="00ad9c" />
+    <option name="FILESTATUS_MODIFIED" value="3d97b8" />
     <option name="FILESTATUS_UNKNOWN" value="c33ff3" />
     <option name="GUTTER_BACKGROUND" value="1b1918" />
     <option name="INDENT_GUIDE" value="68615e" />
@@ -51,7 +51,7 @@
     </option>
     <option name="DEFAULT_IDENTIFIER">
         <value>
-            <option name="FOREGROUND" value="00ad9c" />
+            <option name="FOREGROUND" value="3d97b8" />
         </value>
     </option>
     <option name="DEFAULT_NUMBER">
@@ -66,7 +66,7 @@
     </option>
     <option name="DEFAULT_STRING">
         <value>
-            <option name="FOREGROUND" value="5ab738" />
+            <option name="FOREGROUND" value="7b9726" />
         </value>
     </option>
     <option name="DEFAULT_BLOCK_COMMENT">
@@ -131,12 +131,12 @@
     </option>
     <option name="DEFAULT_LOCAL_VARIABLE">
         <value>
-            <option name="FOREGROUND" value="00ad9c" />
+            <option name="FOREGROUND" value="3d97b8" />
         </value>
     </option>
     <option name="DEFAULT_GLOBAL_VARIABLE">
         <value>
-            <option name="FOREGROUND" value="00ad9c" />
+            <option name="FOREGROUND" value="3d97b8" />
         </value>
     </option>
     <option name="DEFAULT_FUNCTION_DECLARATION">
@@ -260,7 +260,7 @@
     </option>
     <option name="ANNOTATION_NAME_ATTRIBUTES">
       <value>
-        <option name="FOREGROUND" value="00ad9c" />
+        <option name="FOREGROUND" value="3d97b8" />
         <option name="EFFECT_TYPE" value="1" />
       </value>
     </option>
@@ -443,7 +443,7 @@
     </option>
     <option name="CUSTOM_NUMBER_ATTRIBUTES">
       <value>
-        <option name="FOREGROUND" value="00ad9c" />
+        <option name="FOREGROUND" value="3d97b8" />
       </value>
     </option>
     <option name="CUSTOM_STRING_ATTRIBUTES">
@@ -686,7 +686,7 @@
     </option>
     <option name="Map key">
       <value>
-        <option name="FOREGROUND" value="5ab738" />
+        <option name="FOREGROUND" value="7b9726" />
       </value>
     </option>
     <option name="NOT_USED_ELEMENT_ATTRIBUTES">

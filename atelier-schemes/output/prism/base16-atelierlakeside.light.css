@@ -10,8 +10,6 @@ Original Base16 color scheme by Chris Kempson (https://github.com/chriskempson/b
 
 code[class*="language-"],
 pre[class*="language-"] {
-  color: #ebf8ff;
-  text-shadow: none;
   font-family: Consolas, Menlo, Monaco, "Andale Mono WT", "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", "DejaVu Sans Mono", "Bitstream Vera Sans Mono", "Liberation Mono", "Nimbus Mono L", "Courier New", Courier, monospace;
   font-size: 14px;
   line-height: 1.375;
@@ -69,11 +67,10 @@ pre[class*="language-"] {
   color: #516d7b;
 }
 
-.namespace {
+.token.namespace {
   opacity: .7;
 }
 
-.token.null,
 .token.operator,
 .token.boolean,
 .token.number {
@@ -120,9 +117,26 @@ pre[class*="language-"] {
   color: #257fad;
 }
 
+.token.deleted {
+  text-decoration: line-through;
+}
+
+.token.inserted {
+  border-bottom: 1px dotted #161b1d;
+  text-decoration: none;
+}
+
+.token.italic {
+  font-style: italic;
+}
+
+.token.important,
+.token.bold {
+  font-weight: bold;
+}
+
 .token.important {
   color: #d22d72;
-  font-weight: bold;
 }
 
 .token.entity {
@@ -133,4 +147,3 @@ pre > code.highlight {
   outline: .4em solid #d22d72;
   outline-offset: .4em;
 }
-

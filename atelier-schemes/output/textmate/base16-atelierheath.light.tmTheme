@@ -37,7 +37,7 @@
 				<key>invisibles</key>
 				<string>#d8cad8</string>
 				<key>lineHighlight</key>
-				<string>#d8cad8</string>
+				<string>#9e8f9e55</string>
 				<key>selection</key>
 				<string>#d8cad8</string>
 			</dict>
@@ -193,7 +193,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#379a37</string>
+				<string>#918b3b</string>
 			</dict>
 		</dict>
 		<dict>
@@ -353,7 +353,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#379a37</string>
+				<string>#918b3b</string>
 			</dict>
 		</dict>
 		<dict>
@@ -421,7 +421,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#379a37</string>
+				<string>#918b3b</string>
 			</dict>
 		</dict>
 		<dict>
@@ -492,7 +492,7 @@
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>Invalid</string>
+			<string>Illegal</string>
 			<key>scope</key>
 			<string>invalid.illegal</string>
 			<key>settings</key>
@@ -503,8 +503,47 @@
 				<string>#f7f3f7</string>
 			</dict>
 		</dict>
+		<dict>
+			<key>name</key>
+			<string>Broken</string>
+			<key>scope</key>
+			<string>invalid.broken</string>
+			<key>settings</key>
+			<dict>
+				<key>background</key>
+				<string>#a65926</string>
+				<key>foreground</key>
+				<string>#1b181b</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Deprecated</string>
+			<key>scope</key>
+			<string>invalid.deprecated</string>
+			<key>settings</key>
+			<dict>
+				<key>background</key>
+				<string>#cc33cc</string>
+				<key>foreground</key>
+				<string>#f7f3f7</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Unimplemented</string>
+			<key>scope</key>
+			<string>invalid.unimplemented</string>
+			<key>settings</key>
+			<dict>
+				<key>background</key>
+				<string>#ab9bab</string>
+				<key>foreground</key>
+				<string>#1b181b</string>
+			</dict>
+		</dict>
 	</array>
 	<key>uuid</key>
-	<string>e3e328f3-a950-4028-bf9f-55b0e0440d6f</string>
+	<string>55065be4-8893-4f4f-bcc0-a636796c1a88</string>
 </dict>
 </plist>

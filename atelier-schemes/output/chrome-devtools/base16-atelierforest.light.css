@@ -22,7 +22,7 @@
 }
 #-webkit-web-inspector.compact #toolbar {
   background: -webkit-linear-gradient(#9c9491, #e6e2e0) !important;
-  border-top: 5px solid #00ad9c !important;
+  border-top: 5px solid #3d97b8 !important;
   border-bottom: 1px solid #a8a19f !important;
   padding-top: 0 !important;
   height: 50px !important;
@@ -179,16 +179,16 @@
 }
 #-webkit-web-inspector .section .properties .name,
 #-webkit-web-inspector .event-properties .name {
-  color: #d5911a !important;
+  color: #c38418 !important;
 }
 #-webkit-web-inspector .styles-selector {
-  color: #5ab738 !important;
+  color: #7b9726 !important;
 }
 #-webkit-web-inspector .section .header {
   color: #CCC !important;
 }
 #-webkit-web-inspector .properties .value {
-  color: #00ad9c !important;
+  color: #3d97b8 !important;
 }
 #-webkit-web-inspector .metrics {
   color: #333 !important;
@@ -365,7 +365,7 @@
   color: #df5320 !important;
 }
 #-webkit-web-inspector .webkit-html-attribute-value {
-  color: #5ab738 !important;
+  color: #7b9726 !important;
 }
 #-webkit-web-inspector .webkit-html-text-node .webkit-html-css-node {
   color: #df5320 !important;
@@ -382,10 +382,10 @@
 }
 #-webkit-web-inspector .webkit-css-selector,
 #-webkit-web-inspector .styles-selector {
-  color: #5ab738 !important;
+  color: #7b9726 !important;
 }
 #-webkit-web-inspector .webkit-css-property {
-  color: #d5911a !important;
+  color: #c38418 !important;
 }
 #-webkit-web-inspector .webkit-css-keyword {
   color: #f22c40 !important;
@@ -399,7 +399,7 @@
   color: #6666ea !important;
 }
 #-webkit-web-inspector .webkit-css-string {
-  color: #00ad9c !important;
+  color: #3d97b8 !important;
 }
 #-webkit-web-inspector .webkit-css-url {
   color: #407ee7 !important;
@@ -431,7 +431,7 @@
 }
 #-webkit-web-inspector .section .properties .name,
 #-webkit-web-inspector .event-properties .name {
-  color: #d5911a !important;
+  color: #c38418 !important;
 }
 #-webkit-web-inspector .popover {
   background-color: rgba(0, 0, 0, 0.9) !important;
@@ -502,7 +502,7 @@
 }
 #-webkit-web-inspector #timeline-overview-separator {
   background: -webkit-linear-gradient(#9c9491, #e6e2e0) !important;
-  border-top: 1px solid #00ad9c !important;
+  border-top: 1px solid #3d97b8 !important;
   border-bottom: 1px solid #a8a19f !important;
 }
 #-webkit-web-inspector .timeline-details-title {
@@ -587,7 +587,7 @@
 }
 #-webkit-web-inspector .settings-tab .help-section-title,
 #-webkit-web-inspector .help-key {
-  color: #00ad9c !important;
+  color: #3d97b8 !important;
 }
 #-webkit-web-inspector .help-key-delimiter {
   color: #6666ea !important;
@@ -599,7 +599,7 @@
   background: #333 !important;
 }
 #-webkit-web-inspector .placard.selected {
-  background-image: -webkit-linear-gradient(#00ad9c, #335e57) !important;
+  background-image: -webkit-linear-gradient(#3d97b8, #335e57) !important;
   border-top-color: #335e57 !important;
 }
 #-webkit-web-inspector .placard .title {

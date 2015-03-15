@@ -11,9 +11,9 @@
 #define base07 #f1efee
 #define base08 #f22c40
 #define base09 #df5320
-#define base0A #d5911a
-#define base0B #5ab738
-#define base0C #00ad9c
+#define base0A #c38418
+#define base0B #7b9726
+#define base0C #3d97b8
 #define base0D #407ee7
 #define base0E #6666ea
 #define base0F #c33ff3
@@ -21,6 +21,7 @@
 *.foreground:   base05
 *.background:   base00
 *.cursorColor:  base05
+
 *.color0:       base00
 *.color1:       base08
 *.color2:       base0B
@@ -29,6 +30,7 @@
 *.color5:       base0E
 *.color6:       base0C
 *.color7:       base05
+
 *.color8:       base03
 *.color9:       base09
 *.color10:      base01

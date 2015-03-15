@@ -18,16 +18,16 @@ Color=242,44,64
 Color=241,141,151
 
 [Color2] 
-Color=90,183,56
+Color=123,151,38
 
 [Color2Intense]
-Color=165,211,147
+Color=182,195,138
 
 [Color3] 
-Color=213,145,26
+Color=195,132,24
 
 [Color3Intense]
-Color=227,192,132
+Color=218,185,131
 
 [Color4] 
 Color=64,126,231
@@ -42,10 +42,10 @@ Color=102,102,234
 Color=171,170,236
 
 [Color6] 
-Color=0,173,156
+Color=61,151,184
 
 [Color6Intense]
-Color=120,206,197
+Color=151,195,211
 
 [Color7] 
 Color=168,161,159

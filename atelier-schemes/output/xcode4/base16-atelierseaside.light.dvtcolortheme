@@ -23,7 +23,7 @@
   <key>DVTConsoleExectuableOutputTextFont</key>
   <string>Menlo-Bold - 11.0</string>
   <key>DVTConsoleTextBackgroundColor</key>
-  <string>0.9411764705882353 1.0 0.9411764705882353 1</string>
+  <string>0.9568627450980393 0.984313725490196 0.9568627450980393 1</string>
   <key>DVTConsoleTextInsertionPointColor</key>
   <string>0.3686274509803922 0.43137254901960786 0.3686274509803922 1</string>
   <key>DVTConsoleTextSelectionColor</key>
@@ -31,13 +31,13 @@
   <key>DVTDebuggerInstructionPointerColor</key>
   <string>0.1607843137254902 0.6392156862745098 0.1607843137254902 1</string>
   <key>DVTSourceTextBackground</key>
-  <string>0.9411764705882353 1.0 0.9411764705882353 1</string>
+  <string>0.9568627450980393 0.984313725490196 0.9568627450980393 1</string>
   <key>DVTSourceTextBlockDimBackgroundColor</key>
   <string>0.5 0.5 0.5 1</string>
   <key>DVTSourceTextInsertionPointColor</key>
   <string>0.3686274509803922 0.43137254901960786 0.3686274509803922 1</string>
   <key>DVTSourceTextInvisiblesColor</key>
-  <string>0.9411764705882353 1.0 0.9411764705882353 1</string>
+  <string>0.9568627450980393 0.984313725490196 0.9568627450980393 1</string>
   <key>DVTSourceTextSelectionColor</key>
   <string>0.8117647058823529 0.9098039215686274 0.8117647058823529 1</string>
   <key>DVTSourceTextSyntaxColors</key>
@@ -57,9 +57,9 @@
     <key>xcode.syntax.identifier.class.system</key>
     <string>0.09803921568627451 0.6 0.7019607843137254 1</string>
     <key>xcode.syntax.identifier.constant</key>
-    <string>0.7647058823529411 0.7647058823529411 0.13333333333333333 1</string>
+    <string>0.596078431372549 0.596078431372549 0.10588235294117647 1</string>
     <key>xcode.syntax.identifier.constant.system</key>
-    <string>0.7647058823529411 0.7647058823529411 0.13333333333333333 1</string>
+    <string>0.596078431372549 0.596078431372549 0.10588235294117647 1</string>
     <key>xcode.syntax.identifier.function</key>
     <string>0.23921568627450981 0.3843137254901961 0.9607843137254902 1</string>
     <key>xcode.syntax.identifier.function.system</key>

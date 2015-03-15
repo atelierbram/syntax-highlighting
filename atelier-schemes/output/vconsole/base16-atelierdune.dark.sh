@@ -5,7 +5,7 @@
 color00="20201d" # Base 00 - Black
 color01="d73737" # Base 08 - Red
 color02="60ac39" # Base 0B - Green
-color03="cfb017" # Base 0A - Yellow
+color03="ae9513" # Base 0A - Yellow
 color04="6684e1" # Base 0D - Blue
 color05="b854d4" # Base 0E - Magenta
 color06="1fad83" # Base 0C - Cyan
@@ -36,8 +36,12 @@ echo -e "\e]PC$color12"
 echo -e "\e]PD$color13"
 echo -e "\e]PE$color14"
 echo -e "\e]PF$color15"
-echo -e "\e[H"
-echo -e "\e[2J"
+if [ -x /sbin/clear ]; then 
+  /sbin/clear
+else
+  echo -e "\e[H"
+  echo -e "\e[2J"
+fi
 
 # clean up
 unset color00

@@ -37,7 +37,7 @@
 				<key>invisibles</key>
 				<string>#687d68</string>
 				<key>lineHighlight</key>
-				<string>#242924</string>
+				<string>#687d6855</string>
 				<key>selection</key>
 				<string>#5e6e5e</string>
 			</dict>
@@ -138,7 +138,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#c3c322</string>
+				<string>#98981b</string>
 			</dict>
 		</dict>
 		<dict>
@@ -149,7 +149,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#f0fff0</string>
+				<string>#f4fbf4</string>
 			</dict>
 		</dict>
 		<dict>
@@ -329,7 +329,7 @@
 				<key>fontStyle</key>
 				<string>bold</string>
 				<key>foreground</key>
-				<string>#c3c322</string>
+				<string>#98981b</string>
 			</dict>
 		</dict>
 		<dict>
@@ -360,7 +360,7 @@
 			<key>name</key>
 			<string>Link Text</string>
 			<key>scope</key>
-			<string>string.other.link</string>
+      <string>string.other.link, punctuation.definition.string.end.markdown</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -492,7 +492,7 @@
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>Invalid</string>
+			<string>Illegal</string>
 			<key>scope</key>
 			<string>invalid.illegal</string>
 			<key>settings</key>
@@ -500,11 +500,50 @@
 				<key>background</key>
 				<string>#e6193c</string>
 				<key>foreground</key>
+				<string>#f4fbf4</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Broken</string>
+			<key>scope</key>
+			<string>invalid.broken</string>
+			<key>settings</key>
+			<dict>
+				<key>background</key>
+				<string>#87711d</string>
+				<key>foreground</key>
 				<string>#131513</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Deprecated</string>
+			<key>scope</key>
+			<string>invalid.deprecated</string>
+			<key>settings</key>
+			<dict>
+				<key>background</key>
+				<string>#e619c3</string>
+				<key>foreground</key>
+				<string>#f4fbf4</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Unimplemented</string>
+			<key>scope</key>
+			<string>invalid.unimplemented</string>
+			<key>settings</key>
+			<dict>
+				<key>background</key>
+				<string>#687d68</string>
+				<key>foreground</key>
+				<string>#f4fbf4</string>
 			</dict>
 		</dict>
 	</array>
 	<key>uuid</key>
-	<string>9d88e0a0-2509-471c-8848-aa54090820a3</string>
+	<string>2133c5dc-7b71-419a-ace7-072726702c46</string>
 </dict>
 </plist>

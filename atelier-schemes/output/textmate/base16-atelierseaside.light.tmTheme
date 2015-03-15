@@ -13,13 +13,13 @@
 	<key>gutterSettings</key>
 	<dict>
 		<key>background</key>
-		<string>#f0fff0</string>
+		<string>#f4fbf4</string>
 		<key>divider</key>
-		<string>#f0fff0</string>
+		<string>#f4fbf4</string>
 		<key>foreground</key>
 		<string>#5e6e5e</string>
 		<key>selectionBackground</key>
-		<string>#f0fff0</string>
+		<string>#f4fbf4</string>
 		<key>selectionForeground</key>
 		<string>#8ca68c</string>
 	</dict>
@@ -29,7 +29,7 @@
 			<key>settings</key>
 			<dict>
 				<key>background</key>
-				<string>#f0fff0</string>
+				<string>#f4fbf4</string>
 				<key>caret</key>
 				<string>#5e6e5e</string>
 				<key>foreground</key>
@@ -37,7 +37,7 @@
 				<key>invisibles</key>
 				<string>#cfe8cf</string>
 				<key>lineHighlight</key>
-				<string>#cfe8cf</string>
+				<string>#80998055</string>
 				<key>selection</key>
 				<string>#cfe8cf</string>
 			</dict>
@@ -492,7 +492,7 @@
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>Invalid</string>
+			<string>Illegal</string>
 			<key>scope</key>
 			<string>invalid.illegal</string>
 			<key>settings</key>
@@ -500,11 +500,50 @@
 				<key>background</key>
 				<string>#e6193c</string>
 				<key>foreground</key>
-				<string>#f0fff0</string>
+				<string>#f4fbf4</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Broken</string>
+			<key>scope</key>
+			<string>invalid.broken</string>
+			<key>settings</key>
+			<dict>
+				<key>background</key>
+				<string>#87711d</string>
+				<key>foreground</key>
+				<string>#131513</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Deprecated</string>
+			<key>scope</key>
+			<string>invalid.deprecated</string>
+			<key>settings</key>
+			<dict>
+				<key>background</key>
+				<string>#e619c3</string>
+				<key>foreground</key>
+				<string>#f4fbf4</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Unimplemented</string>
+			<key>scope</key>
+			<string>invalid.unimplemented</string>
+			<key>settings</key>
+			<dict>
+				<key>background</key>
+				<string>#8ca68c</string>
+				<key>foreground</key>
+				<string>#131513</string>
 			</dict>
 		</dict>
 	</array>
 	<key>uuid</key>
-	<string>2f511d20-1fc6-4b6d-93e2-1393bfc4b610</string>
+	<string>d36933a1-4b26-4087-bad6-80e2daba6bad</string>
 </dict>
 </plist>

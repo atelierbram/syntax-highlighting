@@ -61,10 +61,10 @@ IMAGE
 foreground: 159393
 
 CODE
-foreground: 379a37
+foreground: 918b3b
 
 VERBATIM
-foreground: 379a37
+foreground: 918b3b
 
 HTML_ENTITY
 foreground: cc33cc

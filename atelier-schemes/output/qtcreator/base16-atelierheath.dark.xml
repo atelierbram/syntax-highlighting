@@ -8,10 +8,10 @@
   <style name="Link"/>
 
   <!-- selection, current line, search, matching brackets -->
-  <style name="Selection" background="#776977"/>
-  <style name="CurrentLine" background="#695d69"/>
+  <style name="Selection" background="#9e8f9e"/>
+  <style name="CurrentLine" background="#776977"/>
   <style name="LineNumber" foreground="#776977"/>
-  <style name="CurrentLineNumber" foreground="#776977" bold="true"/>
+  <style name="CurrentLineNumber" foreground="#9e8f9e" bold="true"/>
   <style name="SearchResult" background="292329"/>
   <style name="Parentheses" background="#695d69" />
 
@@ -26,7 +26,7 @@
 
   <!-- language primitives -->
   <style name="Number" foreground="#a65926"/>
-  <style name="String" foreground="#379a37"/>
+  <style name="String" foreground="#918b3b"/>
   <style name="Keyword" foreground="#7b59c0"/>
   <style name="Operator" foreground="#ab9bab"/>
   <style name="Preprocessor" foreground="#516aec"/>
@@ -51,10 +51,10 @@
   <style name="VisualWhitespace" foreground="#695d69"/>
 
   <!-- comments -->
-  <style name="Comment" foreground="#9e8f9e"/>
-  <style name="DisabledCode" foreground="#9e8f9e"/>
-  <style name="Doxygen.Comment" foreground="#ab9bab"/>
-  <style name="Doxygen.Tag" foreground="#9e8f9e"/>
+  <style name="Comment" foreground="#776977"/>
+  <style name="DisabledCode" foreground="#776977"/>
+  <style name="Doxygen.Comment" foreground="#776977"/>
+  <style name="Doxygen.Tag" foreground="#776977"/>
 
   <!-- QML -->
   <style name="QmlTypeId" foreground="#7b59c0"/>
@@ -69,14 +69,14 @@
   <!-- inline diff -->
   <style name="DiffFile" foreground="#7b59c0"/>
   <style name="DiffLocation" foreground="#516aec"/>
-  <style name="AddedLine" foreground="#379a37"/>
+  <style name="AddedLine" foreground="#918b3b"/>
   <style name="RemovedLine" foreground="#bb8a35"/>
 
   <!-- side-by-side diff -->
   <style name="DiffFileLine" foreground="#7b59c0"/>
   <style name="DiffContextLine" foreground="#516aec"/>
-  <style name="DiffSourceLine" foreground="#379a37"/>
+  <style name="DiffSourceLine" foreground="#918b3b"/>
   <style name="DiffSourceChar" foreground="#bb8a35" background="#292329"/>
-  <style name="DiffDestLine" foreground="#379a37"/>
+  <style name="DiffDestLine" foreground="#918b3b"/>
   <style name="DiffDestChar" foreground="#bb8a35" background="#292329"/>
 </style-scheme>

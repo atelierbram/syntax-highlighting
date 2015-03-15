@@ -36,8 +36,12 @@ echo -e "\e]PC$color12"
 echo -e "\e]PD$color13"
 echo -e "\e]PE$color14"
 echo -e "\e]PF$color15"
-echo -e "\e[H"
-echo -e "\e[2J"
+if [ -x /sbin/clear ]; then 
+  /sbin/clear
+else
+  echo -e "\e[H"
+  echo -e "\e[2J"
+fi
 
 # clean up
 unset color00

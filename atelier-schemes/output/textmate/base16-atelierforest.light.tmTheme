@@ -37,7 +37,7 @@
 				<key>invisibles</key>
 				<string>#e6e2e0</string>
 				<key>lineHighlight</key>
-				<string>#e6e2e0</string>
+				<string>#9c949155</string>
 				<key>selection</key>
 				<string>#e6e2e0</string>
 			</dict>
@@ -182,7 +182,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#00ad9c</string>
+				<string>#3d97b8</string>
 			</dict>
 		</dict>
 		<dict>
@@ -193,7 +193,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#5ab738</string>
+				<string>#7b9726</string>
 			</dict>
 		</dict>
 		<dict>
@@ -353,7 +353,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#5ab738</string>
+				<string>#7b9726</string>
 			</dict>
 		</dict>
 		<dict>
@@ -421,7 +421,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#5ab738</string>
+				<string>#7b9726</string>
 			</dict>
 		</dict>
 		<dict>
@@ -454,7 +454,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#00ad9c</string>
+				<string>#3d97b8</string>
 			</dict>
 		</dict>
 		<dict>
@@ -465,7 +465,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#00ad9c</string>
+				<string>#3d97b8</string>
 			</dict>
 		</dict>
 		<dict>
@@ -476,7 +476,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#00ad9c</string>
+				<string>#3d97b8</string>
 			</dict>
 		</dict>
 		<dict>
@@ -492,7 +492,7 @@
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>Invalid</string>
+			<string>Illegal</string>
 			<key>scope</key>
 			<string>invalid.illegal</string>
 			<key>settings</key>
@@ -503,8 +503,47 @@
 				<string>#f1efee</string>
 			</dict>
 		</dict>
+		<dict>
+			<key>name</key>
+			<string>Broken</string>
+			<key>scope</key>
+			<string>invalid.broken</string>
+			<key>settings</key>
+			<dict>
+				<key>background</key>
+				<string>#df5320</string>
+				<key>foreground</key>
+				<string>#1b1918</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Deprecated</string>
+			<key>scope</key>
+			<string>invalid.deprecated</string>
+			<key>settings</key>
+			<dict>
+				<key>background</key>
+				<string>#c33ff3</string>
+				<key>foreground</key>
+				<string>#f1efee</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Unimplemented</string>
+			<key>scope</key>
+			<string>invalid.unimplemented</string>
+			<key>settings</key>
+			<dict>
+				<key>background</key>
+				<string>#a8a19f</string>
+				<key>foreground</key>
+				<string>#1b1918</string>
+			</dict>
+		</dict>
 	</array>
 	<key>uuid</key>
-	<string>7dfd29c6-b77a-458a-85dd-9b765c25308c</string>
+	<string>be3ca6bf-ca0d-481d-ae0c-a42430816791</string>
 </dict>
 </plist>

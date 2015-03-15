@@ -179,7 +179,7 @@
 }
 #-webkit-web-inspector .section .properties .name,
 #-webkit-web-inspector .event-properties .name {
-  color: #cfb017 !important;
+  color: #ae9513 !important;
 }
 #-webkit-web-inspector .styles-selector {
   color: #60ac39 !important;
@@ -385,7 +385,7 @@
   color: #60ac39 !important;
 }
 #-webkit-web-inspector .webkit-css-property {
-  color: #cfb017 !important;
+  color: #ae9513 !important;
 }
 #-webkit-web-inspector .webkit-css-keyword {
   color: #d73737 !important;
@@ -431,7 +431,7 @@
 }
 #-webkit-web-inspector .section .properties .name,
 #-webkit-web-inspector .event-properties .name {
-  color: #cfb017 !important;
+  color: #ae9513 !important;
 }
 #-webkit-web-inspector .popover {
   background-color: rgba(0, 0, 0, 0.9) !important;

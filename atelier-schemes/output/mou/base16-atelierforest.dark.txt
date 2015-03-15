@@ -32,7 +32,7 @@ foreground: 6666ea
 font-style: italic
 
 STRONG
-foreground: d5911a
+foreground: c38418
 font-style: bold
 
 HRULE
@@ -49,22 +49,22 @@ LINK
 foreground: df5320
 
 AUTO_LINK_URL
-foreground: 00ad9c
+foreground: 3d97b8
 
 AUTO_LINK_EMAIL
-foreground: 00ad9c
+foreground: 3d97b8
 
 REFERENCE
 foreground: 9c9491
 
 IMAGE
-foreground: 00ad9c
+foreground: 3d97b8
 
 CODE
-foreground: 5ab738
+foreground: 7b9726
 
 VERBATIM
-foreground: 5ab738
+foreground: 7b9726
 
 HTML_ENTITY
 foreground: c33ff3

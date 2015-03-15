@@ -24,7 +24,7 @@
 [theme_info]
 name=Base16 <%= @scheme %> Light
 description=Base16 <%= @scheme %> provides carefully chosen syntax highlighting and a default set of sixteen colors suitable for a wide range of applications.
-version=0.1
+version=0.2.2
 author=Rob Loach (http://robloach.net)
 url=http://github.com/robloach/base16-geany
 
@@ -62,32 +62,32 @@ number=#<%= @base["0B"]["hex"] %>
 number_1=#<%= @base["09"]["hex"] %>
 number_2=#<%= @base["09"]["hex"] %>
 
-type=#<%= @base["0A"]["hex"] %>
+type=#<%= @base["0A"]["hex"] %>;;true
 # Person.rb = Person
 class=#<%= @base["0A"]["hex"] %>;;true
 # Person.rb = initialize
 # PHP
-function=#<%= @base["0D"]["hex"] %>;;true;false
+function=#<%= @base["0D"]["hex"] %>;;false;false
 parameter=#<%= @base["06"]["hex"] %>
 
 keyword=#<%= @base["0F"]["hex"] %>;;true;false
 # Person.rb = class, include, def, end, attr_accessor, etc
 # PHP = include_once(), if elseif else
-keyword_1=#<%= @base["0E"]["hex"] %>;;true;false
-keyword_2=#<%= @base["0C"]["hex"] %>;;false;true
-keyword_3=#<%= @base["0F"]["hex"] %>;;false;true
+keyword_1=#<%= @base["0E"]["hex"] %>;;false;false
+keyword_2=#<%= @base["09"]["hex"] %>;;false;false
+keyword_3=#<%= @base["0C"]["hex"] %>;;false;false
 keyword_4=#<%= @base["09"]["hex"] %>;;false;true
 
-identifier=#<%= @base["0C"]["hex"] %>;;true;false
+identifier=#<%= @base["0C"]["hex"] %>;;false;false
 # Person.rb = ActiveModel::Conversion
-identifier_1=#<%= @base["0A"]["hex"] %>;;true;false
-identifier_2=#<%= @base["0C"]["hex"] %>;;true;false
+identifier_1=#<%= @base["0C"]["hex"] %>;;false;false
+identifier_2=#<%= @base["0C"]["hex"] %>;;false;false
 identifier_3=#<%= @base["0D"]["hex"] %>;;true;false
 identifier_4=#<%= @base["0E"]["hex"] %>;;false;false
 
 string=#<%= @base["09"]["hex"] %>
 string_1=#<%= @base["0B"]["hex"] %>
-string_2=#<%= @base["0A"]["hex"] %>
+string_2=#<%= @base["0B"]["hex"] %>
 string_3=#<%= @base["0C"]["hex"] %>
 string_4=#<%= @base["0D"]["hex"] %>
 string_eol=#<%= @base["0E"]["hex"] %>;;false;true
@@ -101,15 +101,15 @@ label=#<%= @base["06"]["hex"] %>;;true;false
 # PHP = $_GET
 preprocessor=#<%= @base["0D"]["hex"] %>
 regex=number_1
-operator=#<%= @base["05"]["hex"] %>;;true;false
+operator=#<%= @base["05"]["hex"] %>;;false;false
 decorator=#<%= @base["0D"]["hex"] %>;;false;false
 other=#<%= @base["08"]["hex"] %>
 
 # Markup-type languages
 #-------------------------------------------------------------------------------
-tag=#<%= @base["0A"]["hex"] %>;;false;false
+tag=#<%= @base["0A"]["hex"] %>;;true;false
 tag_unknown=#<%= @base["08"]["hex"] %>;;true;false
-tag_end=#<%= @base["0D"]["hex"] %>;;true;false
+tag_end=#<%= @base["0A"]["hex"] %>;;false;false
 attribute=#<%= @base["09"]["hex"] %>;;false;false
 attribute_unknown=#<%= @base["0B"]["hex"] %>;;false;false
 value=#<%= @base["0D"]["hex"] %>

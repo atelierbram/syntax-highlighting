@@ -9,7 +9,7 @@ term_.prefs_.set('color-palette-overrides', [
     '#131513',
     '#e6193c',
     '#29a329',
-    '#c3c322',
+    '#98981b',
     '#3d62f5',
     '#ad2bee',
     '#1999b3',
@@ -21,5 +21,5 @@ term_.prefs_.set('color-palette-overrides', [
     '#809980',
     '#cfe8cf',
     '#e619c3',
-    '#f0fff0',
+    '#f4fbf4',
   ]);

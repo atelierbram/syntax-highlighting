@@ -197,12 +197,12 @@ article h3 + p,
 article h3 + ul {
   //  padding-top: 0;
   margin-top: 1px;
-  border-top: 2px solid darken($sh-bg-color,15%);
+  border-top: 1px solid darken($sh-bg-color,10%);
 }
 article h3 {
   margin: 0;
   padding: emCalc(8) 0 0;
-  border-bottom: 1px solid $sh-bg-color;
+  border-bottom: 2px solid darken($sh-bg-color,15%);
 }
 article > pre {
   @extend %mbm;
@@ -322,8 +322,8 @@ i {
     }
   }
 }
-@media only screen and (min-width: 768px) {
 
+@media only screen and (min-width: 940px) { 
   .repo-title {
     margin-top: .25em;
   }
@@ -362,8 +362,6 @@ i {
     padding: emCalc(32);
   }
 
-}
-@media only screen and (min-width: 940px) {
   .inner-wrap {
     margin-right: 7.5%;
   }
@@ -371,6 +369,7 @@ i {
     font-size: emCalc(18);
   }
 }
+
 @media only screen and (min-width: 1280px) {
   .inner-wrap {
     margin-right: 12.5%;

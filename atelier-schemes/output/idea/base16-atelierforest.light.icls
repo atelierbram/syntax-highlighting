@@ -7,7 +7,7 @@
   <option name="CONSOLE_LINE_SPACING" value="1.0" />
   <option name="EDITOR_FONT_NAME" value="Menlo" />
   <colors>
-    <option name="ADDED_LINES_COLOR" value="5ab738" />
+    <option name="ADDED_LINES_COLOR" value="7b9726" />
     <option name="ANNOTATIONS_COLOR" value="68615e" />
     <option name="CARET_COLOR" value="2c2421" />
     <option name="CARET_ROW_COLOR" value="e6e2e0" />
@@ -20,7 +20,7 @@
     <option name="INDENT_GUIDE" value="9c9491" />
     <option name="LINE_NUMBERS_COLOR" value="1b1918" />
     <option name="METHOD_SEPARATORS_COLOR" value="a8a19f" />
-    <option name="MODIFIED_LINES_COLOR" value="5ab738" />
+    <option name="MODIFIED_LINES_COLOR" value="7b9726" />
     <option name="NOTIFICATION_BACKGROUND" value="2c2421" />
     <option name="READONLY_FRAGMENT_BACKGROUND" value="1b1918" />
     <option name="RECURSIVE_CALL_ATTRIBUTES" value="a8a19f" />
@@ -67,7 +67,7 @@
     </option>
     <option name="DEFAULT_STRING">
         <value>
-            <option name="FOREGROUND" value="5ab738" />
+            <option name="FOREGROUND" value="7b9726" />
             <option name="FONT_TYPE" value="1" />
         </value>
     </option>
@@ -170,7 +170,7 @@
     </option>
     <option name="DEFAULT_INTERFACE_NAME">
         <value>
-            <option name="FOREGROUND" value="d5911a" />
+            <option name="FOREGROUND" value="c38418" />
         </value>
     </option>
     <option name="DEFAULT_CLASS_REFERENCE">
@@ -450,7 +450,7 @@
     </option>
     <option name="CUSTOM_NUMBER_ATTRIBUTES">
       <value>
-        <option name="FOREGROUND" value="00ad9c" />
+        <option name="FOREGROUND" value="3d97b8" />
       </value>
     </option>
     <option name="CUSTOM_STRING_ATTRIBUTES">
@@ -492,13 +492,13 @@
     </option>
     <option name="DIFF_INSERTED">
       <value>
-        <option name="BACKGROUND" value="5ab738" />
+        <option name="BACKGROUND" value="7b9726" />
         <option name="ERROR_STRIPE_COLOR" value="baeeba" />
       </value>
     </option>
     <option name="DIFF_MODIFIED">
       <value>
-        <option name="BACKGROUND" value="00ad9c" />
+        <option name="BACKGROUND" value="3d97b8" />
         <option name="ERROR_STRIPE_COLOR" value="bccff9" />
       </value>
     </option>
@@ -609,7 +609,7 @@
     </option>
     <option name="INJECTED_LANGUAGE_FRAGMENT">
       <value>
-        <option name="FOREGROUND" value="00ad9c" />
+        <option name="FOREGROUND" value="3d97b8" />
       </value>
     </option>
     <option name="INSTANCE_FIELD_ATTRIBUTES">
@@ -694,7 +694,7 @@
     </option>
     <option name="Map key">
       <value>
-        <option name="FOREGROUND" value="5ab738" />
+        <option name="FOREGROUND" value="7b9726" />
       </value>
     </option>
     <option name="NOT_USED_ELEMENT_ATTRIBUTES">

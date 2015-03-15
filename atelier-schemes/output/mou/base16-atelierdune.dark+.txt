@@ -38,7 +38,7 @@ foreground: b854d4
 font-style: italic
 
 STRONG
-foreground: cfb017
+foreground: ae9513
 font-style: bold
 
 HRULE

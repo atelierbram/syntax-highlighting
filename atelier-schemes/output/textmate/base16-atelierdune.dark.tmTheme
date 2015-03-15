@@ -37,7 +37,7 @@
 				<key>invisibles</key>
 				<string>#7d7a68</string>
 				<key>lineHighlight</key>
-				<string>#292824</string>
+				<string>#7d7a6855</string>
 				<key>selection</key>
 				<string>#6e6b5e</string>
 			</dict>
@@ -138,7 +138,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#cfb017</string>
+				<string>#ae9513</string>
 			</dict>
 		</dict>
 		<dict>
@@ -329,7 +329,7 @@
 				<key>fontStyle</key>
 				<string>bold</string>
 				<key>foreground</key>
-				<string>#cfb017</string>
+				<string>#ae9513</string>
 			</dict>
 		</dict>
 		<dict>
@@ -360,7 +360,7 @@
 			<key>name</key>
 			<string>Link Text</string>
 			<key>scope</key>
-			<string>string.other.link</string>
+      <string>string.other.link, punctuation.definition.string.end.markdown</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -492,7 +492,7 @@
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>Invalid</string>
+			<string>Illegal</string>
 			<key>scope</key>
 			<string>invalid.illegal</string>
 			<key>settings</key>
@@ -500,11 +500,50 @@
 				<key>background</key>
 				<string>#d73737</string>
 				<key>foreground</key>
+				<string>#fefbec</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Broken</string>
+			<key>scope</key>
+			<string>invalid.broken</string>
+			<key>settings</key>
+			<dict>
+				<key>background</key>
+				<string>#b65611</string>
+				<key>foreground</key>
 				<string>#20201d</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Deprecated</string>
+			<key>scope</key>
+			<string>invalid.deprecated</string>
+			<key>settings</key>
+			<dict>
+				<key>background</key>
+				<string>#d43552</string>
+				<key>foreground</key>
+				<string>#fefbec</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Unimplemented</string>
+			<key>scope</key>
+			<string>invalid.unimplemented</string>
+			<key>settings</key>
+			<dict>
+				<key>background</key>
+				<string>#7d7a68</string>
+				<key>foreground</key>
+				<string>#fefbec</string>
 			</dict>
 		</dict>
 	</array>
 	<key>uuid</key>
-	<string>90c63f8d-dd19-4541-bbc9-28e184cb5d3a</string>
+	<string>9812ad79-b16d-49fb-85c1-b7abf31b5451</string>
 </dict>
 </plist>

@@ -1,6 +1,6 @@
 editor
 foreground: 5e6e5e
-background: f0fff0
+background: f4fbf4
 caret: 5e6e5e
 
 editor-selection
@@ -32,7 +32,7 @@ foreground: ad2bee
 font-style: italic
 
 STRONG
-foreground: c3c322
+foreground: 98981b
 font-style: bold
 
 HRULE

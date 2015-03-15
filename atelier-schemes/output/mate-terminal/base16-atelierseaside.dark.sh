@@ -35,7 +35,7 @@ glist_append() {
 glist_append /org/mate/terminal/global/profile-list "$PROFILE_SLUG"
 
 dset visible-name "'$PROFILE_NAME'"
-dset palette "'#131513:#e6193c:#29a329:#c3c322:#3d62f5:#ad2bee:#1999b3:#8ca68c:#687d68:#e6193c:#29a329:#c3c322:#3d62f5:#ad2bee:#1999b3:#f0fff0'"
+dset palette "'#131513:#e6193c:#29a329:#98981b:#3d62f5:#ad2bee:#1999b3:#8ca68c:#687d68:#e6193c:#29a329:#98981b:#3d62f5:#ad2bee:#1999b3:#f4fbf4'"
 dset background-color "'#131513'"
 dset foreground-color "'#8ca68c'"
 dset bold-color "'#8ca68c'"

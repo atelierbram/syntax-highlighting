@@ -4,11 +4,11 @@
 
 color00="f1efee" # Base 07 - White
 color01="f22c40" # Base 08 - Red
-color02="5ab738" # Base 0B - Green
-color03="d5911a" # Base 0A - Yellow
+color02="7b9726" # Base 0B - Green
+color03="c38418" # Base 0A - Yellow
 color04="407ee7" # Base 0D - Blue
 color05="6666ea" # Base 0E - Magenta
-color06="00ad9c" # Base 0C - Cyan
+color06="3d97b8" # Base 0C - Cyan
 color07="68615e" # Base 02 - Black
 color08="a8a19f" # Base 05 - Bright White
 color09=$color01 # Base 08 - Bright Red

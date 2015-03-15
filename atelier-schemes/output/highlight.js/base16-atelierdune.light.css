@@ -1,21 +1,26 @@
-/* Base16 Atelier Dune Light -Theme */
-/* by Bram de Haan (http://atelierbram.github.io/syntax-highlighting/atelier-schemes/dune) */
-/* Original Base16 color scheme by Chris Kempson (https://github.com/chriskempson/base16) */
-/* https://github.com/jmblog/color-themes-for-highlightjs */
+/*
 
-/* base16-atelierdune-light-comment */
+    Name:       Base16 Atelier Dune Light
+    Author:     Bram de Haan (http://atelierbram.github.io/syntax-highlighting/atelier-schemes/dune)
+
+    highlight.js v8.0 template by Jan T. Sott (https://github.com/idleberg/base16-highlight.js)
+    Original Base16 color scheme by Chris Kempson (https://github.com/chriskempson/base16)
+
+*/
+
+/* Atelier Dune Comment */
 .hljs-comment,
 .hljs-title {
   color: #7d7a68;
 }
 
-/* base16-atelierdune-light-red */
+/* Atelier Dune Red */
 .hljs-variable,
 .hljs-attribute,
 .hljs-tag,
 .hljs-regexp,
 .ruby .hljs-constant,
-.xml .tag .hljs-title,
+.xml .hljs-tag .hljs-title,
 .xml .hljs-pi,
 .xml .hljs-doctype,
 .html .hljs-doctype,
@@ -25,10 +30,9 @@
   color: #d73737;
 }
 
-/* base16-atelierdune-light-orange */
+/* Atelier Dune Orange */
 .hljs-number,
 .hljs-preprocessor,
-.hljs-pragma,
 .hljs-built_in,
 .hljs-literal,
 .hljs-params,
@@ -36,13 +40,13 @@
   color: #b65611;
 }
 
-/* base16-atelierdune-light-yellow */
+/* Atelier Dune Yellow */
 .ruby .hljs-class .hljs-title,
 .css .hljs-rules .hljs-attribute {
-  color: #cfb017;
+  color: #ae9513;
 }
 
-/* base16-atelierdune-light-green */
+/* Atelier Dune Green */
 .hljs-string,
 .hljs-value,
 .hljs-inheritance,
@@ -52,24 +56,24 @@
   color: #60ac39;
 }
 
-/* base16-atelierdune-light-aqua */
+/* Atelier Dune Aqua */
 .css .hljs-hexcolor {
   color: #1fad83;
 }
 
-/* base16-atelierdune-light-blue */
+/* Atelier Dune Blue */
 .hljs-function,
 .python .hljs-decorator,
 .python .hljs-title,
-.ruby .function .title,
-.ruby .hljs-title .keyword,
+.ruby .hljs-function .hljs-title,
+.ruby .hljs-title .hljs-keyword,
 .perl .hljs-sub,
 .javascript .hljs-title,
 .coffeescript .hljs-title {
   color: #6684e1;
 }
 
-/* base16-atelierdune-light-purple */
+/* Atelier Dune Purple */
 .hljs-keyword,
 .javascript .hljs-function {
   color: #b854d4;

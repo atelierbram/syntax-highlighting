@@ -3,61 +3,61 @@
 Color=19,21,19
 
 [BackgroundIntense]
-Color=129,138,129
+Color=131,136,131
 
 [Color0] 
 Color=19,21,19
 
 [Color0Intense]
-Color=129,138,129
+Color=131,136,131
 
 [Color1] 
 Color=230,25,60
 
 [Color1Intense]
-Color=235,140,150
+Color=237,138,152
 
 [Color2] 
 Color=41,163,41
 
 [Color2Intense]
-Color=140,209,140
+Color=142,207,142
 
 [Color3] 
-Color=195,195,34
+Color=152,152,27
 
 [Color3Intense]
-Color=217,225,137
+Color=198,201,135
 
 [Color4] 
 Color=61,98,245
 
 [Color4Intense]
-Color=150,176,242
+Color=152,174,244
 
 [Color5] 
 Color=173,43,238
 
 [Color5Intense]
-Color=206,149,239
+Color=208,147,241
 
 [Color6] 
 Color=25,153,179
 
 [Color6Intense]
-Color=132,204,209
+Color=134,202,211
 
 [Color7] 
 Color=140,166,140
 
 [Color7Intense]
-Color=190,210,190
+Color=192,208,192
 
 [Foreground]
 Color=140,166,140
 
 [ForegroundIntense]
-Color=190,210,190
+Color=192,208,192
 
 [General]
 Description=Base16 Atelier Seaside

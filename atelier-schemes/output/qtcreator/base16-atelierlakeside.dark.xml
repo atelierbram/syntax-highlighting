@@ -8,10 +8,10 @@
   <style name="Link"/>
 
   <!-- selection, current line, search, matching brackets -->
-  <style name="Selection" background="#5a7b8c"/>
-  <style name="CurrentLine" background="#516d7b"/>
+  <style name="Selection" background="#7195a8"/>
+  <style name="CurrentLine" background="#5a7b8c"/>
   <style name="LineNumber" foreground="#5a7b8c"/>
-  <style name="CurrentLineNumber" foreground="#5a7b8c" bold="true"/>
+  <style name="CurrentLineNumber" foreground="#7195a8" bold="true"/>
   <style name="SearchResult" background="1f292e"/>
   <style name="Parentheses" background="#516d7b" />
 
@@ -51,10 +51,10 @@
   <style name="VisualWhitespace" foreground="#516d7b"/>
 
   <!-- comments -->
-  <style name="Comment" foreground="#7195a8"/>
-  <style name="DisabledCode" foreground="#7195a8"/>
-  <style name="Doxygen.Comment" foreground="#7ea2b4"/>
-  <style name="Doxygen.Tag" foreground="#7195a8"/>
+  <style name="Comment" foreground="#5a7b8c"/>
+  <style name="DisabledCode" foreground="#5a7b8c"/>
+  <style name="Doxygen.Comment" foreground="#5a7b8c"/>
+  <style name="Doxygen.Tag" foreground="#5a7b8c"/>
 
   <!-- QML -->
   <style name="QmlTypeId" foreground="#5d5db1"/>

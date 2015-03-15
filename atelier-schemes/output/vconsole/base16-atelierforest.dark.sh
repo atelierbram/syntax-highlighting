@@ -4,11 +4,11 @@
 
 color00="1b1918" # Base 00 - Black
 color01="f22c40" # Base 08 - Red
-color02="5ab738" # Base 0B - Green
-color03="d5911a" # Base 0A - Yellow
+color02="7b9726" # Base 0B - Green
+color03="c38418" # Base 0A - Yellow
 color04="407ee7" # Base 0D - Blue
 color05="6666ea" # Base 0E - Magenta
-color06="00ad9c" # Base 0C - Cyan
+color06="3d97b8" # Base 0C - Cyan
 color07="a8a19f" # Base 05 - White
 color08="766e6b" # Base 03 - Bright Black
 color09=$color01 # Base 08 - Bright Red
@@ -36,8 +36,12 @@ echo -e "\e]PC$color12"
 echo -e "\e]PD$color13"
 echo -e "\e]PE$color14"
 echo -e "\e]PF$color15"
-echo -e "\e[H"
-echo -e "\e[2J"
+if [ -x /sbin/clear ]; then 
+  /sbin/clear
+else
+  echo -e "\e[H"
+  echo -e "\e[2J"
+fi
 
 # clean up
 unset color00

@@ -4,10 +4,10 @@
 $include-html-type-classes: $include-html-classes !default;
 
 // We use these to control header font styles
-$header-font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif !default;
-$header-font-weight: bold !default;
+$header-font-family: FiraSans-Bold, FeuraSans-Bold, Corbel, "Lucida Grande", "Lucida Sans", "Trebuchet Ms", "DejaVu Sans", "Bitstream Vera Sans", "Liberation Sans", "Helvetica Neue", sans-serif !default;
+$header-font-weight: normal !default;
 $header-font-style: normal !default;
-$header-font-color: #222 !default;
+$header-font-color: #333 !default;
 $header-line-height: 1.4 !default;
 $header-top-margin: .2em !default;
 $header-bottom-margin: .5em !default;

@@ -2,10 +2,10 @@
 # Base16 Atelier Seaside - Virtual console color setup script
 # Bram de Haan (http://atelierbram.github.io/syntax-highlighting/atelier-schemes/seaside/)
 
-color00="f0fff0" # Base 07 - White
+color00="f4fbf4" # Base 07 - White
 color01="e6193c" # Base 08 - Red
 color02="29a329" # Base 0B - Green
-color03="c3c322" # Base 0A - Yellow
+color03="98981b" # Base 0A - Yellow
 color04="3d62f5" # Base 0D - Blue
 color05="ad2bee" # Base 0E - Magenta
 color06="1999b3" # Base 0C - Cyan

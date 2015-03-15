@@ -11,7 +11,7 @@
     <option name="ANNOTATIONS_COLOR" value="5e6e5e" />
     <option name="CARET_COLOR" value="242924" />
     <option name="CARET_ROW_COLOR" value="cfe8cf" />
-    <option name="CONSOLE_BACKGROUND_KEY" value="f0fff0" />
+    <option name="CONSOLE_BACKGROUND_KEY" value="f4fbf4" />
     <option name="FILESTATUS_ADDED" value="242924" />
     <option name="FILESTATUS_IDEA_FILESTATUS_IGNORED" value="242924" />
     <option name="FILESTATUS_MODIFIED" value="242924" />
@@ -27,7 +27,7 @@
     <option name="RIGHT_MARGIN_COLOR" value="242924" />
     <option name="SELECTED_TEARLINE_COLOR" value="5e6e5e" />
     <option name="SELECTION_BACKGROUND" value="687d68" />
-    <option name="SELECTION_FOREGROUND" value="f0fff0" />
+    <option name="SELECTION_FOREGROUND" value="f4fbf4" />
     <option name="TEARLINE_COLOR" value="5e6e5e" />
     <option name="WHITESPACES" value="8ca68c" />
   </colors>
@@ -35,7 +35,7 @@
     <option name="TEXT">
       <value>
         <option name="FOREGROUND" value="131513" />
-        <option name="BACKGROUND" value="f0fff0" />
+        <option name="BACKGROUND" value="f4fbf4" />
       </value>
     </option>    
     <option name="TEXT_SEARCH_RESULT_ATTRIBUTES">
@@ -46,7 +46,7 @@
     <option name="DEFAULT_TEMPLATE_LANGUAGE_COLOR">
       <value>
         <option name="FOREGROUND" value="131513" />
-        <option name="BACKGROUND" value="f0fff0" />
+        <option name="BACKGROUND" value="f4fbf4" />
       </value>
     </option>
     <option name="DEFAULT_IDENTIFIER">
@@ -170,7 +170,7 @@
     </option>
     <option name="DEFAULT_INTERFACE_NAME">
         <value>
-            <option name="FOREGROUND" value="c3c322" />
+            <option name="FOREGROUND" value="98981b" />
         </value>
     </option>
     <option name="DEFAULT_CLASS_REFERENCE">

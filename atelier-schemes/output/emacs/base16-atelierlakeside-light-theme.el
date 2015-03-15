@@ -37,7 +37,6 @@
    `(highlight ((t (:background ,base01))))
    `(link ((t (:foreground ,base0D))))
    `(link-visited ((t (:foreground ,base0E))))
-   `(linum ((t (:background ,base03))))
    `(minibuffer-prompt ((t (:foreground ,base0D))))
    `(mode-line ((t (:background ,base02 :foreground ,base04 :box nil))))
    `(mode-line-buffer-id ((t (:foreground ,base0E :background nil))))
@@ -46,6 +45,9 @@
    `(mode-line-inactive ((t (:background ,base01 :foreground ,base03 :box nil))))
    `(region ((t (:background ,base02))))
    `(secondary-selection ((t (:background ,base03))))
+   `(error ((t (:foreground ,base08 :weight bold))))
+   `(warning ((t (:foreground ,base09 :weight bold))))
+   `(success ((t (:foreground ,base0B :weight bold))))
 
    `(header-line ((t (:inherit mode-line :foreground ,base0E :background nil))))
 
@@ -98,19 +100,6 @@
    `(mmm-code-submode-face ((t (:background ,base03))))
    `(mmm-comment-submode-face ((t (:inherit font-lock-comment-face))))
    `(mmm-output-submode-face ((t (:background ,base03))))
-
-
-
-   ;; org-mode
-   `(org-date ((t (:foreground ,base0E))))
-   `(org-done ((t (:foreground ,base0B))))
-   `(org-hide ((t (:foreground ,base01))))
-   `(org-link ((t (:foreground ,base0D))))
-   `(org-todo ((t (:foreground ,base08))))
-
-   ;; show-paren-mode
-   `(show-paren-match ((t (:background ,base0D :foreground ,base01))))
-   `(show-paren-mismatch ((t (:background ,base09 :foreground ,base01))))
 
    ;; rainbow-delimiters
    `(rainbow-delimiters-depth-1-face ((t (:foreground ,base0E))))
@@ -224,6 +213,16 @@
    `(diredp-symlink ((t (:foreground ,base0E))))
    `(diredp-write-priv ((t (:foreground ,base0A :background nil))))
 
+   ;; term and ansi-term
+   `(term-color-black ((t (:foreground ,base02 :background ,base00))))
+   `(term-color-white ((t (:foreground ,base05 :background ,base07))))
+   `(term-color-red ((t (:foreground ,base08 :background ,base08))))
+   `(term-color-yellow ((t (:foreground ,base0A :background ,base0A))))
+   `(term-color-green ((t (:foreground ,base0B :background ,base0B))))
+   `(term-color-cyan ((t (:foreground ,base0C :background ,base0C))))
+   `(term-color-blue ((t (:foreground ,base0D :background ,base0D))))
+   `(term-color-magenta ((t (:foreground ,base0E :background ,base0E))))
+
    ;; Magit (a patch is pending in magit to make these standard upstream)
    `(magit-branch ((t (:foreground ,base0B))))
    `(magit-header ((t (:inherit nil :weight bold))))
@@ -262,6 +261,7 @@
    `(mm/master-face ((t (:inherit region :foreground nil :background nil))))
    `(mm/mirror-face ((t (:inherit region :foreground nil :background nil))))
 
+   ;; org-mode
    `(org-agenda-structure ((t (:foreground ,base0E))))
    `(org-agenda-date ((t (:foreground ,base0D :underline nil))))
    `(org-agenda-done ((t (:foreground ,base0B))))

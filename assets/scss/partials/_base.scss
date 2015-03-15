@@ -5,8 +5,8 @@
 @import "fontface";
 @import "normalize";
 // This includes all of the foundation global elements that are needed to work with any of the other files.
-@import "foundation/variables"; 
- 
+@import "foundation/variables";
+
 @import "foundation/components/global";
 @import "foundation/components/grid";
 // @import "foundation/components/visibility";
@@ -41,6 +41,6 @@
 // @import "foundation/components/tables";
 // @import "foundation/components/thumbs";
 // @import "foundation/components/tooltips";
-// @import "foundation/components/dropdown"; 
+// @import "foundation/components/dropdown";
 // custom, or customized variables
-@import "sh-vars"; 
+@import "sh-vars";
