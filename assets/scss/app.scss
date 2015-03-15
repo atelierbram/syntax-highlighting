@@ -67,6 +67,7 @@ body {
 }
 .header .f-dropdown.small {
   max-width: 170px;
+  z-index: 999;
 }
 .dropdown-atelier.button:before {
   border-color: #000 transparent transparent transparent;

@@ -345,19 +345,6 @@ i {
     margin-left: 5%;
     margin-right: 0;
   }
-  .nav-anchor-links {
-    width: 23%;
-    right: 75%;
-    top: emCalc(128);
-    right: calc(75% - 1px);
-    border: 1px solid darken($sh-bg-color,15%);
-    border-right-color: $sh-bg-color;
-    border-top-left-radius: emCalc(4);
-    border-bottom-left-radius: emCalc(4);
-    @include box-shadow (rgba(black,.20) -6px 8px 9px);
-    @include skew(0deg,-4deg);
-    @include background-image(linear-gradient(left, lighten($sh-blue-color,60), lighten($sh-blue-color,60) 97.5%, lighten($sh-blue-color,50)));
-  }
   .note {
     padding: emCalc(32);
   }
