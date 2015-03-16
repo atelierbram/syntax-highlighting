@@ -34,7 +34,7 @@ foreground: 257fad
 font-size: 11px
 
 EMPH
-foreground: 5d5db1
+foreground: 6b6bb8
 font-style: italic
 
 STRONG

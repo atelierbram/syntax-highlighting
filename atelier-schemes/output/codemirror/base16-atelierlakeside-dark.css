@@ -15,8 +15,8 @@
 .cm-s-base16-atelierlakeside-dark .CodeMirror-cursor {border-left: 1px solid #7195a8 !important;}
 
 .cm-s-base16-atelierlakeside-dark span.cm-comment {color: #b72dd2;}
-.cm-s-base16-atelierlakeside-dark span.cm-atom {color: #5d5db1;}
-.cm-s-base16-atelierlakeside-dark span.cm-number {color: #5d5db1;}
+.cm-s-base16-atelierlakeside-dark span.cm-atom {color: #6b6bb8;}
+.cm-s-base16-atelierlakeside-dark span.cm-number {color: #6b6bb8;}
 
 .cm-s-base16-atelierlakeside-dark span.cm-property, .cm-s-base16-atelierlakeside-dark span.cm-attribute {color: #568c3b;}
 .cm-s-base16-atelierlakeside-dark span.cm-keyword {color: #d22d72;}
@@ -28,6 +28,6 @@
 .cm-s-base16-atelierlakeside-dark span.cm-error {background: #d22d72; color: #7195a8;}
 .cm-s-base16-atelierlakeside-dark span.cm-bracket {color: #c1e4f6;}
 .cm-s-base16-atelierlakeside-dark span.cm-tag {color: #d22d72;}
-.cm-s-base16-atelierlakeside-dark span.cm-link {color: #5d5db1;}
+.cm-s-base16-atelierlakeside-dark span.cm-link {color: #6b6bb8;}
 
 .cm-s-base16-atelierlakeside-dark .CodeMirror-matchingbracket { text-decoration: underline; color: white !important;}

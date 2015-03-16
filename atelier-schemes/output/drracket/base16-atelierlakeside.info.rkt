@@ -21,7 +21,7 @@
 (define base0B #(86 140 59))
 (define base0C #(45 143 111))
 (define base0D #(37 127 173))
-(define base0E #(93 93 177))
+(define base0E #(107 107 184))
 (define base0F #(183 45 210))
 
 (define framework:color-schemes

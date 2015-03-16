@@ -11,7 +11,7 @@ term_.prefs_.set('color-palette-overrides', [
     '#568c3b',
     '#8a8a0f',
     '#257fad',
-    '#5d5db1',
+    '#6b6bb8',
     '#2d8f6f',
     '#7ea2b4',
     '#5a7b8c',

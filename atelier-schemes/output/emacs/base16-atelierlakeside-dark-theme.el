@@ -21,7 +21,7 @@
       (base0B "#568c3b")
       (base0C "#2d8f6f")
       (base0D "#257fad")
-      (base0E "#5d5db1")
+      (base0E "#6b6bb8")
       (base0F "#b72dd2"))
 
   (custom-theme-set-faces 

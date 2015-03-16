@@ -88,7 +88,7 @@
 		bold = 1;
     };
     italic =     {
-		foregroundColor = 5d5db1;
+		foregroundColor = 6b6bb8;
         italic = 1;
     };
     boldAndItalic =     {

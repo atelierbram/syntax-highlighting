@@ -107,7 +107,7 @@
   font-family: 'DejaVu Sans Mono', 'DroidSansMono', Menlo, monospace !important;
 }
 #-webkit-web-inspector .selector-matches {
-  color: #5d5db1 !important;
+  color: #6b6bb8 !important;
 }
 #-webkit-web-inspector body.inactive .sidebar {
   background-color: #dcdcdc !important;
@@ -233,7 +233,7 @@
   color: #161b1d !important;
 }
 #-webkit-web-inspector .console-formatted-regexp {
-  color: #5d5db1 !important;
+  color: #6b6bb8 !important;
 }
 #-webkit-web-inspector .console-group-messages .section .header .title {
   color: #F1F1F1 !important;
@@ -292,7 +292,7 @@
   color: #161b1d !important;
 }
 #-webkit-web-inspector .console-formatted-regexp {
-  color: #5d5db1 !important;
+  color: #6b6bb8 !important;
 }
 #-webkit-web-inspector .script-view,
 #-webkit-web-inspector .properties-tree,
@@ -371,7 +371,7 @@
   color: #935c25 !important;
 }
 #-webkit-web-inspector .webkit-html-js-node {
-  color: #5d5db1 !important;
+  color: #6b6bb8 !important;
 }
 #-webkit-web-inspector .webkit-html-resource-link,
 #-webkit-web-inspector .webkit-html-external-link {
@@ -396,7 +396,7 @@
 }
 #-webkit-web-inspector .webkit-css-important,
 #-webkit-web-inspector .webkit-css-at-rule {
-  color: #5d5db1 !important;
+  color: #6b6bb8 !important;
 }
 #-webkit-web-inspector .webkit-css-string {
   color: #2d8f6f !important;
@@ -427,7 +427,7 @@
   color: #935c25 !important;
 }
 #-webkit-web-inspector .webkit-javascript-regexp {
-  color: #5d5db1 !important;
+  color: #6b6bb8 !important;
 }
 #-webkit-web-inspector .section .properties .name,
 #-webkit-web-inspector .event-properties .name {
@@ -590,7 +590,7 @@
   color: #2d8f6f !important;
 }
 #-webkit-web-inspector .help-key-delimiter {
-  color: #5d5db1 !important;
+  color: #6b6bb8 !important;
 }
 #-webkit-web-inspector .styles-element-state-pane {
   background: #b8b8b8 !important;

@@ -28,7 +28,7 @@ H6
 foreground: 257fad
 
 EMPH
-foreground: 5d5db1
+foreground: 6b6bb8
 font-style: italic
 
 STRONG

@@ -9,7 +9,7 @@ code.sourceCode { background-color: #161b1d; }
 pre.sourceCode { background-color: #161b1d; line-height: 125% }
 td.nums pre { background-color: #1f292e; line-height: 125% }
 code.sourceCode span.kw { color: #257fad; font-weight: bold } /* Keyword */
-code.sourceCode span.dt { color: #5d5db1} /* Keyword.Type */
+code.sourceCode span.dt { color: #6b6bb8} /* Keyword.Type */
 code.sourceCode span.dv { color: #935c25 } /* Literal.Number.Integer */
 code.sourceCode span.bn { color: #935c25 } /* Literal.Number.Hex */
 code.sourceCode span.fl { color: #935c25 } /* Literal.Number.Float */
@@ -17,7 +17,7 @@ code.sourceCode span.ch { color: #568c3b} /* Literal.String.Char */
 code.sourceCode span.st { color: #568c3b } /* Literal.String */
 code.sourceCode span.co { color: #5a7b8c } /* Comment */
 code.sourceCode span.ot { color: #b72dd2 } /* Comment.Preproc */
-code.sourceCode span.al { color: #5d5db1 } /* Generic.Error */
+code.sourceCode span.al { color: #6b6bb8 } /* Generic.Error */
 code.sourceCode span.fu { color: #8a8a0f } /* Name.Function */
 code.sourceCode span.re { color: #2d8f6f}
-code.sourceCode span.er { color: #d22d72; border: 1px solid #5d5db1 } /* Error */
+code.sourceCode span.er { color: #d22d72; border: 1px solid #6b6bb8 } /* Error */

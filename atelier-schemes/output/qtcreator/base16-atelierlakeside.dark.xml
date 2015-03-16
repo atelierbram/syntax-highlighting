@@ -27,7 +27,7 @@
   <!-- language primitives -->
   <style name="Number" foreground="#935c25"/>
   <style name="String" foreground="#568c3b"/>
-  <style name="Keyword" foreground="#5d5db1"/>
+  <style name="Keyword" foreground="#6b6bb8"/>
   <style name="Operator" foreground="#7ea2b4"/>
   <style name="Preprocessor" foreground="#257fad"/>
   <style name="Label" foreground="#d22d72"/>
@@ -57,7 +57,7 @@
   <style name="Doxygen.Tag" foreground="#5a7b8c"/>
 
   <!-- QML -->
-  <style name="QmlTypeId" foreground="#5d5db1"/>
+  <style name="QmlTypeId" foreground="#6b6bb8"/>
   <style name="Binding" foreground="#d22d72"/>
   <style name="QmlExternalId" foreground="#257fad" italic="true"/>
   <style name="QmlExternalObjectProperty" foreground="#257fad" italic="true"/>
@@ -67,13 +67,13 @@
   <style name="QmlStateName" italic="true"/>
 
   <!-- inline diff -->
-  <style name="DiffFile" foreground="#5d5db1"/>
+  <style name="DiffFile" foreground="#6b6bb8"/>
   <style name="DiffLocation" foreground="#257fad"/>
   <style name="AddedLine" foreground="#568c3b"/>
   <style name="RemovedLine" foreground="#8a8a0f"/>
 
   <!-- side-by-side diff -->
-  <style name="DiffFileLine" foreground="#5d5db1"/>
+  <style name="DiffFileLine" foreground="#6b6bb8"/>
   <style name="DiffContextLine" foreground="#257fad"/>
   <style name="DiffSourceLine" foreground="#568c3b"/>
   <style name="DiffSourceChar" foreground="#8a8a0f" background="#1f292e"/>

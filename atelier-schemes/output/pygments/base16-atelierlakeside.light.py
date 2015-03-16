@@ -23,7 +23,7 @@ YELLOW = "#8a8a0f"
 GREEN = "#568c3b"
 AQUA = "#2d8f6f"
 BLUE = "#257fad"
-PURPLE = "#5d5db1"
+PURPLE = "#6b6bb8"
 
 
 class base16_atelierlakeside_light(Style):

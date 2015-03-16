@@ -21,7 +21,7 @@ property['color.base0A'] = 0x0f8a8a
 property['color.base0B'] = 0x3b8c56
 property['color.base0C'] = 0x6f8f2d
 property['color.base0D'] = 0xad7f25
-property['color.base0E'] = 0xb15d5d
+property['color.base0E'] = 0xb86b6b
 property['color.base0F'] = 0xd22db7
 
 -- Default font.

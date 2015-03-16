@@ -26,7 +26,7 @@ let s:gui0A = "8a8a0f"
 let s:gui0B = "568c3b"
 let s:gui0C = "2d8f6f"
 let s:gui0D = "257fad"
-let s:gui0E = "5d5db1"
+let s:gui0E = "6b6bb8"
 let s:gui0F = "b72dd2"
 
 " Terminal color definitions
