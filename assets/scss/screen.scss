@@ -178,9 +178,10 @@ footer a:hover,
   @include border-radius(3px);
 }
 article {
-  padding-top: emCalc(32);
-  padding-bottom: emCalc(32);
-  background-color: #fbfbfb;
+  padding-bottom: emCalc(96);
+  // background-color: #fbfbfb;
+  background-color: #fff;
+  border-bottom: 1px solid darken($sh-bg-color,15%);
 }
 article p,
 article ul,
@@ -192,6 +193,9 @@ article ol {
 article ol,
 article ul {
   list-style: none;
+}
+article h2 {
+  padding-top: 1em;
 }
 article h3 + p,
 article h3 + ul {
@@ -288,7 +292,7 @@ pre > code {
   border: 1px solid $sh-yellow-color;
   padding: emCalc(16) emCalc(24);
   margin-bottom: emCalc(32);
-  @include box-shadow (rgba(black,.35) -4px 6px 8px);
+  @include box-shadow (rgba(black,.35) 0 1px 1px);
   ;
   font-size: emCalc(16);
   // @include border-radius(3px);
@@ -309,12 +313,23 @@ i {
   position: absolute;
   width: 1px;
 }
+
+.inner-wrap {
+  max-width: 48em;
+  margin: 0 auto;
+  padding-left: emCalc(24);
+  padding-right: emCalc(24);
+}
+.rainbow-border {
+  overflow: auto;
+}
+.rainbow-border span {
+  float: left;
+  width: 12.5%;
+  padding: .25em;
+}
 @media only screen and (min-width: 550px) {
 
-  .inner-wrap {
-    margin-left: 10%;
-    margin-right: 10%;
-  }
   article {
     ul {
       list-style: circle;
@@ -325,7 +340,7 @@ i {
   }
 }
 
-@media only screen and (min-width: 940px) { 
+@media only screen and (min-width: 940px) {
   .repo-title {
     margin-top: .25em;
   }
@@ -337,41 +352,25 @@ i {
   .tagline {
     display: block;
   }
-  article {
-    border-radius: emCalc(4);
-    // border-top-left-radius: 0;
-    border: 1px solid darken($sh-bg-color,15%);
-    @include box-shadow (rgba(black,.15) -8px 16px 12px);
-  }
-  .inner-wrap {
-    margin-left: 5%;
-    margin-right: 0;
-  }
   .note {
     padding: emCalc(32);
-  }
-
-  .inner-wrap {
-    margin-right: 7.5%;
   }
    article p {
     font-size: emCalc(18);
   }
 }
 
-@media only screen and (min-width: 1280px) {
-  .inner-wrap {
-    margin-right: 12.5%;
-  }
-}
 @media only screen and (min-width: 1680px) {
   .sh-prism .note {
-    float: right;
-    margin-right: -72%;
-    width: 50%;
-    margin-top: -100%;
-    padding: emCalc(16) emCalc(32);
+    padding: emCalc(32);
     font-size: .875em;
+    font-size: .875em;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 30em;
+    margin-right: emCalc(32);
+    margin-top: emCalc(320);
   }
 }
 
