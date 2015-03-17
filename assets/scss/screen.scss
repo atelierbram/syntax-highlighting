@@ -187,7 +187,7 @@ article ul,
 article ol {
   margin: 0;
   padding: emCalc(8) 0;
-  line-height: 1.375;
+  line-height: 1.4;
 }
 article ol,
 article ul {
@@ -225,6 +225,8 @@ pre[class^="base"] {
 pre,
 code {
   font-family: $sh-code-font-family;
+  font-size: .875rem;
+  line-height: 1.4;
 }
 pre > code {
   font-size: emCalc(14);
