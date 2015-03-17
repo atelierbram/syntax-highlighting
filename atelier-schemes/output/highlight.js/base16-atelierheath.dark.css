@@ -4,8 +4,7 @@
 */
 
 /* Atelier Heath Comment */
-.hljs-comment,
-.hljs-title {
+.hljs-comment {
   color: #9e8f9e;
 }
 
@@ -52,6 +51,7 @@
 }
 
 /* Atelier Heath Aqua */
+.hljs-title,
 .css .hljs-hexcolor {
   color: #159393;
 }

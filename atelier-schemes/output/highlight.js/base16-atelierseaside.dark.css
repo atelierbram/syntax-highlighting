@@ -4,8 +4,7 @@
 */
 
 /* Atelier Seaside Comment */
-.hljs-comment,
-.hljs-title {
+.hljs-comment {
   color: #809980;
 }
 
@@ -52,6 +51,7 @@
 }
 
 /* Atelier Seaside Aqua */
+.hljs-title,
 .css .hljs-hexcolor {
   color: #1999b3;
 }

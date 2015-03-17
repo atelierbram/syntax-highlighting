@@ -4,8 +4,7 @@
 */
 
 /* Atelier Lakeside Comment */
-.hljs-comment,
-.hljs-title {
+.hljs-comment {
   color: #7195a8;
 }
 
@@ -52,6 +51,7 @@
 }
 
 /* Atelier Lakeside Aqua */
+.hljs-title,
 .css .hljs-hexcolor {
   color: #2d8f6f;
 }

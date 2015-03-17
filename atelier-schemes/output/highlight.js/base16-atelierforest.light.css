@@ -4,8 +4,7 @@
 */
 
 /* Atelier Forest Comment */
-.hljs-comment,
-.hljs-title {
+.hljs-comment {
   color: #766e6b;
 }
 
@@ -52,6 +51,7 @@
 }
 
 /* Atelier Forest Aqua */
+.hljs-title,
 .css .hljs-hexcolor {
   color: #3d97b8;
 }

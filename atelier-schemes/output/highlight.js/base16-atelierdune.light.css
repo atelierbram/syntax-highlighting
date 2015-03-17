@@ -4,8 +4,7 @@
 */
 
 /* Atelier Dune Comment */
-.hljs-comment,
-.hljs-title {
+.hljs-comment {
   color: #7d7a68;
 }
 
@@ -52,6 +51,7 @@
 }
 
 /* Atelier Dune Aqua */
+.hljs-title,
 .css .hljs-hexcolor {
   color: #1fad83;
 }
