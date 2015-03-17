@@ -3,10 +3,10 @@
   <head>
     <meta charset="utf-8">
 
-    <title>Sulpherpool Colorscheme - Syntax highlighting</title>
+    <title>Sulphurpool Colorscheme - Syntax highlighting</title>
     <link href="../../assets/css/screen.css" media="screen, projection" rel="stylesheet" type="text/css" />
     <link href="../../assets/css/app.css" media="screen, projection" rel="stylesheet" type="text/css" />
-    <link href="../../assets/css/sulpherpool.css" media="screen, projection" rel="stylesheet" type="text/css" />
+    <link href="../../assets/css/sulphurpool.css" media="screen, projection" rel="stylesheet" type="text/css" />
 
     <meta name="viewport" content="width=device-width">
     <meta name="author" content="Bram de Haan">
@@ -29,7 +29,7 @@
             <li><a href="../">index - overview</a></li>
             <li><a href="../forest">Forest</a></li>
             <li><a href="../heath">Heath</a></li>
-            <li class="is-selected"><a href="#" class="is-selected">Sulpherpool</a></li>
+            <li class="is-selected"><a href="#" class="is-selected">Sulphurpool</a></li>
             <li><a href="../lakeside">Lakeside</a></li>
             <li><a href="../seaside">Seaside</a></li>
             <li><a href="../dune">Dune</a></li>
@@ -47,9 +47,9 @@
         <div id="wrap" class="inner-wrap">
 
           <h2>Atelier <small>colorscheme</small></h2>
-          <h3 id="about-sulpherpool">Sulpherpool</h3>
+          <h3 id="about-sulphurpool">Sulphurpool</h3>
           <p>
-          Base color for Sulpherpool is purple (<i>here called violet</i>), and here the background-colors have these grey purplish colors for the background, but then obviously toned down quite a bit &hellip;.
+          Base color for Sulphurpool is purple (<i>here called violet</i>), and here the background-colors have these grey purplish colors for the background, but then obviously toned down quite a bit &hellip;.
           </p>
 
 <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1200 1200">
