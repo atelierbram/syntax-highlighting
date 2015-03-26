@@ -203,9 +203,12 @@ article h3 + ul {
   margin-top: 1px;
   border-top: 1px solid darken($sh-bg-color,10%);
 }
-article h3 {
+article h3,
+article h4 {
   margin: 0;
   padding: emCalc(8) 0 0;
+}
+article h3 {
   border-bottom: 2px solid darken($sh-bg-color,15%);
 }
 article > pre {
