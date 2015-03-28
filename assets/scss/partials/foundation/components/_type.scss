@@ -178,7 +178,7 @@ $microformat-abbr-font-decoration: none !default;
   }
 
   /* Default header styles */
-  h1, h2, h3, h4, h5, h6, strong {
+  h1, h2, h3, h4, h5, h6, strong, b {
     font-family: $header-font-family;
     font-weight: $header-font-weight;
     font-style: $header-font-style;
@@ -221,7 +221,7 @@ $microformat-abbr-font-decoration: none !default;
 
   strong,
   b {
-    font-weight: bold;
+    font-weight: normal;
     line-height: inherit;
   }
 
