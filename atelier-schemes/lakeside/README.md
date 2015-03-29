@@ -1,14 +1,14 @@
 # Lakeside
 
-syntax highlighting colorscheme 
+syntax highlighting colorscheme
 
 [Checkout demopage](http://atelierbram.github.io/syntax-highlighting/atelier-schemes/lakeside)
 
 Base color for Lakeside is blue, which means bluish colors for the background.
 
-![demotiles for Lakeside, syntax highlighting colorscheme](https://lh4.googleusercontent.com/-UJv_cNi6oSY/Uhd-S6JZfdI/AAAAAAAAAqE/jPOaPoEfxhY/s800/atelierschemes-demotiles_lakeside_400x400.png)
+![Atelier Schemes, demotiles for Lakeside, syntax highlighting colorscheme](http://atelierbram.github.io/syntax-highlighting/assets/img/svg/atelierschemes-demotiles-lakeside_1200x300.svg)
 
-demotiles for Lakeside, syntax highlighting colorscheme 
+demotiles for Lakeside, syntax highlighting colorscheme
 
 ## Sixteen Colors
 
@@ -37,7 +37,7 @@ $green:   $base0b;
 $cyan:    $base0c;
 $blue:    $base0d;
 $violet:  $base0e;
-$magenta: $base0f; 
+$magenta: $base0f;
 ```
 ## Screenshots
 

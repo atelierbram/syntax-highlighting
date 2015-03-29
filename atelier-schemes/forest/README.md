@@ -6,7 +6,7 @@ syntax highlighting colorscheme
 
 Starting point for Forest was to have brownish colors for the background, not unlike a colorsheme like [“Birds of Paradise”](http://joebergantine.com/projects/color-schemes/birds-of-paradise/), but a bit muddier on the browns, less red and more greyed out, like clay.
 
-![demotiles for Forest, syntax highlighting colorscheme](https://lh4.googleusercontent.com/-H8x-WItXgYA/Uhd6Zbbf22I/AAAAAAAAApA/55AsHw2FAQs/s800/atelierschemes-demotiles_forest_400x400.png)
+![Atelier Schemes, demotiles for Forest, syntax highlighting colorscheme](http://atelierbram.github.io/syntax-highlighting/assets/img/svg/atelierschemes-demotiles-forest_1200x300.svg)
 
 demotiles for Forest, syntax highlighting colorscheme 
 

@@ -6,7 +6,7 @@ syntax highlighting colorscheme
 
 Base color for Heath is magenta, and here the background-colors have these cool-red colors for the background, but then obviously toned down quite a bit...
 
-![demotiles for Heath, syntax highlighting colorscheme](https://lh4.googleusercontent.com/-RSthwvPTnpg/Uhd8uuSaAcI/AAAAAAAAApk/GTIzuGSwP20/s800/atelierschemes-demotiles_heath_400x400.png)
+![Atelier Schemes, demotiles for Heath, syntax highlighting colorscheme](http://atelierbram.github.io/syntax-highlighting/assets/img/svg/atelierschemes-demotiles-heath_1200x300.svg)
 
 demotiles for Heath, syntax highlighting colorscheme 
 

@@ -1,14 +1,14 @@
 # Seaside
 
-syntax highlighting colorscheme 
+syntax highlighting colorscheme
 
 [Checkout demopage](http://atelierbram.github.io/syntax-highlighting/atelier-schemes/seaside)
 
-Base color for Lakeside is green, which leads to greenish colors for the background.
+Base color for Seaside is green, which leads to greenish colors for the background.
 
-![demotiles for Seaside, syntax highlighting colorscheme](https://lh3.googleusercontent.com/-Rs49jS0L6-I/UheADsydXpI/AAAAAAAAAqk/1E4D7ntoXcc/s800/atelierschemes-demotiles_seaside_400x400.png)
+![Atelier Schemes, demotiles for Seaside, syntax highlighting colorscheme](http://atelierbram.github.io/syntax-highlighting/assets/img/svg/atelierschemes-demotiles-seaside_1200x300.svg)
 
-demotiles for Seaside, syntax highlighting colorscheme 
+demotiles for Seaside, syntax highlighting colorscheme
 
 ## Sixteen Colors
 
@@ -37,7 +37,7 @@ $green:   $base0b;
 $cyan:    $base0c;
 $blue:    $base0d;
 $violet:  $base0e;
-$magenta: $base0f; 
+$magenta: $base0f;
 ```
 ## Screenshots
 

@@ -7,6 +7,7 @@ Collection of colorschemes.
 * [index - demopages](http://atelierbram.github.io/syntax-highlighting/atelier-schemes/)
     * [Forest](http://atelierbram.github.io/syntax-highlighting/atelier-schemes/forest)
     * [Heath](http://atelierbram.github.io/syntax-highlighting/atelier-schemes/heath)
+    * [Sulphurpool](http://atelierbram.github.io/syntax-highlighting/atelier-schemes/sulphurpool)
     * [Lakeside](http://atelierbram.github.io/syntax-highlighting/atelier-schemes/lakeside)
     * [Seaside](http://atelierbram.github.io/syntax-highlighting/atelier-schemes/seaside)
     * [Dune](http://atelierbram.github.io/syntax-highlighting/atelier-schemes/dune)

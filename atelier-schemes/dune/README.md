@@ -6,7 +6,7 @@ syntax highlighting colorscheme
 
 Base color for Dune is yellow, and then yellowish brown greyed colors for the background.
 
-![demotiles for Dune, syntax highlighting colorscheme](https://lh4.googleusercontent.com/-GjdvoVk1lVk/Ug50Ah7rUVI/AAAAAAAAAkw/vCO9AlKlKk4/s800/atelierschemes-demotiles_400x400.png)
+![Atelier Schemes, demotiles for Dune, syntax highlighting colorscheme](http://atelierbram.github.io/syntax-highlighting/assets/img/svg/atelierschemes-demotiles-dune_1200x300.svg)
 
 demotiles for Dune, syntax highlighting colorscheme 
 

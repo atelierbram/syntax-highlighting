@@ -7,7 +7,7 @@ For the construction of these colorschemes,  [Solarized colorscheme](http://etha
 ## Downloads
 All downloads can be [found in the output folder](https://github.com/atelierbram/syntax-highlighting/tree/master/atelier-schemes/output). There one can find these colorschemes for: Bbedit, ChromeDevtools, CodeMirror, Console2, Emacs, Geany, Gedit, Gimp-palette, Gnome-terminal, Highlight.js, Idea, iTerm2, Konsole, Mate-Terminal, Mintty, Mou, Notepad++, Prism, Putty, QtCreator, Rouge, Secure-shell, Shell, Sublime Text, Terminal-app, Terminator, Termite, Textadept, Textmate, Vconsole, Vim, Visual-studio, Windows-command-prompt, Xcode4, Xfce4-terminal, Xresources.
 
-**Note**: For Sublime Text, go to [Textmate](https://github.com/atelierbram/syntax-highlighting/tree/master/atelier-schemes/output/textmate) folder.
+**Note**: For Sublime Text, go to [Textmate](https://github.com/atelierbram/syntax-highlighting/tree/master/atelier-schemes/output/textmate) folder, or [download the zip-file directly](https://github.com/atelierbram/syntax-highlighting/tree/master/atelier-schemes/output/textmate/textmate.zip).
 
 For [Vim with Pathogen](https://github.com/tpope/vim-pathogen) you can clone [the dedicated repo for this purpose](https://github.com/atelierbram/vim-colors_atelier-schemes) in the `~/.vim/bundle` directory like so:
 
