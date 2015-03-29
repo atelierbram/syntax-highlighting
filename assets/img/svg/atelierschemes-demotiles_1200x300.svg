@@ -1,0 +1,39 @@
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1200 300"><style type="text/css">
+<![CDATA[
+.base00-dune-bg  {fill:#20201d}
+.base01-dune-bg  {fill:#292824}
+.base02-dune-bg  {fill:#6e6b5e}
+.base03-dune-bg  {fill:#7d7a68}
+.base04-dune-bg  {fill:#999580}
+.base05-dune-bg  {fill:#a6a28c}
+.base06-dune-bg  {fill:#e8e4cf}
+.base07-dune-bg  {fill:#fefbec}
+.red-dune-bg     {fill:#d73737}
+.orange-dune-bg  {fill:#b65611}
+.yellow-dune-bg  {fill:#ae9513}
+.green-dune-bg   {fill:#60ac39}
+.cyan-dune-bg    {fill:#1fad83}
+.blue-dune-bg    {fill:#6684e1}
+.violet-dune-bg  {fill:#b854d4}
+.magenta-dune-bg {fill:#d43552}
+]]></style>
+<g>
+ <rect x="0" y="0" width="150" height="150" class="base00-dune-bg" />
+ <rect x="150" y="0" width="150" height="150" class="base01-dune-bg" />
+ <rect x="300" y="0" width="150" height="150" class="base02-dune-bg" />
+ <rect x="450" y="0" width="150" height="150" class="base03-dune-bg" />
+ <rect x="600" y="0" width="150" height="150" class="base04-dune-bg" />
+ <rect x="750" y="0" width="150" height="150" class="base05-dune-bg" />
+ <rect x="900" y="0" width="150" height="150" class="base06-dune-bg" />
+ <rect x="1050" y="0" width="150" height="150" class="base07-dune-bg" />
+ <rect x="0" y="150" width="150" height="150" class="yellow-dune-bg" />
+ <rect x="150" y="150" width="150" height="150" class="orange-dune-bg" />
+ <rect x="300" y="150" width="150" height="150" class="red-dune-bg" />
+ <rect x="450" y="150" width="150" height="150" class="magenta-dune-bg" />
+ <rect x="600" y="150" width="150" height="150" class="violet-dune-bg" />
+ <rect x="750" y="150" width="150" height="150" class="blue-dune-bg" />
+ <rect x="900" y="150" width="150" height="150" class="cyan-dune-bg" />
+ <rect x="1050" y="150" width="150" height="150" class="green-dune-bg" />
+</g>
+</svg>
+

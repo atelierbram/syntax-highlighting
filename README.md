@@ -12,7 +12,7 @@ Collection of colorschemes.
     * [Dune](http://atelierbram.github.io/syntax-highlighting/atelier-schemes/dune)
 * [Downloads](https://github.com/atelierbram/syntax-highlighting/tree/master/atelier-schemes/output)
 
-![Atelier Schemes, demotiles for Dune, syntax highlighting colorscheme](https://lh4.googleusercontent.com/-GjdvoVk1lVk/Ug50Ah7rUVI/AAAAAAAAAkw/vCO9AlKlKk4/s800/atelierschemes-demotiles_400x400.png)
+![Atelier Schemes, demotiles for Dune, syntax highlighting colorscheme](http://atelierbram.github.io/syntax-highlighting/assets/img/svg/atelierschemes-demotiles_1200x300.svg)
 
 Atelier Schemes, demotiles for Dune, syntax highlighting colorscheme
 
