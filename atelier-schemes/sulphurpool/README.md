@@ -52,7 +52,7 @@ Screenshot – light version – in Sublime Text
 ## Downloads
 All downloads can be found in the [output folder](https://github.com/atelierbram/syntax-highlighting/tree/master/atelier-schemes/output).
 
-**Note**: For Sublime Text, go to [Textmate](https://github.com/atelierbram/syntax-highlighting/tree/master/atelier-schemes/output/textmate) folder, or [download the zip-file directly](https://github.com/atelierbram/syntax-highlighting/tree/master/atelier-schemes/output/textmate/textmate.zip).
+**Note**: For Sublime Text, go to [Textmate](https://github.com/atelierbram/syntax-highlighting/tree/master/atelier-schemes/output/textmate) folder, or [download the zip-file directly](https://atelierbram.github.io/syntax-highlighting/atelier-schemes/output/textmate/textmate.zip).
 
 ## Credits
 * Credits to [Ethan Schoonover](http://ethanschoonover.com/solarized) whose [Solarized colorscheme](http://github.com/altercation/solarized) was a model for these colorschemes
