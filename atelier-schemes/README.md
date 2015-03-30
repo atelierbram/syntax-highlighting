@@ -4,6 +4,9 @@ Atelier Schemes
 For the construction of these colorschemes,  [Solarized colorscheme](http://ethanschoonover.com/solarized) stood as a model, and [Base16 Builder](https://github.com/chriskempson/base16-builder) was a building tool. Like in Solarized, the colorschemes come in a light – and in a dark background version. It’s really just variations on the same idea, but each with it’s own color-value relations, interdependent on each other and their base (background-)color.
 [Go to Demopage](http://atelierbram.github.io/syntax-highlighting/atelier-schemes)
 
+## Updates
+Some of thes colorschemes have been updated; read [more about this more about it here](http://atelierbram.github.io/syntax-highlighting/atelier-schemes/demo/changes-03-2015.html).
+
 ## Downloads
 All downloads can be [found in the output folder](https://github.com/atelierbram/syntax-highlighting/tree/master/atelier-schemes/output).
 
@@ -22,17 +25,11 @@ Base color for Forest is orange, and the idea is to have brownish colors for the
 
 ![demotiles for Forest colorscheme](http://atelierbram.github.io/syntax-highlighting/assets/img/svg/atelierschemes-demotiles-forest_1200x300.svg)
 
-demotiles for Forest colorscheme
-
-
 ## Heath
 Base color for Heath is magenta, and here the background-colors have these cool-red colors for the background, but then obviously toned down quite a bit.
 [More info](http://atelierbram.github.io/syntax-highlighting/atelier-schemes/heath)
 
 ![demotiles for Heath colorscheme](http://atelierbram.github.io/syntax-highlighting/assets/img/svg/atelierschemes-demotiles-heath_1200x300.svg)
-
-demotiles for Heath colorscheme
-
 
 ## Sulphurpool
 Base color for Sulphurpool is purple (_here called violet_), and here the background-colors have these purplish colors for the background.
@@ -40,17 +37,11 @@ Base color for Sulphurpool is purple (_here called violet_), and here the backgr
 
 ![demotiles for Sulphurpool colorscheme](http://atelierbram.github.io/syntax-highlighting/assets/img/svg/atelierschemes-demotiles-sulphurpool_1200x300.svg)
 
-demotiles for Sulphurpool colorscheme
-
-
 ## Lakeside
 Base color for Lakeside is blue, which means bluish colors for the background.
 [More info](http://atelierbram.github.io/syntax-highlighting/atelier-schemes/lakeside)
 
 ![demotiles for Lakeside colorscheme](http://atelierbram.github.io/syntax-highlighting/assets/img/svg/atelierschemes-demotiles-lakeside_1200x300.svg)
-
-demotiles for Lakeside colorscheme
-
 
 ## Seaside
 Base color for Lakeside is green, which leads to greenish colors for the background.
@@ -58,17 +49,11 @@ Base color for Lakeside is green, which leads to greenish colors for the backgro
 
 ![demotiles for Seaside colorscheme](http://atelierbram.github.io/syntax-highlighting/assets/img/svg/atelierschemes-demotiles-seaside_1200x300.svg)
 
-demotiles for Seaside colorscheme
-
-
 ## Dune
 Base color for Dune is yellow, and then yellowish brown greyed colors for the background.
 [More info](http://atelierbram.github.io/syntax-highlighting/atelier-schemes/dune)
 
 ![demotiles for Dune colorscheme](http://atelierbram.github.io/syntax-highlighting/assets/img/svg/atelierschemes-demotiles-dune_1200x300.svg)
-
-demotiles for Dune colorscheme
-
 
 ## Demo
 * [Demo for Highlight.js](http://atelierbram.github.io/syntax-highlighting/atelier-schemes/demo/highlight-js.html)
