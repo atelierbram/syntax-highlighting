@@ -1,6 +1,6 @@
 # Forest
 
-syntax highlighting colorscheme 
+syntax highlighting colorscheme
 
 [Checkout demopage](http://atelierbram.github.io/syntax-highlighting/atelier-schemes/forest)
 
@@ -8,7 +8,7 @@ Starting point for Forest was to have brownish colors for the background, not un
 
 ![Atelier Schemes, demotiles for Forest, syntax highlighting colorscheme](http://atelierbram.github.io/syntax-highlighting/assets/img/svg/atelierschemes-demotiles-forest_1200x300.svg)
 
-demotiles for Forest, syntax highlighting colorscheme 
+demotiles for Forest, syntax highlighting colorscheme
 
 ## Sixteen Colors
 
@@ -24,7 +24,8 @@ $base07: hsl(16, 10%, 94%);   /* #f1efee */
 $base08: hsl(354, 88%, 56%);  /* #f22c40 */
 $base09: hsl(16, 75%, 50%);   /* #df5320 */
 $base0a: hsl(38, 78%, 47%);   /* #d5911a */
-$base0b: hsl(104, 53%, 47%);  /* #5ab738 */
+$base0a: hsl(38, 78%, 43%);   /* #c38418 */
+$base0b: hsl(75, 60%, 37%);   /* #7b9726 */
 $base0c: hsl(174, 100%, 34%); /* #00ad9c */
 $base0d: hsl(218, 78%, 58%);  /* #407ee7 */
 $base0e: hsl(240, 76%, 66%);  /* #6666ea */
@@ -37,7 +38,7 @@ $green:   $base0b;
 $cyan:    $base0c;
 $blue:    $base0d;
 $violet:  $base0e;
-$magenta: $base0f; 
+$magenta: $base0f;
 ```
 ## Screenshots
 

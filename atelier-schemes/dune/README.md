@@ -1,6 +1,6 @@
 # Dune
 
-syntax highlighting colorscheme 
+syntax highlighting colorscheme
 
 [Checkout demopage](http://atelierbram.github.io/syntax-highlighting/atelier-schemes/dune)
 
@@ -8,7 +8,7 @@ Base color for Dune is yellow, and then yellowish brown greyed colors for the ba
 
 ![Atelier Schemes, demotiles for Dune, syntax highlighting colorscheme](http://atelierbram.github.io/syntax-highlighting/assets/img/svg/atelierschemes-demotiles-dune_1200x300.svg)
 
-demotiles for Dune, syntax highlighting colorscheme 
+demotiles for Dune, syntax highlighting colorscheme
 
 ## Sixteen Colors
 
@@ -23,12 +23,12 @@ $base06: hsl(50, 35%, 86%);  /* #e8e4cf */
 $base07: hsl(50, 87%, 96%);  /* #fefbec */
 $base08: hsl(0, 67%, 53%);   /* #d73737 */
 $base09: hsl(25, 83%, 39%);  /* #b65611 */
-$base0a: hsl(50, 80%, 45%);  /* #cfb017 */
+$base0a: hsl(50, 80%, 38%);  /* #ae9513 */
 $base0b: hsl(100, 50%, 45%); /* #60ac39 */
 $base0c: hsl(162, 70%, 40%); /* #1fad83 */
 $base0d: hsl(225, 67%, 64%); /* #6684e1 */
 $base0e: hsl(287, 60%, 58%); /* #b854d4 */
-$base0f: hsl(349, 65%, 52%); /* #d43552 */ 
+$base0f: hsl(349, 65%, 52%); /* #d43552 */
 
 $red:     $base08;
 $orange:  $base09;
@@ -37,7 +37,7 @@ $green:   $base0b;
 $cyan:    $base0c;
 $blue:    $base0d;
 $violet:  $base0e;
-$magenta: $base0f; 
+$magenta: $base0f;
 ```
 ## Screenshots
 

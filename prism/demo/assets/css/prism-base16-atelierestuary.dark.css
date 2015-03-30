@@ -1,6 +1,6 @@
 /*
 
-Name:       Base16 Atelier Sulpherpool Light
+Name:       Base16 Atelier Sulpherpool Dark
 Author:     Bram de Haan (http://atelierbram.github.io/syntax-highlighting/atelier-schemes/sulperpool)
 
 Prism template by Bram de Haan (http://atelierbram.github.io/syntax-highlighting/prism/)
@@ -24,20 +24,20 @@ pre[class*="language-"] {
   -moz-hyphens: none;
   -ms-hyphens: none;
   hyphens: none;
-  background: #fff9b3;
-  color: #565229;
+  background: #292816;
+  color: #aca339;
 }
 
 pre[class*="language-"]::-moz-selection, pre[class*="language-"] ::-moz-selection,
 code[class*="language-"]::-moz-selection, code[class*="language-"] ::-moz-selection {
   text-shadow: none;
-  background: #f6e955;
+  background: #968f40;
 }
 
 pre[class*="language-"]::selection, pre[class*="language-"] ::selection,
 code[class*="language-"]::selection, code[class*="language-"] ::selection {
   text-shadow: none;
-  background: #f6e955;
+  background: #968f40;
 }
 
 /* Code blocks */
@@ -57,11 +57,11 @@ pre[class*="language-"] {
 .token.prolog,
 .token.doctype,
 .token.cdata {
-  color: #968f40;
+  color: #6a652f;
 }
 
 .token.punctuation {
-  color: #565229;
+  color: #aca339;
 }
 
 .token.namespace {
@@ -125,7 +125,7 @@ pre[class*="language-"] {
 }
 
 .token.inserted {
-  border-bottom: 1px dotted #292816;
+  border-bottom: 1px dotted #fff9b3;
   text-decoration: none;
 }
 

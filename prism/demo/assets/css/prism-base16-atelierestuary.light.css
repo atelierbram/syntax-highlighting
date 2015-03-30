@@ -25,7 +25,7 @@ pre[class*="language-"] {
   -ms-hyphens: none;
   hyphens: none;
   background: #fff9b3;
-  color: #565229;
+  color: #544f12;
 }
 
 pre[class*="language-"]::-moz-selection, pre[class*="language-"] ::-moz-selection,
@@ -57,11 +57,11 @@ pre[class*="language-"] {
 .token.prolog,
 .token.doctype,
 .token.cdata {
-  color: #968f40;
+  color: #a5991d;
 }
 
 .token.punctuation {
-  color: #565229;
+  color: #544f12;
 }
 
 .token.namespace {
@@ -125,7 +125,7 @@ pre[class*="language-"] {
 }
 
 .token.inserted {
-  border-bottom: 1px dotted #292816;
+  border-bottom: 1px dotted #33300d;
   text-decoration: none;
 }
 

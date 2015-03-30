@@ -1,6 +1,6 @@
 # Heath
 
-syntax highlighting colorscheme 
+syntax highlighting colorscheme
 
 [Checkout demopage](http://atelierbram.github.io/syntax-highlighting/atelier-schemes/heath)
 
@@ -8,7 +8,7 @@ Base color for Heath is magenta, and here the background-colors have these cool-
 
 ![Atelier Schemes, demotiles for Heath, syntax highlighting colorscheme](http://atelierbram.github.io/syntax-highlighting/assets/img/svg/atelierschemes-demotiles-heath_1200x300.svg)
 
-demotiles for Heath, syntax highlighting colorscheme 
+demotiles for Heath, syntax highlighting colorscheme
 
 ## Sixteen Colors
 
@@ -24,11 +24,11 @@ $base07: hsl(300, 20%, 96%); /* #f7f3f7 */
 $base08: hsl(8, 65%, 48%);   /* #ca402b */
 $base09: hsl(24, 63%, 40%);  /* #a65926 */
 $base0a: hsl(38, 56%, 47%);  /* #bb8a35 */
-$base0b: hsl(120, 47%, 41%); /* #379a37 */
+$base0b: hsl(56, 42%, 40%);  /* #918b3b */
 $base0c: hsl(180, 75%, 33%); /* #159393 */
 $base0d: hsl(230, 80%, 62%); /* #516aec */
 $base0e: hsl(260, 45%, 55%); /* #7b59c0 */
-$base0f: hsl(300, 60%, 50%); /* #c3c */   
+$base0f: hsl(300, 60%, 50%); /* #c3c */
 
 $red:     $base08;
 $orange:  $base09;
@@ -37,7 +37,7 @@ $green:   $base0b;
 $cyan:    $base0c;
 $blue:    $base0d;
 $violet:  $base0e;
-$magenta: $base0f; 
+$magenta: $base0f;
 ```
 ## Screenshots
 
