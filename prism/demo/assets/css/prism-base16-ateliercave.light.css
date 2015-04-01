@@ -7,24 +7,6 @@ Prism template by Bram de Haan (http://atelierbram.github.io/syntax-highlighting
 Original Base16 color scheme by Chris Kempson (https://github.com/chriskempson/base16)
 
 */
-
-$base00: hsl(55, 30%, 12%);
-$base01: hsl(55, 32%, 15%);
-$base02: hsl(55, 62%, 28%);
-$base03: hsl(55, 61%, 32%);
-$base04: hsl(55, 51%, 42%);
-$base05: hsl(55, 50%, 45%);
-$base06: hsl(55, 53%, 82%);
-$base07: hsl(55, 90%, 94%);
-$base08: hsl(20, 55%, 52%);
-$base09: hsl(37, 75%, 40%);
-$base0a: hsl(55, 85%, 35%);
-$base0b: hsl(55, 100%, 31%);
-$base0c: hsl(80, 80%, 34%);
-$base0d: hsl(131, 50%, 41%);
-$base0e: hsl(162, 21%, 47%);
-$base0f: hsl(37, 20%, 50%);
-
 code[class*="language-"],
 pre[class*="language-"] {
   font-family: Consolas, Menlo, Monaco, "Andale Mono WT", "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", "DejaVu Sans Mono", "Bitstream Vera Sans Mono", "Liberation Mono", "Nimbus Mono L", "Courier New", Courier, monospace;
@@ -35,29 +17,27 @@ pre[class*="language-"] {
   white-space: pre;
   word-spacing: normal;
   word-break: normal;
-
   -moz-tab-size: 4;
   -o-tab-size: 4;
   tab-size: 4;
-
   -webkit-hyphens: none;
   -moz-hyphens: none;
   -ms-hyphens: none;
   hyphens: none;
-  background: $base07;
-  color: $base02;
+  background: #f4f0fa;
+  color: #624e7e;
 }
 
 pre[class*="language-"]::-moz-selection, pre[class*="language-"] ::-moz-selection,
 code[class*="language-"]::-moz-selection, code[class*="language-"] ::-moz-selection {
   text-shadow: none;
-  background: $base06;
+  background: #e4dfec;
 }
 
 pre[class*="language-"]::selection, pre[class*="language-"] ::selection,
 code[class*="language-"]::selection, code[class*="language-"] ::selection {
   text-shadow: none;
-  background: $base06;
+  background: #e4dfec;
 }
 
 /* Code blocks */
@@ -77,11 +57,11 @@ pre[class*="language-"] {
 .token.prolog,
 .token.doctype,
 .token.cdata {
-  color: $base04;
+  color: #897b9d;
 }
 
 .token.punctuation {
-  color: $base02;
+  color: #624e7e;
 }
 
 .token.namespace {
@@ -91,28 +71,34 @@ pre[class*="language-"] {
 .token.operator,
 .token.boolean,
 .token.number {
-  color: $base09;
+  color: #bf674a;
 }
+
 .token.property {
-  color: $base0a;
+  color: #a08f3b;
 }
+
 .token.tag {
-  color: $base0d;
+  color: #6577d2;
 }
+
 .token.string {
-  color: $base0c;
+  color: #328fae;
 }
+
 .token.selector {
-  color: $base0e;
+  color: #955ae7;
 }
+
 .token.attr-name {
-  color: $base09;
+  color: #bf674a;
 }
+
 .token.entity,
 .token.url,
 .language-css .token.string,
 .style .token.string {
-  color: $base0c;
+  color: #328fae;
 }
 
 .token.attr-value,
@@ -120,18 +106,18 @@ pre[class*="language-"] {
 .token.control,
 .token.directive,
 .token.unit {
-  color: $base0b;
+  color: #74875a;
 }
 
 .token.statement,
 .token.regex,
 .token.atrule {
-  color: $base0c;
+  color: #328fae;
 }
 
 .token.placeholder,
 .token.variable {
-  color: $base0d;
+  color: #6577d2;
 }
 
 .token.deleted {
@@ -139,7 +125,7 @@ pre[class*="language-"] {
 }
 
 .token.inserted {
-  border-bottom: 1px dotted $base00;
+  border-bottom: 1px dotted #302046;
   text-decoration: none;
 }
 
@@ -153,7 +139,7 @@ pre[class*="language-"] {
 }
 
 .token.important {
-  color: $base08;
+  color: #cf598a;
 }
 
 .token.entity {
@@ -161,6 +147,6 @@ pre[class*="language-"] {
 }
 
 pre > code.highlight {
-  outline: .4em solid $base08;
+  outline: 0.4em solid #cf598a;
   outline-offset: .4em;
 }

@@ -1,28 +1,28 @@
 /*
 
-Name:       Base16 Atelier Sulpherpool Light
+Name:       Base16 Atelier Sulpherpool Dark
 Author:     Bram de Haan (http://atelierbram.github.io/syntax-highlighting/atelier-schemes/sulperpool)
 
 Prism template by Bram de Haan (http://atelierbram.github.io/syntax-highlighting/prism/)
 Original Base16 color scheme by Chris Kempson (https://github.com/chriskempson/base16)
 
 */
-$base00: hsl(180, 30%, 10%);
-$base01: hsl(180, 26%, 14%);
-$base02: hsl(180, 23%, 36%);
-$base03: hsl(180, 21%, 42%);
-$base04: hsl(180, 18%, 53%);
-$base05: hsl(180, 20%, 60%);
-$base06: hsl(180, 38%, 87%);
-$base07: hsl(180, 57%, 94%);
-$base08: hsl(0, 57%, 58%);
-$base09: hsl(20, 55%, 50%);
+$base00: hsl(140, 30%, 12%);
+$base01: hsl(140, 28%, 16%);
+$base02: hsl(140, 20%, 32%);
+$base03: hsl(140, 18%, 38%);
+$base04: hsl(140, 15%, 48%);
+$base05: hsl(140, 17%, 53%);
+$base06: hsl(140, 25%, 80%);
+$base07: hsl(140, 35%, 90%);
+$base08: hsl(20, 51%, 46%);
+$base09: hsl(32, 45%, 43%);
 $base0a: hsl(40, 46%, 43%);
-$base0b: hsl(180, 75%, 37%);
-$base0c: hsl(200, 70%, 50%);
-$base0d: hsl(210, 55%, 53%);
-$base0e: hsl(240, 25%, 55%);
-$base0f: hsl(321, 34%, 55%);
+$base0b: hsl(140, 36%, 44%);
+$base0c: hsl(183, 70%, 37%);
+$base0d: hsl(183, 34%, 42%);
+$base0e: hsl(199, 29%, 47%);
+$base0f: hsl(21, 12%, 47%);
 
 code[class*="language-"],
 pre[class*="language-"] {
@@ -43,20 +43,20 @@ pre[class*="language-"] {
   -moz-hyphens: none;
   -ms-hyphens: none;
   hyphens: none;
-  background: $base07;
-  color: $base02;
+  background: $base00;
+  color: $base05;
 }
 
 pre[class*="language-"]::-moz-selection, pre[class*="language-"] ::-moz-selection,
 code[class*="language-"]::-moz-selection, code[class*="language-"] ::-moz-selection {
   text-shadow: none;
-  background: $base06;
+  background: $base04;
 }
 
 pre[class*="language-"]::selection, pre[class*="language-"] ::selection,
 code[class*="language-"]::selection, code[class*="language-"] ::selection {
   text-shadow: none;
-  background: $base06;
+  background: $base04;
 }
 
 /* Code blocks */
@@ -76,11 +76,11 @@ pre[class*="language-"] {
 .token.prolog,
 .token.doctype,
 .token.cdata {
-  color: $base04;
+  color: $base03;
 }
 
 .token.punctuation {
-  color: $base02;
+  color: $base05;
 }
 
 .token.namespace {
@@ -138,7 +138,7 @@ pre[class*="language-"] {
 }
 
 .token.inserted {
-  border-bottom: 1px dotted $base00;
+  border-bottom: 1px dotted $base07;
   text-decoration: none;
 }
 
