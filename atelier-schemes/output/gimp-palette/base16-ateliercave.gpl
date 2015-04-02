@@ -1,0 +1,20 @@
+GIMP Palette
+Name: Base16 Atelier Cave
+Columns: 16
+#
+  48  32  70	base00
+  60  41  86	base01
+  98  78  126	base02
+  110  88  141	base03
+  137  123  157	base04
+  155  142  175	base05
+  228  223  236	base06
+  244  240  250	base07
+  207  89  138	base08
+  191  103  74	base09
+  160  143  59	base0A
+  116  135  90	base0B
+  50  143  174	base0C
+  101  119  210	base0D
+  149  90  231	base0E
+  193  92  193	base0F

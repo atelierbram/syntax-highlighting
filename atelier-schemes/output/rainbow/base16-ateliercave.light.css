@@ -1,0 +1,49 @@
+/**
+ * Base16 Atelier Cave Light
+ *
+ * @author Bram de Haan (http://atelierbram.github.io/syntax-highlighting/atelier-schemes/cave)
+ *
+ * Rainbow template by Jan T. Sott (https://github.com/idleberg/)
+ * Original Base16 color scheme by Chris Kempson (https://github.com/chriskempson/base16)
+ */
+pre {
+    background-color: #f4f0fa;
+    word-wrap: break-word;
+    margin: 0px;
+    padding: 10px;
+    color: #302046;
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+
+pre, code {
+    font-family: 'Monaco', courier, monospace;
+}
+
+pre .comment {
+    color: #897b9d;
+}
+
+pre .variable.global, pre .variable.class, pre .variable.instance {
+    color: #cf598a; /* red */
+}
+
+pre .constant.numeric, pre .constant.language, pre .constant.hex-color, pre .keyword.unit {
+    color: #bf674a; /* orange */
+}
+
+pre .constant, pre .entity, pre .entity.class, pre .support {
+    color: #a08f3b; /* yellow */
+}
+
+pre .constant.symbol, pre .string {
+    color: #74875a; /* green */
+}
+
+pre .entity.function, pre .support.css-property, pre .selector {
+    color: #6577d2; /* blue */
+}
+
+pre .keyword, pre .storage {
+    color: #955ae7; /* purple */
+}

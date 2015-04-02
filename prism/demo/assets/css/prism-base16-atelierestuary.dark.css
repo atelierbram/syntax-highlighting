@@ -25,19 +25,19 @@ pre[class*="language-"] {
   -ms-hyphens: none;
   hyphens: none;
   background: #282615;
-  color: #aca339;
+  color: #9d9b7b;
 }
 
 pre[class*="language-"]::-moz-selection, pre[class*="language-"] ::-moz-selection,
 code[class*="language-"]::-moz-selection, code[class*="language-"] ::-moz-selection {
   text-shadow: none;
-  background: #a29934;
+  background: #918e69;
 }
 
 pre[class*="language-"]::selection, pre[class*="language-"] ::selection,
 code[class*="language-"]::selection, code[class*="language-"] ::selection {
   text-shadow: none;
-  background: #a29934;
+  background: #918e69;
 }
 
 /* Code blocks */
@@ -57,11 +57,11 @@ pre[class*="language-"] {
 .token.prolog,
 .token.doctype,
 .token.cdata {
-  color: #837b20;
+  color: #747253;
 }
 
 .token.punctuation {
-  color: #aca339;
+  color: #9d9b7b;
 }
 
 .token.namespace {
@@ -71,34 +71,34 @@ pre[class*="language-"] {
 .token.operator,
 .token.boolean,
 .token.number {
-  color: #b37819;
-}
-
-.token.property {
   color: #a5980d;
 }
 
+.token.property {
+  color: #7d9726;
+}
+
 .token.tag {
-  color: #349d47;
-}
-
-.token.string {
-  color: #6e9c11;
-}
-
-.token.selector {
   color: #5f9182;
 }
 
+.token.string {
+  color: #36a166;
+}
+
+.token.selector {
+  color: #9d6c7c;
+}
+
 .token.attr-name {
-  color: #b37819;
+  color: #a5980d;
 }
 
 .token.entity,
 .token.url,
 .language-css .token.string,
 .style .token.string {
-  color: #6e9c11;
+  color: #36a166;
 }
 
 .token.attr-value,
@@ -106,18 +106,18 @@ pre[class*="language-"] {
 .token.control,
 .token.directive,
 .token.unit {
-  color: #9e9100;
+  color: #5b9d48;
 }
 
 .token.statement,
 .token.regex,
 .token.atrule {
-  color: #6e9c11;
+  color: #36a166;
 }
 
 .token.placeholder,
 .token.variable {
-  color: #349d47;
+  color: #5f9182;
 }
 
 .token.deleted {
@@ -125,7 +125,7 @@ pre[class*="language-"] {
 }
 
 .token.inserted {
-  border-bottom: 1px dotted #fdfbe2;
+  border-bottom: 1px dotted #ba6236;
   text-decoration: none;
 }
 
@@ -139,7 +139,7 @@ pre[class*="language-"] {
 }
 
 .token.important {
-  color: #c86e41;
+  color: #ae7313;
 }
 
 .token.entity {
@@ -147,6 +147,6 @@ pre[class*="language-"] {
 }
 
 pre > code.highlight {
-  outline: 0.4em solid #c86e41;
+  outline: 0.4em solid #ae7313;
   outline-offset: .4em;
 }
