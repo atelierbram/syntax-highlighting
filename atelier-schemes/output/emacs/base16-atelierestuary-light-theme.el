@@ -7,8 +7,8 @@
 
 (deftheme base16-atelierestuary-light)
 
-(let ((base00 "#282615")
-      (base01 "#32301a")
+(let ((base00 "#22221b")
+      (base01 "#2c2b21")
       (base02 "#666447")
       (base03 "#747253")
       (base04 "#918e69")

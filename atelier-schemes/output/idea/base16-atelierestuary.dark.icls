@@ -10,21 +10,21 @@
     <option name="ADDED_LINES_COLOR" value="7d9726" />
     <option name="ANNOTATIONS_COLOR" value="666447" />
     <option name="CARET_COLOR" value="ece9c6" />
-    <option name="CARET_ROW_COLOR" value="32301a" />
-    <option name="CONSOLE_BACKGROUND_KEY" value="282615" />
+    <option name="CARET_ROW_COLOR" value="2c2b21" />
+    <option name="CONSOLE_BACKGROUND_KEY" value="22221b" />
     <option name="FILESTATUS_ADDED" value="36a166" />
     <option name="FILESTATUS_IDEA_FILESTATUS_IGNORED" value="9d6c7c" />
     <option name="FILESTATUS_MODIFIED" value="5b9d48" />
     <option name="FILESTATUS_UNKNOWN" value="9d6c7c" />
-    <option name="GUTTER_BACKGROUND" value="282615" />
+    <option name="GUTTER_BACKGROUND" value="22221b" />
     <option name="INDENT_GUIDE" value="666447" />
     <option name="LINE_NUMBERS_COLOR" value="747253" />
     <option name="METHOD_SEPARATORS_COLOR" value="666447" />
     <option name="MODIFIED_LINES_COLOR" value="666447" />
-    <option name="NOTIFICATION_BACKGROUND" value="32301a" />
-    <option name="READONLY_FRAGMENT_BACKGROUND" value="282615" />
+    <option name="NOTIFICATION_BACKGROUND" value="2c2b21" />
+    <option name="READONLY_FRAGMENT_BACKGROUND" value="22221b" />
     <option name="RECURSIVE_CALL_ATTRIBUTES" value="9d9b7b" />
-    <option name="RIGHT_MARGIN_COLOR" value="32301a" />
+    <option name="RIGHT_MARGIN_COLOR" value="2c2b21" />
     <option name="SELECTED_TEARLINE_COLOR" value="747253" />
     <option name="SELECTION_BACKGROUND" value="747253" />
     <option name="SELECTION_FOREGROUND" value="f9f7e7" />
@@ -35,7 +35,7 @@
     <option name="TEXT">
       <value>
         <option name="FOREGROUND" value="9d9b7b" />
-        <option name="BACKGROUND" value="282615" />
+        <option name="BACKGROUND" value="22221b" />
       </value>
     </option>    
     <option name="TEXT_SEARCH_RESULT_ATTRIBUTES">
@@ -46,7 +46,7 @@
     <option name="DEFAULT_TEMPLATE_LANGUAGE_COLOR">
       <value>
         <option name="FOREGROUND" value="9d9b7b" />
-        <option name="BACKGROUND" value="282615" />
+        <option name="BACKGROUND" value="22221b" />
       </value>
     </option>
     <option name="DEFAULT_IDENTIFIER">
@@ -461,7 +461,7 @@
     <option name="DELETED_TEXT_ATTRIBUTES">
       <value>
         <option name="FOREGROUND" value="747253" />
-        <option name="BACKGROUND" value="32301a" />
+        <option name="BACKGROUND" value="2c2b21" />
         <option name="EFFECT_TYPE" value="1" />
       </value>
     </option>
@@ -485,8 +485,8 @@
     </option>
     <option name="DIFF_INSERTED">
       <value>
-        <option name="BACKGROUND" value="32301a" />
-        <option name="ERROR_STRIPE_COLOR" value="32301a" />
+        <option name="BACKGROUND" value="2c2b21" />
+        <option name="ERROR_STRIPE_COLOR" value="2c2b21" />
       </value>
     </option>
     <option name="DIFF_MODIFIED">
@@ -522,7 +522,7 @@
     </option>
     <option name="FOLDED_TEXT_ATTRIBUTES">
       <value>
-        <option name="FOREGROUND" value="32301a" />
+        <option name="FOREGROUND" value="2c2b21" />
         <option name="BACKGROUND" value="918e69" />
         <option name="FONT_TYPE" value="1" />
         <option name="EFFECT_TYPE" value="1" />
@@ -531,7 +531,7 @@
     <option name="FOLLOWED_HYPERLINK_ATTRIBUTES">
       <value>
         <option name="FOREGROUND" value="5f9182" />
-        <option name="BACKGROUND" value="282615" />
+        <option name="BACKGROUND" value="22221b" />
         <option name="EFFECT_COLOR" value="5f9182" />
         <option name="EFFECT_TYPE" value="1" />
       </value>
@@ -810,7 +810,7 @@
     </option>
     <option name="WRITE_SEARCH_RESULT_ATTRIBUTES">
       <value>
-        <option name="BACKGROUND" value="32301a" />
+        <option name="BACKGROUND" value="2c2b21" />
       </value>
     </option>
     <option name="WRONG_REFERENCES_ATTRIBUTES">

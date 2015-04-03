@@ -10,7 +10,7 @@
 
 /* plain text */
 .pln {
-  color: #282615;
+  color: #22221b;
 }
 
 @media screen {
@@ -41,17 +41,17 @@
 
   /* punctuation */
   .pun {
-    color: #282615;
+    color: #22221b;
   }
 
   /* lisp open bracket */
   .opn {
-    color: #282615;
+    color: #22221b;
   }
 
   /* lisp close bracket */
   .clo {
-    color: #282615;
+    color: #22221b;
   }
 
   /* a markup tag name */
@@ -132,7 +132,7 @@ pre.prettyprint {
   font-family: Menlo, "Bitstream Vera Sans Mono", "DejaVu Sans Mono", Monaco, Consolas, monospace;
   font-size: 12px;
   line-height: 1.5;
-  border: 1px solid #282615;
+  border: 1px solid #22221b;
   padding: 10px;
 }
 

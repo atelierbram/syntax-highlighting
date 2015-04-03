@@ -14,30 +14,30 @@
   background-color: #f4f0fa !important;
 }
 #-webkit-web-inspector tr {
-  color: #624e7e;
+  color: #5c526b;
 }
 #-webkit-web-inspector ::selection {
   background: #888;
   opacity: 1;
 }
 #-webkit-web-inspector.compact #toolbar {
-  background: -webkit-linear-gradient(#897b9d, #e4dfec) !important;
+  background: -webkit-linear-gradient(#837891, #e4dfec) !important;
   border-top: 5px solid #328fae !important;
-  border-bottom: 1px solid #9b8eaf !important;
+  border-bottom: 1px solid #8f859d !important;
   padding-top: 0 !important;
   height: 50px !important;
 }
 #-webkit-web-inspector.compact #toolbar .toolbar-label {
-  color: #302046 !important;
+  color: #1e1a23 !important;
 }
 #-webkit-web-inspector.compact #toolbar .toggled-on .toolbar-label {
-  color: #302046 !important;
+  color: #1e1a23 !important;
 }
 #-webkit-web-inspector.compact #toolbar .toolbar-item {
   padding: 10px 15px !important;
 }
 #-webkit-web-inspector.compact #toolbar .toolbar-item.toggleable.toggled-on {
-  background: -webkit-linear-gradient(#9b8eaf, #e4dfec) !important;
+  background: -webkit-linear-gradient(#8f859d, #e4dfec) !important;
   padding: 10px 13px !important;
 }
 #-webkit-web-inspector.compact .toolbar-item.close-left {
@@ -63,11 +63,11 @@
   display: none;
 }
 #-webkit-web-inspector .status-bar {
-  border-color: #9b8eaf !important;
+  border-color: #8f859d !important;
   background: #f4f0fa !important;
 }
 #-webkit-web-inspector .status-bar-item {
-  border-color: #9b8eaf !important;
+  border-color: #8f859d !important;
   -webkit-filter: grayscale(0.75);
   color: #000000 !important;
   text-shadow: none !important;
@@ -114,7 +114,7 @@
 }
 #-webkit-web-inspector .sidebar {
   background-color: #f4f0fa !important;
-  color: #624e7e;
+  color: #5c526b;
 }
 #-webkit-web-inspector .base-storage-tree-element-subtitle {
   color: #3d3d3d !important;
@@ -125,7 +125,7 @@
   text-shadow: black 0 0 0 !important;
 }
 #-webkit-web-inspector .editing {
-  color: #302046 !important;
+  color: #1e1a23 !important;
   background-color: #000 !important;
 }
 #-webkit-web-inspector .styles-section.read-only {
@@ -175,7 +175,7 @@
   content: url(chrome-devtools://devtools/Images/treeDownTriangleWhite.png) !important;
 }
 #-webkit-web-inspector .child-editing {
-  color: #302046 !important;
+  color: #1e1a23 !important;
 }
 #-webkit-web-inspector .section .properties .name,
 #-webkit-web-inspector .event-properties .name {
@@ -230,7 +230,7 @@
   color: #7C7C7C !important;
 }
 #-webkit-web-inspector .console-formatted-function {
-  color: #302046 !important;
+  color: #1e1a23 !important;
 }
 #-webkit-web-inspector .console-formatted-regexp {
   color: #955ae7 !important;
@@ -258,7 +258,7 @@
   }
 }
 #-webkit-web-inspector .console-message-text {
-  color: #302046;
+  color: #1e1a23;
 }
 #-webkit-web-inspector .console-error-level .console-message-text .title {
   color: #f66 !important;
@@ -275,7 +275,7 @@
 }
 #-webkit-web-inspector #console-prompt::before {
   background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAyJpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMC1jMDYwIDYxLjEzNDc3NywgMjAxMC8wMi8xMi0xNzozMjowMCAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENTNSBNYWNpbnRvc2giIHhtcE1NOkluc3RhbmNlSUQ9InhtcC5paWQ6MjRGNTc2MTZDMTA2MTFFMDgwRUZGQ0JCMjgzMzU0MTYiIHhtcE1NOkRvY3VtZW50SUQ9InhtcC5kaWQ6MjRGNTc2MTdDMTA2MTFFMDgwRUZGQ0JCMjgzMzU0MTYiPiA8eG1wTU06RGVyaXZlZEZyb20gc3RSZWY6aW5zdGFuY2VJRD0ieG1wLmlpZDo5MzM3N0Y2MUMxMDUxMUUwODBFRkZDQkIyODMzNTQxNiIgc3RSZWY6ZG9jdW1lbnRJRD0ieG1wLmRpZDo5MzM3N0Y2MkMxMDUxMUUwODBFRkZDQkIyODMzNTQxNiIvPiA8L3JkZjpEZXNjcmlwdGlvbj4gPC9yZGY6UkRGPiA8L3g6eG1wbWV0YT4gPD94cGFja2V0IGVuZD0iciI/Plf0eOsAAAB4SURBVHjaYvz//z8DMYAFxph+BqyhA8qtQFaUacKIUAgFLkBsDMSCUMXvYRJMaApdgfgsEKcB8W6oJqwK30MVr4YqOgPEodgUgoASkkkgjfewKSyHmqIEdYIJlEZR6ILk606oonsYwQMEe6A+PQtlowBGYgMcIMAAF2wcFPVNZx8AAAAASUVORK5CYII=) !important;
-  color: #302046 !important;
+  color: #1e1a23 !important;
 }
 #-webkit-web-inspector .console-formatted-number {
   color: #bf674a !important;
@@ -289,7 +289,7 @@
   color: #7C7C7C !important;
 }
 #-webkit-web-inspector .console-formatted-function {
-  color: #302046 !important;
+  color: #1e1a23 !important;
 }
 #-webkit-web-inspector .console-formatted-regexp {
   color: #955ae7 !important;
@@ -319,11 +319,11 @@
   background-color: #8a8a8a !important;
 }
 #-webkit-web-inspector .base-navigator-tree-element-title {
-  color: #624e7e;
+  color: #5c526b;
 }
 #-webkit-web-inspector .tabbed-pane-header,
 #-webkit-web-inspector .navigator-tabbed-pane .tabbed-pane-header {
-  background-image: -webkit-linear-gradient(#897b9d, #e4dfec) !important;
+  background-image: -webkit-linear-gradient(#837891, #e4dfec) !important;
 }
 #-webkit-web-inspector .tabbed-pane-header-tab {
   color: #bbb !important;
@@ -331,17 +331,17 @@
 }
 #-webkit-web-inspector .tabbed-pane-header-tab.selected {
   background-color: #f4f0fa !important;
-  color: #624e7e !important;
+  color: #5c526b !important;
 }
 #-webkit-web-inspector #scripts-editor-container-tabbed-pane .tabbed-pane-header {
-  background-image: -webkit-linear-gradient(#897b9d, #e4dfec) !important;
+  background-image: -webkit-linear-gradient(#837891, #e4dfec) !important;
 }
 #-webkit-web-inspector .tabbed-pane-header-tab-close-button {
-  color: #624e7e !important;
+  color: #5c526b !important;
 }
 #-webkit-web-inspector .tabbed-pane-content {
   background: #f4f0fa !important;
-  color: #624e7e !important;
+  color: #5c526b !important;
 }
 #-webkit-web-inspector .outline-disclosure li.selected .selection {
   background-color: #8a8a8a !important;
@@ -356,7 +356,7 @@
   color: white !important;
 }
 #-webkit-web-inspector .webkit-html-comment {
-  color: #897b9d !important;
+  color: #837891 !important;
 }
 #-webkit-web-inspector .webkit-html-tag {
   color: #cf598a !important;
@@ -378,7 +378,7 @@
   color: #6577d2 !important;
 }
 #-webkit-web-inspector .webkit-css-comment {
-  color: #897b9d !important;
+  color: #837891 !important;
 }
 #-webkit-web-inspector .webkit-css-selector,
 #-webkit-web-inspector .styles-selector {
@@ -412,13 +412,13 @@
 }
 #-webkit-web-inspector .webkit-line-content,
 #-webkit-web-inspector .webkit-javascript-ident {
-  color: #302046 !important;
+  color: #1e1a23 !important;
 }
 #-webkit-web-inspector .webkit-javascript-keyword {
   color: #cf598a !important;
 }
 #-webkit-web-inspector .webkit-javascript-comment {
-  color: #897b9d !important;
+  color: #837891 !important;
 }
 #-webkit-web-inspector .webkit-javascript-string {
   color: #bf674a !important;
@@ -463,7 +463,7 @@
   border-color: transparent transparent #000 transparent !important;
 }
 #-webkit-web-inspector .popover .source-frame-popover-title {
-  color: #302046 !important;
+  color: #1e1a23 !important;
 }
 #-webkit-web-inspector .popover .source-frame-popover-tree {
   border-top-color: #444 !important;
@@ -479,43 +479,43 @@
 #-webkit-web-inspector .network-log-grid.data-grid th,
 #-webkit-web-inspector .network-log-grid.data-grid th.sort-descending,
 #-webkit-web-inspector .network-log-grid.data-grid th.sort-ascending {
-  background: -webkit-linear-gradient(#897b9d, #e4dfec) !important;
+  background: -webkit-linear-gradient(#837891, #e4dfec) !important;
   color: white !important;
 }
 #-webkit-web-inspector .network-item {
-  color: #624e7e;
+  color: #5c526b;
 }
 #-webkit-web-inspector .network-log-grid.data-grid tr.filler {
   background-color: #f4f0fa !important;
 }
 #-webkit-web-inspector .network-timing-bar-title {
-  color: #624e7e !important;
+  color: #5c526b !important;
 }
 #-webkit-web-inspector #timeline-overview-sidebar {
-  background: -webkit-linear-gradient(#897b9d, #e4dfec) !important;
+  background: -webkit-linear-gradient(#837891, #e4dfec) !important;
 }
 #-webkit-web-inspector #timeline-overview-sidebar .sidebar-tree-item {
-  color: #624e7e !important;
+  color: #5c526b !important;
 }
 #-webkit-web-inspector #timeline-overview-sidebar .sidebar-tree-item.selected {
   color: white !important;
 }
 #-webkit-web-inspector #timeline-overview-separator {
-  background: -webkit-linear-gradient(#897b9d, #e4dfec) !important;
+  background: -webkit-linear-gradient(#837891, #e4dfec) !important;
   border-top: 1px solid #328fae !important;
-  border-bottom: 1px solid #9b8eaf !important;
+  border-bottom: 1px solid #8f859d !important;
 }
 #-webkit-web-inspector .timeline-details-title {
-  color: #624e7e;
+  color: #5c526b;
 }
 #-webkit-web-inspector .timeline-details {
   color: white;
 }
 #-webkit-web-inspector .timeline-details-row-title {
-  color: #9b8eaf;
+  color: #8f859d;
 }
 #-webkit-web-inspector .timeline-details-row-data {
-  color: #624e7e;
+  color: #5c526b;
 }
 #-webkit-web-inspector .timeline-graph-side.even {
   background-color: rgba(0, 0, 0, 0.5) !important;
@@ -531,10 +531,10 @@
 }
 #-webkit-web-inspector .resources-divider-label,
 #-webkit-web-inspector .network-timeline-grid .resources-divider-label {
-  color: #624e7e !important;
+  color: #5c526b !important;
 }
 #-webkit-web-inspector .network-graph-label {
-  color: #624e7e !important;
+  color: #5c526b !important;
   text-shadow: rgba(0, 0, 0, 0.25) 1px 0 0, rgba(0, 0, 0, 0.25) -1px 0 0, rgba(0, 0, 0, 0.333) 0 1px 0, rgba(0, 0, 0, 0.25) 0 -1px 0 !important;
 }
 #-webkit-web-inspector .timeline-tree-item .data.dimmed {
@@ -550,10 +550,10 @@
   color: white;
 }
 #-webkit-web-inspector .resource-view .infoList dt {
-  color: #9b8eaf !important;
+  color: #8f859d !important;
 }
 #-webkit-web-inspector .resource-view .infoList dd {
-  color: #624e7e;
+  color: #5c526b;
 }
 #-webkit-web-inspector .resource-view.font,
 #-webkit-web-inspector .resource-view.html iframe body {
@@ -574,7 +574,7 @@
 }
 #-webkit-web-inspector .data-grid th {
   background-image: none !important;
-  background: -webkit-linear-gradient(#897b9d, #e4dfec) !important;
+  background: -webkit-linear-gradient(#837891, #e4dfec) !important;
 }
 #-webkit-web-inspector .data-grid table.data {
   background-image: -webkit-gradient(linear, left top, left bottom, from(#000000), color-stop(0.5, #000000), color-stop(0.5, #f4f0fa), to(#f4f0fa)) !important;

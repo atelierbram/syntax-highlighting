@@ -1,11 +1,11 @@
 editor
-foreground: 739c80
-background: 15281c
-caret: 739c80
+foreground: 809988
+background: 1a231d
+caret: 809988
 
 editor-selection
-foreground: 739c80
-background: 41624c
+foreground: 809988
+background: 4e6555
 
 H1
 foreground: 478c90
@@ -42,8 +42,8 @@ foreground: a07e3b
 font-style: bold
 
 HRULE
-foreground: 739c80
-background: 41624c
+foreground: 809988
+background: 4e6555
 
 LIST_BULLET
 foreground: b16139
@@ -61,7 +61,7 @@ AUTO_LINK_EMAIL
 foreground: 1c9aa0
 
 REFERENCE
-foreground: 688d74
+foreground: 738c7b
 
 IMAGE
 foreground: 1c9aa0
@@ -76,7 +76,7 @@ HTML_ENTITY
 foreground: 867469
 
 COMMENT
-foreground: 4f725b
+foreground: 5a7262
 
 BLOCKQUOTE
 foreground: 9f713c

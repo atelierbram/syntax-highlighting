@@ -4,15 +4,15 @@ Windows Registry Editor Version 5.00
 ; Scheme: Bram de Haan (http://atelierbram.github.io/syntax-highlighting/atelier-schemes/cave)
 
 [HKEY_CURRENT_USER\Console]
-"ColorTable00"=dword:00462030
+"ColorTable00"=dword:00231a1e
 "ColorTable01"=dword:00d27765
 "ColorTable02"=dword:005a8774
 "ColorTable03"=dword:00ae8f32
 "ColorTable04"=dword:004a67bf
 "ColorTable05"=dword:00e75a95
 "ColorTable06"=dword:003b8fa0
-"ColorTable07"=dword:009d7b89
-"ColorTable08"=dword:008d586e
+"ColorTable07"=dword:00917883
+"ColorTable08"=dword:00785e69
 "ColorTable09"=dword:00d27765
 "ColorTable10"=dword:005a8774
 "ColorTable11"=dword:00ae8f32

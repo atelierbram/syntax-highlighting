@@ -28,14 +28,14 @@
   <_description>Base16 Atelier Savanna Light</_description>
 
   <!-- Palette -->
-  <color name="base00" value="#15281c"/>
-  <color name="base01" value="#1d3425"/>
-  <color name="base02" value="#41624c"/>
-  <color name="base03" value="#4f725b"/>
-  <color name="base04" value="#688d74"/>
-  <color name="base05" value="#739c80"/>
-  <color name="base06" value="#bfd9c8"/>
-  <color name="base07" value="#ddeee3"/>
+  <color name="base00" value="#1a231d"/>
+  <color name="base01" value="#242e27"/>
+  <color name="base02" value="#4e6555"/>
+  <color name="base03" value="#5a7262"/>
+  <color name="base04" value="#738c7b"/>
+  <color name="base05" value="#809988"/>
+  <color name="base06" value="#d9e8de"/>
+  <color name="base07" value="#e8f7ed"/>
   <color name="base08" value="#b16139"/>
   <color name="base09" value="#9f713c"/>
   <color name="base0A" value="#a07e3b"/>

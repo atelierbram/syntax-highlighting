@@ -2,7 +2,7 @@
 Scheme: Bram de Haan (http://atelierbram.github.io/syntax-highlighting/atelier-schemes/cave) */
 
 table.sourceCode, tr.sourceCode, td.sourceCode, table.sourceCode pre
-{ margin: 0; padding: 0; border: 0; vertical-align: baseline; border: none; background-color: #f4f0fa; color: #624e7e }
+{ margin: 0; padding: 0; border: 0; vertical-align: baseline; border: none; background-color: #f4f0fa; color: #5c526b }
 td.nums { text-align: right; padding-right: 5px; padding-left: 5px; background-color: #e4dfec; }
 td.sourceCode { padding-left: 5px; }
 code.sourceCode { background-color: #f4f0fa; }
@@ -15,7 +15,7 @@ code.sourceCode span.bn { color: #bf674a } /* Literal.Number.Hex */
 code.sourceCode span.fl { color: #bf674a } /* Literal.Number.Float */
 code.sourceCode span.ch { color: #74875a} /* Literal.String.Char */
 code.sourceCode span.st { color: #74875a } /* Literal.String */
-code.sourceCode span.co { color: #6e588d } /* Comment */
+code.sourceCode span.co { color: #695e78 } /* Comment */
 code.sourceCode span.ot { color: #c15cc1 } /* Comment.Preproc */
 code.sourceCode span.al { color: #955ae7 } /* Generic.Error */
 code.sourceCode span.fu { color: #a08f3b } /* Name.Function */

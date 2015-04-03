@@ -8,7 +8,7 @@
 
 */
 
-.cm-s-base16-atelierestuary-light.CodeMirror {background: #f9f7e7; color: #32301a;}
+.cm-s-base16-atelierestuary-light.CodeMirror {background: #f9f7e7; color: #2c2b21;}
 .cm-s-base16-atelierestuary-light div.CodeMirror-selected {background: #ece9c6 !important;}
 .cm-s-base16-atelierestuary-light .CodeMirror-gutters {background: #f9f7e7; border-right: 0px;}
 .cm-s-base16-atelierestuary-light .CodeMirror-linenumber {color: #918e69;}
@@ -26,7 +26,7 @@
 .cm-s-base16-atelierestuary-light span.cm-variable-2 {color: #36a166;}
 .cm-s-base16-atelierestuary-light span.cm-def {color: #ae7313;}
 .cm-s-base16-atelierestuary-light span.cm-error {background: #ba6236; color: #747253;}
-.cm-s-base16-atelierestuary-light span.cm-bracket {color: #32301a;}
+.cm-s-base16-atelierestuary-light span.cm-bracket {color: #2c2b21;}
 .cm-s-base16-atelierestuary-light span.cm-tag {color: #ba6236;}
 .cm-s-base16-atelierestuary-light span.cm-link {color: #5f9182;}
 

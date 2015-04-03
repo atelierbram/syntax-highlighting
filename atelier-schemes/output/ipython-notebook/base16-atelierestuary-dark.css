@@ -16,7 +16,7 @@ div#notebook, div.CodeMirror, div.output_area pre, div.output_wrapper, div.promp
 */
 
 /* GLOBALS */
-body {background-color: #282615;}
+body {background-color: #22221b;}
 a {color: #36a166;}
 
 /* INTRO PAGE */
@@ -48,7 +48,7 @@ div.cell.selected {border-radius: 0px;}
 div.cell.edit_mode {border-radius: 0px; border: thin solid #5f9182;}
 div.text_cell_render, div.output_html {color: #9d9b7b;}
 
-span.ansiblack {color: #32301a;}
+span.ansiblack {color: #2c2b21;}
 span.ansiblue {color: #5b9d48;}
 span.ansigray {color: #918e69;}
 span.ansigreen {color: #7d9726;}
@@ -59,9 +59,9 @@ span.ansiyellow {color: #a5980d;}
 div.output_stderr {background-color: #ba6236;}
 div.output_stderr pre {color: #ece9c6;}
 
-.cm-s-ipython.CodeMirror {background: #282615; color: #ece9c6;}
-.cm-s-ipython div.CodeMirror-selected {background: #32301a !important;}
-.cm-s-ipython .CodeMirror-gutters {background: #282615; border-right: 0px;}
+.cm-s-ipython.CodeMirror {background: #22221b; color: #ece9c6;}
+.cm-s-ipython div.CodeMirror-selected {background: #2c2b21 !important;}
+.cm-s-ipython .CodeMirror-gutters {background: #22221b; border-right: 0px;}
 .cm-s-ipython .CodeMirror-linenumber {color: #747253;}
 .cm-s-ipython .CodeMirror-cursor {border-left: 1px solid #918e69 !important;}
 

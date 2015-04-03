@@ -2,12 +2,12 @@
 Scheme: Bram de Haan (http://atelierbram.github.io/syntax-highlighting/atelier-schemes/savanna) */
 
 table.sourceCode, tr.sourceCode, td.sourceCode, table.sourceCode pre
-{ margin: 0; padding: 0; border: 0; vertical-align: baseline; border: none; background-color: #ddeee3; color: #41624c }
-td.nums { text-align: right; padding-right: 5px; padding-left: 5px; background-color: #bfd9c8; }
+{ margin: 0; padding: 0; border: 0; vertical-align: baseline; border: none; background-color: #e8f7ed; color: #4e6555 }
+td.nums { text-align: right; padding-right: 5px; padding-left: 5px; background-color: #d9e8de; }
 td.sourceCode { padding-left: 5px; }
-code.sourceCode { background-color: #ddeee3; }
-pre.sourceCode { background-color: #ddeee3; line-height: 125% }
-td.nums pre { background-color: #bfd9c8; line-height: 125% }
+code.sourceCode { background-color: #e8f7ed; }
+pre.sourceCode { background-color: #e8f7ed; line-height: 125% }
+td.nums pre { background-color: #d9e8de; line-height: 125% }
 code.sourceCode span.kw { color: #478c90; font-weight: bold } /* Keyword */
 code.sourceCode span.dt { color: #55859b} /* Keyword.Type */
 code.sourceCode span.dv { color: #9f713c } /* Literal.Number.Integer */
@@ -15,7 +15,7 @@ code.sourceCode span.bn { color: #9f713c } /* Literal.Number.Hex */
 code.sourceCode span.fl { color: #9f713c } /* Literal.Number.Float */
 code.sourceCode span.ch { color: #489963} /* Literal.String.Char */
 code.sourceCode span.st { color: #489963 } /* Literal.String */
-code.sourceCode span.co { color: #4f725b } /* Comment */
+code.sourceCode span.co { color: #5a7262 } /* Comment */
 code.sourceCode span.ot { color: #867469 } /* Comment.Preproc */
 code.sourceCode span.al { color: #55859b } /* Generic.Error */
 code.sourceCode span.fu { color: #a07e3b } /* Name.Function */

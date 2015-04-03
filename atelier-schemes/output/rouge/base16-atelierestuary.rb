@@ -5,8 +5,8 @@ module Rouge
       # author Bram de Haan (http://atelierbram.github.io/syntax-highlighting/atelier-schemes/estuary)
       light!
 
-      palette base00: "#282615"
-      palette base01: "#32301a"
+      palette base00: "#22221b"
+      palette base01: "#2c2b21"
       palette base02: "#666447"
       palette base03: "#747253"
       palette base04: "#918e69"

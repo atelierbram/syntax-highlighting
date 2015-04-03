@@ -7,14 +7,14 @@
 local buffer = buffer
 local property, property_int = buffer.property, buffer.property_int
 
-property['color.base00'] = 0x1c2815
-property['color.base01'] = 0x25341d
-property['color.base02'] = 0x4c6241
-property['color.base03'] = 0x5b724f
-property['color.base04'] = 0x748d68
-property['color.base05'] = 0x809c73
-property['color.base06'] = 0xc8d9bf
-property['color.base07'] = 0xe3eedd
+property['color.base00'] = 0x1d231a
+property['color.base01'] = 0x272e24
+property['color.base02'] = 0x55654e
+property['color.base03'] = 0x62725a
+property['color.base04'] = 0x7b8c73
+property['color.base05'] = 0x889980
+property['color.base06'] = 0xdee8d9
+property['color.base07'] = 0xedf7e8
 property['color.base08'] = 0x3961b1
 property['color.base09'] = 0x3c719f
 property['color.base0A'] = 0x3b7ea0

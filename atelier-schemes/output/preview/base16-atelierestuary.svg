@@ -1,8 +1,8 @@
 <svg width="800" height="50" xmlns="http://www.w3.org/2000/svg">
  <g>
   <title>Base16 Atelier Estuary</title>
-  <line id="base00" x1="025" y1="0" x2="025" y2="720" stroke-width="50" stroke="#282615" />
-  <line id="base01" x1="075" y1="0" x2="075" y2="720" stroke-width="50" stroke="#32301a" />
+  <line id="base00" x1="025" y1="0" x2="025" y2="720" stroke-width="50" stroke="#22221b" />
+  <line id="base01" x1="075" y1="0" x2="075" y2="720" stroke-width="50" stroke="#2c2b21" />
   <line id="base02" x1="125" y1="0" x2="125" y2="720" stroke-width="50" stroke="#666447" />
   <line id="base03" x1="175" y1="0" x2="175" y2="720" stroke-width="50" stroke="#747253" />
   <line id="base04" x1="225" y1="0" x2="225" y2="720" stroke-width="50" stroke="#918e69" />

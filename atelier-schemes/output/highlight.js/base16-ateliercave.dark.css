@@ -5,7 +5,7 @@
 
 /* Atelier Cave Comment */
 .hljs-comment {
-  color: #897b9d;
+  color: #837891;
 }
 
 /* Atelier Cave Red */
@@ -77,8 +77,8 @@
 .hljs {
   display: block;
   overflow-x: auto;
-  background: #302046;
-  color: #9b8eaf;
+  background: #1e1a23;
+  color: #8f859d;
   padding: 0.5em;
   -webkit-text-size-adjust: none;
 }

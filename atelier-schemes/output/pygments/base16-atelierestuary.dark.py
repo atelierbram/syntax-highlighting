@@ -12,8 +12,8 @@ from pygments.token import Keyword, Name, Comment, String, Error, Text, \
      Number, Operator, Generic, Whitespace, Punctuation, Other, Literal
 
 
-BACKGROUND = "#282615"
-CURRENT_LINE = "#32301a"
+BACKGROUND = "#22221b"
+CURRENT_LINE = "#2c2b21"
 SELECTION = "#666447"
 FOREGROUND = "#f9f7e7"
 COMMENT = "#747253"

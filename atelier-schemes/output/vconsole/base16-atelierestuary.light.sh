@@ -17,7 +17,7 @@ color11=$color03 # Base 0A - Bright Yellow
 color12=$color04 # Base 0D - Bright Blue
 color13=$color05 # Base 0E - Bright Magenta
 color14=$color06 # Base 0C - Bright Cyan
-color15="282615" # Base 00 - Bright Black
+color15="22221b" # Base 00 - Bright Black
 
 # 16 color space
 echo -e "\e]P0$color00"

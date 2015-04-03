@@ -20,7 +20,7 @@ body {background-color: #f9f7e7;}
 a {color: #36a166;}
 
 /* INTRO PAGE */
-.toolbar_info, .list-container {color: #32301a;}
+.toolbar_info, .list-container {color: #2c2b21;}
 
 /* NOTEBOOK */
 
@@ -48,7 +48,7 @@ div.cell.selected {border-radius: 0px;}
 div.cell.edit_mode {border-radius: 0px; border: thin solid #9d6c7c;}
 div.text_cell_render, div.output_html {color: #666447;}
 
-span.ansiblack {color: #32301a;}
+span.ansiblack {color: #2c2b21;}
 span.ansiblue {color: #5b9d48;}
 span.ansigray {color: #918e69;}
 span.ansigreen {color: #7d9726;}
@@ -59,7 +59,7 @@ span.ansiyellow {color: #a5980d;}
 div.output_stderr {background-color: #ba6236;}
 div.output_stderr pre {color: #ece9c6;}
 
-.cm-s-ipython.CodeMirror {background: #f9f7e7; color: #32301a;}
+.cm-s-ipython.CodeMirror {background: #f9f7e7; color: #2c2b21;}
 .cm-s-ipython div.CodeMirror-selected {background: #ece9c6 !important;}
 .cm-s-ipython .CodeMirror-gutters {background: #f9f7e7; border-right: 0px;}
 .cm-s-ipython .CodeMirror-linenumber {color: #918e69;}
@@ -83,4 +83,4 @@ div.output_stderr pre {color: #ece9c6;}
 .cm-s-ipython span.cm-tag {color: #ba6236;}
 .cm-s-ipython span.cm-link {color: #5f9182;}
 
-.cm-s-ipython .CodeMirror-matchingbracket { text-decoration: underline; color: #32301a !important;}
+.cm-s-ipython .CodeMirror-matchingbracket { text-decoration: underline; color: #2c2b21 !important;}

@@ -1,8 +1,8 @@
 ! Base16 Atelier Estuary
 ! Scheme: Bram de Haan (http://atelierbram.github.io/syntax-highlighting/atelier-schemes/estuary)
 
-#define base00 #282615
-#define base01 #32301a
+#define base00 #22221b
+#define base01 #2c2b21
 #define base02 #666447
 #define base03 #747253
 #define base04 #918e69

@@ -1,12 +1,12 @@
 ! Base16 Atelier Cave
 ! Scheme: Bram de Haan (http://atelierbram.github.io/syntax-highlighting/atelier-schemes/cave)
 
-#define base00 #302046
-#define base01 #3c2956
-#define base02 #624e7e
-#define base03 #6e588d
-#define base04 #897b9d
-#define base05 #9b8eaf
+#define base00 #1e1a23
+#define base01 #2a2531
+#define base02 #5c526b
+#define base03 #695e78
+#define base04 #837891
+#define base05 #8f859d
 #define base06 #e4dfec
 #define base07 #f4f0fa
 #define base08 #cf598a

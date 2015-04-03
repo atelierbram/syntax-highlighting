@@ -1,34 +1,34 @@
 
 
-set default-bg                  "#15281c"
-set default-fg                  "#1d3425"
+set default-bg                  "#1a231d"
+set default-fg                  "#242e27"
 
-set statusbar-fg                "#688d74"
-set statusbar-bg                "#1d3425"
+set statusbar-fg                "#738c7b"
+set statusbar-bg                "#242e27"
 
-set inputbar-bg                 "#15281c"
-set inputbar-fg                 "#41624c"
+set inputbar-bg                 "#1a231d"
+set inputbar-fg                 "#4e6555"
 
 set notification-error-bg       "#b16139"
-set notification-error-fg       "#15281c"
+set notification-error-fg       "#1a231d"
 
 set notification-warning-bg     "#b16139"
-set notification-warning-fg     "#15281c"
+set notification-warning-fg     "#1a231d"
 
 set highlight-color             "#a07e3b"
 set highlight-active-color      "#478c90"
 
-set completion-highlight-fg     "#41624c"
+set completion-highlight-fg     "#4e6555"
 set completion-highlight-bg     "#1c9aa0"
 
-set completion-bg               "#41624c"
+set completion-bg               "#4e6555"
 set completion-fg               "#1c9aa0"
 
 set notification-bg             "#489963"
-set notification-fg             "#15281c"
+set notification-fg             "#1a231d"
 
-set recolor-lightcolor          "#15281c"
-set recolor-darkcolor           "#bfd9c8"
+set recolor-lightcolor          "#1a231d"
+set recolor-darkcolor           "#d9e8de"
 set recolor                     "true"
 
 # setting recolor-keep true will keep any color your pdf has.

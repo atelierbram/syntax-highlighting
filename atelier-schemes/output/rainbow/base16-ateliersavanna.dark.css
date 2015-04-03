@@ -7,11 +7,11 @@
  * Original Base16 color scheme by Chris Kempson (https://github.com/chriskempson/base16)
  */
 pre {
-    background-color: #15281c;
+    background-color: #1a231d;
     word-wrap: break-word;
     margin: 0px;
     padding: 10px;
-    color: #ddeee3;
+    color: #e8f7ed;
     font-size: 14px;
     margin-bottom: 20px;
 }
@@ -21,7 +21,7 @@ pre, code {
 }
 
 pre .comment {
-    color: #4f725b;
+    color: #5a7262;
 }
 
 pre .variable.global, pre .variable.class, pre .variable.instance {

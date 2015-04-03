@@ -23,7 +23,7 @@
   <key>DVTConsoleExectuableOutputTextFont</key>
   <string>Menlo-Bold - 11.0</string>
   <key>DVTConsoleTextBackgroundColor</key>
-  <string>0.1568627450980392 0.14901960784313725 0.08235294117647059 1</string>
+  <string>0.13333333333333333 0.13333333333333333 0.10588235294117647 1</string>
   <key>DVTConsoleTextInsertionPointColor</key>
   <string>0.615686274509804 0.6078431372549019 0.4823529411764706 1</string>
   <key>DVTConsoleTextSelectionColor</key>
@@ -31,7 +31,7 @@
   <key>DVTDebuggerInstructionPointerColor</key>
   <string>0.49019607843137253 0.592156862745098 0.14901960784313725 1</string>
   <key>DVTSourceTextBackground</key>
-  <string>0.1568627450980392 0.14901960784313725 0.08235294117647059 1</string>
+  <string>0.13333333333333333 0.13333333333333333 0.10588235294117647 1</string>
   <key>DVTSourceTextBlockDimBackgroundColor</key>
   <string>0.5 0.5 0.5 1</string>
   <key>DVTSourceTextInsertionPointColor</key>

@@ -7,7 +7,7 @@ if [ "${TERM%%-*}" = 'linux' ]; then
     return 2>/dev/null || exit 0
 fi
 
-color00="28/26/15" # Base 00 - Black
+color00="22/22/1b" # Base 00 - Black
 color01="ba/62/36" # Base 08 - Red
 color02="7d/97/26" # Base 0B - Green
 color03="a5/98/0d" # Base 0A - Yellow
@@ -25,7 +25,7 @@ color14=$color06 # Base 0C - Bright Cyan
 color15="f9/f7/e7" # Base 07 - Bright White
 color16="ae/73/13" # Base 09
 color17="9d/6c/7c" # Base 0F
-color18="32/30/1a" # Base 01
+color18="2c/2b/21" # Base 01
 color19="66/64/47" # Base 02
 color20="91/8e/69" # Base 04
 color21="ec/e9/c6" # Base 06

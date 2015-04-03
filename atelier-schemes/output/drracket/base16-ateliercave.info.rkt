@@ -7,12 +7,12 @@
 (define deps '("base"))
 
 ;; color scheme
-(define base00 #(48 32 70))
-(define base01 #(60 41 86))
-(define base02 #(98 78 126))
-(define base03 #(110 88 141))
-(define base04 #(137 123 157))
-(define base05 #(155 142 175))
+(define base00 #(30 26 35))
+(define base01 #(42 37 49))
+(define base02 #(92 82 107))
+(define base03 #(105 94 120))
+(define base04 #(131 120 145))
+(define base05 #(143 133 157))
 (define base06 #(228 223 236))
 (define base07 #(244 240 250))
 (define base08 #(207 89 138))

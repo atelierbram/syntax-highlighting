@@ -9,22 +9,22 @@
   <colors>
     <option name="ADDED_LINES_COLOR" value="7d9726" />
     <option name="ANNOTATIONS_COLOR" value="666447" />
-    <option name="CARET_COLOR" value="32301a" />
+    <option name="CARET_COLOR" value="2c2b21" />
     <option name="CARET_ROW_COLOR" value="ece9c6" />
     <option name="CONSOLE_BACKGROUND_KEY" value="f9f7e7" />
-    <option name="FILESTATUS_ADDED" value="32301a" />
-    <option name="FILESTATUS_IDEA_FILESTATUS_IGNORED" value="32301a" />
-    <option name="FILESTATUS_MODIFIED" value="32301a" />
-    <option name="FILESTATUS_UNKNOWN" value="32301a" />
+    <option name="FILESTATUS_ADDED" value="2c2b21" />
+    <option name="FILESTATUS_IDEA_FILESTATUS_IGNORED" value="2c2b21" />
+    <option name="FILESTATUS_MODIFIED" value="2c2b21" />
+    <option name="FILESTATUS_UNKNOWN" value="2c2b21" />
     <option name="GUTTER_BACKGROUND" value="ece9c6" />
     <option name="INDENT_GUIDE" value="918e69" />
-    <option name="LINE_NUMBERS_COLOR" value="282615" />
+    <option name="LINE_NUMBERS_COLOR" value="22221b" />
     <option name="METHOD_SEPARATORS_COLOR" value="9d9b7b" />
     <option name="MODIFIED_LINES_COLOR" value="7d9726" />
-    <option name="NOTIFICATION_BACKGROUND" value="32301a" />
-    <option name="READONLY_FRAGMENT_BACKGROUND" value="282615" />
+    <option name="NOTIFICATION_BACKGROUND" value="2c2b21" />
+    <option name="READONLY_FRAGMENT_BACKGROUND" value="22221b" />
     <option name="RECURSIVE_CALL_ATTRIBUTES" value="9d9b7b" />
-    <option name="RIGHT_MARGIN_COLOR" value="32301a" />
+    <option name="RIGHT_MARGIN_COLOR" value="2c2b21" />
     <option name="SELECTED_TEARLINE_COLOR" value="666447" />
     <option name="SELECTION_BACKGROUND" value="747253" />
     <option name="SELECTION_FOREGROUND" value="f9f7e7" />
@@ -34,7 +34,7 @@
   <attributes>
     <option name="TEXT">
       <value>
-        <option name="FOREGROUND" value="282615" />
+        <option name="FOREGROUND" value="22221b" />
         <option name="BACKGROUND" value="f9f7e7" />
       </value>
     </option>    
@@ -45,7 +45,7 @@
     </option>
     <option name="DEFAULT_TEMPLATE_LANGUAGE_COLOR">
       <value>
-        <option name="FOREGROUND" value="282615" />
+        <option name="FOREGROUND" value="22221b" />
         <option name="BACKGROUND" value="f9f7e7" />
       </value>
     </option>
@@ -93,37 +93,37 @@
     </option>
     <option name="DEFAULT_BRACES">
         <value>
-            <option name="FOREGROUND" value="32301a" />
+            <option name="FOREGROUND" value="2c2b21" />
         </value>
     </option>
     <option name="DEFAULT_DOT">
         <value>
-            <option name="FOREGROUND" value="32301a" />
+            <option name="FOREGROUND" value="2c2b21" />
         </value>
     </option>
     <option name="DEFAULT_SEMICOLON">
         <value>
-            <option name="FOREGROUND" value="32301a" />
+            <option name="FOREGROUND" value="2c2b21" />
         </value>
     </option>
     <option name="DEFAULT_COMMA">
         <value>
-            <option name="FOREGROUND" value="32301a" />
+            <option name="FOREGROUND" value="2c2b21" />
         </value>
     </option>
     <option name="DEFAULT_PARENTHS">
         <value>
-            <option name="FOREGROUND" value="32301a" />
+            <option name="FOREGROUND" value="2c2b21" />
         </value>
     </option>
     <option name="DEFAULT_BRACKETS">
         <value>
-            <option name="FOREGROUND" value="32301a" />
+            <option name="FOREGROUND" value="2c2b21" />
         </value>
     </option>
     <option name="DEFAULT_LABEL">
         <value>
-            <option name="FOREGROUND" value="32301a" />
+            <option name="FOREGROUND" value="2c2b21" />
         </value>
     </option>
     <option name="DEFAULT_CONSTANT">
@@ -154,7 +154,7 @@
     </option>
     <option name="DEFAULT_PARAMETER">
         <value>
-            <option name="FOREGROUND" value="32301a" />
+            <option name="FOREGROUND" value="2c2b21" />
         </value>
     </option>
     <option name="PY.SELF_PARAMETER">
@@ -230,12 +230,12 @@
     </option>
     <option name="DEFAULT_PREDEFINED_SYMBOL">
         <value>
-            <option name="FOREGROUND" value="32301a" />
+            <option name="FOREGROUND" value="2c2b21" />
         </value>
     </option>
     <option name="DEFAULT_METADATA">
         <value>
-            <option name="FOREGROUND" value="32301a" />
+            <option name="FOREGROUND" value="2c2b21" />
         </value>
     </option>
     <option name="DEFAULT_TAG">
@@ -370,12 +370,12 @@
     </option>
     <option name="CONSOLE_SYSTEM_OUTPUT">
       <value>
-        <option name="FOREGROUND" value="282615" />
+        <option name="FOREGROUND" value="22221b" />
       </value>
     </option>
     <option name="CONSOLE_USER_INPUT">
       <value>
-        <option name="FOREGROUND" value="282615" />
+        <option name="FOREGROUND" value="22221b" />
         <option name="FONT_TYPE" value="2" />
       </value>
     </option>
@@ -402,7 +402,7 @@
     </option>
     <option name="CTRL_CLICKABLE">
       <value>
-        <option name="EFFECT_COLOR" value="32301a" />
+        <option name="EFFECT_COLOR" value="2c2b21" />
         <option name="EFFECT_TYPE" value="1" />
       </value>
     </option>
@@ -468,7 +468,7 @@
     <option name="DELETED_TEXT_ATTRIBUTES">
       <value>
         <option name="FOREGROUND" value="747253" />
-        <option name="BACKGROUND" value="32301a" />
+        <option name="BACKGROUND" value="2c2b21" />
         <option name="EFFECT_TYPE" value="1" />
       </value>
     </option>
@@ -529,7 +529,7 @@
     </option>
     <option name="FOLDED_TEXT_ATTRIBUTES">
       <value>
-        <option name="FOREGROUND" value="32301a" />
+        <option name="FOREGROUND" value="2c2b21" />
         <option name="BACKGROUND" value="918e69" />
         <option name="FONT_TYPE" value="1" />
         <option name="EFFECT_TYPE" value="1" />
@@ -677,7 +677,7 @@
     </option>
     <option name="MATCHED_BRACE_ATTRIBUTES">
       <value>
-        <option name="FOREGROUND" value="282615" />
+        <option name="FOREGROUND" value="22221b" />
         <option name="FONT_TYPE" value="1" />
       </value>
     </option>

@@ -28,8 +28,8 @@
   <_description>Base16 Atelier Estuary Dark</_description>
 
   <!-- Palette -->
-  <color name="base00" value="#282615"/>
-  <color name="base01" value="#32301a"/>
+  <color name="base00" value="#22221b"/>
+  <color name="base01" value="#2c2b21"/>
   <color name="base02" value="#666447"/>
   <color name="base03" value="#747253"/>
   <color name="base04" value="#918e69"/>

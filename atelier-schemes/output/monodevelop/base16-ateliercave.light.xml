@@ -4,12 +4,12 @@
      - https://github.com/chriskempson/base16
      - Scheme: Bram de Haan (http://atelierbram.github.io/syntax-highlighting/atelier-schemes/cave)
      -->
-  <Color name="base00" value="#302046"/>
-  <Color name="base01" value="#3c2956"/>
-  <Color name="base02" value="#624e7e"/>
-  <Color name="base03" value="#6e588d"/>
-  <Color name="base04" value="#897b9d"/>
-  <Color name="base05" value="#9b8eaf"/>
+  <Color name="base00" value="#1e1a23"/>
+  <Color name="base01" value="#2a2531"/>
+  <Color name="base02" value="#5c526b"/>
+  <Color name="base03" value="#695e78"/>
+  <Color name="base04" value="#837891"/>
+  <Color name="base05" value="#8f859d"/>
   <Color name="base06" value="#e4dfec"/>
   <Color name="base07" value="#f4f0fa"/>
   <Color name="base08" value="#cf598a"/>

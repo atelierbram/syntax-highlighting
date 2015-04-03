@@ -28,12 +28,12 @@
   <_description>Base16 Atelier Cave Light</_description>
 
   <!-- Palette -->
-  <color name="base00" value="#302046"/>
-  <color name="base01" value="#3c2956"/>
-  <color name="base02" value="#624e7e"/>
-  <color name="base03" value="#6e588d"/>
-  <color name="base04" value="#897b9d"/>
-  <color name="base05" value="#9b8eaf"/>
+  <color name="base00" value="#1e1a23"/>
+  <color name="base01" value="#2a2531"/>
+  <color name="base02" value="#5c526b"/>
+  <color name="base03" value="#695e78"/>
+  <color name="base04" value="#837891"/>
+  <color name="base05" value="#8f859d"/>
   <color name="base06" value="#e4dfec"/>
   <color name="base07" value="#f4f0fa"/>
   <color name="base08" value="#cf598a"/>

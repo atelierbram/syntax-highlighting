@@ -14,9 +14,9 @@ from pygments.token import Keyword, Name, Comment, String, Error, Text, \
 
 BACKGROUND = "#f4f0fa"
 CURRENT_LINE = "#e4dfec"
-SELECTION = "#9b8eaf"
-FOREGROUND = "#302046"
-COMMENT = "#897b9d"
+SELECTION = "#8f859d"
+FOREGROUND = "#1e1a23"
+COMMENT = "#837891"
 RED = "#cf598a"
 ORANGE = "#bf674a"
 YELLOW = "#a08f3b"

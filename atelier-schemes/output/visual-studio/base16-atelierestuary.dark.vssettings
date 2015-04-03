@@ -10,11 +10,11 @@
 				<Categories>
 					<Category GUID="{A27B4E24-A735-4D1D-B8E7-9716E1E3D8E0}" FontIsDefault="Yes">
 						<Items>
-							<Item Name="Plain Text" Foreground="0x007b9b9d" Background="0x00152628" BoldFont="No"/>
+							<Item Name="Plain Text" Foreground="0x007b9b9d" Background="0x001b2222" BoldFont="No"/>
 							<Item Name="Identifier" Foreground="0x007b9b9d" Background="0x02000000" BoldFont="No"/>
 							<Item Name="Selected Text" Foreground="0x00e7f7f9" Background="0x00537274" BoldFont="No"/>
 							<Item Name="Inactive Selected Text" Foreground="0x02000000" Background="0x00476466" BoldFont="No"/>
-							<Item Name="Indicator Margin" Foreground="0x02000000" Background="0x00152628" BoldFont="No"/>
+							<Item Name="Indicator Margin" Foreground="0x02000000" Background="0x001b2222" BoldFont="No"/>
 							<Item Name="Line Numbers" Foreground="0x00537274" Background="0x00476466" BoldFont="No"/>
 							<Item Name="Visible White Space" Foreground="0x00476466" Background="0x02000000" BoldFont="No"/>
 							<Item Name="Brace Matching (Highlight)" Foreground="0x00537274" Background="0x02000000" BoldFont="Yes"/>
@@ -28,7 +28,7 @@
 							<Item Name="Current Statement (historical mode)" Foreground="0x00c6e9ec" Background="0x0026977d" BoldFont="No"/>
 							<Item Name="Code Snippet Dependent Field" Foreground="0x02000000" Background="0x02000000" BoldFont="No"/>
 							<Item Name="Collapsible Text" Foreground="0x00537274" Background="0x02000000" BoldFont="No"/>
-							<Item Name="outlining.collapsehintadornment" Foreground="0x007b9b9d" Background="0x00152628" BoldFont="No"/>
+							<Item Name="outlining.collapsehintadornment" Foreground="0x007b9b9d" Background="0x001b2222" BoldFont="No"/>
 							<Item Name="Comment" Foreground="0x00537274" Background="0x02000000" BoldFont="No"/>
 							<Item Name="Compiler Error" Foreground="0x0082915f" Background="0x02000000" BoldFont="No"/>
 							<Item Name="CSS Comment" Foreground="0x00537274" Background="0x02000000" BoldFont="No"/>
@@ -70,7 +70,7 @@
 							<Item Name="Memory Address" Foreground="0x00537274" Background="0x02000000" BoldFont="No"/>
 							<Item Name="Memory Changed" Foreground="0x003662ba" Background="0x02000000" BoldFont="No"/>
 							<Item Name="Memory Data" Foreground="0x007b9b9d" Background="0x02000000" BoldFont="No"/>
-							<Item Name="Memory Unreadable" Foreground="0x00152628" Background="0x007b9b9d" BoldFont="No"/>
+							<Item Name="Memory Unreadable" Foreground="0x001b2222" Background="0x007b9b9d" BoldFont="No"/>
 							<Item Name="Number" Foreground="0x0066a136" Background="0x02000000" BoldFont="No"/>
 							<Item Name="Operator" Foreground="0x00c6e9ec" Background="0x02000000" BoldFont="No"/>
 							<Item Name="Other Error" Foreground="0x0082915f" Background="0x02000000" BoldFont="No"/>
@@ -113,7 +113,7 @@
 							<Item Name="ReSharper LiveTemplates Current HotSpot" Foreground="0x003662ba" Background="0x02000000" BoldFont="No"/>
 							<Item Name="ReSharper LiveTemplates Current HotSpot mirror" Foreground="0x02000000" Background="0x02000000" BoldFont="No"/>
 							<Item Name="ReSharper Local Variable Identifier" Foreground="0x00c6e9ec" Background="0x02000000" BoldFont="No"/>
-							<Item Name="ReSharper Matched Brace" Foreground="0x00537274" Background="0x001a3032" BoldFont="No"/>
+							<Item Name="ReSharper Matched Brace" Foreground="0x00537274" Background="0x00212b2c" BoldFont="No"/>
 							<Item Name="ReSharper Matched Format String Item" Foreground="0x02000000" Background="0x0066a136" BoldFont="No"/>
 							<Item Name="ReSharper Method Identifier" Foreground="0x00489d5b" Background="0x02000000" BoldFont="No"/>
 							<Item Name="ReSharper Mutable Local Variable Identifier" Foreground="0x00c6e9ec" Background="0x02000000" BoldFont="Yes"/>
@@ -209,7 +209,7 @@
 							<Item Name="XML Doc Attribute" Foreground="0x00537274" Background="0x02000000" BoldFont="No"/>
 							<Item Name="XML Doc Comment" Foreground="0x007b9b9d" Background="0x02000000" BoldFont="No"/>
 							<Item Name="XML Doc Tag" Foreground="0x00537274" Background="0x02000000" BoldFont="No"/>
-							<Item Name="XML Keyword" Foreground="0x0082915f" Background="0x001a3032" BoldFont="No"/>
+							<Item Name="XML Keyword" Foreground="0x0082915f" Background="0x00212b2c" BoldFont="No"/>
 							<Item Name="XML Name" Foreground="0x000d98a5" Background="0x02000000" BoldFont="No"/>
 							<Item Name="XML Processing Instruction" Foreground="0x00c6e9ec" Background="0x02000000" BoldFont="No"/>
 							<Item Name="XML Text" Foreground="0x007b9b9d" Background="0x02000000" BoldFont="No"/>

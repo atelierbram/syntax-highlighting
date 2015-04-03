@@ -1,12 +1,12 @@
 
 
 set default-bg                  "#ece9c6"
-set default-fg                  "#32301a"
+set default-fg                  "#2c2b21"
 
 set statusbar-fg                "#666447"
 set statusbar-bg                "#918e69"
 
-set inputbar-bg                 "#282615"
+set inputbar-bg                 "#22221b"
 set inputbar-fg                 "#666447"
 
 set notification-error-bg       "#ba6236"

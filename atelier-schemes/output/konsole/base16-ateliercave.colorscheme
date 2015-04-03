@@ -1,15 +1,15 @@
 
 [Background]
-Color=48,32,70
+Color=30,26,35
 
 [BackgroundIntense]
-Color=146,136,160
+Color=137,133,142
 
 [Color0] 
-Color=48,32,70
+Color=30,26,35
 
 [Color0Intense]
-Color=146,136,160
+Color=137,133,142
 
 [Color1] 
 Color=207,89,138
@@ -48,16 +48,16 @@ Color=50,143,174
 Color=147,191,212
 
 [Color7] 
-Color=155,142,175
+Color=143,133,157
 
 [Color7Intense]
-Color=199,191,212
+Color=193,186,203
 
 [Foreground]
-Color=155,142,175
+Color=143,133,157
 
 [ForegroundIntense]
-Color=199,191,212
+Color=193,186,203
 
 [General]
 Description=Base16 Atelier Cave

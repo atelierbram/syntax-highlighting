@@ -4,8 +4,8 @@
      - https://github.com/chriskempson/base16
      - Scheme: Bram de Haan (http://atelierbram.github.io/syntax-highlighting/atelier-schemes/estuary)
      -->
-  <Color name="base00" value="#282615"/>
-  <Color name="base01" value="#32301a"/>
+  <Color name="base00" value="#22221b"/>
+  <Color name="base01" value="#2c2b21"/>
   <Color name="base02" value="#666447"/>
   <Color name="base03" value="#747253"/>
   <Color name="base04" value="#918e69"/>

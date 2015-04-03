@@ -13,9 +13,9 @@
 	<key>gutterSettings</key>
 	<dict>
 		<key>background</key>
-		<string>#32301a</string>
+		<string>#2c2b21</string>
 		<key>divider</key>
-		<string>#32301a</string>
+		<string>#2c2b21</string>
 		<key>foreground</key>
 		<string>#747253</string>
 		<key>selectionBackground</key>
@@ -29,7 +29,7 @@
 			<key>settings</key>
 			<dict>
 				<key>background</key>
-				<string>#282615</string>
+				<string>#22221b</string>
 				<key>caret</key>
 				<string>#9d9b7b</string>
 				<key>foreground</key>
@@ -513,7 +513,7 @@
 				<key>background</key>
 				<string>#ae7313</string>
 				<key>foreground</key>
-				<string>#282615</string>
+				<string>#22221b</string>
 			</dict>
 		</dict>
 		<dict>
@@ -544,6 +544,6 @@
 		</dict>
 	</array>
 	<key>uuid</key>
-	<string>ef1942a7-d52e-42ba-ad19-1073d3969053</string>
+	<string>161935e9-444f-4bf7-978e-f7c3eaa64186</string>
 </dict>
 </plist>

@@ -4,14 +4,14 @@
      - https://github.com/chriskempson/base16
      - Scheme: Bram de Haan (http://atelierbram.github.io/syntax-highlighting/atelier-schemes/savanna)
      -->
-  <Color name="base00" value="#15281c"/>
-  <Color name="base01" value="#1d3425"/>
-  <Color name="base02" value="#41624c"/>
-  <Color name="base03" value="#4f725b"/>
-  <Color name="base04" value="#688d74"/>
-  <Color name="base05" value="#739c80"/>
-  <Color name="base06" value="#bfd9c8"/>
-  <Color name="base07" value="#ddeee3"/>
+  <Color name="base00" value="#1a231d"/>
+  <Color name="base01" value="#242e27"/>
+  <Color name="base02" value="#4e6555"/>
+  <Color name="base03" value="#5a7262"/>
+  <Color name="base04" value="#738c7b"/>
+  <Color name="base05" value="#809988"/>
+  <Color name="base06" value="#d9e8de"/>
+  <Color name="base07" value="#e8f7ed"/>
   <Color name="base08" value="#b16139"/>
   <Color name="base09" value="#9f713c"/>
   <Color name="base0A" value="#a07e3b"/>

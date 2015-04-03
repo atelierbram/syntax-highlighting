@@ -2,11 +2,11 @@
 // Petr Hosek(http://petrhosek.name)
 
 term_.prefs_.set('background-color', '#f4f0fa');
-term_.prefs_.set('foreground-color', '#624e7e');
-term_.prefs_.set('cursor-color', '#624e7e');
+term_.prefs_.set('foreground-color', '#5c526b');
+term_.prefs_.set('cursor-color', '#5c526b');
 
 term_.prefs_.set('color-palette-overrides', [
-    '#3c2956',
+    '#2a2531',
     '#cf598a',
     '#74875a',
     '#a08f3b',
@@ -14,12 +14,12 @@ term_.prefs_.set('color-palette-overrides', [
     '#c15cc1',
     '#328fae',
     '#e4dfec',
-    '#302046',
+    '#1e1a23',
     '#bf674a',
-    '#624e7e',
-    '#6e588d',
-    '#897b9d',
+    '#5c526b',
+    '#695e78',
+    '#837891',
     '#955ae7',
-    '#9b8eaf',
+    '#8f859d',
     '#f4f0fa',
   ]);

@@ -5,12 +5,12 @@ module Rouge
       # author Bram de Haan (http://atelierbram.github.io/syntax-highlighting/atelier-schemes/cave)
       light!
 
-      palette base00: "#302046"
-      palette base01: "#3c2956"
-      palette base02: "#624e7e"
-      palette base03: "#6e588d"
-      palette base04: "#897b9d"
-      palette base05: "#9b8eaf"
+      palette base00: "#1e1a23"
+      palette base01: "#2a2531"
+      palette base02: "#5c526b"
+      palette base03: "#695e78"
+      palette base04: "#837891"
+      palette base05: "#8f859d"
       palette base06: "#e4dfec"
       palette base07: "#f4f0fa"
       palette base08: "#cf598a"

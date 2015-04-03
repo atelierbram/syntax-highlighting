@@ -2,12 +2,12 @@
 Scheme: Bram de Haan (http://atelierbram.github.io/syntax-highlighting/atelier-schemes/estuary) */
 
 table.sourceCode, tr.sourceCode, td.sourceCode, table.sourceCode pre
-{ margin: 0; padding: 0; border: 0; vertical-align: baseline; border: none; background-color: #282615; color: #9d9b7b }
-td.nums { text-align: right; padding-right: 5px; padding-left: 5px; background-color: #32301a; }
+{ margin: 0; padding: 0; border: 0; vertical-align: baseline; border: none; background-color: #22221b; color: #9d9b7b }
+td.nums { text-align: right; padding-right: 5px; padding-left: 5px; background-color: #2c2b21; }
 td.sourceCode { padding-left: 5px; }
-code.sourceCode { background-color: #282615; }
-pre.sourceCode { background-color: #282615; line-height: 125% }
-td.nums pre { background-color: #32301a; line-height: 125% }
+code.sourceCode { background-color: #22221b; }
+pre.sourceCode { background-color: #22221b; line-height: 125% }
+td.nums pre { background-color: #2c2b21; line-height: 125% }
 code.sourceCode span.kw { color: #36a166; font-weight: bold } /* Keyword */
 code.sourceCode span.dt { color: #5f9182} /* Keyword.Type */
 code.sourceCode span.dv { color: #ae7313 } /* Literal.Number.Integer */

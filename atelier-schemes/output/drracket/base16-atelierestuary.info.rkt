@@ -7,8 +7,8 @@
 (define deps '("base"))
 
 ;; color scheme
-(define base00 #(40 38 21))
-(define base01 #(50 48 26))
+(define base00 #(34 34 27))
+(define base01 #(44 43 33))
 (define base02 #(102 100 71))
 (define base03 #(116 114 83))
 (define base04 #(145 142 105))

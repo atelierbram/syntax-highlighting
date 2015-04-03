@@ -8,11 +8,11 @@
 
 */
 
-.cm-s-base16-ateliersavanna-dark.CodeMirror {background: #15281c; color: #bfd9c8;}
-.cm-s-base16-ateliersavanna-dark div.CodeMirror-selected {background: #1d3425 !important;}
-.cm-s-base16-ateliersavanna-dark .CodeMirror-gutters {background: #15281c; border-right: 0px;}
-.cm-s-base16-ateliersavanna-dark .CodeMirror-linenumber {color: #4f725b;}
-.cm-s-base16-ateliersavanna-dark .CodeMirror-cursor {border-left: 1px solid #688d74 !important;}
+.cm-s-base16-ateliersavanna-dark.CodeMirror {background: #1a231d; color: #d9e8de;}
+.cm-s-base16-ateliersavanna-dark div.CodeMirror-selected {background: #242e27 !important;}
+.cm-s-base16-ateliersavanna-dark .CodeMirror-gutters {background: #1a231d; border-right: 0px;}
+.cm-s-base16-ateliersavanna-dark .CodeMirror-linenumber {color: #5a7262;}
+.cm-s-base16-ateliersavanna-dark .CodeMirror-cursor {border-left: 1px solid #738c7b !important;}
 
 .cm-s-base16-ateliersavanna-dark span.cm-comment {color: #867469;}
 .cm-s-base16-ateliersavanna-dark span.cm-atom {color: #55859b;}
@@ -25,8 +25,8 @@
 .cm-s-base16-ateliersavanna-dark span.cm-variable {color: #489963;}
 .cm-s-base16-ateliersavanna-dark span.cm-variable-2 {color: #478c90;}
 .cm-s-base16-ateliersavanna-dark span.cm-def {color: #9f713c;}
-.cm-s-base16-ateliersavanna-dark span.cm-error {background: #b16139; color: #688d74;}
-.cm-s-base16-ateliersavanna-dark span.cm-bracket {color: #bfd9c8;}
+.cm-s-base16-ateliersavanna-dark span.cm-error {background: #b16139; color: #738c7b;}
+.cm-s-base16-ateliersavanna-dark span.cm-bracket {color: #d9e8de;}
 .cm-s-base16-ateliersavanna-dark span.cm-tag {color: #b16139;}
 .cm-s-base16-ateliersavanna-dark span.cm-link {color: #55859b;}
 

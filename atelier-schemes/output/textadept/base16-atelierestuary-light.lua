@@ -7,8 +7,8 @@
 local buffer = buffer
 local property, property_int = buffer.property, buffer.property_int
 
-property['color.base00'] = 0x152628
-property['color.base01'] = 0x1a3032
+property['color.base00'] = 0x1b2222
+property['color.base01'] = 0x212b2c
 property['color.base02'] = 0x476466
 property['color.base03'] = 0x537274
 property['color.base04'] = 0x698e91

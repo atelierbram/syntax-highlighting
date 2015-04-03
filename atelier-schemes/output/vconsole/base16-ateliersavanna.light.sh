@@ -2,22 +2,22 @@
 # Base16 Atelier Savanna - Virtual console color setup script
 # Bram de Haan (http://atelierbram.github.io/syntax-highlighting/atelier-schemes/savanna)
 
-color00="ddeee3" # Base 07 - White
+color00="e8f7ed" # Base 07 - White
 color01="b16139" # Base 08 - Red
 color02="489963" # Base 0B - Green
 color03="a07e3b" # Base 0A - Yellow
 color04="478c90" # Base 0D - Blue
 color05="55859b" # Base 0E - Magenta
 color06="1c9aa0" # Base 0C - Cyan
-color07="41624c" # Base 02 - Black
-color08="739c80" # Base 05 - Bright White
+color07="4e6555" # Base 02 - Black
+color08="809988" # Base 05 - Bright White
 color09=$color01 # Base 08 - Bright Red
 color10=$color02 # Base 0B - Bright Green
 color11=$color03 # Base 0A - Bright Yellow
 color12=$color04 # Base 0D - Bright Blue
 color13=$color05 # Base 0E - Bright Magenta
 color14=$color06 # Base 0C - Bright Cyan
-color15="15281c" # Base 00 - Bright Black
+color15="1a231d" # Base 00 - Bright Black
 
 # 16 color space
 echo -e "\e]P0$color00"

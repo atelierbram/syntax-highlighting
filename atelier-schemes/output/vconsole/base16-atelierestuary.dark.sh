@@ -2,7 +2,7 @@
 # Base16 Atelier Estuary - Virtual console color setup script
 # Bram de Haan (http://atelierbram.github.io/syntax-highlighting/atelier-schemes/estuary)
 
-color00="282615" # Base 00 - Black
+color00="22221b" # Base 00 - Black
 color01="ba6236" # Base 08 - Red
 color02="7d9726" # Base 0B - Green
 color03="a5980d" # Base 0A - Yellow

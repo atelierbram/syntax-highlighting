@@ -125,7 +125,7 @@ pre[class*="language-"] {
 }
 
 .token.inserted {
-  border-bottom: 1px dotted #282615;
+  border-bottom: 1px dotted #22221b;
   text-decoration: none;
 }
 

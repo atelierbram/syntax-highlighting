@@ -2,25 +2,25 @@
 <style-scheme version="1.0" name="Base 16 Atelier Cave">
 
   <!-- main colors, skipping one of attributes (backgroud/foreground) will use color from here -->
-  <style name="Text" foreground="#9b8eaf" background="#302046"/>
+  <style name="Text" foreground="#8f859d" background="#1e1a23"/>
 
   <!-- it will be underlined by default -->
   <style name="Link"/>
 
   <!-- selection, current line, search, matching brackets -->
-  <style name="Selection" background="#897b9d"/>
-  <style name="CurrentLine" background="#6e588d"/>
-  <style name="LineNumber" foreground="#6e588d"/>
-  <style name="CurrentLineNumber" foreground="#897b9d" bold="true"/>
-  <style name="SearchResult" background="3c2956"/>
-  <style name="Parentheses" background="#624e7e" />
+  <style name="Selection" background="#837891"/>
+  <style name="CurrentLine" background="#695e78"/>
+  <style name="LineNumber" foreground="#695e78"/>
+  <style name="CurrentLineNumber" foreground="#837891" bold="true"/>
+  <style name="SearchResult" background="2a2531"/>
+  <style name="Parentheses" background="#5c526b" />
 
   <!-- ??? -->
   <style name="SearchScope" foreground="#000000" background="#ffffff"/>
 
   <!-- word (symbol) under cursor: background - color of marking frame, foreground - ignored -->
-  <style name="Occurrences" background="#6e588d"/>
-  <style name="Occurrences.Rename" background="#897b9d"/>
+  <style name="Occurrences" background="#695e78"/>
+  <style name="Occurrences.Rename" background="#837891"/>
   <!-- unused variable: foreground - color of underlining -->
   <style name="Occurrences.Unused" foreground="#bf674a"/>
 
@@ -28,7 +28,7 @@
   <style name="Number" foreground="#bf674a"/>
   <style name="String" foreground="#74875a"/>
   <style name="Keyword" foreground="#955ae7"/>
-  <style name="Operator" foreground="#9b8eaf"/>
+  <style name="Operator" foreground="#8f859d"/>
   <style name="Preprocessor" foreground="#6577d2"/>
   <style name="Label" foreground="#cf598a"/>
 
@@ -41,20 +41,20 @@
 
   <!-- variables -->
   <style name="Field" foreground="#e4dfec"/>
-  <style name="Local" foreground="#9b8eaf"/>
-  <style name="Static" foreground="#9b8eaf"/>
-  <style name="JsScopeVar" foreground="#9b8eaf" italic="true"/>
-  <style name="JsImportVar" foreground="#9b8eaf" italic="true"/>
-  <style name="JsGlobalVar" foreground="#9b8eaf" italic="true"/>
+  <style name="Local" foreground="#8f859d"/>
+  <style name="Static" foreground="#8f859d"/>
+  <style name="JsScopeVar" foreground="#8f859d" italic="true"/>
+  <style name="JsImportVar" foreground="#8f859d" italic="true"/>
+  <style name="JsGlobalVar" foreground="#8f859d" italic="true"/>
 
   <!-- whitespace -->
-  <style name="VisualWhitespace" foreground="#624e7e"/>
+  <style name="VisualWhitespace" foreground="#5c526b"/>
 
   <!-- comments -->
-  <style name="Comment" foreground="#6e588d"/>
-  <style name="DisabledCode" foreground="#6e588d"/>
-  <style name="Doxygen.Comment" foreground="#6e588d"/>
-  <style name="Doxygen.Tag" foreground="#6e588d"/>
+  <style name="Comment" foreground="#695e78"/>
+  <style name="DisabledCode" foreground="#695e78"/>
+  <style name="Doxygen.Comment" foreground="#695e78"/>
+  <style name="Doxygen.Tag" foreground="#695e78"/>
 
   <!-- QML -->
   <style name="QmlTypeId" foreground="#955ae7"/>
@@ -76,7 +76,7 @@
   <style name="DiffFileLine" foreground="#955ae7"/>
   <style name="DiffContextLine" foreground="#6577d2"/>
   <style name="DiffSourceLine" foreground="#74875a"/>
-  <style name="DiffSourceChar" foreground="#a08f3b" background="#3c2956"/>
+  <style name="DiffSourceChar" foreground="#a08f3b" background="#2a2531"/>
   <style name="DiffDestLine" foreground="#74875a"/>
-  <style name="DiffDestChar" foreground="#a08f3b" background="#3c2956"/>
+  <style name="DiffDestChar" foreground="#a08f3b" background="#2a2531"/>
 </style-scheme>

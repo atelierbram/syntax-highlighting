@@ -6,7 +6,7 @@ term_.prefs_.set('foreground-color', '#666447');
 term_.prefs_.set('cursor-color', '#666447');
 
 term_.prefs_.set('color-palette-overrides', [
-    '#32301a',
+    '#2c2b21',
     '#ba6236',
     '#7d9726',
     '#a5980d',
@@ -14,7 +14,7 @@ term_.prefs_.set('color-palette-overrides', [
     '#9d6c7c',
     '#5b9d48',
     '#ece9c6',
-    '#282615',
+    '#22221b',
     '#ae7313',
     '#666447',
     '#747253',

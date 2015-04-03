@@ -4,7 +4,7 @@ Windows Registry Editor Version 5.00
 ; Scheme: Bram de Haan (http://atelierbram.github.io/syntax-highlighting/atelier-schemes/estuary)
 
 [HKEY_CURRENT_USER\Console]
-"ColorTable00"=dword:00152628
+"ColorTable00"=dword:001b2222
 "ColorTable01"=dword:0066a136
 "ColorTable02"=dword:0026977d
 "ColorTable03"=dword:00489d5b

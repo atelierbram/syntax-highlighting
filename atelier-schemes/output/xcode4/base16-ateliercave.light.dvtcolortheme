@@ -3,11 +3,11 @@
 <plist version="1.0">
 <dict>
   <key>DVTConsoleDebuggerInputTextColor</key>
-  <string>0.3843137254901961 0.3058823529411765 0.49411764705882355 1</string>
+  <string>0.3607843137254902 0.3215686274509804 0.4196078431372549 1</string>
   <key>DVTConsoleDebuggerInputTextFont</key>
   <string>Menlo-Bold - 11.0</string>
   <key>DVTConsoleDebuggerOutputTextColor</key>
-  <string>0.3843137254901961 0.3058823529411765 0.49411764705882355 1</string>
+  <string>0.3607843137254902 0.3215686274509804 0.4196078431372549 1</string>
   <key>DVTConsoleDebuggerOutputTextFont</key>
   <string>Menlo-Regular - 11.0</string>
   <key>DVTConsoleDebuggerPromptTextColor</key>
@@ -15,17 +15,17 @@
   <key>DVTConsoleDebuggerPromptTextFont</key>
   <string>Menlo-Bold - 11.0</string>
   <key>DVTConsoleExectuableInputTextColor</key>
-  <string>0.3843137254901961 0.3058823529411765 0.49411764705882355 1</string>
+  <string>0.3607843137254902 0.3215686274509804 0.4196078431372549 1</string>
   <key>DVTConsoleExectuableInputTextFont</key>
   <string>Menlo-Regular - 11.0</string>
   <key>DVTConsoleExectuableOutputTextColor</key>
-  <string>0.3843137254901961 0.3058823529411765 0.49411764705882355 1</string>
+  <string>0.3607843137254902 0.3215686274509804 0.4196078431372549 1</string>
   <key>DVTConsoleExectuableOutputTextFont</key>
   <string>Menlo-Bold - 11.0</string>
   <key>DVTConsoleTextBackgroundColor</key>
   <string>0.9568627450980393 0.9411764705882353 0.9803921568627451 1</string>
   <key>DVTConsoleTextInsertionPointColor</key>
-  <string>0.3843137254901961 0.3058823529411765 0.49411764705882355 1</string>
+  <string>0.3607843137254902 0.3215686274509804 0.4196078431372549 1</string>
   <key>DVTConsoleTextSelectionColor</key>
   <string>0.8941176470588236 0.8745098039215686 0.9254901960784314 1</string>
   <key>DVTDebuggerInstructionPointerColor</key>
@@ -35,7 +35,7 @@
   <key>DVTSourceTextBlockDimBackgroundColor</key>
   <string>0.5 0.5 0.5 1</string>
   <key>DVTSourceTextInsertionPointColor</key>
-  <string>0.3843137254901961 0.3058823529411765 0.49411764705882355 1</string>
+  <string>0.3607843137254902 0.3215686274509804 0.4196078431372549 1</string>
   <key>DVTSourceTextInvisiblesColor</key>
   <string>0.9568627450980393 0.9411764705882353 0.9803921568627451 1</string>
   <key>DVTSourceTextSelectionColor</key>
@@ -47,9 +47,9 @@
     <key>xcode.syntax.character</key>
     <string>0.4549019607843137 0.5294117647058824 0.35294117647058826 1</string>
     <key>xcode.syntax.comment</key>
-    <string>0.5372549019607843 0.4823529411764706 0.615686274509804 1</string>
+    <string>0.5137254901960784 0.47058823529411764 0.5686274509803921 1</string>
     <key>xcode.syntax.comment.doc</key>
-    <string>0.5372549019607843 0.4823529411764706 0.615686274509804 1</string>
+    <string>0.5137254901960784 0.47058823529411764 0.5686274509803921 1</string>
     <key>xcode.syntax.comment.doc.keyword</key>
     <string>0.8941176470588236 0.8745098039215686 0.9254901960784314 1</string>
     <key>xcode.syntax.identifier.class</key>
@@ -81,7 +81,7 @@
     <key>xcode.syntax.number</key>
     <string>0.4549019607843137 0.5294117647058824 0.35294117647058826 1</string>
     <key>xcode.syntax.plain</key>
-    <string>0.18823529411764706 0.12549019607843137 0.27450980392156865 1</string>
+    <string>0.11764705882352941 0.10196078431372549 0.13725490196078433 1</string>
     <key>xcode.syntax.preprocessor</key>
     <string>0.19607843137254902 0.5607843137254902 0.6823529411764706 1</string>
     <key>xcode.syntax.string</key>

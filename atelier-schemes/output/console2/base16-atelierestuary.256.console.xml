@@ -2,7 +2,7 @@
 <settings>
 	<console>
 		<colors>
-			<color id="0" r="40" g="38" b="21"/>
+			<color id="0" r="34" g="34" b="27"/>
 			<color id="1" r="54" g="161" b="102"/>
 			<color id="2" r="125" g="151" b="38"/>
 			<color id="3" r="91" g="157" b="72"/>

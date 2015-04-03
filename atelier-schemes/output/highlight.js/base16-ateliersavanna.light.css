@@ -5,7 +5,7 @@
 
 /* Atelier Savanna Comment */
 .hljs-comment {
-  color: #4f725b;
+  color: #5a7262;
 }
 
 /* Atelier Savanna Red */
@@ -77,8 +77,8 @@
 .hljs {
   display: block;
   overflow-x: auto;
-  background: #ddeee3;
-  color: #41624c;
+  background: #e8f7ed;
+  color: #4e6555;
   padding: 0.5em;
   -webkit-text-size-adjust: none;
 }

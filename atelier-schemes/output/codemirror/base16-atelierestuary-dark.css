@@ -8,9 +8,9 @@
 
 */
 
-.cm-s-base16-atelierestuary-dark.CodeMirror {background: #282615; color: #ece9c6;}
-.cm-s-base16-atelierestuary-dark div.CodeMirror-selected {background: #32301a !important;}
-.cm-s-base16-atelierestuary-dark .CodeMirror-gutters {background: #282615; border-right: 0px;}
+.cm-s-base16-atelierestuary-dark.CodeMirror {background: #22221b; color: #ece9c6;}
+.cm-s-base16-atelierestuary-dark div.CodeMirror-selected {background: #2c2b21 !important;}
+.cm-s-base16-atelierestuary-dark .CodeMirror-gutters {background: #22221b; border-right: 0px;}
 .cm-s-base16-atelierestuary-dark .CodeMirror-linenumber {color: #747253;}
 .cm-s-base16-atelierestuary-dark .CodeMirror-cursor {border-left: 1px solid #918e69 !important;}
 

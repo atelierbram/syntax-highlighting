@@ -8,11 +8,11 @@
 
 */
 
-.cm-s-base16-ateliercave-dark.CodeMirror {background: #302046; color: #e4dfec;}
-.cm-s-base16-ateliercave-dark div.CodeMirror-selected {background: #3c2956 !important;}
-.cm-s-base16-ateliercave-dark .CodeMirror-gutters {background: #302046; border-right: 0px;}
-.cm-s-base16-ateliercave-dark .CodeMirror-linenumber {color: #6e588d;}
-.cm-s-base16-ateliercave-dark .CodeMirror-cursor {border-left: 1px solid #897b9d !important;}
+.cm-s-base16-ateliercave-dark.CodeMirror {background: #1e1a23; color: #e4dfec;}
+.cm-s-base16-ateliercave-dark div.CodeMirror-selected {background: #2a2531 !important;}
+.cm-s-base16-ateliercave-dark .CodeMirror-gutters {background: #1e1a23; border-right: 0px;}
+.cm-s-base16-ateliercave-dark .CodeMirror-linenumber {color: #695e78;}
+.cm-s-base16-ateliercave-dark .CodeMirror-cursor {border-left: 1px solid #837891 !important;}
 
 .cm-s-base16-ateliercave-dark span.cm-comment {color: #c15cc1;}
 .cm-s-base16-ateliercave-dark span.cm-atom {color: #955ae7;}
@@ -25,7 +25,7 @@
 .cm-s-base16-ateliercave-dark span.cm-variable {color: #74875a;}
 .cm-s-base16-ateliercave-dark span.cm-variable-2 {color: #6577d2;}
 .cm-s-base16-ateliercave-dark span.cm-def {color: #bf674a;}
-.cm-s-base16-ateliercave-dark span.cm-error {background: #cf598a; color: #897b9d;}
+.cm-s-base16-ateliercave-dark span.cm-error {background: #cf598a; color: #837891;}
 .cm-s-base16-ateliercave-dark span.cm-bracket {color: #e4dfec;}
 .cm-s-base16-ateliercave-dark span.cm-tag {color: #cf598a;}
 .cm-s-base16-ateliercave-dark span.cm-link {color: #955ae7;}

@@ -1,12 +1,12 @@
 <svg width="800" height="50" xmlns="http://www.w3.org/2000/svg">
  <g>
   <title>Base16 Atelier Cave</title>
-  <line id="base00" x1="025" y1="0" x2="025" y2="720" stroke-width="50" stroke="#302046" />
-  <line id="base01" x1="075" y1="0" x2="075" y2="720" stroke-width="50" stroke="#3c2956" />
-  <line id="base02" x1="125" y1="0" x2="125" y2="720" stroke-width="50" stroke="#624e7e" />
-  <line id="base03" x1="175" y1="0" x2="175" y2="720" stroke-width="50" stroke="#6e588d" />
-  <line id="base04" x1="225" y1="0" x2="225" y2="720" stroke-width="50" stroke="#897b9d" />
-  <line id="base05" x1="275" y1="0" x2="275" y2="720" stroke-width="50" stroke="#9b8eaf" />
+  <line id="base00" x1="025" y1="0" x2="025" y2="720" stroke-width="50" stroke="#1e1a23" />
+  <line id="base01" x1="075" y1="0" x2="075" y2="720" stroke-width="50" stroke="#2a2531" />
+  <line id="base02" x1="125" y1="0" x2="125" y2="720" stroke-width="50" stroke="#5c526b" />
+  <line id="base03" x1="175" y1="0" x2="175" y2="720" stroke-width="50" stroke="#695e78" />
+  <line id="base04" x1="225" y1="0" x2="225" y2="720" stroke-width="50" stroke="#837891" />
+  <line id="base05" x1="275" y1="0" x2="275" y2="720" stroke-width="50" stroke="#8f859d" />
   <line id="base06" x1="325" y1="0" x2="325" y2="720" stroke-width="50" stroke="#e4dfec" />
   <line id="base07" x1="375" y1="0" x2="375" y2="720" stroke-width="50" stroke="#f4f0fa" />
   <line id="base08" x1="425" y1="0" x2="425" y2="720" stroke-width="50" stroke="#cf598a" />

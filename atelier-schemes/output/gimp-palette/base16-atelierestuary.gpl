@@ -2,8 +2,8 @@ GIMP Palette
 Name: Base16 Atelier Estuary
 Columns: 16
 #
-  40  38  21	base00
-  50  48  26	base01
+  34  34  27	base00
+  44  43  33	base01
   102  100  71	base02
   116  114  83	base03
   145  142  105	base04

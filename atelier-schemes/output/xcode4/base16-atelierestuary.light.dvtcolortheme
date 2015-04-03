@@ -81,7 +81,7 @@
     <key>xcode.syntax.number</key>
     <string>0.49019607843137253 0.592156862745098 0.14901960784313725 1</string>
     <key>xcode.syntax.plain</key>
-    <string>0.1568627450980392 0.14901960784313725 0.08235294117647059 1</string>
+    <string>0.13333333333333333 0.13333333333333333 0.10588235294117647 1</string>
     <key>xcode.syntax.preprocessor</key>
     <string>0.3568627450980392 0.615686274509804 0.2823529411764706 1</string>
     <key>xcode.syntax.string</key>

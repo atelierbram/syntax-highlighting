@@ -7,12 +7,12 @@
 
 (deftheme base16-ateliercave-light)
 
-(let ((base00 "#302046")
-      (base01 "#3c2956")
-      (base02 "#624e7e")
-      (base03 "#6e588d")
-      (base04 "#897b9d")
-      (base05 "#9b8eaf")
+(let ((base00 "#1e1a23")
+      (base01 "#2a2531")
+      (base02 "#5c526b")
+      (base03 "#695e78")
+      (base04 "#837891")
+      (base05 "#8f859d")
       (base06 "#e4dfec")
       (base07 "#f4f0fa")
       (base08 "#cf598a")

@@ -24,20 +24,20 @@ pre[class*="language-"] {
   -moz-hyphens: none;
   -ms-hyphens: none;
   hyphens: none;
-  background: #15281c;
-  color: #739c80;
+  background: #1a231d;
+  color: #809988;
 }
 
 pre[class*="language-"]::-moz-selection, pre[class*="language-"] ::-moz-selection,
 code[class*="language-"]::-moz-selection, code[class*="language-"] ::-moz-selection {
   text-shadow: none;
-  background: #688d74;
+  background: #738c7b;
 }
 
 pre[class*="language-"]::selection, pre[class*="language-"] ::selection,
 code[class*="language-"]::selection, code[class*="language-"] ::selection {
   text-shadow: none;
-  background: #688d74;
+  background: #738c7b;
 }
 
 /* Code blocks */
@@ -57,11 +57,11 @@ pre[class*="language-"] {
 .token.prolog,
 .token.doctype,
 .token.cdata {
-  color: #4f725b;
+  color: #5a7262;
 }
 
 .token.punctuation {
-  color: #739c80;
+  color: #809988;
 }
 
 .token.namespace {
@@ -125,7 +125,7 @@ pre[class*="language-"] {
 }
 
 .token.inserted {
-  border-bottom: 1px dotted #ddeee3;
+  border-bottom: 1px dotted #e8f7ed;
   text-decoration: none;
 }
 

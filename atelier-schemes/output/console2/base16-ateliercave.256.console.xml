@@ -2,15 +2,15 @@
 <settings>
 	<console>
 		<colors>
-			<color id="0" r="48" g="32" b="70"/>
+			<color id="0" r="30" g="26" b="35"/>
 			<color id="1" r="101" g="119" b="210"/>
 			<color id="2" r="116" g="135" b="90"/>
 			<color id="3" r="50" g="143" b="174"/>
 			<color id="4" r="207" g="89" b="138"/>
 			<color id="5" r="149" g="90" b="231"/>
 			<color id="6" r="160" g="143" b="59"/>
-			<color id="7" r="155" g="142" b="175"/>
-			<color id="8" r="110" g="88" b="141"/>
+			<color id="7" r="143" g="133" b="157"/>
+			<color id="8" r="105" g="94" b="120"/>
 			<color id="9" r="101" g="119" b="210"/>
 			<color id="10" r="116" g="135" b="90"/>
 			<color id="11" r="50" g="143" b="174"/>
