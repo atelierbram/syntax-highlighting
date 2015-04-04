@@ -28,10 +28,14 @@
           <ul id="drop-atelierschemes" class="f-dropdown small" data-dropdown-content>
             <li><a href="../">index - overview</a></li>
             <li><a href="../forest">Forest</a></li>
+            <li><a href="../plateau">Plateau</a></li>
             <li><a href="../heath">Heath</a></li>
-            <li class="is-selected"><a href="#" class="is-selected">Cave</a></li>
+            <li><a href="#" class="is-selected">Cave</a></li>
+            <li><a href="../sulphurpool">Sulphurpool</a></li>
             <li><a href="../lakeside">Lakeside</a></li>
+            <li><a href="../savanna">Savanna</a></li>
             <li><a href="../seaside">Seaside</a></li>
+            <li><a href="../estuary">Estuary</a></li>
             <li><a href="../dune">Dune</a></li>
             <li><a href="../output">output formats</a></li>
           </ul>
@@ -48,29 +52,30 @@
 
           <h2>Atelier <small>colorscheme</small></h2>
           <h3 id="about-cave">Cave</h3>
-          <p>
-          Base color for Cave is purple (<i>here called violet</i>), and here the background-colors have these grey purplish colors for the background.
+
+           <p>
+          Base color for Cave is violet, and although the colors are regularly spaced out, there is no real green in here, (<i>see also “Plateau”</i>) a “cool-warm” palette; not for the claustrophobic.
           </p>
 
           <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1200 1200">
             <style type="text/css">
 <![CDATA[
-.base00-background                      {fill:hsl(265, 15%, 12%); }
-.base01-background                      {fill:hsl(265, 12%, 17%); }
-.base02-background                      {fill:hsl(265, 13%, 37%); }
-.base03-background                      {fill:hsl(265, 12%, 42%); }
-.base04-background                      {fill:hsl(265, 10%, 52%); }
-.base05-background                      {fill:hsl(265, 11%, 57%); }
-.base06-background                      {fill:hsl(265, 25%, 90%); }
-.base07-background                      {fill:hsl(265, 50%, 96%); }
-.base08-background, .red-background     {fill:hsl(335, 55%, 58%); }
-.base09-background, .orange-background  {fill:hsl(15, 48%, 52%);  }
-.base0A-background, .yellow-background  {fill:hsl(50, 46%, 43%);  }
-.base0B-background, .green-background   {fill:hsl(85, 20%, 44%);  }
-.base0C-background, .cyan-background    {fill:hsl(195, 55%, 44%); }
-.base0D-background, .blue-background    {fill:hsl(230, 55%, 61%); }
+.base00-background                      {fill:hsl(265, 10%, 10%); }
+.base01-background                      {fill:hsl(265, 9%, 15%); }
+.base02-background                      {fill:hsl(265, 8%, 35%); }
+.base03-background                      {fill:hsl(265, 7%, 40%); }
+.base04-background                      {fill:hsl(265, 6%, 50%); }
+.base05-background                      {fill:hsl(265, 5%, 55%); }
+.base06-background                      {fill:hsl(265, 15%, 89%); }
+.base07-background                      {fill:hsl(265, 25%, 94%); }
+.base08-background, .red-background     {fill:hsl(335, 48%, 51%); }
+.base09-background, .orange-background  {fill:hsl(15, 48%, 45%);  }
+.base0A-background, .yellow-background  {fill:hsl(30, 46%, 43%);  }
+.base0B-background, .green-background   {fill:hsl(180, 55%, 37%);  }
+.base0C-background, .cyan-background    {fill:hsl(205, 55%, 50%); }
+.base0D-background, .blue-background    {fill:hsl(230, 65%, 60%); }
 .base0E-background, .violet-background  {fill:hsl(265, 75%, 63%); }
-.base0F-background, .magenta-background {fill:hsl(300, 45%, 56%); }
+.base0F-background, .magenta-background {fill:hsl(300, 50%, 50%); }
 text{font-size:2em}]]></style>
             <g>
             <rect x="0" y="0" width="300" height="300" class="base00-background" />
@@ -120,22 +125,22 @@ text{font-size:2em}]]></style>
 
           <h3 id="color-code" class="mtm no-border">Colors in code <small>Scss variables</small></h3>
           <pre class="base00-background language-scss"><code class="language-scss sh-c-light">
-$base00: <span class="sh-c-comm">                            hsl(265, 15%, 12%);  /* #1e1a23 */</span>
-$base01: <span class="base01-background sh-c-comm">          hsl(265, 14%, 17%);  /* #2a2531 */</span>
-$base02: <span class="base02-background sh-c-comm sh-c-dark">hsl(265, 13%, 37%);  /* #5c526b */</span>
-$base03: <span class="base03-background sh-c-comm sh-c-dark">hsl(265, 12%, 42%);  /* #695e78 */</span>
-$base04: <span class="base04-background sh-c-comm sh-c-dark">hsl(265, 10%, 52%);  /* #837891 */</span>
-$base05: <span class="base05-background sh-c-comm sh-c-dark">hsl(265, 11%, 57%);  /* #8f859d */</span>
-$base06: <span class="base06-background sh-c-comm sh-c-dark">hsl(265, 25%, 90%);  /* #e4dfec */</span>
-$base07: <span class="base07-background sh-c-comm sh-c-dark">hsl(265, 50%, 96%);  /* #f4f0fa */</span>
-$base08: <span class="base08-background sh-c-comm sh-c-dark">hsl(335, 55%, 58%);  /* #cf598a */</span>
-$base09: <span class="base09-background sh-c-comm sh-c-dark">hsl(15, 48%, 52%);   /* #bf674a */</span>
-$base0a: <span class="base0A-background sh-c-comm sh-c-dark">hsl(50, 46%, 43%);   /* #a08f3b */</span>
-$base0b: <span class="base0B-background sh-c-comm sh-c-dark">hsl(85, 20%, 44%);   /* #74875a */</span>
-$base0c: <span class="base0C-background sh-c-comm sh-c-dark">hsl(195, 55%, 44%);  /* #328fae */</span>
-$base0d: <span class="base0D-background sh-c-comm sh-c-dark">hsl(230, 55%, 61%);  /* #6577d2 */</span>
+$base00: <span class="sh-c-comm">                            hsl(265, 10%, 10%);  /* #19171c */</span>
+$base01: <span class="base01-background sh-c-comm">          hsl(265, 9%, 15%);   /* #26232a */</span>
+$base02: <span class="base02-background sh-c-comm sh-c-dark">hsl(265, 8%, 35%);   /* #585260 */</span>
+$base03: <span class="base03-background sh-c-comm sh-c-dark">hsl(265, 7%, 40%);   /* #655f6d */</span>
+$base04: <span class="base04-background sh-c-comm sh-c-dark">hsl(265, 6%, 50%);   /* #7e7887 */</span>
+$base05: <span class="base05-background sh-c-comm sh-c-dark">hsl(265, 5%, 55%);   /* #8b8792 */</span>
+$base06: <span class="base06-background sh-c-comm sh-c-dark">hsl(265, 15%, 89%);  /* #e2dfe7 */</span>
+$base07: <span class="base07-background sh-c-comm sh-c-dark">hsl(265, 25%, 94%);  /* #efecf4 */</span>
+$base08: <span class="base08-background sh-c-comm sh-c-dark">hsl(335, 48%, 51%);  /* #be4678 */</span>
+$base09: <span class="base09-background sh-c-comm sh-c-dark">hsl(15, 48%, 45%);   /* #aa573c */</span>
+$base0a: <span class="base0A-background sh-c-comm sh-c-dark">hsl(30, 46%, 43%);   /* #a06e3b */</span>
+$base0b: <span class="base0B-background sh-c-comm sh-c-dark">hsl(180, 55%, 37%);  /* #2a9292 */</span>
+$base0c: <span class="base0C-background sh-c-comm sh-c-dark">hsl(205, 55%, 50%);  /* #398bc6 */</span>
+$base0d: <span class="base0D-background sh-c-comm sh-c-dark">hsl(230, 65%, 60%);  /* #576ddb */</span>
 $base0e: <span class="base0E-background sh-c-comm sh-c-dark">hsl(265, 75%, 63%);  /* #955ae7 */</span>
-$base0f: <span class="base0F-background sh-c-comm sh-c-dark">hsl(300, 45%, 56%);  /* #c15cc1 */</span>
+$base0f: <span class="base0F-background sh-c-comm sh-c-dark">hsl(300, 50%, 50%);  /* #bf40bf */</span>
 
 <span class="red-background sh-c-comm sh-c-dark">$red:</span>     $base08;
 <span class="orange-background sh-c-comm sh-c-dark">$orange:</span>  $base09;

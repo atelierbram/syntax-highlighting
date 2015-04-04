@@ -28,22 +28,22 @@
   <_description>Base16 Atelier Cave Light</_description>
 
   <!-- Palette -->
-  <color name="base00" value="#1e1a23"/>
-  <color name="base01" value="#2a2531"/>
-  <color name="base02" value="#5c526b"/>
-  <color name="base03" value="#695e78"/>
-  <color name="base04" value="#837891"/>
-  <color name="base05" value="#8f859d"/>
-  <color name="base06" value="#e4dfec"/>
-  <color name="base07" value="#f4f0fa"/>
-  <color name="base08" value="#cf598a"/>
-  <color name="base09" value="#bf674a"/>
-  <color name="base0A" value="#a08f3b"/>
-  <color name="base0B" value="#74875a"/>
-  <color name="base0C" value="#328fae"/>
-  <color name="base0D" value="#6577d2"/>
+  <color name="base00" value="#19171c"/>
+  <color name="base01" value="#26232a"/>
+  <color name="base02" value="#585260"/>
+  <color name="base03" value="#655f6d"/>
+  <color name="base04" value="#7e7887"/>
+  <color name="base05" value="#8b8792"/>
+  <color name="base06" value="#e2dfe7"/>
+  <color name="base07" value="#efecf4"/>
+  <color name="base08" value="#be4678"/>
+  <color name="base09" value="#aa573c"/>
+  <color name="base0A" value="#a06e3b"/>
+  <color name="base0B" value="#2a9292"/>
+  <color name="base0C" value="#398bc6"/>
+  <color name="base0D" value="#576ddb"/>
   <color name="base0E" value="#955ae7"/>
-  <color name="base0F" value="#c15cc1"/>
+  <color name="base0F" value="#bf40bf"/>
 
   <!-- Styles -->
   <style name="bracket-match" background="base06" bold="true"/>

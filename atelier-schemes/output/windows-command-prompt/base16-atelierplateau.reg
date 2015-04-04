@@ -1,0 +1,22 @@
+Windows Registry Editor Version 5.00
+
+; Base16 Atelier Plateau (https://github.com/chriskempson/base16)
+; Scheme: Bram de Haan (http://atelierbram.github.io/syntax-highlighting/atelier-schemes/plateau)
+
+[HKEY_CURRENT_USER\Console]
+"ColorTable00"=dword:0018181b
+"ColorTable01"=dword:00ca7272
+"ColorTable02"=dword:008b8b4b
+"ColorTable03"=dword:00b68554
+"ColorTable04"=dword:003c5ab4
+"ColorTable05"=dword:00c46484
+"ColorTable06"=dword:003b6ea0
+"ColorTable07"=dword:0077777e
+"ColorTable08"=dword:005d5d65
+"ColorTable09"=dword:00ca7272
+"ColorTable10"=dword:008b8b4b
+"ColorTable11"=dword:00b68554
+"ColorTable12"=dword:004949ca
+"ColorTable13"=dword:008751bd
+"ColorTable14"=dword:003b6ea0
+"ColorTable15"=dword:00ececf4

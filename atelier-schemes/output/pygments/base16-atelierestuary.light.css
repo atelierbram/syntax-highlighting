@@ -7,24 +7,24 @@
     Created with Base16 Builder by Chris Kempson (https://github.com/chriskempson/base16-builder)
 
 */
-.syntax .hll { background-color: #ece9c6 }
-.syntax  { background: #f9f7e7; color: #22221b }
-.syntax .c { color: #918e69 } /* Comment */
+.syntax .hll { background-color: #e7e6df }
+.syntax  { background: #f4f3ec; color: #22221b }
+.syntax .c { color: #878573 } /* Comment */
 .syntax .err { color: #ba6236 } /* Error */
 .syntax .k { color: #5f9182 } /* Keyword */
 .syntax .l { color: #ae7313 } /* Literal */
 .syntax .n { color: #22221b } /* Name */
 .syntax .o { color: #5b9d48 } /* Operator */
 .syntax .p { color: #22221b } /* Punctuation */
-.syntax .cm { color: #918e69 } /* Comment.Multiline */
-.syntax .cp { color: #918e69 } /* Comment.Preproc */
-.syntax .c1 { color: #918e69 } /* Comment.Single */
-.syntax .cs { color: #918e69 } /* Comment.Special */
+.syntax .cm { color: #878573 } /* Comment.Multiline */
+.syntax .cp { color: #878573 } /* Comment.Preproc */
+.syntax .c1 { color: #878573 } /* Comment.Single */
+.syntax .cs { color: #878573 } /* Comment.Special */
 .syntax .gd { color: #ba6236 } /* Generic.Deleted */
 .syntax .ge { font-style: italic } /* Generic.Emph */
 .syntax .gh { color: #22221b; font-weight: bold } /* Generic.Heading */
 .syntax .gi { color: #7d9726 } /* Generic.Inserted */
-.syntax .gp { color: #918e69; font-weight: bold } /* Generic.Prompt */
+.syntax .gp { color: #878573; font-weight: bold } /* Generic.Prompt */
 .syntax .gs { font-weight: bold } /* Generic.Strong */
 .syntax .gu { color: #5b9d48; font-weight: bold } /* Generic.Subheading */
 .syntax .kc { color: #5f9182 } /* Keyword.Constant */
@@ -58,7 +58,7 @@
 .syntax .mo { color: #ae7313 } /* Literal.Number.Oct */
 .syntax .sb { color: #7d9726 } /* Literal.String.Backtick */
 .syntax .sc { color: #22221b } /* Literal.String.Char */
-.syntax .sd { color: #918e69 } /* Literal.String.Doc */
+.syntax .sd { color: #878573 } /* Literal.String.Doc */
 .syntax .s2 { color: #7d9726 } /* Literal.String.Double */
 .syntax .se { color: #ae7313 } /* Literal.String.Escape */
 .syntax .sh { color: #7d9726 } /* Literal.String.Heredoc */

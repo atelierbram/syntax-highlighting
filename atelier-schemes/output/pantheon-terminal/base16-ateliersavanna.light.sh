@@ -5,9 +5,9 @@
 
 SCHEMA="org.pantheon.terminal.settings"
 
-gsettings set "$SCHEMA" background "#e8f7ed"
-gsettings set "$SCHEMA" foreground "#4e6555"
-gsettings set "$SCHEMA" palette "#e8f7ed:#b16139:#489963:#a07e3b:#478c90:#55859b:#1c9aa0:#809988:#5a7262:#b16139:#489963:#a07e3b:#478c90:#55859b:#1c9aa0:#1a231d"
-gsettings set "$SCHEMA" cursor-color "#1a231d"
+gsettings set "$SCHEMA" background "#ecf4ee"
+gsettings set "$SCHEMA" foreground "#526057"
+gsettings set "$SCHEMA" palette "#ecf4ee:#b16139:#489963:#a07e3b:#478c90:#55859b:#1c9aa0:#87928a:#5f6d64:#b16139:#489963:#a07e3b:#478c90:#55859b:#1c9aa0:#171c19"
+gsettings set "$SCHEMA" cursor-color "#171c19"
 
 unset SCHEMA

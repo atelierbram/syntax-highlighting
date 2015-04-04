@@ -5,7 +5,7 @@
 
 /* Atelier Estuary Comment */
 .hljs-comment {
-  color: #918e69;
+  color: #878573;
 }
 
 /* Atelier Estuary Red */
@@ -78,7 +78,7 @@
   display: block;
   overflow-x: auto;
   background: #22221b;
-  color: #9d9b7b;
+  color: #929181;
   padding: 0.5em;
   -webkit-text-size-adjust: none;
 }

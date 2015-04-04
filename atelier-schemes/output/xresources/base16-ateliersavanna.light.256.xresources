@@ -1,14 +1,14 @@
 ! Base16 Atelier Savanna
 ! Scheme: Bram de Haan (http://atelierbram.github.io/syntax-highlighting/atelier-schemes/savanna)
 
-#define base00 #1a231d
-#define base01 #242e27
-#define base02 #4e6555
-#define base03 #5a7262
-#define base04 #738c7b
-#define base05 #809988
-#define base06 #d9e8de
-#define base07 #e8f7ed
+#define base00 #171c19
+#define base01 #232a25
+#define base02 #526057
+#define base03 #5f6d64
+#define base04 #78877d
+#define base05 #87928a
+#define base06 #dfe7e2
+#define base07 #ecf4ee
 #define base08 #b16139
 #define base09 #9f713c
 #define base0A #a07e3b

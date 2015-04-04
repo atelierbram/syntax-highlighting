@@ -209,6 +209,8 @@ article h4 {
   padding: emCalc(8) 0 0;
 }
 article h3 {
+  position: relative;
+  z-index: 1;
   border-bottom: 2px solid darken($sh-bg-color,15%);
 }
 article > pre {
@@ -331,6 +333,12 @@ i {
   width: 12.5%;
   padding: .25em;
 }
+.new-theme-svg {
+  width: 80px;
+  height: 50px;
+  transform: rotateZ(8deg);
+}
+
 @media only screen and (min-width: 550px) {
 
   article {

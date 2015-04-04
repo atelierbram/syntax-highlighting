@@ -1,63 +1,63 @@
 
 [Background]
-Color=26,35,29
+Color=23,28,25
 
 [BackgroundIntense]
-Color=129,141,133
+Color=129,136,131
 
 [Color0] 
-Color=26,35,29
+Color=23,28,25
 
 [Color0Intense]
-Color=129,141,133
+Color=129,136,131
 
 [Color1] 
 Color=177,97,57
 
 [Color1Intense]
-Color=204,172,147
+Color=206,170,147
 
 [Color2] 
 Color=72,153,99
 
 [Color2Intense]
-Color=152,200,168
+Color=154,198,168
 
 [Color3] 
 Color=160,126,59
 
 [Color3Intense]
-Color=196,186,148
+Color=198,185,148
 
 [Color4] 
 Color=71,140,144
 
 [Color4Intense]
-Color=151,193,190
+Color=153,192,191
 
 [Color5] 
 Color=85,133,155
 
 [Color5Intense]
-Color=158,190,196
+Color=160,188,196
 
 [Color6] 
 Color=28,154,160
 
 [Color6Intense]
-Color=130,200,198
+Color=132,199,199
 
 [Color7] 
-Color=128,153,136
+Color=135,146,138
 
 [Color7Intense]
-Color=180,200,186
+Color=185,195,188
 
 [Foreground]
-Color=128,153,136
+Color=135,146,138
 
 [ForegroundIntense]
-Color=180,200,186
+Color=185,195,188
 
 [General]
 Description=Base16 Atelier Savanna

@@ -2,22 +2,22 @@
 # Base16 Atelier Cave - Virtual console color setup script
 # Bram de Haan (http://atelierbram.github.io/syntax-highlighting/atelier-schemes/cave)
 
-color00="f4f0fa" # Base 07 - White
-color01="cf598a" # Base 08 - Red
-color02="74875a" # Base 0B - Green
-color03="a08f3b" # Base 0A - Yellow
-color04="6577d2" # Base 0D - Blue
+color00="efecf4" # Base 07 - White
+color01="be4678" # Base 08 - Red
+color02="2a9292" # Base 0B - Green
+color03="a06e3b" # Base 0A - Yellow
+color04="576ddb" # Base 0D - Blue
 color05="955ae7" # Base 0E - Magenta
-color06="328fae" # Base 0C - Cyan
-color07="5c526b" # Base 02 - Black
-color08="8f859d" # Base 05 - Bright White
+color06="398bc6" # Base 0C - Cyan
+color07="585260" # Base 02 - Black
+color08="8b8792" # Base 05 - Bright White
 color09=$color01 # Base 08 - Bright Red
 color10=$color02 # Base 0B - Bright Green
 color11=$color03 # Base 0A - Bright Yellow
 color12=$color04 # Base 0D - Bright Blue
 color13=$color05 # Base 0E - Bright Magenta
 color14=$color06 # Base 0C - Bright Cyan
-color15="1e1a23" # Base 00 - Bright Black
+color15="19171c" # Base 00 - Bright Black
 
 # 16 color space
 echo -e "\e]P0$color00"

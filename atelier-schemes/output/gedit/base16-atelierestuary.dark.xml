@@ -29,13 +29,13 @@
 
   <!-- Palette -->
   <color name="base00" value="#22221b"/>
-  <color name="base01" value="#2c2b21"/>
-  <color name="base02" value="#666447"/>
-  <color name="base03" value="#747253"/>
-  <color name="base04" value="#918e69"/>
-  <color name="base05" value="#9d9b7b"/>
-  <color name="base06" value="#ece9c6"/>
-  <color name="base07" value="#f9f7e7"/>
+  <color name="base01" value="#302f27"/>
+  <color name="base02" value="#5f5e4e"/>
+  <color name="base03" value="#6c6b5a"/>
+  <color name="base04" value="#878573"/>
+  <color name="base05" value="#929181"/>
+  <color name="base06" value="#e7e6df"/>
+  <color name="base07" value="#f4f3ec"/>
   <color name="base08" value="#ba6236"/>
   <color name="base09" value="#ae7313"/>
   <color name="base0A" value="#a5980d"/>

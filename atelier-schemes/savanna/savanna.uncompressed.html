@@ -28,10 +28,14 @@
           <ul id="drop-atelierschemes" class="f-dropdown small" data-dropdown-content>
             <li><a href="../">index - overview</a></li>
             <li><a href="../forest">Forest</a></li>
+            <li><a href="../plateau">Plateau</a></li>
             <li><a href="../heath">Heath</a></li>
-            <li class="is-selected"><a href="#" class="is-selected">Savanna</a></li>
+            <li><a href="../cave">Cave</a></li>
+            <li><a href="../sulphurpool">Sulphurpool</a></li>
             <li><a href="../lakeside">Lakeside</a></li>
+            <li><a href="#" class="is-selected">Savanna</a></li>
             <li><a href="../seaside">Seaside</a></li>
+            <li><a href="../estuary">Estuary</a></li>
             <li><a href="../dune">Dune</a></li>
             <li><a href="../output">output formats</a></li>
           </ul>
@@ -48,21 +52,20 @@
 
           <h2>Atelier <small>colorscheme</small></h2>
           <h3 id="about-savanna">Savanna</h3>
-          <p>
-          Base color for Savanna is purple (<i>here called violet</i>), and here the background-colors have these grey purplish colors for the background.
-          </p>
+           <p>
+          Base color for Savanna is green, it has greenish colors for the background. “Color-wheel colors” are desaturated considerably, giving this colorscheme a rather understated appeal and, dear I say it, a ‘natural’ look and feel.</p>
 
           <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1200 1200">
             <style type="text/css">
 <![CDATA[
-.base00-background {fill: hsl(140, 15%, 12%); }
-.base01-background {fill: hsl(140, 12%, 16%); }
-.base02-background {fill: hsl(140, 13%, 35%); }
-.base03-background {fill: hsl(140, 12%, 40%); }
-.base04-background {fill: hsl(140, 10%, 50%); }
-.base05-background {fill: hsl(140, 11%, 55%); }
-.base06-background {fill: hsl(140, 25%, 88%); }
-.base07-background {fill: hsl(140, 50%, 94%); }
+.base00-background {fill: hsl(140, 10%, 10%); }
+.base01-background {fill: hsl(140, 9%, 15%); }
+.base02-background {fill: hsl(140, 8%, 35%); }
+.base03-background {fill: hsl(140, 7%, 40%); }
+.base04-background {fill: hsl(140, 6%, 50%); }
+.base05-background {fill: hsl(140, 5%, 55%); }
+.base06-background {fill: hsl(140, 15%, 89%); }
+.base07-background {fill: hsl(140, 25%, 94%); }
 .base08-background, .red-background     {fill: hsl(20, 51%, 46%);  }
 .base09-background, .orange-background  {fill: hsl(32, 45%, 43%);  }
 .base0A-background, .yellow-background  {fill: hsl(40, 46%, 43%);  }
@@ -120,22 +123,22 @@ text{font-size:2em}]]></style>
 
           <h3 id="color-code" class="mtm no-border">Colors in code <small>Scss variables</small></h3>
           <pre class="base00-background language-scss"><code class="language-scss sh-c-light">
-$base00: <span class="sh-c-comm"> hsl(140, 15%, 12%) /* #1a231d */</span>
-$base01: <span class="base01-background sh-c-comm"> hsl(140, 12%, 16%) /* #242e27 */</span>
-$base02: <span class="base02-background sh-c-comm sh-c-dark"> hsl(140, 13%, 35%) /* #4e6555 */</span>
-$base03: <span class="base03-background sh-c-comm sh-c-dark"> hsl(140, 12%, 40%) /* #5a7262 */</span>
-$base04: <span class="base04-background sh-c-comm sh-c-dark"> hsl(140, 10%, 50%) /* #738c7b */</span>
-$base05: <span class="base05-background sh-c-comm sh-c-dark"> hsl(140, 11%, 55%) /* #809988 */</span>
-$base06: <span class="base06-background sh-c-comm sh-c-dark"> hsl(140, 25%, 88%) /* #d9e8de */</span>
-$base07: <span class="base07-background sh-c-comm sh-c-dark"> hsl(140, 50%, 94%) /* #e8f7ed */</span>
-$base08: <span class="base08-background sh-c-comm sh-c-dark"> hsl(20, 51%, 46%); /* #b16139 */</span>
-$base09: <span class="base09-background sh-c-comm sh-c-dark"> hsl(32, 45%, 43%); /* #9f713c */</span>
-$base0a: <span class="base0A-background sh-c-comm sh-c-dark"> hsl(40, 46%, 43%); /* #a07e3b */</span>
-$base0b: <span class="base0B-background sh-c-comm sh-c-dark"> hsl(140, 36%, 44%) /* #489963 */</span>
-$base0c: <span class="base0C-background sh-c-comm sh-c-dark"> hsl(183, 70%, 37%) /* #1c9aa0 */</span>
-$base0d: <span class="base0D-background sh-c-comm sh-c-dark"> hsl(183, 34%, 42%) /* #478c90 */</span>
-$base0e: <span class="base0E-background sh-c-comm sh-c-dark"> hsl(199, 29%, 47%) /* #55859b */</span>
-$base0f: <span class="base0F-background sh-c-comm sh-c-dark"> hsl(21, 12%, 47%); /* #867469 */</span>
+$base00: <span class="sh-c-comm">                            hsl(140, 10%, 10%)  /* #171c19 */</span>
+$base01: <span class="base01-background sh-c-comm">          hsl(140, 9%, 15%)   /* #232a25 */</span>
+$base02: <span class="base02-background sh-c-comm sh-c-dark">hsl(140, 8%, 35%)   /* #526057 */</span>
+$base03: <span class="base03-background sh-c-comm sh-c-dark">hsl(140, 7%, 40%)   /* #5f6d64 */</span>
+$base04: <span class="base04-background sh-c-comm sh-c-dark">hsl(140, 6%, 50%)   /* #78877d */</span>
+$base05: <span class="base05-background sh-c-comm sh-c-dark">hsl(140, 5%, 55%)   /* #87928a */</span>
+$base06: <span class="base06-background sh-c-comm sh-c-dark">hsl(140, 15%, 89%)  /* #dfe7e2 */</span>
+$base07: <span class="base07-background sh-c-comm sh-c-dark">hsl(140, 25%, 94%)  /* #ecf4ee */</span>
+$base08: <span class="base08-background sh-c-comm sh-c-dark">hsl(20, 51%, 46%)   /* #b16139 */</span>
+$base09: <span class="base09-background sh-c-comm sh-c-dark">hsl(32, 45%, 43%)   /* #9f713c */</span>
+$base0a: <span class="base0A-background sh-c-comm sh-c-dark">hsl(40, 46%, 43%)   /* #a07e3b */</span>
+$base0b: <span class="base0B-background sh-c-comm sh-c-dark">hsl(140, 36%, 44%)  /* #489963 */</span>
+$base0c: <span class="base0C-background sh-c-comm sh-c-dark">hsl(183, 70%, 37%)  /* #1c9aa0 */</span>
+$base0d: <span class="base0D-background sh-c-comm sh-c-dark">hsl(183, 34%, 42%)  /* #478c90 */</span>
+$base0e: <span class="base0E-background sh-c-comm sh-c-dark">hsl(199, 29%, 47%)  /* #55859b */</span>
+$base0f: <span class="base0F-background sh-c-comm sh-c-dark">hsl(21, 12%, 47%)   /* #867469 */</span>
 
 <span class="red-background sh-c-comm sh-c-dark">$red:</span>     $base08;
 <span class="orange-background sh-c-comm sh-c-dark">$orange:</span>  $base09;

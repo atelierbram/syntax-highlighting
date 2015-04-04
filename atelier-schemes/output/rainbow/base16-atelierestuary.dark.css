@@ -11,7 +11,7 @@ pre {
     word-wrap: break-word;
     margin: 0px;
     padding: 10px;
-    color: #f9f7e7;
+    color: #f4f3ec;
     font-size: 14px;
     margin-bottom: 20px;
 }
@@ -21,7 +21,7 @@ pre, code {
 }
 
 pre .comment {
-    color: #747253;
+    color: #6c6b5a;
 }
 
 pre .variable.global, pre .variable.class, pre .variable.instance {

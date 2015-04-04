@@ -4,19 +4,19 @@ Windows Registry Editor Version 5.00
 ; Scheme: Bram de Haan (http://atelierbram.github.io/syntax-highlighting/atelier-schemes/cave)
 
 [HKEY_CURRENT_USER\Console]
-"ColorTable00"=dword:00231a1e
-"ColorTable01"=dword:00d27765
-"ColorTable02"=dword:005a8774
-"ColorTable03"=dword:00ae8f32
-"ColorTable04"=dword:004a67bf
+"ColorTable00"=dword:001c1719
+"ColorTable01"=dword:00db6d57
+"ColorTable02"=dword:0092922a
+"ColorTable03"=dword:00c68b39
+"ColorTable04"=dword:003c57aa
 "ColorTable05"=dword:00e75a95
-"ColorTable06"=dword:003b8fa0
-"ColorTable07"=dword:00917883
-"ColorTable08"=dword:00785e69
-"ColorTable09"=dword:00d27765
-"ColorTable10"=dword:005a8774
-"ColorTable11"=dword:00ae8f32
-"ColorTable12"=dword:008a59cf
-"ColorTable13"=dword:00c15cc1
-"ColorTable14"=dword:003b8fa0
-"ColorTable15"=dword:00faf0f4
+"ColorTable06"=dword:003b6ea0
+"ColorTable07"=dword:0087787e
+"ColorTable08"=dword:006d5f65
+"ColorTable09"=dword:00db6d57
+"ColorTable10"=dword:0092922a
+"ColorTable11"=dword:00c68b39
+"ColorTable12"=dword:007846be
+"ColorTable13"=dword:00bf40bf
+"ColorTable14"=dword:003b6ea0
+"ColorTable15"=dword:00f4ecef

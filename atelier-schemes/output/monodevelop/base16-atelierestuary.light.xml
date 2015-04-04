@@ -5,13 +5,13 @@
      - Scheme: Bram de Haan (http://atelierbram.github.io/syntax-highlighting/atelier-schemes/estuary)
      -->
   <Color name="base00" value="#22221b"/>
-  <Color name="base01" value="#2c2b21"/>
-  <Color name="base02" value="#666447"/>
-  <Color name="base03" value="#747253"/>
-  <Color name="base04" value="#918e69"/>
-  <Color name="base05" value="#9d9b7b"/>
-  <Color name="base06" value="#ece9c6"/>
-  <Color name="base07" value="#f9f7e7"/>
+  <Color name="base01" value="#302f27"/>
+  <Color name="base02" value="#5f5e4e"/>
+  <Color name="base03" value="#6c6b5a"/>
+  <Color name="base04" value="#878573"/>
+  <Color name="base05" value="#929181"/>
+  <Color name="base06" value="#e7e6df"/>
+  <Color name="base07" value="#f4f3ec"/>
   <Color name="base08" value="#ba6236"/>
   <Color name="base09" value="#ae7313"/>
   <Color name="base0A" value="#a5980d"/>

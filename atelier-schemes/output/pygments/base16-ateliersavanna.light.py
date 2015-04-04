@@ -12,11 +12,11 @@ from pygments.token import Keyword, Name, Comment, String, Error, Text, \
      Number, Operator, Generic, Whitespace, Punctuation, Other, Literal
 
 
-BACKGROUND = "#e8f7ed"
-CURRENT_LINE = "#d9e8de"
-SELECTION = "#809988"
-FOREGROUND = "#1a231d"
-COMMENT = "#738c7b"
+BACKGROUND = "#ecf4ee"
+CURRENT_LINE = "#dfe7e2"
+SELECTION = "#87928a"
+FOREGROUND = "#171c19"
+COMMENT = "#78877d"
 RED = "#b16139"
 ORANGE = "#9f713c"
 YELLOW = "#a07e3b"

@@ -9,15 +9,15 @@ color03="a5980d" # Base 0A - Yellow
 color04="36a166" # Base 0D - Blue
 color05="5f9182" # Base 0E - Magenta
 color06="5b9d48" # Base 0C - Cyan
-color07="9d9b7b" # Base 05 - White
-color08="747253" # Base 03 - Bright Black
+color07="929181" # Base 05 - White
+color08="6c6b5a" # Base 03 - Bright Black
 color09=$color01 # Base 08 - Bright Red
 color10=$color02 # Base 0B - Bright Green
 color11=$color03 # Base 0A - Bright Yellow
 color12=$color04 # Base 0D - Bright Blue
 color13=$color05 # Base 0E - Bright Magenta
 color14=$color06 # Base 0C - Bright Cyan
-color15="f9f7e7" # Base 07 - Bright White
+color15="f4f3ec" # Base 07 - Bright White
 
 # 16 color space
 echo -e "\e]P0$color00"

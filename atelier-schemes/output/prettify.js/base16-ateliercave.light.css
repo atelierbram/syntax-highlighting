@@ -10,13 +10,13 @@
 
 /* plain text */
 .pln {
-  color: #1e1a23;
+  color: #19171c;
 }
 
 @media screen {
   /* string content */
   .str {
-    color: #74875a;
+    color: #2a9292;
   }
 
   /* a keyword */
@@ -26,62 +26,62 @@
 
   /* a comment */
   .com {
-    color: #837891;
+    color: #7e7887;
   }
 
   /* a type name */
   .typ {
-    color: #6577d2;
+    color: #576ddb;
   }
 
   /* a literal value */
   .lit {
-    color: #bf674a;
+    color: #aa573c;
   }
 
   /* punctuation */
   .pun {
-    color: #1e1a23;
+    color: #19171c;
   }
 
   /* lisp open bracket */
   .opn {
-    color: #1e1a23;
+    color: #19171c;
   }
 
   /* lisp close bracket */
   .clo {
-    color: #1e1a23;
+    color: #19171c;
   }
 
   /* a markup tag name */
   .tag {
-    color: #cf598a;
+    color: #be4678;
   }
 
   /* a markup attribute name */
   .atn {
-    color: #bf674a;
+    color: #aa573c;
   }
 
   /* a markup attribute value */
   .atv {
-    color: #328fae;
+    color: #398bc6;
   }
 
   /* a declaration */
   .dec {
-    color: #bf674a;
+    color: #aa573c;
   }
 
   /* a variable name */
   .var {
-    color: #cf598a;
+    color: #be4678;
   }
 
   /* a function name */
   .fun {
-    color: #6577d2;
+    color: #576ddb;
   }
 }
 /* Use higher contrast and text-weight for printable form. */
@@ -128,11 +128,11 @@
 }
 /* Style */
 pre.prettyprint {
-  background: f4f0fa;
+  background: efecf4;
   font-family: Menlo, "Bitstream Vera Sans Mono", "DejaVu Sans Mono", Monaco, Consolas, monospace;
   font-size: 12px;
   line-height: 1.5;
-  border: 1px solid #1e1a23;
+  border: 1px solid #19171c;
   padding: 10px;
 }
 

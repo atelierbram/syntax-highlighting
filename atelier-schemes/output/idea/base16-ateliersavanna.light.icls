@@ -8,45 +8,45 @@
   <option name="EDITOR_FONT_NAME" value="Menlo" />
   <colors>
     <option name="ADDED_LINES_COLOR" value="489963" />
-    <option name="ANNOTATIONS_COLOR" value="4e6555" />
-    <option name="CARET_COLOR" value="242e27" />
-    <option name="CARET_ROW_COLOR" value="d9e8de" />
-    <option name="CONSOLE_BACKGROUND_KEY" value="e8f7ed" />
-    <option name="FILESTATUS_ADDED" value="242e27" />
-    <option name="FILESTATUS_IDEA_FILESTATUS_IGNORED" value="242e27" />
-    <option name="FILESTATUS_MODIFIED" value="242e27" />
-    <option name="FILESTATUS_UNKNOWN" value="242e27" />
-    <option name="GUTTER_BACKGROUND" value="d9e8de" />
-    <option name="INDENT_GUIDE" value="738c7b" />
-    <option name="LINE_NUMBERS_COLOR" value="1a231d" />
-    <option name="METHOD_SEPARATORS_COLOR" value="809988" />
+    <option name="ANNOTATIONS_COLOR" value="526057" />
+    <option name="CARET_COLOR" value="232a25" />
+    <option name="CARET_ROW_COLOR" value="dfe7e2" />
+    <option name="CONSOLE_BACKGROUND_KEY" value="ecf4ee" />
+    <option name="FILESTATUS_ADDED" value="232a25" />
+    <option name="FILESTATUS_IDEA_FILESTATUS_IGNORED" value="232a25" />
+    <option name="FILESTATUS_MODIFIED" value="232a25" />
+    <option name="FILESTATUS_UNKNOWN" value="232a25" />
+    <option name="GUTTER_BACKGROUND" value="dfe7e2" />
+    <option name="INDENT_GUIDE" value="78877d" />
+    <option name="LINE_NUMBERS_COLOR" value="171c19" />
+    <option name="METHOD_SEPARATORS_COLOR" value="87928a" />
     <option name="MODIFIED_LINES_COLOR" value="489963" />
-    <option name="NOTIFICATION_BACKGROUND" value="242e27" />
-    <option name="READONLY_FRAGMENT_BACKGROUND" value="1a231d" />
-    <option name="RECURSIVE_CALL_ATTRIBUTES" value="809988" />
-    <option name="RIGHT_MARGIN_COLOR" value="242e27" />
-    <option name="SELECTED_TEARLINE_COLOR" value="4e6555" />
-    <option name="SELECTION_BACKGROUND" value="5a7262" />
-    <option name="SELECTION_FOREGROUND" value="e8f7ed" />
-    <option name="TEARLINE_COLOR" value="4e6555" />
-    <option name="WHITESPACES" value="809988" />
+    <option name="NOTIFICATION_BACKGROUND" value="232a25" />
+    <option name="READONLY_FRAGMENT_BACKGROUND" value="171c19" />
+    <option name="RECURSIVE_CALL_ATTRIBUTES" value="87928a" />
+    <option name="RIGHT_MARGIN_COLOR" value="232a25" />
+    <option name="SELECTED_TEARLINE_COLOR" value="526057" />
+    <option name="SELECTION_BACKGROUND" value="5f6d64" />
+    <option name="SELECTION_FOREGROUND" value="ecf4ee" />
+    <option name="TEARLINE_COLOR" value="526057" />
+    <option name="WHITESPACES" value="87928a" />
   </colors>
   <attributes>
     <option name="TEXT">
       <value>
-        <option name="FOREGROUND" value="1a231d" />
-        <option name="BACKGROUND" value="e8f7ed" />
+        <option name="FOREGROUND" value="171c19" />
+        <option name="BACKGROUND" value="ecf4ee" />
       </value>
     </option>    
     <option name="TEXT_SEARCH_RESULT_ATTRIBUTES">
       <value>
-        <option name="ERROR_STRIPE_COLOR" value="d9e8de" />
+        <option name="ERROR_STRIPE_COLOR" value="dfe7e2" />
       </value>
     </option>
     <option name="DEFAULT_TEMPLATE_LANGUAGE_COLOR">
       <value>
-        <option name="FOREGROUND" value="1a231d" />
-        <option name="BACKGROUND" value="e8f7ed" />
+        <option name="FOREGROUND" value="171c19" />
+        <option name="BACKGROUND" value="ecf4ee" />
       </value>
     </option>
     <option name="DEFAULT_IDENTIFIER">
@@ -73,57 +73,57 @@
     </option>
     <option name="DEFAULT_BLOCK_COMMENT">
         <value>
-            <option name="FOREGROUND" value="5a7262" />
+            <option name="FOREGROUND" value="5f6d64" />
         </value>
     </option>
     <option name="DEFAULT_LINE_COMMENT">
         <value>
-            <option name="FOREGROUND" value="5a7262" />
+            <option name="FOREGROUND" value="5f6d64" />
         </value>
     </option>
     <option name="DEFAULT_DOC_COMMENT">
         <value>
-            <option name="FOREGROUND" value="5a7262" />
+            <option name="FOREGROUND" value="5f6d64" />
         </value>
     </option>
     <option name="DEFAULT_OPERATION_SIGN">
         <value>
-            <option name="FOREGROUND" value="4e6555" />
+            <option name="FOREGROUND" value="526057" />
         </value>
     </option>
     <option name="DEFAULT_BRACES">
         <value>
-            <option name="FOREGROUND" value="242e27" />
+            <option name="FOREGROUND" value="232a25" />
         </value>
     </option>
     <option name="DEFAULT_DOT">
         <value>
-            <option name="FOREGROUND" value="242e27" />
+            <option name="FOREGROUND" value="232a25" />
         </value>
     </option>
     <option name="DEFAULT_SEMICOLON">
         <value>
-            <option name="FOREGROUND" value="242e27" />
+            <option name="FOREGROUND" value="232a25" />
         </value>
     </option>
     <option name="DEFAULT_COMMA">
         <value>
-            <option name="FOREGROUND" value="242e27" />
+            <option name="FOREGROUND" value="232a25" />
         </value>
     </option>
     <option name="DEFAULT_PARENTHS">
         <value>
-            <option name="FOREGROUND" value="242e27" />
+            <option name="FOREGROUND" value="232a25" />
         </value>
     </option>
     <option name="DEFAULT_BRACKETS">
         <value>
-            <option name="FOREGROUND" value="242e27" />
+            <option name="FOREGROUND" value="232a25" />
         </value>
     </option>
     <option name="DEFAULT_LABEL">
         <value>
-            <option name="FOREGROUND" value="242e27" />
+            <option name="FOREGROUND" value="232a25" />
         </value>
     </option>
     <option name="DEFAULT_CONSTANT">
@@ -154,7 +154,7 @@
     </option>
     <option name="DEFAULT_PARAMETER">
         <value>
-            <option name="FOREGROUND" value="242e27" />
+            <option name="FOREGROUND" value="232a25" />
         </value>
     </option>
     <option name="PY.SELF_PARAMETER">
@@ -203,17 +203,17 @@
     </option>
     <option name="DEFAULT_DOC_MARKUP">
         <value>
-            <option name="FOREGROUND" value="4e6555" />
+            <option name="FOREGROUND" value="526057" />
         </value>
     </option>
     <option name="DEFAULT_DOC_COMMENT_TAG">
         <value>
-            <option name="FOREGROUND" value="5a7262" />
+            <option name="FOREGROUND" value="5f6d64" />
         </value>
     </option>
     <option name="DEFAULT_DOC_COMMENT_TAG_VALUE">
         <value>
-            <option name="FOREGROUND" value="5a7262" />
+            <option name="FOREGROUND" value="5f6d64" />
         </value>
     </option>
     <option name="DEFAULT_VALID_STRING_ESCAPE">
@@ -230,12 +230,12 @@
     </option>
     <option name="DEFAULT_PREDEFINED_SYMBOL">
         <value>
-            <option name="FOREGROUND" value="242e27" />
+            <option name="FOREGROUND" value="232a25" />
         </value>
     </option>
     <option name="DEFAULT_METADATA">
         <value>
-            <option name="FOREGROUND" value="242e27" />
+            <option name="FOREGROUND" value="232a25" />
         </value>
     </option>
     <option name="DEFAULT_TAG">
@@ -355,7 +355,7 @@
     </option>
     <option name="CONSOLE_NORMAL_OUTPUT">
       <value>
-        <option name="FOREGROUND" value="5a7262" />
+        <option name="FOREGROUND" value="5f6d64" />
       </value>
     </option>
     <option name="CONSOLE_RED_BRIGHT_OUTPUT">
@@ -370,12 +370,12 @@
     </option>
     <option name="CONSOLE_SYSTEM_OUTPUT">
       <value>
-        <option name="FOREGROUND" value="1a231d" />
+        <option name="FOREGROUND" value="171c19" />
       </value>
     </option>
     <option name="CONSOLE_USER_INPUT">
       <value>
-        <option name="FOREGROUND" value="1a231d" />
+        <option name="FOREGROUND" value="171c19" />
         <option name="FONT_TYPE" value="2" />
       </value>
     </option>
@@ -402,7 +402,7 @@
     </option>
     <option name="CTRL_CLICKABLE">
       <value>
-        <option name="EFFECT_COLOR" value="242e27" />
+        <option name="EFFECT_COLOR" value="232a25" />
         <option name="EFFECT_TYPE" value="1" />
       </value>
     </option>
@@ -467,8 +467,8 @@
     </option>
     <option name="DELETED_TEXT_ATTRIBUTES">
       <value>
-        <option name="FOREGROUND" value="5a7262" />
-        <option name="BACKGROUND" value="242e27" />
+        <option name="FOREGROUND" value="5f6d64" />
+        <option name="BACKGROUND" value="232a25" />
         <option name="EFFECT_TYPE" value="1" />
       </value>
     </option>
@@ -504,7 +504,7 @@
     </option>
     <option name="DOC_COMMENT_TAG_VALUE">
       <value>
-        <option name="FOREGROUND" value="809988" />
+        <option name="FOREGROUND" value="87928a" />
         <option name="FONT_TYPE" value="1" />
       </value>
     </option>
@@ -529,8 +529,8 @@
     </option>
     <option name="FOLDED_TEXT_ATTRIBUTES">
       <value>
-        <option name="FOREGROUND" value="242e27" />
-        <option name="BACKGROUND" value="738c7b" />
+        <option name="FOREGROUND" value="232a25" />
+        <option name="BACKGROUND" value="78877d" />
         <option name="FONT_TYPE" value="1" />
         <option name="EFFECT_TYPE" value="1" />
       </value>
@@ -538,7 +538,7 @@
     <option name="FOLLOWED_HYPERLINK_ATTRIBUTES">
       <value>
         <option name="FOREGROUND" value="55859b" />
-        <option name="BACKGROUND" value="d9e8de" />
+        <option name="BACKGROUND" value="dfe7e2" />
         <option name="EFFECT_COLOR" value="55859b" />
         <option name="EFFECT_TYPE" value="1" />
       </value>
@@ -552,23 +552,23 @@
     </option>
     <option name="GHERKIN_COMMENT">
       <value>
-        <option name="FOREGROUND" value="738c7b" />
+        <option name="FOREGROUND" value="78877d" />
       </value>
     </option>
     <option name="GHERKIN_OUTLINE_PARAMETER_SUBSTITUTION">
       <value>
-        <option name="FOREGROUND" value="809988" />
+        <option name="FOREGROUND" value="87928a" />
       </value>
     </option>
     <option name="GHERKIN_PYSTRING">
       <value>
-        <option name="FOREGROUND" value="809988" />
+        <option name="FOREGROUND" value="87928a" />
         <option name="FONT_TYPE" value="1" />
       </value>
     </option>
     <option name="GHERKIN_TABLE_HEADER_CELL">
       <value>
-        <option name="FOREGROUND" value="5a7262" />
+        <option name="FOREGROUND" value="5f6d64" />
       </value>
     </option>
     <option name="GROOVY_KEYWORD">
@@ -587,8 +587,8 @@
     <option name="IDENTIFIER_UNDER_CARET_ATTRIBUTES">
       <value>
         <option name="FONT_TYPE" value="1" />
-        <option name="EFFECT_COLOR" value="738c7b" />
-        <option name="ERROR_STRIPE_COLOR" value="738c7b" />
+        <option name="EFFECT_COLOR" value="78877d" />
+        <option name="ERROR_STRIPE_COLOR" value="78877d" />
       </value>
     </option>
     <option name="IMPLICIT_ANONYMOUS_CLASS_PARAMETER_ATTRIBUTES">
@@ -671,13 +671,13 @@
     </option>
     <option name="List/map to object conversion">
       <value>
-        <option name="FOREGROUND" value="809988" />
+        <option name="FOREGROUND" value="87928a" />
         <option name="FONT_TYPE" value="1" />
       </value>
     </option>
     <option name="MATCHED_BRACE_ATTRIBUTES">
       <value>
-        <option name="FOREGROUND" value="1a231d" />
+        <option name="FOREGROUND" value="171c19" />
         <option name="FONT_TYPE" value="1" />
       </value>
     </option>
@@ -699,7 +699,7 @@
     </option>
     <option name="NOT_USED_ELEMENT_ATTRIBUTES">
       <value>
-        <option name="FOREGROUND" value="5a7262" />
+        <option name="FOREGROUND" value="5f6d64" />
       </value>
     </option>
     <option name="PARAMETER_ATTRIBUTES">
@@ -743,7 +743,7 @@
     </option>
     <option name="SEARCH_RESULT_ATTRIBUTES">
       <value>
-        <option name="BACKGROUND" value="d9e8de" />
+        <option name="BACKGROUND" value="dfe7e2" />
       </value>
     </option>
     <option name="STATIC_FIELD_ATTRIBUTES">
@@ -798,7 +798,7 @@
     </option>
     <option name="Unresolved reference access">
       <value>
-        <option name="FOREGROUND" value="809988" />
+        <option name="FOREGROUND" value="87928a" />
         <option name="EFFECT_COLOR" value="b16139" />
         <option name="EFFECT_TYPE" value="1" />
       </value>
@@ -813,13 +813,13 @@
     <option name="WRITE_IDENTIFIER_UNDER_CARET_ATTRIBUTES">
       <value>
         <option name="FONT_TYPE" value="1" />
-        <option name="EFFECT_COLOR" value="4e6555" />
-        <option name="ERROR_STRIPE_COLOR" value="4e6555" />
+        <option name="EFFECT_COLOR" value="526057" />
+        <option name="ERROR_STRIPE_COLOR" value="526057" />
       </value>
     </option>
     <option name="WRITE_SEARCH_RESULT_ATTRIBUTES">
       <value>
-        <option name="BACKGROUND" value="d9e8de" />
+        <option name="BACKGROUND" value="dfe7e2" />
       </value>
     </option>
     <option name="WRONG_REFERENCES_ATTRIBUTES">

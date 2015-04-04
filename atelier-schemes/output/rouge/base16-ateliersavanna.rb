@@ -5,14 +5,14 @@ module Rouge
       # author Bram de Haan (http://atelierbram.github.io/syntax-highlighting/atelier-schemes/savanna)
       light!
 
-      palette base00: "#1a231d"
-      palette base01: "#242e27"
-      palette base02: "#4e6555"
-      palette base03: "#5a7262"
-      palette base04: "#738c7b"
-      palette base05: "#809988"
-      palette base06: "#d9e8de"
-      palette base07: "#e8f7ed"
+      palette base00: "#171c19"
+      palette base01: "#232a25"
+      palette base02: "#526057"
+      palette base03: "#5f6d64"
+      palette base04: "#78877d"
+      palette base05: "#87928a"
+      palette base06: "#dfe7e2"
+      palette base07: "#ecf4ee"
       palette base08: "#b16139"
       palette base09: "#9f713c"
       palette base0A: "#a07e3b"

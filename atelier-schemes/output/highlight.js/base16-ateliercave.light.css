@@ -5,7 +5,7 @@
 
 /* Atelier Cave Comment */
 .hljs-comment {
-  color: #695e78;
+  color: #655f6d;
 }
 
 /* Atelier Cave Red */
@@ -21,7 +21,7 @@
 .css .hljs-id,
 .css .hljs-class,
 .css .hljs-pseudo {
-  color: #cf598a;
+  color: #be4678;
 }
 
 /* Atelier Cave Orange */
@@ -31,13 +31,13 @@
 .hljs-literal,
 .hljs-params,
 .hljs-constant {
-  color: #bf674a;
+  color: #aa573c;
 }
 
 /* Atelier Cave Yellow */
 .ruby .hljs-class .hljs-title,
 .css .hljs-rules .hljs-attribute {
-  color: #a08f3b;
+  color: #a06e3b;
 }
 
 /* Atelier Cave Green */
@@ -47,13 +47,13 @@
 .hljs-header,
 .ruby .hljs-symbol,
 .xml .hljs-cdata {
-  color: #74875a;
+  color: #2a9292;
 }
 
 /* Atelier Cave Aqua */
 .hljs-title,
 .css .hljs-hexcolor {
-  color: #328fae;
+  color: #398bc6;
 }
 
 /* Atelier Cave Blue */
@@ -65,7 +65,7 @@
 .perl .hljs-sub,
 .javascript .hljs-title,
 .coffeescript .hljs-title {
-  color: #6577d2;
+  color: #576ddb;
 }
 
 /* Atelier Cave Purple */
@@ -77,8 +77,8 @@
 .hljs {
   display: block;
   overflow-x: auto;
-  background: #f4f0fa;
-  color: #5c526b;
+  background: #efecf4;
+  color: #585260;
   padding: 0.5em;
   -webkit-text-size-adjust: none;
 }

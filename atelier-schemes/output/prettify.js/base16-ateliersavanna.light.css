@@ -10,7 +10,7 @@
 
 /* plain text */
 .pln {
-  color: #1a231d;
+  color: #171c19;
 }
 
 @media screen {
@@ -26,7 +26,7 @@
 
   /* a comment */
   .com {
-    color: #738c7b;
+    color: #78877d;
   }
 
   /* a type name */
@@ -41,17 +41,17 @@
 
   /* punctuation */
   .pun {
-    color: #1a231d;
+    color: #171c19;
   }
 
   /* lisp open bracket */
   .opn {
-    color: #1a231d;
+    color: #171c19;
   }
 
   /* lisp close bracket */
   .clo {
-    color: #1a231d;
+    color: #171c19;
   }
 
   /* a markup tag name */
@@ -128,11 +128,11 @@
 }
 /* Style */
 pre.prettyprint {
-  background: e8f7ed;
+  background: ecf4ee;
   font-family: Menlo, "Bitstream Vera Sans Mono", "DejaVu Sans Mono", Monaco, Consolas, monospace;
   font-size: 12px;
   line-height: 1.5;
-  border: 1px solid #1a231d;
+  border: 1px solid #171c19;
   padding: 10px;
 }
 

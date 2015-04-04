@@ -4,22 +4,22 @@
      - https://github.com/chriskempson/base16
      - Scheme: Bram de Haan (http://atelierbram.github.io/syntax-highlighting/atelier-schemes/cave)
      -->
-  <Color name="base00" value="#1e1a23"/>
-  <Color name="base01" value="#2a2531"/>
-  <Color name="base02" value="#5c526b"/>
-  <Color name="base03" value="#695e78"/>
-  <Color name="base04" value="#837891"/>
-  <Color name="base05" value="#8f859d"/>
-  <Color name="base06" value="#e4dfec"/>
-  <Color name="base07" value="#f4f0fa"/>
-  <Color name="base08" value="#cf598a"/>
-  <Color name="base09" value="#bf674a"/>
-  <Color name="base0A" value="#a08f3b"/>
-  <Color name="base0B" value="#74875a"/>
-  <Color name="base0C" value="#328fae"/>
-  <Color name="base0D" value="#6577d2"/>
+  <Color name="base00" value="#19171c"/>
+  <Color name="base01" value="#26232a"/>
+  <Color name="base02" value="#585260"/>
+  <Color name="base03" value="#655f6d"/>
+  <Color name="base04" value="#7e7887"/>
+  <Color name="base05" value="#8b8792"/>
+  <Color name="base06" value="#e2dfe7"/>
+  <Color name="base07" value="#efecf4"/>
+  <Color name="base08" value="#be4678"/>
+  <Color name="base09" value="#aa573c"/>
+  <Color name="base0A" value="#a06e3b"/>
+  <Color name="base0B" value="#2a9292"/>
+  <Color name="base0C" value="#398bc6"/>
+  <Color name="base0D" value="#576ddb"/>
   <Color name="base0E" value="#955ae7"/>
-  <Color name="base0F" value="#c15cc1"/>
+  <Color name="base0F" value="#bf40bf"/>
 
   <!-- Text -->
   <Style name="text" color="base05" bgColor="base00"/>

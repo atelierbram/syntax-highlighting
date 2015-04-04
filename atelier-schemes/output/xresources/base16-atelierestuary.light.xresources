@@ -2,13 +2,13 @@
 ! Scheme: Bram de Haan (http://atelierbram.github.io/syntax-highlighting/atelier-schemes/estuary)
 
 #define base00 #22221b
-#define base01 #2c2b21
-#define base02 #666447
-#define base03 #747253
-#define base04 #918e69
-#define base05 #9d9b7b
-#define base06 #ece9c6
-#define base07 #f9f7e7
+#define base01 #302f27
+#define base02 #5f5e4e
+#define base03 #6c6b5a
+#define base04 #878573
+#define base05 #929181
+#define base06 #e7e6df
+#define base07 #f4f3ec
 #define base08 #ba6236
 #define base09 #ae7313
 #define base0A #a5980d

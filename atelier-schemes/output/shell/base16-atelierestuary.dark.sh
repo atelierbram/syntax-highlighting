@@ -14,24 +14,24 @@ color03="a5/98/0d" # Base 0A - Yellow
 color04="36/a1/66" # Base 0D - Blue
 color05="5f/91/82" # Base 0E - Magenta
 color06="5b/9d/48" # Base 0C - Cyan
-color07="9d/9b/7b" # Base 05 - White
-color08="74/72/53" # Base 03 - Bright Black
+color07="92/91/81" # Base 05 - White
+color08="6c/6b/5a" # Base 03 - Bright Black
 color09=$color01 # Base 08 - Bright Red
 color10=$color02 # Base 0B - Bright Green
 color11=$color03 # Base 0A - Bright Yellow
 color12=$color04 # Base 0D - Bright Blue
 color13=$color05 # Base 0E - Bright Magenta
 color14=$color06 # Base 0C - Bright Cyan
-color15="f9/f7/e7" # Base 07 - Bright White
+color15="f4/f3/ec" # Base 07 - Bright White
 color16="ae/73/13" # Base 09
 color17="9d/6c/7c" # Base 0F
-color18="2c/2b/21" # Base 01
-color19="66/64/47" # Base 02
-color20="91/8e/69" # Base 04
-color21="ec/e9/c6" # Base 06
-color_foreground="9d/9b/7b" # Base 05
+color18="30/2f/27" # Base 01
+color19="5f/5e/4e" # Base 02
+color20="87/85/73" # Base 04
+color21="e7/e6/df" # Base 06
+color_foreground="92/91/81" # Base 05
 color_background="22/22/1b" # Base 00
-color_cursor="9d/9b/7b" # Base 05
+color_cursor="92/91/81" # Base 05
 
 if [ -n "$TMUX" ]; then
   # tell tmux to pass the escape sequences through
@@ -79,12 +79,12 @@ printf $printf_template 21 $color21
 # foreground / background / cursor color
 if [ -n "$ITERM_SESSION_ID" ]; then
   # iTerm2 proprietary escape codes
-  printf $printf_template_custom Pg 9d9b7b # forground
+  printf $printf_template_custom Pg 929181 # forground
   printf $printf_template_custom Ph 22221b # background
-  printf $printf_template_custom Pi 9d9b7b # bold color
-  printf $printf_template_custom Pj 666447 # selection color
-  printf $printf_template_custom Pk 9d9b7b # selected text color
-  printf $printf_template_custom Pl 9d9b7b # cursor
+  printf $printf_template_custom Pi 929181 # bold color
+  printf $printf_template_custom Pj 5f5e4e # selection color
+  printf $printf_template_custom Pk 929181 # selected text color
+  printf $printf_template_custom Pl 929181 # cursor
   printf $printf_template_custom Pm 22221b # cursor text
 else
   printf $printf_template_var 10 $color_foreground
