@@ -74,6 +74,22 @@
   color: #6b6bb8;
 }
 
+.diff .hljs-deletion,
+.diff .hljs-addition {
+  color: #161b1d;
+  display: inline-block;
+  width: 100%;
+}
+.diff .hljs-deletion {
+  background-color: #d22d72;
+}
+.diff .hljs-addition {
+  background-color: #568c3b;
+}
+.diff .hljs-change {
+  color: #257fad;
+}
+
 .hljs {
   display: block;
   overflow-x: auto;

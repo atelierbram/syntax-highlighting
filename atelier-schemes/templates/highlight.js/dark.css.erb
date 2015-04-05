@@ -74,6 +74,22 @@
   color: #<%= @base["0E"]["hex"] %>;
 }
 
+.diff .hljs-deletion,
+.diff .hljs-addition {
+  color: #<%= @base["00"]["hex"] %>;
+  display: inline-block;
+  width: 100%;
+}
+.diff .hljs-deletion {
+  background-color: #<%= @base["08"]["hex"] %>;
+}
+.diff .hljs-addition {
+  background-color: #<%= @base["0B"]["hex"] %>;
+}
+.diff .hljs-change {
+  color: #<%= @base["0D"]["hex"] %>;
+}
+
 .hljs {
   display: block;
   overflow-x: auto;
