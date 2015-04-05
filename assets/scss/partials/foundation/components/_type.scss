@@ -4,7 +4,8 @@
 $include-html-type-classes: $include-html-classes !default;
 
 // We use these to control header font styles
-$header-font-family: FiraSans-Bold, FeuraSans-Bold, Corbel, "Lucida Grande", "Lucida Sans", "Trebuchet Ms", "DejaVu Sans", "Bitstream Vera Sans", "Liberation Sans", "Helvetica Neue", sans-serif !default;
+// $header-font-family: FiraSans-Bold,  Corbel, "Lucida Grande", "Lucida Sans", "Trebuchet Ms", "DejaVu Sans", "Bitstream Vera Sans", "Liberation Sans", "Helvetica Neue", sans-serif !default;
+$header-font-family: FiraSans-Medium, Corbel, "Lucida Grande", "Lucida Sans", "Trebuchet Ms", "DejaVu Sans", "Bitstream Vera Sans", "Liberation Sans", "Helvetica Neue", sans-serif !default;
 $header-font-weight: normal !default;
 $header-font-style: normal !default;
 $header-font-color: #333 !default;
@@ -213,6 +214,9 @@ $microformat-abbr-font-decoration: none !default;
   }
 
   /* Helpful Typography Defaults */
+  i {
+    font-family: FiraSans-Italic, Corbel, "Lucida Grande", "Lucida Sans", "Trebuchet Ms", "DejaVu Sans", "Bitstream Vera Sans", "Liberation Sans", Verdana, sans-serif;
+  }
   em,
   i {
     font-style: italic;
@@ -377,57 +381,57 @@ $microformat-abbr-font-decoration: none !default;
      *
      * Inlined to avoid required HTTP connection: www.phpied.com/delay-loading-your-print-css/
      * Credit to Paul Irish and HTML5 Boilerplate (html5boilerplate.com)
-    */
-    .print-only { display: none !important; }
-    @media print {
-      * {
-        background: transparent !important;
-        color: #000 !important; /* Black prints faster: h5bp.com/s */
-        box-shadow: none !important;
-        text-shadow: none !important;
-      }
+     */
+.print-only { display: none !important; }
+@media print {
+  * {
+    background: transparent !important;
+    color: #000 !important; /* Black prints faster: h5bp.com/s */
+    box-shadow: none !important;
+    text-shadow: none !important;
+  }
 
-      a,
-      a:visited { text-decoration: underline;}
-      a[href]:after { content: " (" attr(href) ")"; }
+  a,
+  a:visited { text-decoration: underline;}
+  a[href]:after { content: " (" attr(href) ")"; }
 
-      abbr[title]:after { content: " (" attr(title) ")"; }
+  abbr[title]:after { content: " (" attr(title) ")"; }
 
-      // Don't show links for images, or javascript/internal links
-      .ir a:after,
-      a[href^="javascript:"]:after,
-      a[href^="#"]:after { content: ""; }
+  // Don't show links for images, or javascript/internal links
+  .ir a:after,
+  a[href^="javascript:"]:after,
+  a[href^="#"]:after { content: ""; }
 
-      pre,
-      blockquote {
-        border: 1px solid #999;
-        page-break-inside: avoid;
-      }
+  pre,
+  blockquote {
+    border: 1px solid #999;
+    page-break-inside: avoid;
+  }
 
-      thead { display: table-header-group; /* h5bp.com/t */ }
+  thead { display: table-header-group; /* h5bp.com/t */ }
 
-      tr,
-      img { page-break-inside: avoid; }
+  tr,
+  img { page-break-inside: avoid; }
 
-      img { max-width: 100% !important; }
+  img { max-width: 100% !important; }
 
-      @page { margin: 0.5cm; }
+  @page { margin: 0.5cm; }
 
-      p,
-      h2,
-      h3 {
-        orphans: 3;
-        widows: 3;
-      }
+  p,
+  h2,
+  h3 {
+    orphans: 3;
+    widows: 3;
+  }
 
-      h2,
-      h3 { page-break-after: avoid; }
+  h2,
+  h3 { page-break-after: avoid; }
 
-      .hide-on-print { display: none !important; }
-      .print-only { display: block !important; }
-      .hide-for-print { display: none !important; }
-      .show-for-print { display: inherit !important; }
-    }
+  .hide-on-print { display: none !important; }
+  .print-only { display: block !important; }
+  .hide-for-print { display: none !important; }
+  .show-for-print { display: inherit !important; }
+}
   }
 
 }

@@ -25,6 +25,11 @@
 .sh-button {
   @include button($padding, $bg, $radius, $full-width, $disabled, $is-input);
   @extend %unit-right;
+  // font-family: $body-font-family;
+  // font-weight: normal;
+  letter-spacing: 1px;
+  word-spacing: -1px;
+  text-shadow: 1px 1px 1px rgba(0,0,0,.5);
 }
 .go-to-top {
   font-size: 2em;
@@ -46,13 +51,14 @@ html {
   line-height: 1.25;
   color: transparent;
   margin-top: 2em;
+  letter-spacing: 1px;
+  word-spacing: -1px;
 }
 
 h1 a {
   color: white;
   @include transition-property(all);
   @include transition-duration(1s);
-//  background-color: rgba(black,.5);
   background-color: $sh-red-color;
   display: inline-block;
   padding: .25em .5em;
@@ -305,8 +311,8 @@ pre > code {
 i {
   font-style: normal;
   font-weight: normal !important;
-  font-family: $body-font-family !important;
-  color: #444;
+  // font-family: $body-font-family !important;
+  // color: #444;
 }
 .visuallyhidden {
   border: 0;
@@ -336,7 +342,7 @@ i {
 .new-theme-svg {
   width: 80px;
   height: 50px;
-  transform: rotateZ(8deg);
+  // transform: rotateZ(8deg);
 }
 
 @media only screen and (min-width: 550px) {
