@@ -328,8 +328,8 @@ i {
 .inner-wrap {
   max-width: 50em;
   margin: 0 auto;
-  padding-left: emCalc(48);
-  padding-right: emCalc(48);
+  padding-left: emCalc(24);
+  padding-right: emCalc(24);
 }
 .rainbow-border {
   overflow: auto;
@@ -355,6 +355,10 @@ i {
       list-style: decimal;
     }
   }
+  .inner-wrap {
+    padding-left: emCalc(48);
+    padding-right: emCalc(48);
+  }
 }
 
 @media only screen and (min-width: 940px) {
@@ -372,7 +376,7 @@ i {
   .note {
     padding: emCalc(32);
   }
-   article p {
+  article p {
     font-size: emCalc(18);
   }
 }
