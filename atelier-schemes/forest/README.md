@@ -55,6 +55,12 @@ All downloads can be found in the [output folder](https://github.com/atelierbram
 
 **Note**: For Sublime Text, go to [Textmate](https://github.com/atelierbram/syntax-highlighting/tree/master/atelier-schemes/output/textmate) folder, or [download the zip-file directly](https://atelierbram.github.io/syntax-highlighting/atelier-schemes/output/textmate/textmate.zip).
 
+For [Vim with Pathogen](https://github.com/tpope/vim-pathogen) you can clone [the dedicated repo for this purpose](https://github.com/atelierbram/vim-colors_atelier-schemes) in the `~/.vim/bundle` directory like so:
+
+```bash
+git clone https://github.com/atelierbram/vim-colors_atelier-schemes.git
+``` 
+
 ## Credits
 * Credits to [Ethan Schoonover](http://ethanschoonover.com/solarized) whose [Solarized colorscheme](http://github.com/altercation/solarized) was a model for these colorschemes
 * And credits to [Chris Kempson](http://chriskempson.com), whose [Base16 Builder](https://github.com/chriskempson/base16-builder) was used for conversion to the different output formats.

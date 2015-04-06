@@ -1,34 +1,34 @@
-# Dune
+# Savanna
 
 syntax highlighting colorscheme
 
-[Checkout demopage](http://atelierbram.github.io/syntax-highlighting/atelier-schemes/dune)
+[Checkout demopage](http://atelierbram.github.io/syntax-highlighting/atelier-schemes/savanna)
 
-Base color for Dune is yellow, and then yellowish brown greyed colors for the background.
+Base color for Savanna is green, it has greenish colors for the background. “Color-wheel colors” are desaturated considerably, giving this colorscheme a rather understated appeal and, _dear I say it_, a _‘natural’_ look and feel.
 
-![Atelier Schemes, demotiles for Dune, syntax highlighting colorscheme](http://atelierbram.github.io/syntax-highlighting/assets/img/svg/atelierschemes-demotiles-dune_1200x300.svg)
+![Atelier Schemes, demotiles for Savanna, syntax highlighting colorscheme](http://atelierbram.github.io/syntax-highlighting/assets/img/svg/atelierschemes-demotiles-savanna_1200x300.svg)
 
-demotiles for Dune, syntax highlighting colorscheme
+demotiles for Savanna, syntax highlighting colorscheme
 
 ## Sixteen Colors
 
 ```sass
-$base00: hsl(50, 5%, 12%);   /* #20201d */
-$base01: hsl(50, 6%, 15%);   /* #292824 */
-$base02: hsl(50, 8%, 40%);   /* #6e6b5e */
-$base03: hsl(50, 9%, 45%);   /* #7d7a68 */
-$base04: hsl(50, 11%, 55%);  /* #999580 */
-$base05: hsl(50, 13%, 60%);  /* #a6a28c */
-$base06: hsl(50, 35%, 86%);  /* #e8e4cf */
-$base07: hsl(50, 87%, 96%);  /* #fefbec */
-$base08: hsl(0, 67%, 53%);   /* #d73737 */
-$base09: hsl(25, 83%, 39%);  /* #b65611 */
-$base0a: hsl(50, 80%, 38%);  /* #ae9513 */
-$base0b: hsl(100, 50%, 45%); /* #60ac39 */
-$base0c: hsl(162, 70%, 40%); /* #1fad83 */
-$base0d: hsl(225, 67%, 64%); /* #6684e1 */
-$base0e: hsl(287, 60%, 58%); /* #b854d4 */
-$base0f: hsl(349, 65%, 52%); /* #d43552 */
+$base00: hsl(140, 10%, 10%)  /* #171c19 */
+$base01: hsl(140, 9%, 15%)   /* #232a25 */
+$base02: hsl(140, 8%, 35%)   /* #526057 */
+$base03: hsl(140, 7%, 40%)   /* #5f6d64 */
+$base04: hsl(140, 6%, 50%)   /* #78877d */
+$base05: hsl(140, 5%, 55%)   /* #87928a */
+$base06: hsl(140, 15%, 89%)  /* #dfe7e2 */
+$base07: hsl(140, 25%, 94%)  /* #ecf4ee */
+$base08: hsl(20, 51%, 46%)   /* #b16139 */
+$base09: hsl(32, 45%, 43%)   /* #9f713c */
+$base0a: hsl(40, 46%, 43%)   /* #a07e3b */
+$base0b: hsl(140, 36%, 44%)  /* #489963 */
+$base0c: hsl(183, 70%, 37%)  /* #1c9aa0 */
+$base0d: hsl(183, 34%, 42%)  /* #478c90 */
+$base0e: hsl(199, 29%, 47%)  /* #55859b */
+$base0f: hsl(21, 12%, 47%)   /* #867469 */
 
 $red:     $base08;
 $orange:  $base09;
@@ -39,13 +39,14 @@ $blue:    $base0d;
 $violet:  $base0e;
 $magenta: $base0f;
 ```
+
 ## Screenshots
 
-![Screenshot – dark version – in Vim](http://atelierbram.github.io/syntax-highlighting/assets/img/dune-dark_vim_640x425.png)
+![Screenshot – dark version – in Vim](http://atelierbram.github.io/syntax-highlighting/assets/img/savanna-dark_vim_640x425.png)
 
 Screenshot – dark version – in Vim
 
-![Screenshot – light version – in Sublime Text](http://atelierbram.github.io/syntax-highlighting/assets/img/dune-light_sublime_640x425.png)
+![Screenshot – light version – in Sublime Text](http://atelierbram.github.io/syntax-highlighting/assets/img/savanna-light_sublime_640x425.png)
 
 Screenshot – light version – in Sublime Text
 

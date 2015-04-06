@@ -1,34 +1,34 @@
-# Sulphurpool
+# Plateau
 
 syntax highlighting colorscheme
 
 [Checkout demopage](http://atelierbram.github.io/syntax-highlighting/atelier-schemes/sulphurpool)
 
-Base color for Sulphurpool is green, which leads to greenish colors for the background.
+Base color for Plateau is red, and here the background-colors have these chocolate brown/grey colors for the background, while the “color-wheel colors” are quite desaturated. A warm palette; no real green in here, (_see also “Cave”_).
 
-![Atelier Schemes, demotiles for Sulphurpool, syntax highlighting colorscheme](http://atelierbram.github.io/syntax-highlighting/assets/img/svg/atelierschemes-demotiles-sulphurpool_1200x300.svg)
+![Atelier Schemes, demotiles for plateau, syntax highlighting colorscheme](http://atelierbram.github.io/syntax-highlighting/assets/img/svg/atelierschemes-demotiles-plateau_1200x300.svg)
 
-demotiles for Sulphurpool, syntax highlighting colorscheme
+demotiles for Plateau, syntax highlighting colorscheme
 
 ## Sixteen Colors
 
 ```sass
-$base00: hsl(229, 37%, 20%);  /* #202746 */
-$base01: hsl(229, 35%, 25%);  /* #293256 */
-$base02: hsl(228, 18%, 45%);  /* #5e6687 */
-$base03: hsl(229, 16%, 50%);  /* #6b7394 */
-$base04: hsl(229, 13%, 59%);  /* #898ea4 */
-$base05: hsl(229, 16%, 65%);  /* #979db4 */
-$base06: hsl(229, 40%, 91%);  /* #dfe2f1 */
-$base07: hsl(229, 94%, 98%);  /* #f5f7ff */
-$base08: hsl(14, 71%, 47%);;  /* #c94922 */
-$base09: hsl(25, 66%, 47%);   /* #c76b29 */
-$base0a: hsl(38, 60%, 47%);   /* #c08b30 */
-$base0b: hsl(49, 50%, 45%);   /* #ac9739 */
-$base0c: hsl(194, 71%, 46%);  /* #22a2c9 */
-$base0d: hsl(207, 62%, 53%);  /* #3d8fd1 */
-$base0e: hsl(229, 50%, 60%);  /* #6679cc */
-$base0f: hsl(336, 22%, 50%);  /* #9c637a */
+$base00: hsl(0, 7%, 10%)     /* #1b1818 */
+$base01: hsl(0, 6%, 15%)     /* #292424 */
+$base02: hsl(0, 5%, 33%)     /* #585050 */
+$base03: hsl(0, 4%, 38%)     /* #655d5d */
+$base04: hsl(0, 3%, 48%)     /* #7e7777 */
+$base05: hsl(0, 2%, 53%)     /* #8a8585 */
+$base06: hsl(0, 15%, 89%)    /* #e7dfdf */
+$base07: hsl(0, 25%, 94%)    /* #f4ecec */
+$base08: hsl(0, 55%, 54%)    /* #ca4949 */
+$base09: hsl(15, 50%, 47%)   /* #b45a3c */
+$base0a: hsl(30, 46%, 43%)   /* #a06e3b */
+$base0b: hsl(180, 30%, 42%)  /* #4b8b8b */
+$base0c: hsl(210, 40%, 52%)  /* #5485b6 */
+$base0d: hsl(240, 45%, 62%)  /* #7272ca */
+$base0e: hsl(260, 45%, 58%)  /* #8464c4 */
+$base0f: hsl(330, 45%, 53%)  /* #bd5187 */
 
 $red:     $base08;
 $orange:  $base09;
@@ -41,13 +41,13 @@ $magenta: $base0f;
 ```
 ## Screenshots
 
-![Screenshot – dark version – in Vim](http://atelierbram.github.io/syntax-highlighting/assets/img/sulphurpool-dark_vim_640x425.png)
+![Screenshot – light version – in Vim](http://atelierbram.github.io/syntax-highlighting/assets/img/plateau-light_vim_640x425.png)
 
-Screenshot – dark version – in Vim
+Screenshot – light version – in Vim
 
-![Screenshot – light version – in Sublime Text](http://atelierbram.github.io/syntax-highlighting/assets/img/sulphurpool-light_sublime_640x425.png)
+![Screenshot – dark version – in Sublime Text](http://atelierbram.github.io/syntax-highlighting/assets/img/plateau-dark_sublime_640x425.png)
 
-Screenshot – light version – in Sublime Text
+Screenshot – dark version – in Sublime Text
 
 ## Downloads
 All downloads can be found in the [output folder](https://github.com/atelierbram/syntax-highlighting/tree/master/atelier-schemes/output).
