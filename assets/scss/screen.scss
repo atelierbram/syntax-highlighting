@@ -71,7 +71,7 @@ h1 a {
 }
 h1 a:hover {
   color: tint($sh-yellow-color, 75);
-//  background-color: rgba(black,.75);
+  //  background-color: rgba(black,.75);
   background-color: darken($sh-red-color, 25);
   box-shadow: inset -7px 9px 24px black;
   text-shadow: -10px 12px 7px black;
@@ -120,7 +120,7 @@ h1 a:hover {
   padding-right: 2em !important;
 }
 .nav-anchor-links, .side-nav li a {
-//  background-color: lighten($sh-blue-color,60);
+  //  background-color: lighten($sh-blue-color,60);
   color: darken($sh-red-color, 10);
 }
 .side-nav {
@@ -134,10 +134,10 @@ h1 a:hover {
   @include border-radius(3px);
 }
 .side-nav span {
- position: relative;
- padding: .25em .5em;
- @include transition-property(background-color);
- @include transition-duration(.7s);
+  position: relative;
+  padding: .25em .5em;
+  @include transition-property(background-color);
+  @include transition-duration(.7s);
 }
 .side-nav a span[style] {
   color: #111;
@@ -151,14 +151,14 @@ h1 a:hover {
   top: 0;
   left: 0;
   margin-left: 100%;
-	width: 0;
-	height: 0;
-	border-top: 12px solid transparent;
-	border-left: 20px solid transparent;
-	border-bottom: 12px solid transparent;
+  width: 0;
+  height: 0;
+  border-top: 12px solid transparent;
+  border-left: 20px solid transparent;
+  border-bottom: 12px solid transparent;
 }
 .side-nav a:hover span:after {
-	border-left-color: #b30;
+  border-left-color: #b30;
 }
 
 footer a {

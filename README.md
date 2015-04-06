@@ -6,10 +6,14 @@ Collection of colorschemes.
 ## Atelier Schemes
 * [index - demopages](http://atelierbram.github.io/syntax-highlighting/atelier-schemes/)
     * [Forest](http://atelierbram.github.io/syntax-highlighting/atelier-schemes/forest)
+    * [Plateau](http://atelierbram.github.io/syntax-highlighting/atelier-schemes/plateau)
     * [Heath](http://atelierbram.github.io/syntax-highlighting/atelier-schemes/heath)
+    * [Cave](http://atelierbram.github.io/syntax-highlighting/atelier-schemes/cave)
     * [Sulphurpool](http://atelierbram.github.io/syntax-highlighting/atelier-schemes/sulphurpool)
     * [Lakeside](http://atelierbram.github.io/syntax-highlighting/atelier-schemes/lakeside)
+    * [Savanna](http://atelierbram.github.io/syntax-highlighting/atelier-schemes/savanna)
     * [Seaside](http://atelierbram.github.io/syntax-highlighting/atelier-schemes/seaside)
+    * [Estuary](http://atelierbram.github.io/syntax-highlighting/atelier-schemes/estuary)
     * [Dune](http://atelierbram.github.io/syntax-highlighting/atelier-schemes/dune)
 * [Downloads](https://github.com/atelierbram/syntax-highlighting/tree/master/atelier-schemes/output)
 
