@@ -1,7 +1,6 @@
-/* Name: Atelier Savanna Dark
-   Author:     Bram de Haan (http://atelierbram.github.io/syntax-highlighting/atelier-schemes/savanna)
-   Original Base16 color scheme by Chris Kempson (https://github.com/chriskempson/base16)
-*/
+/* Base16 Atelier Savanna Dark - Theme */
+/* by Bram de Haan (http://atelierbram.github.io/syntax-highlighting/atelier-schemes/savanna) */
+/* Original Base16 color scheme by Chris Kempson (https://github.com/chriskempson/base16) */
 
 /* Atelier Savanna Comment */
 .hljs-comment {
@@ -13,6 +12,7 @@
 .hljs-attribute,
 .hljs-tag,
 .hljs-regexp,
+.hljs-name,
 .ruby .hljs-constant,
 .xml .hljs-tag .hljs-title,
 .xml .hljs-pi,
@@ -36,7 +36,7 @@
 
 /* Atelier Savanna Yellow */
 .ruby .hljs-class .hljs-title,
-.css .hljs-rules .hljs-attribute {
+.css .hljs-rule .hljs-attribute {
   color: #a07e3b;
 }
 
