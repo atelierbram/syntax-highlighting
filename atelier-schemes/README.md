@@ -4,7 +4,7 @@ For the construction of these colorschemes,  [Solarized colorscheme](http://etha
 [Go to Demopage](http://atelierbram.github.io/syntax-highlighting/atelier-schemes)
 
 ## [Updates](http://atelierbram.github.io/syntax-highlighting/atelier-schemes/demo/changes-03-2015.html)
-Some of thes colorschemes have been updated; read [more about this more about it here](http://atelierbram.github.io/syntax-highlighting/atelier-schemes/demo/changes-03-2015.html).
+Some of thes colorschemes have been updated; read [more about this here](http://atelierbram.github.io/syntax-highlighting/atelier-schemes/demo/changes-03-2015.html).
 
 ## [Downloads](https://github.com/atelierbram/syntax-highlighting/tree/master/atelier-schemes/output)
 All downloads can be [found in the output folder](https://github.com/atelierbram/syntax-highlighting/tree/master/atelier-schemes/output).
