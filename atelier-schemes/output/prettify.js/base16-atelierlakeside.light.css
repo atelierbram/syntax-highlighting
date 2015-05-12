@@ -1,12 +1,4 @@
-/*
-
-    Name:       Base16 Atelier Lakeside Light
-    Author:     Bram de Haan (http://atelierbram.github.io/syntax-highlighting/atelier-schemes/lakeside/)
-
-    Prettify template by Jan T. Sott (https://github.com/idleberg/)
-    Original Base16 color scheme by Chris Kempson (https://github.com/chriskempson/base16)
-
-*/
+/* Atelier Lakeside Light by Bram de Haan (http://atelierbram.github.io/syntax-highlighting/atelier-schemes/lakeside/) */
 
 /* plain text */
 .pln {
@@ -128,12 +120,14 @@
 }
 /* Style */
 pre.prettyprint {
-  background: ebf8ff;
-  font-family: Menlo, "Bitstream Vera Sans Mono", "DejaVu Sans Mono", Monaco, Consolas, monospace;
+  background: #ebf8ff;
+  color: #7ea2b4;
+  font-family: Consolas, Menlo, "Bitstream Vera Sans Mono", "DejaVu Sans Mono", Monaco, monospace;
   font-size: 12px;
   line-height: 1.5;
-  border: 1px solid #161b1d;
+  border: 1px solid #c1e4f6;
   padding: 10px;
+  border-radius: 3px;
 }
 
 /* Specify class=linenums on a pre to get line numbering */

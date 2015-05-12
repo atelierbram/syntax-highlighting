@@ -1,12 +1,4 @@
-/*
-
-    Name:       Base16 Atelier Plateau Dark
-    Author:     Bram de Haan (http://atelierbram.github.io/syntax-highlighting/atelier-schemes/plateau)
-
-    Prettify template by Jan T. Sott (https://github.com/idleberg/)
-    Original Base16 color scheme by Chris Kempson (https://github.com/chriskempson/base16)
-
-*/
+/* Atelier Plateau Dark by Bram de Haan (http://atelierbram.github.io/syntax-highlighting/atelier-schemes/plateau) */
 
 /* plain text */
 .pln {
@@ -129,11 +121,13 @@
 /* Style */
 pre.prettyprint {
   background: #1b1818;
-  font-family: Menlo, "Bitstream Vera Sans Mono", "DejaVu Sans Mono", Monaco, Consolas, monospace;
+  color: #585050;
+  font-family: Consolas, Menlo, "Bitstream Vera Sans Mono", "DejaVu Sans Mono", Monaco, monospace;
   font-size: 12px;
   line-height: 1.5;
-  border: 1px solid #f4ecec;
+  border: 1px solid #1b1818;
   padding: 10px;
+  border-radius: 3px;
 }
 
 /* Specify class=linenums on a pre to get line numbering */

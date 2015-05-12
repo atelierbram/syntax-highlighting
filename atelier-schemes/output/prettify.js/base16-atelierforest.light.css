@@ -1,12 +1,4 @@
-/*
-
-    Name:       Base16 Atelier Forest Light
-    Author:     Bram de Haan (http://atelierbram.github.io/syntax-highlighting/atelier-schemes/forest)
-
-    Prettify template by Jan T. Sott (https://github.com/idleberg/)
-    Original Base16 color scheme by Chris Kempson (https://github.com/chriskempson/base16)
-
-*/
+/* Atelier Forest Light by Bram de Haan (http://atelierbram.github.io/syntax-highlighting/atelier-schemes/forest) */
 
 /* plain text */
 .pln {
@@ -128,12 +120,14 @@
 }
 /* Style */
 pre.prettyprint {
-  background: f1efee;
-  font-family: Menlo, "Bitstream Vera Sans Mono", "DejaVu Sans Mono", Monaco, Consolas, monospace;
+  background: #f1efee;
+  color: #a8a19f;
+  font-family: Consolas, Menlo, "Bitstream Vera Sans Mono", "DejaVu Sans Mono", Monaco, monospace;
   font-size: 12px;
   line-height: 1.5;
-  border: 1px solid #1b1918;
+  border: 1px solid #e6e2e0;
   padding: 10px;
+  border-radius: 3px;
 }
 
 /* Specify class=linenums on a pre to get line numbering */

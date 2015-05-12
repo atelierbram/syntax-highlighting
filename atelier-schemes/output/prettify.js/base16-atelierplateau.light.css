@@ -1,12 +1,4 @@
-/*
-
-    Name:       Base16 Atelier Plateau Light
-    Author:     Bram de Haan (http://atelierbram.github.io/syntax-highlighting/atelier-schemes/plateau)
-
-    Prettify template by Jan T. Sott (https://github.com/idleberg/)
-    Original Base16 color scheme by Chris Kempson (https://github.com/chriskempson/base16)
-
-*/
+/* Atelier Plateau Light by Bram de Haan (http://atelierbram.github.io/syntax-highlighting/atelier-schemes/plateau) */
 
 /* plain text */
 .pln {
@@ -128,12 +120,14 @@
 }
 /* Style */
 pre.prettyprint {
-  background: f4ecec;
-  font-family: Menlo, "Bitstream Vera Sans Mono", "DejaVu Sans Mono", Monaco, Consolas, monospace;
+  background: #f4ecec;
+  color: #8a8585;
+  font-family: Consolas, Menlo, "Bitstream Vera Sans Mono", "DejaVu Sans Mono", Monaco, monospace;
   font-size: 12px;
   line-height: 1.5;
-  border: 1px solid #1b1818;
+  border: 1px solid #e7dfdf;
   padding: 10px;
+  border-radius: 3px;
 }
 
 /* Specify class=linenums on a pre to get line numbering */

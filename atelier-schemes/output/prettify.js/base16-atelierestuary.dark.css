@@ -1,12 +1,4 @@
-/*
-
-    Name:       Base16 Atelier Estuary Dark
-    Author:     Bram de Haan (http://atelierbram.github.io/syntax-highlighting/atelier-schemes/estuary)
-
-    Prettify template by Jan T. Sott (https://github.com/idleberg/)
-    Original Base16 color scheme by Chris Kempson (https://github.com/chriskempson/base16)
-
-*/
+/* Atelier Estuary Dark by Bram de Haan (http://atelierbram.github.io/syntax-highlighting/atelier-schemes/estuary) */
 
 /* plain text */
 .pln {
@@ -129,11 +121,13 @@
 /* Style */
 pre.prettyprint {
   background: #22221b;
-  font-family: Menlo, "Bitstream Vera Sans Mono", "DejaVu Sans Mono", Monaco, Consolas, monospace;
+  color: #5f5e4e;
+  font-family: Consolas, Menlo, "Bitstream Vera Sans Mono", "DejaVu Sans Mono", Monaco, monospace;
   font-size: 12px;
   line-height: 1.5;
-  border: 1px solid #f4f3ec;
+  border: 1px solid #22221b;
   padding: 10px;
+  border-radius: 3px;
 }
 
 /* Specify class=linenums on a pre to get line numbering */

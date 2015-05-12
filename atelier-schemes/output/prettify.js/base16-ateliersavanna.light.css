@@ -1,12 +1,4 @@
-/*
-
-    Name:       Base16 Atelier Savanna Light
-    Author:     Bram de Haan (http://atelierbram.github.io/syntax-highlighting/atelier-schemes/savanna)
-
-    Prettify template by Jan T. Sott (https://github.com/idleberg/)
-    Original Base16 color scheme by Chris Kempson (https://github.com/chriskempson/base16)
-
-*/
+/* Atelier Savanna Light by Bram de Haan (http://atelierbram.github.io/syntax-highlighting/atelier-schemes/savanna) */
 
 /* plain text */
 .pln {
@@ -128,12 +120,14 @@
 }
 /* Style */
 pre.prettyprint {
-  background: ecf4ee;
-  font-family: Menlo, "Bitstream Vera Sans Mono", "DejaVu Sans Mono", Monaco, Consolas, monospace;
+  background: #ecf4ee;
+  color: #87928a;
+  font-family: Consolas, Menlo, "Bitstream Vera Sans Mono", "DejaVu Sans Mono", Monaco, monospace;
   font-size: 12px;
   line-height: 1.5;
-  border: 1px solid #171c19;
+  border: 1px solid #dfe7e2;
   padding: 10px;
+  border-radius: 3px;
 }
 
 /* Specify class=linenums on a pre to get line numbering */

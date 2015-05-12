@@ -1,12 +1,4 @@
-/*
-
-    Name:       Base16 Atelier Dune Dark
-    Author:     Bram de Haan (http://atelierbram.github.io/syntax-highlighting/atelier-schemes/dune)
-
-    Prettify template by Jan T. Sott (https://github.com/idleberg/)
-    Original Base16 color scheme by Chris Kempson (https://github.com/chriskempson/base16)
-
-*/
+/* Atelier Dune Dark by Bram de Haan (http://atelierbram.github.io/syntax-highlighting/atelier-schemes/dune) */
 
 /* plain text */
 .pln {
@@ -129,11 +121,13 @@
 /* Style */
 pre.prettyprint {
   background: #20201d;
-  font-family: Menlo, "Bitstream Vera Sans Mono", "DejaVu Sans Mono", Monaco, Consolas, monospace;
+  color: #6e6b5e;
+  font-family: Consolas, Menlo, "Bitstream Vera Sans Mono", "DejaVu Sans Mono", Monaco, monospace;
   font-size: 12px;
   line-height: 1.5;
-  border: 1px solid #fefbec;
+  border: 1px solid #20201d;
   padding: 10px;
+  border-radius: 3px;
 }
 
 /* Specify class=linenums on a pre to get line numbering */
