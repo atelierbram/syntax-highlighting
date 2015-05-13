@@ -17,7 +17,7 @@ pre {
 }
 
 pre, code {
-    font-family: 'Monaco', courier, monospace;
+    font-family: Consolas, Menlo, 'DejaVu Sans Mono', Monaco, 'Courier New', Courier, monospace;
 }
 
 pre .comment {
