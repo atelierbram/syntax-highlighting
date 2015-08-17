@@ -69,6 +69,7 @@ Base color for Dune is yellow, and then warm yellowish brown greyed colors for t
 
 ## Demo
 * [Demo for Highlight.js](http://atelierbram.github.io/syntax-highlighting/atelier-schemes/demo/highlight-js.html)
+* [Demo for _Google Code_ Prettify](http://atelierbram.github.io/syntax-highlighting/atelier-schemes/demo/prettify/index.html)
 * [Demo for Prism](http://atelierbram.github.io/syntax-highlighting/prism)
 
 ## Colorscheme Lab
