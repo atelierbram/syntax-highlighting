@@ -1,0 +1,20 @@
+GIMP Palette
+Name: Base16 Duotone-DarkSea
+Columns: 16
+#
+  29  38  47	base00
+  48  63  79	base01
+  85  110  139	base02
+  110  136  166	base03
+  117  160  209	base04
+  145  193  248	base05
+  184  217  254	base06
+  235  244  255	base07
+  82  163  255	base08
+  48  192  144	base09
+  59  206  157	base0A
+  112  143  133	base0B
+  104  217  180	base0C
+  84  212  169	base0D
+  133  190  255	base0E
+  107  176  255	base0F

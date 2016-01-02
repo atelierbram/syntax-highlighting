@@ -5,23 +5,23 @@
 	<key>author</key>
 	<string>adapted from: Simurai (https://github.com/simurai/duotone-dark-syntax/)</string>
 	<key>name</key>
-	<string>Base16 Duotone Light</string>
+	<string>Base16 Duotone-Dark Dark</string>
 	<key>semanticClass</key>
-	<string>base16.duotone.light</string>
+	<string>base16.duotone-dark.dark</string>
 	<key>colorSpaceName</key>
 	<string>sRGB</string>
 	<key>gutterSettings</key>
 	<dict>
 		<key>background</key>
-		<string>#eeebff</string>
+		<string>#413d51</string>
 		<key>divider</key>
-		<string>#eeebff</string>
+		<string>#413d51</string>
 		<key>foreground</key>
-		<string>#5c5874</string>
+		<string>#746e91</string>
 		<key>selectionBackground</key>
-		<string>#eeebff</string>
+		<string>#5c5874</string>
 		<key>selectionForeground</key>
-		<string>#a391fd</string>
+		<string>#857ab8</string>
 	</dict>
 	<key>settings</key>
 	<array>
@@ -29,17 +29,17 @@
 			<key>settings</key>
 			<dict>
 				<key>background</key>
-				<string>#eeebff</string>
+				<string>#2a2734</string>
 				<key>caret</key>
-				<string>#5c5874</string>
+				<string>#a391fd</string>
 				<key>foreground</key>
-				<string>#5c5874</string>
+				<string>#a391fd</string>
 				<key>invisibles</key>
-				<string>#c4b8fe</string>
+				<string>#746e91</string>
 				<key>lineHighlight</key>
-				<string>#857ab855</string>
+				<string>#746e9155</string>
 				<key>selection</key>
-				<string>#c4b8fe</string>
+				<string>#5c5874</string>
 			</dict>
 		</dict>
 		<dict>
@@ -50,7 +50,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#5c5874</string>
+				<string>#a391fd</string>
 			</dict>
 		</dict>
 		<dict>
@@ -61,7 +61,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#857ab8</string>
+				<string>#746e91</string>
 			</dict>
 		</dict>
 		<dict>
@@ -72,7 +72,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#5c5874</string>
+				<string>#a391fd</string>
 			</dict>
 		</dict>
 		<dict>
@@ -83,7 +83,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#5c5874</string>
+				<string>#a391fd</string>
 			</dict>
 		</dict>
 		<dict>
@@ -94,7 +94,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#5c5874</string>
+				<string>#a391fd</string>
 			</dict>
 		</dict>
 		<dict>
@@ -138,7 +138,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#c07830</string>
+				<string>#ce853b</string>
 			</dict>
 		</dict>
 		<dict>
@@ -149,7 +149,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#413d51</string>
+				<string>#eeebff</string>
 			</dict>
 		</dict>
 		<dict>
@@ -329,7 +329,7 @@
 				<key>fontStyle</key>
 				<string>bold</string>
 				<key>foreground</key>
-				<string>#c07830</string>
+				<string>#ce853b</string>
 			</dict>
 		</dict>
 		<dict>
@@ -360,7 +360,7 @@
 			<key>name</key>
 			<string>Link Text</string>
 			<key>scope</key>
-			<string>string.other.link</string>
+      <string>string.other.link, punctuation.definition.string.end.markdown</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -408,9 +408,9 @@
 			<key>settings</key>
 			<dict>
 				<key>background</key>
-				<string>#c4b8fe</string>
-				<key>foreground</key>
 				<string>#5c5874</string>
+				<key>foreground</key>
+				<string>#a391fd</string>
 			</dict>
 		</dict>
 		<dict>
@@ -537,13 +537,13 @@
 			<key>settings</key>
 			<dict>
 				<key>background</key>
-				<string>#a391fd</string>
+				<string>#746e91</string>
 				<key>foreground</key>
-				<string>#2a2734</string>
+				<string>#eeebff</string>
 			</dict>
 		</dict>
 	</array>
 	<key>uuid</key>
-	<string>cc8f9a15-85f9-4cc6-b8f6-c1468ff8c2b9</string>
+	<string>603c650b-414e-4d25-aa16-b072c9f42401</string>
 </dict>
 </plist>

@@ -5,9 +5,9 @@
 	<key>author</key>
 	<string>adapted from: Simurai (https://github.com/simurai/duotone-dark-syntax/)</string>
 	<key>name</key>
-	<string>Base16 Duotone Light</string>
+	<string>Base16 Duotone-Dark Light</string>
 	<key>semanticClass</key>
-	<string>base16.duotone.light</string>
+	<string>base16.duotone-dark.light</string>
 	<key>colorSpaceName</key>
 	<string>sRGB</string>
 	<key>gutterSettings</key>
@@ -544,6 +544,6 @@
 		</dict>
 	</array>
 	<key>uuid</key>
-	<string>cc8f9a15-85f9-4cc6-b8f6-c1468ff8c2b9</string>
+	<string>6ef636f9-af16-433d-a2a5-42e025267a23</string>
 </dict>
 </plist>

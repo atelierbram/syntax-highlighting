@@ -1,0 +1,22 @@
+Windows Registry Editor Version 5.00
+
+; Base16 Duotone-DarkSea (https://github.com/chriskempson/base16)
+; Scheme: adapted from: Simurai (https://github.com/simurai/duotone-dark-sea-syntax/)
+
+[HKEY_CURRENT_USER\Console]
+"ColorTable00"=dword:002f261d
+"ColorTable01"=dword:00a9d454
+"ColorTable02"=dword:00858f70
+"ColorTable03"=dword:00b4d968
+"ColorTable04"=dword:0090c030
+"ColorTable05"=dword:00ffbe85
+"ColorTable06"=dword:009dce3b
+"ColorTable07"=dword:00d1a075
+"ColorTable08"=dword:00a6886e
+"ColorTable09"=dword:00a9d454
+"ColorTable10"=dword:00858f70
+"ColorTable11"=dword:00b4d968
+"ColorTable12"=dword:00ffa352
+"ColorTable13"=dword:00ffb06b
+"ColorTable14"=dword:009dce3b
+"ColorTable15"=dword:00fff4eb

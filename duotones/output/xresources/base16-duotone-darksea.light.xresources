@@ -1,0 +1,50 @@
+! Base16 Duotone-DarkSea
+! Scheme: adapted from: Simurai (https://github.com/simurai/duotone-dark-sea-syntax/)
+
+#define base00 #1d262f
+#define base01 #303f4f
+#define base02 #556e8b
+#define base03 #6e88a6
+#define base04 #75a0d1
+#define base05 #91c1f8
+#define base06 #b8d9fe
+#define base07 #ebf4ff
+#define base08 #52a3ff
+#define base09 #30c090
+#define base0A #3bce9d
+#define base0B #708f85
+#define base0C #68d9b4
+#define base0D #54d4a9
+#define base0E #85beff
+#define base0F #6bb0ff
+
+*.foreground:   base02
+*.background:   base07
+*.cursorColor:  base02
+
+*.color0:       base00
+*.color1:       base08
+*.color2:       base0B
+*.color3:       base0A
+*.color4:       base0D
+*.color5:       base0E
+*.color6:       base0C
+*.color7:       base05
+
+*.color8:       base03
+*.color9:       base09
+*.color10:      base01
+*.color11:      base02
+*.color12:      base04
+*.color13:      base06
+*.color14:      base0F
+*.color15:      base07
+
+! Note: colors beyond 15 might not be loaded (e.g., xterm, urxvt),
+! use 'shell' template to set these if necessary
+*.color16:      base09
+*.color17:      base0F
+*.color18:      base01
+*.color19:      base02
+*.color20:      base04
+*.color21:      base06
