@@ -11,6 +11,7 @@
     <meta name="author" content="Bram de Haan">
     <meta name="robots" content="index, follow">  <meta name="description" content="Colection of colorschemes for Code Syntax highlighting"/>
     <link rel="author" href="https://plus.google.com/+BramdeHaan/posts">
+    <style>pre{display:inline-block;font-size:1em;margin-bottom:2em;padding:.5em 2em 1.5em;border-radius:4px}.colortiles{margin:1em 0 2em}.mtl{margin-top:3em}</style>
     </head>
     <body class="as-index">
 
@@ -24,6 +25,7 @@
           <li><a href="../chrome-devtools/">Chrome Devtools</a></li>
           <li><a href="../lab">Lab</a></li>
           <li><a href="../prism">Prism</a></li>
+          <li><a href="../duotones">Duotones</a></li>
           <li><a href="/" data-dropdown="drop-atelierschemes" class="button dropdown dropdown-atelier">Atelier Schemes<span data-dropdown="drop-atelierschemes"></span></a><br>
           <ul id="drop-atelierschemes" class="f-dropdown small" data-dropdown-content>
             <li><a href="../atelier-schemes/">index - overview</a></li>
@@ -52,9 +54,10 @@
           <h2>Duotones <small>colorschemes</small></h2>
           <p>Based on <a href="http://simurai.com/projects/2016/01/01/duotone-themes/">DuoTone themes</a> by <a href="http://simurai.com/">Simurai</a>.</p>
 
-          <h3 id="duotonesDark">Duotone Dark</h3>
+          <h3 class="mtm" id="duotonesDark">Duotone Dark</h3>
+          <p>Based on <a href="https://github.com/simurai/duotone-dark-syntax">DuoTone Dark Theme</a> by <a href="http://simurai.com/">Simurai</a>.</p>
 
-          <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1200 300"><g>
+          <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1200 300" class="colortiles"><g>
             <rect x="0" y="0" width="150" height="150" fill="#2a2734" />
             <rect x="150" y="0" width="150" height="150" fill="#423f50" />
             <rect x="300" y="0" width="150" height="150" fill="#5f5b71" />
@@ -73,7 +76,157 @@
             <rect x="1050" y="150" width="150" height="150" fill="#968f88" />
             </g></svg>
 
-          <h3 id="downloads" class="mtm">Downloads</h3> <p>All downloads can be <a href="https://github.com/atelierbram/syntax-highlighting/tree/master/duotones/output/">found in the output</a> folder.</p>
+             <pre style="background-color:#2a2734;" class="screenshot language-javascript"><code style="color:#a391fd;" class="language-javascript" data-language="javascript"><span class="token lf">
+</span><span style="color:#968f88" class="token keyword">function</span> <span class="token function">foo<span class="token punctuation">(</span></span>bar<span class="token punctuation">)</span> <span class="token punctuation">{</span><span class="token lf">
+</span>    <span style="color:#968f88" class="token keyword">var</span> a <span style="color:#c07830" class="token operator">=</span> <span style="color:#c07830" class="token number">42</span><span class="token punctuation">,</span><span class="token lf">
+</span>        b <span style="color:#c07830" class="token operator">=</span> <span style="color:#e8a35e" class="token string">'Prism'</span><span class="token punctuation">;</span><span class="token lf">
+</span>    <span style="color:#968f88" class="token keyword">return</span> a <span style="color:#c07830" class="token operator">+</span> <span class="token function">bar<span class="token punctuation">(</span></span>b<span class="token punctuation">)</span><span class="token punctuation">;</span><span class="token lf">
+</span><span class="token punctuation">}</span></code></pre> 
+          <h3 class="mtl" id="duotonesDarkSea">Duotone DarkSea</h3>
+          <p>Based on <a href="https://github.com/simurai/duotone-dark-sea-syntax">DuoTone Dark Sea Theme</a> by <a href="http://simurai.com/">Simurai</a>.</p>
+
+          <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1200 300" class="colortiles"><g>
+            <rect x="0" y="0" width="150" height="150" fill="#1d262f" />
+            <rect x="150" y="0" width="150" height="150" fill="#303f4f" />
+            <rect x="300" y="0" width="150" height="150" fill="#556e8b" />
+            <rect x="450" y="0" width="150" height="150" fill="#6e88a6" />
+            <rect x="600" y="0" width="150" height="150" fill="#75a0d1" />
+            <rect x="750" y="0" width="150" height="150" fill="#52a3ff" />
+            <rect x="900" y="0" width="150" height="150" fill="#6bb0ff" />
+            <rect x="1050" y="0" width="150" height="150" fill="#85beff" />
+            <rect x="0" y="150" width="150" height="150" fill="#91c1f8" />
+            <rect x="150" y="150" width="150" height="150" fill="#b8d9fe" />
+            <rect x="300" y="150" width="150" height="150" fill="#ebf4ff" />
+            <rect x="450" y="150" width="150" height="150" fill="#30c090" />
+            <rect x="600" y="150" width="150" height="150" fill="#3bce9d" />
+            <rect x="750" y="150" width="150" height="150" fill="#54d4a9" />
+            <rect x="900" y="150" width="150" height="150" fill="#68d9b4" />
+            <rect x="1050" y="150" width="150" height="150" fill="#708f85" />
+            </g></svg>
+
+              <pre style="background-color:#1d262f;" class="screenshot language-javascript"><code style="color:#91c1f8;" class="language-javascript" data-language="javascript"><span class="token lf">
+</span><span style="color:#708f85" class="token keyword">function</span> <span class="token function">foo<span class="token punctuation">(</span></span>bar<span class="token punctuation">)</span> <span class="token punctuation">{</span><span class="token lf">
+</span>    <span style="color:#708f85" class="token keyword">var</span> a <span style="color:#30c090" class="token operator">=</span> <span style="color:#30c090" class="token number">42</span><span class="token punctuation">,</span><span class="token lf">
+</span>        b <span style="color:#30c090" class="token operator">=</span> <span style="color:#68d9b4" class="token string">'Prism'</span><span class="token punctuation">;</span><span class="token lf">
+</span>    <span style="color:#708f85" class="token keyword">return</span> a <span style="color:#30c090" class="token operator">+</span> <span class="token function">bar<span class="token punctuation">(</span></span>b<span class="token punctuation">)</span><span class="token punctuation">;</span><span class="token lf">
+</span><span class="token punctuation">}</span></code></pre> 
+          <h3 class="mtl" id="duotonesDarkSpace">Duotone DarkSpace</h3>
+          <p>Based on <a href="https://github.com/simurai/duotone-dark-space-syntax">DuoTone Dark Space Theme</a> by <a href="http://simurai.com/">Simurai</a>.</p>
+
+          <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1200 300" class="colortiles"><g>
+            <rect x="0" y="0" width="150" height="150" fill="#24242e" />
+            <rect x="150" y="0" width="150" height="150" fill="#3a3a4a" />
+            <rect x="300" y="0" width="150" height="150" fill="#58586f" />
+            <rect x="450" y="0" width="150" height="150" fill="#767693" />
+            <rect x="600" y="0" width="150" height="150" fill="#9d9dc8" />
+            <rect x="750" y="0" width="150" height="150" fill="#6c6ccb" />
+            <rect x="900" y="0" width="150" height="150" fill="#8383ce" />
+            <rect x="1050" y="0" width="150" height="150" fill="#9999d1" />
+            <rect x="0" y="150" width="150" height="150" fill="#8888fb" />
+            <rect x="150" y="150" width="150" height="150" fill="#afaffd" />
+            <rect x="300" y="150" width="150" height="150" fill="#ebebff" />
+            <rect x="450" y="150" width="150" height="150" fill="#dd672c" />
+            <rect x="600" y="150" width="150" height="150" fill="#e67841" />
+            <rect x="750" y="150" width="150" height="150" fill="#ee8753" />
+            <rect x="900" y="150" width="150" height="150" fill="#f49666" />
+            <rect x="1050" y="150" width="150" height="150" fill="#94796b" />
+            </g></svg>
+
+               <pre style="background-color:#24242e;" class="screenshot language-javascript"><code style="color:#8888fb;" class="language-javascript" data-language="javascript"><span class="token lf">
+</span><span style="color:#94796b" class="token keyword">function</span> <span class="token function">foo<span class="token punctuation">(</span></span>bar<span class="token punctuation">)</span> <span class="token punctuation">{</span><span class="token lf">
+</span>    <span style="color:#94796b" class="token keyword">var</span> a <span style="color:#dd672c" class="token operator">=</span> <span style="color:#dd672c" class="token number">42</span><span class="token punctuation">,</span><span class="token lf">
+</span>        b <span style="color:#dd672c" class="token operator">=</span> <span style="color:#f49666" class="token string">'Prism'</span><span class="token punctuation">;</span><span class="token lf">
+</span>    <span style="color:#94796b" class="token keyword">return</span> a <span style="color:#dd672c" class="token operator">+</span> <span class="token function">bar<span class="token punctuation">(</span></span>b<span class="token punctuation">)</span><span class="token punctuation">;</span><span class="token lf">
+</span><span class="token punctuation">}</span></code></pre> 
+
+          <h3 class="mtl" id="duotonesDarkEarth">Duotone DarkEarth</h3>
+          <p>Based on <a href="https://github.com/simurai/duotone-dark-earth-syntax">DuoTone Dark Earth Theme</a> by <a href="http://simurai.com/">Simurai</a>.</p>
+
+          <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1200 300" class="colortiles"><g>
+            <rect x="0" y="0" width="150" height="150" fill="#322d29" />
+            <rect x="150" y="0" width="150" height="150" fill="#4c4642" />
+            <rect x="300" y="0" width="150" height="150" fill="#695f59" />
+            <rect x="450" y="0" width="150" height="150" fill="#85786f" />
+            <rect x="600" y="0" width="150" height="150" fill="#ac9b91" />
+            <rect x="750" y="0" width="150" height="150" fill="#c08e6d" />
+            <rect x="900" y="0" width="150" height="150" fill="#c39d83" />
+            <rect x="1050" y="0" width="150" height="150" fill="#c8ab98" />
+            <rect x="0" y="150" width="150" height="150" fill="#fcb07d" />
+            <rect x="150" y="150" width="150" height="150" fill="#fed4b8" />
+            <rect x="300" y="150" width="150" height="150" fill="#fff3eb" />
+            <rect x="450" y="150" width="150" height="150" fill="#bfa05a" />
+            <rect x="600" y="150" width="150" height="150" fill="#ccad66" />
+            <rect x="750" y="150" width="150" height="150" fill="#d7b975" />
+            <rect x="900" y="150" width="150" height="150" fill="#e0c585" />
+            <rect x="1050" y="150" width="150" height="150" fill="#a89771" />
+            </g></svg>
+
+                <pre style="background-color:#322d29;" class="screenshot language-javascript"><code style="color:#fcb07d;" class="language-javascript" data-language="javascript"><span class="token lf">
+</span><span style="color:#a89771" class="token keyword">function</span> <span class="token function">foo<span class="token punctuation">(</span></span>bar<span class="token punctuation">)</span> <span class="token punctuation">{</span><span class="token lf">
+</span>    <span style="color:#a89771" class="token keyword">var</span> a <span style="color:#bfa05a" class="token operator">=</span> <span style="color:#bfa05a" class="token number">42</span><span class="token punctuation">,</span><span class="token lf">
+</span>        b <span style="color:#bfa05a" class="token operator">=</span> <span style="color:#e0c585" class="token string">'Prism'</span><span class="token punctuation">;</span><span class="token lf">
+</span>    <span style="color:#a89771" class="token keyword">return</span> a <span style="color:#bfa05a" class="token operator">+</span> <span class="token function">bar<span class="token punctuation">(</span></span>b<span class="token punctuation">)</span><span class="token punctuation">;</span><span class="token lf">
+</span><span class="token punctuation">}</span></code></pre> 
+          <h3 class="mtl" id="duotonesDarkForest">Duotone DarkForest</h3>
+          <p>Based on <a href="https://github.com/simurai/duotone-dark-forest-syntax">DuoTone Dark Forest Theme</a> by <a href="http://simurai.com/">Simurai</a>.</p>
+
+          <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1200 300" class="colortiles"><g>
+            <rect x="0" y="0" width="150" height="150" fill="#2a2d2a" />
+            <rect x="150" y="0" width="150" height="150" fill="#3f4a3f" />
+            <rect x="300" y="0" width="150" height="150" fill="#556855" />
+            <rect x="450" y="0" width="150" height="150" fill="#698669" />
+            <rect x="600" y="0" width="150" height="150" fill="#80a380" />
+            <rect x="750" y="0" width="150" height="150" fill="#54b654" />
+            <rect x="900" y="0" width="150" height="150" fill="#65bd65" />
+            <rect x="1050" y="0" width="150" height="150" fill="#77c577" />
+            <rect x="0" y="150" width="150" height="150" fill="#78dd78" />
+            <rect x="150" y="150" width="150" height="150" fill="#8bfe8b" />
+            <rect x="300" y="150" width="150" height="150" fill="#f0fff0" />
+            <rect x="450" y="150" width="150" height="150" fill="#a1b34d" />
+            <rect x="600" y="150" width="150" height="150" fill="#afc059" />
+            <rect x="750" y="150" width="150" height="150" fill="#bed161" />
+            <rect x="900" y="150" width="150" height="150" fill="#cce06c" />
+            <rect x="1050" y="150" width="150" height="150" fill="#919966" />
+            </g></svg>
+
+             <pre style="background-color:#2a2d2a;" class="screenshot language-javascript"><code style="color:#78dd78;" class="language-javascript" data-language="javascript"><span class="token lf">
+</span><span style="color:#919966" class="token keyword">function</span> <span class="token function">foo<span class="token punctuation">(</span></span>bar<span class="token punctuation">)</span> <span class="token punctuation">{</span><span class="token lf">
+</span>    <span style="color:#919966" class="token keyword">var</span> a <span style="color:#a1b34d" class="token operator">=</span> <span style="color:#a1b34d" class="token number">42</span><span class="token punctuation">,</span><span class="token lf">
+</span>        b <span style="color:#a1b34d" class="token operator">=</span> <span style="color:#cce06c" class="token string">'Prism'</span><span class="token punctuation">;</span><span class="token lf">
+</span>    <span style="color:#919966" class="token keyword">return</span> a <span style="color:#a1b34d" class="token operator">+</span> <span class="token function">bar<span class="token punctuation">(</span></span>b<span class="token punctuation">)</span><span class="token punctuation">;</span><span class="token lf">
+</span><span class="token punctuation">}</span></code></pre> 
+          <h3 class="mtl" id="duotonesDarkPool">Duotone DarkPool</h3>
+          <!-- <p>Based on <a href="https://github.com/simurai/duotone-dark-syntax">DuoTone Dark Theme</a> by <a href="http://simurai.com/">Simurai</a>.</p> -->
+          <p>Adapted from <a href="https://github.com/simurai/duotone-dark-syntax">DuoTone Dark Theme</a> by <a href="http://simurai.com/">Simurai</a>.</p>
+
+          <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1200 300" class="colortiles"><g>
+            <rect x="0" y="0" width="150" height="150" fill="#1e1d20" />
+            <rect x="150" y="0" width="150" height="150" fill="#37343c" />
+            <rect x="300" y="0" width="150" height="150" fill="#4f4b58" />
+            <rect x="450" y="0" width="150" height="150" fill="#686175" />
+            <rect x="600" y="0" width="150" height="150" fill="#807792" />
+            <rect x="750" y="0" width="150" height="150" fill="#7f5bc8" />
+            <rect x="900" y="0" width="150" height="150" fill="#9072ca" />
+            <rect x="1050" y="0" width="150" height="150" fill="#a089cd" />
+            <rect x="0" y="150" width="150" height="150" fill="#a57ef1" />
+            <rect x="150" y="150" width="150" height="150" fill="#d4c2fa" />
+            <rect x="300" y="150" width="150" height="150" fill="#f5f0fe" />
+            <rect x="450" y="150" width="150" height="150" fill="#b46e3c" />
+            <rect x="600" y="150" width="150" height="150" fill="#c87941" />
+            <rect x="750" y="150" width="150" height="150" fill="#d38650" />
+            <rect x="900" y="150" width="150" height="150" fill="#dd945f" />
+            <rect x="1050" y="150" width="150" height="150" fill="#b28c70" />
+            </g></svg>
+
+            <pre style="background-color:#1e1d20;" class="screenshot language-javascript"><code style="color:#a57ef1;" class="language-javascript" data-language="javascript"><span class="token lf">
+</span><span style="color:#b28c70" class="token keyword">function</span> <span class="token function">foo<span class="token punctuation">(</span></span>bar<span class="token punctuation">)</span> <span class="token punctuation">{</span><span class="token lf">
+</span>    <span style="color:#b28c70" class="token keyword">var</span> a <span style="color:#b46e3c" class="token operator">=</span> <span style="color:#b46e3c" class="token number">42</span><span class="token punctuation">,</span><span class="token lf">
+</span>        b <span style="color:#b46e3c" class="token operator">=</span> <span style="color:#dd945f" class="token string">'Prism'</span><span class="token punctuation">;</span><span class="token lf">
+</span>    <span style="color:#b28c70" class="token keyword">return</span> a <span style="color:#b46e3c" class="token operator">+</span> <span class="token function">bar<span class="token punctuation">(</span></span>b<span class="token punctuation">)</span><span class="token punctuation">;</span><span class="token lf">
+</span><span class="token punctuation">}</span></code></pre>
+
+
+          <h3 class="mtl" id="downloads">Downloads</h3> <p>All downloads can be <a href="https://github.com/atelierbram/syntax-highlighting/tree/master/duotones/output/">found in the output</a> folder.</p>
           <p class="note">For Atom, please use <a href="https://atom.io/themes/search?utf8=%E2%9C%93&q=keyword:duotone">the original theme</a> by <a href="https://atom.io/users/simurai">Simurai</a>. For Sublime Text, go to the <a href="https://github.com/atelierbram/syntax-highlighting/tree/master/duotones/output/textmate">Textmate folder</a> within the output folder.</p>
 
           <!-- <p>For <a href="https://github.com/tpope/vim&#45;pathogen">Vim with Pathogen</a> you can clone <a href="https://github.com/atelierbram/vim&#45;colors_atelier&#45;schemes">the dedicated repo for this purpose</a> in the <code>~/.vim/bundle</code> directory like so:</p> -->
@@ -90,7 +243,7 @@
 <!--  -->
 
 
-          <h3 id="demo" class="mtm">Demo</h3>
+          <h3 class="mtl" id="demo">Demo</h3>
           <ul>
            <!--  <li><a href="http://atelierbram.github.io/syntax&#45;highlighting/atelier&#45;schemes/demo/highlight&#45;js.html">Demo for Highlight.js</a></li> -->
            <!-- <li><a href="http://atelierbram.github.io/syntax&#45;highlighting/atelier&#45;schemes/demo/prettify">Demo for <i>(Google Code)</i> Prettify</a></li> -->

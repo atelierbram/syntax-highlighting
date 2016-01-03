@@ -1,0 +1,13 @@
+# ~/.i3status.conf
+# Base16 Duotone-Dark, by adapted from: Simurai (https://github.com/simurai/duotone-dark-syntax/)
+# template by Matt Parnell, @parnmatt
+
+general {
+    colors = true
+    color_good = "#968f88"
+    color_bad = "705ec9"
+    ## remember to add your prefered interval
+    # interval = 5
+}
+
+## remember to add the rest of your configure

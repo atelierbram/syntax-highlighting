@@ -1,0 +1,20 @@
+GIMP Palette
+Name: Base16 Duotone-DarkPool
+Columns: 16
+#
+  30  29  32	base00
+  55  52  60	base01
+  79  75  88	base02
+  104  97  117	base03
+  128  119  146	base04
+  165  126  241	base05
+  212  194  250	base06
+  245  240  254	base07
+  127  91  200	base08
+  180  110  60	base09
+  200  121  65	base0A
+  178  140  112	base0B
+  221  148  95	base0C
+  211  134  80	base0D
+  160  137  205	base0E
+  144  114  202	base0F

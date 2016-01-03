@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE palette PUBLIC "-//Kreative//DTD ResplendentColor 1.0//EN" "rcpx.dtd">
+<palette name="Base16 Duotone-Darkearth">
+	<colors ordered="ordered">
+		<rgb r= "50" g= "45" b= "41"/>
+		<rgb r= "76" g= "70" b= "66"/>
+		<rgb r="105" g= "95" b= "89"/>
+		<rgb r="133" g="120" b="111"/>
+		<rgb r="172" g="155" b="145"/>
+		<rgb r="252" g="176" b="125"/>
+		<rgb r="254" g="212" b="184"/>
+		<rgb r="255" g="243" b="235"/>
+		<rgb r="192" g="142" b="109"/>
+		<rgb r="191" g="160" b= "90"/>
+		<rgb r="204" g="173" b="102"/>
+		<rgb r="168" g="151" b="113"/>
+		<rgb r="224" g="197" b="133"/>
+		<rgb r="215" g="185" b="117"/>
+		<rgb r="200" g="171" b="152"/>
+		<rgb r="195" g="157" b="131"/>
+	</colors>
+	<layout>
+		<oriented>
+			<horizontal>
+				<column>
+					<row><range start="0" end= "8"/></row>
+					<row><range start="8" end="16"/></row>
+				</column>
+			</horizontal>
+			<square>
+				<column>
+					<row><range start= "0" end= "4"/></row>
+					<row><range start= "4" end= "8"/></row>
+					<row><range start= "8" end="12"/></row>
+					<row><range start="12" end="16"/></row>
+				</column>
+			</square>
+			<vertical>
+				<row>
+					<column><range start="0" end= "8"/></column>
+					<column><range start="8" end="16"/></column>
+				</row>
+			</vertical>
+		</oriented>
+	</layout>
+</palette>

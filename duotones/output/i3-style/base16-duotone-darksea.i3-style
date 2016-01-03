@@ -1,0 +1,66 @@
+# vim: filetype=yaml
+# i3-style Template
+# Base16 Duotone-DarkSea, by adapted from: Simurai (https://github.com/simurai/duotone-dark-sea-syntax/)
+# template by Matt Parnell, @parnmatt
+---
+colors:
+    base00:              '#1d262f'
+    base01:              '#303f4f'
+    base02:              '#556e8b'
+    base03:              '#6e88a6'
+    base04:              '#75a0d1'
+    base05:              '#91c1f8'
+    base06:              '#b8d9fe'
+    base07:              '#ebf4ff'
+    base08:              '#52a3ff'
+    base09:              '#30c090'
+    base0A:              '#3bce9d'
+    base0B:              '#708f85'
+    base0C:              '#68d9b4'
+    base0D:              '#54d4a9'
+    base0E:              '#85beff'
+    base0F:              '#6bb0ff'
+
+meta:
+    description:         'Base16 Duotone-DarkSea, by adapted from: Simurai (https://github.com/simurai/duotone-dark-sea-syntax/)'
+window_colors:
+    focused:
+        border:          'base0D'
+        background:      'base0D'
+        text:            'base00'
+        indicator:       'base01'
+    focused_inactive:
+        border:          'base02'
+        background:      'base02'
+        text:            'base03'
+        indicator:       'base01'
+    unfocused:
+        border:          'base01'
+        background:      'base01'
+        text:            'base03'
+        indicator:       'base01'
+    urgent:
+        border:          'base02'
+        background:      'base08'
+        text:            'base07'
+        indicator:       'base08'
+bar_colors:
+    separator:           'base03'
+    background:          'base00'
+    statusline:          'base05'
+    focused_workspace:
+        border:          'base0D'
+        background:      'base0D'
+        text:            'base00'
+    active_workspace:
+        border:          'base02'
+        background:      'base02'
+        text:            'base07'
+    inactive_workspace:
+        border:          'base01'
+        background:      'base01'
+        text:            'base03'
+    urgent_workspace:
+        border:          'base08'
+        background:      'base08'
+        text:            'base07'

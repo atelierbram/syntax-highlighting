@@ -2,7 +2,7 @@
 <html class="dark">
   <head>
     <meta charset="utf-8">
-    <title>Colorscheme Lab, a Code Syntax highlighter Builder</title> 
+    <title>Colorscheme Lab, a Code Syntax highlighter Builder</title>
     <link href="http://atelierbram.github.io/syntax-highlighting/assets/css/lab-screen.css" media="screen, projection" rel="stylesheet" type="text/css" />
     <meta name="viewport" content="width=device-width">
     <meta name="author" content="Bram de Haan">
@@ -10,37 +10,40 @@
     <meta name="description" content="Colorschemer, a Code Syntax highlighter Builder"/>
     <link rel="author" href="https://plus.google.com/111567145811003203990/posts">
   </head>
-  <body> 
+  <body>
 <nav id="slide-menu" class="slide-menu">
-  <ul> 
+  <ul>
     <li class="nav-li">
       <a href="http://atelierbram.github.io/syntax-highlighting/" class="nav-li-a">Syntax Highlighting</a>
     </li>
     <li class="nav-li">
-      <a href="http://atelierbram.github.io/syntax-highlighting/atelier-schemes" class="nav-li-a">Atelier Schemes</a> 
+      <a href="http://atelierbram.github.io/syntax-highlighting/atelier-schemes" class="nav-li-a">Atelier Schemes</a>
     </li>
     <li class="nav-li">
-     <a href="http://atelierbram.github.io/syntax-highlighting/prism" class="nav-li-a">Prism Colorschemes</a> 
+     <a href="http://atelierbram.github.io/syntax-highlighting/prism" class="nav-li-a">Prism Colorschemes</a>
     </li>
     <li class="nav-li">
-     <a href="http://atelierbram.github.io/syntax-highlighting/chrome-devtools" class="nav-li-a">Crome Devtools</a> 
+      <a href="http://atelierbram.github.io/syntax-highlighting/duotones">Duotones</a>
+    </li>
+    <li class="nav-li">
+     <a href="http://atelierbram.github.io/syntax-highlighting/chrome-devtools" class="nav-li-a">Crome Devtools</a>
     </li>
   </ul>
 </nav>
- 
+
       <div id="wrap" class="page-wrapper clear">
         <header class="app-header">
         <h1 class="app-title">Colorscheme Lab<span class="tagline">&#8194; Code Syntax Highlighter Builder</span><a href="#modal-infotext" class="call-modal call-modal--info"><b class="tooltip" data-tooltip="clicking this link shows a modal box in overlay with extra information &hellip;">Info</b></a></h1>
         </header>
 
-        <div class="menu-trigger"></div> 
- 
- 
+        <div class="menu-trigger"></div>
+
+
         <!-- Output -->
         <section id="output" class="section-output">
-        <iframe id="iframe-output" class="iframe-output"> 
+        <iframe id="iframe-output" class="iframe-output">
         </iframe>
-        </section> 
+        </section>
         <!-- Code Editors -->
         <section id="code_editors" class="code-editors">
         <div id="html" class="code_box code_box--html">
@@ -49,31 +52,31 @@
         </div>
         <div id="css" class="code_box code_box--css">
 
-          <h3>CSS 
+          <h3>CSS
             <!-- Call the modal by clicking this link -->
             <a href="#modal-sasstext" class="call-modal call-modal--sass"><b class="tooltip" data-tooltip="clicking this link shows a modal box in overlay with Sass code &hellip;">Sass</b></a></h3>
           <textarea id="css-code" class="textarea-css"></textarea>
         </div>
-        <!-- <div id="js" class="code_box code_box-js"> 
+        <!-- <div id="js" class="code_box code_box-js">
           <h3>JavaScript</h3>
           <textarea id="js-code" class="textarea-js"></textarea>
         </div> -->
-        </section> 
- 
-  
+        </section>
+
+
         <footer class="page-footer">
         <ul>
-          <li>&copy; 2013 <a href="http://atelierbramdehaan.nl/">Atelier Bram de Haan</a></li> 
+          <li>&copy; 2013 <a href="http://atelierbramdehaan.nl/">Atelier Bram de Haan</a></li>
           <!-- <li>powered by <a href="http://codemirror.net/">CodeMirror</a></li>  -->
-          <li><a href="http://codepen.io/atelierbram/pen/JnbIt">on CodePen</a></li> 
+          <li><a href="http://codepen.io/atelierbram/pen/JnbIt">on CodePen</a></li>
           <li><button id="btn-layout" class="blue">&#8660;</button></li>
         </ul>
         </footer>
 
-      </div> 
- 
+      </div>
 
-      <!--Modal box voor extra info --> 
+
+      <!--Modal box voor extra info -->
       <!-- A modal with its content -->
       <section class="semantic-content" id="modal-infotext"
       tabindex="-1" role="dialog" aria-labelledby="modal-label--info" aria-hidden="true">
@@ -83,17 +86,17 @@
         <h2 id="modal-label--info">Info</h2>
         </header>
 
-        <div class="modal-content"> 
-          <pre><code class="language-javascript">/* External links  
+        <div class="modal-content">
+          <pre><code class="language-javascript">/* External links
  * [A more extensive Lab with Sass variables on CodePen](http://codepen.io/atelierbram/pen/JnbIt)
- * [syntax-highlighting demo's on Github](http://atelierbram.github.io/syntax-highlighting/) 
- * [syntax-highlighting repo on Github](http://github.com/atelierbram/syntax-highlighting/) 
+ * [syntax-highlighting demo's on Github](http://atelierbram.github.io/syntax-highlighting/)
+ * [syntax-highlighting repo on Github](http://github.com/atelierbram/syntax-highlighting/)
  *
  * &copy; 2013 [Bram de Haan](http://atelierbramdehaan.nl/)
- */<code class="language-markdown"> 
+ */<code class="language-markdown">
 </code>
-</code></pre> 
-        </div> 
+</code></pre>
+        </div>
         <footer>
           <p><a href="http://atelierbram.mit-license.org">Releases under MIT License</a></p>
         </footer>
@@ -102,9 +105,9 @@
       <!-- Use Hash-Bang to maintain scroll position when closing modal -->
       <a href="#!" class="modal-close" title="Close this modal"
         data-dismiss="modal">&times;</a>
-      </section> 
+      </section>
 
-      <!--Modal box voor Sass code--> 
+      <!--Modal box voor Sass code-->
       <!-- A modal with its content -->
       <section class="semantic-content" id="modal-sasstext"
       tabindex="-1" role="dialog" aria-labelledby="modal-label--sass" aria-hidden="true">
@@ -117,23 +120,23 @@
         <div class="modal-content">
           <!-- <p>Content.</p> -->
 <pre><code class="language-css">
-/* Sass variables: 
- * Edit the sixteen color-values, and create your own 
- * syntax highlighter colorscheme 
+/* Sass variables:
+ * Edit the sixteen color-values, and create your own
+ * syntax highlighter colorscheme
  * with [Base16 Builder](https://github.com/chriskempson/base16-builder)
  */
 
-$base00: hsl(50, 5%, 12%);  
-$base01: hsl(50, 6%, 15%);  
-$base02: hsl(50, 8%, 40%);  
-$base03: hsl(50, 9%, 45%);  
-$base04: hsl(50, 11%, 55%); 
-$base05: hsl(50, 13%, 60%); 
-$base06: hsl(50, 35%, 86%); 
-$base07: hsl(50, 87%, 96%); 
-$base08: hsl(0, 67%, 53%);  
-$base09: hsl(25, 83%, 39%); 
-$base0A: hsl(50, 80%, 45%); 
+$base00: hsl(50, 5%, 12%);
+$base01: hsl(50, 6%, 15%);
+$base02: hsl(50, 8%, 40%);
+$base03: hsl(50, 9%, 45%);
+$base04: hsl(50, 11%, 55%);
+$base05: hsl(50, 13%, 60%);
+$base06: hsl(50, 35%, 86%);
+$base07: hsl(50, 87%, 96%);
+$base08: hsl(0, 67%, 53%);
+$base09: hsl(25, 83%, 39%);
+$base0A: hsl(50, 80%, 45%);
 $base0B: hsl(100, 50%, 45%);
 $base0C: hsl(162, 70%, 40%);
 $base0D: hsl(225, 67%, 64%);
@@ -147,7 +150,7 @@ $green:   $base0B;
 $cyan:    $base0C;
 $blue:    $base0D;
 $violet:  $base0E;
-$magenta: $base0F; 
+$magenta: $base0F;
 
 </code></pre>
           </div>
@@ -163,20 +166,20 @@ $magenta: $base0F;
         </section>
 
 
- 
-<script src="http://atelierbram.github.io/syntax-highlighting/assets/js/vendor/jquery.js"></script> 
+
+<script src="http://atelierbram.github.io/syntax-highlighting/assets/js/vendor/jquery.js"></script>
 <script src="http://atelierbram.github.io/syntax-highlighting/assets/js/vendor/lab/CodeMirror/lib/codemirror.js"></script>
 <script src="http://atelierbram.github.io/syntax-highlighting/assets/js/vendor/lab/CodeMirror/mode/xml/xml.js"></script>
 <script src="http://atelierbram.github.io/syntax-highlighting/assets/js/vendor/lab/CodeMirror/mode/javascript/javascript.js"></script>
 <script src="http://atelierbram.github.io/syntax-highlighting/assets/js/vendor/lab/CodeMirror/mode/css/css.js"></script>
-<script src="http://atelierbram.github.io/syntax-highlighting/assets/js/vendor/lab/CodeMirror/mode/htmlmixed/htmlmixed.js"></script> 
+<script src="http://atelierbram.github.io/syntax-highlighting/assets/js/vendor/lab/CodeMirror/mode/htmlmixed/htmlmixed.js"></script>
 <script src="http://atelierbram.github.io/syntax-highlighting/assets/js/vendor/lab/modal.js"></script><!-- JS for Modal -->
-<script src="http://atelierbram.github.io/syntax-highlighting/assets/js/vendor/prism.js"></script><!-- JS for syntax highlighter modal box: https://raw.github.com/LeaVerou/prism/gh-pages/prism.js --> 
-<script src="http://atelierbram.github.io/syntax-highlighting/assets/js/vendor/prism-autolinker.min.js"></script><!-- Converts URLs and emails in code to clickable links. Parses Markdown links in comments. : 
+<script src="http://atelierbram.github.io/syntax-highlighting/assets/js/vendor/prism.js"></script><!-- JS for syntax highlighter modal box: https://raw.github.com/LeaVerou/prism/gh-pages/prism.js -->
+<script src="http://atelierbram.github.io/syntax-highlighting/assets/js/vendor/prism-autolinker.min.js"></script><!-- Converts URLs and emails in code to clickable links. Parses Markdown links in comments. :
 * http://prismjs.com/plugins/autolinker/
-* https://github.com/LeaVerou/prism/tree/gh-pages/plugins/autolinker --> 
- 
-<script> 
+* https://github.com/LeaVerou/prism/tree/gh-pages/plugins/autolinker -->
+
+<script>
 (function() {
 
   // Base template
@@ -228,7 +231,7 @@ $magenta: $base0F;
 
   // CM OPTIONS
   var cm_opt = {
-    mode: 'text/html', 
+    mode: 'text/html',
     theme: 'solarized light',
     //    tabMode: 'indent',
     gutter: true,
@@ -284,7 +287,7 @@ $magenta: $base0F;
   codemirror.css
   */
   var cms = document.querySelectorAll('.CodeMirror');
-  for (var i = 0; i < cms.length; i++) { 
+  for (var i = 0; i < cms.length; i++) {
 
     cms[i].style.position = 'absolute';
     cms[i].style.top = '30px';
@@ -299,9 +302,9 @@ $magenta: $base0F;
   }*/
 
 }());
-</script> 
- 
-<script> 
+</script>
+
+<script>
   /*
   Slidemenu
    */
@@ -316,17 +319,17 @@ $magenta: $base0F;
   }
 
 }).call(this);
-</script> 
-<script> 
+</script>
+<script>
 $(function() {
   $("#btn-layout").on("click", function() {
     $("body").toggleClass("alt");
   });
-}); 
-</script> 
+});
+</script>
 
- 
- 
+
+
 
   </body>
 </html>

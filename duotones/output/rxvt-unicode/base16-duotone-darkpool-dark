@@ -1,0 +1,52 @@
+! Base16 Duotone-DarkPool
+! Scheme: adapted from: Simurai (https://github.com/simurai/duotone-dark-syntax/)
+
+! URxvt*tintColor:                      color
+! URxvt*fadeColor:                      color
+
+URxvt*background:                     #1e1d20
+URxvt*foreground:                     #a57ef1
+URxvt*cursorColor:                    #a57ef1
+
+! URxvt*colorBD:                        color
+! URxvt*colorIT:                        color
+! URxvt*colorUL:                        color
+! URxvt*colorRV:                        color
+! URxvt*underlineColor:                 color
+URxvt*scrollColor:                    #a57ef1
+! URxvt*troughColor:                    color
+URxvt*highlightColor:                 #4f4b58
+URxvt*highlightTextColor:             #807792
+! URxvt*cursorColor2:                   color
+! URxvt*pointerColor:                   color
+! URxvt*pointerColor2:                  color
+! URxvt*borderColor:                    color
+! URxvt*tab-bg:                         colour
+! URxvt*tab-fg:                         colour
+! URxvt*tabbar-bg:                      colour
+! URxvt*tabbar-fg:                      colour
+
+URxvt*color0:                         #1e1d20
+URxvt*color1:                         #7f5bc8
+URxvt*color2:                         #b28c70
+URxvt*color3:                         #c87941
+URxvt*color4:                         #d38650
+URxvt*color5:                         #a089cd
+URxvt*color6:                         #dd945f
+URxvt*color7:                         #a57ef1
+URxvt*color8:                         #686175
+URxvt*color9:                         #7f5bc8
+URxvt*color10:                        #b28c70
+URxvt*color11:                        #c87941
+URxvt*color12:                        #d38650
+URxvt*color13:                        #a089cd
+URxvt*color14:                        #dd945f
+URxvt*color15:                        #f5f0fe
+
+! 256 color space
+URxvt*color16:                        #b46e3c
+URxvt*color17:                        #9072ca
+URxvt*color18:                        #37343c
+URxvt*color19:                        #4f4b58
+URxvt*color20:                        #807792
+URxvt*color21:                        #d4c2fa
