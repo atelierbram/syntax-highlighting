@@ -4,7 +4,7 @@
 
 /* Duotone-Dark Comment */
 .hljs-comment {
-  color: #857ab8;
+  color: #8982b0;
 }
 
 /* Duotone-Dark Red */
@@ -21,7 +21,7 @@
 .css .hljs-id,
 .css .hljs-class,
 .css .hljs-pseudo {
-  color: #7769bf;
+  color: #705ec9;
 }
 
 /* Duotone-Dark Orange */
@@ -37,7 +37,7 @@
 /* Duotone-Dark Yellow */
 .ruby .hljs-class .hljs-title,
 .css .hljs-rule .hljs-attribute {
-  color: #ce853b;
+  color: #d48535;
 }
 
 /* Duotone-Dark Green */
@@ -47,13 +47,13 @@
 .hljs-header,
 .ruby .hljs-symbol,
 .xml .hljs-cdata {
-  color: #7c756e;
+  color: #968f88;
 }
 
 /* Duotone-Dark Aqua */
 .hljs-title,
 .css .hljs-hexcolor {
-  color: #daa36c;
+  color: #e8a35e;
 }
 
 /* Duotone-Dark Blue */
@@ -65,7 +65,7 @@
 .perl .hljs-sub,
 .javascript .hljs-title,
 .coffeescript .hljs-title {
-  color: #d49454;
+  color: #de9145;
 }
 
 /* Duotone-Dark Purple */
@@ -81,13 +81,13 @@
   width: 100%;
 }
 .diff .hljs-deletion {
-  background-color: #7769bf;
+  background-color: #705ec9;
 }
 .diff .hljs-addition {
-  background-color: #7c756e;
+  background-color: #968f88;
 }
 .diff .hljs-change {
-  color: #d49454;
+  color: #de9145;
 }
 
 .hljs {

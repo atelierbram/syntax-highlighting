@@ -8,26 +8,26 @@
 
 */
 
-.cm-s-base16-duotone-dark-light.CodeMirror {background: #eeebff; color: #413d51;}
+.cm-s-base16-duotone-dark-light.CodeMirror {background: #eeebff; color: #423f50;}
 .cm-s-base16-duotone-dark-light div.CodeMirror-selected {background: #c4b8fe !important;}
 .cm-s-base16-duotone-dark-light .CodeMirror-gutters {background: #eeebff; border-right: 0px;}
-.cm-s-base16-duotone-dark-light .CodeMirror-linenumber {color: #857ab8;}
-.cm-s-base16-duotone-dark-light .CodeMirror-cursor {border-left: 1px solid #746e91 !important;}
+.cm-s-base16-duotone-dark-light .CodeMirror-linenumber {color: #8982b0;}
+.cm-s-base16-duotone-dark-light .CodeMirror-cursor {border-left: 1px solid #77738c !important;}
 
-.cm-s-base16-duotone-dark-light span.cm-comment {color: #877bc6;}
+.cm-s-base16-duotone-dark-light span.cm-comment {color: #8476cb;}
 .cm-s-base16-duotone-dark-light span.cm-atom {color: #988dce;}
 .cm-s-base16-duotone-dark-light span.cm-number {color: #988dce;}
 
-.cm-s-base16-duotone-dark-light span.cm-property, .cm-s-base16-duotone-dark-light span.cm-attribute {color: #7c756e;}
-.cm-s-base16-duotone-dark-light span.cm-keyword {color: #7769bf;}
-.cm-s-base16-duotone-dark-light span.cm-string {color: #ce853b;}
+.cm-s-base16-duotone-dark-light span.cm-property, .cm-s-base16-duotone-dark-light span.cm-attribute {color: #968f88;}
+.cm-s-base16-duotone-dark-light span.cm-keyword {color: #705ec9;}
+.cm-s-base16-duotone-dark-light span.cm-string {color: #d48535;}
 
-.cm-s-base16-duotone-dark-light span.cm-variable {color: #7c756e;}
-.cm-s-base16-duotone-dark-light span.cm-variable-2 {color: #d49454;}
+.cm-s-base16-duotone-dark-light span.cm-variable {color: #968f88;}
+.cm-s-base16-duotone-dark-light span.cm-variable-2 {color: #de9145;}
 .cm-s-base16-duotone-dark-light span.cm-def {color: #c07830;}
-.cm-s-base16-duotone-dark-light span.cm-error {background: #7769bf; color: #746e91;}
-.cm-s-base16-duotone-dark-light span.cm-bracket {color: #413d51;}
-.cm-s-base16-duotone-dark-light span.cm-tag {color: #7769bf;}
+.cm-s-base16-duotone-dark-light span.cm-error {background: #705ec9; color: #77738c;}
+.cm-s-base16-duotone-dark-light span.cm-bracket {color: #423f50;}
+.cm-s-base16-duotone-dark-light span.cm-tag {color: #705ec9;}
 .cm-s-base16-duotone-dark-light span.cm-link {color: #988dce;}
 
 .cm-s-base16-duotone-dark-light .CodeMirror-matchingbracket { text-decoration: underline; color: white !important;}

@@ -21,11 +21,11 @@ pre, code {
 }
 
 pre .comment {
-  color: #746e91;
+  color: #77738c;
 }
 
 pre .variable.global, pre .variable.class, pre .variable.instance {
-  color: #7769bf; /* red */
+  color: #705ec9; /* red */
 }
 
 pre .constant.numeric, pre .constant.language, pre .constant.hex-color, pre .keyword.unit {
@@ -33,15 +33,15 @@ pre .constant.numeric, pre .constant.language, pre .constant.hex-color, pre .key
 }
 
 pre .constant, pre .entity, pre .entity.class, pre .support {
-  color: #ce853b; /* yellow */
+  color: #d48535; /* yellow */
 }
 
 pre .constant.symbol, pre .string {
-  color: #7c756e; /* green */
+  color: #968f88; /* green */
 }
 
 pre .entity.function, pre .support.css-property, pre .selector {
-  color: #d49454; /* blue */
+  color: #de9145; /* blue */
 }
 
 pre .keyword, pre .storage {

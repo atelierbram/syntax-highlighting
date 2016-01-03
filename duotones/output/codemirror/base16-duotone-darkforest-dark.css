@@ -1,0 +1,33 @@
+/*
+
+    Name:       Base16 Duotone-DarkForest Dark
+    Author:     adapted from: Simurai (https://github.com/simurai/duotone-dark-forest-syntax/)
+
+    CodeMirror template by Jan T. Sott (https://github.com/idleberg)
+    Original Base16 color scheme by Chris Kempson (https://github.com/chriskempson/base16)
+
+*/
+
+.cm-s-base16-duotone-darkforest-dark.CodeMirror {background: #2a2d2a; color: #8bfe8b;}
+.cm-s-base16-duotone-darkforest-dark div.CodeMirror-selected {background: #3f4a3f !important;}
+.cm-s-base16-duotone-darkforest-dark .CodeMirror-gutters {background: #2a2d2a; border-right: 0px;}
+.cm-s-base16-duotone-darkforest-dark .CodeMirror-linenumber {color: #698669;}
+.cm-s-base16-duotone-darkforest-dark .CodeMirror-cursor {border-left: 1px solid #80a380 !important;}
+
+.cm-s-base16-duotone-darkforest-dark span.cm-comment {color: #65bd65;}
+.cm-s-base16-duotone-darkforest-dark span.cm-atom {color: #77c577;}
+.cm-s-base16-duotone-darkforest-dark span.cm-number {color: #77c577;}
+
+.cm-s-base16-duotone-darkforest-dark span.cm-property, .cm-s-base16-duotone-darkforest-dark span.cm-attribute {color: #919966;}
+.cm-s-base16-duotone-darkforest-dark span.cm-keyword {color: #54b654;}
+.cm-s-base16-duotone-darkforest-dark span.cm-string {color: #afc059;}
+
+.cm-s-base16-duotone-darkforest-dark span.cm-variable {color: #919966;}
+.cm-s-base16-duotone-darkforest-dark span.cm-variable-2 {color: #bed161;}
+.cm-s-base16-duotone-darkforest-dark span.cm-def {color: #a1b34d;}
+.cm-s-base16-duotone-darkforest-dark span.cm-error {background: #54b654; color: #80a380;}
+.cm-s-base16-duotone-darkforest-dark span.cm-bracket {color: #8bfe8b;}
+.cm-s-base16-duotone-darkforest-dark span.cm-tag {color: #54b654;}
+.cm-s-base16-duotone-darkforest-dark span.cm-link {color: #77c577;}
+
+.cm-s-base16-duotone-darkforest-dark .CodeMirror-matchingbracket { text-decoration: underline; color: white !important;}

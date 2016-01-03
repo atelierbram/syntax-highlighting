@@ -1,0 +1,33 @@
+/*
+
+    Name:       Base16 Duotone-DarkEarth Light
+    Author:     adapted from: Simurai (https://github.com/simurai/duotone-dark-earth-syntax/)
+
+    CodeMirror template by Jan T. Sott (https://github.com/idleberg)
+    Original Base16 color scheme by Chris Kempson (https://github.com/chriskempson/base16)
+
+*/
+
+.cm-s-base16-duotone-darkearth-light.CodeMirror {background: #fff3eb; color: #4c4642;}
+.cm-s-base16-duotone-darkearth-light div.CodeMirror-selected {background: #fed4b8 !important;}
+.cm-s-base16-duotone-darkearth-light .CodeMirror-gutters {background: #fff3eb; border-right: 0px;}
+.cm-s-base16-duotone-darkearth-light .CodeMirror-linenumber {color: #ac9b91;}
+.cm-s-base16-duotone-darkearth-light .CodeMirror-cursor {border-left: 1px solid #85786f !important;}
+
+.cm-s-base16-duotone-darkearth-light span.cm-comment {color: #c39d83;}
+.cm-s-base16-duotone-darkearth-light span.cm-atom {color: #c8ab98;}
+.cm-s-base16-duotone-darkearth-light span.cm-number {color: #c8ab98;}
+
+.cm-s-base16-duotone-darkearth-light span.cm-property, .cm-s-base16-duotone-darkearth-light span.cm-attribute {color: #a89771;}
+.cm-s-base16-duotone-darkearth-light span.cm-keyword {color: #c08e6d;}
+.cm-s-base16-duotone-darkearth-light span.cm-string {color: #ccad66;}
+
+.cm-s-base16-duotone-darkearth-light span.cm-variable {color: #a89771;}
+.cm-s-base16-duotone-darkearth-light span.cm-variable-2 {color: #d7b975;}
+.cm-s-base16-duotone-darkearth-light span.cm-def {color: #bfa05a;}
+.cm-s-base16-duotone-darkearth-light span.cm-error {background: #c08e6d; color: #85786f;}
+.cm-s-base16-duotone-darkearth-light span.cm-bracket {color: #4c4642;}
+.cm-s-base16-duotone-darkearth-light span.cm-tag {color: #c08e6d;}
+.cm-s-base16-duotone-darkearth-light span.cm-link {color: #c8ab98;}
+
+.cm-s-base16-duotone-darkearth-light .CodeMirror-matchingbracket { text-decoration: underline; color: white !important;}

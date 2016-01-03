@@ -1,0 +1,33 @@
+/*
+
+    Name:       Base16 Duotone-DarkSpace Light
+    Author:     adapted from: Simurai (https://github.com/simurai/duotone-dark-space-syntax/)
+
+    CodeMirror template by Jan T. Sott (https://github.com/idleberg)
+    Original Base16 color scheme by Chris Kempson (https://github.com/chriskempson/base16)
+
+*/
+
+.cm-s-base16-duotone-darkspace-light.CodeMirror {background: #ebebff; color: #3a3a4a;}
+.cm-s-base16-duotone-darkspace-light div.CodeMirror-selected {background: #afaffd !important;}
+.cm-s-base16-duotone-darkspace-light .CodeMirror-gutters {background: #ebebff; border-right: 0px;}
+.cm-s-base16-duotone-darkspace-light .CodeMirror-linenumber {color: #9d9dc8;}
+.cm-s-base16-duotone-darkspace-light .CodeMirror-cursor {border-left: 1px solid #767693 !important;}
+
+.cm-s-base16-duotone-darkspace-light span.cm-comment {color: #8383ce;}
+.cm-s-base16-duotone-darkspace-light span.cm-atom {color: #9999d1;}
+.cm-s-base16-duotone-darkspace-light span.cm-number {color: #9999d1;}
+
+.cm-s-base16-duotone-darkspace-light span.cm-property, .cm-s-base16-duotone-darkspace-light span.cm-attribute {color: #94796b;}
+.cm-s-base16-duotone-darkspace-light span.cm-keyword {color: #6c6ccb;}
+.cm-s-base16-duotone-darkspace-light span.cm-string {color: #e67841;}
+
+.cm-s-base16-duotone-darkspace-light span.cm-variable {color: #94796b;}
+.cm-s-base16-duotone-darkspace-light span.cm-variable-2 {color: #ee8753;}
+.cm-s-base16-duotone-darkspace-light span.cm-def {color: #dd672c;}
+.cm-s-base16-duotone-darkspace-light span.cm-error {background: #6c6ccb; color: #767693;}
+.cm-s-base16-duotone-darkspace-light span.cm-bracket {color: #3a3a4a;}
+.cm-s-base16-duotone-darkspace-light span.cm-tag {color: #6c6ccb;}
+.cm-s-base16-duotone-darkspace-light span.cm-link {color: #9999d1;}
+
+.cm-s-base16-duotone-darkspace-light .CodeMirror-matchingbracket { text-decoration: underline; color: white !important;}

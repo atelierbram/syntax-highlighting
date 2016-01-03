@@ -1,0 +1,50 @@
+! Base16 Duotone-DarkSpace
+! Scheme: adapted from: Simurai (https://github.com/simurai/duotone-dark-space-syntax/)
+
+#define base00 #24242e
+#define base01 #3a3a4a
+#define base02 #58586f
+#define base03 #767693
+#define base04 #9d9dc8
+#define base05 #8888fb
+#define base06 #afaffd
+#define base07 #ebebff
+#define base08 #6c6ccb
+#define base09 #dd672c
+#define base0A #e67841
+#define base0B #94796b
+#define base0C #f49666
+#define base0D #ee8753
+#define base0E #9999d1
+#define base0F #8383ce
+
+*.foreground:   base05
+*.background:   base00
+*.cursorColor:  base05
+
+*.color0:       base00
+*.color1:       base08
+*.color2:       base0B
+*.color3:       base0A
+*.color4:       base0D
+*.color5:       base0E
+*.color6:       base0C
+*.color7:       base05
+
+*.color8:       base03
+*.color9:       base08
+*.color10:      base0B
+*.color11:      base0A
+*.color12:      base0D
+*.color13:      base0E
+*.color14:      base0C
+*.color15:      base07
+
+! Note: colors beyond 15 might not be loaded (e.g., xterm, urxvt),
+! use 'shell' template to set these if necessary
+*.color16:      base09
+*.color17:      base0F
+*.color18:      base01
+*.color19:      base02
+*.color20:      base04
+*.color21:      base06

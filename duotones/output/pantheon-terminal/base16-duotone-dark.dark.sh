@@ -7,7 +7,7 @@ SCHEMA="org.pantheon.terminal.settings"
 
 gsettings set "$SCHEMA" background "#2a2734"
 gsettings set "$SCHEMA" foreground "#a391fd"
-gsettings set "$SCHEMA" palette "#2a2734:#7769bf:#7c756e:#ce853b:#d49454:#988dce:#daa36c:#a391fd:#746e91:#7769bf:#7c756e:#ce853b:#d49454:#988dce:#daa36c:#eeebff"
-gsettings set "$SCHEMA" cursor-color "#413d51"
+gsettings set "$SCHEMA" palette "#2a2734:#705ec9:#968f88:#d48535:#de9145:#988dce:#e8a35e:#a391fd:#77738c:#705ec9:#968f88:#d48535:#de9145:#988dce:#e8a35e:#eeebff"
+gsettings set "$SCHEMA" cursor-color "#423f50"
 
 unset SCHEMA

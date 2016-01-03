@@ -5,32 +5,32 @@ caret: a391fd
 
 editor-selection
 foreground: a391fd
-background: 5c5874
+background: 5f5b71
 
 H1
-foreground: d49454
+foreground: de9145
 font-style: bold
 font-size: 24px
 
 H2
-foreground: d49454
+foreground: de9145
 font-style: bold
 font-size: 20px
 
 H3
-foreground: d49454
+foreground: de9145
 font-size: 17px
 
 H4
-foreground: d49454
+foreground: de9145
 font-size: 15px
 
 H5
-foreground: d49454
+foreground: de9145
 font-size: 13px
 
 H6
-foreground: d49454
+foreground: de9145
 font-size: 11px
 
 EMPH
@@ -38,45 +38,45 @@ foreground: 988dce
 font-style: italic
 
 STRONG
-foreground: ce853b
+foreground: d48535
 font-style: bold
 
 HRULE
 foreground: a391fd
-background: 5c5874
+background: 5f5b71
 
 LIST_BULLET
-foreground: 7769bf
+foreground: 705ec9
 
 LIST_ENUMERATOR
-foreground: 7769bf
+foreground: 705ec9
 
 LINK
 foreground: c07830
 
 AUTO_LINK_URL
-foreground: daa36c
+foreground: e8a35e
 
 AUTO_LINK_EMAIL
-foreground: daa36c
+foreground: e8a35e
 
 REFERENCE
-foreground: 857ab8
+foreground: 8982b0
 
 IMAGE
-foreground: daa36c
+foreground: e8a35e
 
 CODE
-foreground: 7c756e
+foreground: 968f88
 
 VERBATIM
-foreground: 7c756e
+foreground: 968f88
 
 HTML_ENTITY
-foreground: 877bc6
+foreground: 8476cb
 
 COMMENT
-foreground: 746e91
+foreground: 77738c
 
 BLOCKQUOTE
 foreground: c07830

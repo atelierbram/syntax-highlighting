@@ -1,0 +1,22 @@
+Windows Registry Editor Version 5.00
+
+; Base16 Duotone-DarkSpace (https://github.com/chriskempson/base16)
+; Scheme: adapted from: Simurai (https://github.com/simurai/duotone-dark-space-syntax/)
+
+[HKEY_CURRENT_USER\Console]
+"ColorTable00"=dword:002e2424
+"ColorTable01"=dword:005387ee
+"ColorTable02"=dword:006b7994
+"ColorTable03"=dword:006696f4
+"ColorTable04"=dword:002c67dd
+"ColorTable05"=dword:00d19999
+"ColorTable06"=dword:004178e6
+"ColorTable07"=dword:00c89d9d
+"ColorTable08"=dword:00937676
+"ColorTable09"=dword:005387ee
+"ColorTable10"=dword:006b7994
+"ColorTable11"=dword:006696f4
+"ColorTable12"=dword:00cb6c6c
+"ColorTable13"=dword:00ce8383
+"ColorTable14"=dword:004178e6
+"ColorTable15"=dword:00ffebeb

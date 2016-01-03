@@ -1,0 +1,20 @@
+GIMP Palette
+Name: Base16 Duotone-DarkEarth
+Columns: 16
+#
+  50  45  41	base00
+  76  70  66	base01
+  105  95  89	base02
+  133  120  111	base03
+  172  155  145	base04
+  252  176  125	base05
+  254  212  184	base06
+  255  243  235	base07
+  192  142  109	base08
+  191  160  90	base09
+  204  173  102	base0A
+  168  151  113	base0B
+  224  197  133	base0C
+  215  185  117	base0D
+  200  171  152	base0E
+  195  157  131	base0F

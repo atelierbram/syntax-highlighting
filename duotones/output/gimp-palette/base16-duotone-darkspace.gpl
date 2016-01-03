@@ -1,0 +1,20 @@
+GIMP Palette
+Name: Base16 Duotone-DarkSpace
+Columns: 16
+#
+  36  36  46	base00
+  58  58  74	base01
+  88  88  111	base02
+  118  118  147	base03
+  157  157  200	base04
+  136  136  251	base05
+  175  175  253	base06
+  235  235  255	base07
+  108  108  203	base08
+  221  103  44	base09
+  230  120  65	base0A
+  148  121  107	base0B
+  244  150  102	base0C
+  238  135  83	base0D
+  153  153  209	base0E
+  131  131  206	base0F

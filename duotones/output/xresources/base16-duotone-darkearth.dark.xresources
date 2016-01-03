@@ -1,0 +1,41 @@
+! Base16 Duotone-DarkEarth
+! Scheme: adapted from: Simurai (https://github.com/simurai/duotone-dark-earth-syntax/)
+
+#define base00 #322d29
+#define base01 #4c4642
+#define base02 #695f59
+#define base03 #85786f
+#define base04 #ac9b91
+#define base05 #fcb07d
+#define base06 #fed4b8
+#define base07 #fff3eb
+#define base08 #c08e6d
+#define base09 #bfa05a
+#define base0A #ccad66
+#define base0B #a89771
+#define base0C #e0c585
+#define base0D #d7b975
+#define base0E #c8ab98
+#define base0F #c39d83
+
+*.foreground:   base05
+*.background:   base00
+*.cursorColor:  base05
+
+*.color0:       base00
+*.color1:       base08
+*.color2:       base0B
+*.color3:       base0A
+*.color4:       base0D
+*.color5:       base0E
+*.color6:       base0C
+*.color7:       base05
+
+*.color8:       base03
+*.color9:       base09
+*.color10:      base01
+*.color11:      base02
+*.color12:      base04
+*.color13:      base06
+*.color14:      base0F
+*.color15:      base07

@@ -2,36 +2,36 @@
 <key name="Software">
 	<key name="ConEmu">
       <value name="ColorTable00" type="dword" data="0034272a"/>
-      <value name="ColorTable01" type="dword" data="005494d4"/>
-      <value name="ColorTable02" type="dword" data="006e757c"/>
-      <value name="ColorTable03" type="dword" data="006ca3da"/>
+      <value name="ColorTable01" type="dword" data="004591de"/>
+      <value name="ColorTable02" type="dword" data="00888f96"/>
+      <value name="ColorTable03" type="dword" data="005ea3e8"/>
       <value name="ColorTable04" type="dword" data="003078c0"/>
       <value name="ColorTable05" type="dword" data="00ce8d98"/>
-      <value name="ColorTable06" type="dword" data="003b85ce"/>
-      <value name="ColorTable07" type="dword" data="00b87a85"/>
-      <value name="ColorTable08" type="dword" data="00916e74"/>
-      <value name="ColorTable09" type="dword" data="005494d4"/>
-      <value name="ColorTable10" type="dword" data="006e757c"/>
-      <value name="ColorTable11" type="dword" data="006ca3da"/>
-      <value name="ColorTable12" type="dword" data="00bf6977"/>
-      <value name="ColorTable13" type="dword" data="00c67b87"/>
-      <value name="ColorTable14" type="dword" data="003b85ce"/>
+      <value name="ColorTable06" type="dword" data="003585d4"/>
+      <value name="ColorTable07" type="dword" data="00b08289"/>
+      <value name="ColorTable08" type="dword" data="008c7377"/>
+      <value name="ColorTable09" type="dword" data="004591de"/>
+      <value name="ColorTable10" type="dword" data="00888f96"/>
+      <value name="ColorTable11" type="dword" data="005ea3e8"/>
+      <value name="ColorTable12" type="dword" data="00c95e70"/>
+      <value name="ColorTable13" type="dword" data="00cb7684"/>
+      <value name="ColorTable14" type="dword" data="003585d4"/>
       <value name="ColorTable15" type="dword" data="00ffebee"/>
       <value name="ColorTable16" type="dword" data="0034272a"/>
-      <value name="ColorTable17" type="dword" data="005494d4"/>
-      <value name="ColorTable18" type="dword" data="006e757c"/>
-      <value name="ColorTable19" type="dword" data="006ca3da"/>
+      <value name="ColorTable17" type="dword" data="004591de"/>
+      <value name="ColorTable18" type="dword" data="00888f96"/>
+      <value name="ColorTable19" type="dword" data="005ea3e8"/>
       <value name="ColorTable20" type="dword" data="003078c0"/>
       <value name="ColorTable21" type="dword" data="00ce8d98"/>
-      <value name="ColorTable22" type="dword" data="003b85ce"/>
-      <value name="ColorTable23" type="dword" data="00b87a85"/>
-      <value name="ColorTable24" type="dword" data="00916e74"/>
-      <value name="ColorTable25" type="dword" data="005494d4"/>
-      <value name="ColorTable26" type="dword" data="006e757c"/>
-      <value name="ColorTable27" type="dword" data="006ca3da"/>
-      <value name="ColorTable28" type="dword" data="00bf6977"/>
-      <value name="ColorTable29" type="dword" data="00c67b87"/>
-      <value name="ColorTable30" type="dword" data="003b85ce"/>
+      <value name="ColorTable22" type="dword" data="003585d4"/>
+      <value name="ColorTable23" type="dword" data="00b08289"/>
+      <value name="ColorTable24" type="dword" data="008c7377"/>
+      <value name="ColorTable25" type="dword" data="004591de"/>
+      <value name="ColorTable26" type="dword" data="00888f96"/>
+      <value name="ColorTable27" type="dword" data="005ea3e8"/>
+      <value name="ColorTable28" type="dword" data="00c95e70"/>
+      <value name="ColorTable29" type="dword" data="00cb7684"/>
+      <value name="ColorTable30" type="dword" data="003585d4"/>
       <value name="ColorTable31" type="dword" data="00ffebee"/>
     </key>
 </key>

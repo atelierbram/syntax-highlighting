@@ -1,0 +1,160 @@
+/* Duotone-DarkEarth Light by adapted from: Simurai (https://github.com/simurai/duotone-dark-earth-syntax/) */
+
+/* plain text */
+.pln {
+  color: #322d29;
+}
+
+@media screen {
+  /* string content */
+  .str {
+    color: #a89771;
+  }
+
+  /* a keyword */
+  .kwd {
+    color: #c8ab98;
+  }
+
+  /* a comment */
+  .com {
+    color: #ac9b91;
+  }
+
+  /* a type name */
+  .typ {
+    color: #d7b975;
+  }
+
+  /* a literal value */
+  .lit {
+    color: #bfa05a;
+  }
+
+  /* punctuation */
+  .pun {
+    color: #322d29;
+  }
+
+  /* lisp open bracket */
+  .opn {
+    color: #322d29;
+  }
+
+  /* lisp close bracket */
+  .clo {
+    color: #322d29;
+  }
+
+  /* a markup tag name */
+  .tag {
+    color: #c08e6d;
+  }
+
+  /* a markup attribute name */
+  .atn {
+    color: #bfa05a;
+  }
+
+  /* a markup attribute value */
+  .atv {
+    color: #e0c585;
+  }
+
+  /* a declaration */
+  .dec {
+    color: #bfa05a;
+  }
+
+  /* a variable name */
+  .var {
+    color: #c08e6d;
+  }
+
+  /* a function name */
+  .fun {
+    color: #d7b975;
+  }
+}
+/* Use higher contrast and text-weight for printable form. */
+@media print, projection {
+  .str {
+    color: #006600;
+  }
+
+  .kwd {
+    color: #006;
+    font-weight: bold;
+  }
+
+  .com {
+    color: #600;
+    font-style: italic;
+  }
+
+  .typ {
+    color: #404;
+    font-weight: bold;
+  }
+
+  .lit {
+    color: #004444;
+  }
+
+  .pun, .opn, .clo {
+    color: #444400;
+  }
+
+  .tag {
+    color: #006;
+    font-weight: bold;
+  }
+
+  .atn {
+    color: #440044;
+  }
+
+  .atv {
+    color: #006600;
+  }
+}
+/* Style */
+pre.prettyprint {
+  background: #fff3eb;
+  color: #fcb07d;
+  font-family: Consolas, Menlo, "Bitstream Vera Sans Mono", "DejaVu Sans Mono", Monaco, monospace;
+  font-size: 12px;
+  line-height: 1.5;
+  border: 1px solid #fed4b8;
+  padding: 10px;
+  border-radius: 3px;
+}
+
+/* Specify class=linenums on a pre to get line numbering */
+ol.linenums {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+/* IE indents via margin-left */
+li.L0,
+li.L1,
+li.L2,
+li.L3,
+li.L4,
+li.L5,
+li.L6,
+li.L7,
+li.L8,
+li.L9 {
+  /* */
+}
+
+/* Alternate shading for lines */
+li.L1,
+li.L3,
+li.L5,
+li.L7,
+li.L9 {
+  /* */
+}

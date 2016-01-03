@@ -9,25 +9,25 @@
 */
 
 .cm-s-base16-duotone-dark-dark.CodeMirror {background: #2a2734; color: #c4b8fe;}
-.cm-s-base16-duotone-dark-dark div.CodeMirror-selected {background: #413d51 !important;}
+.cm-s-base16-duotone-dark-dark div.CodeMirror-selected {background: #423f50 !important;}
 .cm-s-base16-duotone-dark-dark .CodeMirror-gutters {background: #2a2734; border-right: 0px;}
-.cm-s-base16-duotone-dark-dark .CodeMirror-linenumber {color: #746e91;}
-.cm-s-base16-duotone-dark-dark .CodeMirror-cursor {border-left: 1px solid #857ab8 !important;}
+.cm-s-base16-duotone-dark-dark .CodeMirror-linenumber {color: #77738c;}
+.cm-s-base16-duotone-dark-dark .CodeMirror-cursor {border-left: 1px solid #8982b0 !important;}
 
-.cm-s-base16-duotone-dark-dark span.cm-comment {color: #877bc6;}
+.cm-s-base16-duotone-dark-dark span.cm-comment {color: #8476cb;}
 .cm-s-base16-duotone-dark-dark span.cm-atom {color: #988dce;}
 .cm-s-base16-duotone-dark-dark span.cm-number {color: #988dce;}
 
-.cm-s-base16-duotone-dark-dark span.cm-property, .cm-s-base16-duotone-dark-dark span.cm-attribute {color: #7c756e;}
-.cm-s-base16-duotone-dark-dark span.cm-keyword {color: #7769bf;}
-.cm-s-base16-duotone-dark-dark span.cm-string {color: #ce853b;}
+.cm-s-base16-duotone-dark-dark span.cm-property, .cm-s-base16-duotone-dark-dark span.cm-attribute {color: #968f88;}
+.cm-s-base16-duotone-dark-dark span.cm-keyword {color: #705ec9;}
+.cm-s-base16-duotone-dark-dark span.cm-string {color: #d48535;}
 
-.cm-s-base16-duotone-dark-dark span.cm-variable {color: #7c756e;}
-.cm-s-base16-duotone-dark-dark span.cm-variable-2 {color: #d49454;}
+.cm-s-base16-duotone-dark-dark span.cm-variable {color: #968f88;}
+.cm-s-base16-duotone-dark-dark span.cm-variable-2 {color: #de9145;}
 .cm-s-base16-duotone-dark-dark span.cm-def {color: #c07830;}
-.cm-s-base16-duotone-dark-dark span.cm-error {background: #7769bf; color: #857ab8;}
+.cm-s-base16-duotone-dark-dark span.cm-error {background: #705ec9; color: #8982b0;}
 .cm-s-base16-duotone-dark-dark span.cm-bracket {color: #c4b8fe;}
-.cm-s-base16-duotone-dark-dark span.cm-tag {color: #7769bf;}
+.cm-s-base16-duotone-dark-dark span.cm-tag {color: #705ec9;}
 .cm-s-base16-duotone-dark-dark span.cm-link {color: #988dce;}
 
 .cm-s-base16-duotone-dark-dark .CodeMirror-matchingbracket { text-decoration: underline; color: white !important;}

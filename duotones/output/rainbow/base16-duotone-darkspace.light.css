@@ -1,0 +1,49 @@
+/**
+ * Base16 Duotone-DarkSpace Light
+ *
+ * @author adapted from: Simurai (https://github.com/simurai/duotone-dark-space-syntax/)
+ *
+ * Rainbow template by Jan T. Sott (https://github.com/idleberg/)
+ * Original Base16 color scheme by Chris Kempson (https://github.com/chriskempson/base16)
+*/
+pre {
+  background-color: #ebebff;
+  word-wrap: break-word;
+  margin: 0px;
+  padding: 10px;
+  color: #24242e;
+  font-size: 14px;
+  margin-bottom: 20px;
+}
+
+pre, code {
+  font-family: Consolas, Menlo, 'DejaVu Sans Mono', Monaco, 'Courier New', Courier, monospace;
+}
+
+pre .comment {
+  color: #9d9dc8;
+}
+
+pre .variable.global, pre .variable.class, pre .variable.instance {
+  color: #6c6ccb; /* red */
+}
+
+pre .constant.numeric, pre .constant.language, pre .constant.hex-color, pre .keyword.unit {
+  color: #dd672c; /* orange */
+}
+
+pre .constant, pre .entity, pre .entity.class, pre .support {
+  color: #e67841; /* yellow */
+}
+
+pre .constant.symbol, pre .string {
+  color: #94796b; /* green */
+}
+
+pre .entity.function, pre .support.css-property, pre .selector {
+  color: #ee8753; /* blue */
+}
+
+pre .keyword, pre .storage {
+  color: #9999d1; /* purple */
+}

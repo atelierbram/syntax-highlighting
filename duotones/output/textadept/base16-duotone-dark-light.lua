@@ -8,21 +8,21 @@ local buffer = buffer
 local property, property_int = buffer.property, buffer.property_int
 
 property['color.base00'] = 0x34272a
-property['color.base01'] = 0x513d41
-property['color.base02'] = 0x74585c
-property['color.base03'] = 0x916e74
-property['color.base04'] = 0xb87a85
+property['color.base01'] = 0x503f42
+property['color.base02'] = 0x715b5f
+property['color.base03'] = 0x8c7377
+property['color.base04'] = 0xb08289
 property['color.base05'] = 0xfd91a3
 property['color.base06'] = 0xfeb8c4
 property['color.base07'] = 0xffebee
-property['color.base08'] = 0xbf6977
+property['color.base08'] = 0xc95e70
 property['color.base09'] = 0x3078c0
-property['color.base0A'] = 0x3b85ce
-property['color.base0B'] = 0x6e757c
-property['color.base0C'] = 0x6ca3da
-property['color.base0D'] = 0x5494d4
+property['color.base0A'] = 0x3585d4
+property['color.base0B'] = 0x888f96
+property['color.base0C'] = 0x5ea3e8
+property['color.base0D'] = 0x4591de
 property['color.base0E'] = 0xce8d98
-property['color.base0F'] = 0xc67b87
+property['color.base0F'] = 0xcb7684
 
 -- Default font.
 property['font'], property['fontsize'] = 'Bitstream Vera Sans Mono', 10
