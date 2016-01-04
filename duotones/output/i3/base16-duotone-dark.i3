@@ -5,20 +5,20 @@
 
 set $base00 #2a2734
 set $base01 #423f50
-set $base02 #5f5b71
-set $base03 #77738c
-set $base04 #8982b0
-set $base05 #a391fd
+set $base02 #5a566c
+set $base03 #726e87
+set $base04 #837bad
+set $base05 #9b87fd
 set $base06 #c4b8fe
 set $base07 #eeebff
-set $base08 #705ec9
+set $base08 #7765d2
 set $base09 #c07830
 set $base0A #d48535
 set $base0B #968f88
 set $base0C #e8a35e
 set $base0D #de9145
-set $base0E #988dce
-set $base0F #8476cb
+set $base0E #a49bcf
+set $base0F #8e81cf
 
 client.focused $base0D $base0D $base00 $base01
 client.focused_inactive $base02 $base02 $base03 $base01

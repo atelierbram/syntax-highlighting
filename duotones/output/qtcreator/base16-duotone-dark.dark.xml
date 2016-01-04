@@ -2,35 +2,35 @@
 <style-scheme version="1.0" name="Base 16 Duotone-Dark">
 
   <!-- main colors, skipping one of attributes (backgroud/foreground) will use color from here -->
-  <style name="Text" foreground="#a391fd" background="#2a2734"/>
+  <style name="Text" foreground="#9b87fd" background="#2a2734"/>
 
   <!-- it will be underlined by default -->
   <style name="Link"/>
 
   <!-- selection, current line, search, matching brackets -->
-  <style name="Selection" background="#8982b0"/>
-  <style name="CurrentLine" background="#77738c"/>
-  <style name="LineNumber" foreground="#77738c"/>
-  <style name="CurrentLineNumber" foreground="#8982b0" bold="true"/>
+  <style name="Selection" background="#837bad"/>
+  <style name="CurrentLine" background="#726e87"/>
+  <style name="LineNumber" foreground="#726e87"/>
+  <style name="CurrentLineNumber" foreground="#837bad" bold="true"/>
   <style name="SearchResult" background="423f50"/>
-  <style name="Parentheses" background="#5f5b71" />
+  <style name="Parentheses" background="#5a566c" />
 
   <!-- ??? -->
   <style name="SearchScope" foreground="#000000" background="#ffffff"/>
 
   <!-- word (symbol) under cursor: background - color of marking frame, foreground - ignored -->
-  <style name="Occurrences" background="#77738c"/>
-  <style name="Occurrences.Rename" background="#8982b0"/>
+  <style name="Occurrences" background="#726e87"/>
+  <style name="Occurrences.Rename" background="#837bad"/>
   <!-- unused variable: foreground - color of underlining -->
   <style name="Occurrences.Unused" foreground="#c07830"/>
 
   <!-- language primitives -->
   <style name="Number" foreground="#c07830"/>
   <style name="String" foreground="#968f88"/>
-  <style name="Keyword" foreground="#988dce"/>
-  <style name="Operator" foreground="#a391fd"/>
+  <style name="Keyword" foreground="#a49bcf"/>
+  <style name="Operator" foreground="#9b87fd"/>
   <style name="Preprocessor" foreground="#de9145"/>
-  <style name="Label" foreground="#705ec9"/>
+  <style name="Label" foreground="#7765d2"/>
 
   <!-- types, classes -->
   <style name="Type" foreground="#d48535"/>
@@ -41,24 +41,24 @@
 
   <!-- variables -->
   <style name="Field" foreground="#c4b8fe"/>
-  <style name="Local" foreground="#a391fd"/>
-  <style name="Static" foreground="#a391fd"/>
-  <style name="JsScopeVar" foreground="#a391fd" italic="true"/>
-  <style name="JsImportVar" foreground="#a391fd" italic="true"/>
-  <style name="JsGlobalVar" foreground="#a391fd" italic="true"/>
+  <style name="Local" foreground="#9b87fd"/>
+  <style name="Static" foreground="#9b87fd"/>
+  <style name="JsScopeVar" foreground="#9b87fd" italic="true"/>
+  <style name="JsImportVar" foreground="#9b87fd" italic="true"/>
+  <style name="JsGlobalVar" foreground="#9b87fd" italic="true"/>
 
   <!-- whitespace -->
-  <style name="VisualWhitespace" foreground="#5f5b71"/>
+  <style name="VisualWhitespace" foreground="#5a566c"/>
 
   <!-- comments -->
-  <style name="Comment" foreground="#77738c"/>
-  <style name="DisabledCode" foreground="#77738c"/>
-  <style name="Doxygen.Comment" foreground="#77738c"/>
-  <style name="Doxygen.Tag" foreground="#77738c"/>
+  <style name="Comment" foreground="#726e87"/>
+  <style name="DisabledCode" foreground="#726e87"/>
+  <style name="Doxygen.Comment" foreground="#726e87"/>
+  <style name="Doxygen.Tag" foreground="#726e87"/>
 
   <!-- QML -->
-  <style name="QmlTypeId" foreground="#988dce"/>
-  <style name="Binding" foreground="#705ec9"/>
+  <style name="QmlTypeId" foreground="#a49bcf"/>
+  <style name="Binding" foreground="#7765d2"/>
   <style name="QmlExternalId" foreground="#de9145" italic="true"/>
   <style name="QmlExternalObjectProperty" foreground="#de9145" italic="true"/>
   <style name="QmlLocalId" italic="true"/>
@@ -67,13 +67,13 @@
   <style name="QmlStateName" italic="true"/>
 
   <!-- inline diff -->
-  <style name="DiffFile" foreground="#988dce"/>
+  <style name="DiffFile" foreground="#a49bcf"/>
   <style name="DiffLocation" foreground="#de9145"/>
   <style name="AddedLine" foreground="#968f88"/>
   <style name="RemovedLine" foreground="#d48535"/>
 
   <!-- side-by-side diff -->
-  <style name="DiffFileLine" foreground="#988dce"/>
+  <style name="DiffFileLine" foreground="#a49bcf"/>
   <style name="DiffContextLine" foreground="#de9145"/>
   <style name="DiffSourceLine" foreground="#968f88"/>
   <style name="DiffSourceChar" foreground="#d48535" background="#423f50"/>

@@ -1,11 +1,11 @@
 editor
-foreground: 5f5b71
+foreground: 5a566c
 background: eeebff
-caret: 5f5b71
+caret: 5a566c
 
 editor-selection
-foreground: 5f5b71
-background: a391fd
+foreground: 5a566c
+background: 9b87fd
 
 H1
 foreground: de9145
@@ -34,7 +34,7 @@ foreground: de9145
 font-size: 11px
 
 EMPH
-foreground: 988dce
+foreground: a49bcf
 font-style: italic
 
 STRONG
@@ -42,14 +42,14 @@ foreground: d48535
 font-style: bold
 
 HRULE
-foreground: 5f5b71
-background: a391fd
+foreground: 5a566c
+background: 9b87fd
 
 LIST_BULLET
-foreground: 705ec9
+foreground: 7765d2
 
 LIST_ENUMERATOR
-foreground: 705ec9
+foreground: 7765d2
 
 LINK
 foreground: c07830
@@ -61,7 +61,7 @@ AUTO_LINK_EMAIL
 foreground: e8a35e
 
 REFERENCE
-foreground: 8982b0
+foreground: 837bad
 
 IMAGE
 foreground: e8a35e
@@ -73,10 +73,10 @@ VERBATIM
 foreground: 968f88
 
 HTML_ENTITY
-foreground: 8476cb
+foreground: 8e81cf
 
 COMMENT
-foreground: 77738c
+foreground: 726e87
 
 BLOCKQUOTE
 foreground: c07830

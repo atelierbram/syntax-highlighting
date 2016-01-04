@@ -5,7 +5,7 @@
 general {
     colors = true
     color_good = "#968f88"
-    color_bad = "705ec9"
+    color_bad = "7765d2"
     ## remember to add your prefered interval
     # interval = 5
 }

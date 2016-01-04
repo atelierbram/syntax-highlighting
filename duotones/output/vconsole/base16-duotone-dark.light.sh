@@ -3,14 +3,14 @@
 # adapted from: Simurai (https://github.com/simurai/duotone-dark-syntax/)
 
 color00="eeebff" # Base 07 - White
-color01="705ec9" # Base 08 - Red
+color01="7765d2" # Base 08 - Red
 color02="968f88" # Base 0B - Green
 color03="d48535" # Base 0A - Yellow
 color04="de9145" # Base 0D - Blue
-color05="988dce" # Base 0E - Magenta
+color05="a49bcf" # Base 0E - Magenta
 color06="e8a35e" # Base 0C - Cyan
-color07="5f5b71" # Base 02 - Black
-color08="a391fd" # Base 05 - Bright White
+color07="5a566c" # Base 02 - Black
+color08="9b87fd" # Base 05 - Bright White
 color09=$color01 # Base 08 - Bright Red
 color10=$color02 # Base 0B - Bright Green
 color11=$color03 # Base 0A - Bright Yellow

@@ -21,11 +21,11 @@ pre, code {
 }
 
 pre .comment {
-  color: #8982b0;
+  color: #837bad;
 }
 
 pre .variable.global, pre .variable.class, pre .variable.instance {
-  color: #705ec9; /* red */
+  color: #7765d2; /* red */
 }
 
 pre .constant.numeric, pre .constant.language, pre .constant.hex-color, pre .keyword.unit {
@@ -45,5 +45,5 @@ pre .entity.function, pre .support.css-property, pre .selector {
 }
 
 pre .keyword, pre .storage {
-  color: #988dce; /* purple */
+  color: #a49bcf; /* purple */
 }

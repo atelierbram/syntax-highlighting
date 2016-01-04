@@ -3,7 +3,7 @@
 // Name: Base16 Duotone-Dark
 // Author: adapted from: Simurai (https://github.com/simurai/duotone-dark-syntax/)
 // Built: By [Base16 Builder](https://github.com/chriskempson/base16-builder)
-// Build date: 2016-01-03
+// Build date: 2016-01-04
 // ---
 // Template based on [Pretentious](http://support.multimarkdown.com/discussions/extras-style-sheets-etc/4-pretentious) 1.0 by Brett Terpstra.
 // [Style syntax description](http://support.multimarkdown.com/kb/style-sheets/how-do-i-create-a-custom-style-sheet)
@@ -24,7 +24,7 @@
     caretColor = c07830;
 
     // Selection
-    selectionColor = a391fd;
+    selectionColor = 9b87fd;
 
     // Paragraph
     lineLength = 90;
@@ -65,7 +65,7 @@
     
     // Links has reference color
     link =     {
-        foregroundColor = 77738c;
+        foregroundColor = 726e87;
     };
     
     // Formatting that is applied to "clickable" links
@@ -79,7 +79,7 @@
     // List
     // Markers will be highlighted
     list = {
-        markupForegroundColor = 705ec9;
+        markupForegroundColor = 7765d2;
     };
 
     // Strong & Emphasis definition
@@ -88,7 +88,7 @@
 		bold = 1;
     };
     italic =     {
-		foregroundColor = 988dce;
+		foregroundColor = a49bcf;
         italic = 1;
     };
     boldAndItalic =     {
@@ -109,16 +109,16 @@
 
     // Metadata YAML for e.g.
 	metadata = {
-		foregroundColor = 77738c;
+		foregroundColor = 726e87;
 	};
 
     // XML comments
     comment = {
-        foregroundColor = 8982b0;
+        foregroundColor = 837bad;
     };
     
     // Blockquote
     blockquote = {
-        foregroundColor = 5f5b71;
+        foregroundColor = 5a566c;
     };
 }

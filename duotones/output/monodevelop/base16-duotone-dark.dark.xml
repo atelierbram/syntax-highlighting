@@ -6,20 +6,20 @@
      -->
   <Color name="base00" value="#2a2734"/>
   <Color name="base01" value="#423f50"/>
-  <Color name="base02" value="#5f5b71"/>
-  <Color name="base03" value="#77738c"/>
-  <Color name="base04" value="#8982b0"/>
-  <Color name="base05" value="#a391fd"/>
+  <Color name="base02" value="#5a566c"/>
+  <Color name="base03" value="#726e87"/>
+  <Color name="base04" value="#837bad"/>
+  <Color name="base05" value="#9b87fd"/>
   <Color name="base06" value="#c4b8fe"/>
   <Color name="base07" value="#eeebff"/>
-  <Color name="base08" value="#705ec9"/>
+  <Color name="base08" value="#7765d2"/>
   <Color name="base09" value="#c07830"/>
   <Color name="base0A" value="#d48535"/>
   <Color name="base0B" value="#968f88"/>
   <Color name="base0C" value="#e8a35e"/>
   <Color name="base0D" value="#de9145"/>
-  <Color name="base0E" value="#988dce"/>
-  <Color name="base0F" value="#8476cb"/>
+  <Color name="base0E" value="#a49bcf"/>
+  <Color name="base0F" value="#8e81cf"/>
 
   <!-- Text -->
   <Style name="text" color="base05" bgColor="base00"/>

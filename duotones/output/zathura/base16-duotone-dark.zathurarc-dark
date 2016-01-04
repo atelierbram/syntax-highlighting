@@ -3,25 +3,25 @@
 set default-bg                  "#2a2734"
 set default-fg                  "#423f50"
 
-set statusbar-fg                "#8982b0"
+set statusbar-fg                "#837bad"
 set statusbar-bg                "#423f50"
 
 set inputbar-bg                 "#2a2734"
-set inputbar-fg                 "#5f5b71"
+set inputbar-fg                 "#5a566c"
 
-set notification-error-bg       "#705ec9"
+set notification-error-bg       "#7765d2"
 set notification-error-fg       "#2a2734"
 
-set notification-warning-bg     "#705ec9"
+set notification-warning-bg     "#7765d2"
 set notification-warning-fg     "#2a2734"
 
 set highlight-color             "#d48535"
 set highlight-active-color      "#de9145"
 
-set completion-highlight-fg     "#5f5b71"
+set completion-highlight-fg     "#5a566c"
 set completion-highlight-bg     "#e8a35e"
 
-set completion-bg               "#5f5b71"
+set completion-bg               "#5a566c"
 set completion-fg               "#e8a35e"
 
 set notification-bg             "#968f88"

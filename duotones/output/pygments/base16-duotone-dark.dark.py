@@ -14,16 +14,16 @@ from pygments.token import Keyword, Name, Comment, String, Error, Text, \
 
 BACKGROUND = "#2a2734"
 CURRENT_LINE = "#423f50"
-SELECTION = "#5f5b71"
+SELECTION = "#5a566c"
 FOREGROUND = "#eeebff"
-COMMENT = "#77738c"
-RED = "#705ec9"
+COMMENT = "#726e87"
+RED = "#7765d2"
 ORANGE = "#c07830"
 YELLOW = "#d48535"
 GREEN = "#968f88"
 AQUA = "#e8a35e"
 BLUE = "#de9145"
-PURPLE = "#988dce"
+PURPLE = "#a49bcf"
 
 
 class base16_duotone-dark_dark(Style):

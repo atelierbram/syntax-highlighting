@@ -9,20 +9,20 @@ local property, property_int = buffer.property, buffer.property_int
 
 property['color.base00'] = 0x34272a
 property['color.base01'] = 0x503f42
-property['color.base02'] = 0x715b5f
-property['color.base03'] = 0x8c7377
-property['color.base04'] = 0xb08289
-property['color.base05'] = 0xfd91a3
+property['color.base02'] = 0x6c565a
+property['color.base03'] = 0x876e72
+property['color.base04'] = 0xad7b83
+property['color.base05'] = 0xfd879b
 property['color.base06'] = 0xfeb8c4
 property['color.base07'] = 0xffebee
-property['color.base08'] = 0xc95e70
+property['color.base08'] = 0xd26577
 property['color.base09'] = 0x3078c0
 property['color.base0A'] = 0x3585d4
 property['color.base0B'] = 0x888f96
 property['color.base0C'] = 0x5ea3e8
 property['color.base0D'] = 0x4591de
-property['color.base0E'] = 0xce8d98
-property['color.base0F'] = 0xcb7684
+property['color.base0E'] = 0xcf9ba4
+property['color.base0F'] = 0xcf818e
 
 -- Default font.
 property['font'], property['fontsize'] = 'Bitstream Vera Sans Mono', 10

@@ -5,8 +5,8 @@ Windows Registry Editor Version 5.00
 [HKEY_CURRENT_USER\Software\SmartFTP\Client 2.0\Settings\Terminal\Settings\Terminal\Window\Colors]
 
 ; Default Foreground
-"Color 0"=dword:00b08289
-"Color 1"=dword:00fd91a3
+"Color 0"=dword:00ad7b83
+"Color 1"=dword:00fd879b
 
 ; Default Background
 "Color 2"=dword:0034272a
@@ -18,11 +18,11 @@ Windows Registry Editor Version 5.00
 
 ; Black
 "Color 6"=dword:0034272a
-"Color 7"=dword:008c7377
+"Color 7"=dword:00876e72
 
 ; Red
-"Color 8"=dword:00c95e70
-"Color 9"=dword:00c95e70
+"Color 8"=dword:00d26577
+"Color 9"=dword:00d26577
 
 ; Green
 "Color 10"=dword:00888f96
@@ -37,13 +37,13 @@ Windows Registry Editor Version 5.00
 "Color 15"=dword:004591de
 
 ; Magenta
-"Color 16"=dword:00ce8d98
-"Color 17"=dword:00ce8d98
+"Color 16"=dword:00cf9ba4
+"Color 17"=dword:00cf9ba4
 
 ; Cyan
 "Color 18"=dword:005ea3e8
 "Color 19"=dword:005ea3e8
 
 ; White
-"Color 20"=dword:00fd91a3
+"Color 20"=dword:00fd879b
 "Color 21"=dword:00ffebee

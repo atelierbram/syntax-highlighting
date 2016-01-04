@@ -2,22 +2,22 @@
 Scheme: adapted from: Simurai (https://github.com/simurai/duotone-dark-syntax/) */
 
 table.sourceCode, tr.sourceCode, td.sourceCode, table.sourceCode pre
-{ margin: 0; padding: 0; border: 0; vertical-align: baseline; border: none; background-color: #eeebff; color: #5f5b71 }
+{ margin: 0; padding: 0; border: 0; vertical-align: baseline; border: none; background-color: #eeebff; color: #5a566c }
 td.nums { text-align: right; padding-right: 5px; padding-left: 5px; background-color: #c4b8fe; }
 td.sourceCode { padding-left: 5px; }
 code.sourceCode { background-color: #eeebff; }
 pre.sourceCode { background-color: #eeebff; line-height: 125% }
 td.nums pre { background-color: #c4b8fe; line-height: 125% }
 code.sourceCode span.kw { color: #de9145; font-weight: bold } /* Keyword */
-code.sourceCode span.dt { color: #988dce} /* Keyword.Type */
+code.sourceCode span.dt { color: #a49bcf} /* Keyword.Type */
 code.sourceCode span.dv { color: #c07830 } /* Literal.Number.Integer */
 code.sourceCode span.bn { color: #c07830 } /* Literal.Number.Hex */
 code.sourceCode span.fl { color: #c07830 } /* Literal.Number.Float */
 code.sourceCode span.ch { color: #968f88} /* Literal.String.Char */
 code.sourceCode span.st { color: #968f88 } /* Literal.String */
-code.sourceCode span.co { color: #77738c } /* Comment */
-code.sourceCode span.ot { color: #8476cb } /* Comment.Preproc */
-code.sourceCode span.al { color: #988dce } /* Generic.Error */
+code.sourceCode span.co { color: #726e87 } /* Comment */
+code.sourceCode span.ot { color: #8e81cf } /* Comment.Preproc */
+code.sourceCode span.al { color: #a49bcf } /* Generic.Error */
 code.sourceCode span.fu { color: #d48535 } /* Name.Function */
 code.sourceCode span.re { color: #e8a35e}
-code.sourceCode span.er { color: #705ec9; border: 1px solid #988dce } /* Error */
+code.sourceCode span.er { color: #7765d2; border: 1px solid #a49bcf } /* Error */

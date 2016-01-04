@@ -13,12 +13,12 @@
 
   /* a keyword */
   .kwd {
-    color: #988dce;
+    color: #a49bcf;
   }
 
   /* a comment */
   .com {
-    color: #77738c;
+    color: #726e87;
   }
 
   /* a type name */
@@ -48,7 +48,7 @@
 
   /* a markup tag name */
   .tag {
-    color: #705ec9;
+    color: #7765d2;
   }
 
   /* a markup attribute name */
@@ -68,7 +68,7 @@
 
   /* a variable name */
   .var {
-    color: #705ec9;
+    color: #7765d2;
   }
 
   /* a function name */
@@ -121,7 +121,7 @@
 /* Style */
 pre.prettyprint {
   background: #2a2734;
-  color: #5f5b71;
+  color: #5a566c;
   font-family: Consolas, Menlo, "Bitstream Vera Sans Mono", "DejaVu Sans Mono", Monaco, monospace;
   font-size: 12px;
   line-height: 1.5;

@@ -30,20 +30,20 @@
   <!-- Palette -->
   <color name="base00" value="#2a2734"/>
   <color name="base01" value="#423f50"/>
-  <color name="base02" value="#5f5b71"/>
-  <color name="base03" value="#77738c"/>
-  <color name="base04" value="#8982b0"/>
-  <color name="base05" value="#a391fd"/>
+  <color name="base02" value="#5a566c"/>
+  <color name="base03" value="#726e87"/>
+  <color name="base04" value="#837bad"/>
+  <color name="base05" value="#9b87fd"/>
   <color name="base06" value="#c4b8fe"/>
   <color name="base07" value="#eeebff"/>
-  <color name="base08" value="#705ec9"/>
+  <color name="base08" value="#7765d2"/>
   <color name="base09" value="#c07830"/>
   <color name="base0A" value="#d48535"/>
   <color name="base0B" value="#968f88"/>
   <color name="base0C" value="#e8a35e"/>
   <color name="base0D" value="#de9145"/>
-  <color name="base0E" value="#988dce"/>
-  <color name="base0F" value="#8476cb"/>
+  <color name="base0E" value="#a49bcf"/>
+  <color name="base0F" value="#8e81cf"/>
 
   <!-- Styles -->
   <style name="bracket-match" background="base06" bold="true"/>
