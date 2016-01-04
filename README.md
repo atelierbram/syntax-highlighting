@@ -3,6 +3,16 @@ Syntax Highlighting
 
 Collection of colorschemes.
 
+## DuoTones
+Based on [DuoTone themes](http://simurai.com/projects/2016/01/01/duotone-themes/) by [Simurai](http://simurai.com/) for Atom.
+
+Go to [demopage](http://atelierbram.github.io/syntax-highlighting/duotones)
+
+> “DuoTone themes use only 2 hues. This leads to a more calm color scheme, but still lets you find the stuff you're looking for.”
+
+![DuoTones Dark theme](http://atelierbram.github.io/syntax-highlighting/assets/img/duotones-dark_sublime_960x640.png "DuoTones Dark theme")
+Screenshot of DuoTones Dark theme in SublimeText
+
 ## Atelier Schemes
 * [index - demopages](http://atelierbram.github.io/syntax-highlighting/atelier-schemes/)
     * [Forest](http://atelierbram.github.io/syntax-highlighting/atelier-schemes/forest)
@@ -21,13 +31,13 @@ Collection of colorschemes.
 
 Atelier Schemes, demotiles for Dune, syntax highlighting colorscheme
 
-![screenshot of Dune colorscheme - dark version - in Vim](http://atelierbram.github.io/syntax-highlighting/assets/img/dune-dark_vim_640x425.png)
+![screenshot of Sulphurpool colorscheme - dark version - in Vim](http://atelierbram.github.io/syntax-highlighting/assets/img/sulphurpool-dark_vim_640x425.png)
 
 screenshot of Dune colorscheme - dark version - in Vim
 
 ## Prism
 
-Colorschemes for Prism [ demopage](http://atelierbram.github.io/syntax-highlighting/prism)
+Colorschemes for Prism [demopage](http://atelierbram.github.io/syntax-highlighting/prism)
 
 ![screenshot of styleswitcher for Prism themes](https://lh6.googleusercontent.com/-27KX3QAEzAc/Ug9O3QH1t2I/AAAAAAAAAlw/tdEU6foUIXM/s800/prism-styleswitcher_screenshot_546x364.png)
 
