@@ -16,7 +16,7 @@ module Rouge
       palette base08: "#7765d2"
       palette base09: "#c07830"
       palette base0A: "#d48535"
-      palette base0B: "#968f88"
+      palette base0B: "#7c756e"
       palette base0C: "#e8a35e"
       palette base0D: "#de9145"
       palette base0E: "#a49bcf"

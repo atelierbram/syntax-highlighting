@@ -26,7 +26,7 @@
 
   <!-- language primitives -->
   <style name="Number" foreground="#c07830"/>
-  <style name="String" foreground="#968f88"/>
+  <style name="String" foreground="#7c756e"/>
   <style name="Keyword" foreground="#a49bcf"/>
   <style name="Operator" foreground="#9b87fd"/>
   <style name="Preprocessor" foreground="#de9145"/>
@@ -69,14 +69,14 @@
   <!-- inline diff -->
   <style name="DiffFile" foreground="#a49bcf"/>
   <style name="DiffLocation" foreground="#de9145"/>
-  <style name="AddedLine" foreground="#968f88"/>
+  <style name="AddedLine" foreground="#7c756e"/>
   <style name="RemovedLine" foreground="#d48535"/>
 
   <!-- side-by-side diff -->
   <style name="DiffFileLine" foreground="#a49bcf"/>
   <style name="DiffContextLine" foreground="#de9145"/>
-  <style name="DiffSourceLine" foreground="#968f88"/>
+  <style name="DiffSourceLine" foreground="#7c756e"/>
   <style name="DiffSourceChar" foreground="#d48535" background="#423f50"/>
-  <style name="DiffDestLine" foreground="#968f88"/>
+  <style name="DiffDestLine" foreground="#7c756e"/>
   <style name="DiffDestChar" foreground="#d48535" background="#423f50"/>
 </style-scheme>

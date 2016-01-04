@@ -15,7 +15,7 @@
 	<key>HTMLAttributeNameColor</key>
 	<string>rgba(0.7529411764705882,0.47058823529411764,0.18823529411764706,1.000000)</string> 
 	<key>HTMLAttributeValueColor</key>
-	<string>rgba(0.5882352941176471,0.5607843137254902,0.5333333333333333,1.000000)</string> 
+	<string>rgba(0.48627450980392156,0.4588235294117647,0.43137254901960786,1.000000)</string> 
 	<key>HTMLImageColor</key>
 	<string>rgba(0.9098039215686274,0.6392156862745098,0.3686274509803922,1.000000)</string> 
 	<key>HTMLProcessingDirectiveColor</key>
@@ -45,7 +45,7 @@
 	<key>SpellingColor</key>
 	<string>rgba(0.4666666666666667,0.396078431372549,0.8235294117647058,1.000000)</string> 
 	<key>StringColor</key>
-	<string>rgba(0.5882352941176471,0.5607843137254902,0.5333333333333333,1.000000)</string> 
+	<string>rgba(0.48627450980392156,0.4588235294117647,0.43137254901960786,1.000000)</string> 
 	<key>UseCustomHighlightColor</key>
 	<true/>
 	<key>VariablesColor</key>

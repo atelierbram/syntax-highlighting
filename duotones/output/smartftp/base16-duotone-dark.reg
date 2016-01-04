@@ -25,8 +25,8 @@ Windows Registry Editor Version 5.00
 "Color 9"=dword:00d26577
 
 ; Green
-"Color 10"=dword:00888f96
-"Color 11"=dword:00888f96
+"Color 10"=dword:006e757c
+"Color 11"=dword:006e757c
 
 ; Yellow
 "Color 12"=dword:003585d4

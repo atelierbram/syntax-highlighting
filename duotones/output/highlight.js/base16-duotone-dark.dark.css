@@ -47,7 +47,7 @@
 .hljs-header,
 .ruby .hljs-symbol,
 .xml .hljs-cdata {
-  color: #968f88;
+  color: #7c756e;
 }
 
 /* Duotone-Dark Aqua */
@@ -84,7 +84,7 @@
   background-color: #7765d2;
 }
 .diff .hljs-addition {
-  background-color: #968f88;
+  background-color: #7c756e;
 }
 .diff .hljs-change {
   color: #de9145;

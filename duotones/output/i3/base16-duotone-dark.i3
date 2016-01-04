@@ -14,7 +14,7 @@ set $base07 #eeebff
 set $base08 #7765d2
 set $base09 #c07830
 set $base0A #d48535
-set $base0B #968f88
+set $base0B #7c756e
 set $base0C #e8a35e
 set $base0D #de9145
 set $base0E #a49bcf

@@ -7,7 +7,7 @@
   <option name="CONSOLE_LINE_SPACING" value="1.0" />
   <option name="EDITOR_FONT_NAME" value="Menlo" />
   <colors>
-    <option name="ADDED_LINES_COLOR" value="968f88" />
+    <option name="ADDED_LINES_COLOR" value="7c756e" />
     <option name="ANNOTATIONS_COLOR" value="5a566c" />
     <option name="CARET_COLOR" value="c4b8fe" />
     <option name="CARET_ROW_COLOR" value="423f50" />
@@ -66,7 +66,7 @@
     </option>
     <option name="DEFAULT_STRING">
         <value>
-            <option name="FOREGROUND" value="968f88" />
+            <option name="FOREGROUND" value="7c756e" />
         </value>
     </option>
     <option name="DEFAULT_BLOCK_COMMENT">
@@ -686,7 +686,7 @@
     </option>
     <option name="Map key">
       <value>
-        <option name="FOREGROUND" value="968f88" />
+        <option name="FOREGROUND" value="7c756e" />
       </value>
     </option>
     <option name="NOT_USED_ELEMENT_ATTRIBUTES">

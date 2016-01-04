@@ -18,7 +18,7 @@
 (define base08 #(119 101 210))
 (define base09 #(192 120 48))
 (define base0A #(212 133 53))
-(define base0B #(150 143 136))
+(define base0B #(124 117 110))
 (define base0C #(232 163 94))
 (define base0D #(222 145 69))
 (define base0E #(164 155 207))

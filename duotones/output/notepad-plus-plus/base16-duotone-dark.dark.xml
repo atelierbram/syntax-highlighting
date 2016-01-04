@@ -19,7 +19,7 @@ Comment:    Copy this style to %APPDATA%\Notepad++\themes
             <WordsStyle name="INSTRUCTION WORD" styleID="5" fgColor="a49bcf" bgColor="2a2734" fontName="" fontStyle="" fontSize="10" keywordClass="instre1" />
             <WordsStyle name="TYPEWORD" styleID="16" fgColor="a49bcf" bgColor="2a2734" fontName="" fontStyle="" fontSize="10" keywordClass="type1" />
             <WordsStyle name="NUMBER" styleID="4" fgColor="c07830" bgColor="2a2734" fontName="" fontStyle="" fontSize="10" />
-            <WordsStyle name="STRING" styleID="6" fgColor="968f88" bgColor="2a2734" fontName="" fontStyle="" fontSize="10" />
+            <WordsStyle name="STRING" styleID="6" fgColor="7c756e" bgColor="2a2734" fontName="" fontStyle="" fontSize="10" />
             <WordsStyle name="CHARACTER" styleID="7" fgColor="a49bcf" bgColor="2a2734" fontName="" fontStyle="" fontSize="10" />
             <WordsStyle name="OPERATOR" styleID="10" fgColor="9b87fd" bgColor="2a2734" fontName="" fontStyle="" fontSize="10" />
             <WordsStyle name="VERBATIM" styleID="13" fgColor="c07830" bgColor="2a2734" fontName="" fontStyle="" fontSize="10" />
@@ -37,7 +37,7 @@ Comment:    Copy this style to %APPDATA%\Notepad++\themes
             <WordsStyle name="INSTRUCTION WORD" styleID="5" fgColor="a49bcf" bgColor="2a2734" fontName="" fontStyle="" fontSize="10" keywordClass="instre1" />
             <WordsStyle name="TYPE WORD" styleID="16" fgColor="a49bcf" bgColor="2a2734" fontName="" fontStyle="" fontSize="10" keywordClass="type1" />
             <WordsStyle name="NUMBER" styleID="4" fgColor="c07830" bgColor="2a2734" fontName="" fontStyle="" fontSize="10" />
-            <WordsStyle name="STRING" styleID="6" fgColor="968f88" bgColor="2a2734" fontName="" fontStyle="" fontSize="10" />
+            <WordsStyle name="STRING" styleID="6" fgColor="7c756e" bgColor="2a2734" fontName="" fontStyle="" fontSize="10" />
             <WordsStyle name="CHARACTER" styleID="7" fgColor="a49bcf" bgColor="2a2734" fontName="" fontStyle="" fontSize="10" />
             <WordsStyle name="OPERATOR" styleID="10" fgColor="9b87fd" bgColor="2a2734" fontName="" fontStyle="" fontSize="10" />
             <WordsStyle name="VERBATIM" styleID="13" fgColor="c07830" bgColor="2a2734" fontName="" fontStyle="" fontSize="10" />
@@ -55,7 +55,7 @@ Comment:    Copy this style to %APPDATA%\Notepad++\themes
             <WordsStyle name="INSTRUCTION WORD" styleID="5" fgColor="a49bcf" bgColor="2a2734" fontName="" fontStyle="" fontSize="10" keywordClass="instre1" />
             <WordsStyle name="TYPE WORD" styleID="16" fgColor="a49bcf" bgColor="2a2734" fontName="" fontStyle="" fontSize="10" keywordClass="type1" />
             <WordsStyle name="NUMBER" styleID="4" fgColor="c07830" bgColor="2a2734" fontName="" fontStyle="" fontSize="10" />
-            <WordsStyle name="STRING" styleID="6" fgColor="968f88" bgColor="2a2734" fontName="" fontStyle="" fontSize="10" />
+            <WordsStyle name="STRING" styleID="6" fgColor="7c756e" bgColor="2a2734" fontName="" fontStyle="" fontSize="10" />
             <WordsStyle name="CHARACTER" styleID="7" fgColor="a49bcf" bgColor="2a2734" fontName="" fontStyle="" fontSize="10" />
             <WordsStyle name="OPERATOR" styleID="10" fgColor="9b87fd" bgColor="2a2734" fontName="" fontStyle="" fontSize="10" />
             <WordsStyle name="VERBATIM" styleID="13" fgColor="c07830" bgColor="2a2734" fontName="" fontStyle="" fontSize="10" />
@@ -73,7 +73,7 @@ Comment:    Copy this style to %APPDATA%\Notepad++\themes
             <WordsStyle name="INSTRUCTION WORD" styleID="5" fgColor="a49bcf" bgColor="2a2734" fontName="" fontStyle="" fontSize="10" keywordClass="instre1" />
             <WordsStyle name="TYPE WORD" styleID="16" fgColor="a49bcf" bgColor="2a2734" fontName="" fontStyle="" fontSize="10" />
             <WordsStyle name="NUMBER" styleID="4" fgColor="c07830" bgColor="2a2734" fontName="" fontStyle="" fontSize="10" />
-            <WordsStyle name="STRING" styleID="6" fgColor="968f88" bgColor="2a2734" fontName="" fontStyle="" fontSize="10" />
+            <WordsStyle name="STRING" styleID="6" fgColor="7c756e" bgColor="2a2734" fontName="" fontStyle="" fontSize="10" />
             <WordsStyle name="CHARACTER" styleID="7" fgColor="a49bcf" bgColor="2a2734" fontName="" fontStyle="" fontSize="10" />
             <WordsStyle name="OPERATOR" styleID="10" fgColor="9b87fd" bgColor="2a2734" fontName="" fontStyle="" fontSize="10" />
             <WordsStyle name="VERBATIM" styleID="13" fgColor="c07830" bgColor="2a2734" fontName="" fontStyle="" fontSize="10" />
@@ -91,7 +91,7 @@ Comment:    Copy this style to %APPDATA%\Notepad++\themes
             <WordsStyle name="INSTRUCTION WORD" styleID="5" fgColor="a49bcf" bgColor="2a2734" fontName="" fontStyle="" fontSize="10" keywordClass="instre1" />
             <WordsStyle name="TYPE WORD" styleID="16" fgColor="a49bcf" bgColor="2a2734" fontName="" fontStyle="" fontSize="10" />
             <WordsStyle name="NUMBER" styleID="4" fgColor="c07830" bgColor="2a2734" fontName="" fontStyle="" fontSize="10" />
-            <WordsStyle name="STRING" styleID="6" fgColor="968f88" bgColor="2a2734" fontName="" fontStyle="" fontSize="10" />
+            <WordsStyle name="STRING" styleID="6" fgColor="7c756e" bgColor="2a2734" fontName="" fontStyle="" fontSize="10" />
             <WordsStyle name="CHARACTER" styleID="7" fgColor="a49bcf" bgColor="2a2734" fontName="" fontStyle="" fontSize="10" />
             <WordsStyle name="OPERATOR" styleID="10" fgColor="9b87fd" bgColor="2a2734" fontName="" fontStyle="" fontSize="10" />
             <WordsStyle name="VERBATIM" styleID="13" fgColor="c07830" bgColor="2a2734" fontName="" fontStyle="" fontSize="10" />
@@ -109,7 +109,7 @@ Comment:    Copy this style to %APPDATA%\Notepad++\themes
             <WordsStyle name="INSTRUCTION WORD" styleID="5" fgColor="a49bcf" bgColor="2a2734" fontName="" fontStyle="" fontSize="10" keywordClass="instre1" />
             <WordsStyle name="TYPE WORD" styleID="16" fgColor="a49bcf" bgColor="2a2734" fontName="" fontStyle="" fontSize="10" keywordClass="type1" />
             <WordsStyle name="NUMBER" styleID="4" fgColor="c07830" bgColor="2a2734" fontName="" fontStyle="" fontSize="10" />
-            <WordsStyle name="STRING" styleID="6" fgColor="968f88" bgColor="2a2734" fontName="" fontStyle="" fontSize="10" />
+            <WordsStyle name="STRING" styleID="6" fgColor="7c756e" bgColor="2a2734" fontName="" fontStyle="" fontSize="10" />
             <WordsStyle name="CHARACTER" styleID="7" fgColor="a49bcf" bgColor="2a2734" fontName="" fontStyle="" fontSize="10" />
             <WordsStyle name="OPERATOR" styleID="10" fgColor="9b87fd" bgColor="2a2734" fontName="" fontStyle="" fontSize="10" />
             <WordsStyle name="VERBATIM" styleID="13" fgColor="c07830" bgColor="2a2734" fontName="" fontStyle="" fontSize="10" />
@@ -129,7 +129,7 @@ Comment:    Copy this style to %APPDATA%\Notepad++\themes
             <WordsStyle name="INSTRUCTION WORD" styleID="5" fgColor="a49bcf" bgColor="2a2734" fontName="" fontStyle="" fontSize="10" keywordClass="instre1" />
             <WordsStyle name="TYPE WORD" styleID="16" fgColor="a49bcf" bgColor="2a2734" fontName="" fontStyle="" fontSize="10" keywordClass="type1" />
             <WordsStyle name="NUMBER" styleID="4" fgColor="c07830" bgColor="2a2734" fontName="" fontStyle="" fontSize="10" />
-            <WordsStyle name="STRING" styleID="6" fgColor="968f88" bgColor="2a2734" fontName="" fontStyle="" fontSize="10" />
+            <WordsStyle name="STRING" styleID="6" fgColor="7c756e" bgColor="2a2734" fontName="" fontStyle="" fontSize="10" />
             <WordsStyle name="CHARACTER" styleID="7" fgColor="a49bcf" bgColor="2a2734" fontName="" fontStyle="" fontSize="10" />
             <WordsStyle name="OPERATOR" styleID="10" fgColor="9b87fd" bgColor="2a2734" fontName="" fontStyle="" fontSize="10" />
             <WordsStyle name="VERBATIM" styleID="13" fgColor="c07830" bgColor="2a2734" fontName="" fontStyle="" fontSize="10" />
@@ -144,8 +144,8 @@ Comment:    Copy this style to %APPDATA%\Notepad++\themes
         <LexerType name="sql" desc="SQL" ext="">
             <WordsStyle name="KEYWORD" styleID="5" fgColor="9b87fd" bgColor="2a2734" fontName="" fontStyle="" fontSize="10" keywordClass="instre1" />
             <WordsStyle name="NUMBER" styleID="4" fgColor="c07830" bgColor="2a2734" fontName="" fontStyle="" fontSize="10" />
-            <WordsStyle name="STRING" styleID="6" fgColor="968f88" bgColor="2a2734" fontName="" fontStyle="" fontSize="10" />
-            <WordsStyle name="STRING2" styleID="7" fgColor="968f88" bgColor="2a2734" fontName="" fontStyle="" fontSize="10" />
+            <WordsStyle name="STRING" styleID="6" fgColor="7c756e" bgColor="2a2734" fontName="" fontStyle="" fontSize="10" />
+            <WordsStyle name="STRING2" styleID="7" fgColor="7c756e" bgColor="2a2734" fontName="" fontStyle="" fontSize="10" />
             <WordsStyle name="OPERATOR" styleID="10" fgColor="9b87fd" bgColor="2a2734" fontName="" fontStyle="" fontSize="10" />
             <WordsStyle name="COMMENT" styleID="1" fgColor="726e87" bgColor="2a2734" fontName="" fontStyle="" fontSize="10" />
             <WordsStyle name="COMMENT LINE" styleID="2" fgColor="726e87" bgColor="2a2734" fontName="" fontStyle="" fontSize="10" />
@@ -154,13 +154,13 @@ Comment:    Copy this style to %APPDATA%\Notepad++\themes
             <WordsStyle name="DEFAULT" styleID="0" fgColor="9b87fd" bgColor="2a2734" fontName="" fontStyle="" fontSize="10" />
             <WordsStyle name="COMMENT" styleID="9" fgColor="726e87" bgColor="2a2734" fontName="" fontStyle="" fontSize="10" />
             <WordsStyle name="NUMBER" styleID="5" fgColor="c07830" bgColor="2a2734" fontName="" fontStyle="" fontSize="10" />
-            <WordsStyle name="DOUBLESTRING" styleID="6" fgColor="968f88" bgColor="2a2734" fontName="" fontStyle="" fontSize="10" />
+            <WordsStyle name="DOUBLESTRING" styleID="6" fgColor="7c756e" bgColor="2a2734" fontName="" fontStyle="" fontSize="10" />
             <WordsStyle name="SINGLESTRING" styleID="7" fgColor="a49bcf" bgColor="2a2734" fontName="" fontStyle="" fontSize="10" />
             <WordsStyle name="TAG" styleID="1" fgColor="7765d2" bgColor="2a2734" fontName="" fontStyle="" fontSize="10" />
             <WordsStyle name="TAGUNKNOWN" styleID="2" fgColor="7765d2" bgColor="2a2734" fontName="" fontStyle="" fontSize="10" />
             <WordsStyle name="ATTRIBUTE" styleID="3" fgColor="c07830" bgColor="2a2734" fontName="" fontStyle="" fontSize="10" />
             <WordsStyle name="ATTRIBUTEUNKNOWN" styleID="4" fgColor="c07830" bgColor="2a2734" fontName="" fontStyle="" fontSize="10" />
-            <WordsStyle name="SGMLDEFAULT" styleID="21" fgColor="968f88" bgColor="2a2734" fontName="" fontStyle="" fontSize="10" />
+            <WordsStyle name="SGMLDEFAULT" styleID="21" fgColor="7c756e" bgColor="2a2734" fontName="" fontStyle="" fontSize="10" />
             <WordsStyle name="CDATA" styleID="17" fgColor="c07830" bgColor="2a2734" fontName="" fontStyle="" fontSize="10" />
             <WordsStyle name="VALUE" styleID="19" fgColor="c07830" bgColor="2a2734" fontName="" fontStyle="" fontSize="10" />
             <WordsStyle name="ENTITY" styleID="10" fgColor="c07830" bgColor="2a2734" fontName="" fontStyle="" fontSize="10" />
@@ -168,9 +168,9 @@ Comment:    Copy this style to %APPDATA%\Notepad++\themes
         <LexerType name="php" desc="php" ext="">
             <WordsStyle name="QUESTION MARK" styleID="18" fgColor="9b87fd" bgColor="2a2734" fontName="" fontStyle="" fontSize="10" />
             <WordsStyle name="DEFAULT" styleID="118" fgColor="9b87fd" bgColor="2a2734" fontName="" fontStyle="" fontSize="10" />
-            <WordsStyle name="STRING" styleID="119" fgColor="968f88" bgColor="2a2734" fontName="" fontStyle="" fontSize="10" />
-            <WordsStyle name="STRING VARIABLE" styleID="126" fgColor="968f88" bgColor="2a2734" fontName="" fontStyle="" fontSize="10" />
-            <WordsStyle name="SIMPLESTRING" styleID="120" fgColor="968f88" bgColor="2a2734" fontName="" fontStyle="" fontSize="10" />
+            <WordsStyle name="STRING" styleID="119" fgColor="7c756e" bgColor="2a2734" fontName="" fontStyle="" fontSize="10" />
+            <WordsStyle name="STRING VARIABLE" styleID="126" fgColor="7c756e" bgColor="2a2734" fontName="" fontStyle="" fontSize="10" />
+            <WordsStyle name="SIMPLESTRING" styleID="120" fgColor="7c756e" bgColor="2a2734" fontName="" fontStyle="" fontSize="10" />
             <WordsStyle name="WORD" styleID="121" fgColor="a49bcf" bgColor="2a2734" fontName="" fontStyle="" fontSize="10" keywordClass="instre1" />
             <WordsStyle name="NUMBER" styleID="122" fgColor="c07830" bgColor="2a2734" fontName="" fontStyle="" fontSize="10" />
             <WordsStyle name="VARIABLE" styleID="123" fgColor="7765d2" bgColor="2a2734" fontName="" fontStyle="" fontSize="10" />
@@ -183,10 +183,10 @@ Comment:    Copy this style to %APPDATA%\Notepad++\themes
             <WordsStyle name="NUMBER" styleID="45" fgColor="c07830" bgColor="2a2734" fontName="" fontStyle="" fontSize="10" />
             <WordsStyle name="WORD" styleID="46" fgColor="9b87fd" bgColor="2a2734" fontName="" fontStyle="" fontSize="10" />
             <WordsStyle name="KEYWORD" styleID="47" fgColor="9b87fd" bgColor="2a2734" fontName="" fontStyle="" fontSize="10" keywordClass="instre1" />
-            <WordsStyle name="DOUBLESTRING" styleID="48" fgColor="968f88" bgColor="2a2734" fontName="" fontStyle="" fontSize="10" />
+            <WordsStyle name="DOUBLESTRING" styleID="48" fgColor="7c756e" bgColor="2a2734" fontName="" fontStyle="" fontSize="10" />
             <WordsStyle name="SINGLESTRING" styleID="49" fgColor="a49bcf" bgColor="2a2734" fontName="" fontStyle="" fontSize="10" />
             <WordsStyle name="SYMBOLS" styleID="50" fgColor="9b87fd" bgColor="2a2734" fontName="" fontStyle="" fontSize="10" />
-            <WordsStyle name="STRINGEOL" styleID="51" fgColor="968f88" bgColor="2a2734" fontName="" fontStyle="" fontSize="10" />
+            <WordsStyle name="STRINGEOL" styleID="51" fgColor="7c756e" bgColor="2a2734" fontName="" fontStyle="" fontSize="10" />
             <WordsStyle name="REGEX" styleID="52" fgColor="e8a35e" bgColor="2a2734" fontName="" fontStyle="" fontSize="10" />
             <WordsStyle name="COMMENT" styleID="42" fgColor="726e87" bgColor="2a2734" fontName="" fontStyle="" fontSize="10" />
             <WordsStyle name="COMMENTLINE" styleID="43" fgColor="726e87" bgColor="2a2734" fontName="" fontStyle="" fontSize="10" />
@@ -197,8 +197,8 @@ Comment:    Copy this style to %APPDATA%\Notepad++\themes
             <WordsStyle name="COMMENTLINE" styleID="82" fgColor="726e87" bgColor="2a2734" fontName="" fontStyle="" fontSize="10" />
             <WordsStyle name="NUMBER" styleID="83" fgColor="c07830" bgColor="2a2734" fontName="" fontStyle="" fontSize="10" />
             <WordsStyle name="WORD" styleID="84" fgColor="a49bcf" bgColor="2a2734" fontName="" fontStyle="" fontSize="10" keywordClass="instre1" />
-            <WordsStyle name="STRING" styleID="85" fgColor="968f88" bgColor="2a2734" fontName="" fontStyle="" fontSize="10" />
-            <WordsStyle name="STRINGEOL" styleID="87" fgColor="968f88" bgColor="2a2734" fontName="" fontStyle="" fontSize="10" />
+            <WordsStyle name="STRING" styleID="85" fgColor="7c756e" bgColor="2a2734" fontName="" fontStyle="" fontSize="10" />
+            <WordsStyle name="STRINGEOL" styleID="87" fgColor="7c756e" bgColor="2a2734" fontName="" fontStyle="" fontSize="10" />
             <WordsStyle name="IDENTIFIER" styleID="86" fgColor="e8a35e" bgColor="2a2734" fontName="" fontStyle="" fontSize="10" />
             <WordsStyle name="ASPSYBOL" styleID="15" fgColor="9b87fd" bgColor="2a2734" fontName="" fontStyle="" fontSize="10" />
             <WordsStyle name="SCRIPTTYPE" styleID="16" fgColor="9b87fd" bgColor="2a2734" fontName="" fontStyle="" fontSize="10" />
@@ -209,14 +209,14 @@ Comment:    Copy this style to %APPDATA%\Notepad++\themes
             <WordsStyle name="DEFAULT" styleID="0" fgColor="9b87fd" bgColor="2a2734" fontName="" fontStyle="" fontSize="10" />
             <WordsStyle name="COMMENT" styleID="9" fgColor="726e87" bgColor="2a2734" fontName="" fontStyle="" fontSize="10" />
             <WordsStyle name="NUMBER" styleID="5" fgColor="c07830" bgColor="2a2734" fontName="" fontStyle="" fontSize="10" />
-            <WordsStyle name="DOUBLESTRING" styleID="6" fgColor="968f88" bgColor="2a2734" fontName="" fontStyle="" fontSize="10" />
+            <WordsStyle name="DOUBLESTRING" styleID="6" fgColor="7c756e" bgColor="2a2734" fontName="" fontStyle="" fontSize="10" />
             <WordsStyle name="SINGLESTRING" styleID="7" fgColor="a49bcf" bgColor="2a2734" fontName="" fontStyle="" fontSize="10" />
             <WordsStyle name="TAG" styleID="1" fgColor="7765d2" bgColor="2a2734" fontName="" fontStyle="" fontSize="10" />
             <WordsStyle name="TAGEND" styleID="11" fgColor="7765d2" bgColor="2a2734" fontName="" fontStyle="" fontSize="10" />
             <WordsStyle name="TAGUNKNOWN" styleID="2" fgColor="7765d2" bgColor="2a2734" fontName="" fontStyle="" fontSize="10" />
             <WordsStyle name="ATTRIBUTE" styleID="3" fgColor="c07830" bgColor="2a2734" fontName="" fontStyle="" fontSize="10" />
             <WordsStyle name="ATTRIBUTEUNKNOWN" styleID="4" fgColor="c07830" bgColor="2a2734" fontName="" fontStyle="" fontSize="10" />
-            <WordsStyle name="SGMLDEFAULT" styleID="21" fgColor="968f88" bgColor="2a2734" fontName="" fontStyle="" fontSize="10" />
+            <WordsStyle name="SGMLDEFAULT" styleID="21" fgColor="7c756e" bgColor="2a2734" fontName="" fontStyle="" fontSize="10" />
             <WordsStyle name="CDATA" styleID="17" fgColor="c07830" bgColor="2a2734" fontName="" fontStyle="" fontSize="10" />
         </LexerType>
         <LexerType name="ini" desc="ini file" ext="">
@@ -258,7 +258,7 @@ Comment:    Copy this style to %APPDATA%\Notepad++\themes
             <WordsStyle name="COMMENT" styleID="1" fgColor="726e87" bgColor="2a2734" fontName="" fontStyle="" fontSize="10" />
             <WordsStyle name="NUMBER" styleID="2" fgColor="c07830" bgColor="2a2734" fontName="" fontStyle="" fontSize="10" />
             <WordsStyle name="WORD" styleID="3" fgColor="a49bcf" bgColor="2a2734" fontName="" fontStyle="" fontSize="10" keywordClass="instre1" />
-            <WordsStyle name="STRING" styleID="4" fgColor="968f88" bgColor="2a2734" fontName="" fontStyle="" fontSize="10" />
+            <WordsStyle name="STRING" styleID="4" fgColor="7c756e" bgColor="2a2734" fontName="" fontStyle="" fontSize="10" />
             <WordsStyle name="PREPROCESSOR" styleID="5" fgColor="a49bcf" bgColor="2a2734" fontName="" fontStyle="" fontSize="10" />
             <WordsStyle name="OPERATOR" styleID="6" fgColor="9b87fd" bgColor="2a2734" fontName="" fontStyle="" fontSize="10" />
             <WordsStyle name="DATE" styleID="8" fgColor="9b87fd" bgColor="2a2734" fontName="" fontStyle="" fontSize="10" />
@@ -296,7 +296,7 @@ Comment:    Copy this style to %APPDATA%\Notepad++\themes
             <WordsStyle name="DEFAULT" styleID="0" fgColor="9b87fd" bgColor="2a2734" fontName="" fontStyle="" fontSize="10" />
             <WordsStyle name="INSTRUCTION WORD" styleID="5" fgColor="a49bcf" bgColor="2a2734" fontName="" fontStyle="" fontSize="10" keywordClass="instre1" />
             <WordsStyle name="NUMBER" styleID="4" fgColor="c07830" bgColor="2a2734" fontName="" fontStyle="" fontSize="10" />
-            <WordsStyle name="STRING" styleID="6" fgColor="968f88" bgColor="2a2734" fontName="" fontStyle="" fontSize="10" />
+            <WordsStyle name="STRING" styleID="6" fgColor="7c756e" bgColor="2a2734" fontName="" fontStyle="" fontSize="10" />
             <WordsStyle name="CHARACTER" styleID="7" fgColor="a49bcf" bgColor="2a2734" fontName="" fontStyle="" fontSize="10" />
             <WordsStyle name="OPERATOR" styleID="10" fgColor="9b87fd" bgColor="2a2734" fontName="" fontStyle="" fontSize="10" />
             <WordsStyle name="REGEX" styleID="17" fgColor="e8a35e" bgColor="2a2734" fontName="" fontStyle="" fontSize="10" />
@@ -309,15 +309,15 @@ Comment:    Copy this style to %APPDATA%\Notepad++\themes
             <WordsStyle name="POD" styleID="3" fgColor="" bgColor="2a2734" fontName="" fontStyle="" fontSize="10" />
             <WordsStyle name="ERROR" styleID="1" fgColor="" bgColor="2a2734" fontName="" fontStyle="" fontSize="10" />
             <WordsStyle name="LONGQUOTE" styleID="19" fgColor="" bgColor="2a2734" fontName="" fontStyle="" fontSize="10" />
-            <WordsStyle name="DATASECTION" styleID="21" fgColor="968f88" bgColor="2a2734" fontName="" fontStyle="" fontSize="10" />
+            <WordsStyle name="DATASECTION" styleID="21" fgColor="7c756e" bgColor="2a2734" fontName="" fontStyle="" fontSize="10" />
             <WordsStyle name="REGSUBST" styleID="18" fgColor="e8a35e" bgColor="2a2734" fontName="" fontStyle="" fontSize="10" />
-            <WordsStyle name="BACKTICKS" styleID="20" fgColor="968f88" bgColor="2a2734" fontName="" fontStyle="" fontSize="10" />
+            <WordsStyle name="BACKTICKS" styleID="20" fgColor="7c756e" bgColor="2a2734" fontName="" fontStyle="" fontSize="10" />
         </LexerType>
         <LexerType name="python" desc="Python" ext="">
             <WordsStyle name="DEFAULT" styleID="0" fgColor="9b87fd" bgColor="2a2734" fontName="" fontStyle="" fontSize="10" />
             <WordsStyle name="COMMENTLINE" styleID="1" fgColor="726e87" bgColor="2a2734" fontName="" fontStyle="" fontSize="10" />
             <WordsStyle name="NUMBER" styleID="2" fgColor="c07830" bgColor="2a2734" fontName="" fontStyle="" fontSize="10" />
-            <WordsStyle name="STRING" styleID="3" fgColor="968f88" bgColor="2a2734" fontName="" fontStyle="" fontSize="10" />
+            <WordsStyle name="STRING" styleID="3" fgColor="7c756e" bgColor="2a2734" fontName="" fontStyle="" fontSize="10" />
             <WordsStyle name="CHARACTER" styleID="4" fgColor="a49bcf" bgColor="2a2734" fontName="" fontStyle="" fontSize="10" />
             <WordsStyle name="KEYWORDS" styleID="5" fgColor="9b87fd" bgColor="2a2734" fontName="" fontStyle="" fontSize="10" keywordClass="instre1" />
             <WordsStyle name="TRIPLE" styleID="6" fgColor="726e87" bgColor="2a2734" fontName="" fontStyle="" fontSize="10" />
@@ -327,7 +327,7 @@ Comment:    Copy this style to %APPDATA%\Notepad++\themes
             <WordsStyle name="OPERATOR" styleID="10" fgColor="9b87fd" bgColor="2a2734" fontName="" fontStyle="" fontSize="10" />
             <WordsStyle name="IDENTIFIER" styleID="11" fgColor="e8a35e" bgColor="2a2734" fontName="" fontStyle="" fontSize="10" />
             <WordsStyle name="COMMENTBLOCK" styleID="12" fgColor="726e87" bgColor="2a2734" fontName="" fontStyle="" fontSize="10" />
-            <WordsStyle name="STRINGEOL" styleID="12" fgColor="968f88" bgColor="2a2734" fontName="" fontStyle="" fontSize="10" />
+            <WordsStyle name="STRINGEOL" styleID="12" fgColor="7c756e" bgColor="2a2734" fontName="" fontStyle="" fontSize="10" />
         </LexerType>
         <LexerType name="batch" desc="Batch" ext="">
             <WordsStyle name="DEFAULT" styleID="0" fgColor="9b87fd" bgColor="2a2734" fontName="" fontStyle="" fontSize="10" />
@@ -344,11 +344,11 @@ Comment:    Copy this style to %APPDATA%\Notepad++\themes
             <WordsStyle name="COMMENT" styleID="1" fgColor="726e87" bgColor="2a2734" fontName="" fontStyle="" fontSize="10" />
             <WordsStyle name="COMMENT LINE" styleID="2" fgColor="726e87" bgColor="2a2734" fontName="" fontStyle="" fontSize="10" />
             <WordsStyle name="COMMENT DOC" styleID="3" fgColor="726e87" bgColor="2a2734" fontName="" fontStyle="" fontSize="10" />
-            <WordsStyle name="LITERALSTRING" styleID="8" fgColor="968f88" bgColor="2a2734" fontName="" fontStyle="" fontSize="10" />
+            <WordsStyle name="LITERALSTRING" styleID="8" fgColor="7c756e" bgColor="2a2734" fontName="" fontStyle="" fontSize="10" />
             <WordsStyle name="PREPROCESSOR" styleID="9" fgColor="a49bcf" bgColor="2a2734" fontName="" fontStyle="" fontSize="10" />
             <WordsStyle name="INSTRUCTION WORD" styleID="5" fgColor="a49bcf" bgColor="2a2734" fontName="" fontStyle="" fontSize="10" keywordClass="instre1" />
             <WordsStyle name="NUMBER" styleID="4" fgColor="c07830" bgColor="2a2734" fontName="" fontStyle="" fontSize="10" />
-            <WordsStyle name="STRING" styleID="6" fgColor="968f88" bgColor="2a2734" fontName="" fontStyle="" fontSize="10" />
+            <WordsStyle name="STRING" styleID="6" fgColor="7c756e" bgColor="2a2734" fontName="" fontStyle="" fontSize="10" />
             <WordsStyle name="CHARACTER" styleID="7" fgColor="a49bcf" bgColor="2a2734" fontName="" fontStyle="" fontSize="10" />
             <WordsStyle name="OPERATOR" styleID="10" fgColor="9b87fd" bgColor="2a2734" fontName="" fontStyle="" fontSize="10" />
             <WordsStyle name="FUNC1" styleID="13" fgColor="" bgColor="2a2734" fontName="" fontStyle="" fontSize="10" keywordClass="instre2" />
@@ -361,14 +361,14 @@ Comment:    Copy this style to %APPDATA%\Notepad++\themes
             <WordsStyle name="GROUP" styleID="2" fgColor="" bgColor="2a2734" fontName="" fontStyle="" fontSize="10" />
             <WordsStyle name="SYMBOL" styleID="3" fgColor="9b87fd" bgColor="2a2734" fontName="" fontStyle="" fontSize="10" />
             <WordsStyle name="COMMAND" styleID="4" fgColor="e8a35e" bgColor="2a2734" fontName="" fontStyle="" fontSize="10" />
-            <WordsStyle name="TEXT" styleID="5" fgColor="968f88" bgColor="2a2734" fontName="" fontStyle="" fontSize="10" />
+            <WordsStyle name="TEXT" styleID="5" fgColor="7c756e" bgColor="2a2734" fontName="" fontStyle="" fontSize="10" />
         </LexerType>
         <LexerType name="nsis" desc="NSIS" ext="">
             <WordsStyle name="DEFAULT" styleID="0" fgColor="9b87fd" bgColor="2a2734" fontName="" fontStyle="" fontSize="10" />
             <WordsStyle name="COMMENTLINE" styleID="1" fgColor="726e87" bgColor="2a2734" fontName="" fontStyle="" fontSize="10" />
-            <WordsStyle name="STRING DOUBLE QUOTE" styleID="2" fgColor="968f88" bgColor="2a2734" fontName="" fontStyle="" fontSize="10" />
-            <WordsStyle name="STRING LEFT QUOTE" styleID="3" fgColor="968f88" bgColor="2a2734" fontName="" fontStyle="" fontSize="10" />
-            <WordsStyle name="STRING RIGHT QUOTE" styleID="4" fgColor="968f88" bgColor="2a2734" fontName="" fontStyle="" fontSize="10" />
+            <WordsStyle name="STRING DOUBLE QUOTE" styleID="2" fgColor="7c756e" bgColor="2a2734" fontName="" fontStyle="" fontSize="10" />
+            <WordsStyle name="STRING LEFT QUOTE" styleID="3" fgColor="7c756e" bgColor="2a2734" fontName="" fontStyle="" fontSize="10" />
+            <WordsStyle name="STRING RIGHT QUOTE" styleID="4" fgColor="7c756e" bgColor="2a2734" fontName="" fontStyle="" fontSize="10" />
             <WordsStyle name="FUNCTION" styleID="5" fgColor="e8a35e" bgColor="2a2734" fontName="" fontStyle="" fontSize="10" keywordClass="instre1" />
             <WordsStyle name="VARIABLE" styleID="6" fgColor="7765d2" bgColor="2a2734" fontName="" fontStyle="" fontSize="10" keywordClass="instre2" />
             <WordsStyle name="LABEL" styleID="7" fgColor="c07830" bgColor="2a2734" fontName="" fontStyle="" fontSize="10" keywordClass="type1" />
@@ -377,7 +377,7 @@ Comment:    Copy this style to %APPDATA%\Notepad++\themes
             <WordsStyle name="SUBSECTION" styleID="10" fgColor="" bgColor="2a2734" fontName="" fontStyle="" fontSize="10" />
             <WordsStyle name="IF DEFINE" styleID="11" fgColor="" bgColor="2a2734" fontName="" fontStyle="" fontSize="10" />
             <WordsStyle name="MACRO" styleID="12" fgColor="" bgColor="2a2734" fontName="" fontStyle="" fontSize="10" />
-            <WordsStyle name="STRING VAR" styleID="13" fgColor="968f88" bgColor="2a2734" fontName="" fontStyle="" fontSize="10" />
+            <WordsStyle name="STRING VAR" styleID="13" fgColor="7c756e" bgColor="2a2734" fontName="" fontStyle="" fontSize="10" />
             <WordsStyle name="NUMBER" styleID="14" fgColor="c07830" bgColor="2a2734" fontName="" fontStyle="" fontSize="10" />
             <WordsStyle name="SECTION GROUP" styleID="15" fgColor="" bgColor="2a2734" fontName="" fontStyle="" fontSize="10" />
             <WordsStyle name="PAGE EX" styleID="16" fgColor="" bgColor="2a2734" fontName="" fontStyle="" fontSize="10" />
@@ -394,7 +394,7 @@ Comment:    Copy this style to %APPDATA%\Notepad++\themes
             <WordsStyle name="INSTRUCTION WORD" styleID="5" fgColor="a49bcf" bgColor="2a2734" fontName="" fontStyle="" fontSize="10" keywordClass="instre1" />
             <WordsStyle name="TYPE WORD" styleID="16" fgColor="a49bcf" bgColor="2a2734" fontName="" fontStyle="" fontSize="10" keywordClass="type1" />
             <WordsStyle name="NUMBER" styleID="4" fgColor="c07830" bgColor="2a2734" fontName="" fontStyle="" fontSize="10" />
-            <WordsStyle name="STRING" styleID="6" fgColor="968f88" bgColor="2a2734" fontName="" fontStyle="" fontSize="10" />
+            <WordsStyle name="STRING" styleID="6" fgColor="7c756e" bgColor="2a2734" fontName="" fontStyle="" fontSize="10" />
             <WordsStyle name="CHARACTER" styleID="7" fgColor="a49bcf" bgColor="2a2734" fontName="" fontStyle="" fontSize="10" />
             <WordsStyle name="OPERATOR" styleID="10" fgColor="9b87fd" bgColor="2a2734" fontName="" fontStyle="" fontSize="10" />
             <WordsStyle name="VERBATIM" styleID="13" fgColor="c07830" bgColor="2a2734" fontName="" fontStyle="" fontSize="10" />
@@ -411,14 +411,14 @@ Comment:    Copy this style to %APPDATA%\Notepad++\themes
             <WordsStyle name="ERROR" styleID="1" fgColor="" bgColor="2a2734" fontName="" fontStyle="" fontSize="10" />
             <WordsStyle name="INSTRUCTION WORD" styleID="4" fgColor="a49bcf" bgColor="2a2734" fontName="" fontStyle="" fontSize="10" keywordClass="instre1" />
             <WordsStyle name="NUMBER" styleID="3" fgColor="c07830" bgColor="2a2734" fontName="" fontStyle="" fontSize="10" />
-            <WordsStyle name="STRING" styleID="5" fgColor="968f88" bgColor="2a2734" fontName="" fontStyle="" fontSize="10" />
+            <WordsStyle name="STRING" styleID="5" fgColor="7c756e" bgColor="2a2734" fontName="" fontStyle="" fontSize="10" />
             <WordsStyle name="CHARACTER" styleID="6" fgColor="a49bcf" bgColor="2a2734" fontName="" fontStyle="" fontSize="10" />
             <WordsStyle name="OPERATOR" styleID="7" fgColor="9b87fd" bgColor="2a2734" fontName="" fontStyle="" fontSize="10" />
             <WordsStyle name="IDENTIFIER" styleID="8" fgColor="e8a35e" bgColor="2a2734" fontName="" fontStyle="" fontSize="10" />
             <WordsStyle name="SCALAR" styleID="9" fgColor="7765d2" bgColor="2a2734" fontName="" fontStyle="" fontSize="10" />
             <WordsStyle name="COMMENT LINE" styleID="2" fgColor="726e87" bgColor="2a2734" fontName="" fontStyle="" fontSize="10" />
             <WordsStyle name="PARAM" styleID="10" fgColor="" bgColor="2a2734" fontName="" fontStyle="" fontSize="10" />
-            <WordsStyle name="BACKTICKS" styleID="11" fgColor="968f88" bgColor="2a2734" fontName="" fontStyle="" fontSize="10" />
+            <WordsStyle name="BACKTICKS" styleID="11" fgColor="7c756e" bgColor="2a2734" fontName="" fontStyle="" fontSize="10" />
             <WordsStyle name="HERE DELIM" styleID="12" fgColor="" bgColor="2a2734" fontName="" fontStyle="" fontSize="10" />
             <WordsStyle name="HERE Q" styleID="13" fgColor="" bgColor="2a2734" fontName="" fontStyle="" fontSize="10" />
         </LexerType>
@@ -426,9 +426,9 @@ Comment:    Copy this style to %APPDATA%\Notepad++\themes
             <WordsStyle name="DEFAULT" styleID="0" fgColor="9b87fd" bgColor="2a2734" fontName="" fontStyle="" fontSize="10" />
             <WordsStyle name="COMMENT" styleID="1" fgColor="726e87" bgColor="2a2734" fontName="" fontStyle="" fontSize="10" />
             <WordsStyle name="NUMBER" styleID="2" fgColor="c07830" bgColor="2a2734" fontName="" fontStyle="" fontSize="10" />
-            <WordsStyle name="STRING" styleID="3" fgColor="968f88" bgColor="2a2734" fontName="" fontStyle="" fontSize="10" />
-            <WordsStyle name="STRING2" styleID="4" fgColor="968f88" bgColor="2a2734" fontName="" fontStyle="" fontSize="10" />
-            <WordsStyle name="STRINGEOL" styleID="5" fgColor="968f88" bgColor="2a2734" fontName="" fontStyle="" fontSize="10" />
+            <WordsStyle name="STRING" styleID="3" fgColor="7c756e" bgColor="2a2734" fontName="" fontStyle="" fontSize="10" />
+            <WordsStyle name="STRING2" styleID="4" fgColor="7c756e" bgColor="2a2734" fontName="" fontStyle="" fontSize="10" />
+            <WordsStyle name="STRINGEOL" styleID="5" fgColor="7c756e" bgColor="2a2734" fontName="" fontStyle="" fontSize="10" />
             <WordsStyle name="OPERATOR" styleID="6" fgColor="9b87fd" bgColor="2a2734" fontName="" fontStyle="" fontSize="10" />
             <WordsStyle name="IDENTIFIER" styleID="7" fgColor="e8a35e" bgColor="2a2734" fontName="" fontStyle="" fontSize="10" />
             <WordsStyle name="INSTRUCTION WORD" styleID="8" fgColor="a49bcf" bgColor="2a2734" fontName="" fontStyle="" fontSize="10" keywordClass="instre1" />
@@ -445,8 +445,8 @@ Comment:    Copy this style to %APPDATA%\Notepad++\themes
             <WordsStyle name="NUMBER" styleID="2" fgColor="c07830" bgColor="2a2734" fontName="" fontStyle="" fontSize="10" />
             <WordsStyle name="FUNCTION WORD" styleID="3" fgColor="" bgColor="2a2734" fontName="" fontStyle="" fontSize="10" keywordClass="instre1" />
             <WordsStyle name="SYMBOL" styleID="5" fgColor="9b87fd" bgColor="2a2734" fontName="" fontStyle="" fontSize="10" />
-            <WordsStyle name="STRING" styleID="6" fgColor="968f88" bgColor="2a2734" fontName="" fontStyle="" fontSize="10" />
-            <WordsStyle name="STRINGEOL" styleID="8" fgColor="968f88" bgColor="2a2734" fontName="" fontStyle="" fontSize="10" />
+            <WordsStyle name="STRING" styleID="6" fgColor="7c756e" bgColor="2a2734" fontName="" fontStyle="" fontSize="10" />
+            <WordsStyle name="STRINGEOL" styleID="8" fgColor="7c756e" bgColor="2a2734" fontName="" fontStyle="" fontSize="10" />
             <WordsStyle name="IDENTIFIER" styleID="9" fgColor="e8a35e" bgColor="2a2734" fontName="" fontStyle="" fontSize="10" />
             <WordsStyle name="OPERATOR" styleID="10" fgColor="9b87fd" bgColor="2a2734" fontName="" fontStyle="" fontSize="10" keywordClass="type1" />
             <WordsStyle name="SPECIAL" styleID="11" fgColor="" bgColor="2a2734" fontName="" fontStyle="" fontSize="10" />
@@ -456,7 +456,7 @@ Comment:    Copy this style to %APPDATA%\Notepad++\themes
             <WordsStyle name="DEFAULT" styleID="0" fgColor="9b87fd" bgColor="2a2734" fontName="" fontStyle="" fontSize="10" />
             <WordsStyle name="COMMENT" styleID="1" fgColor="726e87" bgColor="2a2734" fontName="" fontStyle="" fontSize="10" />
             <WordsStyle name="NUMBER" styleID="2" fgColor="c07830" bgColor="2a2734" fontName="" fontStyle="" fontSize="10" />
-            <WordsStyle name="STRING" styleID="3" fgColor="968f88" bgColor="2a2734" fontName="" fontStyle="" fontSize="10" />
+            <WordsStyle name="STRING" styleID="3" fgColor="7c756e" bgColor="2a2734" fontName="" fontStyle="" fontSize="10" />
             <WordsStyle name="OPERATOR" styleID="4" fgColor="9b87fd" bgColor="2a2734" fontName="" fontStyle="" fontSize="10" />
             <WordsStyle name="IDENTIFIER" styleID="5" fgColor="e8a35e" bgColor="2a2734" fontName="" fontStyle="" fontSize="10" />
             <WordsStyle name="CPU INSTRUCTION" styleID="6" fgColor="" bgColor="2a2734" fontName="" fontStyle="" fontSize="10" keywordClass="instre1" />
@@ -466,7 +466,7 @@ Comment:    Copy this style to %APPDATA%\Notepad++\themes
             <WordsStyle name="DIRECTIVE OPERAND" styleID="10" fgColor="" bgColor="2a2734" fontName="" fontStyle="" fontSize="10" keywordClass="type3" />
             <WordsStyle name="COMMENT BLOCK" styleID="11" fgColor="726e87" bgColor="2a2734" fontName="" fontStyle="" fontSize="10" />
             <WordsStyle name="CHARACTER" styleID="12" fgColor="a49bcf" bgColor="2a2734" fontName="" fontStyle="" fontSize="10" />
-            <WordsStyle name="STRINGEOL" styleID="13" fgColor="968f88" bgColor="2a2734" fontName="" fontStyle="" fontSize="10" />
+            <WordsStyle name="STRINGEOL" styleID="13" fgColor="7c756e" bgColor="2a2734" fontName="" fontStyle="" fontSize="10" />
             <WordsStyle name="EXT INSTRUCTION" styleID="14" fgColor="" bgColor="2a2734" fontName="" fontStyle="" fontSize="10" keywordClass="type4" />
         </LexerType>
         <LexerType name="ruby" desc="Ruby" ext="">
@@ -476,7 +476,7 @@ Comment:    Copy this style to %APPDATA%\Notepad++\themes
             <WordsStyle name="POD" styleID="3" fgColor="" bgColor="2a2734" fontName="" fontStyle="" fontSize="10" />
             <WordsStyle name="NUMBER" styleID="4" fgColor="c07830" bgColor="2a2734" fontName="" fontStyle="" fontSize="10" />
             <WordsStyle name="INSTRUCTION" styleID="5" fgColor="a49bcf" bgColor="2a2734" fontName="" fontStyle="" fontSize="10" keywordClass="instre1" />
-            <WordsStyle name="STRING" styleID="6" fgColor="968f88" bgColor="2a2734" fontName="" fontStyle="" fontSize="10" />
+            <WordsStyle name="STRING" styleID="6" fgColor="7c756e" bgColor="2a2734" fontName="" fontStyle="" fontSize="10" />
             <WordsStyle name="CHARACTER" styleID="7" fgColor="a49bcf" bgColor="2a2734" fontName="" fontStyle="" fontSize="10" />
             <WordsStyle name="CLASS NAME" styleID="8" fgColor="d48535" bgColor="2a2734" fontName="" fontStyle="" fontSize="10" />
             <WordsStyle name="DEF NAME" styleID="9" fgColor="de9145" bgColor="2a2734" fontName="" fontStyle="" fontSize="10" />
@@ -488,9 +488,9 @@ Comment:    Copy this style to %APPDATA%\Notepad++\themes
             <WordsStyle name="MODULE NAME" styleID="15" fgColor="" bgColor="2a2734" fontName="" fontStyle="" fontSize="10" />
             <WordsStyle name="INSTANCE VAR" styleID="16" fgColor="7765d2" bgColor="2a2734" fontName="" fontStyle="" fontSize="10" />
             <WordsStyle name="CLASS VAR" styleID="17" fgColor="" bgColor="2a2734" fontName="" fontStyle="" fontSize="10" />
-            <WordsStyle name="BACKTICKS" styleID="18" fgColor="968f88" bgColor="2a2734" fontName="" fontStyle="" fontSize="10" />
+            <WordsStyle name="BACKTICKS" styleID="18" fgColor="7c756e" bgColor="2a2734" fontName="" fontStyle="" fontSize="10" />
             <WordsStyle name="DATA SECTION" styleID="19" fgColor="" bgColor="2a2734" fontName="" fontStyle="" fontSize="10" />
-            <WordsStyle name="STRING Q" styleID="24" fgColor="968f88" bgColor="2a2734" fontName="" fontStyle="" fontSize="10" />
+            <WordsStyle name="STRING Q" styleID="24" fgColor="7c756e" bgColor="2a2734" fontName="" fontStyle="" fontSize="10" />
         </LexerType>
         <LexerType name="postscript" desc="Postscript" ext="">
             <WordsStyle name="DEFAULT" styleID="0" fgColor="9b87fd" bgColor="2a2734" fontName="" fontStyle="" fontSize="10" />
@@ -505,20 +505,20 @@ Comment:    Copy this style to %APPDATA%\Notepad++\themes
             <WordsStyle name="PAREN ARRAY" styleID="9" fgColor="" bgColor="2a2734" fontName="" fontStyle="" fontSize="10" />
             <WordsStyle name="PAREN DICT" styleID="10" fgColor="" bgColor="2a2734" fontName="" fontStyle="" fontSize="10" />
             <WordsStyle name="PAREN PROC" styleID="11" fgColor="" bgColor="2a2734" fontName="" fontStyle="" fontSize="10" />
-            <WordsStyle name="TEXT" styleID="12" fgColor="968f88" bgColor="2a2734" fontName="" fontStyle="" fontSize="10" />
-            <WordsStyle name="HEX STRING" styleID="13" fgColor="968f88" bgColor="2a2734" fontName="" fontStyle="" fontSize="10" />
-            <WordsStyle name="BASE85 STRING" styleID="14" fgColor="968f88" bgColor="2a2734" fontName="" fontStyle="" fontSize="10" />
-            <WordsStyle name="BAD STRING CHAR" styleID="15" fgColor="968f88" bgColor="2a2734" fontName="" fontStyle="" fontSize="10" />
+            <WordsStyle name="TEXT" styleID="12" fgColor="7c756e" bgColor="2a2734" fontName="" fontStyle="" fontSize="10" />
+            <WordsStyle name="HEX STRING" styleID="13" fgColor="7c756e" bgColor="2a2734" fontName="" fontStyle="" fontSize="10" />
+            <WordsStyle name="BASE85 STRING" styleID="14" fgColor="7c756e" bgColor="2a2734" fontName="" fontStyle="" fontSize="10" />
+            <WordsStyle name="BAD STRING CHAR" styleID="15" fgColor="7c756e" bgColor="2a2734" fontName="" fontStyle="" fontSize="10" />
         </LexerType>
         <LexerType name="vhdl" desc="VHDL" ext="">
             <WordsStyle name="DEFAULT" styleID="0" fgColor="9b87fd" bgColor="2a2734" fontName="" fontStyle="" fontSize="10" />
             <WordsStyle name="COMMENT" styleID="1" fgColor="726e87" bgColor="2a2734" fontName="" fontStyle="" fontSize="10" />
             <WordsStyle name="COMMENT LIne" styleID="2" fgColor="726e87" bgColor="2a2734" fontName="" fontStyle="" fontSize="10" />
             <WordsStyle name="NUMBER" styleID="3" fgColor="c07830" bgColor="2a2734" fontName="" fontStyle="" fontSize="10" />
-            <WordsStyle name="STRING" styleID="4" fgColor="968f88" bgColor="2a2734" fontName="" fontStyle="" fontSize="10" />
+            <WordsStyle name="STRING" styleID="4" fgColor="7c756e" bgColor="2a2734" fontName="" fontStyle="" fontSize="10" />
             <WordsStyle name="OPERATOR" styleID="5" fgColor="9b87fd" bgColor="2a2734" fontName="" fontStyle="" fontSize="10" />
             <WordsStyle name="IDENTIFIER" styleID="6" fgColor="e8a35e" bgColor="2a2734" fontName="" fontStyle="" fontSize="10" />
-            <WordsStyle name="STRING EOL" styleID="7" fgColor="968f88" bgColor="2a2734" fontName="" fontStyle="" fontSize="10" />
+            <WordsStyle name="STRING EOL" styleID="7" fgColor="7c756e" bgColor="2a2734" fontName="" fontStyle="" fontSize="10" />
             <WordsStyle name="INSTRUCTION" styleID="8" fgColor="a49bcf" bgColor="2a2734" fontName="" fontStyle="" fontSize="10" keywordClass="instre1" />
             <WordsStyle name="STD OPERATOR" styleID="9" fgColor="" bgColor="2a2734" fontName="" fontStyle="" fontSize="10" keywordClass="instre2" />
             <WordsStyle name="ATTRIBUTE" styleID="10" fgColor="c07830" bgColor="2a2734" fontName="" fontStyle="" fontSize="10" keywordClass="type1" />
@@ -531,7 +531,7 @@ Comment:    Copy this style to %APPDATA%\Notepad++\themes
         </LexerType>
         <LexerType name="smalltalk" desc="Smalltalk" ext="">
             <WordsStyle name="DEFAULT" styleID="0" fgColor="9b87fd" bgColor="2a2734" fontName="" fontStyle="" fontSize="10" />
-            <WordsStyle name="STRING" styleID="1" fgColor="968f88" bgColor="2a2734" fontName="" fontStyle="" fontSize="10" />
+            <WordsStyle name="STRING" styleID="1" fgColor="7c756e" bgColor="2a2734" fontName="" fontStyle="" fontSize="10" />
             <WordsStyle name="NUMBER" styleID="2" fgColor="c07830" bgColor="2a2734" fontName="" fontStyle="" fontSize="10" />
             <WordsStyle name="COMMENT" styleID="3" fgColor="726e87" bgColor="2a2734" fontName="" fontStyle="" fontSize="10" />
             <WordsStyle name="SYMBOL" styleID="4" fgColor="9b87fd" bgColor="2a2734" fontName="" fontStyle="" fontSize="10" />
@@ -559,7 +559,7 @@ Comment:    Copy this style to %APPDATA%\Notepad++\themes
             <WordsStyle name="OPERATOR" styleID="7" fgColor="9b87fd" bgColor="2a2734" fontName="" fontStyle="" fontSize="10" />
             <WordsStyle name="NUMBER" styleID="8" fgColor="c07830" bgColor="2a2734" fontName="" fontStyle="" fontSize="10" />
             <WordsStyle name="CHARACTER" styleID="9" fgColor="a49bcf" bgColor="2a2734" fontName="" fontStyle="" fontSize="10" />
-            <WordsStyle name="STRING" styleID="11" fgColor="968f88" bgColor="2a2734" fontName="" fontStyle="" fontSize="10" />
+            <WordsStyle name="STRING" styleID="11" fgColor="7c756e" bgColor="2a2734" fontName="" fontStyle="" fontSize="10" />
             <WordsStyle name="COMMENT" styleID="12" fgColor="726e87" bgColor="2a2734" fontName="" fontStyle="" fontSize="10" />
             <WordsStyle name="COMMENT LINE" styleID="13" fgColor="726e87" bgColor="2a2734" fontName="" fontStyle="" fontSize="10" />
             <WordsStyle name="COMMENT DOC" styleID="14" fgColor="726e87" bgColor="2a2734" fontName="" fontStyle="" fontSize="10" />
@@ -574,11 +574,11 @@ Comment:    Copy this style to %APPDATA%\Notepad++\themes
             <WordsStyle name="OPERATOR" styleID="10" fgColor="9b87fd" bgColor="2a2734" fontName="" fontStyle="" fontSize="10" />
             <WordsStyle name="NUMBER" styleID="4" fgColor="c07830" bgColor="2a2734" fontName="" fontStyle="" fontSize="10" />
             <WordsStyle name="PREPROCESSOR" styleID="9" fgColor="a49bcf" bgColor="2a2734" fontName="" fontStyle="" fontSize="10" />
-            <WordsStyle name="STRING" styleID="6" fgColor="968f88" bgColor="2a2734" fontName="" fontStyle="" fontSize="10" />
+            <WordsStyle name="STRING" styleID="6" fgColor="7c756e" bgColor="2a2734" fontName="" fontStyle="" fontSize="10" />
             <WordsStyle name="COMMENT" styleID="1" fgColor="726e87" bgColor="2a2734" fontName="" fontStyle="" fontSize="10" />
             <WordsStyle name="COMMENT LINE" styleID="2" fgColor="726e87" bgColor="2a2734" fontName="" fontStyle="" fontSize="10" />
             <WordsStyle name="COMMENT LINE BANG" styleID="3" fgColor="726e87" bgColor="2a2734" fontName="" fontStyle="" fontSize="10" />
-            <WordsStyle name="STRING EOL" styleID="12" fgColor="968f88" bgColor="2a2734" fontName="" fontStyle="" fontSize="10" />
+            <WordsStyle name="STRING EOL" styleID="12" fgColor="7c756e" bgColor="2a2734" fontName="" fontStyle="" fontSize="10" />
             <WordsStyle name="USER" styleID="19" fgColor="" bgColor="2a2734" fontName="" fontStyle="" fontSize="10" />
         </LexerType>
         <LexerType name="kix" desc="KiXtart" ext="">
@@ -587,8 +587,8 @@ Comment:    Copy this style to %APPDATA%\Notepad++\themes
         -->
             <WordsStyle name="DEFAULT" styleID="31" fgColor="9b87fd" bgColor="2a2734" fontName="" fontStyle="" fontSize="10" />
             <WordsStyle name="COMMENT" styleID="1" fgColor="726e87" bgColor="2a2734" fontName="" fontStyle="" fontSize="10" />
-            <WordsStyle name="STRING" styleID="2" fgColor="968f88" bgColor="2a2734" fontName="" fontStyle="" fontSize="10" />
-            <WordsStyle name="STRING2" styleID="3" fgColor="968f88" bgColor="2a2734" fontName="" fontStyle="" fontSize="10" />
+            <WordsStyle name="STRING" styleID="2" fgColor="7c756e" bgColor="2a2734" fontName="" fontStyle="" fontSize="10" />
+            <WordsStyle name="STRING2" styleID="3" fgColor="7c756e" bgColor="2a2734" fontName="" fontStyle="" fontSize="10" />
             <WordsStyle name="NUMBER" styleID="4" fgColor="c07830" bgColor="2a2734" fontName="" fontStyle="" fontSize="10" />
             <WordsStyle name="VAR" styleID="5" fgColor="" bgColor="2a2734" fontName="" fontStyle="" fontSize="10" />
             <WordsStyle name="MACRO" styleID="6" fgColor="" bgColor="2a2734" fontName="" fontStyle="" fontSize="10" keywordClass="instre2" />
@@ -604,7 +604,7 @@ Comment:    Copy this style to %APPDATA%\Notepad++\themes
             <WordsStyle name="FUNCTION" styleID="4" fgColor="e8a35e" bgColor="2a2734" fontName="" fontStyle="" fontSize="10" keywordClass="instre2" />
             <WordsStyle name="INSTRUCTION WORD" styleID="5" fgColor="a49bcf" bgColor="2a2734" fontName="" fontStyle="" fontSize="10" keywordClass="instre1" />
             <WordsStyle name="MACRO" styleID="6" fgColor="" bgColor="2a2734" fontName="" fontStyle="" fontSize="10" keywordClass="type1" />
-            <WordsStyle name="STRING" styleID="7" fgColor="968f88" bgColor="2a2734" fontName="" fontStyle="" fontSize="10" />
+            <WordsStyle name="STRING" styleID="7" fgColor="7c756e" bgColor="2a2734" fontName="" fontStyle="" fontSize="10" />
             <WordsStyle name="OPERATOR" styleID="8" fgColor="9b87fd" bgColor="2a2734" fontName="" fontStyle="" fontSize="10" />
             <WordsStyle name="VARIABLE" styleID="9" fgColor="7765d2" bgColor="2a2734" fontName="" fontStyle="" fontSize="10" />
             <WordsStyle name="SENT" styleID="10" fgColor="" bgColor="2a2734" fontName="" fontStyle="" fontSize="10" keywordClass="type2" />
@@ -621,8 +621,8 @@ Comment:    Copy this style to %APPDATA%\Notepad++\themes
             <WordsStyle name="DELIMITER" styleID="4" fgColor="" bgColor="2a2734" fontName="" fontStyle="" fontSize="10" />
             <WordsStyle name="CHARACTER" styleID="5" fgColor="a49bcf" bgColor="2a2734" fontName="" fontStyle="" fontSize="10" />
             <WordsStyle name="CHARACTER EOL" styleID="6" fgColor="" bgColor="2a2734" fontName="" fontStyle="" fontSize="10" />
-            <WordsStyle name="STRING" styleID="7" fgColor="968f88" bgColor="2a2734" fontName="" fontStyle="" fontSize="10" />
-            <WordsStyle name="STRING EOL" styleID="8" fgColor="968f88" bgColor="2a2734" fontName="" fontStyle="" fontSize="10" />
+            <WordsStyle name="STRING" styleID="7" fgColor="7c756e" bgColor="2a2734" fontName="" fontStyle="" fontSize="10" />
+            <WordsStyle name="STRING EOL" styleID="8" fgColor="7c756e" bgColor="2a2734" fontName="" fontStyle="" fontSize="10" />
             <WordsStyle name="LABEL" styleID="9" fgColor="c07830" bgColor="2a2734" fontName="" fontStyle="" fontSize="10" />
             <WordsStyle name="COMMENT LINE" styleID="10" fgColor="726e87" bgColor="2a2734" fontName="" fontStyle="" fontSize="10" />
             <WordsStyle name="ILLEGAL" styleID="11" fgColor="" bgColor="2a2734" fontName="" fontStyle="" fontSize="10" />
@@ -633,17 +633,17 @@ Comment:    Copy this style to %APPDATA%\Notepad++\themes
             <WordsStyle name="COMMAND" styleID="2" fgColor="e8a35e" bgColor="2a2734" fontName="" fontStyle="" fontSize="10" />
             <WordsStyle name="NUMBER" styleID="3" fgColor="c07830" bgColor="2a2734" fontName="" fontStyle="" fontSize="10" />
             <WordsStyle name="INSTRUCTION WORD" styleID="4" fgColor="a49bcf" bgColor="2a2734" fontName="" fontStyle="" fontSize="10" keywordClass="instre1" />
-            <WordsStyle name="STRING" styleID="5" fgColor="968f88" bgColor="2a2734" fontName="" fontStyle="" fontSize="10" />
+            <WordsStyle name="STRING" styleID="5" fgColor="7c756e" bgColor="2a2734" fontName="" fontStyle="" fontSize="10" />
             <WordsStyle name="OPERATOR" styleID="6" fgColor="9b87fd" bgColor="2a2734" fontName="" fontStyle="" fontSize="10" />
             <WordsStyle name="IDENTIFIER" styleID="7" fgColor="e8a35e" bgColor="2a2734" fontName="" fontStyle="" fontSize="10" />
-            <WordsStyle name="DOUBLE QUOTE STRING" styleID="8" fgColor="968f88" bgColor="2a2734" fontName="" fontStyle="" fontSize="10" />
+            <WordsStyle name="DOUBLE QUOTE STRING" styleID="8" fgColor="7c756e" bgColor="2a2734" fontName="" fontStyle="" fontSize="10" />
         </LexerType>
         <LexerType name="haskell" desc="Haskell" ext="">
             <WordsStyle name="DEFAULT" styleID="0" fgColor="9b87fd" bgColor="2a2734" fontName="" fontStyle="" fontSize="10" />
             <WordsStyle name="IDENTIFIER" styleID="1" fgColor="e8a35e" bgColor="2a2734" fontName="" fontStyle="" fontSize="10" />
             <WordsStyle name="KEYWORD" styleID="2" fgColor="9b87fd" bgColor="2a2734" fontName="" fontStyle="" fontSize="10" />
             <WordsStyle name="NUMBER" styleID="3" fgColor="c07830" bgColor="2a2734" fontName="" fontStyle="" fontSize="10" />
-            <WordsStyle name="STRING" styleID="4" fgColor="968f88" bgColor="2a2734" fontName="" fontStyle="" fontSize="10" />
+            <WordsStyle name="STRING" styleID="4" fgColor="7c756e" bgColor="2a2734" fontName="" fontStyle="" fontSize="10" />
             <WordsStyle name="CHARACTER" styleID="5" fgColor="a49bcf" bgColor="2a2734" fontName="" fontStyle="" fontSize="10" />
             <WordsStyle name="CLASS" styleID="6" fgColor="c07830" bgColor="2a2734" fontName="" fontStyle="" fontSize="10" />
             <WordsStyle name="MODULE" styleID="7" fgColor="" bgColor="2a2734" fontName="" fontStyle="" fontSize="10" />
@@ -668,16 +668,16 @@ Comment:    Copy this style to %APPDATA%\Notepad++\themes
             <WordsStyle name="COMMENT PASCAL" styleID="7" fgColor="726e87" bgColor="2a2734" fontName="" fontStyle="" fontSize="10" />
             <WordsStyle name="KEYWORD PASCAL" styleID="8" fgColor="9b87fd" bgColor="2a2734" fontName="" fontStyle="" fontSize="10" keywordClass="type3" />
             <WordsStyle name="KEYWORD USER" styleID="9" fgColor="9b87fd" bgColor="2a2734" fontName="" fontStyle="" fontSize="10" keywordClass="type4" />
-            <WordsStyle name="STRING DOUBLE" styleID="10" fgColor="968f88" bgColor="2a2734" fontName="" fontStyle="" fontSize="10" />
-            <WordsStyle name="STRING SINGLE" styleID="11" fgColor="968f88" bgColor="2a2734" fontName="" fontStyle="" fontSize="10" />
+            <WordsStyle name="STRING DOUBLE" styleID="10" fgColor="7c756e" bgColor="2a2734" fontName="" fontStyle="" fontSize="10" />
+            <WordsStyle name="STRING SINGLE" styleID="11" fgColor="7c756e" bgColor="2a2734" fontName="" fontStyle="" fontSize="10" />
             <WordsStyle name="IDENTIFIER" styleID="12" fgColor="e8a35e" bgColor="2a2734" fontName="" fontStyle="" fontSize="10" />
         </LexerType>
         <LexerType name="cmake" desc="CMakeFile" ext="cmake">
             <WordsStyle name="DEFAULT" styleID="0" fgColor="9b87fd" bgColor="2a2734" fontName="" fontStyle="" fontSize="10" />
             <WordsStyle name="COMMENT" styleID="1" fgColor="726e87" bgColor="2a2734" fontName="" fontStyle="" fontSize="10" />
-            <WordsStyle name="STRING D" styleID="2" fgColor="968f88" bgColor="2a2734" fontName="" fontStyle="" fontSize="10" />
-            <WordsStyle name="STRING L" styleID="3" fgColor="968f88" bgColor="2a2734" fontName="" fontStyle="" fontSize="10" />
-            <WordsStyle name="STRING R" styleID="4" fgColor="968f88" bgColor="2a2734" fontName="" fontStyle="" fontSize="10" />
+            <WordsStyle name="STRING D" styleID="2" fgColor="7c756e" bgColor="2a2734" fontName="" fontStyle="" fontSize="10" />
+            <WordsStyle name="STRING L" styleID="3" fgColor="7c756e" bgColor="2a2734" fontName="" fontStyle="" fontSize="10" />
+            <WordsStyle name="STRING R" styleID="4" fgColor="7c756e" bgColor="2a2734" fontName="" fontStyle="" fontSize="10" />
             <WordsStyle name="COMMAND" styleID="5" fgColor="e8a35e" bgColor="2a2734" fontName="" fontStyle="" fontSize="10" keywordClass="instre1" />
             <WordsStyle name="PARAMETER" styleID="6" fgColor="" bgColor="2a2734" fontName="" fontStyle="" fontSize="10" />
             <WordsStyle name="VARIABLE" styleID="7" fgColor="7765d2" bgColor="2a2734" fontName="" fontStyle="" fontSize="10" />
@@ -686,13 +686,13 @@ Comment:    Copy this style to %APPDATA%\Notepad++\themes
             <WordsStyle name="FOREACHDEF" styleID="10" fgColor="" bgColor="2a2734" fontName="" fontStyle="" fontSize="10" />
             <WordsStyle name="IFDEF" styleID="11" fgColor="" bgColor="2a2734" fontName="" fontStyle="" fontSize="10" />
             <WordsStyle name="MACRODEF" styleID="12" fgColor="" bgColor="2a2734" fontName="" fontStyle="" fontSize="10" />
-            <WordsStyle name="STRING VARIABLE" styleID="13" fgColor="968f88" bgColor="2a2734" fontName="" fontStyle="" fontSize="10" />
+            <WordsStyle name="STRING VARIABLE" styleID="13" fgColor="7c756e" bgColor="2a2734" fontName="" fontStyle="" fontSize="10" />
             <WordsStyle name="NUMBER" styleID="14" fgColor="c07830" bgColor="2a2734" fontName="" fontStyle="" fontSize="10" />
         </LexerType>
         <LexerType name="searchResult" desc="Search result" ext="">
             <WordsStyle name="DEFAULT" styleID="0" fgColor="9b87fd" bgColor="2a2734" fontName="" fontStyle="" fontSize="10" />
             <WordsStyle name="SELECTED LINE" styleID="6" fgColor="9b87fd" bgColor="1A1A1A" fontName="" fontStyle="" fontSize="10" />
-            <WordsStyle name="HEARDER" styleID="1" fgColor="968f88" bgColor="2a2734" fontName="" fontStyle="" fontSize="10" />
+            <WordsStyle name="HEARDER" styleID="1" fgColor="7c756e" bgColor="2a2734" fontName="" fontStyle="" fontSize="10" />
             <WordsStyle name="NUMBER" styleID="2" fgColor="c07830" bgColor="2a2734" fontName="" fontStyle="" fontSize="10" />
             <WordsStyle name="HIT WORD" styleID="3" fgColor="c07830" bgColor="2a2734" fontName="" fontStyle="" fontSize="10" />
             <WordsStyle name="KEYWORD1" styleID="4" fgColor="9b87fd" bgColor="2a2734" fontName="" fontStyle="" fontSize="10" keywordClass="instre2">if else for while</WordsStyle>

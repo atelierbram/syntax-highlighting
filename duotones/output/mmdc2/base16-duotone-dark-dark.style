@@ -99,11 +99,11 @@
     
     // Code & Code block
     codeSpan =     {
-		foregroundColor = 968f88;
+		foregroundColor = 7c756e;
         mono = 1;
     };
     codeBlock = {
-		foregroundColor = 968f88;
+		foregroundColor = 7c756e;
 		mono = 1;
 	};
 

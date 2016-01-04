@@ -8,7 +8,7 @@ term_.prefs_.set('cursor-color', '#5a566c');
 term_.prefs_.set('color-palette-overrides', [
     '#423f50',
     '#7765d2',
-    '#968f88',
+    '#7c756e',
     '#d48535',
     '#de9145',
     '#8e81cf',

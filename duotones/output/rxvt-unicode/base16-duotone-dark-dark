@@ -28,7 +28,7 @@ URxvt*highlightTextColor:             #837bad
 
 URxvt*color0:                         #2a2734
 URxvt*color1:                         #7765d2
-URxvt*color2:                         #968f88
+URxvt*color2:                         #7c756e
 URxvt*color3:                         #d48535
 URxvt*color4:                         #de9145
 URxvt*color5:                         #a49bcf
@@ -36,7 +36,7 @@ URxvt*color6:                         #e8a35e
 URxvt*color7:                         #9b87fd
 URxvt*color8:                         #726e87
 URxvt*color9:                         #7765d2
-URxvt*color10:                        #968f88
+URxvt*color10:                        #7c756e
 URxvt*color11:                        #d48535
 URxvt*color12:                        #de9145
 URxvt*color13:                        #a49bcf

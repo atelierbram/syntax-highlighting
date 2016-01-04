@@ -182,7 +182,7 @@
   color: #d48535 !important;
 }
 #-webkit-web-inspector .styles-selector {
-  color: #968f88 !important;
+  color: #7c756e !important;
 }
 #-webkit-web-inspector .section .header {
   color: #CCC !important;
@@ -365,7 +365,7 @@
   color: #c07830 !important;
 }
 #-webkit-web-inspector .webkit-html-attribute-value {
-  color: #968f88 !important;
+  color: #7c756e !important;
 }
 #-webkit-web-inspector .webkit-html-text-node .webkit-html-css-node {
   color: #c07830 !important;
@@ -382,7 +382,7 @@
 }
 #-webkit-web-inspector .webkit-css-selector,
 #-webkit-web-inspector .styles-selector {
-  color: #968f88 !important;
+  color: #7c756e !important;
 }
 #-webkit-web-inspector .webkit-css-property {
   color: #d48535 !important;

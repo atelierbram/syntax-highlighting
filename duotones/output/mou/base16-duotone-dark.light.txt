@@ -61,10 +61,10 @@ IMAGE
 foreground: e8a35e
 
 CODE
-foreground: 968f88
+foreground: 7c756e
 
 VERBATIM
-foreground: 968f88
+foreground: 7c756e
 
 HTML_ENTITY
 foreground: 8e81cf

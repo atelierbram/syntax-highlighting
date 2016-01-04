@@ -23,9 +23,9 @@
 							<Item Name="Breakpoint - Advanced (Disabled)" Foreground="0x00d26577" Background="0x02000000" BoldFont="No"/>
 							<Item Name="Breakpoint - Mapped (Disabled)" Foreground="0x00d26577" Background="0x02000000" BoldFont="No"/>
 							<Item Name="Breakpoint - Selected" Foreground="0x00cf9ba4" Background="0x02000000" BoldFont="No"/>
-							<Item Name="Call Return" Foreground="0x006c565a" Background="0x00888f96" BoldFont="No"/>
+							<Item Name="Call Return" Foreground="0x006c565a" Background="0x006e757c" BoldFont="No"/>
 							<Item Name="Call return (IntelliTrace debugging)" Foreground="0x006c565a" Background="0x00cf818e" BoldFont="No"/>
-							<Item Name="Current Statement (historical mode)" Foreground="0x006c565a" Background="0x00888f96" BoldFont="No"/>
+							<Item Name="Current Statement (historical mode)" Foreground="0x006c565a" Background="0x006e757c" BoldFont="No"/>
 							<Item Name="Code Snippet Dependent Field" Foreground="0x02000000" Background="0x02000000" BoldFont="No"/>
 							<Item Name="Collapsible Text" Foreground="0x00ad7b83" Background="0x02000000" BoldFont="No"/>
 							<Item Name="outlining.collapsehintadornment" Foreground="0x0034272a" Background="0x00ffebee" BoldFont="No"/>
@@ -40,7 +40,7 @@
 							<Item Name="CSS Property Name" Foreground="0x005ea3e8" Background="0x02000000" BoldFont="No"/>
 							<Item Name="CSS Property Value" Foreground="0x004591de" Background="0x02000000" BoldFont="No"/>
 							<Item Name="CSS Selector" Foreground="0x003585d4" Background="0x02000000" BoldFont="No"/>
-							<Item Name="CSS String Value" Foreground="0x00888f96" Background="0x02000000" BoldFont="No"/>
+							<Item Name="CSS String Value" Foreground="0x006e757c" Background="0x02000000" BoldFont="No"/>
 							<Item Name="Current List Location" Foreground="0x006c565a" Background="0x004591de" BoldFont="No"/>
 							<Item Name="Current Statement" Foreground="0x006c565a" Background="0x003078c0" BoldFont="No"/>
 							<Item Name="Call return (historical mode)" Foreground="0x006c565a" Background="0x00cf818e" BoldFont="No"/>
@@ -57,7 +57,7 @@
 							<Item Name="MarkerFormatDefinition/FindHighlightFormatting" Foreground="0x02000000" Background="0x003585d4" BoldFont="No"/>
 							<Item Name="MarkerFormatDefinition/HighlightedReference" Foreground="0x006c565a" Background="0x00feb8c4" BoldFont="No"/>
 							<Item Name="HTML Attribute" Foreground="0x00d26577" Background="0x02000000" BoldFont="No"/>
-							<Item Name="HTML Attribute Value" Foreground="0x00888f96" Background="0x02000000" BoldFont="No"/>
+							<Item Name="HTML Attribute Value" Foreground="0x006e757c" Background="0x02000000" BoldFont="No"/>
 							<Item Name="HTML Comment" Foreground="0x00ad7b83" Background="0x02000000" BoldFont="No"/>
 							<Item Name="HTML Element Name" Foreground="0x003585d4" Background="0x02000000" BoldFont="No"/>
 							<Item Name="HTML Entity" Foreground="0x004591de" Background="0x02000000" BoldFont="No"/>
@@ -66,7 +66,7 @@
 							<Item Name="HTML Tag Delimiter" Foreground="0x00ad7b83" Background="0x02000000" BoldFont="No"/>
 							<Item Name="Javascript XML Documentation Comment" Foreground="0x0034272a" Background="0x02000000" BoldFont="No"/>
 							<Item Name="Keyword" Foreground="0x004591de" Background="0x02000000" BoldFont="No"/>
-							<Item Name="Literal" Foreground="0x00888f96" Background="0x02000000" BoldFont="No"/>
+							<Item Name="Literal" Foreground="0x006e757c" Background="0x02000000" BoldFont="No"/>
 							<Item Name="Memory Address" Foreground="0x00ad7b83" Background="0x02000000" BoldFont="No"/>
 							<Item Name="Memory Changed" Foreground="0x00d26577" Background="0x02000000" BoldFont="No"/>
 							<Item Name="Memory Data" Foreground="0x0034272a" Background="0x02000000" BoldFont="No"/>
@@ -87,7 +87,7 @@
 							<Item Name="ReSharper ASP.NET MVC Action" Foreground="0x005ea3e8" Background="0x02000000" BoldFont="No"/>
 							<Item Name="ReSharper ASP.NET MVC Area" Foreground="0x003078c0" Background="0x02000000" BoldFont="No"/>
 							<Item Name="ReSharper ASP.NET MVC Controller" Foreground="0x003585d4" Background="0x02000000" BoldFont="No"/>
-							<Item Name="ReSharper ASP.NET MVC View" Foreground="0x00888f96" Background="0x02000000" BoldFont="No"/>
+							<Item Name="ReSharper ASP.NET MVC View" Foreground="0x006e757c" Background="0x02000000" BoldFont="No"/>
 							<Item Name="ReSharper ASP.NET RunAt attribute" Foreground="0x00cf9ba4" Background="0x02000000" BoldFont="No"/>
 							<Item Name="ReSharper Brace Outline" Foreground="0x004591de" Background="0x00ad7b83" BoldFont="No"/>
 							<Item Name="ReSharper Class Identifier" Foreground="0x003585d4" Background="0x02000000" BoldFont="No"/>
@@ -135,19 +135,19 @@
 							<Item Name="Script Keyword" Foreground="0x00cf9ba4" Background="0x02000000" BoldFont="No"/>
 							<Item Name="Script Number" Foreground="0x004591de" Background="0x02000000" BoldFont="No"/>
 							<Item Name="Script Operator" Foreground="0x006c565a" Background="0x02000000" BoldFont="No"/>
-							<Item Name="Script String" Foreground="0x00888f96" Background="0x02000000" BoldFont="No"/>
+							<Item Name="Script String" Foreground="0x006e757c" Background="0x02000000" BoldFont="No"/>
 							<Item Name="Smart Tag" Foreground="0x00cf9ba4" Background="0x02000000" BoldFont="No"/>
 							<Item Name="SQL DML Marker" Foreground="0x00cf9ba4" Background="0x02000000" BoldFont="No"/>
 							<Item Name="SQL Operator" Foreground="0x006c565a" Background="0x02000000" BoldFont="No"/>
 							<Item Name="SQL Stored Procedure" Foreground="0x005ea3e8" Background="0x02000000" BoldFont="No"/>
-							<Item Name="SQL String" Foreground="0x00888f96" Background="0x02000000" BoldFont="No"/>
+							<Item Name="SQL String" Foreground="0x006e757c" Background="0x02000000" BoldFont="No"/>
 							<Item Name="SQL System Function" Foreground="0x00cf9ba4" Background="0x02000000" BoldFont="No"/>
 							<Item Name="SQL System Table" Foreground="0x003585d4" Background="0x02000000" BoldFont="No"/>
 							<Item Name="Stale Code" Foreground="0x00cf9ba4" Background="0x02000000" BoldFont="No"/>
-							<Item Name="String" Foreground="0x00888f96" Background="0x02000000" BoldFont="No"/>
-							<Item Name="String(C# @ Verbatim)" Foreground="0x00888f96" Background="0x02000000" BoldFont="Yes"/>
+							<Item Name="String" Foreground="0x006e757c" Background="0x02000000" BoldFont="No"/>
+							<Item Name="String(C# @ Verbatim)" Foreground="0x006e757c" Background="0x02000000" BoldFont="Yes"/>
 							<Item Name="SymbolDefinitionClassificationFormat" Foreground="0x004591de" Background="0x02000000" BoldFont="No"/>
-							<Item Name="SymbolReferenceClassificationFormat" Foreground="0x00888f96" Background="0x02000000" BoldFont="Yes"/>
+							<Item Name="SymbolReferenceClassificationFormat" Foreground="0x006e757c" Background="0x02000000" BoldFont="Yes"/>
 							<Item Name="Syntax Error" Foreground="0x00d26577" Background="0x02000000" BoldFont="No"/>
 							<Item Name="Task List Shortcut" Foreground="0x02000000" Background="0x004591de" BoldFont="No"/>
 							<Item Name="Template Parameter" Foreground="0x005ea3e8" Background="0x02000000" BoldFont="No"/>
@@ -176,8 +176,8 @@
 							<Item Name="VBUserTypeClassificationFormat" Foreground="0x003585d4" Background="0x02000000" BoldFont="No"/>
 							<Item Name="XmlDocAttributeClassificationFormat" Foreground="0x00d26577" Background="0x02000000" BoldFont="No"/>
 							<Item Name="XmlAttributeNameClassificationFormat" Foreground="0x00d26577" Background="0x02000000" BoldFont="No"/>
-							<Item Name="XmlAttributeQuotesClassificationFormat" Foreground="0x00888f96" Background="0x02000000" BoldFont="No"/>
-							<Item Name="XmlAttributeValueClassificationFormat" Foreground="0x00888f96" Background="0x02000000" BoldFont="No"/>
+							<Item Name="XmlAttributeQuotesClassificationFormat" Foreground="0x006e757c" Background="0x02000000" BoldFont="No"/>
+							<Item Name="XmlAttributeValueClassificationFormat" Foreground="0x006e757c" Background="0x02000000" BoldFont="No"/>
 							<Item Name="XmlCDataSectionClassificationFormat" Foreground="0x0034272a" Background="0x02000000" BoldFont="No"/>
 							<Item Name="XmlCommentClassificationFormat" Foreground="0x00ad7b83" Background="0x02000000" BoldFont="No"/>
 							<Item Name="XmlDocCommentClassificationFormat" Foreground="0x00ad7b83" Background="0x02000000" BoldFont="No"/>
@@ -188,8 +188,8 @@
 							<Item Name="XmlTextClassificationFormat" Foreground="0x00ad7b83" Background="0x02000000" BoldFont="No"/>
 							<Item Name="Warning" Foreground="0xd26577FF" Background="0x02000000" BoldFont="No"/>
 							<Item Name="XAML Attribute" Foreground="0x00d26577" Background="0x02000000" BoldFont="No"/>
-							<Item Name="XAML Attribute Quotes" Foreground="0x00888f96" Background="0x02000000" BoldFont="No"/>
-							<Item Name="XAML Attribute Value" Foreground="0x00888f96" Background="0x02000000" BoldFont="No"/>
+							<Item Name="XAML Attribute Quotes" Foreground="0x006e757c" Background="0x02000000" BoldFont="No"/>
+							<Item Name="XAML Attribute Value" Foreground="0x006e757c" Background="0x02000000" BoldFont="No"/>
 							<Item Name="XAML CData Section" Foreground="0x006c565a" Background="0x02000000" BoldFont="No"/>
 							<Item Name="XAML Comment" Foreground="0x00ad7b83" Background="0x02000000" BoldFont="No"/>
 							<Item Name="XAML Delimiter" Foreground="0x00ad7b83" Background="0x02000000" BoldFont="No"/>
@@ -201,8 +201,8 @@
 							<Item Name="XAML Processing Instruction" Foreground="0x006c565a" Background="0x02000000" BoldFont="No"/>
 							<Item Name="XAML Text" Foreground="0x0034272a" Background="0x02000000" BoldFont="No"/>
 							<Item Name="XML Attribute" Foreground="0x00d26577" Background="0x02000000" BoldFont="No"/>
-							<Item Name="XML Attribute Quotes" Foreground="0x00888f96" Background="0x02000000" BoldFont="No"/>
-							<Item Name="XML Attribute Value" Foreground="0x00888f96" Background="0x02000000" BoldFont="No"/>
+							<Item Name="XML Attribute Quotes" Foreground="0x006e757c" Background="0x02000000" BoldFont="No"/>
+							<Item Name="XML Attribute Value" Foreground="0x006e757c" Background="0x02000000" BoldFont="No"/>
 							<Item Name="XML CData Section" Foreground="0x006c565a" Background="0x02000000" BoldFont="No"/>
 							<Item Name="XML Comment" Foreground="0x00ad7b83" Background="0x02000000" BoldFont="No"/>
 							<Item Name="XML Delimiter" Foreground="0x00ad7b83" Background="0x02000000" BoldFont="No"/>

@@ -13,8 +13,8 @@ code.sourceCode span.dt { color: #a49bcf} /* Keyword.Type */
 code.sourceCode span.dv { color: #c07830 } /* Literal.Number.Integer */
 code.sourceCode span.bn { color: #c07830 } /* Literal.Number.Hex */
 code.sourceCode span.fl { color: #c07830 } /* Literal.Number.Float */
-code.sourceCode span.ch { color: #968f88} /* Literal.String.Char */
-code.sourceCode span.st { color: #968f88 } /* Literal.String */
+code.sourceCode span.ch { color: #7c756e} /* Literal.String.Char */
+code.sourceCode span.st { color: #7c756e } /* Literal.String */
 code.sourceCode span.co { color: #726e87 } /* Comment */
 code.sourceCode span.ot { color: #8e81cf } /* Comment.Preproc */
 code.sourceCode span.al { color: #a49bcf } /* Generic.Error */
