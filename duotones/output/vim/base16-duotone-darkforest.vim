@@ -17,17 +17,17 @@ let s:gui01 = "3f4a3f"
 let s:gui02 = "556855"
 let s:gui03 = "698669"
 let s:gui04 = "80a380"
-let s:gui05 = "78dd78"
-let s:gui06 = "8bfe8b"
+let s:gui05 = "97bf97"
+let s:gui06 = "b3d6b3"
 let s:gui07 = "f0fff0"
-let s:gui08 = "54b654"
+let s:gui08 = "687d68"
 let s:gui09 = "a1b34d"
 let s:gui0A = "afc059"
 let s:gui0B = "919966"
-let s:gui0C = "cce06c"
+let s:gui0C = "e5fb79"
 let s:gui0D = "bed161"
-let s:gui0E = "77c577"
-let s:gui0F = "65bd65"
+let s:gui0E = "7d9b7d"
+let s:gui0F = "718e71"
 
 " Terminal color definitions
 let s:cterm00 = "00"
@@ -222,7 +222,8 @@ call <sid>hi("csNewDecleration",        s:gui08, "", s:cterm08, "", "")
 
 " CSS highlighting
 call <sid>hi("cssBraces",          s:gui03, "", s:cterm03, "", "")
-call <sid>hi("cssClassName",       s:gui0E, "", s:cterm0E, "", "")
+call <sid>hi("cssClassName",       s:gui07, "", s:cterm07, "", "")
+call <sid>hi("cssClassNameDot",       s:gui04, "", s:cterm04, "", "")
 call <sid>hi("cssColor",           s:gui0C, "", s:cterm0C, "", "")
 call <sid>hi("cssUnitDecorators",  s:gui0D, "", s:cterm0D, "", "")
 
@@ -289,14 +290,15 @@ call <sid>hi("rubySymbol",                  s:gui0B, "", s:cterm0B, "", "")
 call <sid>hi("rubyStringDelimiter",         s:gui0B, "", s:cterm0B, "", "")
 
 " SASS highlighting
-call <sid>hi("sassidChar",     s:gui08, "", s:cterm08, "", "")
-call <sid>hi("sassClassChar",  s:gui09, "", s:cterm09, "", "")
-call <sid>hi("sassInclude",    s:gui07, "", s:cterm07, "", "")
-call <sid>hi("scssInclude",    s:gui07, "", s:cterm07, "", "")
-call <sid>hi("sassMixing",     s:gui0E, "", s:cterm0E, "", "")
-call <sid>hi("sassMixinName",  s:gui0D, "", s:cterm0D, "", "")
-call <sid>hi("scssVariable",  s:gui06, "", s:cterm06, "", "")
-call <sid>hi("cssIncludeKeyword",  s:gui07, "", s:cterm07, "", "")
+call <sid>hi("sassidChar",        s:gui08, "", s:cterm08, "", "")
+call <sid>hi("sassClassChar",     s:gui09, "", s:cterm09, "", "")
+call <sid>hi("sassInclude",       s:gui07, "", s:cterm07, "", "")
+call <sid>hi("scssInclude",       s:gui07, "", s:cterm07, "", "")
+call <sid>hi("sassMixing",        s:gui0E, "", s:cterm0E, "", "")
+call <sid>hi("sassMixinName",     s:gui0D, "", s:cterm0D, "", "")
+call <sid>hi("scssVariable",      s:gui06, "", s:cterm06, "", "")
+call <sid>hi("scssSelectorChar",  s:gui04, "", s:cterm04, "", "")
+call <sid>hi("cssIncludeKeyword", s:gui07, "", s:cterm07, "", "")
 
 " Signify highlighting
 call <sid>hi("SignifySignAdd",     s:gui0B, s:gui01, s:cterm0B, s:cterm01, "")

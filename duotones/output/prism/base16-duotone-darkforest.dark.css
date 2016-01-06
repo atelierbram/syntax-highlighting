@@ -28,7 +28,7 @@ pre[class*="language-"] {
   -ms-hyphens: none;
   hyphens: none;
   background: #2a2d2a;
-  color: #78dd78;
+  color: #97bf97;
 }
 
 pre[class*="language-"]::-moz-selection, pre[class*="language-"] ::-moz-selection,
@@ -64,7 +64,7 @@ pre[class*="language-"] {
 }
 
 .token.punctuation {
-  color: #78dd78;
+  color: #97bf97;
 }
 
 .token.namespace {
@@ -83,10 +83,10 @@ pre[class*="language-"] {
   color: #bed161;
 }
 .token.string {
-  color: #cce06c;
+  color: #e5fb79;
 }
 .token.selector {
-  color: #77c577;
+  color: #7d9b7d;
 }
 .token.attr-name {
   color: #a1b34d;
@@ -95,7 +95,7 @@ pre[class*="language-"] {
 .token.url,
 .language-css .token.string,
 .style .token.string {
-  color: #cce06c;
+  color: #e5fb79;
 }
 
 .token.attr-value,
@@ -109,7 +109,7 @@ pre[class*="language-"] {
 .token.statement,
 .token.regex,
 .token.atrule {
-  color: #cce06c;
+  color: #e5fb79;
 }
 
 .token.placeholder,
@@ -136,7 +136,7 @@ pre[class*="language-"] {
 }
 
 .token.important {
-  color: #54b654;
+  color: #687d68;
 }
 
 .token.entity {
@@ -144,6 +144,6 @@ pre[class*="language-"] {
 }
 
 pre > code.highlight {
-  outline: .4em solid #54b654;
+  outline: .4em solid #687d68;
   outline-offset: .4em;
 }

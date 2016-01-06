@@ -21,7 +21,7 @@
 .css .hljs-id,
 .css .hljs-class,
 .css .hljs-pseudo {
-  color: #54b654;
+  color: #687d68;
 }
 
 /* Duotone-DarkForest Orange */
@@ -53,7 +53,7 @@
 /* Duotone-DarkForest Aqua */
 .hljs-title,
 .css .hljs-hexcolor {
-  color: #cce06c;
+  color: #e5fb79;
 }
 
 /* Duotone-DarkForest Blue */
@@ -71,7 +71,7 @@
 /* Duotone-DarkForest Purple */
 .hljs-keyword,
 .javascript .hljs-function {
-  color: #77c577;
+  color: #7d9b7d;
 }
 
 .diff .hljs-deletion,
@@ -81,7 +81,7 @@
   width: 100%;
 }
 .diff .hljs-deletion {
-  background-color: #54b654;
+  background-color: #687d68;
 }
 .diff .hljs-addition {
   background-color: #919966;
@@ -94,7 +94,7 @@
   display: block;
   overflow-x: auto;
   background: #2a2d2a;
-  color: #78dd78;
+  color: #97bf97;
   padding: 0.5em;
   -webkit-text-size-adjust: none;
 }
