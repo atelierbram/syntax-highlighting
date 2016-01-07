@@ -31,13 +31,13 @@
 .hljs-literal,
 .hljs-params,
 .hljs-constant {
-  color: #30c090;
+  color: #24cc94;
 }
 
 /* Duotone-DarkSea Yellow */
 .ruby .hljs-class .hljs-title,
 .css .hljs-rule .hljs-attribute {
-  color: #3bce9d;
+  color: #29e0a3;
 }
 
 /* Duotone-DarkSea Green */
@@ -53,7 +53,7 @@
 /* Duotone-DarkSea Aqua */
 .hljs-title,
 .css .hljs-hexcolor {
-  color: #68d9b4;
+  color: #5cffc9;
 }
 
 /* Duotone-DarkSea Blue */
@@ -65,7 +65,7 @@
 .perl .hljs-sub,
 .javascript .hljs-title,
 .coffeescript .hljs-title {
-  color: #54d4a9;
+  color: #47ebb4;
 }
 
 /* Duotone-DarkSea Purple */
@@ -87,14 +87,14 @@
   background-color: #708f85;
 }
 .diff .hljs-change {
-  color: #54d4a9;
+  color: #47ebb4;
 }
 
 .hljs {
   display: block;
   overflow-x: auto;
   background: #1d262f;
-  color: #91c1f8;
+  color: #88add7;
   padding: 0.5em;
   -webkit-text-size-adjust: none;
 }
