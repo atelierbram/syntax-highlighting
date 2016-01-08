@@ -13,9 +13,9 @@
 	<key>gutterSettings</key>
 	<dict>
 		<key>background</key>
-		<string>#423f50</string>
+		<string>#363442</string>
 		<key>divider</key>
-		<string>#423f50</string>
+		<string>#363442</string>
 		<key>foreground</key>
 		<string>#726e87</string>
 		<key>selectionBackground</key>
@@ -544,6 +544,6 @@
 		</dict>
 	</array>
 	<key>uuid</key>
-	<string>80598d44-41e7-413a-bcb3-62310913ea9c</string>
+	<string>c6612ad2-0efa-40b8-a713-f7b426ef3b97</string>
 </dict>
 </plist>

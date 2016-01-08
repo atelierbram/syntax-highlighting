@@ -13,7 +13,7 @@ endif
 
 " GUI color definitions
 let s:gui00 = "2a2734"
-let s:gui01 = "423f50"
+let s:gui01 = "363442"
 let s:gui02 = "5a566c"
 let s:gui03 = "726e87"
 let s:gui04 = "837bad"
