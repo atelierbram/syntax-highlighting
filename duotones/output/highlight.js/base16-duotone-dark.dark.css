@@ -31,13 +31,13 @@
 .hljs-literal,
 .hljs-params,
 .hljs-constant {
-  color: #c07830;
+  color: #dc9147;
 }
 
 /* Duotone-Dark Yellow */
 .ruby .hljs-class .hljs-title,
 .css .hljs-rule .hljs-attribute {
-  color: #d48535;
+  color: #e59e57;
 }
 
 /* Duotone-Dark Green */
@@ -65,7 +65,7 @@
 .perl .hljs-sub,
 .javascript .hljs-title,
 .coffeescript .hljs-title {
-  color: #de9145;
+  color: #ecab69;
 }
 
 /* Duotone-Dark Purple */
@@ -87,7 +87,7 @@
   background-color: #7c756e;
 }
 .diff .hljs-change {
-  color: #de9145;
+  color: #ecab69;
 }
 
 .hljs {

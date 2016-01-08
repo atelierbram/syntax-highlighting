@@ -4,7 +4,7 @@
 
 /* Duotone-DarkForest Comment */
 .hljs-comment {
-  color: #698669;
+  color: #535f53;
 }
 
 /* Duotone-DarkForest Red */
@@ -21,7 +21,7 @@
 .css .hljs-id,
 .css .hljs-class,
 .css .hljs-pseudo {
-  color: #687d68;
+  color: #54b654;
 }
 
 /* Duotone-DarkForest Orange */
@@ -31,7 +31,7 @@
 .hljs-literal,
 .hljs-params,
 .hljs-constant {
-  color: #a1b34d;
+  color: #a2b34d;
 }
 
 /* Duotone-DarkForest Yellow */
@@ -71,7 +71,7 @@
 /* Duotone-DarkForest Purple */
 .hljs-keyword,
 .javascript .hljs-function {
-  color: #7d9b7d;
+  color: #77c577;
 }
 
 .diff .hljs-deletion,
@@ -81,7 +81,7 @@
   width: 100%;
 }
 .diff .hljs-deletion {
-  background-color: #687d68;
+  background-color: #54b654;
 }
 .diff .hljs-addition {
   background-color: #919966;
@@ -94,7 +94,7 @@
   display: block;
   overflow-x: auto;
   background: #f0fff0;
-  color: #556855;
+  color: #485148;
   padding: 0.5em;
   -webkit-text-size-adjust: none;
 }

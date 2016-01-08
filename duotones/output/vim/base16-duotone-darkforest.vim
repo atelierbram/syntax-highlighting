@@ -13,21 +13,21 @@ endif
 
 " GUI color definitions
 let s:gui00 = "2a2d2a"
-let s:gui01 = "3f4a3f"
-let s:gui02 = "556855"
-let s:gui03 = "698669"
-let s:gui04 = "80a380"
-let s:gui05 = "97bf97"
+let s:gui01 = "353b35"
+let s:gui02 = "485148"
+let s:gui03 = "535f53"
+let s:gui04 = "5e6e5e"
+let s:gui05 = "687d68"
 let s:gui06 = "b3d6b3"
 let s:gui07 = "f0fff0"
-let s:gui08 = "687d68"
-let s:gui09 = "a1b34d"
+let s:gui08 = "54b654"
+let s:gui09 = "a2b34d"
 let s:gui0A = "afc059"
 let s:gui0B = "919966"
 let s:gui0C = "e5fb79"
 let s:gui0D = "bed161"
-let s:gui0E = "7d9b7d"
-let s:gui0F = "718e71"
+let s:gui0E = "77c577"
+let s:gui0F = "65bd65"
 
 " Terminal color definitions
 let s:cterm00 = "00"
@@ -183,7 +183,7 @@ call <sid>hi("Boolean",      s:gui09, "", s:cterm09, "", "")
 call <sid>hi("Character",    s:gui08, "", s:cterm08, "", "")
 call <sid>hi("Comment",      s:gui03, "", s:cterm03, "", "")
 call <sid>hi("Conditional",  s:gui0E, "", s:cterm0E, "", "")
-call <sid>hi("Constant",     s:gui09, "", s:cterm09, "", "")
+call <sid>hi("Constant",     s:gui0C, "", s:cterm0C, "", "")
 call <sid>hi("Define",       s:gui0E, "", s:cterm0E, "", "none")
 call <sid>hi("Delimiter",    s:gui0F, "", s:cterm0F, "", "")
 call <sid>hi("Float",        s:gui09, "", s:cterm09, "", "")
@@ -198,7 +198,7 @@ call <sid>hi("PreProc",      s:gui0A, "", s:cterm0A, "", "")
 call <sid>hi("Repeat",       s:gui0A, "", s:cterm0A, "", "")
 call <sid>hi("Special",      s:gui0C, "", s:cterm0C, "", "")
 call <sid>hi("SpecialChar",  s:gui0F, "", s:cterm0F, "", "")
-call <sid>hi("Statement",    s:gui07, "", s:cterm07, "", "")
+call <sid>hi("Statement",    s:gui07, "", s:cterm07, "none", "none")
 call <sid>hi("StorageClass", s:gui05, "", s:cterm05, "", "")
 call <sid>hi("String",       s:gui0C, "", s:cterm0C, "", "")
 call <sid>hi("Structure",    s:gui0E, "", s:cterm0E, "", "")
@@ -223,9 +223,11 @@ call <sid>hi("csNewDecleration",        s:gui08, "", s:cterm08, "", "")
 " CSS highlighting
 call <sid>hi("cssBraces",          s:gui03, "", s:cterm03, "", "")
 call <sid>hi("cssClassName",       s:gui07, "", s:cterm07, "", "")
-call <sid>hi("cssClassNameDot",       s:gui04, "", s:cterm04, "", "")
+call <sid>hi("cssClassNameDot",    s:gui04, "", s:cterm04, "", "")
+call <sid>hi("cssInclude",         s:gui04, "", s:cterm04, "", "")
 call <sid>hi("cssColor",           s:gui0C, "", s:cterm0C, "", "")
-call <sid>hi("cssUnitDecorators",  s:gui0D, "", s:cterm0D, "", "")
+call <sid>hi("cssUnitDecorators",  s:gui09, "", s:cterm09, "", "")
+call <sid>hi("cssMediaKeyword",    s:gui09, "", s:cterm09, "", "")
 
 " Diff highlighting
 call <sid>hi("DiffAdd",      s:gui0B, s:gui01,  s:cterm0B, s:cterm01, "")
@@ -295,11 +297,13 @@ call <sid>hi("sassClassChar",     s:gui09, "", s:cterm09, "", "")
 call <sid>hi("sassInclude",       s:gui07, "", s:cterm07, "", "")
 call <sid>hi("scssInclude",       s:gui07, "", s:cterm07, "", "")
 call <sid>hi("sassMixing",        s:gui0E, "", s:cterm0E, "", "")
-call <sid>hi("sassMixinName",     s:gui0D, "", s:cterm0D, "", "")
+call <sid>hi("sassMixinName",     s:gui09, "", s:cterm09, "", "")
+call <sid>hi("scssMixinName",     s:gui09, "", s:cterm09, "", "")
 call <sid>hi("scssVariable",      s:gui06, "", s:cterm06, "", "")
 call <sid>hi("scssSelectorChar",  s:gui04, "", s:cterm04, "", "")
 call <sid>hi("cssIncludeKeyword", s:gui07, "", s:cterm07, "", "")
 call <sid>hi("scssMixinParams",   s:gui03, "", s:cterm03, "", "")
+call <sid>hi("scssFunctionName",  s:gui05, "", s:cterm05, "", "")
 
 " Signify highlighting
 call <sid>hi("SignifySignAdd",     s:gui0B, s:gui01, s:cterm0B, s:cterm01, "")

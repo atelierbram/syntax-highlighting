@@ -18,17 +18,17 @@
 
   /* a comment */
   .com {
-    color: #6e88a6;
+    color: #3a4b5f;
   }
 
   /* a type name */
   .typ {
-    color: #47ebb4;
+    color: #54d4a9;
   }
 
   /* a literal value */
   .lit {
-    color: #24cc94;
+    color: #30c090;
   }
 
   /* punctuation */
@@ -53,17 +53,17 @@
 
   /* a markup attribute name */
   .atn {
-    color: #24cc94;
+    color: #30c090;
   }
 
   /* a markup attribute value */
   .atv {
-    color: #5cffc9;
+    color: #68d9b4;
   }
 
   /* a declaration */
   .dec {
-    color: #24cc94;
+    color: #30c090;
   }
 
   /* a variable name */
@@ -73,7 +73,7 @@
 
   /* a function name */
   .fun {
-    color: #47ebb4;
+    color: #54d4a9;
   }
 }
 /* Use higher contrast and text-weight for printable form. */
@@ -121,7 +121,7 @@
 /* Style */
 pre.prettyprint {
   background: #1d262f;
-  color: #556e8b;
+  color: #303f4f;
   font-family: Consolas, Menlo, "Bitstream Vera Sans Mono", "DejaVu Sans Mono", Monaco, monospace;
   font-size: 12px;
   line-height: 1.5;

@@ -4,7 +4,7 @@
 
 /* Duotone-DarkEarth Comment */
 .hljs-comment {
-  color: #85786f;
+  color: #6a5f58;
 }
 
 /* Duotone-DarkEarth Red */
@@ -94,7 +94,7 @@
   display: block;
   overflow-x: auto;
   background: #fff3eb;
-  color: #695f59;
+  color: #5b534d;
   padding: 0.5em;
   -webkit-text-size-adjust: none;
 }

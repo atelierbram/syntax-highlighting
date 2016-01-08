@@ -4,7 +4,7 @@
 
 /* Duotone-DarkSpace Comment */
 .hljs-comment {
-  color: #9d9dc8;
+  color: #646487;
 }
 
 /* Duotone-DarkSpace Red */
@@ -37,7 +37,7 @@
 /* Duotone-DarkSpace Yellow */
 .ruby .hljs-class .hljs-title,
 .css .hljs-rule .hljs-attribute {
-  color: #e67841;
+  color: #f36e2b;
 }
 
 /* Duotone-DarkSpace Green */
@@ -53,7 +53,7 @@
 /* Duotone-DarkSpace Aqua */
 .hljs-title,
 .css .hljs-hexcolor {
-  color: #f49666;
+  color: #fe8c52;
 }
 
 /* Duotone-DarkSpace Blue */
@@ -65,7 +65,7 @@
 .perl .hljs-sub,
 .javascript .hljs-title,
 .coffeescript .hljs-title {
-  color: #ee8753;
+  color: #f97c3e;
 }
 
 /* Duotone-DarkSpace Purple */
@@ -87,14 +87,14 @@
   background-color: #94796b;
 }
 .diff .hljs-change {
-  color: #ee8753;
+  color: #f97c3e;
 }
 
 .hljs {
   display: block;
   overflow-x: auto;
   background: #24242e;
-  color: #8888fb;
+  color: #6e6e96;
   padding: 0.5em;
   -webkit-text-size-adjust: none;
 }

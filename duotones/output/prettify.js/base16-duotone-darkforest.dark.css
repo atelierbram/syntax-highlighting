@@ -13,12 +13,12 @@
 
   /* a keyword */
   .kwd {
-    color: #7d9b7d;
+    color: #77c577;
   }
 
   /* a comment */
   .com {
-    color: #698669;
+    color: #535f53;
   }
 
   /* a type name */
@@ -28,7 +28,7 @@
 
   /* a literal value */
   .lit {
-    color: #a1b34d;
+    color: #a2b34d;
   }
 
   /* punctuation */
@@ -48,12 +48,12 @@
 
   /* a markup tag name */
   .tag {
-    color: #687d68;
+    color: #54b654;
   }
 
   /* a markup attribute name */
   .atn {
-    color: #a1b34d;
+    color: #a2b34d;
   }
 
   /* a markup attribute value */
@@ -63,12 +63,12 @@
 
   /* a declaration */
   .dec {
-    color: #a1b34d;
+    color: #a2b34d;
   }
 
   /* a variable name */
   .var {
-    color: #687d68;
+    color: #54b654;
   }
 
   /* a function name */
@@ -121,7 +121,7 @@
 /* Style */
 pre.prettyprint {
   background: #2a2d2a;
-  color: #556855;
+  color: #485148;
   font-family: Consolas, Menlo, "Bitstream Vera Sans Mono", "DejaVu Sans Mono", Monaco, monospace;
   font-size: 12px;
   line-height: 1.5;
