@@ -1,7 +1,8 @@
 # DuoTones
 Based on [DuoTone themes](http://simurai.com/projects/2016/01/01/duotone-themes/) by [Simurai](http://simurai.com/)
 
-This is a work in progress. When one would compare the syntax-highlighting in Atom _(with the original DuoTone colorscheme)_ in those same files in, for example Vim or Sublimetext, with the colorschemes here, then one will see that the original themes have a better considered distribution of contrast. In time the templates for Vim and SublimeText, Prism and HighlightJs will be edited to tone down those brackets, punctuation and so on, in order to keep these colorschemes in the spirit of the original DuoTone Themes.
+This is a work in progress. Until now only templates for Vim and Prism have been edited.
+In time the templates for SublimeText, and HighlightJs will alse be edited to tone down those brackets, punctuation and so on, in order to keep these colorschemes in the spirit of the original DuoTone Themes.
 
 Go to [demopage](http://atelierbram.github.io/syntax-highlighting/duotones)
 
@@ -17,6 +18,14 @@ NOTE: For Atom, please use [the original theme](https://atom.io/themes/search?ut
 
 For Sublime Text, go to the [Textmate folder](https://github.com/atelierbram/syntax-highlighting/tree/master/duotones/output/textmate) within the output folder.
 
+For Vim with Pathogen you can clone [the dedicated repo for this purpose](https://github.com/atelierbram/vim-colors_duotones) in the ~/.vim/bundle directory like so:
+
+```bash
+cd ~/.vim/bundle
+git clone https://github.com/atelierbram/vim-colors_duotones.git
+```
 
 ### Resources
-[Creating Colorschemes for Vim)](http://vimcasts.org/episodes/creating-colorschemes-for-vim/)
+[Orginal Colorscheme for Atom on simurai.com](https://github.com/simurai/duotone-dark-syntax/blob/master/styles/colors.less](http://simurai.com/projects/2016/01/01/duotone-themes/)
+[Orginal Colorscheme for Atom on Github](https://github.com/simurai/duotone-dark-syntax/blob/master/styles/colors.less)
+[Creating Colorschemes for Vim on vimcasts.org](http://vimcasts.org/episodes/creating-colorschemes-for-vim/)
