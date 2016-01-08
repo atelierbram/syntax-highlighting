@@ -258,10 +258,13 @@ call <sid>hi("htmlTag",     s:gui04, "", s:cterm04, "", "")
 call <sid>hi("htmlTagN",     s:gui07, "", s:cterm07, "", "")
 
 " JavaScript highlighting
-call <sid>hi("javaScript",        s:gui05, "", s:cterm05, "", "")
-call <sid>hi("javaScriptBraces",  s:gui03, "", s:cterm03, "", "")
-call <sid>hi("javaScriptNumber",  s:gui09, "", s:cterm09, "", "")
-call <sid>hi("javaScriptParens",  s:gui03, "", s:cterm03, "", "")
+call <sid>hi("javaScript",            s:gui05, "", s:cterm05, "", "")
+call <sid>hi("javaScriptBraces",      s:gui03, "", s:cterm03, "", "")
+call <sid>hi("javaScriptNumber",      s:gui09, "", s:cterm09, "", "")
+call <sid>hi("javaScriptParens",      s:gui03, "", s:cterm03, "", "")
+call <sid>hi("JavaScriptIdentifier",  s:gui09, "", s:cterm09, "", "")
+call <sid>hi("JavaScriptConditional", s:gui09, "", s:cterm09, "", "")
+call <sid>hi("JavaScriptStatement",   s:gui09, "", s:cterm09, "", "")
 
 " Markdown highlighting
 call <sid>hi("markdownCode",              s:gui0B, "", s:cterm0B, "", "")

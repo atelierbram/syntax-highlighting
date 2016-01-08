@@ -8,17 +8,17 @@
 @media screen {
   /* string content */
   .str {
-    color: #b28c70;
+    color: #70b2ad;
   }
 
   /* a keyword */
   .kwd {
-    color: #9994d6;
+    color: #7a84f0;
   }
 
   /* a comment */
   .com {
-    color: #7975a3;
+    color: #7579a3;
   }
 
   /* a type name */
@@ -48,7 +48,7 @@
 
   /* a markup tag name */
   .tag {
-    color: #6e65d2;
+    color: #5662e1;
   }
 
   /* a markup attribute name */
@@ -68,7 +68,7 @@
 
   /* a variable name */
   .var {
-    color: #6e65d2;
+    color: #5662e1;
   }
 
   /* a function name */
@@ -120,12 +120,12 @@
 }
 /* Style */
 pre.prettyprint {
-  background: #f5f0fe;
-  color: #9f99e6;
+  background: #f0f1ff;
+  color: #969de9;
   font-family: Consolas, Menlo, "Bitstream Vera Sans Mono", "DejaVu Sans Mono", Monaco, monospace;
   font-size: 12px;
   line-height: 1.5;
-  border: 1px solid #c6c2fa;
+  border: 1px solid #bec3fe;
   padding: 10px;
   border-radius: 3px;
 }

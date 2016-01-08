@@ -34,13 +34,13 @@ pre[class*="language-"] {
 pre[class*="language-"]::-moz-selection, pre[class*="language-"] ::-moz-selection,
 code[class*="language-"]::-moz-selection, code[class*="language-"] ::-moz-selection {
   text-shadow: none;
-  background: #c4b8fe;
+  background: #b3a5fe;
 }
 
 pre[class*="language-"]::selection, pre[class*="language-"] ::selection,
 code[class*="language-"]::selection, code[class*="language-"] ::selection {
   text-shadow: none;
-  background: #c4b8fe;
+  background: #b3a5fe;
 }
 
 /* Code blocks */
@@ -74,28 +74,28 @@ pre[class*="language-"] {
 .token.operator,
 .token.boolean,
 .token.number {
-  color: #c07830;
+  color: #dc9147;
 }
 .token.property {
-  color: #d48535;
+  color: #e59e57;
 }
 .token.tag {
-  color: #de9145;
+  color: #ecab69;
 }
 .token.string {
-  color: #e8a35e;
+  color: #fec286;
 }
 .token.selector {
   color: #a49bcf;
 }
 .token.attr-name {
-  color: #c07830;
+  color: #dc9147;
 }
 .token.entity,
 .token.url,
 .language-css .token.string,
 .style .token.string {
-  color: #e8a35e;
+  color: #fec286;
 }
 
 .token.attr-value,
@@ -109,12 +109,12 @@ pre[class*="language-"] {
 .token.statement,
 .token.regex,
 .token.atrule {
-  color: #e8a35e;
+  color: #fec286;
 }
 
 .token.placeholder,
 .token.variable {
-  color: #de9145;
+  color: #ecab69;
 }
 
 .token.deleted {

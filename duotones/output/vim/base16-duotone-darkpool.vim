@@ -13,21 +13,21 @@ endif
 
 " GUI color definitions
 let s:gui00 = "21212c"
-let s:gui01 = "2e2d3e"
-let s:gui02 = "4d4a68"
-let s:gui03 = "625e87"
-let s:gui04 = "7975a3"
-let s:gui05 = "9f99e6"
-let s:gui06 = "c6c2fa"
-let s:gui07 = "f5f0fe"
-let s:gui08 = "6e65d2"
+let s:gui01 = "2d2e3e"
+let s:gui02 = "4a4d68"
+let s:gui03 = "5e6287"
+let s:gui04 = "7579a3"
+let s:gui05 = "969de9"
+let s:gui06 = "bec3fe"
+let s:gui07 = "f0f1ff"
+let s:gui08 = "5662e1"
 let s:gui09 = "47c2b8"
 let s:gui0A = "55cec4"
-let s:gui0B = "b28c70"
+let s:gui0B = "70b2ad"
 let s:gui0C = "89e6de"
 let s:gui0D = "64d8cf"
-let s:gui0E = "9994d6"
-let s:gui0F = "847dd4"
+let s:gui0E = "7a84f0"
+let s:gui0F = "6772e9"
 
 " Terminal color definitions
 let s:cterm00 = "00"
@@ -258,10 +258,13 @@ call <sid>hi("htmlTag",     s:gui04, "", s:cterm04, "", "")
 call <sid>hi("htmlTagN",     s:gui07, "", s:cterm07, "", "")
 
 " JavaScript highlighting
-call <sid>hi("javaScript",        s:gui05, "", s:cterm05, "", "")
-call <sid>hi("javaScriptBraces",  s:gui03, "", s:cterm03, "", "")
-call <sid>hi("javaScriptNumber",  s:gui09, "", s:cterm09, "", "")
-call <sid>hi("javaScriptParens",  s:gui03, "", s:cterm03, "", "")
+call <sid>hi("javaScript",            s:gui05, "", s:cterm05, "", "")
+call <sid>hi("javaScriptBraces",      s:gui03, "", s:cterm03, "", "")
+call <sid>hi("javaScriptNumber",      s:gui09, "", s:cterm09, "", "")
+call <sid>hi("javaScriptParens",      s:gui03, "", s:cterm03, "", "")
+call <sid>hi("JavaScriptIdentifier",  s:gui09, "", s:cterm09, "", "")
+call <sid>hi("JavaScriptConditional", s:gui09, "", s:cterm09, "", "")
+call <sid>hi("JavaScriptStatement",   s:gui09, "", s:cterm09, "", "")
 
 " Markdown highlighting
 call <sid>hi("markdownCode",              s:gui0B, "", s:cterm0B, "", "")

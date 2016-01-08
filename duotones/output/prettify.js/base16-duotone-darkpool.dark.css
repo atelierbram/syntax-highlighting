@@ -2,23 +2,23 @@
 
 /* plain text */
 .pln {
-  color: #f5f0fe;
+  color: #f0f1ff;
 }
 
 @media screen {
   /* string content */
   .str {
-    color: #b28c70;
+    color: #70b2ad;
   }
 
   /* a keyword */
   .kwd {
-    color: #9994d6;
+    color: #7a84f0;
   }
 
   /* a comment */
   .com {
-    color: #625e87;
+    color: #5e6287;
   }
 
   /* a type name */
@@ -33,22 +33,22 @@
 
   /* punctuation */
   .pun {
-    color: #f5f0fe;
+    color: #f0f1ff;
   }
 
   /* lisp open bracket */
   .opn {
-    color: #f5f0fe;
+    color: #f0f1ff;
   }
 
   /* lisp close bracket */
   .clo {
-    color: #f5f0fe;
+    color: #f0f1ff;
   }
 
   /* a markup tag name */
   .tag {
-    color: #6e65d2;
+    color: #5662e1;
   }
 
   /* a markup attribute name */
@@ -68,7 +68,7 @@
 
   /* a variable name */
   .var {
-    color: #6e65d2;
+    color: #5662e1;
   }
 
   /* a function name */
@@ -121,7 +121,7 @@
 /* Style */
 pre.prettyprint {
   background: #21212c;
-  color: #4d4a68;
+  color: #4a4d68;
   font-family: Consolas, Menlo, "Bitstream Vera Sans Mono", "DejaVu Sans Mono", Monaco, monospace;
   font-size: 12px;
   line-height: 1.5;

@@ -27,20 +27,20 @@ pre[class*="language-"] {
   -moz-hyphens: none;
   -ms-hyphens: none;
   hyphens: none;
-  background: #f5f0fe;
-  color: #4f4b58;
+  background: #f0f1ff;
+  color: #4a4d68;
 }
 
 pre[class*="language-"]::-moz-selection, pre[class*="language-"] ::-moz-selection,
 code[class*="language-"]::-moz-selection, code[class*="language-"] ::-moz-selection {
   text-shadow: none;
-  background: #d4c2fa;
+  background: #bec3fe;
 }
 
 pre[class*="language-"]::selection, pre[class*="language-"] ::selection,
 code[class*="language-"]::selection, code[class*="language-"] ::selection {
   text-shadow: none;
-  background: #d4c2fa;
+  background: #bec3fe;
 }
 
 /* Code blocks */
@@ -60,11 +60,11 @@ pre[class*="language-"] {
 .token.prolog,
 .token.doctype,
 .token.cdata {
-  color: #807792;
+  color: #7579a3;
 }
 
 .token.punctuation {
-  color: #4f4b58;
+  color: #4a4d68;
 }
 
 .token.namespace {
@@ -74,28 +74,28 @@ pre[class*="language-"] {
 .token.operator,
 .token.boolean,
 .token.number {
-  color: #b46e3c;
+  color: #47c2b8;
 }
 .token.property {
-  color: #c87941;
+  color: #55cec4;
 }
 .token.tag {
-  color: #d38650;
+  color: #64d8cf;
 }
 .token.string {
-  color: #dd945f;
+  color: #89e6de;
 }
 .token.selector {
-  color: #a089cd;
+  color: #7a84f0;
 }
 .token.attr-name {
-  color: #b46e3c;
+  color: #47c2b8;
 }
 .token.entity,
 .token.url,
 .language-css .token.string,
 .style .token.string {
-  color: #dd945f;
+  color: #89e6de;
 }
 
 .token.attr-value,
@@ -103,18 +103,18 @@ pre[class*="language-"] {
 .token.control,
 .token.directive,
 .token.unit {
-  color: #b28c70;
+  color: #70b2ad;
 }
 
 .token.statement,
 .token.regex,
 .token.atrule {
-  color: #dd945f;
+  color: #89e6de;
 }
 
 .token.placeholder,
 .token.variable {
-  color: #d38650;
+  color: #64d8cf;
 }
 
 .token.deleted {
@@ -122,7 +122,7 @@ pre[class*="language-"] {
 }
 
 .token.inserted {
-  border-bottom: 1px dotted #1e1d20;
+  border-bottom: 1px dotted #21212c;
   text-decoration: none;
 }
 
@@ -136,7 +136,7 @@ pre[class*="language-"] {
 }
 
 .token.important {
-  color: #7f5bc8;
+  color: #5662e1;
 }
 
 .token.entity {
@@ -144,6 +144,6 @@ pre[class*="language-"] {
 }
 
 pre > code.highlight {
-  outline: .4em solid #7f5bc8;
+  outline: .4em solid #5662e1;
   outline-offset: .4em;
 }
