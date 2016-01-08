@@ -29,3 +29,8 @@ git clone https://github.com/atelierbram/vim-colors_duotones.git
 - [Orginal Colorscheme for Atom on simurai.com](http://simurai.com/projects/2016/01/01/duotone-themes/)
 - [Orginal Colorscheme for Atom on Github](https://github.com/simurai/duotone-dark-syntax/blob/master/styles/colors.less)
 - [Creating Colorschemes for Vim on vimcasts.org](http://vimcasts.org/episodes/creating-colorschemes-for-vim/)
+
+### License
+Released under [MIT Licence](http://atelierbram.mit-license.org)
+
+[Pathogen]: https://github.com/tpope/vim-pathogen
