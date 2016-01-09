@@ -12,22 +12,22 @@ if !has('gui_running')
 endif
 
 " GUI color definitions
-let s:gui00 = "21212c"
-let s:gui01 = "2d2e3e"
-let s:gui02 = "4a4d68"
-let s:gui03 = "5e6287"
-let s:gui04 = "7579a3"
-let s:gui05 = "969de9"
-let s:gui06 = "bec3fe"
-let s:gui07 = "f0f1ff"
-let s:gui08 = "5662e1"
-let s:gui09 = "47c2b8"
-let s:gui0A = "55cec4"
-let s:gui0B = "70b2ad"
-let s:gui0C = "89e6de"
-let s:gui0D = "64d8cf"
-let s:gui0E = "7a84f0"
-let s:gui0F = "6772e9"
+let s:gui00 = "202746"
+let s:gui01 = "2d3453"
+let s:gui02 = "434b70"
+let s:gui03 = "5a638c"
+let s:gui04 = "6c78ac"
+let s:gui05 = "91a4f7"
+let s:gui06 = "bec9fe"
+let s:gui07 = "ebeeff"
+let s:gui08 = "637ef2"
+let s:gui09 = "2fd3f4"
+let s:gui0A = "4cd5f0"
+let s:gui0B = "70a7b2"
+let s:gui0C = "8aebff"
+let s:gui0D = "5be0fb"
+let s:gui0E = "90a3f9"
+let s:gui0F = "7b91f4"
 
 " Terminal color definitions
 let s:cterm00 = "00"
@@ -196,7 +196,7 @@ call <sid>hi("Number",       s:gui0C, "", s:cterm0C, "", "")
 call <sid>hi("Operator",     s:gui0A, "", s:cterm0A, "", "none")
 call <sid>hi("PreProc",      s:gui0A, "", s:cterm0A, "", "")
 call <sid>hi("Repeat",       s:gui0A, "", s:cterm0A, "", "")
-call <sid>hi("Special",      s:gui0C, "", s:cterm0C, "", "")
+call <sid>hi("Special",      s:gui02, "", s:cterm02, "", "")
 call <sid>hi("SpecialChar",  s:gui0F, "", s:cterm0F, "", "")
 call <sid>hi("Statement",    s:gui07, "", s:cterm07, "none", "none")
 call <sid>hi("StorageClass", s:gui05, "", s:cterm05, "", "")
@@ -228,6 +228,7 @@ call <sid>hi("cssInclude",         s:gui04, "", s:cterm04, "", "")
 call <sid>hi("cssColor",           s:gui0C, "", s:cterm0C, "", "")
 call <sid>hi("cssUnitDecorators",  s:gui09, "", s:cterm09, "", "")
 call <sid>hi("cssMediaKeyword",    s:gui09, "", s:cterm09, "", "")
+call <sid>hi("cssImportant",       s:gui08, "", s:cterm08, "", "")
 
 " Diff highlighting
 call <sid>hi("DiffAdd",      s:gui0B, s:gui01,  s:cterm0B, s:cterm01, "")

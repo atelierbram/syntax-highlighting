@@ -20,13 +20,13 @@ let s:gui04 = "44586f"
 let s:gui05 = "57718e"
 let s:gui06 = "7eb6f6"
 let s:gui07 = "ebf4ff"
-let s:gui08 = "52a3ff"
-let s:gui09 = "24cc94"
+let s:gui08 = "298dff"
+let s:gui09 = "429aff"
 let s:gui0A = "29e0a3"
 let s:gui0B = "708f85"
 let s:gui0C = "5cffc9"
 let s:gui0D = "47ebb4"
-let s:gui0E = "85beff"
+let s:gui0E = "5ca8ff"
 let s:gui0F = "6bb0ff"
 
 " Terminal color definitions
@@ -196,7 +196,7 @@ call <sid>hi("Number",       s:gui0C, "", s:cterm0C, "", "")
 call <sid>hi("Operator",     s:gui0A, "", s:cterm0A, "", "none")
 call <sid>hi("PreProc",      s:gui0A, "", s:cterm0A, "", "")
 call <sid>hi("Repeat",       s:gui0A, "", s:cterm0A, "", "")
-call <sid>hi("Special",      s:gui0C, "", s:cterm0C, "", "")
+call <sid>hi("Special",      s:gui02, "", s:cterm02, "", "")
 call <sid>hi("SpecialChar",  s:gui0F, "", s:cterm0F, "", "")
 call <sid>hi("Statement",    s:gui07, "", s:cterm07, "none", "none")
 call <sid>hi("StorageClass", s:gui05, "", s:cterm05, "", "")
@@ -228,6 +228,7 @@ call <sid>hi("cssInclude",         s:gui04, "", s:cterm04, "", "")
 call <sid>hi("cssColor",           s:gui0C, "", s:cterm0C, "", "")
 call <sid>hi("cssUnitDecorators",  s:gui09, "", s:cterm09, "", "")
 call <sid>hi("cssMediaKeyword",    s:gui09, "", s:cterm09, "", "")
+call <sid>hi("cssImportant",       s:gui08, "", s:cterm08, "", "")
 
 " Diff highlighting
 call <sid>hi("DiffAdd",      s:gui0B, s:gui01,  s:cterm0B, s:cterm01, "")

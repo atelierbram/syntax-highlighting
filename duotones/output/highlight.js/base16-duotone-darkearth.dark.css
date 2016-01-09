@@ -21,7 +21,7 @@
 .css .hljs-id,
 .css .hljs-class,
 .css .hljs-pseudo {
-  color: #c08e6d;
+  color: #da8952;
 }
 
 /* Duotone-DarkEarth Orange */
@@ -71,7 +71,7 @@
 /* Duotone-DarkEarth Purple */
 .hljs-keyword,
 .javascript .hljs-function {
-  color: #c8ab98;
+  color: #eba475;
 }
 
 .diff .hljs-deletion,
@@ -81,7 +81,7 @@
   width: 100%;
 }
 .diff .hljs-deletion {
-  background-color: #c08e6d;
+  background-color: #da8952;
 }
 .diff .hljs-addition {
   background-color: #a89771;

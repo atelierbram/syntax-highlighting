@@ -13,7 +13,7 @@
 
   /* a keyword */
   .kwd {
-    color: #85beff;
+    color: #5ca8ff;
   }
 
   /* a comment */
@@ -28,7 +28,7 @@
 
   /* a literal value */
   .lit {
-    color: #24cc94;
+    color: #429aff;
   }
 
   /* punctuation */
@@ -48,12 +48,12 @@
 
   /* a markup tag name */
   .tag {
-    color: #52a3ff;
+    color: #298dff;
   }
 
   /* a markup attribute name */
   .atn {
-    color: #24cc94;
+    color: #429aff;
   }
 
   /* a markup attribute value */
@@ -63,12 +63,12 @@
 
   /* a declaration */
   .dec {
-    color: #24cc94;
+    color: #429aff;
   }
 
   /* a variable name */
   .var {
-    color: #52a3ff;
+    color: #298dff;
   }
 
   /* a function name */

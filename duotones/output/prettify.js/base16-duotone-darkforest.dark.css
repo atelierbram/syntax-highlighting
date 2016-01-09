@@ -13,7 +13,7 @@
 
   /* a keyword */
   .kwd {
-    color: #77c577;
+    color: #53c653;
   }
 
   /* a comment */
@@ -48,7 +48,7 @@
 
   /* a markup tag name */
   .tag {
-    color: #54b654;
+    color: #45a145;
   }
 
   /* a markup attribute name */
@@ -68,7 +68,7 @@
 
   /* a variable name */
   .var {
-    color: #54b654;
+    color: #45a145;
   }
 
   /* a function name */

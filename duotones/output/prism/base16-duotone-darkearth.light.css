@@ -86,7 +86,7 @@ pre[class*="language-"] {
   color: #fcc440;
 }
 .token.selector {
-  color: #c8ab98;
+  color: #eba475;
 }
 .token.attr-name {
   color: #bfa05a;
@@ -136,7 +136,7 @@ pre[class*="language-"] {
 }
 
 .token.important {
-  color: #c08e6d;
+  color: #da8952;
 }
 
 .token.entity {
@@ -144,6 +144,6 @@ pre[class*="language-"] {
 }
 
 pre > code.highlight {
-  outline: .4em solid #c08e6d;
+  outline: .4em solid #da8952;
   outline-offset: .4em;
 }

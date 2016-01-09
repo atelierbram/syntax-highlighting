@@ -147,7 +147,7 @@ pre[class*="language-"] {
 }
 
 .token.important {
-  color: #54b654;
+  color: #45a145;
 }
 
 .token.entity {
@@ -155,6 +155,6 @@ pre[class*="language-"] {
 }
 
 pre > code.highlight {
-  outline: .4em solid #54b654;
+  outline: .4em solid #45a145;
   outline-offset: .4em;
 }

@@ -21,7 +21,7 @@
 .css .hljs-id,
 .css .hljs-class,
 .css .hljs-pseudo {
-  color: #52a3ff;
+  color: #298dff;
 }
 
 /* Duotone-DarkSea Orange */
@@ -31,7 +31,7 @@
 .hljs-literal,
 .hljs-params,
 .hljs-constant {
-  color: #24cc94;
+  color: #429aff;
 }
 
 /* Duotone-DarkSea Yellow */
@@ -71,7 +71,7 @@
 /* Duotone-DarkSea Purple */
 .hljs-keyword,
 .javascript .hljs-function {
-  color: #85beff;
+  color: #5ca8ff;
 }
 
 .diff .hljs-deletion,
@@ -81,7 +81,7 @@
   width: 100%;
 }
 .diff .hljs-deletion {
-  background-color: #52a3ff;
+  background-color: #298dff;
 }
 .diff .hljs-addition {
   background-color: #708f85;

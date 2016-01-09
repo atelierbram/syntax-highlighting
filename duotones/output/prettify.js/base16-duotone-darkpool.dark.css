@@ -2,78 +2,78 @@
 
 /* plain text */
 .pln {
-  color: #f0f1ff;
+  color: #ebeeff;
 }
 
 @media screen {
   /* string content */
   .str {
-    color: #70b2ad;
+    color: #70a7b2;
   }
 
   /* a keyword */
   .kwd {
-    color: #7a84f0;
+    color: #90a3f9;
   }
 
   /* a comment */
   .com {
-    color: #5e6287;
+    color: #5a638c;
   }
 
   /* a type name */
   .typ {
-    color: #64d8cf;
+    color: #5be0fb;
   }
 
   /* a literal value */
   .lit {
-    color: #47c2b8;
+    color: #2fd3f4;
   }
 
   /* punctuation */
   .pun {
-    color: #f0f1ff;
+    color: #ebeeff;
   }
 
   /* lisp open bracket */
   .opn {
-    color: #f0f1ff;
+    color: #ebeeff;
   }
 
   /* lisp close bracket */
   .clo {
-    color: #f0f1ff;
+    color: #ebeeff;
   }
 
   /* a markup tag name */
   .tag {
-    color: #5662e1;
+    color: #637ef2;
   }
 
   /* a markup attribute name */
   .atn {
-    color: #47c2b8;
+    color: #2fd3f4;
   }
 
   /* a markup attribute value */
   .atv {
-    color: #89e6de;
+    color: #8aebff;
   }
 
   /* a declaration */
   .dec {
-    color: #47c2b8;
+    color: #2fd3f4;
   }
 
   /* a variable name */
   .var {
-    color: #5662e1;
+    color: #637ef2;
   }
 
   /* a function name */
   .fun {
-    color: #64d8cf;
+    color: #5be0fb;
   }
 }
 /* Use higher contrast and text-weight for printable form. */
@@ -120,12 +120,12 @@
 }
 /* Style */
 pre.prettyprint {
-  background: #21212c;
-  color: #4a4d68;
+  background: #202746;
+  color: #434b70;
   font-family: Consolas, Menlo, "Bitstream Vera Sans Mono", "DejaVu Sans Mono", Monaco, monospace;
   font-size: 12px;
   line-height: 1.5;
-  border: 1px solid #21212c;
+  border: 1px solid #202746;
   padding: 10px;
   border-radius: 3px;
 }
