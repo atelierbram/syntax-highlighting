@@ -1,0 +1,187 @@
+@import "text-contrast";
+// Tonal Scale demo-tiles 
+$dark01: adjust-color($base00,$lightness:-5%);
+$dark02: $base00;
+$dark03: $base01;
+$dark04: adjust-color($base01,$lightness:5%);
+$dark05: adjust-color($base01,$lightness:10%);
+$dark06: adjust-color($base01,$lightness:15%);
+$dark07: adjust-color($base01,$lightness:20%);
+$dark08: adjust-color($base01,$lightness:25%);
+
+$light08: adjust-color($base01,$lightness:30%);
+$light07: adjust-color($base01,$lightness:35%);
+$light06: adjust-color($base01,$lightness:40%);
+$light05: adjust-color($base01,$lightness:45%);
+$light04: adjust-color($base01,$lightness:50%);
+$light03: adjust-color($base01,$lightness:55%);
+$light02: adjust-color($base01,$lightness:60%);
+$light01: adjust-color($base01,$lightness:65%);
+
+
+.bg-base00 { background-color: $base00; color: text-contrast($base00); }
+.bg-base01 { background-color: $base01; color: text-contrast($base01); }
+.bg-base02 { background-color: $base02; color: text-contrast($base02); }
+.bg-base03 { background-color: $base03; color: text-contrast($base03); }
+.bg-base04 { background-color: $base04; color: text-contrast($base04); }
+.bg-base05 { background-color: $base05; color: text-contrast($base05); }
+.bg-base06 { background-color: $base06; color: text-contrast($base06); }
+.bg-base07 { background-color: $base07; color: text-contrast($base07); }
+.bg-base08 { background-color: $base08; color: text-contrast($base08); }
+.bg-base09 { background-color: $base09; color: text-contrast($base09); }
+.bg-base0a { background-color: $base0A; color: text-contrast($base0A); }
+.bg-base0b { background-color: $base0B; color: text-contrast($base0B); }
+.bg-base0c { background-color: $base0C; color: text-contrast($base0C); }
+.bg-base0d { background-color: $base0D; color: text-contrast($base0D); }
+.bg-base0e { background-color: $base0E; color: text-contrast($base0E); }
+.bg-base0f { background-color: $base0F; color: text-contrast($base0F); }
+
+.bg-dark01 { background-color: $dark01; color: text-contrast($dark01); }
+.bg-dark02 { background-color: $dark02; color: text-contrast($dark02); }
+.bg-dark03 { background-color: $dark03; color: text-contrast($dark03); }
+.bg-dark04 { background-color: $dark04; color: text-contrast($dark04); }
+.bg-dark05 { background-color: $dark05; color: text-contrast($dark05); }
+.bg-dark06 { background-color: $dark06; color: text-contrast($dark06); }
+.bg-dark07 { background-color: $dark07; color: text-contrast($dark07); }
+.bg-dark08 { background-color: $dark08; color: text-contrast($dark08); }
+
+.bg-light01 { background-color: $light01; color: text-contrast($light01); }
+.bg-light02 { background-color: $light02; color: text-contrast($light02); }
+.bg-light03 { background-color: $light03; color: text-contrast($light03); }
+.bg-light04 { background-color: $light04; color: text-contrast($light04); }
+.bg-light05 { background-color: $light05; color: text-contrast($light05); }
+.bg-light06 { background-color: $light06; color: text-contrast($light06); }
+.bg-light07 { background-color: $light07; color: text-contrast($light07); }
+.bg-light08 { background-color: $light08; color: text-contrast($light08); }
+
+// generic demo styles
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+html {
+  font-family: sans-serif;
+  font-size: 16px;
+  background-color: $base07;
+}
+
+html,
+body {
+  height: 100%;
+}
+body {
+  margin: 0;
+  font: 100%/1.5 AvenirNext-Regular, "Lucida Grande", "Segoe Ui", "Trebuchet Ms", sans-serif;
+  background: inherit;
+  color: #111;
+  min-height: 100%;
+  box-sizing: border-box;
+}
+h1, h2, h3 {
+  margin: 0;
+  padding: 1rem 0 0;
+  font-family: AvenirNextCondensed-DemiBold, "Lucida Grande", "Segoe Ui", "Trebuchet Ms", sans-serif;
+}
+h3 {
+  color: $base02;
+}
+
+.container {
+  max-width: 100%;
+}
+.header,
+.footer {
+  padding: .5em 0;
+  // background: darken($blue,25);
+  // background: $dark-blue;
+  background: $base04;
+  color: $base07;
+  width: 100%;
+  text-align: center;
+  text-shadow: $base00 1px 1px 1px;
+}
+.header {
+  border-bottom: 2px solid $base02;
+  letter-spacing: 1px;
+  word-spacing: -1px;
+}
+.footer {
+  margin-top: 5em;
+  border-top: 2px solid $base02;
+  padding-bottom: 2em;
+  letter-spacing: 1px;
+}
+.header a,
+.footer a {
+  // color: adjust-color($base05,$lightness:25%,$saturation:5%);
+  color: $base0C;
+  text-decoration: none;
+}
+.header a:hover,
+.footer a:hover {
+  color: $base0C;
+  // color: adjust-color($base05,$lightness:50%,$saturation:10%);
+}
+.header h1 .small {
+  color: $base07;
+}
+.demo-tiles {
+  overflow: hidden;
+}
+.wrap {
+  margin-top: 1em;
+  padding: 0 2em;
+}
+.cf:before,
+.cf:after {
+  content: " ";
+  display: table;
+}
+.cf:after,
+.clear {
+  clear: both;
+}
+.unit {
+  float: left;
+  width: 25%;
+  padding: 4em 0;
+  text-align: center;
+}
+h1 {
+  font-size: 2.5rem;
+}
+h2 {
+  font-size: 2.25rem;
+}
+h3 {
+  font-size: 2rem;
+  margin: 1em 0 0 .35em;
+}
+.block-list {
+  margin-bottom: 1em;
+}
+.block-list li {
+  list-style: none;
+  padding: .5em 1em;
+}
+@media (min-width:750px) {
+  .container {
+    padding-right: 5%;
+    padding-left: 5%;
+  }
+  h1 {
+    font-size: 2.75rem;
+  }
+  h2 {
+    font-size: 2.5rem;
+  }
+  h3 {
+    font-size: 2.25rem;
+  }
+  p {
+    font-size: 1.25em;
+  }
+}
