@@ -83,13 +83,13 @@ pre[class*="language-"] {
 .token.operator,
 .token.boolean,
 .token.number {
-  color: #429aff;
+  color: #24cc94;
 }
 .token.property {
   color: #57718e;
 }
 .token.tag {
-  color: #429aff;
+  color: #24cc94;
 }
 .token.string {
   color: #5cffc9;

@@ -28,7 +28,7 @@
 
   /* a literal value */
   .lit {
-    color: #429aff;
+    color: #24cc94;
   }
 
   /* punctuation */
@@ -53,7 +53,7 @@
 
   /* a markup attribute name */
   .atn {
-    color: #429aff;
+    color: #24cc94;
   }
 
   /* a markup attribute value */
@@ -63,7 +63,7 @@
 
   /* a declaration */
   .dec {
-    color: #429aff;
+    color: #24cc94;
   }
 
   /* a variable name */
