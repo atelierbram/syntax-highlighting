@@ -1,23 +1,22 @@
 @import "text-contrast";
 // Tonal Scale demo-tiles
-$dark01: adjust-color($base00,$lightness:-5%);
-$dark02: $base00;
-$dark03: $base01;
-$dark04: adjust-color($base01,$lightness:5%);
-$dark05: adjust-color($base01,$lightness:10%);
-$dark06: adjust-color($base01,$lightness:15%);
-$dark07: adjust-color($base01,$lightness:20%);
-$dark08: adjust-color($base01,$lightness:25%);
-
-$light08: adjust-color($base01,$lightness:30%);
-$light07: adjust-color($base01,$lightness:35%);
-$light06: adjust-color($base01,$lightness:40%);
-$light05: adjust-color($base01,$lightness:45%);
-$light04: adjust-color($base01,$lightness:50%);
-$light03: adjust-color($base01,$lightness:55%);
-$light02: adjust-color($base01,$lightness:60%);
-$light01: adjust-color($base01,$lightness:65%);
-
+// $dark01: adjust-color($base00,$lightness:-5%);
+// $dark02: $base00;
+// $dark03: $base01;
+// $dark04: adjust-color($base01,$lightness:5%);
+// $dark05: adjust-color($base01,$lightness:10%);
+// $dark06: adjust-color($base01,$lightness:15%);
+// $dark07: adjust-color($base01,$lightness:20%);
+// $dark08: adjust-color($base01,$lightness:25%);
+//
+// $light08: adjust-color($base01,$lightness:30%);
+// $light07: adjust-color($base01,$lightness:35%);
+// $light06: adjust-color($base01,$lightness:40%);
+// $light05: adjust-color($base01,$lightness:45%);
+// $light04: adjust-color($base01,$lightness:50%);
+// $light03: adjust-color($base01,$lightness:55%);
+// $light02: adjust-color($base01,$lightness:60%);
+// $light01: adjust-color($base01,$lightness:65%);
 
 .bg-base00 { background-color: $base00; color: text-contrast($base00); }
 .bg-base01 { background-color: $base01; color: text-contrast($base01); }
@@ -36,24 +35,24 @@ $light01: adjust-color($base01,$lightness:65%);
 .bg-base0e { background-color: $base0E; color: text-contrast($base0E); }
 .bg-base0f { background-color: $base0F; color: text-contrast($base0F); }
 
-.bg-dark01 { background-color: $dark01; color: text-contrast($dark01); }
-.bg-dark02 { background-color: $dark02; color: text-contrast($dark02); }
-.bg-dark03 { background-color: $dark03; color: text-contrast($dark03); }
-.bg-dark04 { background-color: $dark04; color: text-contrast($dark04); }
-.bg-dark05 { background-color: $dark05; color: text-contrast($dark05); }
-.bg-dark06 { background-color: $dark06; color: text-contrast($dark06); }
-.bg-dark07 { background-color: $dark07; color: text-contrast($dark07); }
-.bg-dark08 { background-color: $dark08; color: text-contrast($dark08); }
-
-.bg-light01 { background-color: $light01; color: text-contrast($light01); }
-.bg-light02 { background-color: $light02; color: text-contrast($light02); }
-.bg-light03 { background-color: $light03; color: text-contrast($light03); }
-.bg-light04 { background-color: $light04; color: text-contrast($light04); }
-.bg-light05 { background-color: $light05; color: text-contrast($light05); }
-.bg-light06 { background-color: $light06; color: text-contrast($light06); }
-.bg-light07 { background-color: $light07; color: text-contrast($light07); }
-.bg-light08 { background-color: $light08; color: text-contrast($light08); }
-
+// .bg-dark01 { background-color: $dark01; color: text-contrast($dark01); }
+// .bg-dark02 { background-color: $dark02; color: text-contrast($dark02); }
+// .bg-dark03 { background-color: $dark03; color: text-contrast($dark03); }
+// .bg-dark04 { background-color: $dark04; color: text-contrast($dark04); }
+// .bg-dark05 { background-color: $dark05; color: text-contrast($dark05); }
+// .bg-dark06 { background-color: $dark06; color: text-contrast($dark06); }
+// .bg-dark07 { background-color: $dark07; color: text-contrast($dark07); }
+// .bg-dark08 { background-color: $dark08; color: text-contrast($dark08); }
+//
+// .bg-light01 { background-color: $light01; color: text-contrast($light01); }
+// .bg-light02 { background-color: $light02; color: text-contrast($light02); }
+// .bg-light03 { background-color: $light03; color: text-contrast($light03); }
+// .bg-light04 { background-color: $light04; color: text-contrast($light04); }
+// .bg-light05 { background-color: $light05; color: text-contrast($light05); }
+// .bg-light06 { background-color: $light06; color: text-contrast($light06); }
+// .bg-light07 { background-color: $light07; color: text-contrast($light07); }
+// .bg-light08 { background-color: $light08; color: text-contrast($light08); }
+//
 // generic demo styles
 *,
 *::before,
