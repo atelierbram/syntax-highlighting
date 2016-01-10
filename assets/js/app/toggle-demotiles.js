@@ -31,6 +31,10 @@ domready(function () {
       el.classList.toggle('w-1v7');
     });
 
+    [].map.call(document.querySelectorAll('.demo-tiles'), function(el) {
+      el.classList.toggle('collapsed');
+    });
+
     // var button = document.querySelectorAll("button")[0];
     // https://css-tricks.com/swapping-out-text-five-different-ways/
     // toggleBtn1.addEventListener('click', function() {
