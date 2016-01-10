@@ -3,6 +3,8 @@
 Name:       Base16 Duotone-DarkEarth Dark
 Author:     adapted from: Simurai (https://github.com/simurai/duotone-dark-earth-syntax/)
 
+[DuoTones Colorschemes](http://atelierbram.github.io/syntax-highlighting/duotones)
+
 Prism template by Bram de Haan (http://atelierbram.github.io/syntax-highlighting/prism/)
 Original Base16 color scheme by Chris Kempson (https://github.com/chriskempson/base16)
 
@@ -18,12 +20,12 @@ $base06: #a48774;
 $base07: #fff3eb;
 $base08: #da8952;
 $base09: #bfa05a;
-$base0a: #ccad66;
-$base0b: #a89771;
-$base0c: #fcc440;
-$base0d: #d7b975;
-$base0e: #eba475;
-$base0f: #e39663;
+$base0A: #ccad66;
+$base0B: #a89771;
+$base0C: #fcc440;
+$base0D: #d7b975;
+$base0E: #eba475;
+$base0F: #e39663;
 
 code[class*="language-"],
 pre[class*="language-"] {
@@ -60,19 +62,20 @@ code[class*="language-"]::selection, code[class*="language-"] ::selection {
   background: $base04;
 }
 
-// Code blocks
+/* Code blocks */
 pre[class*="language-"] {
   padding: 1em;
   margin: .5em 0;
   overflow: auto;
 }
 
-// Inline code
+/* Inline code */
 :not(pre) > code[class*="language-"] {
   padding: .1em;
   border-radius: .3em;
 }
 
+.token.punctuation,
 .token.comment,
 .token.prolog,
 .token.doctype,
@@ -80,58 +83,53 @@ pre[class*="language-"] {
   color: $base03;
 }
 
-.token.punctuation {
-  color: $base05;
-}
-
 .token.namespace {
   opacity: .7;
 }
 
+.token.tag,
 .token.operator,
 .token.boolean,
 .token.number {
   color: $base09;
 }
 .token.property {
-  color: $base0a;
+  color: $base05;
 }
-.token.tag {
-  color: $base0d;
+
+.token.tag-id,
+.token.selector,
+.token.atrule-id {
+  color: $base07;
 }
-.token.string {
-  color: $base0c;
-}
-.token.selector {
-  color: $base0e;
-}
+
+code.language-javascript,
 .token.attr-name {
-  color: $base09;
+  color: $base06;
 }
+
+code.language-css,
+code.language-scss,
+.token.string,
 .token.entity,
 .token.url,
 .language-css .token.string,
-.style .token.string {
-  color: $base0c;
-}
-
+.language-scss .token.string,
+.style .token.string,
 .token.attr-value,
 .token.keyword,
 .token.control,
 .token.directive,
-.token.unit {
-  color: $base0b;
-}
-
+.token.unit,
 .token.statement,
 .token.regex,
 .token.atrule {
-  color: $base0c;
+  color: $base0C;
 }
 
 .token.placeholder,
 .token.variable {
-  color: $base0d;
+  color: $base0D;
 }
 
 .token.deleted {

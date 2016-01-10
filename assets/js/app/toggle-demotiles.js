@@ -11,8 +11,8 @@ domready(function () {
 
   dtHeader.insertBefore(toggleBtn1, dtHeader.firstChild);
 
-// https://www.jamestease.co.uk/blether/add-remove-or-toggle-classes-using-vanilla-javascript
-// First we detect the click event
+  // https://www.jamestease.co.uk/blether/add-remove-or-toggle-classes-using-vanilla-javascript
+  // First we detect the click event
   toggleBtn1.addEventListener('click', function () {
     // querySelectorAll returns all the nodes it finds with the selector
     // however, you can't iterate over querySelectorAll results (!!)
@@ -32,22 +32,21 @@ domready(function () {
     });
 
     // var button = document.querySelectorAll("button")[0];
-// https://css-tricks.com/swapping-out-text-five-different-ways/
-// toggleBtn1.addEventListener('click', function() {
-  if (toggleBtn1.getAttribute("data-text-swap") == toggleBtn1.innerHTML) {
-    toggleBtn1.innerHTML = toggleBtn1.getAttribute("data-text-original");
-  } else {
-    toggleBtn1.setAttribute("data-text-original", toggleBtn1.innerHTML);
-    toggleBtn1.innerHTML = toggleBtn1.getAttribute("data-text-swap");
-  }
-// }, false);
+    // https://css-tricks.com/swapping-out-text-five-different-ways/
+    // toggleBtn1.addEventListener('click', function() {
+    if (toggleBtn1.getAttribute("data-text-swap") == toggleBtn1.innerHTML) {
+      toggleBtn1.innerHTML = toggleBtn1.getAttribute("data-text-original");
+    } else {
+      toggleBtn1.setAttribute("data-text-original", toggleBtn1.innerHTML);
+      toggleBtn1.innerHTML = toggleBtn1.getAttribute("data-text-swap");
+    }
 
-  if (numberShades.getAttribute("data-text-swap") == numberShades.innerHTML) {
-    numberShades.innerHTML = numberShades.getAttribute("data-text-original");
-  } else {
-    numberShades.setAttribute("data-text-original", numberShades.innerHTML);
-    numberShades.innerHTML = numberShades.getAttribute("data-text-swap");
-  }
-}, false);
+    if (numberShades.getAttribute("data-text-swap") == numberShades.innerHTML) {
+      numberShades.innerHTML = numberShades.getAttribute("data-text-original");
+    } else {
+      numberShades.setAttribute("data-text-original", numberShades.innerHTML);
+      numberShades.innerHTML = numberShades.getAttribute("data-text-swap");
+    }
+  }, false);
 
-});
+  });
