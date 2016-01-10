@@ -250,6 +250,14 @@ pre > code {
   color: $sh-code-color;
 }
 
+.prism-snippet {
+  display: inline-block;
+  font-size: 1em;
+  margin-bottom: 2em;
+  padding: .5em 2em 1.5em;
+  border-radius: 4px;
+}
+
 .base00-background code,
 .base00-background code[class*="language-"] {
   background: transparent;
@@ -302,6 +310,7 @@ pre > code {
   background-color: tint($sh-yellow-color, 40);
   border: 1px solid $sh-yellow-color;
   padding: emCalc(16) emCalc(24);
+  margin-top: emCalc(24);
   margin-bottom: emCalc(32);
   @include box-shadow (rgba(black,.35) 0 1px 1px);
   ;

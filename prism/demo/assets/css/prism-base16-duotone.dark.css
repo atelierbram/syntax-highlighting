@@ -1,13 +1,12 @@
 /*
 
-Name:       Base16 Duotone-DarkEarth Light
-Author:     adapted from: Simurai (https://github.com/simurai/duotone-dark-earth-syntax/)
+Name:       Base16 Duotone Dark
+Author:     adapted from: Simurai (https://github.com/simurai/duotone-dark-syntax/)
 
 Prism template by Bram de Haan (http://atelierbram.github.io/syntax-highlighting/prism/)
 Original Base16 color scheme by Chris Kempson (https://github.com/chriskempson/base16)
 
 */
-
 code[class*="language-"],
 pre[class*="language-"] {
   font-family: Consolas, Menlo, Monaco, "Andale Mono WT", "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", "DejaVu Sans Mono", "Bitstream Vera Sans Mono", "Liberation Mono", "Nimbus Mono L", "Courier New", Courier, monospace;
@@ -18,29 +17,27 @@ pre[class*="language-"] {
   white-space: pre;
   word-spacing: normal;
   word-break: normal;
-
   -moz-tab-size: 4;
   -o-tab-size: 4;
   tab-size: 4;
-
   -webkit-hyphens: none;
   -moz-hyphens: none;
   -ms-hyphens: none;
   hyphens: none;
-  background: #fff3eb;
-  color: #5b534d;
+  background: #2a2734;
+  color: #a391fd;
 }
 
 pre[class*="language-"]::-moz-selection, pre[class*="language-"] ::-moz-selection,
 code[class*="language-"]::-moz-selection, code[class*="language-"] ::-moz-selection {
   text-shadow: none;
-  background: #a48774;
+  background: #857ab8;
 }
 
 pre[class*="language-"]::selection, pre[class*="language-"] ::selection,
 code[class*="language-"]::selection, code[class*="language-"] ::selection {
   text-shadow: none;
-  background: #a48774;
+  background: #857ab8;
 }
 
 /* Code blocks */
@@ -60,11 +57,11 @@ pre[class*="language-"] {
 .token.prolog,
 .token.doctype,
 .token.cdata {
-  color: #796b63;
+  color: #746e91;
 }
 
 .token.punctuation {
-  color: #5b534d;
+  color: #a391fd;
 }
 
 .token.namespace {
@@ -74,28 +71,34 @@ pre[class*="language-"] {
 .token.operator,
 .token.boolean,
 .token.number {
-  color: #bfa05a;
+  color: #c07830;
 }
+
 .token.property {
-  color: #ccad66;
+  color: #ce853b;
 }
+
 .token.tag {
-  color: #d7b975;
+  color: #d49454;
 }
+
 .token.string {
-  color: #fcc440;
+  color: #daa36c;
 }
+
 .token.selector {
-  color: #eba475;
+  color: #988dce;
 }
+
 .token.attr-name {
-  color: #bfa05a;
+  color: #c07830;
 }
+
 .token.entity,
 .token.url,
 .language-css .token.string,
 .style .token.string {
-  color: #fcc440;
+  color: #daa36c;
 }
 
 .token.attr-value,
@@ -103,18 +106,18 @@ pre[class*="language-"] {
 .token.control,
 .token.directive,
 .token.unit {
-  color: #a89771;
+  color: #7c756e;
 }
 
 .token.statement,
 .token.regex,
 .token.atrule {
-  color: #fcc440;
+  color: #daa36c;
 }
 
 .token.placeholder,
 .token.variable {
-  color: #d7b975;
+  color: #d49454;
 }
 
 .token.deleted {
@@ -122,7 +125,7 @@ pre[class*="language-"] {
 }
 
 .token.inserted {
-  border-bottom: 1px dotted #322d29;
+  border-bottom: 1px dotted #eeebff;
   text-decoration: none;
 }
 
@@ -136,7 +139,7 @@ pre[class*="language-"] {
 }
 
 .token.important {
-  color: #da8952;
+  color: #7769bf;
 }
 
 .token.entity {
@@ -144,6 +147,6 @@ pre[class*="language-"] {
 }
 
 pre > code.highlight {
-  outline: .4em solid #da8952;
+  outline: 0.4em solid #7769bf;
   outline-offset: .4em;
 }
