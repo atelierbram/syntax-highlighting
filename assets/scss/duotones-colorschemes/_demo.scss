@@ -183,6 +183,7 @@ h3 {
 
 .demo-tiles {
   overflow: hidden;
+  margin-bottom: 6em;
 }
 
 .demo-tiles.collapsed span {
@@ -226,15 +227,17 @@ h3 {
 }
 
 .demo-tiles-header {
-  padding: 1em 0 2em;
+  padding: 0 0 1em;
 }
 
 .demo-tiles-header-text {
-  padding-left: 1em;
   display: block;
+  padding-top: 1em;
 
   @media (min-width: 1150px) {
     display: inline-block;
+    padding-top: 0.125rem;
+    padding-left: 1em;
   }
 
 }
@@ -324,7 +327,7 @@ button {
   text-decoration: none;
   vertical-align: top;
   width: auto;
-  font: 1.25rem/1.3 AvenirNext-Regular, "Lucida Grande", "Segoe Ui", "Trebuchet Ms", sans-serif;
+  font: 1rem/1.3 AvenirNext-Regular, "Lucida Grande", "Segoe Ui", "Trebuchet Ms", sans-serif;
   letter-spacing: 1px;
   word-spacing: -1px;
 }
@@ -376,5 +379,9 @@ button::-moz-focus-inner, input::-moz-focus-inner, button::-webkit-focus-inner, 
   p {
     font-size: 1.25em;
   }
+
+  button {
+   font-size: 1.25rem;
+ }
 
 }
