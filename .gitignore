@@ -9,7 +9,10 @@ atelier-schemes/templates
 duotones/templates/*
 !duotones/templates/vim
 !duotones/templates/vim/*
+!duotones/templates/prism
 !duotones/templates/prism/*
+!duotones/templates/textmate
+!duotones/templates/textmate/*
 
 .base16
 .prismbase16

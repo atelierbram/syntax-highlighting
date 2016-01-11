@@ -17,11 +17,11 @@
 		<key>divider</key>
 		<string>#2f2f3c</string>
 		<key>foreground</key>
-		<string>#5b5b76</string>
-		<key>selectionBackground</key>
 		<string>#515167</string>
+		<key>selectionBackground</key>
+		<string>#2f2f3c</string>
 		<key>selectionForeground</key>
-		<string>#646487</string>
+		<string>#515167</string>
 	</dict>
 	<key>settings</key>
 	<array>
@@ -31,22 +31,22 @@
 				<key>background</key>
 				<string>#24242e</string>
 				<key>caret</key>
-				<string>#6e6e96</string>
+				<string>#f97c3e</string>
 				<key>foreground</key>
-				<string>#6e6e96</string>
-				<key>invisibles</key>
 				<string>#5b5b76</string>
+				<key>invisibles</key>
+				<string>#2f2f3c</string>
 				<key>lineHighlight</key>
-				<string>#5b5b7655</string>
+				<string>#2f2f3c55</string>
 				<key>selection</key>
-				<string>#515167</string>
+				<string>#2f2f3c</string>
 			</dict>
 		</dict>
 		<dict>
 			<key>name</key>
 			<string>Text</string>
 			<key>scope</key>
-			<string>variable.parameter.function</string>
+			<string>text.html.basic</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -57,7 +57,7 @@
 			<key>name</key>
 			<string>Comments</string>
 			<key>scope</key>
-			<string>comment, punctuation.definition.comment</string>
+      <string>comment, punctuation.definition.comment, punctuation, text.html.mt, meta.tag.sgml.html, meta.tag.sgml.doctype.html, text.html.mt, meta.tag.sgml.html, meta.tag.sgml.doctype.html, entity.name.tag.doctype.html, text.html.mt, comment.block.html, source.js, comment.line.double-slash.js, punctuation.definition.comment.js, meta.brace.round.js, source.php, source.php.embedded.block.html, punctuation.section.embedded.begin.php, source.php, source.php.embedded.block.html, comment.line.double-slash.php, punctuation.definition.comment.php, source.php, source.php.embedded.block.html,  punctuation.definition.entity.css</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -68,11 +68,11 @@
 			<key>name</key>
 			<string>Punctuation</string>
 			<key>scope</key>
-			<string>punctuation.definition.string, punctuation.definition.variable, punctuation.definition.string, punctuation.definition.parameters, punctuation.definition.string, punctuation.definition.array</string>
+			<string>punctuation.definition.string, punctuation.definition.variable,  punctuation.definition.parameters, punctuation.definition.array, punctuation.definition.array, meta.brace.curly.js</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#6e6e96</string>
+				<string>#94796b</string>
 			</dict>
 		</dict>
 		<dict>
@@ -90,11 +90,22 @@
 			<key>name</key>
 			<string>Operators</string>
 			<key>scope</key>
-			<string>keyword.operator</string>
+			<string>support.function, support.function.construct, support.class, support.type.property-name.css</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
 				<string>#6e6e96</string>
+			</dict>
+		</dict>
+    <dict>
+			<key>name</key>
+			<string>Operators</string>
+			<key>scope</key>
+			<string>keyword.operator, keyword.control</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#dd672c</string>
 			</dict>
 		</dict>
 		<dict>
@@ -112,33 +123,33 @@
 			<key>name</key>
 			<string>Variables</string>
 			<key>scope</key>
-			<string>variable</string>
+			<string>variable, variable.other, variable.parameter.function</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#5151e6</string>
+				<string>#8989BD</string>
 			</dict>
 		</dict>
 		<dict>
 			<key>name</key>
 			<string>Functions</string>
 			<key>scope</key>
-			<string>entity.name.function, meta.require, support.function.any-method</string>
+			<string>entity.name.function, entity.name.tag, entity.name.tag.css, meta.tag.block.any.html, entity.name.tag.structure.any.html, entity.name.tag.block.any.html, entity.name.tag.other.html, entity.other.attribute-name, meta.require, support.function.any-method, meta.function-call, keyword.control.at-rule</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#f97c3e</string>
+				<string>#ebebff</string>
 			</dict>
 		</dict>
 		<dict>
 			<key>name</key>
 			<string>Classes</string>
 			<key>scope</key>
-			<string>support.class, entity.name.class, entity.name.type.class</string>
+			<string>entity.name.class, entity.other.inherited-class,  entity.name.type.class</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#f36e2b</string>
+				<string>#ebebff</string>
 			</dict>
 		</dict>
 		<dict>
@@ -178,7 +189,7 @@
 			<key>name</key>
 			<string>Support</string>
 			<key>scope</key>
-			<string>support.function</string>
+			<string>string, constant.numeric, constant.character, constant.other, storage.type, support.constant, constant.language,  string.quoted.double, string.quoted.single</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -189,11 +200,11 @@
 			<key>name</key>
 			<string>Strings, Inherited Class</string>
 			<key>scope</key>
-			<string>string, constant.other.symbol, entity.other.inherited-class</string>
+			<string>string, constant.other.symbol, source.js</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#94796b</string>
+				<string>#8989BD</string>
 			</dict>
 		</dict>
 		<dict>
@@ -204,7 +215,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#dd672c</string>
+				<string>#fe8c52</string>
 			</dict>
 		</dict>
 		<dict>
@@ -248,18 +259,18 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#5151e6</string>
+				<string>#ebebff</string>
 			</dict>
 		</dict>
 		<dict>
 			<key>name</key>
 			<string>Attributes</string>
 			<key>scope</key>
-			<string>entity.other.attribute-name</string>
+			<string>entity.other.attribute-name.html</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#dd672c</string>
+				<string>#8989BD</string>
 			</dict>
 		</dict>
 		<dict>
@@ -277,11 +288,11 @@
 			<key>name</key>
 			<string>Selector</string>
 			<key>scope</key>
-			<string>meta.selector</string>
+			<string>meta.selector, meta.selector.css, entity.name.tag.wildcard.css, keyword.operator.sass, entity.other.attribute-name.class.css</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#7676f4</string>
+				<string>#ebebff</string>
 			</dict>
 		</dict>
 		<dict>
@@ -305,14 +316,14 @@
 				<key>fontStyle</key>
 				<string></string>
 				<key>foreground</key>
-				<string>#f97c3e</string>
+				<string>#ebebff</string>
 			</dict>
 		</dict>
 		<dict>
 			<key>name</key>
 			<string>Units</string>
 			<key>scope</key>
-			<string>keyword.other.unit</string>
+			<string>keyword.other</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -544,6 +555,6 @@
 		</dict>
 	</array>
 	<key>uuid</key>
-	<string>650c57fe-ca2a-4c65-8f69-be75577fade0</string>
+	<string>39d82adb-6733-4241-816a-cdd6923c9427</string>
 </dict>
 </plist>

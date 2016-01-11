@@ -1,29 +1,13 @@
 /*
 
-Name:       Base16 Duotone-Dark Light
-Author:     adapted from: Simurai (https://github.com/simurai/duotone-dark-syntax/)
+Name:       Base16 <%= @scheme %> Dark
+Author:     <%= @author %>
 
 Prism template by Bram de Haan (http://atelierbram.github.io/syntax-highlighting/prism/)
 Original Base16 color scheme by Chris Kempson (https://github.com/chriskempson/base16)
+Adapted for DuoTones by Bram de Haan (http://atelierbram.github.io/syntax-highlighting/duotones/)
 
 */
-
-@base00: #2a2734;
-@base01: #363442;
-@base02: #5a566c;
-@base03: #726e87;
-@base04: #837bad;
-@base05: #9b87fd;
-@base06: #b3a5fe;
-@base07: #eeebff;
-@base08: #6a51e6;
-@base09: #dc9147;
-@base0a: #e59e57;
-@base0b: #7c756e;
-@base0c: #fec286;
-@base0d: #ecab69;
-@base0e: #8b76f4;
-@base0f: #7a63ee;
 
 code[class*="language-"],
 pre[class*="language-"] {
@@ -44,94 +28,90 @@ pre[class*="language-"] {
   -moz-hyphens: none;
   -ms-hyphens: none;
   hyphens: none;
-  background: @base07;
-  color: @base02;
+  background: #<%= @base["00"]["hex"] %>;
+  color: #<%= @base["05"]["hex"] %>;
 }
 
 pre[class*="language-"]::-moz-selection, pre[class*="language-"] ::-moz-selection,
 code[class*="language-"]::-moz-selection, code[class*="language-"] ::-moz-selection {
   text-shadow: none;
-  background: @base06;
+  background: #<%= @base["04"]["hex"] %>;
 }
 
 pre[class*="language-"]::selection, pre[class*="language-"] ::selection,
 code[class*="language-"]::selection, code[class*="language-"] ::selection {
   text-shadow: none;
-  background: @base06;
-}
+  background: #<%= @base["04"]["hex"] %>;
+} 
 
-// Code blocks
+/* Code blocks */
 pre[class*="language-"] {
   padding: 1em;
   margin: .5em 0;
   overflow: auto;
 }
 
-// Inline code
+/* Inline code */
 :not(pre) > code[class*="language-"] {
   padding: .1em;
   border-radius: .3em;
 }
 
+.token.punctuation,
 .token.comment,
 .token.prolog,
 .token.doctype,
 .token.cdata {
-  color: @base04;
-}
-
-.token.punctuation {
-  color: @base02;
+  color: #<%= @base["03"]["hex"] %>;
 }
 
 .token.namespace {
   opacity: .7;
 }
 
+.token.tag,
 .token.operator,
 .token.boolean,
 .token.number {
-  color: @base09;
+  color: #<%= @base["09"]["hex"] %>;
 }
 .token.property {
-  color: @base0a;
+  color: #<%= @base["05"]["hex"] %>;
 }
-.token.tag {
-  color: @base0d;
+
+.token.tag-id,
+.token.selector,
+.token.atrule-id {
+  color: #<%= @base["07"]["hex"] %>;
 }
-.token.string {
-  color: @base0c;
-}
-.token.selector {
-  color: @base0e;
-}
+
+code.language-javascript,
 .token.attr-name {
-  color: @base09;
+  color: #<%= @base["06"]["hex"] %>;
 }
+
+code.language-css,
+code.language-scss,
+.token.string,
 .token.entity,
 .token.url,
 .language-css .token.string,
-.style .token.string {
-  color: @base0c;
-}
-
-.token.attr-value,
+.language-scss .token.string,
+.style .token.string,
+.token.attr-value, 
 .token.keyword,
 .token.control,
 .token.directive,
-.token.unit {
-  color: @base0b;
-}
-
+.token.unit,
 .token.statement,
 .token.regex,
 .token.atrule {
-  color: @base0c;
+  color: #<%= @base["0C"]["hex"] %>;
 }
 
 .token.placeholder,
 .token.variable {
-  color: @base0d;
+  color: #<%= @base["0D"]["hex"] %>;
 }
 
 .token.deleted {
@@ -139,7 +119,7 @@ pre[class*="language-"] {
 }
 
 .token.inserted {
-  border-bottom: 1px dotted @base00;
+  border-bottom: 1px dotted #<%= @base["07"]["hex"] %>;
   text-decoration: none;
 }
 
@@ -153,7 +133,7 @@ pre[class*="language-"] {
 }
 
 .token.important {
-  color: @base08;
+  color: #<%= @base["08"]["hex"] %>;
 }
 
 .token.entity {
@@ -161,6 +141,6 @@ pre[class*="language-"] {
 }
 
 pre > code.highlight {
-  outline: .4em solid @base08;
+  outline: .4em solid #<%= @base["08"]["hex"] %>;
   outline-offset: .4em;
 }
