@@ -41,11 +41,13 @@
 }
 .no-svg .go-to-top svg,
 .svg .up-arrow {
-  display: none; }
+  display: none;
+}
 
 html {
   background-color: $body-bg;
 }
+
 .repo-title {
   text-shadow: -1px -1px 3px rgba(tint($sh-yellow-color,50),0.85),1px 1px 1px black,-10px 12px 7px rgba(black,.75);
   line-height: 1.25;
@@ -67,8 +69,8 @@ h1 a {
   border-color: rgba(black,.7) rgba(black,.3) rgba(white,.8) rgba(white,.7);
   @include border-radius(7px);
   box-shadow: inset -7px 9px 24px rgba(black,.75);
-
 }
+
 h1 a:hover {
   color: tint($sh-yellow-color, 75);
   //  background-color: rgba(black,.75);
@@ -76,6 +78,7 @@ h1 a:hover {
   box-shadow: inset -7px 9px 24px black;
   text-shadow: -10px 12px 7px black;
 }
+
 .tagline {
   color: tint($sh-yellow-color, 40);
   font-family: $body-font-family;
@@ -86,6 +89,7 @@ h1 a:hover {
   display: inline-block;
   margin-left: emCalc(5);
 }
+
 .tagline:hover {
   color: #fff;
 }
