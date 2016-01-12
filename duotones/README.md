@@ -1,8 +1,8 @@
 # DuoTones
 Based on [DuoTone themes](http://simurai.com/projects/2016/01/01/duotone-themes/) by [Simurai](http://simurai.com/)
 
-This is a work in progress. Until now only templates for Vim and Prism have been edited.
-In time the templates for SublimeText, and HighlightJs will alse be edited to tone down those brackets, punctuation and so on, in order to keep these colorschemes in the spirit of the original DuoTone Themes.
+This is a work in progress. Until now only templates for Vim, Sublime Text and Prism have been edited.
+In time the templates for HighlightJs and Prettify will also be edited to tone down those brackets, punctuation and so on, in order to keep these colorschemes in the spirit of the original DuoTone Themes.
 
 Go to [demopage](http://atelierbram.github.io/syntax-highlighting/duotones)
 
@@ -16,7 +16,7 @@ All downloads can be [found in the output](https://github.com/atelierbram/syntax
 
 NOTE: For Atom, please use [the original theme](https://atom.io/themes/search?utf8=%E2%9C%93&q=keyword:duotone) by [Simurai](https://atom.io/users/simurai).
 
-For Sublime Text, go to the [Textmate folder](https://github.com/atelierbram/syntax-highlighting/tree/master/duotones/output/textmate) within the output folder.
+For Sublime Text, go to the [Textmate folder](https://github.com/atelierbram/syntax-highlighting/tree/master/duotones/output/textmate) within the output folder. Or download the zipfile for Sublime Text/Textmate directly [from here](http://atelierbram.github.com/syntax-highlighting/duotones/output/textmate/textmate.zip).
 
 For Vim with Pathogen you can clone [the dedicated repo for this purpose](https://github.com/atelierbram/vim-colors_duotones) in the ~/.vim/bundle directory like so:
 

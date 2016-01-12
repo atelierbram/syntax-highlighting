@@ -13,6 +13,7 @@ duotones/templates/*
 !duotones/templates/prism/*
 !duotones/templates/textmate
 !duotones/templates/textmate/*
+!duotones/output/textmate/textmate.zip
 
 .base16
 .prismbase16
