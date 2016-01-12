@@ -47,7 +47,7 @@
 .hljs-header,
 .ruby .hljs-symbol,
 .xml .hljs-cdata {
-  color: #94796b;
+  color: #6a574d;
 }
 
 /* Duotone-DarkSpace Aqua */
@@ -84,7 +84,7 @@
   background-color: #5151e6;
 }
 .diff .hljs-addition {
-  background-color: #94796b;
+  background-color: #6a574d;
 }
 .diff .hljs-change {
   color: #f97c3e;
@@ -94,7 +94,7 @@
   display: block;
   overflow-x: auto;
   background: #24242e;
-  color: #6e6e96;
+  color: #767693;
   padding: 0.5em;
   -webkit-text-size-adjust: none;
 }

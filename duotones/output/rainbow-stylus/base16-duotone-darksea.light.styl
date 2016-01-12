@@ -1,34 +1,34 @@
 /**
- * Base16 Duotone-DarkSpace Dark
+ * Base16 Duotone-DarkSea Light
  *
- * @author adapted from: Simurai (https://github.com/simurai/duotone-dark-space-syntax/)
+ * @author adapted from: Simurai (https://github.com/simurai/duotone-dark-sea-syntax/)
  *
  * Rainbow template by Jan T. Sott (https://github.com/idleberg/)
  * Original Base16 color scheme by Chris Kempson (https://github.com/chriskempson/base16)
  */
-@base00: #24242e;
-@base01: #2f2f3c;
-@base02: #515167;
-@base03: #5b5b76;
-@base04: #646487;
-@base05: #767693;
-@base06: #9d9dc8;
-@base07: #ebebff;
-@base08: #5151e6;
-@base09: #dd672c;
-@base0a: #f36e2b;
-@base0b: #6a574d;
-@base0c: #fe8c52;
-@base0d: #f97c3e;
-@base0e: #7676f4;
-@base0f: #6363ee;
+$base00 = #1d262f;
+$base01 = #27323f;
+$base02 = #303f4f;
+$base03 = #3a4b5f;
+$base04 = #44586f;
+$base05 = #57718e;
+$base06 = #7eb6f6;
+$base07 = #ebf4ff;
+$base08 = #298dff;
+$base09 = #24cc94;
+$base0a = #29e0a3;
+$base0b = #708f85;
+$base0c = #5cffc9;
+$base0d = #47ebb4;
+$base0e = #5ca8ff;
+$base0f = #6bb0ff;
 
 pre {
-    background-color: @base00;
+    background-color: $base07;
     word-wrap: break-word;
     margin: 0px;
     padding: 10px;
-    color: @base07;
+    color: $base00;
     font-size: 14px;
     margin-bottom: 20px;
 }
@@ -38,29 +38,29 @@ pre, code {
 }
 
 pre .comment {
-    color: @base03;
+    color: $base04;
 }
 
 pre .variable.global, pre .variable.class, pre .variable.instance {
-    color: @base08; // red
+    color: $base08; // red
 }
 
 pre .constant.numeric, pre .constant.language, pre .constant.hex-color, pre .keyword.unit {
-    color: @base09; // orange
+    color: $base09; // orange
 }
 
 pre .constant, pre .entity, pre .entity.class, pre .support {
-    color: @base0a; // yellow
+    color: $base0a; // yellow
 }
 
 pre .constant.symbol, pre .string {
-    color: @base0b; // green
+    color: $base0b; // green
 }
 
 pre .entity.function, pre .support.css-property, pre .selector {
-    color: @base0d; // blue
+    color: $base0d; // blue
 }
 
 pre .keyword, pre .storage {
-    color: @base0e; // purple
+    color: $base0e; // purple
 }
