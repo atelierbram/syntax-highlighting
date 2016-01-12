@@ -1,61 +1,50 @@
-<h1>DuoTones</h1>
+# DuoTones
+Based on [DuoTone themes](http://simurai.com/projects/2016/01/01/duotone-themes/) by [Simurai](http://simurai.com/)
 
-<p>Based on <a href="http://simurai.com/projects/2016/01/01/duotone-themes/">DuoTone themes</a> by <a href="http://simurai.com/">Simurai</a></p>
+This is a work in progress. Until now only templates for Vim, Sublime Text and Prism have been edited.
+In time the templates for HighlightJs and Prettify will also be edited to tone down those brackets, punctuation and so on, in order to keep these colorschemes in the spirit of the original DuoTone Themes.
 
-<p>This is a work in progress. Until now only templates for Vim, Sublime Text and Prism have been edited.
-In time the templates for HighlightJs and Prettify will also be edited to tone down those brackets, punctuation and so on, in order to keep these colorschemes in the spirit of the original DuoTone Themes.</p>
+Go to [demopage](http://atelierbram.github.io/syntax-highlighting/duotones)
 
-<p>Go to <a href="http://atelierbram.github.io/syntax-highlighting/duotones">demopage</a></p>
+> “DuoTone themes use only 2 hues. This leads to a more calm color scheme, but still lets you find the stuff you're looking for.”
 
-<blockquote>
-  <p>“DuoTone themes use only 2 hues. This leads to a more calm color scheme, but still lets you find the stuff you're looking for.”</p>
-</blockquote>
+![DuoTones Dark theme](http://atelierbram.github.io/syntax-highlighting/assets/img/duotones-dark_vim_960x640.png "DuoTones Dark theme")
+Screenshot of DuoTones Dark theme in Vim
 
-<p><img src="http://atelierbram.github.io/syntax-highlighting/assets/img/duotones-dark_vim_960x640.png" alt="DuoTones Dark theme" title="DuoTones Dark theme">
-Screenshot of DuoTones Dark theme in Vim</p>
+### Downloads
+All downloads can be [found in the output](https://github.com/atelierbram/syntax-highlighting/tree/master/duotones/output/) folder.
 
-<h3>Downloads</h3>
+NOTE: For Atom, please use [the original theme](https://atom.io/themes/search?utf8=%E2%9C%93&q=keyword:duotone) by [Simurai](https://atom.io/users/simurai).
 
-<p>All downloads can be <a href="https://github.com/atelierbram/syntax-highlighting/tree/master/duotones/output/">found in the output</a> folder.</p>
+For Sublime Text, go to the [Textmate folder](https://github.com/atelierbram/syntax-highlighting/tree/master/duotones/output/textmate) within the output folder. Or download the zipfile for Sublime Text/Textmate directly [from here](http://atelierbram.github.com/syntax-highlighting/duotones/output/textmate/textmate.zip).
 
-<p>NOTE: For Atom, please use <a href="https://atom.io/themes/search?utf8=%E2%9C%93&amp;q=keyword:duotone">the original theme</a> by <a href="https://atom.io/users/simurai">Simurai</a>.</p>
+#### Installation for Sublime Text with Git
+Or, when using Git, you can clone the [dedicated repo for this purpose](https://github.com/atelierbram/duotones-sublime-colorschemes)
 
-<p>For Sublime Text, go to the <a href="https://github.com/atelierbram/syntax-highlighting/tree/master/duotones/output/textmate">Textmate folder</a> within the output folder. Or download the zipfile for Sublime Text/Textmate directly <a href="http://atelierbram.github.com/syntax-highlighting/duotones/output/textmate/textmate.zip">from here</a>.</p>
+In your Packages  directory, clone the theme repository using the command below:
 
-<h4>Installation for Sublime Text with Git</h4>
+```bash
+$ git clone https://github.com/atelierbram/duotones-sublime-colorschemes.git
+```
 
-<p>Or, when using Git, you can clone the <a href="https://github.com/atelierbram/duotones-sublime-colorschemes">dedicated repo for this purpose</a></p>
+#### Installation for Vim with Git
+For Vim with Pathogen you can clone [the dedicated repo for this purpose](https://github.com/atelierbram/vim-colors_duotones) in the ~/.vim/bundle directory like so:
 
-<p>In your Packages  directory, clone the theme repository using the command below:</p>
-
-<p><code>bash
-git clone https://github.com/atelierbram/duotones-sublime-colorschemes.git
-</code></p>
-
-<h4>Installation for Vim with Git</h4>
-
-<p>For Vim with Pathogen you can clone <a href="https://github.com/atelierbram/vim-colors_duotones">the dedicated repo for this purpose</a> in the ~/.vim/bundle directory like so:</p>
-
-<p><code>bash
+```bash
 cd ~/.vim/bundle
 git clone https://github.com/atelierbram/vim-colors_duotones.git
-</code></p>
+```
 
-<h3>Credits</h3>
+### Credits
+- Credits to [Simurai](http://simurai.com/) whose [DuoTone themes](http://simurai.com/projects/2016/01/01/duotone-themes) for Atom were a model for these colorschemes
+- Credits to [Chris Kempson](http://chriskempson.com/), whose [Base16 Builder](https://github.com/chriskempson/base16-builder) was used for conversion to the different output formats. It’s a remarkable building tool, and I would also recommend trying out the colorschemes he made with them.
 
-<ul>
-<li>Credits to <a href="http://simurai.com/">Simurai</a> whose <a href="http://simurai.com/projects/2016/01/01/duotone-themes">DuoTone themes</a> for Atom were a model for these colorschemes</li>
-<li>Credits to <a href="http://chriskempson.com/">Chris Kempson</a>, whose <a href="https://github.com/chriskempson/base16-builder">Base16 Builder</a> was used for conversion to the different output formats. It’s a remarkable building tool, and I would also recommend trying out the colorschemes he made with them.</li>
-</ul>
+### Resources
+- [Orginal Colorscheme for Atom on simurai.com](http://simurai.com/projects/2016/01/01/duotone-themes/)
+- [Orginal Colorscheme for Atom on Github](https://github.com/simurai/duotone-dark-syntax/blob/master/styles/colors.less)
+- [Creating Colorschemes for Vim on vimcasts.org](http://vimcasts.org/episodes/creating-colorschemes-for-vim/)
 
-<h3>Resources</h3>
+### License
+Released under [MIT Licence](http://atelierbram.mit-license.org)
 
-<ul>
-<li><a href="http://simurai.com/projects/2016/01/01/duotone-themes/">Orginal Colorscheme for Atom on simurai.com</a></li>
-<li><a href="https://github.com/simurai/duotone-dark-syntax/blob/master/styles/colors.less">Orginal Colorscheme for Atom on Github</a></li>
-<li><a href="http://vimcasts.org/episodes/creating-colorschemes-for-vim/">Creating Colorschemes for Vim on vimcasts.org</a></li>
-</ul>
-
-<h3>License</h3>
-
-<p>Released under <a href="http://atelierbram.mit-license.org">MIT Licence</a></p>
+[Pathogen]: https://github.com/tpope/vim-pathogen
