@@ -6,7 +6,7 @@ In time the templates for HighlightJs and Prettify will also be edited to tone d
 
 Go to [demopage](http://atelierbram.github.io/syntax-highlighting/duotones)
 
-> “DuoTone themes use only 2 hues. This leads to a more calm color scheme, but still lets you find the stuff you're looking for.”
+> “DuoTone themes use only 2 hues (7 shades in total). It **tones down** less important parts (like punctuation and brackets) and highlights only the **important** ones. This leads to a more calm color scheme, but still lets you find the stuff you’re looking for.”
 
 ![DuoTones Dark theme](http://atelierbram.github.io/syntax-highlighting/assets/img/duotones-dark_vim_960x640.png "DuoTones Dark theme")
 Screenshot of DuoTones Dark theme in Vim
