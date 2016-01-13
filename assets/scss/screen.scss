@@ -269,9 +269,10 @@ pre > code {
 /* figure */
 .sh-screenshot {
   padding: emCalc(2);
-  border: 2px solid darken($sh-bg-color,25%);
-  background-color: darken($sh-bg-color,15%);
-  outline: 1px solid darken($sh-bg-color,35%);
+  margin-top: emCalc(32);
+  // border: 2px solid darken($sh-bg-color,25%);
+  // background-color: darken($sh-bg-color,15%);
+  // outline: 1px solid darken($sh-bg-color,35%);
 }
 .sh-square-400 {
   max-width: 410px;
@@ -282,11 +283,9 @@ pre > code {
 }
 .fig-cap {
   padding: emCalc(16) emCalc(8) emCalc(8);
+  text-align: center;
 }
-.sh-screenshot .fig-cap {
-  // background-color: rgba(white,.5);
-  background-color: $sh-bg-color;
-}
+
 .fig-cap pre {
   font-size: emCalc(13);
 }
