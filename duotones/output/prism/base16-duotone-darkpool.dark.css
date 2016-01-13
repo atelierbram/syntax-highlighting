@@ -29,7 +29,7 @@ pre[class*="language-"] {
   -ms-hyphens: none;
   hyphens: none;
   background: #202746;
-  color: #91a4f7;
+  color: #7990f6;
 }
 
 pre[class*="language-"]::-moz-selection, pre[class*="language-"] ::-moz-selection,
@@ -76,7 +76,7 @@ pre[class*="language-"] {
   color: #2fd3f4;
 }
 .token.property {
-  color: #91a4f7;
+  color: #7990f6;
 }
 
 .token.tag-id,
@@ -133,7 +133,7 @@ code.language-scss,
 }
 
 .token.important {
-  color: #637ef2;
+  color: #3456ef;
 }
 
 .token.entity {
@@ -141,6 +141,6 @@ code.language-scss,
 }
 
 pre > code.highlight {
-  outline: .4em solid #637ef2;
+  outline: .4em solid #3456ef;
   outline-offset: .4em;
 }

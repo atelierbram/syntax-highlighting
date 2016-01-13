@@ -13,17 +13,17 @@ $base01 = #2d3453;
 $base02 = #434b70;
 $base03 = #5a638c;
 $base04 = #6c78ac;
-$base05 = #91a4f7;
+$base05 = #7990f6;
 $base06 = #bec9fe;
 $base07 = #ebeeff;
-$base08 = #637ef2;
+$base08 = #3456ef;
 $base09 = #2fd3f4;
-$base0a = #4cd5f0;
-$base0b = #70a7b2;
-$base0c = #8aebff;
-$base0d = #5be0fb;
-$base0e = #90a3f9;
-$base0f = #7b91f4;
+$base0A = #4cd5f0;
+$base0B = #70a7b2;
+$base0C = #8aebff;
+$base0D = #5be0fb;
+$base0E = #5f7bf7;
+$base0F = #4c6af0;
 
 code[class*="language-"],
 pre[class*="language-"] {
@@ -60,19 +60,20 @@ code[class*="language-"]::selection, code[class*="language-"] ::selection {
   background: $base04;
 }
 
-// Code blocks
+/* Code blocks */
 pre[class*="language-"] {
   padding: 1em;
   margin: .5em 0;
   overflow: auto;
 }
 
-// Inline code
+/* Inline code */
 :not(pre) > code[class*="language-"] {
   padding: .1em;
   border-radius: .3em;
 }
 
+.token.punctuation,
 .token.comment,
 .token.prolog,
 .token.doctype,
@@ -80,58 +81,53 @@ pre[class*="language-"] {
   color: $base03;
 }
 
-.token.punctuation {
-  color: $base05;
-}
-
 .token.namespace {
   opacity: .7;
 }
 
+.token.tag,
 .token.operator,
 .token.boolean,
 .token.number {
   color: $base09;
 }
 .token.property {
-  color: $base0a;
+  color: $base05;
 }
-.token.tag {
-  color: $base0d;
+
+.token.tag-id,
+.token.selector,
+.token.atrule-id {
+  color: $base07;
 }
-.token.string {
-  color: $base0c;
-}
-.token.selector {
-  color: $base0e;
-}
+
+code.language-javascript,
 .token.attr-name {
-  color: $base09;
+  color: $base06;
 }
+
+code.language-css,
+code.language-scss,
+.token.string,
 .token.entity,
 .token.url,
 .language-css .token.string,
-.style .token.string {
-  color: $base0c;
-}
-
+.language-scss .token.string,
+.style .token.string,
 .token.attr-value,
 .token.keyword,
 .token.control,
 .token.directive,
-.token.unit {
-  color: $base0b;
-}
-
+.token.unit,
 .token.statement,
 .token.regex,
 .token.atrule {
-  color: $base0c;
+  color: $base0C;
 }
 
 .token.placeholder,
 .token.variable {
-  color: $base0d;
+  color: $base0D;
 }
 
 .token.deleted {

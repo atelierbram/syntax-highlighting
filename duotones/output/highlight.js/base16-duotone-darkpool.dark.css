@@ -21,7 +21,7 @@
 .css .hljs-id,
 .css .hljs-class,
 .css .hljs-pseudo {
-  color: #637ef2;
+  color: #3456ef;
 }
 
 /* Duotone-DarkPool Orange */
@@ -71,7 +71,7 @@
 /* Duotone-DarkPool Purple */
 .hljs-keyword,
 .javascript .hljs-function {
-  color: #90a3f9;
+  color: #5f7bf7;
 }
 
 .diff .hljs-deletion,
@@ -81,7 +81,7 @@
   width: 100%;
 }
 .diff .hljs-deletion {
-  background-color: #637ef2;
+  background-color: #3456ef;
 }
 .diff .hljs-addition {
   background-color: #70a7b2;
@@ -94,7 +94,7 @@
   display: block;
   overflow-x: auto;
   background: #202746;
-  color: #91a4f7;
+  color: #7990f6;
   padding: 0.5em;
   -webkit-text-size-adjust: none;
 }

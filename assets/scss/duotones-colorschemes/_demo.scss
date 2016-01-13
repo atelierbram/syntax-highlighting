@@ -70,7 +70,7 @@ html {
 html,
 body {
   height: 100%;
-  background-color: adjust-color($base00, $lightness: -5%);
+  background-color: adjust-color($base00, $saturation: -5%, $lightness: -5%);
 }
 
 body {
@@ -98,7 +98,6 @@ h3 {
 
 .header,
 .footer,
-.nav_list li,
 .nav_list a {
   background: $base04;
   color: $base07;
@@ -158,26 +157,44 @@ h3 {
   display: flex;
   justify-content: flex-end;
   list-style: none;
+  flex-direction: column;
+  @media (min-width: 815px) {
+    flex-direction: row;
+  }
 }
 
 .nav_list li {
   margin-left: 2px;
-  align-self: center;
+  align-self: stretch;
+  flex-basis: 50px;
+  @media (min-width: 815px) {
+    flex-basis: initial;
+  }
 }
 
 .nav_list a {
   text-decoration: none;
   padding: .75em 1em;
   letter-spacing: 1px;
-  border-bottom-right-radius: 3px;
-  border-bottom-left-radius: 3px;
+  display: flex;
+  border: 1px solid transparent;
+  border-top-color: adjust-color($base04, $lightness: 10%);
+  border-bottom-color: $base01;
+
+  @media (min-width: 815px) {
+    border: none;
+    border-bottom-right-radius: 3px;
+    border-bottom-left-radius: 3px;
+  }
 }
 
 .nav_list .current a {
-  color: $base0C;
-  background-color: $base01;
   pointer-events: none;
   cursor: default;
+  color: $base0C;
+  background-color: $base01;
+  border-top-color: $base03;
+  border-bottom-color: $base00;
   letter-spacing: 0;
 }
 
