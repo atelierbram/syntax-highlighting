@@ -179,7 +179,10 @@ h3 {
   display: flex;
   border: 1px solid transparent;
   border-top-color: adjust-color($base04, $lightness: 10%);
-  border-bottom-color: $base01;
+  border-bottom-color: $base01; 
+  &:hover {
+  background: $base03;
+  }
 
   @media (min-width: 815px) {
     border: none;
