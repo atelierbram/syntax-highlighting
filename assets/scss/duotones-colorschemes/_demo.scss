@@ -158,7 +158,7 @@ h3 {
   justify-content: flex-end;
   list-style: none;
   flex-direction: column;
-  @media (min-width: 815px) {
+  @media (min-width: 940px) {
     flex-direction: row;
   }
 }
@@ -167,7 +167,7 @@ h3 {
   margin-left: 2px;
   align-self: stretch;
   flex-basis: 50px;
-  @media (min-width: 815px) {
+  @media (min-width: 940px) {
     flex-basis: initial;
   }
 }
@@ -184,7 +184,7 @@ h3 {
   background: $base03;
   }
 
-  @media (min-width: 815px) {
+  @media (min-width: 940px) {
     border: none;
     border-bottom-right-radius: 3px;
     border-bottom-left-radius: 3px;

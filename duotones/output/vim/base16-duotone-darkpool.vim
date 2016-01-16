@@ -13,21 +13,21 @@ endif
 
 " GUI color definitions
 let s:gui00 = "202746"
-let s:gui01 = "2d3453"
-let s:gui02 = "434b70"
-let s:gui03 = "5a638c"
-let s:gui04 = "6c78ac"
-let s:gui05 = "7990f6"
-let s:gui06 = "bec9fe"
-let s:gui07 = "ebeeff"
-let s:gui08 = "3456ef"
-let s:gui09 = "2fd3f4"
-let s:gui0A = "4cd5f0"
-let s:gui0B = "70a7b2"
-let s:gui0C = "8aebff"
-let s:gui0D = "5be0fb"
-let s:gui0E = "5f7bf7"
-let s:gui0F = "4c6af0"
+let s:gui01 = "283157"
+let s:gui02 = "313b68"
+let s:gui03 = "394579"
+let s:gui04 = "424f8a"
+let s:gui05 = "707fc2"
+let s:gui06 = "a5b5fe"
+let s:gui07 = "e1e6ff"
+let s:gui08 = "344bb2"
+let s:gui09 = "d24b4b"
+let s:gui0A = "e56161"
+let s:gui0B = "ad6767"
+let s:gui0C = "ff9999"
+let s:gui0D = "f47c7c"
+let s:gui0E = "596cc0"
+let s:gui0F = "4057bf"
 
 " Terminal color definitions
 let s:cterm00 = "00"
@@ -254,7 +254,7 @@ call <sid>hi("GitGutterChangeDelete",  s:gui0E, s:gui01, s:cterm0E, s:cterm01, "
 " HTML highlighting
 call <sid>hi("htmlBold",    s:gui0A, "", s:cterm0A, "", "")
 call <sid>hi("htmlItalic",  s:gui0E, "", s:cterm0E, "", "")
-call <sid>hi("htmlEndTag",  s:gui05, "", s:cterm05, "", "")
+call <sid>hi("htmlEndTag",  s:gui04, "", s:cterm04, "", "")
 call <sid>hi("htmlTag",     s:gui04, "", s:cterm04, "", "")
 call <sid>hi("htmlTagN",     s:gui07, "", s:cterm07, "", "")
 
