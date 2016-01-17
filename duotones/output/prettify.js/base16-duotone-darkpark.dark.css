@@ -2,13 +2,13 @@
 
 /* plain text */
 .pln {
-  color: #e0fff7;
+  color: #ebfffa;
 }
 
 @media screen {
   /* string content */
   .str {
-    color: #569f9f;
+    color: #5796a2;
   }
 
   /* a keyword */
@@ -23,27 +23,27 @@
 
   /* a type name */
   .typ {
-    color: #1ff9f9;
+    color: #38dafa;
   }
 
   /* a literal value */
   .lit {
-    color: #0da5a5;
+    color: #0fa0bd;
   }
 
   /* punctuation */
   .pun {
-    color: #e0fff7;
+    color: #ebfffa;
   }
 
   /* lisp open bracket */
   .opn {
-    color: #e0fff7;
+    color: #ebfffa;
   }
 
   /* lisp close bracket */
   .clo {
-    color: #e0fff7;
+    color: #ebfffa;
   }
 
   /* a markup tag name */
@@ -53,17 +53,17 @@
 
   /* a markup attribute name */
   .atn {
-    color: #0da5a5;
+    color: #0fa0bd;
   }
 
   /* a markup attribute value */
   .atv {
-    color: #4dffff;
+    color: #66e6ff;
   }
 
   /* a declaration */
   .dec {
-    color: #0da5a5;
+    color: #0fa0bd;
   }
 
   /* a variable name */
@@ -73,7 +73,7 @@
 
   /* a function name */
   .fun {
-    color: #1ff9f9;
+    color: #38dafa;
   }
 }
 /* Use higher contrast and text-weight for printable form. */

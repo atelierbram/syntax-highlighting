@@ -31,13 +31,13 @@
 .hljs-literal,
 .hljs-params,
 .hljs-constant {
-  color: #0da5a5;
+  color: #0fa0bd;
 }
 
 /* Duotone-DarkPark Yellow */
 .ruby .hljs-class .hljs-title,
 .css .hljs-rule .hljs-attribute {
-  color: #0bdada;
+  color: #0dccf2;
 }
 
 /* Duotone-DarkPark Green */
@@ -47,13 +47,13 @@
 .hljs-header,
 .ruby .hljs-symbol,
 .xml .hljs-cdata {
-  color: #569f9f;
+  color: #5796a2;
 }
 
 /* Duotone-DarkPark Aqua */
 .hljs-title,
 .css .hljs-hexcolor {
-  color: #4dffff;
+  color: #66e6ff;
 }
 
 /* Duotone-DarkPark Blue */
@@ -65,7 +65,7 @@
 .perl .hljs-sub,
 .javascript .hljs-title,
 .coffeescript .hljs-title {
-  color: #1ff9f9;
+  color: #38dafa;
 }
 
 /* Duotone-DarkPark Purple */
@@ -84,10 +84,10 @@
   background-color: #008060;
 }
 .diff .hljs-addition {
-  background-color: #569f9f;
+  background-color: #5796a2;
 }
 .diff .hljs-change {
-  color: #1ff9f9;
+  color: #38dafa;
 }
 
 .hljs {

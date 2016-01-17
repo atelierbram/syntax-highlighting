@@ -151,6 +151,22 @@ h3 {
 .nav {
   overflow: auto;
   clear: both;
+  transition: all .3s;
+  position: relative;
+  padding-top: 3em;
+
+  @media (min-width: 1330px) {
+    padding-top: 0;
+  }
+}
+
+.nav-closed {
+  max-height: 0;
+  overflow: hidden;
+}
+
+.nav-open {
+  max-height: 40em;
 }
 
 .nav_list {
@@ -158,7 +174,7 @@ h3 {
   justify-content: flex-end;
   list-style: none;
   flex-direction: column;
-  @media (min-width: 940px) {
+  @media (min-width: 1330px) {
     flex-direction: row;
   }
 }
@@ -167,7 +183,7 @@ h3 {
   margin-left: 2px;
   align-self: stretch;
   flex-basis: 50px;
-  @media (min-width: 940px) {
+  @media (min-width: 1330px) {
     flex-basis: initial;
   }
 }
@@ -179,12 +195,12 @@ h3 {
   display: flex;
   border: 1px solid transparent;
   border-top-color: adjust-color($base04, $lightness: 10%);
-  border-bottom-color: $base01; 
+  border-bottom-color: $base01;
   &:hover {
   background: $base03;
   }
 
-  @media (min-width: 940px) {
+  @media (min-width: 1330px) {
     border: none;
     border-bottom-right-radius: 3px;
     border-bottom-left-radius: 3px;
@@ -195,11 +211,53 @@ h3 {
   pointer-events: none;
   cursor: default;
   color: $base0C;
-  background-color: $base01;
+  // background-color: $base01;
   border-top-color: $base03;
   border-bottom-color: $base00;
   letter-spacing: 0;
 }
+
+.nav_list .current a,
+.nav_toggle {
+  background-color: $base01;
+}
+
+.nav_toggle {
+
+  @media (max-width: 1330px) {
+    position: absolute;
+    top:0;right:0;left:0;
+    padding: 1em 5%;
+    color: #fff;
+    text-decoration: none;
+    text-align: right;
+    // height: 40px;
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='40' height='40' viewBox='0 0 40 40' fill='rgb(255,255,255)'%3E%3Crect x='12' y='14' width='16' height='2'/%3E%3Crect x='12' y='20' width='16' height='2'/%3E%3Crect x='12' y='26' width='16' height='2'/%3E%3C/svg%3E");
+    background-position: right center;
+    background-repeat: no-repeat;
+  }
+}
+
+.nav-open .nav_toggle {
+
+  @media (max-width: 1330px) {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='48' height='36' viewBox='0 0 48 36' fill='rgb(255,255,255)'%3E%3Cpath d='M25.261,17.018l4.571,4.572l-1.367,1.297l-4.501-4.573L19.5,22.887l-1.332-1.297l4.5-4.572l-4.5-4.572l1.332-1.332 l4.464,4.608l4.501-4.608l1.367,1.332L25.261,17.018z'/%3E%3C/svg%3E"); 
+  }
+}
+
+.nav_toggle .btn-text {
+  display: inline-block;
+  padding-right: 1.5em;
+}
+
+.nav_toggle,
+.nav_toggle .btn-text {
+  @media (min-width: 1330px) {
+    display: none;
+  }
+}
+// end menu
+
 
 .demo-tiles {
   overflow: hidden;
@@ -401,7 +459,7 @@ button::-moz-focus-inner, input::-moz-focus-inner, button::-webkit-focus-inner, 
   }
 
   button {
-   font-size: 1.25rem;
- }
+    font-size: 1.25rem;
+  }
 
 }
