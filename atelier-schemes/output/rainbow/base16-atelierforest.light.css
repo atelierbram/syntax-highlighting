@@ -5,45 +5,45 @@
  *
  * Rainbow template by Jan T. Sott (https://github.com/idleberg/)
  * Original Base16 color scheme by Chris Kempson (https://github.com/chriskempson/base16)
- */
+*/
 pre {
-    background-color: #f1efee;
-    word-wrap: break-word;
-    margin: 0px;
-    padding: 10px;
-    color: #1b1918;
-    font-size: 14px;
-    margin-bottom: 20px;
+  background-color: #f1efee;
+  word-wrap: break-word;
+  margin: 0px;
+  padding: 10px;
+  color: #1b1918;
+  font-size: 14px;
+  margin-bottom: 20px;
 }
 
 pre, code {
-    font-family: Consolas, Menlo, 'DejaVu Sans Mono', Monaco, 'Courier New', Courier, monospace;
+  font-family: Consolas, Menlo, 'DejaVu Sans Mono', Monaco, 'Courier New', Courier, monospace;
 }
 
 pre .comment {
-    color: #9c9491;
+  color: #9c9491;
 }
 
 pre .variable.global, pre .variable.class, pre .variable.instance {
-    color: #f22c40; /* red */
+  color: #f22c40; /* red */
 }
 
 pre .constant.numeric, pre .constant.language, pre .constant.hex-color, pre .keyword.unit {
-    color: #df5320; /* orange */
+  color: #df5320; /* orange */
 }
 
 pre .constant, pre .entity, pre .entity.class, pre .support {
-    color: #c38418; /* yellow */
+  color: #c38418; /* yellow */
 }
 
 pre .constant.symbol, pre .string {
-    color: #7b9726; /* green */
+  color: #7b9726; /* green */
 }
 
 pre .entity.function, pre .support.css-property, pre .selector {
-    color: #407ee7; /* blue */
+  color: #407ee7; /* blue */
 }
 
 pre .keyword, pre .storage {
-    color: #6666ea; /* purple */
+  color: #6666ea; /* purple */
 }
