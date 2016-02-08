@@ -1,4 +1,4 @@
-" Base16 Duotone-Dark (https://github.com/chriskempson/base16)
+" Duotone-Dark (https://github.com/chriskempson/base16)
 " Scheme: adapted from: Simurai (https://github.com/simurai/duotone-dark-syntax/)
 
 " This enables the coresponding base16-shell script to run so that
@@ -7,7 +7,7 @@
 "   let g:base16_shell_path=base16-builder/output/shell/
 if !has('gui_running')
   if exists("g:base16_shell_path")
-    execute "silent !/bin/sh ".g:base16_shell_path."/base16-duotone-dark.".&background.".sh"
+    execute "silent !/bin/sh ".g:base16_shell_path."/duotone-dark.".&background.".sh"
   endif
 endif
 
@@ -59,7 +59,7 @@ endif
 " Theme setup
 hi clear
 syntax reset
-let g:colors_name = "base16-duotone-dark"
+let g:colors_name = "duotone-dark"
 
 " Highlighting function
 fun <sid>hi(group, guifg, guibg, ctermfg, ctermbg, attr)
