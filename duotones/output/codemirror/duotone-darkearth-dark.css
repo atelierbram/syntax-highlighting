@@ -1,0 +1,39 @@
+/*
+
+    Name:       Base16 Duotone-DarkEarth Dark
+    Author:     adapted from: Simurai (https://github.com/simurai/duotone-dark-earth-syntax/)
+
+    CodeMirror template by Jan T. Sott (https://github.com/idleberg)
+    Original Base16 color scheme by Chris Kempson (https://github.com/chriskempson/base16)
+
+*/
+
+.cm-s-duotone-darkearth-dark.CodeMirror {background: #322d29; color: #6a5f58;}
+.cm-s-duotone-darkearth-dark div.CodeMirror-selected {background: #3f3a37 !important;}
+.cm-s-duotone-darkearth-dark .CodeMirror-gutters {background: #322d29; border-right: 0px;}
+.cm-s-duotone-darkearth-dark .CodeMirror-linenumber {color: #5b534d;}
+.cm-s-duotone-darkearth-dark .CodeMirror-cursor {border-left: 1px solid #796b63 !important;}
+.cm-s-duotone-darkearth-dark .CodeMirror-activeline-background {background: #3f3a37;}
+-webkit-scrollbar-track  {background: #322d29;}
+
+.cm-s-duotone-darkearth-dark span.cm-comment {color: #6a5f58;}
+.cm-s-duotone-darkearth-dark span.cm-atom {color: #fcc440;}
+.cm-s-duotone-darkearth-dark span.cm-number {color: #fcc440;}
+
+.cm-s-duotone-darkearth-dark span.cm-attribute {color: #a89771;}
+.cm-s-duotone-darkearth-dark span.cm-property {color: #88786d;}
+.cm-s-duotone-darkearth-dark span.cm-keyword {color: #fcc440;}
+.cm-s-duotone-darkearth-dark span.cm-string {color: #d7b975;}
+.cm-s-duotone-darkearth-dark span.cm-operator {color: #ccad66;}
+
+.cm-s-duotone-darkearth-dark span.cm-variable {color: #fcc440;}
+.cm-s-duotone-darkearth-dark span.cm-variable-2 {color: #a48774;}
+.cm-s-duotone-darkearth-dark span.cm-variable-3 {color: #a48774;}
+.cm-s-duotone-darkearth-dark span.cm-def {color: #fff3eb;}
+.cm-s-duotone-darkearth-dark span.cm-error {background: #da8952; color: #796b63;}
+.cm-s-duotone-darkearth-dark span.cm-bracket {color: #a48774;}
+.cm-s-duotone-darkearth-dark span.cm-tag {color: #fff3eb;}
+.cm-s-duotone-darkearth-dark span.cm-builtin {color: #fff3eb;}
+.cm-s-duotone-darkearth-dark span.cm-link {color: #eba475;}
+
+.cm-s-duotone-darkearth-dark .CodeMirror-matchingbracket { text-decoration: underline; color: white !important;}

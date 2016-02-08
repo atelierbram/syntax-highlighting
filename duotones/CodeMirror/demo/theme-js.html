@@ -1,0 +1,111 @@
+<!doctype html>
+<html lang="en">
+  <head>
+<meta charset="utf-8"/>
+<title>CodeMirror: Theme Demo - DuoTone - JavaScript Mode</title>
+<link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro:300' rel='stylesheet' type='text/css'>
+<!-- <link rel=stylesheet href="../doc/docs.css"> -->
+<link rel=stylesheet href="../doc/docs-custom.css">
+
+<link rel="stylesheet" href="../lib/codemirror.css">
+<!-- <link rel="stylesheet" href="../theme/duotone&#45;dark&#45;dark.css"> -->
+<link rel="stylesheet" href="../../output/codemirror/duotone-dark-dark.css">
+<link rel="stylesheet" href="../../output/codemirror/duotone-darksea-dark.css">
+<link rel="stylesheet" href="../../output/codemirror/duotone-darkspace-dark.css">
+<link rel="stylesheet" href="../../output/codemirror/duotone-darkearth-dark.css">
+<link rel="stylesheet" href="../../output/codemirror/duotone-darkforest-dark.css">
+<link rel="stylesheet" href="../../output/codemirror/duotone-darkcave-dark.css">
+<link rel="stylesheet" href="../../output/codemirror/duotone-darkdesert-dark.css">
+<link rel="stylesheet" href="../../output/codemirror/duotone-darkheath-dark.css">
+<link rel="stylesheet" href="../../output/codemirror/duotone-darkmeadow-dark.css">
+<link rel="stylesheet" href="../../output/codemirror/duotone-darkpark-dark.css">
+<link rel="stylesheet" href="../../output/codemirror/duotone-darkpool-dark.css">
+
+<script src="../lib/codemirror.js"></script>
+<script src="../mode/javascript/javascript.js"></script>
+<script src="../addon/selection/active-line.js"></script>
+<script src="../addon/edit/matchbrackets.js"></script>
+<style type="text/css">
+      .CodeMirror {border: 1px solid transparent; font-size:13px}
+    </style>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <meta name="robots" content="no-index, no-follow">
+  </head>
+  <body>
+<div id=nav>
+  <a href="http://codemirror.net"><h1>CodeMirror</h1><!-- <img id=logo src="../doc/logo.png"> --></a>
+
+  <ul>
+    <li><a href="https://codemirror.net/index.html">Home</a>
+    <li><a href="https://codemirror.net/doc/manual.html">Manual</a>
+    <li><a href="https://github.com/codemirror/codemirror">Code</a>
+  </ul>
+  <ul>
+    <li><a class=active href="#">Theme</a>
+  </ul>
+</div>
+
+<article>
+  <h2>Theme Demo - DuoTone - JavaScript Mode</h2>
+  <form><textarea id="code" name="code">
+function findSequence(goal) {
+  function find(start, history) {
+    if (start == goal)
+      return history;
+    else if (start > goal)
+      return null;
+    else
+      return find(start + 5, "(" + history + " + 5)") ||
+             find(start * 3, "(" + history + " * 3)");
+  }
+  return find(1, "1");
+  // comment test
+}</textarea></form>
+
+<p>Select a theme:</p>
+<div class="button dropdown">
+ <select onchange="selectTheme()" id="select">
+    <option selected>duotone-dark-dark</option>
+    <option>duotone-darksea-dark</option>
+    <option>duotone-darkspace-dark</option>
+    <option>duotone-darkearth-dark</option>
+    <option>duotone-darkforest-dark</option>
+    <option>duotone-darkcave-dark</option>
+    <option>duotone-darkdesert-dark</option>
+    <option>duotone-darkheath-dark</option>
+    <option>duotone-darkmeadow-dark</option>
+    <option>duotone-darkpark-dark</option>
+    <option>duotone-darkpool-dark</option>
+  </select>
+</div>
+  </p>
+
+  <script>
+var editor = CodeMirror.fromTextArea(document.getElementById("code"), {
+  lineNumbers: true,
+  styleActiveLine: true,
+  matchBrackets: true
+});
+var input = document.getElementById("select");
+function selectTheme() {
+  var theme = input.options[input.selectedIndex].textContent;
+  editor.setOption("theme", theme);
+  location.hash = "#" + theme;
+}
+var choice = (location.hash && location.hash.slice(1)) ||
+(document.location.search &&
+ decodeURIComponent(document.location.search.slice(1)));
+if (choice) {
+  input.value = choice;
+  editor.setOption("theme", choice);
+}
+CodeMirror.on(window, "hashchange", function() {
+  var theme = location.hash.slice(1);
+  if (theme) { input.value = theme; selectTheme(); }
+});
+  </script>
+</article>
+  </body>
+</html>

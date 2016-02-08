@@ -1,0 +1,39 @@
+/*
+
+    Name:       Base16 Duotone-Dark Dark
+    Author:     adapted from: Simurai (https://github.com/simurai/duotone-dark-syntax/)
+
+    CodeMirror template by Jan T. Sott (https://github.com/idleberg)
+    Original Base16 color scheme by Chris Kempson (https://github.com/chriskempson/base16)
+
+*/
+
+.cm-s-duotone-dark-dark.CodeMirror {background: #2a2734; color: #6c6783;}
+.cm-s-duotone-dark-dark div.CodeMirror-selected {background: #363442 !important;}
+.cm-s-duotone-dark-dark .CodeMirror-gutters {background: #2a2734; border-right: 0px;}
+.cm-s-duotone-dark-dark .CodeMirror-linenumber {color: #545167;}
+.cm-s-duotone-dark-dark .CodeMirror-cursor {border-left: 1px solid #7e75a9 !important;}
+.cm-s-duotone-dark-dark .CodeMirror-activeline-background {background: #363442;}
+-webkit-scrollbar-track  {background: #2a2734;}
+
+.cm-s-duotone-dark-dark span.cm-comment {color: #6c6783;}
+.cm-s-duotone-dark-dark span.cm-atom {color: #ffcc99;}
+.cm-s-duotone-dark-dark span.cm-number {color: #ffcc99;}
+
+.cm-s-duotone-dark-dark span.cm-attribute {color: #7c756e;}
+.cm-s-duotone-dark-dark span.cm-property {color: #9b87fd;}
+.cm-s-duotone-dark-dark span.cm-keyword {color: #ffcc99;}
+.cm-s-duotone-dark-dark span.cm-string {color: #ffba76;}
+.cm-s-duotone-dark-dark span.cm-operator {color: #ffa852;}
+
+.cm-s-duotone-dark-dark span.cm-variable {color: #ffcc99;}
+.cm-s-duotone-dark-dark span.cm-variable-2 {color: #c4b8fe;}
+.cm-s-duotone-dark-dark span.cm-variable-3 {color: #c4b8fe;}
+.cm-s-duotone-dark-dark span.cm-def {color: #eeebff;}
+.cm-s-duotone-dark-dark span.cm-error {background: #6a51e6; color: #7e75a9;}
+.cm-s-duotone-dark-dark span.cm-bracket {color: #c4b8fe;}
+.cm-s-duotone-dark-dark span.cm-tag {color: #eeebff;}
+.cm-s-duotone-dark-dark span.cm-builtin {color: #eeebff;}
+.cm-s-duotone-dark-dark span.cm-link {color: #8b76f4;}
+
+.cm-s-duotone-dark-dark .CodeMirror-matchingbracket { text-decoration: underline; color: white !important;}

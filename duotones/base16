@@ -132,7 +132,7 @@ class Theme
     delimiter = file_name.starts_with?("-") ? "" : "."
 
     output_filename = File.join(output_dir,
-                                "base16-#{scheme_name}#{delimiter}#{file_name}")
+                                "#{scheme_name}#{delimiter}#{file_name}")
     output_file = File.open(output_filename, "w")
     output_file.write(contents)
     output_file.close

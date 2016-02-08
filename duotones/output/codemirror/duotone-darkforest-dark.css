@@ -1,0 +1,39 @@
+/*
+
+    Name:       Base16 Duotone-DarkForest Dark
+    Author:     adapted from: Simurai (https://github.com/simurai/duotone-dark-forest-syntax/)
+
+    CodeMirror template by Jan T. Sott (https://github.com/idleberg)
+    Original Base16 color scheme by Chris Kempson (https://github.com/chriskempson/base16)
+
+*/
+
+.cm-s-duotone-darkforest-dark.CodeMirror {background: #2a2d2a; color: #535f53;}
+.cm-s-duotone-darkforest-dark div.CodeMirror-selected {background: #353b35 !important;}
+.cm-s-duotone-darkforest-dark .CodeMirror-gutters {background: #2a2d2a; border-right: 0px;}
+.cm-s-duotone-darkforest-dark .CodeMirror-linenumber {color: #485148;}
+.cm-s-duotone-darkforest-dark .CodeMirror-cursor {border-left: 1px solid #5e6e5e !important;}
+.cm-s-duotone-darkforest-dark .CodeMirror-activeline-background {background: #353b35;}
+-webkit-scrollbar-track  {background: #2a2d2a;}
+
+.cm-s-duotone-darkforest-dark span.cm-comment {color: #535f53;}
+.cm-s-duotone-darkforest-dark span.cm-atom {color: #e5fb79;}
+.cm-s-duotone-darkforest-dark span.cm-number {color: #e5fb79;}
+
+.cm-s-duotone-darkforest-dark span.cm-attribute {color: #919966;}
+.cm-s-duotone-darkforest-dark span.cm-property {color: #687d68;}
+.cm-s-duotone-darkforest-dark span.cm-keyword {color: #e5fb79;}
+.cm-s-duotone-darkforest-dark span.cm-string {color: #bed161;}
+.cm-s-duotone-darkforest-dark span.cm-operator {color: #afc059;}
+
+.cm-s-duotone-darkforest-dark span.cm-variable {color: #e5fb79;}
+.cm-s-duotone-darkforest-dark span.cm-variable-2 {color: #b3d6b3;}
+.cm-s-duotone-darkforest-dark span.cm-variable-3 {color: #b3d6b3;}
+.cm-s-duotone-darkforest-dark span.cm-def {color: #f0fff0;}
+.cm-s-duotone-darkforest-dark span.cm-error {background: #45a145; color: #5e6e5e;}
+.cm-s-duotone-darkforest-dark span.cm-bracket {color: #b3d6b3;}
+.cm-s-duotone-darkforest-dark span.cm-tag {color: #f0fff0;}
+.cm-s-duotone-darkforest-dark span.cm-builtin {color: #f0fff0;}
+.cm-s-duotone-darkforest-dark span.cm-link {color: #53c653;}
+
+.cm-s-duotone-darkforest-dark .CodeMirror-matchingbracket { text-decoration: underline; color: white !important;}

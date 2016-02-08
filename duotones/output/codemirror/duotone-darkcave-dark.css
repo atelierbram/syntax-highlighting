@@ -1,0 +1,39 @@
+/*
+
+    Name:       Base16 Duotone-DarkCave Dark
+    Author:     adapted from: Simurai (https://github.com/simurai/duotone-dark-syntax/)
+
+    CodeMirror template by Jan T. Sott (https://github.com/idleberg)
+    Original Base16 color scheme by Chris Kempson (https://github.com/chriskempson/base16)
+
+*/
+
+.cm-s-duotone-darkcave-dark.CodeMirror {background: #272526; color: #50494b;}
+.cm-s-duotone-darkcave-dark div.CodeMirror-selected {background: #353133 !important;}
+.cm-s-duotone-darkcave-dark .CodeMirror-gutters {background: #272526; border-right: 0px;}
+.cm-s-duotone-darkcave-dark .CodeMirror-linenumber {color: #423d3f;}
+.cm-s-duotone-darkcave-dark .CodeMirror-cursor {border-left: 1px solid #5f5458 !important;}
+.cm-s-duotone-darkcave-dark .CodeMirror-activeline-background {background: #353133;}
+-webkit-scrollbar-track  {background: #272526;}
+
+.cm-s-duotone-darkcave-dark span.cm-comment {color: #50494b;}
+.cm-s-duotone-darkcave-dark span.cm-atom {color: #ffee99;}
+.cm-s-duotone-darkcave-dark span.cm-number {color: #ffee99;}
+
+.cm-s-duotone-darkcave-dark span.cm-attribute {color: #c6be95;}
+.cm-s-duotone-darkcave-dark span.cm-property {color: #988189;}
+.cm-s-duotone-darkcave-dark span.cm-keyword {color: #ffee99;}
+.cm-s-duotone-darkcave-dark span.cm-string {color: #f4e07c;}
+.cm-s-duotone-darkcave-dark span.cm-operator {color: #e5cf61;}
+
+.cm-s-duotone-darkcave-dark span.cm-variable {color: #ffee99;}
+.cm-s-duotone-darkcave-dark span.cm-variable-2 {color: #ffbdd4;}
+.cm-s-duotone-darkcave-dark span.cm-variable-3 {color: #ffbdd4;}
+.cm-s-duotone-darkcave-dark span.cm-def {color: #ffebf2;}
+.cm-s-duotone-darkcave-dark span.cm-error {background: #ab2151; color: #5f5458;}
+.cm-s-duotone-darkcave-dark span.cm-bracket {color: #ffbdd4;}
+.cm-s-duotone-darkcave-dark span.cm-tag {color: #ffebf2;}
+.cm-s-duotone-darkcave-dark span.cm-builtin {color: #ffebf2;}
+.cm-s-duotone-darkcave-dark span.cm-link {color: #e21d62;}
+
+.cm-s-duotone-darkcave-dark .CodeMirror-matchingbracket { text-decoration: underline; color: white !important;}
