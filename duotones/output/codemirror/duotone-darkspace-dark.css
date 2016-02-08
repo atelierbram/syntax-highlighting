@@ -1,11 +1,9 @@
-/*
+/* 
+Name:       Duotone-DarkSpace
+Author:     adapted from: Simurai (https://github.com/simurai/duotone-dark-space-syntax/)
 
-    Name:       Base16 Duotone-DarkSpace Dark
-    Author:     adapted from: Simurai (https://github.com/simurai/duotone-dark-space-syntax/)
-
-    CodeMirror template by Jan T. Sott (https://github.com/idleberg)
-    Original Base16 color scheme by Chris Kempson (https://github.com/chriskempson/base16)
-
+CodeMirror template by Jan T. Sott (https://github.com/idleberg), adapted by Bram de Haan (https://github.com/atelierbram/)
+Original Base16 color scheme by Chris Kempson (https://github.com/chriskempson/base16)
 */
 
 .cm-s-duotone-darkspace-dark.CodeMirror {background: #24242e; color: #5b5b76;}
@@ -35,4 +33,4 @@
 .cm-s-duotone-darkspace-dark span.cm-builtin {color: #ebebff;}
 .cm-s-duotone-darkspace-dark span.cm-link {color: #7676f4;}
 
-.cm-s-duotone-darkspace-dark .CodeMirror-matchingbracket { text-decoration: underline; color: white !important;}
+.cm-s-duotone-darkspace-dark .CodeMirror-matchingbracket { text-decoration: underline; color: #ebebff !important;}

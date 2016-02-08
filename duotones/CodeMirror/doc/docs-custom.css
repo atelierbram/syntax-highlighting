@@ -17,7 +17,7 @@ p { margin-top: 0; }
 form ~ p { margin-top: 2em; }
 
 h2, h3, h1 {
-  font-weight: normal;
+  font-weight: 300;
   margin-bottom: .7em;
 }
 h1 { font-size: 140%; }
@@ -255,6 +255,7 @@ th {
 }
 
 pre {
+  font-family: Consolas, Menlo, Monaco, "Courier New", Monospace;
   padding-left: 15px;
   border-left: 2px solid #ddd;
 }
