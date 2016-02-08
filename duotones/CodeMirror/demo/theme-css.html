@@ -4,12 +4,10 @@
 <meta charset="utf-8"/>
 <title>CodeMirror: Theme Demo - DuoTone - CSS mode</title>
 <link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro:300' rel='stylesheet' type='text/css'>
-<!-- <link rel=stylesheet href="../doc/docs.css"> -->
 <link rel=stylesheet href="../doc/docs-custom.css">
-
 <link rel="stylesheet" href="../lib/codemirror.css">
 <link rel="stylesheet" href="../addon/hint/show-hint.css">
-<!-- <link rel="stylesheet" href="../theme/duotone&#45;dark&#45;dark.css"> -->
+
 <link rel="stylesheet" href="../../output/codemirror/duotone-dark-dark.css">
 <link rel="stylesheet" href="../../output/codemirror/duotone-darksea-dark.css">
 <link rel="stylesheet" href="../../output/codemirror/duotone-darkspace-dark.css">
@@ -47,6 +45,10 @@
   </ul>
   <ul>
     <li><a class=active href="#">Theme</a>
+  </ul>
+  <ul>
+    <li><a href="theme-htmlmixed.html">HTML Mode</a>
+    <li><a href="theme-js.html">JavaScript Mode</a>
   </ul>
 </div>
 
@@ -97,7 +99,8 @@ code {
 <p>Select a theme:</p>
 <div class="button dropdown">
  <select onchange="selectTheme()" id="select">
-    <option selected>duotone-dark-dark</option>
+    <option selected>default</option>
+    <option>duotone-dark-dark</option>
     <option>duotone-darksea-dark</option>
     <option>duotone-darkspace-dark</option>
     <option>duotone-darkearth-dark</option>
