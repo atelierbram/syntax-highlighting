@@ -1,4 +1,4 @@
-/* 
+/*
 Name:       Duotone-Dark
 Author:     adapted from: Simurai (https://github.com/simurai/duotone-dark-syntax/)
 
@@ -13,23 +13,18 @@ CodeMirror template by Jan T. Sott (https://github.com/idleberg), adapted by Bra
 .cm-s-duotone-dark-dark .CodeMirror-activeline-background {background: #363442;}
 
 .cm-s-duotone-dark-dark span.cm-comment {color: #6c6783;}
-.cm-s-duotone-dark-dark span.cm-atom {color: #ffcc99;}
-.cm-s-duotone-dark-dark span.cm-number {color: #ffcc99;}
+.cm-s-duotone-dark-dark span.cm-atom, .cm-s-duotone-dark-dark span.cm-number, .cm-s-duotone-dark-dark span.cm-keyword, .cm-s-duotone-dark-dark span.cm-variable, .cm-s-duotone-dark-dark span.cm-attribute,  .cm-s-duotone-dark-dark span.cm-quote {color: #ffcc99;}
 
-.cm-s-duotone-dark-dark span.cm-attribute {color: #7c756e;}
 .cm-s-duotone-dark-dark span.cm-property {color: #9b87fd;}
-.cm-s-duotone-dark-dark span.cm-keyword {color: #ffcc99;}
 .cm-s-duotone-dark-dark span.cm-string {color: #ffba76;}
 .cm-s-duotone-dark-dark span.cm-operator {color: #ffa852;}
 
-.cm-s-duotone-dark-dark span.cm-variable {color: #ffcc99;}
-.cm-s-duotone-dark-dark span.cm-variable-2 {color: #c4b8fe;}
-.cm-s-duotone-dark-dark span.cm-variable-3 {color: #c4b8fe;}
-.cm-s-duotone-dark-dark span.cm-def {color: #eeebff;}
+.cm-s-duotone-dark-dark span.cm-variable-2, .cm-s-duotone-dark-dark span.cm-variable-3, .cm-s-duotone-dark-dark span.cm-bracket {color: #c4b8fe;}
+{color: #c4b8fe;}
+.cm-s-duotone-dark-dark span.cm-def, .cm-s-duotone-dark-dark span.cm-tag, .cm-s-duotone-dark-dark span.cm-builtin, .cm-s-duotone-dark-dark span.cm-qualifier, .cm-s-duotone-dark-dark span.cm-header, .cm-s-duotone-dark-dark span.cm-em {color: #eeebff;}
 .cm-s-duotone-dark-dark span.cm-error {background: #6a51e6; color: #7e75a9;}
-.cm-s-duotone-dark-dark span.cm-bracket {color: #c4b8fe;}
-.cm-s-duotone-dark-dark span.cm-tag {color: #eeebff;}
-.cm-s-duotone-dark-dark span.cm-builtin {color: #eeebff;}
 .cm-s-duotone-dark-dark span.cm-link {color: #8b76f4;}
+.cm-s-duotone-dark-dark span.cm-unit {color: #e09142;}
 
+.cm-s-duotone-dark-dark span.cm-header { font-weight: normal; }
 .cm-s-duotone-dark-dark .CodeMirror-matchingbracket { text-decoration: underline; color: #eeebff !important;}

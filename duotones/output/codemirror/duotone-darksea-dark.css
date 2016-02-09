@@ -1,4 +1,4 @@
-/* 
+/*
 Name:       Duotone-DarkSea
 Author:     adapted from: Simurai (https://github.com/simurai/duotone-dark-sea-syntax/)
 
@@ -13,23 +13,18 @@ CodeMirror template by Jan T. Sott (https://github.com/idleberg), adapted by Bra
 .cm-s-duotone-darksea-dark .CodeMirror-activeline-background {background: #27323f;}
 
 .cm-s-duotone-darksea-dark span.cm-comment {color: #3a4b5f;}
-.cm-s-duotone-darksea-dark span.cm-atom {color: #5cffc9;}
-.cm-s-duotone-darksea-dark span.cm-number {color: #5cffc9;}
+.cm-s-duotone-darksea-dark span.cm-atom, .cm-s-duotone-darksea-dark span.cm-number, .cm-s-duotone-darksea-dark span.cm-keyword, .cm-s-duotone-darksea-dark span.cm-variable, .cm-s-duotone-darksea-dark span.cm-attribute,  .cm-s-duotone-darksea-dark span.cm-quote {color: #5cffc9;}
 
-.cm-s-duotone-darksea-dark span.cm-attribute {color: #708f85;}
 .cm-s-duotone-darksea-dark span.cm-property {color: #57718e;}
-.cm-s-duotone-darksea-dark span.cm-keyword {color: #5cffc9;}
 .cm-s-duotone-darksea-dark span.cm-string {color: #47ebb4;}
 .cm-s-duotone-darksea-dark span.cm-operator {color: #29e0a3;}
 
-.cm-s-duotone-darksea-dark span.cm-variable {color: #5cffc9;}
-.cm-s-duotone-darksea-dark span.cm-variable-2 {color: #7eb6f6;}
-.cm-s-duotone-darksea-dark span.cm-variable-3 {color: #7eb6f6;}
-.cm-s-duotone-darksea-dark span.cm-def {color: #ebf4ff;}
+.cm-s-duotone-darksea-dark span.cm-variable-2, .cm-s-duotone-darksea-dark span.cm-variable-3, .cm-s-duotone-darksea-dark span.cm-bracket {color: #7eb6f6;}
+{color: #7eb6f6;}
+.cm-s-duotone-darksea-dark span.cm-def, .cm-s-duotone-darksea-dark span.cm-tag, .cm-s-duotone-darksea-dark span.cm-builtin, .cm-s-duotone-darksea-dark span.cm-qualifier, .cm-s-duotone-darksea-dark span.cm-header, .cm-s-duotone-darksea-dark span.cm-em {color: #ebf4ff;}
 .cm-s-duotone-darksea-dark span.cm-error {background: #298dff; color: #44586f;}
-.cm-s-duotone-darksea-dark span.cm-bracket {color: #7eb6f6;}
-.cm-s-duotone-darksea-dark span.cm-tag {color: #ebf4ff;}
-.cm-s-duotone-darksea-dark span.cm-builtin {color: #ebf4ff;}
 .cm-s-duotone-darksea-dark span.cm-link {color: #5ca8ff;}
+.cm-s-duotone-darksea-dark span.cm-unit {color: #24cc94;}
 
+.cm-s-duotone-darksea-dark span.cm-header { font-weight: normal; }
 .cm-s-duotone-darksea-dark .CodeMirror-matchingbracket { text-decoration: underline; color: #ebf4ff !important;}

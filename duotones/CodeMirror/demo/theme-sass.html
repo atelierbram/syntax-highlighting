@@ -2,11 +2,11 @@
 <html lang="en">
   <head>
 <meta charset="utf-8"/>
-<title>CodeMirror: Theme Demo - DuoTone - JavaScript Mode</title>
-
+<title>CodeMirror: Theme Demo - DuoTone - Sass mode</title>
 <link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,300' rel='stylesheet' type='text/css'>
 <link rel=stylesheet href="../doc/docs-custom.css">
 <link rel="stylesheet" href="../lib/codemirror.css">
+<link rel="stylesheet" href="../addon/hint/show-hint.css">
 
 <link rel="stylesheet" href="../../output/codemirror/duotone-dark-dark.css">
 <link rel="stylesheet" href="../../output/codemirror/duotone-darksea-dark.css">
@@ -21,7 +21,9 @@
 <link rel="stylesheet" href="../../output/codemirror/duotone-darkpool-dark.css">
 
 <script src="../lib/codemirror.js"></script>
-<script src="../mode/javascript/javascript.js"></script>
+<script src="../mode/sass/sass.js"></script>
+<script src="../addon/hint/show-hint.js"></script>
+<script src="../addon/hint/css-hint.js"></script>
 <script src="../addon/selection/active-line.js"></script>
 <script src="../addon/edit/matchbrackets.js"></script>
 <style type="text/css">
@@ -46,30 +48,54 @@
     <li><a href="http://simurai.com/projects/2016/01/01/duotone-themes">DuoTone themes</a></li>
   </ul>
   <ul>
-    <li><a class="active" href="#!">JavaScript Mode</a></li>
+    <li><a class=active href="#">Sass Mode</a></li>
     <li><a href="theme-htmlmixed.html#duotone-dark-dark">HTML Mode</a></li>
     <li><a href="theme-css.html#duotone-dark-dark">CSS Mode</a></li>
+    <li><a href="theme-js.html#duotone-dark-dark">JavaScript Mode</a></li>
     <li><a href="theme-markdown.html#duotone-dark-dark">Markdown Mode</a></li>
-    <li><a href="theme-sass.html#duotone-dark-dark">Sass Mode</a></li>
   </ul>
 </div>
 
 <article>
-  <h2>Theme Demo - DuoTone - JavaScript Mode</h2>
+  <h2>Theme Demo - DuoTone - Sass mode</h2>
   <form><textarea id="code" name="code">
-function findSequence(goal) {
-  function find(start, history) {
-    if (start == goal)
-      return history;
-    else if (start > goal)
-      return null;
-    else
-      return find(start + 5, "(" + history + " + 5)") ||
-             find(start * 3, "(" + history + " * 3)");
-  }
-  return find(1, "1");
-  // comment test
-}</textarea></form>
+// Variable Definitions
+
+$page-width:    800px
+$sidebar-width: 200px
+$primary-color: #eeeeee
+
+// Global Attributes
+
+body
+  font:
+    family: sans-serif
+    size: 30em
+    weight: bold
+
+// Scoped Styles
+
+#contents
+  width: $page-width
+  #sidebar
+    float: right
+    width: $sidebar-width
+  #main
+    width: $page-width - $sidebar-width
+    background: $primary-color
+    h2
+      color: blue
+
+#footer
+  height: 200px
+
+/* comment test */
+</textarea></form>
+    <script>
+//       var editor = CodeMirror.fromTextArea(document.getElementById("code"), {
+//         extraKeys: {"Ctrl-Space": "autocomplete"},
+//       });
+    </script>
 
 <p>Select a theme:</p>
 <div class="button dropdown">
@@ -88,13 +114,12 @@ function findSequence(goal) {
     <option>duotone-darkpool-dark</option>
   </select>
 </div>
-  </p>
-
   <script>
 var editor = CodeMirror.fromTextArea(document.getElementById("code"), {
   lineNumbers: true,
   styleActiveLine: true,
-  matchBrackets: true
+  matchBrackets: true,
+  extraKeys: {"Ctrl-Space": "autocomplete"},
 });
 var input = document.getElementById("select");
 function selectTheme() {

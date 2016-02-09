@@ -12,17 +12,33 @@ body {
   color: #fff;
 }
 
-p { margin-top: 0; }
+article .CodeMirror {
+  height: 400px;
+}
+
+p {
+  margin-top: 0;
+}
+
+p,
+#nav ul a.active,
+#nav ul a:hover,
+h1, h2, h3 {
+  letter-spacing: 1px;
+  word-spacing: -1px;
+}
 
 form ~ p { margin-top: 2em; }
 
-h2, h3, h1 {
+h1, h2, h3 {
   font-weight: 300;
   margin-bottom: .7em;
 }
+
 h1 { font-size: 140%; }
 h2 { font-size: 120%; }
 h3 { font-size: 110%; }
+
 article > h2:first-child, section:first-child > h2 { margin-top: 0; }
 
 #nav h1 {
@@ -30,10 +46,11 @@ article > h2:first-child, section:first-child > h2 { margin-top: 0; }
   margin-top: 0;
   margin-bottom: 2px;
   color: #fff;
-  letter-spacing: .5px;
+  letter-spacing: 1px;
 }
 
-a, a:visited, a:link, .quasilink {
+a,
+.quasilink {
   /* color: #A21313; */
   color: #fff;
   text-decoration: none;
@@ -115,12 +132,14 @@ article {
 #nav ul a {
   color: black;
   padding: 0 7px 1px 11px;
+  font-weight: 400;
 }
 
 #nav ul a.active, #nav ul a:hover {
   border-bottom: 1px solid #fff;
   margin-bottom: -1px;
   color: #fff;
+  font-weight: 300;
 }
 
 #logo {
@@ -296,9 +315,9 @@ strong {
   appearance: none;
   -webkit-appearance: none;
   /* Magic font size number to prevent iOS text zoom */
-  font-size:1.25em;
+  font-size: 1.25em;
   /* General select styles: change as needed */
-  /* font-weight: bold; */
+  font-weight: 400;
   color: #444;
   padding: .6em 1.9em .5em .8em;
   line-height:1.3;
@@ -319,7 +338,7 @@ label {
   right: 1em;
   margin-top:-4px;
   z-index: 2;
-  background: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 12'%3E%3Cpolygon fill='rgb(102,102,102)' points='8,12 0,0 16,0'/%3E%3C/svg%3E") 0 0 no-repeat; 
+  background: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 12'%3E%3Cpolygon fill='rgb(102,102,102)' points='8,12 0,0 16,0'/%3E%3C/svg%3E") 0 0 no-repeat;
   /* These hacks make the select behind the arrow clickable in some browsers */
   pointer-events:none;
 }

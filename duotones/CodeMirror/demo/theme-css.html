@@ -3,7 +3,7 @@
   <head>
 <meta charset="utf-8"/>
 <title>CodeMirror: Theme Demo - DuoTone - CSS mode</title>
-<link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro:300' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,300' rel='stylesheet' type='text/css'>
 <link rel=stylesheet href="../doc/docs-custom.css">
 <link rel="stylesheet" href="../lib/codemirror.css">
 <link rel="stylesheet" href="../addon/hint/show-hint.css">
@@ -39,17 +39,20 @@
   <a href="http://codemirror.net"><h1>CodeMirror</h1><!-- <img id=logo src="../doc/logo.png"> --></a>
 
   <ul>
-    <li><a href="https://codemirror.net/index.html">CodeMirror</a>
-    <li><a href="https://codemirror.net/doc/manual.html">CodeMirror Manual</a>
-    <li><a href="https://github.com/codemirror/codemirror">CodeMirror GitHub</a>
+    <li><a href="https://codemirror.net/index.html">CodeMirror</a></li>
+    <li><a href="https://codemirror.net/doc/manual.html">Manual</a></li>
+    <li><a href="https://github.com/codemirror/codemirror">GitHub</a></li>
   </ul>
   <ul>
-    <li><a class=active href="#">Theme</a>
-    <li><a href="http://simurai.com/projects/2016/01/01/duotone-themes">DuoTone themes</a>
+    <li><a class=active href="#">Theme</a></li>
+    <li><a href="http://simurai.com/projects/2016/01/01/duotone-themes">DuoTone themes</a></li>
   </ul>
   <ul>
-    <li><a href="theme-htmlmixed.html#duotone-dark-dark">HTML Mode</a>
-    <li><a href="theme-js.html#duotone-dark-dark">JavaScript Mode</a>
+    <li><a class=active href="#">CSS Mode</a></li>
+    <li><a href="theme-htmlmixed.html#duotone-dark-dark">HTML Mode</a></li>
+    <li><a href="theme-js.html#duotone-dark-dark">JavaScript Mode</a></li>
+    <li><a href="theme-markdown.html#duotone-dark-dark">Markdown Mode</a></li>
+    <li><a href="theme-sass.html#duotone-dark-dark">Sass Mode</a></li>
   </ul>
 </div>
 
@@ -70,6 +73,15 @@ body {
 #navigation a {
   font-weight: bold;
   text-decoration: none !important;
+}
+
+.nav-item {
+  float: left;
+  margin-left: 1px;
+}
+
+.nav-item:first-of-type {
+  margin-left: 0;
 }
 
 h1 {

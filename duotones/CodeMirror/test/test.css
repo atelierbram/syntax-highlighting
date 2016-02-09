@@ -14,6 +14,15 @@ body {
   text-decoration: none !important;
 }
 
+.nav-item {
+  float: left;
+  margin-left: 1px;
+}
+
+.nav-item:first-of-type {
+  margin-left: 0;
+}
+
 h1 {
   font-size: 2.5em;
 }
@@ -31,4 +40,4 @@ code {
   font-size: 80%;
   color: #418A8A;
 }
-/* comment test */ 
+/* comment test */
