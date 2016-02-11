@@ -35,13 +35,13 @@ pre[class*="language-"] {
 pre[class*="language-"]::-moz-selection, pre[class*="language-"] ::-moz-selection,
 code[class*="language-"]::-moz-selection, code[class*="language-"] ::-moz-selection {
   text-shadow: none;
-  background: #424f8a;
+  background: #6473b4;
 }
 
 pre[class*="language-"]::selection, pre[class*="language-"] ::selection,
 code[class*="language-"]::selection, code[class*="language-"] ::selection {
   text-shadow: none;
-  background: #424f8a;
+  background: #6473b4;
 } 
 
 /* Code blocks */
@@ -62,7 +62,7 @@ pre[class*="language-"] {
 .token.prolog,
 .token.doctype,
 .token.cdata {
-  color: #394579;
+  color: #49599c;
 }
 
 .token.namespace {

@@ -1,0 +1,30 @@
+/*
+Name:       Duotone-DarkHeath
+Author:     adapted from: Simurai (https://github.com/simurai/duotone-dark-syntax/)
+
+CodeMirror template by Jan T. Sott (https://github.com/idleberg), adapted by Bram de Haan (https://github.com/atelierbram/)
+*/
+
+.cm-s-duotone-darkheath-cm.CodeMirror {background: #272527; color: #786d78;}
+.cm-s-duotone-darkheath-cm div.CodeMirror-selected {background: #343135 !important;}
+.cm-s-duotone-darkheath-cm .CodeMirror-gutters {background: #272527; border-right: 0px;}
+.cm-s-duotone-darkheath-cm .CodeMirror-linenumber {color: #575158;}
+.cm-s-duotone-darkheath-cm .CodeMirror-cursor {border-left: 1px solid #5e545f !important;}
+.cm-s-duotone-darkheath-cm .CodeMirror-activeline-background {background: #343135;}
+
+.cm-s-duotone-darkheath-cm span.cm-comment {color: #786d78;}
+.cm-s-duotone-darkheath-cm span.cm-atom, .cm-s-duotone-darkheath-cm span.cm-number, .cm-s-duotone-darkheath-cm span.cm-keyword, .cm-s-duotone-darkheath-cm span.cm-variable, .cm-s-duotone-darkheath-cm span.cm-attribute,  .cm-s-duotone-darkheath-cm span.cm-quote {color: #ffd599;}
+
+.cm-s-duotone-darkheath-cm span.cm-property {color: #968198;}
+.cm-s-duotone-darkheath-cm span.cm-string {color: #f4c27c;}
+.cm-s-duotone-darkheath-cm span.cm-operator {color: #e5ae61;}
+
+.cm-s-duotone-darkheath-cm span.cm-variable-2, .cm-s-duotone-darkheath-cm span.cm-variable-3, .cm-s-duotone-darkheath-cm span.cm-bracket {color: #f9bdff;}
+{color: #f9bdff;}
+.cm-s-duotone-darkheath-cm span.cm-def, .cm-s-duotone-darkheath-cm span.cm-tag, .cm-s-duotone-darkheath-cm span.cm-builtin, .cm-s-duotone-darkheath-cm span.cm-qualifier, .cm-s-duotone-darkheath-cm span.cm-header, .cm-s-duotone-darkheath-cm span.cm-em {color: #fdebff;}
+.cm-s-duotone-darkheath-cm span.cm-error {background: #a021ab; color: #5e545f;}
+.cm-s-duotone-darkheath-cm span.cm-link {color: #d11de2;}
+.cm-s-duotone-darkheath-cm span.cm-unit {color: #d29a4b;}
+
+.cm-s-duotone-darkheath-cm span.cm-header { font-weight: normal; }
+.cm-s-duotone-darkheath-cm .CodeMirror-matchingbracket { text-decoration: underline; color: #fdebff !important;}

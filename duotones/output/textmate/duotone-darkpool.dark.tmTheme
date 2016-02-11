@@ -33,7 +33,7 @@
           <key>caret</key>
           <string>#d24b4b</string>
           <key>foreground</key>
-          <string>#394579</string>
+          <string>#49599c</string>
           <key>invisibles</key>
           <string>#283157</string>
           <key>lineHighlight</key>
@@ -43,7 +43,7 @@
           <key>findHighlight</key>
           <string>#ff9999</string>
           <key>findHighlightForeground</key>
-          <string>#394579</string>
+          <string>#49599c</string>
           <key>selectionBorder</key>
           <string>#313b68</string>
           <key>bracketsForeground</key>
@@ -53,7 +53,7 @@
           <key>guide</key>
           <string>#283157</string>
           <key>activeGuide</key>
-          <string>#394579</string>
+          <string>#49599c</string>
           <key>stackGuide</key>
           <string>#313b68</string>
         </dict>
@@ -77,7 +77,7 @@
         <key>settings</key>
         <dict>
           <key>foreground</key>
-          <string>#394579</string>
+          <string>#49599c</string>
         </dict>
       </dict>
       <dict>
@@ -564,7 +564,7 @@
         <key>settings</key>
         <dict>
           <key>background</key>
-          <string>#394579</string>
+          <string>#49599c</string>
           <key>foreground</key>
           <string>#e1e6ff</string>
         </dict>
@@ -584,6 +584,6 @@
       </dict>
     </array>
     <key>uuid</key>
-    <string>cca35e72-9139-4c5f-875f-37a80a22fbf6</string>
+    <string>2005027b-0060-45c3-831e-17b1ec8b9ebe</string>
   </dict>
 </plist>

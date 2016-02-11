@@ -1,14 +1,14 @@
 Windows Registry Editor Version 5.00
 
 [HKEY_CURRENT_USER\Software\SimonTatham\PuTTY\Sessions\Base16-Duotone-DarkPool]
-"Colour0"="66,79,138"
+"Colour0"="100,115,180"
 "Colour1"="112,127,194"
 "Colour2"="32,39,70"
 "Colour3"="40,49,87"
 "Colour4"="32,39,70"
 "Colour5"="165,181,254"
 "Colour6"="32,39,70"
-"Colour7"="57,69,121"
+"Colour7"="73,89,156"
 "Colour8"="52,75,178"
 "Colour9"="210,75,75"
 "Colour10"="173,103,103"
@@ -16,7 +16,7 @@ Windows Registry Editor Version 5.00
 "Colour12"="229,97,97"
 "Colour13"="49,59,104"
 "Colour14"="244,124,124"
-"Colour15"="66,79,138"
+"Colour15"="100,115,180"
 "Colour16"="89,108,192"
 "Colour17"="165,181,254"
 "Colour18"="255,153,153"

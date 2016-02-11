@@ -17,11 +17,11 @@
       <key>divider</key>
       <string>#343135</string>
       <key>foreground</key>
-      <string>#423d42</string>
+      <string>#575158</string>
       <key>selectionBackground</key>
       <string>#343135</string>
       <key>selectionForeground</key>
-      <string>#423d42</string>
+      <string>#575158</string>
     </dict>
     <key>settings</key>
     <array>
@@ -33,7 +33,7 @@
           <key>caret</key>
           <string>#d29a4b</string>
           <key>foreground</key>
-          <string>#504950</string>
+          <string>#786d78</string>
           <key>invisibles</key>
           <string>#343135</string>
           <key>lineHighlight</key>
@@ -43,9 +43,9 @@
           <key>findHighlight</key>
           <string>#ffd599</string>
           <key>findHighlightForeground</key>
-          <string>#504950</string>
+          <string>#786d78</string>
           <key>selectionBorder</key>
-          <string>#423d42</string>
+          <string>#575158</string>
           <key>bracketsForeground</key>
           <string>#fdebff</string>
           <key>bracketContentsForeground</key>
@@ -53,9 +53,9 @@
           <key>guide</key>
           <string>#343135</string>
           <key>activeGuide</key>
-          <string>#504950</string>
+          <string>#786d78</string>
           <key>stackGuide</key>
-          <string>#423d42</string>
+          <string>#575158</string>
         </dict>
       </dict>
       <dict>
@@ -77,7 +77,7 @@
         <key>settings</key>
         <dict>
           <key>foreground</key>
-          <string>#504950</string>
+          <string>#786d78</string>
         </dict>
       </dict>
       <dict>
@@ -435,7 +435,7 @@
         <key>settings</key>
         <dict>
           <key>background</key>
-          <string>#423d42</string>
+          <string>#575158</string>
           <key>foreground</key>
           <string>#968198</string>
         </dict>
@@ -564,7 +564,7 @@
         <key>settings</key>
         <dict>
           <key>background</key>
-          <string>#504950</string>
+          <string>#786d78</string>
           <key>foreground</key>
           <string>#fdebff</string>
         </dict>
@@ -584,6 +584,6 @@
       </dict>
     </array>
     <key>uuid</key>
-    <string>5a1babd4-549d-49d0-a18e-3325f3674a95</string>
+    <string>bc0fd4e4-39ee-494c-be02-6a1ded9f8a3b</string>
   </dict>
 </plist>
