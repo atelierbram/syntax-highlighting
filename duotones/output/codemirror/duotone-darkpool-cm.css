@@ -5,14 +5,14 @@ Author:     adapted from: Simurai (https://github.com/simurai/duotone-dark-synta
 CodeMirror template by Jan T. Sott (https://github.com/idleberg), adapted by Bram de Haan (https://github.com/atelierbram/)
 */
 
-.cm-s-duotone-darkpool-cm.CodeMirror {background: #202746; color: #49599c;}
+.cm-s-duotone-darkpool-cm.CodeMirror {background: #202746; color: #5262ad;}
 .cm-s-duotone-darkpool-cm div.CodeMirror-selected {background: #283157 !important;}
 .cm-s-duotone-darkpool-cm .CodeMirror-gutters {background: #202746; border-right: 0px;}
-.cm-s-duotone-darkpool-cm .CodeMirror-linenumber {color: #313b68;}
+.cm-s-duotone-darkpool-cm .CodeMirror-linenumber {color: #3e4b84;}
 .cm-s-duotone-darkpool-cm .CodeMirror-cursor {border-left: 1px solid #6473b4 !important;}
 .cm-s-duotone-darkpool-cm .CodeMirror-activeline-background {background: #283157;}
 
-.cm-s-duotone-darkpool-cm span.cm-comment {color: #49599c;}
+.cm-s-duotone-darkpool-cm span.cm-comment {color: #5262ad;}
 .cm-s-duotone-darkpool-cm span.cm-atom, .cm-s-duotone-darkpool-cm span.cm-number, .cm-s-duotone-darkpool-cm span.cm-keyword, .cm-s-duotone-darkpool-cm span.cm-variable, .cm-s-duotone-darkpool-cm span.cm-attribute,  .cm-s-duotone-darkpool-cm span.cm-quote {color: #ff9999;}
 
 .cm-s-duotone-darkpool-cm span.cm-property {color: #707fc2;}
