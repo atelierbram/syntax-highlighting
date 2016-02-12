@@ -37,7 +37,7 @@ h1, h2, h3 {
 
 h1 { font-size: 140%; }
 h2 { font-size: 120%; }
-h3 { font-size: 110%; }
+h3 { font-size: 110%; margin-right: 1rem;}
 
 article > h2:first-child, section:first-child > h2 { margin-top: 0; }
 
@@ -111,7 +111,7 @@ article {
 
 #nav li {
   display: block;
-  margin-bottom: 4px;
+  margin-bottom: 3px;
 }
 
 #nav li ul {
@@ -131,7 +131,7 @@ article {
 
 #nav ul a {
   color: black;
-  padding: 0 7px 1px 11px;
+  padding: .125em 1em;
   font-weight: 400;
 }
 

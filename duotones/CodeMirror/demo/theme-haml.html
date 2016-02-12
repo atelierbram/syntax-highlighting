@@ -2,12 +2,11 @@
 <html lang="en">
   <head>
 <meta charset="utf-8"/>
-<title>CodeMirror: Theme Demo - DuoTone - JavaScript Mode</title>
-
+<title>CodeMirror: Theme Demo - DuoTone - Haml Mode</title>
 <link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,300' rel='stylesheet' type='text/css'>
 <link rel=stylesheet href="../doc/docs-custom.css">
-<link rel="stylesheet" href="../lib/codemirror.css">
 
+<link rel="stylesheet" href="../lib/codemirror.css">
 <link rel="stylesheet" href="../../output/codemirror/duotone-dark-cm.css">
 <link rel="stylesheet" href="../../output/codemirror/duotone-darksea-cm.css">
 <link rel="stylesheet" href="../../output/codemirror/duotone-darkspace-cm.css">
@@ -21,7 +20,12 @@
 <link rel="stylesheet" href="../../output/codemirror/duotone-darkpool-cm.css">
 
 <script src="../lib/codemirror.js"></script>
+<script src="../addon/selection/selection-pointer.js"></script>
+<script src="../mode/xml/xml.js"></script>
+<script src="../mode/htmlmixed/htmlmixed.js"></script>
 <script src="../mode/javascript/javascript.js"></script>
+<script src="../mode/ruby/ruby.js"></script>
+<script src="../mode/haml/haml.js"></script>
 <script src="../addon/selection/active-line.js"></script>
 <script src="../addon/edit/matchbrackets.js"></script>
 <style type="text/css">
@@ -29,7 +33,6 @@
     </style>
 
     <meta name="viewport" content="width=device-width, initial-scale=1">
-
     <meta name="robots" content="no-index, no-follow">
   </head>
   <body>
@@ -45,37 +48,61 @@
     <li><a class=active href="#">Theme</a></li>
     <li><a href="http://simurai.com/projects/2016/01/01/duotone-themes">DuoTone themes</a></li>
   </ul>
+
   <h3>Modes</h3>
   <ul>
     <li><a href="theme-htmlmixed.html#duotone-dark-cm">HTML</a></li>
     <li><a href="theme-css.html#duotone-dark-cm">CSS</a></li>
-    <li><a class="active" href="#!">JavaScript</a></li>
-    <li><a href="theme-haml.html#duotone-dark-cm">Haml</a></li>
-    <li><a href="theme-markdown.html#duotone-dark-cm">Markdown</a></li> 
+    <li><a href="theme-js.html#duotone-dark-cm">JavaScript</a></li>
+    <li><a class=active href="#">Haml</a></li>
+    <li><a href="theme-markdown.html#duotone-dark-cm">Markdown</a></li>
     <li><a href="theme-slim.html#duotone-dark-cm">Slim</a></li>
     <!-- <li><a href="theme-jade.html#duotone-dark-cm">Jade</a></li> -->
-    <li><a href="theme-sass.html#duotone-dark-cm">Sass</a></li>
     <li><a href="theme-coffee.html#duotone-dark-cm">CoffeeScript</a></li>
+    <li><a href="theme-sass.html#duotone-dark-cm">Sass</a></li>
   </ul>
 </div>
 
 <article>
-  <h2>Theme Demo - DuoTone - JavaScript Mode</h2>
+  <h2>Theme Demo - DuoTone - Haml Mode</h2>
   <form><textarea id="code" name="code">
-function findSequence(goal) {
-  function find(start, history) {
-    if (start == goal)
-      return history;
-    else if (start > goal)
-      return null;
-    else
-      return find(start + 5, "(" + history + " + 5)") ||
-             find(start * 3, "(" + history + " * 3)");
-  }
-  return find(1, "1");
-  // comment test
-}</textarea></form>
+!!!
+#content
+.left.column(title="title"){:href => "/hello", :test => "#{hello}_#{world}"}
+    <!-- This is a comment -->
+    %h2 Welcome to our site!
+    %p= puts "HAML MODE"
+  .right.column
+    = render :partial => "sidebar"
 
+.container
+  .row
+    .span8
+      %h1.title= @page_title
+%p.title= @page_title
+%p
+  /
+    The same as HTML comment
+    Hello multiline comment
+
+  -# haml comment
+      This wont be displayed
+      nor will this
+  Date/Time:
+  - now = DateTime.now
+  %strong= now
+  - if now > DateTime.parse("December 31, 2006")
+    = "Happy new " + "year!"
+
+%title
+  = @title
+  \= @title
+  <h1>Title</h1>
+  <h1 title="HELLO">
+    Title
+
+  </h1>
+</textarea> </form>
 <p>Select a theme:</p>
 <div class="button dropdown">
  <select onchange="selectTheme()" id="select">
@@ -93,13 +120,14 @@ function findSequence(goal) {
     <option>duotone-darkpool-cm</option>
   </select>
 </div>
-  </p>
-
-  <script>
+  </p>   
+<script>
 var editor = CodeMirror.fromTextArea(document.getElementById("code"), {
+  selectionPointer: true,
   lineNumbers: true,
   styleActiveLine: true,
-  matchBrackets: true
+  matchBrackets: true,
+  mode: "text/x-haml"
 });
 var input = document.getElementById("select");
 function selectTheme() {

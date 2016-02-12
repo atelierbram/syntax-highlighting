@@ -1,0 +1,36 @@
+!!!
+#content
+.left.column(title="title"){:href => "/hello", :test => "#{hello}_#{world}"}
+    <!-- This is a comment -->
+    %h2 Welcome to our site!
+    %p= puts "HAML MODE"
+  .right.column
+    = render :partial => "sidebar"
+
+.container
+  .row
+    .span8
+      %h1.title= @page_title
+%p.title= @page_title
+%p
+  /
+    The same as HTML comment
+    Hello multiline comment
+
+  -# haml comment
+      This wont be displayed
+      nor will this
+  Date/Time:
+  - now = DateTime.now
+  %strong= now
+  - if now > DateTime.parse("December 31, 2006")
+    = "Happy new " + "year!"
+
+%title
+  = @title
+  \= @title
+  <h1>Title</h1>
+  <h1 title="HELLO">
+    Title
+
+  </h1>
