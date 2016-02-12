@@ -5,25 +5,27 @@ Author:     adapted from: Simurai (https://github.com/simurai/duotone-dark-space
 CodeMirror template by Jan T. Sott (https://github.com/idleberg), adapted by Bram de Haan (https://github.com/atelierbram/)
 */
 
-.cm-s-duotone-darkspace-cm.CodeMirror {background: #24242e; color: #5b5b76;}
-.cm-s-duotone-darkspace-cm div.CodeMirror-selected {background: #2f2f3c !important;}
-.cm-s-duotone-darkspace-cm .CodeMirror-gutters {background: #24242e; border-right: 0px;}
-.cm-s-duotone-darkspace-cm .CodeMirror-linenumber {color: #515167;}
-.cm-s-duotone-darkspace-cm .CodeMirror-cursor {border-left: 1px solid #646487 !important;}
-.cm-s-duotone-darkspace-cm .CodeMirror-activeline-background {background: #2f2f3c;}
+.cm-s-duotone-darkspace-cm.CodeMirror { background: #24242e; color: #5b5b76; }
+.cm-s-duotone-darkspace-cm div.CodeMirror-selected { background: #2f2f3c !important; }
+.cm-s-duotone-darkspace-cm .CodeMirror-gutters { background: #24242e; border-right: 0px; }
+.cm-s-duotone-darkspace-cm .CodeMirror-linenumber { color: #515167; }
+.cm-s-duotone-darkspace-cm .CodeMirror-cursor { border-left: 1px solid hsla(0, 100%, 100%, 0.25) !important; border-right: .5em solid hsla(0, 100%, 100%, 0.25); }
+.cm-s-duotone-darkspace-cm .CodeMirror-activeline-background { background: #2f2f3c; }
+.cm-s-duotone-darkspace-cm .cm-fat-cursor .CodeMirror-cursor { background: .5em solid hsla(0, 100%, 100%, 0.25); }
 
-.cm-s-duotone-darkspace-cm span.cm-comment {color: #5b5b76;}
-.cm-s-duotone-darkspace-cm span.cm-atom, .cm-s-duotone-darkspace-cm span.cm-number, .cm-s-duotone-darkspace-cm span.cm-keyword, .cm-s-duotone-darkspace-cm span.cm-variable, .cm-s-duotone-darkspace-cm span.cm-attribute,  .cm-s-duotone-darkspace-cm span.cm-quote {color: #fe8c52;}
+.cm-s-duotone-darkspace-cm span.cm-comment { color: #5b5b76; }
+.cm-s-duotone-darkspace-cm span.cm-atom, .cm-s-duotone-darkspace-cm span.cm-number, .cm-s-duotone-darkspace-cm span.cm-keyword, .cm-s-duotone-darkspace-cm span.cm-variable, .cm-s-duotone-darkspace-cm span.cm-attribute, .cm-s-duotone-darkspace-cm span.cm-quote, .cm-s-duotone-darkspace-cm span.cm-hr, .cm-s-duotone-darkspace-cm span.cm-link { color: #fe8c52; }
 
-.cm-s-duotone-darkspace-cm span.cm-property {color: #767693;}
-.cm-s-duotone-darkspace-cm span.cm-string {color: #f97c3e;}
-.cm-s-duotone-darkspace-cm span.cm-operator {color: #f36e2b;}
+.cm-s-duotone-darkspace-cm span.cm-property { color: #767693; }
+.cm-s-duotone-darkspace-cm span.cm-punctuation, .cm-s-duotone-darkspace-cm span.cm-unit, .cm-s-duotone-darkspace-cm span.cm-negative { color: #dd672c; }
+.cm-s-duotone-darkspace-cm span.cm-string { color: #f97c3e; }
+.cm-s-duotone-darkspace-cm span.cm-operator { color: #f36e2b; }
+.cm-s-duotone-darkspace-cm span.cm-positive { color: #5151e6; }
 
-.cm-s-duotone-darkspace-cm span.cm-variable-2, .cm-s-duotone-darkspace-cm span.cm-variable-3, .cm-s-duotone-darkspace-cm span.cm-bracket {color: #9d9dc8;}
-.cm-s-duotone-darkspace-cm span.cm-def, .cm-s-duotone-darkspace-cm span.cm-tag, .cm-s-duotone-darkspace-cm span.cm-builtin, .cm-s-duotone-darkspace-cm span.cm-qualifier, .cm-s-duotone-darkspace-cm span.cm-header, .cm-s-duotone-darkspace-cm span.cm-em {color: #ebebff;}
-.cm-s-duotone-darkspace-cm span.cm-error {background: #5151e6; color: #646487;}
-.cm-s-duotone-darkspace-cm span.cm-link {color: #7676f4;}
-.cm-s-duotone-darkspace-cm span.cm-unit {color: #dd672c;}
+.cm-s-duotone-darkspace-cm span.cm-variable-2, .cm-s-duotone-darkspace-cm span.cm-variable-3, .cm-s-duotone-darkspace-cm span.cm-bracket, .cm-s-duotone-darkspace-cm span.cm-string-2, .cm-s-duotone-darkspace-cm span.cm-url { color: #9d9dc8; }
+.cm-s-duotone-darkspace-cm span.cm-def, .cm-s-duotone-darkspace-cm span.cm-tag, .cm-s-duotone-darkspace-cm span.cm-builtin, .cm-s-duotone-darkspace-cm span.cm-qualifier, .cm-s-duotone-darkspace-cm span.cm-header, .cm-s-duotone-darkspace-cm span.cm-em { color: #ebebff; }
+/* .cm-s-duotone-darkspace-cm span.cm-error { background: #5151e6; color: #fe8c52; } */
+.cm-s-duotone-darkspace-cm span.cm-error, .cm-s-duotone-darkspace-cm span.cm-invalidchar { color: #f00; }
 
 .cm-s-duotone-darkspace-cm span.cm-header { font-weight: normal; }
-.cm-s-duotone-darkspace-cm .CodeMirror-matchingbracket { text-decoration: underline; color: #ebebff !important;}
+.cm-s-duotone-darkspace-cm .CodeMirror-matchingbracket { text-decoration: underline; color: #ebebff !important; }

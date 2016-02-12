@@ -5,25 +5,27 @@ Author:     adapted from: Simurai (https://github.com/simurai/duotone-dark-synta
 CodeMirror template by Jan T. Sott (https://github.com/idleberg), adapted by Bram de Haan (https://github.com/atelierbram/)
 */
 
-.cm-s-duotone-darkcave-cm.CodeMirror {background: #272526; color: #786d71;}
-.cm-s-duotone-darkcave-cm div.CodeMirror-selected {background: #353133 !important;}
-.cm-s-duotone-darkcave-cm .CodeMirror-gutters {background: #272526; border-right: 0px;}
-.cm-s-duotone-darkcave-cm .CodeMirror-linenumber {color: #5d5658;}
-.cm-s-duotone-darkcave-cm .CodeMirror-cursor {border-left: 1px solid #5f5458 !important;}
-.cm-s-duotone-darkcave-cm .CodeMirror-activeline-background {background: #353133;}
+.cm-s-duotone-darkcave-cm.CodeMirror { background: #272526; color: #786d71; }
+.cm-s-duotone-darkcave-cm div.CodeMirror-selected { background: #353133 !important; }
+.cm-s-duotone-darkcave-cm .CodeMirror-gutters { background: #272526; border-right: 0px; }
+.cm-s-duotone-darkcave-cm .CodeMirror-linenumber { color: #5d5658; }
+.cm-s-duotone-darkcave-cm .CodeMirror-cursor { border-left: 1px solid hsla(0, 100%, 100%, 0.25) !important; border-right: .5em solid hsla(0, 100%, 100%, 0.25); }
+.cm-s-duotone-darkcave-cm .CodeMirror-activeline-background { background: #353133; }
+.cm-s-duotone-darkcave-cm .cm-fat-cursor .CodeMirror-cursor { background: .5em solid hsla(0, 100%, 100%, 0.25); }
 
-.cm-s-duotone-darkcave-cm span.cm-comment {color: #786d71;}
-.cm-s-duotone-darkcave-cm span.cm-atom, .cm-s-duotone-darkcave-cm span.cm-number, .cm-s-duotone-darkcave-cm span.cm-keyword, .cm-s-duotone-darkcave-cm span.cm-variable, .cm-s-duotone-darkcave-cm span.cm-attribute,  .cm-s-duotone-darkcave-cm span.cm-quote {color: #ffee99;}
+.cm-s-duotone-darkcave-cm span.cm-comment { color: #786d71; }
+.cm-s-duotone-darkcave-cm span.cm-atom, .cm-s-duotone-darkcave-cm span.cm-number, .cm-s-duotone-darkcave-cm span.cm-keyword, .cm-s-duotone-darkcave-cm span.cm-variable, .cm-s-duotone-darkcave-cm span.cm-attribute, .cm-s-duotone-darkcave-cm span.cm-quote, .cm-s-duotone-darkcave-cm span.cm-hr, .cm-s-duotone-darkcave-cm span.cm-link { color: #ffee99; }
 
-.cm-s-duotone-darkcave-cm span.cm-property {color: #988189;}
-.cm-s-duotone-darkcave-cm span.cm-string {color: #f4e07c;}
-.cm-s-duotone-darkcave-cm span.cm-operator {color: #e5cf61;}
+.cm-s-duotone-darkcave-cm span.cm-property { color: #988189; }
+.cm-s-duotone-darkcave-cm span.cm-punctuation, .cm-s-duotone-darkcave-cm span.cm-unit, .cm-s-duotone-darkcave-cm span.cm-negative { color: #d2bc4b; }
+.cm-s-duotone-darkcave-cm span.cm-string { color: #f4e07c; }
+.cm-s-duotone-darkcave-cm span.cm-operator { color: #e5cf61; }
+.cm-s-duotone-darkcave-cm span.cm-positive { color: #ab2151; }
 
-.cm-s-duotone-darkcave-cm span.cm-variable-2, .cm-s-duotone-darkcave-cm span.cm-variable-3, .cm-s-duotone-darkcave-cm span.cm-bracket {color: #ffbdd4;}
-.cm-s-duotone-darkcave-cm span.cm-def, .cm-s-duotone-darkcave-cm span.cm-tag, .cm-s-duotone-darkcave-cm span.cm-builtin, .cm-s-duotone-darkcave-cm span.cm-qualifier, .cm-s-duotone-darkcave-cm span.cm-header, .cm-s-duotone-darkcave-cm span.cm-em {color: #ffebf2;}
-.cm-s-duotone-darkcave-cm span.cm-error {background: #ab2151; color: #5f5458;}
-.cm-s-duotone-darkcave-cm span.cm-link {color: #e21d62;}
-.cm-s-duotone-darkcave-cm span.cm-unit {color: #d2bc4b;}
+.cm-s-duotone-darkcave-cm span.cm-variable-2, .cm-s-duotone-darkcave-cm span.cm-variable-3, .cm-s-duotone-darkcave-cm span.cm-bracket, .cm-s-duotone-darkcave-cm span.cm-string-2, .cm-s-duotone-darkcave-cm span.cm-url { color: #ffbdd4; }
+.cm-s-duotone-darkcave-cm span.cm-def, .cm-s-duotone-darkcave-cm span.cm-tag, .cm-s-duotone-darkcave-cm span.cm-builtin, .cm-s-duotone-darkcave-cm span.cm-qualifier, .cm-s-duotone-darkcave-cm span.cm-header, .cm-s-duotone-darkcave-cm span.cm-em { color: #ffebf2; }
+/* .cm-s-duotone-darkcave-cm span.cm-error { background: #ab2151; color: #ffee99; } */
+.cm-s-duotone-darkcave-cm span.cm-error, .cm-s-duotone-darkcave-cm span.cm-invalidchar { color: #f00; }
 
 .cm-s-duotone-darkcave-cm span.cm-header { font-weight: normal; }
-.cm-s-duotone-darkcave-cm .CodeMirror-matchingbracket { text-decoration: underline; color: #ffebf2 !important;}
+.cm-s-duotone-darkcave-cm .CodeMirror-matchingbracket { text-decoration: underline; color: #ffebf2 !important; }

@@ -5,25 +5,27 @@ Author:     adapted from: Simurai (https://github.com/simurai/duotone-dark-synta
 CodeMirror template by Jan T. Sott (https://github.com/idleberg), adapted by Bram de Haan (https://github.com/atelierbram/)
 */
 
-.cm-s-duotone-darkpool-cm.CodeMirror {background: #202746; color: #5262ad;}
-.cm-s-duotone-darkpool-cm div.CodeMirror-selected {background: #283157 !important;}
-.cm-s-duotone-darkpool-cm .CodeMirror-gutters {background: #202746; border-right: 0px;}
-.cm-s-duotone-darkpool-cm .CodeMirror-linenumber {color: #3e4b84;}
-.cm-s-duotone-darkpool-cm .CodeMirror-cursor {border-left: 1px solid #6473b4 !important;}
-.cm-s-duotone-darkpool-cm .CodeMirror-activeline-background {background: #283157;}
+.cm-s-duotone-darkpool-cm.CodeMirror { background: #202746; color: #5262ad; }
+.cm-s-duotone-darkpool-cm div.CodeMirror-selected { background: #283157 !important; }
+.cm-s-duotone-darkpool-cm .CodeMirror-gutters { background: #202746; border-right: 0px; }
+.cm-s-duotone-darkpool-cm .CodeMirror-linenumber { color: #3e4b84; }
+.cm-s-duotone-darkpool-cm .CodeMirror-cursor { border-left: 1px solid hsla(0, 100%, 100%, 0.25) !important; border-right: .5em solid hsla(0, 100%, 100%, 0.25); }
+.cm-s-duotone-darkpool-cm .CodeMirror-activeline-background { background: #283157; }
+.cm-s-duotone-darkpool-cm .cm-fat-cursor .CodeMirror-cursor { background: .5em solid hsla(0, 100%, 100%, 0.25); }
 
-.cm-s-duotone-darkpool-cm span.cm-comment {color: #5262ad;}
-.cm-s-duotone-darkpool-cm span.cm-atom, .cm-s-duotone-darkpool-cm span.cm-number, .cm-s-duotone-darkpool-cm span.cm-keyword, .cm-s-duotone-darkpool-cm span.cm-variable, .cm-s-duotone-darkpool-cm span.cm-attribute,  .cm-s-duotone-darkpool-cm span.cm-quote {color: #ff9999;}
+.cm-s-duotone-darkpool-cm span.cm-comment { color: #5262ad; }
+.cm-s-duotone-darkpool-cm span.cm-atom, .cm-s-duotone-darkpool-cm span.cm-number, .cm-s-duotone-darkpool-cm span.cm-keyword, .cm-s-duotone-darkpool-cm span.cm-variable, .cm-s-duotone-darkpool-cm span.cm-attribute, .cm-s-duotone-darkpool-cm span.cm-quote, .cm-s-duotone-darkpool-cm span.cm-hr, .cm-s-duotone-darkpool-cm span.cm-link { color: #ff9999; }
 
-.cm-s-duotone-darkpool-cm span.cm-property {color: #707fc2;}
-.cm-s-duotone-darkpool-cm span.cm-string {color: #f47c7c;}
-.cm-s-duotone-darkpool-cm span.cm-operator {color: #e56161;}
+.cm-s-duotone-darkpool-cm span.cm-property { color: #707fc2; }
+.cm-s-duotone-darkpool-cm span.cm-punctuation, .cm-s-duotone-darkpool-cm span.cm-unit, .cm-s-duotone-darkpool-cm span.cm-negative { color: #d24b4b; }
+.cm-s-duotone-darkpool-cm span.cm-string { color: #f47c7c; }
+.cm-s-duotone-darkpool-cm span.cm-operator { color: #e56161; }
+.cm-s-duotone-darkpool-cm span.cm-positive { color: #344bb2; }
 
-.cm-s-duotone-darkpool-cm span.cm-variable-2, .cm-s-duotone-darkpool-cm span.cm-variable-3, .cm-s-duotone-darkpool-cm span.cm-bracket {color: #a5b5fe;}
-.cm-s-duotone-darkpool-cm span.cm-def, .cm-s-duotone-darkpool-cm span.cm-tag, .cm-s-duotone-darkpool-cm span.cm-builtin, .cm-s-duotone-darkpool-cm span.cm-qualifier, .cm-s-duotone-darkpool-cm span.cm-header, .cm-s-duotone-darkpool-cm span.cm-em {color: #e1e6ff;}
-.cm-s-duotone-darkpool-cm span.cm-error {background: #344bb2; color: #6473b4;}
-.cm-s-duotone-darkpool-cm span.cm-link {color: #596cc0;}
-.cm-s-duotone-darkpool-cm span.cm-unit {color: #d24b4b;}
+.cm-s-duotone-darkpool-cm span.cm-variable-2, .cm-s-duotone-darkpool-cm span.cm-variable-3, .cm-s-duotone-darkpool-cm span.cm-bracket, .cm-s-duotone-darkpool-cm span.cm-string-2, .cm-s-duotone-darkpool-cm span.cm-url { color: #a5b5fe; }
+.cm-s-duotone-darkpool-cm span.cm-def, .cm-s-duotone-darkpool-cm span.cm-tag, .cm-s-duotone-darkpool-cm span.cm-builtin, .cm-s-duotone-darkpool-cm span.cm-qualifier, .cm-s-duotone-darkpool-cm span.cm-header, .cm-s-duotone-darkpool-cm span.cm-em { color: #e1e6ff; }
+/* .cm-s-duotone-darkpool-cm span.cm-error { background: #344bb2; color: #ff9999; } */
+.cm-s-duotone-darkpool-cm span.cm-error, .cm-s-duotone-darkpool-cm span.cm-invalidchar { color: #f00; }
 
 .cm-s-duotone-darkpool-cm span.cm-header { font-weight: normal; }
-.cm-s-duotone-darkpool-cm .CodeMirror-matchingbracket { text-decoration: underline; color: #e1e6ff !important;}
+.cm-s-duotone-darkpool-cm .CodeMirror-matchingbracket { text-decoration: underline; color: #e1e6ff !important; }

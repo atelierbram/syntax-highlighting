@@ -24,6 +24,16 @@ HTML header level.
 
 Blockquotes are indicated using email-style '`&gt;`' angle brackets.
 
+Horizontal Rules
+
+You can produce a horizontal rule tag (<hr />) by placing three or more hyphens, asterisks, or underscores on a line by themselves. If you wish, you may use spaces between the hyphens or asterisks. Each of the following lines will produce a horizontal rule:
+
+* * *
+
+***
+
+- - -
+
 Markdown:
 
 A First Level Header
@@ -173,4 +183,4 @@ instead of decimal-encoded entites like `&amp;#8212;`.
 To specify an entire block of pre-formatted code, indent every line of
 the block by 4 spaces or 1 tab. Just like with code spans, `&amp;`, `&lt;`,
 and `&gt;` characters will be escaped automatically.
- 
+
