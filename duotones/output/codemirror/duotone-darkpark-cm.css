@@ -20,7 +20,6 @@ CodeMirror template by Jan T. Sott (https://github.com/idleberg), adapted by Bra
 .cm-s-duotone-darkpark-cm span.cm-operator {color: #0dccf2;}
 
 .cm-s-duotone-darkpark-cm span.cm-variable-2, .cm-s-duotone-darkpark-cm span.cm-variable-3, .cm-s-duotone-darkpark-cm span.cm-bracket {color: #4dffd2;}
-{color: #4dffd2;}
 .cm-s-duotone-darkpark-cm span.cm-def, .cm-s-duotone-darkpark-cm span.cm-tag, .cm-s-duotone-darkpark-cm span.cm-builtin, .cm-s-duotone-darkpark-cm span.cm-qualifier, .cm-s-duotone-darkpark-cm span.cm-header, .cm-s-duotone-darkpark-cm span.cm-em {color: #ebfffa;}
 .cm-s-duotone-darkpark-cm span.cm-error {background: #008060; color: #4f645f;}
 .cm-s-duotone-darkpark-cm span.cm-link {color: #3a8874;}
