@@ -5,14 +5,14 @@ Author:     adapted from: Simurai (https://github.com/simurai/duotone-dark-sea-s
 CodeMirror template by Jan T. Sott (https://github.com/idleberg), adapted by Bram de Haan (https://github.com/atelierbram/)
 */
 
-.cm-s-duotone-darkmeadow-cm.CodeMirror { background: #1f2829; color: #5c8384; }
-.cm-s-duotone-darkmeadow-cm div.CodeMirror-selected { background: #293838 !important; }
-.cm-s-duotone-darkmeadow-cm .CodeMirror-gutters { background: #1f2829; border-right: 0px; }
+.cm-s-duotone-darkmeadow-cm.CodeMirror { background: #212627; color: #5c8384; }
+.cm-s-duotone-darkmeadow-cm div.CodeMirror-selected { background: #2a3637 !important; }
+.cm-s-duotone-darkmeadow-cm .CodeMirror-gutters { background: #212627; border-right: 0px; }
 .cm-s-duotone-darkmeadow-cm .CodeMirror-linenumber { color: #486465; }
 
 /* Cursor - some of these styles need to be removed: hardcoded these into the base16-builder template because base16 does not support alpha channels */
 .cm-s-duotone-darkmeadow-cm .CodeMirror-cursor { border-left: 1px solid hsla(0, 100%, 100%, 0.25); border-right: .5em solid hsla(0, 100%, 100%, 0.25); }
-.cm-s-duotone-darkmeadow-cm .CodeMirror-activeline-background { background: #293838; }
+.cm-s-duotone-darkmeadow-cm .CodeMirror-activeline-background { background: #2a3637; }
 .cm-s-duotone-darkmeadow-cm .cm-fat-cursor .CodeMirror-cursor { background: .5em solid hsla(0, 100%, 100%, 0.25); }
 
 /* default Dark */

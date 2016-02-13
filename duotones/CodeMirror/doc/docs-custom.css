@@ -129,6 +129,10 @@ article {
   display: inline-block;
 }
 
+#nav ul li {
+  font-weight: 400;
+}
+
 #nav ul a {
   color: black;
   padding: .125em 1em;
@@ -312,7 +316,7 @@ strong {
   -moz-box-sizing: border-box;
   box-sizing: border-box;
   /* Remove select styling */
-  appearance: none;
+  -moz-appearance: none;
   -webkit-appearance: none;
   /* Magic font size number to prevent iOS text zoom */
   font-size: 1.25em;
@@ -322,9 +326,8 @@ strong {
   padding: .6em 1.9em .5em .8em;
   line-height:1.3;
 }
-.dropdown select,
-label {
-  font-family: 'Source Sans Pro', AvenirNextCondensed-DemiBold, Corbel, "Lucida Grande","Trebuchet Ms", sans-serif;
+.dropdown select, label, input, textarea, button, option {
+  font: 400 1.25/1.3 'Source Sans Pro', AvenirNextCondensed-DemiBold, Corbel, "Lucida Grande","Trebuchet Ms", sans-serif;
 }
 
 /* Custom arrow sits on top of the select - could be an image, SVG, icon font, etc. or the arrow could just baked into the bg image on the select */
@@ -427,7 +430,7 @@ select:-moz-focusring {
 }
 
 option {
-  font-weight:normal;
+  font-weight: 400;
 }
 
 

@@ -13,13 +13,13 @@
     <key>gutterSettings</key>
     <dict>
       <key>background</key>
-      <string>#293838</string>
+      <string>#2a3637</string>
       <key>divider</key>
-      <string>#293838</string>
+      <string>#2a3637</string>
       <key>foreground</key>
       <string>#486465</string>
       <key>selectionBackground</key>
-      <string>#293838</string>
+      <string>#2a3637</string>
       <key>selectionForeground</key>
       <string>#486465</string>
     </dict>
@@ -29,17 +29,17 @@
         <key>settings</key>
         <dict>
           <key>background</key>
-          <string>#1f2829</string>
+          <string>#212627</string>
           <key>caret</key>
           <string>#60ac39</string>
           <key>foreground</key>
           <string>#5c8384</string>
           <key>invisibles</key>
-          <string>#293838</string>
+          <string>#2a3637</string>
           <key>lineHighlight</key>
-          <string>#29383855</string>
+          <string>#2a363755</string>
           <key>selection</key>
-          <string>#293838</string>
+          <string>#2a3637</string>
           <key>findHighlight</key>
           <string>#acf986</string>
           <key>findHighlightForeground</key>
@@ -49,9 +49,9 @@
           <key>bracketsForeground</key>
           <string>#e0feff</string>
           <key>bracketContentsForeground</key>
-          <string>#1f2829</string>
+          <string>#212627</string>
           <key>guide</key>
-          <string>#293838</string>
+          <string>#2a3637</string>
           <key>activeGuide</key>
           <string>#5c8384</string>
           <key>stackGuide</key>
@@ -540,7 +540,7 @@
           <key>background</key>
           <string>#60ac39</string>
           <key>foreground</key>
-          <string>#1f2829</string>
+          <string>#212627</string>
         </dict>
       </dict>
       <dict>
@@ -577,13 +577,13 @@
         <key>settings</key>
         <dict>
           <key>foreground</key>
-          <string>#1f2829</string>
+          <string>#212627</string>
           <key>background</key>
           <string>#60ac39</string>
         </dict>
       </dict>
     </array>
     <key>uuid</key>
-    <string>ea20ed4c-dad8-4ab1-928f-5d9c49c22265</string>
+    <string>96a6ec9f-5514-4c96-aea6-4badcec1eb16</string>
   </dict>
 </plist>
