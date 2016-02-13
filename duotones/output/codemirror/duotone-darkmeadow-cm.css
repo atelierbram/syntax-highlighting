@@ -72,6 +72,8 @@ CodeMirror template by Jan T. Sott (https://github.com/idleberg), adapted by Bra
 
 .cm-s-duotone-darkmeadow-cm span.cm-variable-2, .cm-s-duotone-darkmeadow-cm span.cm-variable-3, .cm-s-duotone-darkmeadow-cm span.cm-bracket, .cm-s-duotone-darkmeadow-cm span.cm-string-2, .cm-s-duotone-darkmeadow-cm span.cm-url { color: #83f3f6; }
 .cm-s-duotone-darkmeadow-cm span.cm-def, .cm-s-duotone-darkmeadow-cm span.cm-tag, .cm-s-duotone-darkmeadow-cm span.cm-builtin, .cm-s-duotone-darkmeadow-cm span.cm-qualifier, .cm-s-duotone-darkmeadow-cm span.cm-header, .cm-s-duotone-darkmeadow-cm span.cm-em { color: #e0feff; }
+
+/* using #f00 red for errors, don't think any of the colorscheme variables will stand out enough, ... maybe by giving it a background-color ... */
 /* .cm-s-duotone-darkmeadow-cm span.cm-error { background: #008f94; color: #acf986; } */
 .cm-s-duotone-darkmeadow-cm span.cm-error, .cm-s-duotone-darkmeadow-cm span.cm-invalidchar { color: #f00; }
 
