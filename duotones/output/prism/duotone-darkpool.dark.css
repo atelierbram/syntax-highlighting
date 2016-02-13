@@ -73,7 +73,7 @@ pre[class*="language-"] {
 .token.operator,
 .token.boolean,
 .token.number {
-  color: #d24b4b;
+  color: #db7070;
 }
 .token.property {
   color: #707fc2;
@@ -106,12 +106,12 @@ code.language-scss,
 .token.statement,
 .token.regex,
 .token.atrule {
-  color: #ff9999;
+  color: #ffb3b3;
 }
 
 .token.placeholder,
 .token.variable {
-  color: #f47c7c;
+  color: #f69898;
 }
 
 .token.deleted {

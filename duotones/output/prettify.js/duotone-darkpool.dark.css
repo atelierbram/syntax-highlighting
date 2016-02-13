@@ -23,12 +23,12 @@
 
   /* a type name */
   .typ {
-    color: #f47c7c;
+    color: #f69898;
   }
 
   /* a literal value */
   .lit {
-    color: #d24b4b;
+    color: #db7070;
   }
 
   /* punctuation */
@@ -53,17 +53,17 @@
 
   /* a markup attribute name */
   .atn {
-    color: #d24b4b;
+    color: #db7070;
   }
 
   /* a markup attribute value */
   .atv {
-    color: #ff9999;
+    color: #ffb3b3;
   }
 
   /* a declaration */
   .dec {
-    color: #d24b4b;
+    color: #db7070;
   }
 
   /* a variable name */
@@ -73,7 +73,7 @@
 
   /* a function name */
   .fun {
-    color: #f47c7c;
+    color: #f69898;
   }
 }
 /* Use higher contrast and text-weight for printable form. */
