@@ -76,7 +76,7 @@
 
 .diff .hljs-deletion,
 .diff .hljs-addition {
-  color: #202746;
+  color: #1d233f;
   display: inline-block;
   width: 100%;
 }
@@ -93,7 +93,7 @@
 .hljs {
   display: block;
   overflow-x: auto;
-  background: #202746;
+  background: #1d233f;
   color: #7189f4;
   padding: 0.5em;
   -webkit-text-size-adjust: none;

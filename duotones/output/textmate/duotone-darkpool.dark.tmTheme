@@ -29,7 +29,7 @@
         <key>settings</key>
         <dict>
           <key>background</key>
-          <string>#202746</string>
+          <string>#1d233f</string>
           <key>caret</key>
           <string>#db7070</string>
           <key>foreground</key>
@@ -49,7 +49,7 @@
           <key>bracketsForeground</key>
           <string>#e1e6ff</string>
           <key>bracketContentsForeground</key>
-          <string>#202746</string>
+          <string>#1d233f</string>
           <key>guide</key>
           <string>#283157</string>
           <key>activeGuide</key>
@@ -540,7 +540,7 @@
           <key>background</key>
           <string>#db7070</string>
           <key>foreground</key>
-          <string>#202746</string>
+          <string>#1d233f</string>
         </dict>
       </dict>
       <dict>
@@ -577,13 +577,13 @@
         <key>settings</key>
         <dict>
           <key>foreground</key>
-          <string>#202746</string>
+          <string>#1d233f</string>
           <key>background</key>
           <string>#db7070</string>
         </dict>
       </dict>
     </array>
     <key>uuid</key>
-    <string>3efacb3b-55a3-4c14-8d41-3f07e32c9783</string>
+    <string>fb96d05b-b302-4573-9e8c-23d8a19f86de</string>
   </dict>
 </plist>

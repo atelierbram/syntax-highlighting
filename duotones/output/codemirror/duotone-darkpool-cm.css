@@ -5,9 +5,9 @@ Author:     adapted from: Simurai (https://github.com/simurai/duotone-dark-synta
 CodeMirror template by Jan T. Sott (https://github.com/idleberg), adapted by Bram de Haan (https://github.com/atelierbram/)
 */
 
-.cm-s-duotone-darkpool-cm.CodeMirror { background: #202746; color: #5262ad; }
+.cm-s-duotone-darkpool-cm.CodeMirror { background: #1d233f; color: #5262ad; }
 .cm-s-duotone-darkpool-cm div.CodeMirror-selected { background: #283157 !important; }
-.cm-s-duotone-darkpool-cm .CodeMirror-gutters { background: #202746; border-right: 0px; }
+.cm-s-duotone-darkpool-cm .CodeMirror-gutters { background: #1d233f; border-right: 0px; }
 .cm-s-duotone-darkpool-cm .CodeMirror-linenumber { color: #3e4b84; }
 
 /* Cursor - some of these styles need to be removed: hardcoded these into the base16-builder template because base16 does not support alpha channels */
