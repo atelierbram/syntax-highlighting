@@ -62,19 +62,19 @@ CodeMirror template by Jan T. Sott (https://github.com/idleberg), adapted by Bra
 /* end cursor */
 
 .cm-s-duotone-darkpool-cm span.cm-comment { color: #5262ad; }
-.cm-s-duotone-darkpool-cm span.cm-atom, .cm-s-duotone-darkpool-cm span.cm-number, .cm-s-duotone-darkpool-cm span.cm-keyword, .cm-s-duotone-darkpool-cm span.cm-variable, .cm-s-duotone-darkpool-cm span.cm-attribute, .cm-s-duotone-darkpool-cm span.cm-quote, .cm-s-duotone-darkpool-cm span.cm-hr, .cm-s-duotone-darkpool-cm span.cm-link { color: #ffb3b3; }
+.cm-s-duotone-darkpool-cm span.cm-atom, .cm-s-duotone-darkpool-cm span.cm-number, .cm-s-duotone-darkpool-cm span.cm-keyword, .cm-s-duotone-darkpool-cm span.cm-variable, .cm-s-duotone-darkpool-cm span.cm-attribute, .cm-s-duotone-darkpool-cm span.cm-quote, .cm-s-duotone-darkpool-cm span.cm-hr, .cm-s-duotone-darkpool-cm span.cm-link { color: #f5bcbc; }
 
 .cm-s-duotone-darkpool-cm span.cm-property { color: #7189f4; }
 .cm-s-duotone-darkpool-cm span.cm-punctuation, .cm-s-duotone-darkpool-cm span.cm-unit, .cm-s-duotone-darkpool-cm span.cm-negative { color: #db7070; }
-.cm-s-duotone-darkpool-cm span.cm-string { color: #f69898; }
-.cm-s-duotone-darkpool-cm span.cm-operator { color: #ea8080; }
+.cm-s-duotone-darkpool-cm span.cm-string { color: #eea0a0; }
+.cm-s-duotone-darkpool-cm span.cm-operator { color: #e58585; }
 .cm-s-duotone-darkpool-cm span.cm-positive { color: #3c59dd; }
 
 .cm-s-duotone-darkpool-cm span.cm-variable-2, .cm-s-duotone-darkpool-cm span.cm-variable-3, .cm-s-duotone-darkpool-cm span.cm-bracket, .cm-s-duotone-darkpool-cm span.cm-string-2, .cm-s-duotone-darkpool-cm span.cm-url { color: #a5b5fe; }
 .cm-s-duotone-darkpool-cm span.cm-def, .cm-s-duotone-darkpool-cm span.cm-tag, .cm-s-duotone-darkpool-cm span.cm-builtin, .cm-s-duotone-darkpool-cm span.cm-qualifier, .cm-s-duotone-darkpool-cm span.cm-header, .cm-s-duotone-darkpool-cm span.cm-em { color: #e1e6ff; }
 
 /* using #f00 red for errors, don't think any of the colorscheme variables will stand out enough, ... maybe by giving it a background-color ... */
-/* .cm-s-duotone-darkpool-cm span.cm-error { background: #3c59dd; color: #ffb3b3; } */
+/* .cm-s-duotone-darkpool-cm span.cm-error { background: #3c59dd; color: #f5bcbc; } */
 .cm-s-duotone-darkpool-cm span.cm-error, .cm-s-duotone-darkpool-cm span.cm-invalidchar { color: #f00; }
 
 .cm-s-duotone-darkpool-cm span.cm-header { font-weight: normal; }

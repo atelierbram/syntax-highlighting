@@ -37,7 +37,7 @@
 /* Duotone-DarkPool Yellow */
 .ruby .hljs-class .hljs-title,
 .css .hljs-rule .hljs-attribute {
-  color: #ea8080;
+  color: #e58585;
 }
 
 /* Duotone-DarkPool Green */
@@ -53,7 +53,7 @@
 /* Duotone-DarkPool Aqua */
 .hljs-title,
 .css .hljs-hexcolor {
-  color: #ffb3b3;
+  color: #f5bcbc;
 }
 
 /* Duotone-DarkPool Blue */
@@ -65,7 +65,7 @@
 .perl .hljs-sub,
 .javascript .hljs-title,
 .coffeescript .hljs-title {
-  color: #f69898;
+  color: #eea0a0;
 }
 
 /* Duotone-DarkPool Purple */
@@ -87,7 +87,7 @@
   background-color: #bf8888;
 }
 .diff .hljs-change {
-  color: #f69898;
+  color: #eea0a0;
 }
 
 .hljs {

@@ -440,3 +440,24 @@ option {
   background: linear-gradient(to bottom, #ffffff 0%,#e5e5e5 100%); /* W3C */
 }
 
+::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+    border-radius: 2px;
+    background-color: #404040;
+}
+
+::-webkit-scrollbar {
+    width: .75em;
+    height: .75em;
+    background-color: #111;
+}
+
+::-webkit-scrollbar-thumb {
+    border-radius: 2px;
+    box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+    background-color: #666;
+}
+
+::-webkit-scrollbar-thumb:window-inactive {
+    background-color: #111;
+}

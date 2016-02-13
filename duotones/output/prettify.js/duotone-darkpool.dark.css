@@ -23,7 +23,7 @@
 
   /* a type name */
   .typ {
-    color: #f69898;
+    color: #eea0a0;
   }
 
   /* a literal value */
@@ -58,7 +58,7 @@
 
   /* a markup attribute value */
   .atv {
-    color: #ffb3b3;
+    color: #f5bcbc;
   }
 
   /* a declaration */
@@ -73,7 +73,7 @@
 
   /* a function name */
   .fun {
-    color: #f69898;
+    color: #eea0a0;
   }
 }
 /* Use higher contrast and text-weight for printable form. */

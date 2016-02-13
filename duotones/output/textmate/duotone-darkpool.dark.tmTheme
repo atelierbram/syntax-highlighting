@@ -41,7 +41,7 @@
           <key>selection</key>
           <string>#283157</string>
           <key>findHighlight</key>
-          <string>#ffb3b3</string>
+          <string>#f5bcbc</string>
           <key>findHighlightForeground</key>
           <string>#5262ad</string>
           <key>selectionBorder</key>
@@ -187,7 +187,7 @@
         <key>settings</key>
         <dict>
           <key>foreground</key>
-          <string>#f69898</string>
+          <string>#eea0a0</string>
         </dict>
       </dict>
       <dict>
@@ -209,7 +209,7 @@
         <key>settings</key>
         <dict>
           <key>foreground</key>
-          <string>#ffb3b3</string>
+          <string>#f5bcbc</string>
         </dict>
       </dict>
       <dict>
@@ -231,7 +231,7 @@
         <key>settings</key>
         <dict>
           <key>foreground</key>
-          <string>#ffb3b3</string>
+          <string>#f5bcbc</string>
         </dict>
       </dict>
       <dict>
@@ -297,7 +297,7 @@
         <key>settings</key>
         <dict>
           <key>foreground</key>
-          <string>#f69898</string>
+          <string>#eea0a0</string>
         </dict>
       </dict>
       <dict>
@@ -356,7 +356,7 @@
           <key>fontStyle</key>
           <string>bold</string>
           <key>foreground</key>
-          <string>#ea8080</string>
+          <string>#e58585</string>
         </dict>
       </dict>
       <dict>
@@ -481,7 +481,7 @@
         <key>settings</key>
         <dict>
           <key>foreground</key>
-          <string>#ffb3b3</string>
+          <string>#f5bcbc</string>
         </dict>
       </dict>
       <dict>
@@ -492,7 +492,7 @@
         <key>settings</key>
         <dict>
           <key>foreground</key>
-          <string>#ffb3b3</string>
+          <string>#f5bcbc</string>
         </dict>
       </dict>
       <dict>
@@ -503,7 +503,7 @@
         <key>settings</key>
         <dict>
           <key>foreground</key>
-          <string>#ffb3b3</string>
+          <string>#f5bcbc</string>
         </dict>
       </dict>
       <dict>
@@ -584,6 +584,6 @@
       </dict>
     </array>
     <key>uuid</key>
-    <string>085bd144-046d-4825-a269-58148b472036</string>
+    <string>5f981954-12fc-4a50-9982-6d443603ccf0</string>
   </dict>
 </plist>
