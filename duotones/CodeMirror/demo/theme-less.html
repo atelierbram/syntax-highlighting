@@ -2,11 +2,12 @@
 <html lang="en">
   <head>
 <meta charset="utf-8"/>
-<title>CodeMirror: Theme Demo - DuoTone - Haml Mode</title>
+<title>CodeMirror: Theme Demo - DuoTone - CSS mode</title>
 <link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,300' rel='stylesheet' type='text/css'>
 <link rel=stylesheet href="../doc/docs-custom.css">
-
 <link rel="stylesheet" href="../lib/codemirror.css">
+<link rel="stylesheet" href="../addon/hint/show-hint.css">
+
 <link rel="stylesheet" href="../../output/codemirror/duotone-dark-cm.css">
 <link rel="stylesheet" href="../../output/codemirror/duotone-darksea-cm.css">
 <link rel="stylesheet" href="../../output/codemirror/duotone-darkspace-cm.css">
@@ -20,12 +21,9 @@
 <link rel="stylesheet" href="../../output/codemirror/duotone-darkpool-cm.css">
 
 <script src="../lib/codemirror.js"></script>
-<script src="../addon/selection/selection-pointer.js"></script>
-<script src="../mode/xml/xml.js"></script>
-<script src="../mode/htmlmixed/htmlmixed.js"></script>
-<script src="../mode/javascript/javascript.js"></script>
-<script src="../mode/ruby/ruby.js"></script>
-<script src="../mode/haml/haml.js"></script>
+<script src="../mode/css/css.js"></script>
+<script src="../addon/hint/show-hint.js"></script>
+<script src="../addon/hint/css-hint.js"></script>
 <script src="../addon/selection/active-line.js"></script>
 <script src="../addon/edit/matchbrackets.js"></script>
 <style type="text/css">
@@ -33,6 +31,7 @@
     </style>
 
     <meta name="viewport" content="width=device-width, initial-scale=1">
+
     <meta name="robots" content="no-index, no-follow">
   </head>
   <body>
@@ -48,63 +47,139 @@
     <li><a class=active href="#">Theme</a></li>
     <li><a href="http://simurai.com/projects/2016/01/01/duotone-themes">DuoTone themes</a></li>
   </ul>
-
-  <h3>Modes</h3>
   <ul>
+  <h3>Modes</h3>
     <li><a href="theme-htmlmixed.html#duotone-dark-cm">HTML</a></li>
     <li><a href="theme-css.html#duotone-dark-cm">CSS</a></li>
     <li><a href="theme-js.html#duotone-dark-cm">JavaScript</a></li>
-    <li><a class=active href="#">Haml</a></li>
     <li><a href="theme-markdown.html#duotone-dark-cm">Markdown</a></li>
+    <li><a href="theme-scss.html#duotone-dark-cm">Scss</a></li>
+    <li><a class=active href="#">Less</a></li>
+    <li><a href="theme-sass.html#duotone-dark-cm">Sass</a></li>
+    <li><a href="theme-haml.html#duotone-dark-cm">Haml</a></li>
     <li><a href="theme-slim.html#duotone-dark-cm">Slim</a></li>
     <!-- <li><a href="theme-jade.html#duotone-dark-cm">Jade</a></li> -->
     <li><a href="theme-coffee.html#duotone-dark-cm">CoffeeScript</a></li>
-    <li><a href="theme-scss.html#duotone-dark-cm">Scss</a></li>
-    <li><a href="theme-less.html#duotone-dark-cm">Less</a></li>
-    <li><a href="theme-sass.html#duotone-dark-cm">Sass</a></li>
   </ul>
 </div>
 
 <article>
-  <h2>Theme Demo - DuoTone - Haml Mode</h2>
+  <h2>Theme Demo - DuoTone - CSS mode</h2>
   <form><textarea id="code" name="code">
-!!!
-#content
-.left.column(title="title"){:href => "/hello", :test => "#{hello}_#{world}"}
-    <!-- This is a comment -->
-    %h2 Welcome to our site!
-    %p= puts "HAML MODE"
-  .right.column
-    = render :partial => "sidebar"
+@media screen and (device-aspect-ratio: 16/9) { … }
+@media screen and (device-aspect-ratio: 1280/720) { … }
+@media screen and (device-aspect-ratio: 2560/1440) { … }
 
-.container
-  .row
-    .span8
-      %h1.title= @page_title
-%p.title= @page_title
-%p
-  /
-    The same as HTML comment
-    Hello multiline comment
+html:lang(fr-be)
 
-  -# haml comment
-      This wont be displayed
-      nor will this
-  Date/Time:
-  - now = DateTime.now
-  %strong= now
-  - if now > DateTime.parse("December 31, 2006")
-    = "Happy new " + "year!"
+tr:nth-child(2n+1) /* represents every odd row of an HTML table */
 
-%title
-  = @title
-  \= @title
-  <h1>Title</h1>
-  <h1 title="HELLO">
-    Title
+img:nth-of-type(2n+1) { float: right; }
+img:nth-of-type(2n) { float: left; }
 
-  </h1>
-</textarea> </form>
+body > h2:not(:first-of-type):not(:last-of-type)
+
+html|*:not(:link):not(:visited)
+*|*:not(:hover)
+p::first-line { text-transform: uppercase }
+
+@namespace foo url(http://www.example.com);
+foo|h1 { color: blue }  /* first rule */
+
+span[hello="Ocean"][goodbye="Land"]
+
+E[foo]{
+  padding:65px;
+}
+
+input[type="search"]::-webkit-search-decoration,
+input[type="search"]::-webkit-search-cancel-button {
+  -webkit-appearance: none; // Inner-padding issues in Chrome OSX, Safari 5
+}
+button::-moz-focus-inner,
+input::-moz-focus-inner { // Inner padding and border oddities in FF3/4
+  padding: 0;
+  border: 0;
+}
+.btn {
+  // reset here as of 2.0.3 due to Recess property order
+  border-color: #ccc;
+  border-color: rgba(0,0,0,.1) rgba(0,0,0,.1) rgba(0,0,0,.25);
+}
+fieldset span button, fieldset span input[type="file"] {
+  font-size:12px;
+	font-family:Arial, Helvetica, sans-serif;
+}
+
+.rounded-corners (@radius: 5px) {
+  border-radius: @radius;
+  -webkit-border-radius: @radius;
+  -moz-border-radius: @radius;
+}
+
+@import url("something.css");
+
+@light-blue:   hsl(190, 50%, 65%);
+
+#menu {
+  position: absolute;
+  width: 100%;
+  z-index: 3;
+  clear: both;
+  display: block;
+  background-color: @blue;
+  height: 42px;
+  border-top: 2px solid lighten(@alpha-blue, 20%);
+  border-bottom: 2px solid darken(@alpha-blue, 25%);
+  .box-shadow(0, 1px, 8px, 0.6);
+  -moz-box-shadow: 0 0 0 #000; // Because firefox sucks.
+
+  &.docked {
+    background-color: hsla(210, 60%, 40%, 0.4);
+  }
+  &:hover {
+    background-color: @blue;
+  }
+
+  #dropdown {
+    margin: 0 0 0 117px;
+    padding: 0;
+    padding-top: 5px;
+    display: none;
+    width: 190px;
+    border-top: 2px solid @medium;
+    color: @highlight;
+    border: 2px solid darken(@medium, 25%);
+    border-left-color: darken(@medium, 15%);
+    border-right-color: darken(@medium, 15%);
+    border-top-width: 0;
+    background-color: darken(@medium, 10%);
+    ul {
+      padding: 0px;
+    }
+    li {
+      font-size: 14px;
+      display: block;
+      text-align: left;
+      padding: 0;
+      border: 0;
+      a {
+        display: block;
+        padding: 0px 15px;
+        text-decoration: none;
+        color: white;
+        &:hover {
+          background-color: darken(@medium, 15%);
+          text-decoration: none;
+        }
+      }
+    }
+    .border-radius(5px, bottom);
+    .box-shadow(0, 6px, 8px, 0.5);
+  }
+}
+</textarea></form>
+
 <p>Select a theme:</p>
 <div class="button dropdown">
  <select onchange="selectTheme()" id="select">
@@ -122,14 +197,12 @@
     <option>duotone-darkpool-cm</option>
   </select>
 </div>
-  </p>   
-<script>
+  <script>
 var editor = CodeMirror.fromTextArea(document.getElementById("code"), {
-  selectionPointer: true,
   lineNumbers: true,
   styleActiveLine: true,
   matchBrackets: true,
-  mode: "text/x-haml"
+  mode: "text/x-less"
 });
 var input = document.getElementById("select");
 function selectTheme() {
