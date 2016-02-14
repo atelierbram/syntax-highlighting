@@ -4,7 +4,7 @@
 
 /* Duotone-DarkCave Comment */
 .hljs-comment {
-  color: #5f5458;
+  color: #594f53;
 }
 
 /* Duotone-DarkCave Red */
@@ -76,7 +76,7 @@
 
 .diff .hljs-deletion,
 .diff .hljs-addition {
-  color: #272526;
+  color: #222021;
   display: inline-block;
   width: 100%;
 }
@@ -93,7 +93,7 @@
 .hljs {
   display: block;
   overflow-x: auto;
-  background: #272526;
+  background: #222021;
   color: #988189;
   padding: 0.5em;
   -webkit-text-size-adjust: none;

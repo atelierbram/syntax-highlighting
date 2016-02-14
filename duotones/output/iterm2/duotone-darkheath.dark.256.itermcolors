@@ -7,11 +7,11 @@
 		<key>Color Space</key>
 		<string>sRGB</string>
 		<key>Blue Component</key>
-		<real>0.15294117647058825</real>
+		<real>0.13333333333333333</real>
 		<key>Green Component</key>
-		<real>0.1450980392156863</real>
+		<real>0.12549019607843137</real>
 		<key>Red Component</key>
-		<real>0.15294117647058825</real>
+		<real>0.13333333333333333</real>
 	</dict>
 	<key>Ansi 1 Color</key>
 	<dict>
@@ -161,11 +161,11 @@
 		<key>Color Space</key>
 		<string>sRGB</string>
 		<key>Blue Component</key>
-		<real>0.47058823529411764</real>
+		<real>0.29411764705882354</real>
 		<key>Green Component</key>
-		<real>0.42745098039215684</real>
+		<real>0.26666666666666666</real>
 		<key>Red Component</key>
-		<real>0.47058823529411764</real>
+		<real>0.2901960784313726</real>
 	</dict>
 	<key>Ansi 9 Color</key>
 	<dict>
@@ -183,11 +183,11 @@
 		<key>Color Space</key>
 		<string>sRGB</string>
 		<key>Blue Component</key>
-		<real>0.15294117647058825</real>
+		<real>0.13333333333333333</real>
 		<key>Green Component</key>
-		<real>0.1450980392156863</real>
+		<real>0.12549019607843137</real>
 		<key>Red Component</key>
-		<real>0.15294117647058825</real>
+		<real>0.13333333333333333</real>
 	</dict>
 	<key>Bold Color</key>
 	<dict>
@@ -216,11 +216,11 @@
 		<key>Color Space</key>
 		<string>sRGB</string>
 		<key>Blue Component</key>
-		<real>0.15294117647058825</real>
+		<real>0.13333333333333333</real>
 		<key>Green Component</key>
-		<real>0.1450980392156863</real>
+		<real>0.12549019607843137</real>
 		<key>Red Component</key>
-		<real>0.15294117647058825</real>
+		<real>0.13333333333333333</real>
 	</dict>
 	<key>Foreground Color</key>
 	<dict>
@@ -249,11 +249,11 @@
 		<key>Color Space</key>
 		<string>sRGB</string>
 		<key>Blue Component</key>
-		<real>0.34509803921568627</real>
+		<real>0.23921568627450981</real>
 		<key>Green Component</key>
-		<real>0.3176470588235294</real>
+		<real>0.2196078431372549</real>
 		<key>Red Component</key>
-		<real>0.3411764705882353</real>
+		<real>0.23921568627450981</real>
 	</dict>
 </dict>
 </plist>

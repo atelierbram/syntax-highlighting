@@ -4,7 +4,7 @@
 
 /* Duotone-DarkPark Comment */
 .hljs-comment {
-  color: #4f645f;
+  color: #4b5d59;
 }
 
 /* Duotone-DarkPark Red */
@@ -71,12 +71,12 @@
 /* Duotone-DarkPark Purple */
 .hljs-keyword,
 .javascript .hljs-function {
-  color: #3a8874;
+  color: #309179;
 }
 
 .diff .hljs-deletion,
 .diff .hljs-addition {
-  color: #242927;
+  color: #1c2624;
   display: inline-block;
   width: 100%;
 }
@@ -93,8 +93,8 @@
 .hljs {
   display: block;
   overflow-x: auto;
-  background: #242927;
-  color: #62847b;
+  background: #1c2624;
+  color: #5c8a7e;
   padding: 0.5em;
   -webkit-text-size-adjust: none;
 }

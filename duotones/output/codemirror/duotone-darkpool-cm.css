@@ -5,14 +5,14 @@ Author:     adapted from: Simurai (https://github.com/simurai/duotone-dark-synta
 CodeMirror template by Jan T. Sott (https://github.com/idleberg), adapted by Bram de Haan (https://github.com/atelierbram/)
 */
 
-.cm-s-duotone-darkpool-cm.CodeMirror { background: #1d233f; color: #5262ad; }
-.cm-s-duotone-darkpool-cm div.CodeMirror-selected { background: #283157 !important; }
-.cm-s-duotone-darkpool-cm .CodeMirror-gutters { background: #1d233f; border-right: 0px; }
-.cm-s-duotone-darkpool-cm .CodeMirror-linenumber { color: #3e4b84; }
+.cm-s-duotone-darkpool-cm.CodeMirror { background: #181d34; color: #373f62; }
+.cm-s-duotone-darkpool-cm div.CodeMirror-selected { background: #222844 !important; }
+.cm-s-duotone-darkpool-cm .CodeMirror-gutters { background: #181d34; border-right: 0px; }
+.cm-s-duotone-darkpool-cm .CodeMirror-linenumber { color: #2c3354; }
 
 /* Cursor - some of these styles need to be removed: hardcoded these into the base16-builder template because base16 does not support alpha channels */
 .cm-s-duotone-darkpool-cm .CodeMirror-cursor { border-left: 1px solid hsla(0, 100%, 100%, 0.25); border-right: .5em solid hsla(0, 100%, 100%, 0.25); }
-.cm-s-duotone-darkpool-cm .CodeMirror-activeline-background { background: #283157; }
+.cm-s-duotone-darkpool-cm .CodeMirror-activeline-background { background: #222844; }
 .cm-s-duotone-darkpool-cm .cm-fat-cursor .CodeMirror-cursor { background: .5em solid hsla(0, 100%, 100%, 0.25); }
 
 /* default Dark */
@@ -61,20 +61,20 @@ CodeMirror template by Jan T. Sott (https://github.com/idleberg), adapted by Bra
 
 /* end cursor */
 
-.cm-s-duotone-darkpool-cm span.cm-comment { color: #5262ad; }
-.cm-s-duotone-darkpool-cm span.cm-atom, .cm-s-duotone-darkpool-cm span.cm-number, .cm-s-duotone-darkpool-cm span.cm-keyword, .cm-s-duotone-darkpool-cm span.cm-variable, .cm-s-duotone-darkpool-cm span.cm-attribute, .cm-s-duotone-darkpool-cm span.cm-quote, .cm-s-duotone-darkpool-cm span.cm-hr, .cm-s-duotone-darkpool-cm span.cm-link { color: #f5bcbc; }
+.cm-s-duotone-darkpool-cm span.cm-comment { color: #373f62; }
+.cm-s-duotone-darkpool-cm span.cm-atom, .cm-s-duotone-darkpool-cm span.cm-number, .cm-s-duotone-darkpool-cm span.cm-keyword, .cm-s-duotone-darkpool-cm span.cm-variable, .cm-s-duotone-darkpool-cm span.cm-attribute, .cm-s-duotone-darkpool-cm span.cm-quote, .cm-s-duotone-darkpool-cm span.cm-hr, .cm-s-duotone-darkpool-cm span.cm-link { color: #ffa8c1; }
 
-.cm-s-duotone-darkpool-cm span.cm-property { color: #7189f4; }
-.cm-s-duotone-darkpool-cm span.cm-punctuation, .cm-s-duotone-darkpool-cm span.cm-unit, .cm-s-duotone-darkpool-cm span.cm-negative { color: #db7070; }
-.cm-s-duotone-darkpool-cm span.cm-string { color: #eea0a0; }
-.cm-s-duotone-darkpool-cm span.cm-operator { color: #e58585; }
-.cm-s-duotone-darkpool-cm span.cm-positive { color: #3c59dd; }
+.cm-s-duotone-darkpool-cm span.cm-property { color: #4e62bc; }
+.cm-s-duotone-darkpool-cm span.cm-punctuation, .cm-s-duotone-darkpool-cm span.cm-unit, .cm-s-duotone-darkpool-cm span.cm-negative { color: #ed5e87; }
+.cm-s-duotone-darkpool-cm span.cm-string { color: #f990ad; }
+.cm-s-duotone-darkpool-cm span.cm-operator { color: #f4769a; }
+.cm-s-duotone-darkpool-cm span.cm-positive { color: #2945c2; }
 
 .cm-s-duotone-darkpool-cm span.cm-variable-2, .cm-s-duotone-darkpool-cm span.cm-variable-3, .cm-s-duotone-darkpool-cm span.cm-bracket, .cm-s-duotone-darkpool-cm span.cm-string-2, .cm-s-duotone-darkpool-cm span.cm-url { color: #a5b5fe; }
 .cm-s-duotone-darkpool-cm span.cm-def, .cm-s-duotone-darkpool-cm span.cm-tag, .cm-s-duotone-darkpool-cm span.cm-builtin, .cm-s-duotone-darkpool-cm span.cm-qualifier, .cm-s-duotone-darkpool-cm span.cm-header, .cm-s-duotone-darkpool-cm span.cm-em { color: #e1e6ff; }
 
 /* using #f00 red for errors, don't think any of the colorscheme variables will stand out enough, ... maybe by giving it a background-color ... */
-/* .cm-s-duotone-darkpool-cm span.cm-error { background: #3c59dd; color: #f5bcbc; } */
+/* .cm-s-duotone-darkpool-cm span.cm-error { background: #2945c2; color: #ffa8c1; } */
 .cm-s-duotone-darkpool-cm span.cm-error, .cm-s-duotone-darkpool-cm span.cm-invalidchar { color: #f00; }
 
 .cm-s-duotone-darkpool-cm span.cm-header { font-weight: normal; }

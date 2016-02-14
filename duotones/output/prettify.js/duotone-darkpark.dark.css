@@ -13,12 +13,12 @@
 
   /* a keyword */
   .kwd {
-    color: #3a8874;
+    color: #309179;
   }
 
   /* a comment */
   .com {
-    color: #687d78;
+    color: #3f504c;
   }
 
   /* a type name */
@@ -120,12 +120,12 @@
 }
 /* Style */
 pre.prettyprint {
-  background: #242927;
-  color: #52605d;
+  background: #1c2624;
+  color: #33423e;
   font-family: Consolas, Menlo, "Bitstream Vera Sans Mono", "DejaVu Sans Mono", Monaco, monospace;
   font-size: 12px;
   line-height: 1.5;
-  border: 1px solid #242927;
+  border: 1px solid #1c2624;
   padding: 10px;
   border-radius: 3px;
 }

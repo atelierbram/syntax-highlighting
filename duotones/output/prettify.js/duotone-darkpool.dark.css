@@ -8,27 +8,27 @@
 @media screen {
   /* string content */
   .str {
-    color: #bf8888;
+    color: #ad8590;
   }
 
   /* a keyword */
   .kwd {
-    color: #5e79ed;
+    color: #4057bf;
   }
 
   /* a comment */
   .com {
-    color: #5262ad;
+    color: #373f62;
   }
 
   /* a type name */
   .typ {
-    color: #eea0a0;
+    color: #f990ad;
   }
 
   /* a literal value */
   .lit {
-    color: #db7070;
+    color: #ed5e87;
   }
 
   /* punctuation */
@@ -48,32 +48,32 @@
 
   /* a markup tag name */
   .tag {
-    color: #3c59dd;
+    color: #2945c2;
   }
 
   /* a markup attribute name */
   .atn {
-    color: #db7070;
+    color: #ed5e87;
   }
 
   /* a markup attribute value */
   .atv {
-    color: #f5bcbc;
+    color: #ffa8c1;
   }
 
   /* a declaration */
   .dec {
-    color: #db7070;
+    color: #ed5e87;
   }
 
   /* a variable name */
   .var {
-    color: #3c59dd;
+    color: #2945c2;
   }
 
   /* a function name */
   .fun {
-    color: #eea0a0;
+    color: #f990ad;
   }
 }
 /* Use higher contrast and text-weight for printable form. */
@@ -120,12 +120,12 @@
 }
 /* Style */
 pre.prettyprint {
-  background: #1d233f;
-  color: #3e4b84;
+  background: #181d34;
+  color: #2c3354;
   font-family: Consolas, Menlo, "Bitstream Vera Sans Mono", "DejaVu Sans Mono", Monaco, monospace;
   font-size: 12px;
   line-height: 1.5;
-  border: 1px solid #1d233f;
+  border: 1px solid #181d34;
   padding: 10px;
   border-radius: 3px;
 }

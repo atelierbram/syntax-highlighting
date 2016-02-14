@@ -5,14 +5,14 @@ Author:     adapted from: Simurai (https://github.com/simurai/duotone-dark-synta
 CodeMirror template by Jan T. Sott (https://github.com/idleberg), adapted by Bram de Haan (https://github.com/atelierbram/)
 */
 
-.cm-s-duotone-darkcave-cm.CodeMirror { background: #272526; color: #786d71; }
-.cm-s-duotone-darkcave-cm div.CodeMirror-selected { background: #353133 !important; }
-.cm-s-duotone-darkcave-cm .CodeMirror-gutters { background: #272526; border-right: 0px; }
-.cm-s-duotone-darkcave-cm .CodeMirror-linenumber { color: #5d5658; }
+.cm-s-duotone-darkcave-cm.CodeMirror { background: #222021; color: #4b4446; }
+.cm-s-duotone-darkcave-cm div.CodeMirror-selected { background: #2f2d2d !important; }
+.cm-s-duotone-darkcave-cm .CodeMirror-gutters { background: #222021; border-right: 0px; }
+.cm-s-duotone-darkcave-cm .CodeMirror-linenumber { color: #3d383a; }
 
 /* Cursor - some of these styles need to be removed: hardcoded these into the base16-builder template because base16 does not support alpha channels */
 .cm-s-duotone-darkcave-cm .CodeMirror-cursor { border-left: 1px solid hsla(0, 100%, 100%, 0.25); border-right: .5em solid hsla(0, 100%, 100%, 0.25); }
-.cm-s-duotone-darkcave-cm .CodeMirror-activeline-background { background: #353133; }
+.cm-s-duotone-darkcave-cm .CodeMirror-activeline-background { background: #2f2d2d; }
 .cm-s-duotone-darkcave-cm .cm-fat-cursor .CodeMirror-cursor { background: .5em solid hsla(0, 100%, 100%, 0.25); }
 
 /* default Dark */
@@ -61,7 +61,7 @@ CodeMirror template by Jan T. Sott (https://github.com/idleberg), adapted by Bra
 
 /* end cursor */
 
-.cm-s-duotone-darkcave-cm span.cm-comment { color: #786d71; }
+.cm-s-duotone-darkcave-cm span.cm-comment { color: #4b4446; }
 .cm-s-duotone-darkcave-cm span.cm-atom, .cm-s-duotone-darkcave-cm span.cm-number, .cm-s-duotone-darkcave-cm span.cm-keyword, .cm-s-duotone-darkcave-cm span.cm-variable, .cm-s-duotone-darkcave-cm span.cm-attribute, .cm-s-duotone-darkcave-cm span.cm-quote, .cm-s-duotone-darkcave-cm span.cm-hr, .cm-s-duotone-darkcave-cm span.cm-link { color: #ffee99; }
 
 .cm-s-duotone-darkcave-cm span.cm-property { color: #988189; }

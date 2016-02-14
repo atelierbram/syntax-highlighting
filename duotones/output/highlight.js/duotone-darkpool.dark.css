@@ -4,7 +4,7 @@
 
 /* Duotone-DarkPool Comment */
 .hljs-comment {
-  color: #6473b4;
+  color: #434b70;
 }
 
 /* Duotone-DarkPool Red */
@@ -21,7 +21,7 @@
 .css .hljs-id,
 .css .hljs-class,
 .css .hljs-pseudo {
-  color: #3c59dd;
+  color: #2945c2;
 }
 
 /* Duotone-DarkPool Orange */
@@ -31,13 +31,13 @@
 .hljs-literal,
 .hljs-params,
 .hljs-constant {
-  color: #db7070;
+  color: #ed5e87;
 }
 
 /* Duotone-DarkPool Yellow */
 .ruby .hljs-class .hljs-title,
 .css .hljs-rule .hljs-attribute {
-  color: #e58585;
+  color: #f4769a;
 }
 
 /* Duotone-DarkPool Green */
@@ -47,13 +47,13 @@
 .hljs-header,
 .ruby .hljs-symbol,
 .xml .hljs-cdata {
-  color: #bf8888;
+  color: #ad8590;
 }
 
 /* Duotone-DarkPool Aqua */
 .hljs-title,
 .css .hljs-hexcolor {
-  color: #f5bcbc;
+  color: #ffa8c1;
 }
 
 /* Duotone-DarkPool Blue */
@@ -65,36 +65,36 @@
 .perl .hljs-sub,
 .javascript .hljs-title,
 .coffeescript .hljs-title {
-  color: #eea0a0;
+  color: #f990ad;
 }
 
 /* Duotone-DarkPool Purple */
 .hljs-keyword,
 .javascript .hljs-function {
-  color: #5e79ed;
+  color: #4057bf;
 }
 
 .diff .hljs-deletion,
 .diff .hljs-addition {
-  color: #1d233f;
+  color: #181d34;
   display: inline-block;
   width: 100%;
 }
 .diff .hljs-deletion {
-  background-color: #3c59dd;
+  background-color: #2945c2;
 }
 .diff .hljs-addition {
-  background-color: #bf8888;
+  background-color: #ad8590;
 }
 .diff .hljs-change {
-  color: #eea0a0;
+  color: #f990ad;
 }
 
 .hljs {
   display: block;
   overflow-x: auto;
-  background: #1d233f;
-  color: #7189f4;
+  background: #181d34;
+  color: #4e62bc;
   padding: 0.5em;
   -webkit-text-size-adjust: none;
 }

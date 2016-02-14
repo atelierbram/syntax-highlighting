@@ -4,7 +4,7 @@
 
 /* Duotone-DarkHeath Comment */
 .hljs-comment {
-  color: #5e545f;
+  color: #584f59;
 }
 
 /* Duotone-DarkHeath Red */
@@ -76,7 +76,7 @@
 
 .diff .hljs-deletion,
 .diff .hljs-addition {
-  color: #272527;
+  color: #222022;
   display: inline-block;
   width: 100%;
 }
@@ -93,7 +93,7 @@
 .hljs {
   display: block;
   overflow-x: auto;
-  background: #272527;
+  background: #222022;
   color: #968198;
   padding: 0.5em;
   -webkit-text-size-adjust: none;

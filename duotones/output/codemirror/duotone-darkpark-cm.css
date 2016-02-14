@@ -5,14 +5,14 @@ Author:     adapted from: Simurai (https://github.com/simurai/duotone-dark-synta
 CodeMirror template by Jan T. Sott (https://github.com/idleberg), adapted by Bram de Haan (https://github.com/atelierbram/)
 */
 
-.cm-s-duotone-darkpark-cm.CodeMirror { background: #242927; color: #687d78; }
-.cm-s-duotone-darkpark-cm div.CodeMirror-selected { background: #343c3a !important; }
-.cm-s-duotone-darkpark-cm .CodeMirror-gutters { background: #242927; border-right: 0px; }
-.cm-s-duotone-darkpark-cm .CodeMirror-linenumber { color: #52605d; }
+.cm-s-duotone-darkpark-cm.CodeMirror { background: #1c2624; color: #3f504c; }
+.cm-s-duotone-darkpark-cm div.CodeMirror-selected { background: #273431 !important; }
+.cm-s-duotone-darkpark-cm .CodeMirror-gutters { background: #1c2624; border-right: 0px; }
+.cm-s-duotone-darkpark-cm .CodeMirror-linenumber { color: #33423e; }
 
 /* Cursor - some of these styles need to be removed: hardcoded these into the base16-builder template because base16 does not support alpha channels */
 .cm-s-duotone-darkpark-cm .CodeMirror-cursor { border-left: 1px solid hsla(0, 100%, 100%, 0.25); border-right: .5em solid hsla(0, 100%, 100%, 0.25); }
-.cm-s-duotone-darkpark-cm .CodeMirror-activeline-background { background: #343c3a; }
+.cm-s-duotone-darkpark-cm .CodeMirror-activeline-background { background: #273431; }
 .cm-s-duotone-darkpark-cm .cm-fat-cursor .CodeMirror-cursor { background: .5em solid hsla(0, 100%, 100%, 0.25); }
 
 /* default Dark */
@@ -61,10 +61,10 @@ CodeMirror template by Jan T. Sott (https://github.com/idleberg), adapted by Bra
 
 /* end cursor */
 
-.cm-s-duotone-darkpark-cm span.cm-comment { color: #687d78; }
+.cm-s-duotone-darkpark-cm span.cm-comment { color: #3f504c; }
 .cm-s-duotone-darkpark-cm span.cm-atom, .cm-s-duotone-darkpark-cm span.cm-number, .cm-s-duotone-darkpark-cm span.cm-keyword, .cm-s-duotone-darkpark-cm span.cm-variable, .cm-s-duotone-darkpark-cm span.cm-attribute, .cm-s-duotone-darkpark-cm span.cm-quote, .cm-s-duotone-darkpark-cm span.cm-hr, .cm-s-duotone-darkpark-cm span.cm-link { color: #66e6ff; }
 
-.cm-s-duotone-darkpark-cm span.cm-property { color: #62847b; }
+.cm-s-duotone-darkpark-cm span.cm-property { color: #5c8a7e; }
 .cm-s-duotone-darkpark-cm span.cm-punctuation, .cm-s-duotone-darkpark-cm span.cm-unit, .cm-s-duotone-darkpark-cm span.cm-negative { color: #0fa0bd; }
 .cm-s-duotone-darkpark-cm span.cm-string { color: #38dafa; }
 .cm-s-duotone-darkpark-cm span.cm-operator { color: #0dccf2; }

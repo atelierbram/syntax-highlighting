@@ -239,7 +239,7 @@ h3 {
 .nav-open .nav_toggle {
 
   @media (max-width: 1330px) {
-    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='48' height='36' viewBox='0 0 48 36' fill='rgb(255,255,255)'%3E%3Cpath d='M25.261,17.018l4.571,4.572l-1.367,1.297l-4.501-4.573L19.5,22.887l-1.332-1.297l4.5-4.572l-4.5-4.572l1.332-1.332 l4.464,4.608l4.501-4.608l1.367,1.332L25.261,17.018z'/%3E%3C/svg%3E"); 
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='48' height='36' viewBox='0 0 48 36' fill='rgb(255,255,255)'%3E%3Cpath d='M25.261,17.018l4.571,4.572l-1.367,1.297l-4.501-4.573L19.5,22.887l-1.332-1.297l4.5-4.572l-4.5-4.572l1.332-1.332 l4.464,4.608l4.501-4.608l1.367,1.332L25.261,17.018z'/%3E%3C/svg%3E");
   }
 }
 
@@ -358,6 +358,7 @@ h3 {
 }
 
 // webkit custom scrollbars for dark background (... mostly for horizontal on smaller screens)
+// https://css-tricks.com/custom-scrollbars-in-webkit/
 ::-webkit-scrollbar-track {
   box-shadow: inset 0 0 6px rgba(black,0.3);
   border-radius: 2px;
@@ -379,6 +380,10 @@ h3 {
 
 ::-webkit-scrollbar-thumb:window-inactive {
   background-color: adjust-color($base00, $lightness: -5%);
+}
+
+::-webkit-scrollbar-corner {
+  background-color: $base00;
 }
 
 button {
@@ -426,6 +431,16 @@ button:active {
 button::-moz-focus-inner, input::-moz-focus-inner, button::-webkit-focus-inner, input::-webkit-focus-inner {
   border: 0;
   padding: 0;
+}
+
+.outer {
+  text-align: center;
+  background-color: $base00;
+  padding: 3em;
+}
+.inner {
+  background-color: transparentize($base09,.25);
+  min-height: 300px;
 }
 
 @media (min-width:750px) {

@@ -12,12 +12,12 @@ if !has('gui_running')
 endif
 
 " GUI color definitions
-let s:gui00 = "242927"
-let s:gui01 = "343c3a"
-let s:gui02 = "52605d"
-let s:gui03 = "687d78"
-let s:gui04 = "4f645f"
-let s:gui05 = "62847b"
+let s:gui00 = "1c2624"
+let s:gui01 = "273431"
+let s:gui02 = "33423e"
+let s:gui03 = "3f504c"
+let s:gui04 = "4b5d59"
+let s:gui05 = "5c8a7e"
 let s:gui06 = "4dffd2"
 let s:gui07 = "ebfffa"
 let s:gui08 = "008060"
@@ -26,7 +26,7 @@ let s:gui0A = "0dccf2"
 let s:gui0B = "5796a2"
 let s:gui0C = "66e6ff"
 let s:gui0D = "38dafa"
-let s:gui0E = "3a8874"
+let s:gui0E = "309179"
 let s:gui0F = "18866b"
 
 " Terminal color definitions
