@@ -31,13 +31,13 @@
 .hljs-literal,
 .hljs-params,
 .hljs-constant {
-  color: #975eed;
+  color: #a675f0;
 }
 
 /* Duotone-DarkLake Yellow */
 .ruby .hljs-class .hljs-title,
 .css .hljs-rule .hljs-attribute {
-  color: #a876f4;
+  color: #b184f5;
 }
 
 /* Duotone-DarkLake Green */
@@ -53,7 +53,7 @@
 /* Duotone-DarkLake Aqua */
 .hljs-title,
 .css .hljs-hexcolor {
-  color: #cba8ff;
+  color: #c8a3ff;
 }
 
 /* Duotone-DarkLake Blue */
@@ -65,7 +65,7 @@
 .perl .hljs-sub,
 .javascript .hljs-title,
 .coffeescript .hljs-title {
-  color: #ba90f9;
+  color: #bd94f9;
 }
 
 /* Duotone-DarkLake Purple */
@@ -87,7 +87,7 @@
   background-color: #8a78a5;
 }
 .diff .hljs-change {
-  color: #ba90f9;
+  color: #bd94f9;
 }
 
 .hljs {
