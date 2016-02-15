@@ -56,8 +56,8 @@ CodeMirror template by Jan T. Sott (https://github.com/idleberg), adapted by Bra
 .cm-s-duotone-darkpark-cm .cm-fat-cursor .CodeMirror-cursor { background: .5em solid hsla(190, 100%, 66%, 0.5); }
 
 /* DarkLake */
-.cm-s-duotone-darklake-cm .CodeMirror-cursor { border-left: 1px solid hsla(324, 100%, 66%, 0.5); border-right: .5em solid hsla(324, 100%, 66%, .5); }
-.cm-s-duotone-darklake-cm .cm-fat-cursor .CodeMirror-cursor { background: .5em solid hsla(324, 100%, 66%, 0.5); }
+.cm-s-duotone-darklake-cm .CodeMirror-cursor { border-left: 1px solid hsla(264, 100%, 66%, 0.5); border-right: .5em solid hsla(264, 100%, 66%, .5); }
+.cm-s-duotone-darklake-cm .cm-fat-cursor .CodeMirror-cursor { background: .5em solid hsla(264, 100%, 66%, 0.5); }
 
 /* DarkPool */
 .cm-s-duotone-darkpool-cm .CodeMirror-cursor { border-left: 1px solid hsla(343, 100%, 66%, 0.5); border-right: .5em solid hsla(343, 100%, 66%, .5); }
@@ -68,7 +68,7 @@ CodeMirror template by Jan T. Sott (https://github.com/idleberg), adapted by Bra
 .cm-s-duotone-darkheath-cm span.cm-comment { color: #655c66; }
 .cm-s-duotone-darkheath-cm span.cm-atom, .cm-s-duotone-darkheath-cm span.cm-number, .cm-s-duotone-darkheath-cm span.cm-keyword, .cm-s-duotone-darkheath-cm span.cm-variable, .cm-s-duotone-darkheath-cm span.cm-attribute, .cm-s-duotone-darkheath-cm span.cm-quote, .cm-s-duotone-darkheath-cm span.cm-hr, .cm-s-duotone-darkheath-cm span.cm-link { color: #ffd599; }
 
-.cm-s-duotone-darkheath-cm span.cm-property { color: #968198; }
+.cm-s-duotone-darkheath-cm span.cm-property { color: #997d9b; }
 .cm-s-duotone-darkheath-cm span.cm-punctuation, .cm-s-duotone-darkheath-cm span.cm-unit, .cm-s-duotone-darkheath-cm span.cm-negative { color: #d29a4b; }
 .cm-s-duotone-darkheath-cm span.cm-string { color: #f4c27c; }
 .cm-s-duotone-darkheath-cm span.cm-operator { color: #e5ae61; }
