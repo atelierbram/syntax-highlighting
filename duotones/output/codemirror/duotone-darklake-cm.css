@@ -5,10 +5,10 @@ Author:     adapted from: Simurai (https://github.com/simurai/duotone-dark-synta
 CodeMirror template by Jan T. Sott (https://github.com/idleberg), adapted by Bram de Haan (https://github.com/atelierbram/)
 */
 
-.cm-s-duotone-darklake-cm.CodeMirror { background: #182234; color: #374562; }
+.cm-s-duotone-darklake-cm.CodeMirror { background: #182234; color: #46587c; }
 .cm-s-duotone-darklake-cm div.CodeMirror-selected { background: #222d44 !important; }
 .cm-s-duotone-darklake-cm .CodeMirror-gutters { background: #182234; border-right: 0px; }
-.cm-s-duotone-darklake-cm .CodeMirror-linenumber { color: #2c3954; }
+.cm-s-duotone-darklake-cm .CodeMirror-linenumber { color: #3a4b6e; }
 
 /* Cursor - some of these styles need to be removed: hardcoded these into the base16-builder template because base16 does not support alpha channels */
 .cm-s-duotone-darklake-cm .CodeMirror-cursor { border-left: 1px solid hsla(0, 100%, 100%, 0.25); border-right: .5em solid hsla(0, 100%, 100%, 0.25); }
@@ -61,7 +61,7 @@ CodeMirror template by Jan T. Sott (https://github.com/idleberg), adapted by Bra
 
 /* end cursor */
 
-.cm-s-duotone-darklake-cm span.cm-comment { color: #374562; }
+.cm-s-duotone-darklake-cm span.cm-comment { color: #46587c; }
 .cm-s-duotone-darklake-cm span.cm-atom, .cm-s-duotone-darklake-cm span.cm-number, .cm-s-duotone-darklake-cm span.cm-keyword, .cm-s-duotone-darklake-cm span.cm-variable, .cm-s-duotone-darklake-cm span.cm-attribute, .cm-s-duotone-darklake-cm span.cm-quote, .cm-s-duotone-darklake-cm span.cm-hr, .cm-s-duotone-darklake-cm span.cm-link { color: #ffa8dc; }
 
 .cm-s-duotone-darklake-cm span.cm-property { color: #4e72bc; }

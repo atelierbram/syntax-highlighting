@@ -18,7 +18,7 @@
 
   /* a comment */
   .com {
-    color: #4a444b;
+    color: #655c66;
   }
 
   /* a type name */
@@ -121,7 +121,7 @@
 /* Style */
 pre.prettyprint {
   background: #222022;
-  color: #3d383d;
+  color: #575158;
   font-family: Consolas, Menlo, "Bitstream Vera Sans Mono", "DejaVu Sans Mono", Monaco, monospace;
   font-size: 12px;
   line-height: 1.5;

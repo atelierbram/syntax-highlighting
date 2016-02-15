@@ -14,9 +14,9 @@ endif
 " GUI color definitions
 let s:gui00 = "182234"
 let s:gui01 = "222d44"
-let s:gui02 = "2c3954"
-let s:gui03 = "374562"
-let s:gui04 = "435270"
+let s:gui02 = "3a4b6e"
+let s:gui03 = "46587c"
+let s:gui04 = "526589"
 let s:gui05 = "4e72bc"
 let s:gui06 = "a5c2fe"
 let s:gui07 = "e1ebff"
