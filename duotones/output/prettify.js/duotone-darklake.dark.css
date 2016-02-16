@@ -8,7 +8,7 @@
 @media screen {
   /* string content */
   .str {
-    color: #8a78a5;
+    color: #ba97a9;
   }
 
   /* a keyword */
@@ -23,12 +23,12 @@
 
   /* a type name */
   .typ {
-    color: #bd94f9;
+    color: #f994c9;
   }
 
   /* a literal value */
   .lit {
-    color: #a675f0;
+    color: #f075b5;
   }
 
   /* punctuation */
@@ -53,17 +53,17 @@
 
   /* a markup attribute name */
   .atn {
-    color: #a675f0;
+    color: #f075b5;
   }
 
   /* a markup attribute value */
   .atv {
-    color: #c8a3ff;
+    color: #ffa3d3;
   }
 
   /* a declaration */
   .dec {
-    color: #a675f0;
+    color: #f075b5;
   }
 
   /* a variable name */
@@ -73,7 +73,7 @@
 
   /* a function name */
   .fun {
-    color: #bd94f9;
+    color: #f994c9;
   }
 }
 /* Use higher contrast and text-weight for printable form. */

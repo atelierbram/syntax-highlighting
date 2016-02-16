@@ -66,19 +66,19 @@ CodeMirror template by Jan T. Sott (https://github.com/idleberg), adapted by Bra
 /* end cursor */
 
 .cm-s-duotone-darklake-cm span.cm-comment { color: #46587c; }
-.cm-s-duotone-darklake-cm span.cm-atom, .cm-s-duotone-darklake-cm span.cm-number, .cm-s-duotone-darklake-cm span.cm-keyword, .cm-s-duotone-darklake-cm span.cm-variable, .cm-s-duotone-darklake-cm span.cm-attribute, .cm-s-duotone-darklake-cm span.cm-quote, .cm-s-duotone-darklake-cm span.cm-hr, .cm-s-duotone-darklake-cm span.cm-link { color: #c8a3ff; }
+.cm-s-duotone-darklake-cm span.cm-atom, .cm-s-duotone-darklake-cm span.cm-number, .cm-s-duotone-darklake-cm span.cm-keyword, .cm-s-duotone-darklake-cm span.cm-variable, .cm-s-duotone-darklake-cm span.cm-attribute, .cm-s-duotone-darklake-cm span.cm-quote, .cm-s-duotone-darklake-cm span.cm-hr, .cm-s-duotone-darklake-cm span.cm-link { color: #ffa3d3; }
 
 .cm-s-duotone-darklake-cm span.cm-property { color: #4e72bc; }
-.cm-s-duotone-darklake-cm span.cm-punctuation, .cm-s-duotone-darklake-cm span.cm-unit, .cm-s-duotone-darklake-cm span.cm-negative { color: #a675f0; }
-.cm-s-duotone-darklake-cm span.cm-string { color: #bd94f9; }
-.cm-s-duotone-darklake-cm span.cm-operator { color: #b184f5; }
+.cm-s-duotone-darklake-cm span.cm-punctuation, .cm-s-duotone-darklake-cm span.cm-unit, .cm-s-duotone-darklake-cm span.cm-negative { color: #f075b5; }
+.cm-s-duotone-darklake-cm span.cm-string { color: #f994c9; }
+.cm-s-duotone-darklake-cm span.cm-operator { color: #f584bf; }
 .cm-s-duotone-darklake-cm span.cm-positive { color: #295cc2; }
 
 .cm-s-duotone-darklake-cm span.cm-variable-2, .cm-s-duotone-darklake-cm span.cm-variable-3, .cm-s-duotone-darklake-cm span.cm-bracket, .cm-s-duotone-darklake-cm span.cm-string-2, .cm-s-duotone-darklake-cm span.cm-url { color: #a5c2fe; }
 .cm-s-duotone-darklake-cm span.cm-def, .cm-s-duotone-darklake-cm span.cm-tag, .cm-s-duotone-darklake-cm span.cm-builtin, .cm-s-duotone-darklake-cm span.cm-qualifier, .cm-s-duotone-darklake-cm span.cm-header, .cm-s-duotone-darklake-cm span.cm-em { color: #e1ebff; }
 
 /* using #f00 red for errors, don't think any of the colorscheme variables will stand out enough, ... maybe by giving it a background-color ... */
-/* .cm-s-duotone-darklake-cm span.cm-error { background: #295cc2; color: #c8a3ff; } */
+/* .cm-s-duotone-darklake-cm span.cm-error { background: #295cc2; color: #ffa3d3; } */
 .cm-s-duotone-darklake-cm span.cm-error, .cm-s-duotone-darklake-cm span.cm-invalidchar { color: #f00; }
 
 .cm-s-duotone-darklake-cm span.cm-header { font-weight: normal; }
