@@ -68,17 +68,17 @@ CodeMirror template by Jan T. Sott (https://github.com/idleberg), adapted by Bra
 .cm-s-duotone-darkpool-cm span.cm-comment { color: #464b7c; }
 .cm-s-duotone-darkpool-cm span.cm-atom, .cm-s-duotone-darkpool-cm span.cm-number, .cm-s-duotone-darkpool-cm span.cm-keyword, .cm-s-duotone-darkpool-cm span.cm-variable, .cm-s-duotone-darkpool-cm span.cm-attribute, .cm-s-duotone-darkpool-cm span.cm-quote, .cm-s-duotone-darkpool-cm span.cm-hr, .cm-s-duotone-darkpool-cm span.cm-link { color: #ffa8c1; }
 
-.cm-s-duotone-darkpool-cm span.cm-property { color: #4e59bc; }
+.cm-s-duotone-darkpool-cm span.cm-property { color: #6771c5; }
 .cm-s-duotone-darkpool-cm span.cm-punctuation, .cm-s-duotone-darkpool-cm span.cm-unit, .cm-s-duotone-darkpool-cm span.cm-negative { color: #ed5e87; }
 .cm-s-duotone-darkpool-cm span.cm-string { color: #f990ad; }
 .cm-s-duotone-darkpool-cm span.cm-operator { color: #f4769a; }
-.cm-s-duotone-darkpool-cm span.cm-positive { color: #2938c2; }
+.cm-s-duotone-darkpool-cm span.cm-positive { color: #2d3dd2; }
 
 .cm-s-duotone-darkpool-cm span.cm-variable-2, .cm-s-duotone-darkpool-cm span.cm-variable-3, .cm-s-duotone-darkpool-cm span.cm-bracket, .cm-s-duotone-darkpool-cm span.cm-string-2, .cm-s-duotone-darkpool-cm span.cm-url { color: #a5adfe; }
 .cm-s-duotone-darkpool-cm span.cm-def, .cm-s-duotone-darkpool-cm span.cm-tag, .cm-s-duotone-darkpool-cm span.cm-builtin, .cm-s-duotone-darkpool-cm span.cm-qualifier, .cm-s-duotone-darkpool-cm span.cm-header, .cm-s-duotone-darkpool-cm span.cm-em { color: #e1e4ff; }
 
 /* using #f00 red for errors, don't think any of the colorscheme variables will stand out enough, ... maybe by giving it a background-color ... */
-/* .cm-s-duotone-darkpool-cm span.cm-error { background: #2938c2; color: #ffa8c1; } */
+/* .cm-s-duotone-darkpool-cm span.cm-error { background: #2d3dd2; color: #ffa8c1; } */
 .cm-s-duotone-darkpool-cm span.cm-error, .cm-s-duotone-darkpool-cm span.cm-invalidchar { color: #f00; }
 
 .cm-s-duotone-darkpool-cm span.cm-header { font-weight: normal; }
