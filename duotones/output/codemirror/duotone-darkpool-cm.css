@@ -5,14 +5,14 @@ Author:     adapted from: Simurai (https://github.com/simurai/duotone-dark-synta
 CodeMirror template by Jan T. Sott (https://github.com/idleberg), adapted by Bram de Haan (https://github.com/atelierbram/)
 */
 
-.cm-s-duotone-darkpool-cm.CodeMirror { background: #181b34; color: #464b7c; }
-.cm-s-duotone-darkpool-cm div.CodeMirror-selected { background: #222544 !important; }
-.cm-s-duotone-darkpool-cm .CodeMirror-gutters { background: #181b34; border-right: 0px; }
-.cm-s-duotone-darkpool-cm .CodeMirror-linenumber { color: #3a3f6e; }
+.cm-s-duotone-darkpool-cm.CodeMirror { background: #1e2138; color: #51557b; }
+.cm-s-duotone-darkpool-cm div.CodeMirror-selected { background: #292c47 !important; }
+.cm-s-duotone-darkpool-cm .CodeMirror-gutters { background: #1e2138; border-right: 0px; }
+.cm-s-duotone-darkpool-cm .CodeMirror-linenumber { color: #44486f; }
 
 /* Cursor - some of these styles need to be removed: hardcoded these into the base16-builder template because base16 does not support alpha channels */
 .cm-s-duotone-darkpool-cm .CodeMirror-cursor { border-left: 1px solid hsla(0, 100%, 100%, 0.25); border-right: .5em solid hsla(0, 100%, 100%, 0.25); }
-.cm-s-duotone-darkpool-cm .CodeMirror-activeline-background { background: #222544; }
+.cm-s-duotone-darkpool-cm .CodeMirror-activeline-background { background: #292c47; }
 .cm-s-duotone-darkpool-cm .cm-fat-cursor .CodeMirror-cursor { background: .5em solid hsla(0, 100%, 100%, 0.25); }
 
 /* default Dark */
@@ -65,7 +65,7 @@ CodeMirror template by Jan T. Sott (https://github.com/idleberg), adapted by Bra
 
 /* end cursor */
 
-.cm-s-duotone-darkpool-cm span.cm-comment { color: #464b7c; }
+.cm-s-duotone-darkpool-cm span.cm-comment { color: #51557b; }
 .cm-s-duotone-darkpool-cm span.cm-atom, .cm-s-duotone-darkpool-cm span.cm-number, .cm-s-duotone-darkpool-cm span.cm-keyword, .cm-s-duotone-darkpool-cm span.cm-variable, .cm-s-duotone-darkpool-cm span.cm-attribute, .cm-s-duotone-darkpool-cm span.cm-quote, .cm-s-duotone-darkpool-cm span.cm-hr, .cm-s-duotone-darkpool-cm span.cm-link { color: #ffa8c1; }
 
 .cm-s-duotone-darkpool-cm span.cm-property { color: #6771c5; }

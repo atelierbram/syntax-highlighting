@@ -4,7 +4,7 @@
 
 /* Duotone-DarkPool Comment */
 .hljs-comment {
-  color: #525889;
+  color: #51557b;
 }
 
 /* Duotone-DarkPool Red */
@@ -76,7 +76,7 @@
 
 .diff .hljs-deletion,
 .diff .hljs-addition {
-  color: #181b34;
+  color: #1e2138;
   display: inline-block;
   width: 100%;
 }
@@ -93,7 +93,7 @@
 .hljs {
   display: block;
   overflow-x: auto;
-  background: #181b34;
+  background: #1e2138;
   color: #6771c5;
   padding: 0.5em;
   -webkit-text-size-adjust: none;
