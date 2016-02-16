@@ -73,6 +73,11 @@ body {
   background-color: adjust-color($base00, $saturation: -5%, $lightness: -5%);
 }
 
+.bg-light,
+.bg-light body {
+  background-color: adjust-color($base06, $lightness: 10%);
+}
+
 body {
   margin: 0;
   font: 100%/1.5 AvenirNext-Regular, "Lucida Grande", "Segoe Ui", "Trebuchet Ms", sans-serif;
@@ -133,7 +138,17 @@ h3 {
 
 .header a:hover,
 .footer a:hover {
-  color: $base0C;
+  color: $base0D;
+}
+
+.bg-light .header a,
+.bg-light .footer a {
+  color: adjust-color($base0C, $lightness: 20%);
+}
+
+.bg-light .header a:hover,
+.bg-light .footer a:hover {
+  color: adjust-color($base0C, $saturation: 5%, $lightness: 10%);
 }
 
 .header h1 .small {
@@ -360,7 +375,7 @@ h3 {
 // webkit custom scrollbars for dark background (... mostly for horizontal on smaller screens)
 // https://css-tricks.com/custom-scrollbars-in-webkit/
 ::-webkit-scrollbar-track {
-  box-shadow: inset 0 0 6px rgba(black,0.3);
+  box-shadow: inset 0 0 6px rgba($base00,0.3);
   border-radius: 2px;
   background-color: adjust-color($base00, $lightness: 2.5%);
   // background-color: $base00;
@@ -384,6 +399,33 @@ h3 {
 
 ::-webkit-scrollbar-corner {
   background-color: $base00;
+}
+// light bg
+.bg-light ::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 6px rgba($base07,0.3);
+  border-radius: 2px;
+  background-color: adjust-color($base07, $lightness: 2.5%);
+  // background-color: $base07;
+}
+
+.bg-light ::-webkit-scrollbar {
+  width: .75em;
+  height: .75em;
+  background-color: adjust-color($base07, $lightness: -5%);
+}
+
+.bg-light ::-webkit-scrollbar-thumb {
+  border-radius: 2px;
+  box-shadow: inset 0 0 6px rgba(black,.3);
+  background-color: adjust-color($base07, $lightness: -2.5%);
+}
+
+.bg-light ::-webkit-scrollbar-thumb:window-inactive {
+  background-color: adjust-color($base07, $lightness: -5%);
+}
+
+.bg-light ::-webkit-scrollbar-corner {
+  background-color: $base07;
 }
 
 button {

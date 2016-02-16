@@ -6,7 +6,7 @@ CodeMirror template by Jan T. Sott (https://github.com/idleberg), adapted by Bra
 */
 
 .cm-s-duotone-darkearth-cm.CodeMirror { background: #322d29; color: #6a5f58; }
-.cm-s-duotone-darkearth-cm div.CodeMirror-selected { background: #3f3a37 !important; }
+.cm-s-duotone-darkearth-cm div.CodeMirror-selected { background: #5b534d !important; }
 .cm-s-duotone-darkearth-cm .CodeMirror-gutters { background: #322d29; border-right: 0px; }
 .cm-s-duotone-darkearth-cm .CodeMirror-linenumber { color: #5b534d; }
 
@@ -64,8 +64,6 @@ CodeMirror template by Jan T. Sott (https://github.com/idleberg), adapted by Bra
 .cm-s-duotone-darkpool-cm .cm-fat-cursor .CodeMirror-cursor { background: .5em solid hsla(343, 100%, 66%, 0.5); }
 
 /* end cursor */
-
-.cm-s-duotone-darkearth-cm span.cm-comment { color: #6a5f58; }
 .cm-s-duotone-darkearth-cm span.cm-atom, .cm-s-duotone-darkearth-cm span.cm-number, .cm-s-duotone-darkearth-cm span.cm-keyword, .cm-s-duotone-darkearth-cm span.cm-variable, .cm-s-duotone-darkearth-cm span.cm-attribute, .cm-s-duotone-darkearth-cm span.cm-quote, .cm-s-duotone-darkearth-cm span.cm-hr, .cm-s-duotone-darkearth-cm span.cm-link { color: #fcc440; }
 
 .cm-s-duotone-darkearth-cm span.cm-property { color: #88786d; }
@@ -74,9 +72,9 @@ CodeMirror template by Jan T. Sott (https://github.com/idleberg), adapted by Bra
 .cm-s-duotone-darkearth-cm span.cm-operator { color: #ccad66; }
 .cm-s-duotone-darkearth-cm span.cm-positive { color: #da8952; }
 
-.cm-s-duotone-darkearth-cm span.cm-variable-2, .cm-s-duotone-darkearth-cm span.cm-variable-3, .cm-s-duotone-darkearth-cm span.cm-bracket, .cm-s-duotone-darkearth-cm span.cm-string-2, .cm-s-duotone-darkearth-cm span.cm-url { color: #a48774; }
+.cm-s-duotone-darkearth-cm span.cm-variable-2, .cm-s-duotone-darkearth-cm span.cm-variable-3, .cm-s-duotone-darkearth-cm span.cm-string-2, .cm-s-duotone-darkearth-cm span.cm-url { color: #da8952; }
 .cm-s-duotone-darkearth-cm span.cm-def, .cm-s-duotone-darkearth-cm span.cm-tag, .cm-s-duotone-darkearth-cm span.cm-builtin, .cm-s-duotone-darkearth-cm span.cm-qualifier, .cm-s-duotone-darkearth-cm span.cm-header, .cm-s-duotone-darkearth-cm span.cm-em { color: #fff3eb; }
-
+.cm-s-duotone-darkearth-cm span.cm-bracket, .cm-s-duotone-darkearth-cm span.cm-comment { color: #6a5f58; }
 /* using #f00 red for errors, don't think any of the colorscheme variables will stand out enough, ... maybe by giving it a background-color ... */
 /* .cm-s-duotone-darkearth-cm span.cm-error { background: #da8952; color: #fcc440; } */
 .cm-s-duotone-darkearth-cm span.cm-error, .cm-s-duotone-darkearth-cm span.cm-invalidchar { color: #f00; }

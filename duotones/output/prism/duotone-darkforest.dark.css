@@ -42,7 +42,7 @@ pre[class*="language-"]::selection, pre[class*="language-"] ::selection,
 code[class*="language-"]::selection, code[class*="language-"] ::selection {
   text-shadow: none;
   background: #5e6e5e;
-} 
+}
 
 /* Code blocks */
 pre[class*="language-"] {
@@ -71,11 +71,12 @@ pre[class*="language-"] {
 
 .token.tag,
 .token.operator,
-.token.boolean,
+
 .token.number {
   color: #a2b34d;
 }
-.token.property {
+.token.property,
+.token.function {
   color: #687d68;
 }
 
@@ -92,13 +93,14 @@ code.language-javascript,
 
 code.language-css,
 code.language-scss,
+.token.boolean,
 .token.string,
 .token.entity,
 .token.url,
 .language-css .token.string,
 .language-scss .token.string,
 .style .token.string,
-.token.attr-value, 
+.token.attr-value,
 .token.keyword,
 .token.control,
 .token.directive,

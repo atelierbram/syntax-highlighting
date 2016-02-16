@@ -6,7 +6,7 @@ CodeMirror template by Jan T. Sott (https://github.com/idleberg), adapted by Bra
 */
 
 .cm-s-duotone-darkmeadow-cm.CodeMirror { background: #1c2626; color: #556c6d; }
-.cm-s-duotone-darkmeadow-cm div.CodeMirror-selected { background: #273434 !important; }
+.cm-s-duotone-darkmeadow-cm div.CodeMirror-selected { background: #495e5f !important; }
 .cm-s-duotone-darkmeadow-cm .CodeMirror-gutters { background: #1c2626; border-right: 0px; }
 .cm-s-duotone-darkmeadow-cm .CodeMirror-linenumber { color: #495e5f; }
 
@@ -64,8 +64,6 @@ CodeMirror template by Jan T. Sott (https://github.com/idleberg), adapted by Bra
 .cm-s-duotone-darkpool-cm .cm-fat-cursor .CodeMirror-cursor { background: .5em solid hsla(343, 100%, 66%, 0.5); }
 
 /* end cursor */
-
-.cm-s-duotone-darkmeadow-cm span.cm-comment { color: #556c6d; }
 .cm-s-duotone-darkmeadow-cm span.cm-atom, .cm-s-duotone-darkmeadow-cm span.cm-number, .cm-s-duotone-darkmeadow-cm span.cm-keyword, .cm-s-duotone-darkmeadow-cm span.cm-variable, .cm-s-duotone-darkmeadow-cm span.cm-attribute, .cm-s-duotone-darkmeadow-cm span.cm-quote, .cm-s-duotone-darkmeadow-cm span.cm-hr, .cm-s-duotone-darkmeadow-cm span.cm-link { color: #acf986; }
 
 .cm-s-duotone-darkmeadow-cm span.cm-property { color: #528c8e; }
@@ -74,9 +72,9 @@ CodeMirror template by Jan T. Sott (https://github.com/idleberg), adapted by Bra
 .cm-s-duotone-darkmeadow-cm span.cm-operator { color: #71dd3c; }
 .cm-s-duotone-darkmeadow-cm span.cm-positive { color: #207174; }
 
-.cm-s-duotone-darkmeadow-cm span.cm-variable-2, .cm-s-duotone-darkmeadow-cm span.cm-variable-3, .cm-s-duotone-darkmeadow-cm span.cm-bracket, .cm-s-duotone-darkmeadow-cm span.cm-string-2, .cm-s-duotone-darkmeadow-cm span.cm-url { color: #83f3f6; }
+.cm-s-duotone-darkmeadow-cm span.cm-variable-2, .cm-s-duotone-darkmeadow-cm span.cm-variable-3, .cm-s-duotone-darkmeadow-cm span.cm-string-2, .cm-s-duotone-darkmeadow-cm span.cm-url { color: #207174; }
 .cm-s-duotone-darkmeadow-cm span.cm-def, .cm-s-duotone-darkmeadow-cm span.cm-tag, .cm-s-duotone-darkmeadow-cm span.cm-builtin, .cm-s-duotone-darkmeadow-cm span.cm-qualifier, .cm-s-duotone-darkmeadow-cm span.cm-header, .cm-s-duotone-darkmeadow-cm span.cm-em { color: #e0feff; }
-
+.cm-s-duotone-darkmeadow-cm span.cm-bracket, .cm-s-duotone-darkmeadow-cm span.cm-comment { color: #556c6d; }
 /* using #f00 red for errors, don't think any of the colorscheme variables will stand out enough, ... maybe by giving it a background-color ... */
 /* .cm-s-duotone-darkmeadow-cm span.cm-error { background: #207174; color: #acf986; } */
 .cm-s-duotone-darkmeadow-cm span.cm-error, .cm-s-duotone-darkmeadow-cm span.cm-invalidchar { color: #f00; }

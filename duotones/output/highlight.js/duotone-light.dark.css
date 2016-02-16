@@ -1,0 +1,110 @@
+/* Base16 Duotone-Light Dark - Theme */
+/* by adapted from: Simurai (https://github.com/simurai/duotone-light-syntax/) */
+/* Original Base16 color scheme by Chris Kempson (https://github.com/chriskempson/base16) */
+
+/* Duotone-Light Comment */
+.hljs-comment {
+  color: #d1c2a3;
+}
+
+/* Duotone-Light Red */
+.hljs-variable,
+.hljs-attribute,
+.hljs-tag,
+.hljs-regexp,
+.hljs-name,
+.ruby .hljs-constant,
+.xml .hljs-tag .hljs-title,
+.xml .hljs-pi,
+.xml .hljs-doctype,
+.html .hljs-doctype,
+.css .hljs-id,
+.css .hljs-class,
+.css .hljs-pseudo {
+  color: #896724;
+}
+
+/* Duotone-Light Orange */
+.hljs-number,
+.hljs-preprocessor,
+.hljs-built_in,
+.hljs-literal,
+.hljs-params,
+.hljs-constant {
+  color: #063289;
+}
+
+/* Duotone-Light Yellow */
+.ruby .hljs-class .hljs-title,
+.css .hljs-rule .hljs-attribute {
+  color: #0e4ecd;
+}
+
+/* Duotone-Light Green */
+.hljs-string,
+.hljs-value,
+.hljs-inheritance,
+.hljs-header,
+.ruby .hljs-symbol,
+.xml .hljs-cdata {
+  color: #2d3443;
+}
+
+/* Duotone-Light Aqua */
+.hljs-title,
+.css .hljs-hexcolor {
+  color: #728fcb;
+}
+
+/* Duotone-Light Blue */
+.hljs-function,
+.python .hljs-decorator,
+.python .hljs-title,
+.ruby .hljs-function .hljs-title,
+.ruby .hljs-title .hljs-keyword,
+.perl .hljs-sub,
+.javascript .hljs-title,
+.coffeescript .hljs-title {
+  color: #1657da;
+}
+
+/* Duotone-Light Purple */
+.hljs-keyword,
+.javascript .hljs-function {
+  color: #ae8c47;
+}
+
+.diff .hljs-deletion,
+.diff .hljs-addition {
+  color: #2d2006;
+  display: inline-block;
+  width: 100%;
+}
+.diff .hljs-deletion {
+  background-color: #896724;
+}
+.diff .hljs-addition {
+  background-color: #2d3443;
+}
+.diff .hljs-change {
+  color: #1657da;
+}
+
+.hljs {
+  display: block;
+  overflow-x: auto;
+  background: #2d2006;
+  color: #b29762;
+  padding: 0.5em;
+  -webkit-text-size-adjust: none;
+}
+
+.coffeescript .javascript,
+.javascript .xml,
+.tex .hljs-formula,
+.xml .javascript,
+.xml .vbscript,
+.xml .css,
+.xml .hljs-cdata {
+  opacity: 0.5;
+}
