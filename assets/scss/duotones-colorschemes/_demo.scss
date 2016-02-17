@@ -108,6 +108,12 @@ h3 {
   color: $base07;
 }
 
+.bg-light .header,
+.bg-light .footer,
+.bg-light .nav_list a {
+  background: $base0F;
+}
+
 .header,
 .footer {
   padding: .5em 0;
@@ -116,10 +122,15 @@ h3 {
   text-shadow: $base00 1px 1px 1px;
 }
 
+
 .header {
   border-bottom: 2px solid $base02;
   letter-spacing: 1px;
   word-spacing: -1px;
+}
+
+.bg-light .header {
+  border-bottom-color: $base0F;
 }
 
 .footer {
@@ -220,6 +231,21 @@ h3 {
   }
 }
 
+.bg-light .nav_list a {
+  // border-top-color: adjust-color($base04, $lightness: 10%);
+  border-top-color: $base05;
+  border-bottom-color: $base08;
+  &:hover {
+  background: $base08;
+  }
+
+  @media (min-width: 1330px) {
+    border: none;
+    border-bottom-right-radius: 3px;
+    border-bottom-left-radius: 3px;
+  }
+}
+
 .nav_list .current a {
   pointer-events: none;
   cursor: default;
@@ -233,6 +259,12 @@ h3 {
 .nav_list .current a,
 .nav_toggle {
   background-color: $base01;
+}
+
+.bg-light .nav_list .current a,
+.bg-light .nav_toggle {
+  background-color: adjust-color($base05, $lightness: 5%);
+  color: $base0A;
 }
 
 .nav_toggle {
