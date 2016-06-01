@@ -34,13 +34,13 @@ pre[class*="language-"] {
 pre[class*="language-"]::-moz-selection, pre[class*="language-"] ::-moz-selection,
 code[class*="language-"]::-moz-selection, code[class*="language-"] ::-moz-selection {
   text-shadow: none;
-  background: #<%= @base["06"]["hex"] %>;
+  background: #<%= @base["03"]["hex"] %>;
 }
 
 pre[class*="language-"]::selection, pre[class*="language-"] ::selection,
 code[class*="language-"]::selection, code[class*="language-"] ::selection {
   text-shadow: none;
-  background: #<%= @base["06"]["hex"] %>;
+  background: #<%= @base["03"]["hex"] %>;
 }
 
 /* Code blocks */
@@ -61,7 +61,7 @@ pre[class*="language-"] {
 .token.prolog,
 .token.doctype,
 .token.cdata {
-  color: #<%= @base["06"]["hex"] %>;
+  color: #<%= @base["03"]["hex"] %>;
 }
 
 .token.namespace {
@@ -76,7 +76,7 @@ pre[class*="language-"] {
 }
 .token.property,
 .token.function {
-  color: #<%= @base["05"]["hex"] %>;
+  color: #<%= @base["02"]["hex"] %>;
 }
 
 .token.tag-id,
@@ -87,7 +87,7 @@ pre[class*="language-"] {
 
 code.language-javascript,
 .token.attr-name {
-  color: #<%= @base["08"]["hex"] %>;
+  color: #<%= @base["01"]["hex"] %>;
 }
 
 code.language-css,
@@ -136,7 +136,7 @@ code.language-scss {
 }
 
 .token.important {
-  color: #<%= @base["08"]["hex"] %>;
+  color: #<%= @base["01"]["hex"] %>;
 }
 
 .token.entity {
@@ -144,6 +144,6 @@ code.language-scss {
 }
 
 pre > code.highlight {
-  outline: .4em solid #<%= @base["08"]["hex"] %>;
+  outline: .4em solid #<%= @base["01"]["hex"] %>;
   outline-offset: .4em;
 }

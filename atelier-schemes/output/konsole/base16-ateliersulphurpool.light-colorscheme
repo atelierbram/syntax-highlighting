@@ -1,21 +1,21 @@
 
 [Background]
-Color=32,39,70
+Color=245,247,255
 
 [BackgroundIntense]
-Color=138,143,162
+Color=245,247,255
 
 [Color0] 
-Color=32,39,70
+Color=245,247,255
 
 [Color0Intense]
-Color=138,143,162
+Color=245,247,255
 
 [Color1] 
 Color=201,73,34
 
 [Color1Intense]
-Color=223,160,144
+Color=222,177,148
 
 [Color2] 
 Color=172,151,57
@@ -36,9 +36,9 @@ Color=61,143,209
 Color=153,195,232
 
 [Color5] 
-Color=102,121,204
+Color=156,99,122
 
-[Color5Intense]
+[Color5Intense] 
 Color=173,184,229
 
 [Color6] 
@@ -48,18 +48,18 @@ Color=34,162,201
 Color=139,204,228
 
 [Color7] 
-Color=151,157,180
+Color=94,102,135
 
-[Color7Intense]
-Color=198,202,217
+[Color7Intense] 
+Color=176,181,201
 
-[Foreground]
-Color=151,157,180
+[Foreground] 
+Color=32,39,70
 
-[ForegroundIntense]
-Color=198,202,217
+[ForegroundIntense]  
+Color=143,148,170
 
 [General]
-Description=Base16 Atelier Sulphurpool
+Description=Base16 Atelier Sulphurpool Light
 Opacity=1
 Wallpaper=

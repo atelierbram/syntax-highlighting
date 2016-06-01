@@ -4,7 +4,7 @@ Syntax Highlighting
 Collection of colorschemes.
 
 ## DuoTones
-Based on [DuoTone themes](http://simurai.com/projects/2016/01/01/duotone-themes/) by [Simurai](http://simurai.com/) for Atom.
+Based on [DuoTone themes](http://simurai.com/projects/2016/01/01/duotone-themes) by [Simurai](http://simurai.com/) for Atom.
 
 Go to [demopage](http://atelierbram.github.io/syntax-highlighting/duotones)
 

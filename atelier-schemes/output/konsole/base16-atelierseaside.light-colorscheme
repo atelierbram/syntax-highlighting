@@ -1,21 +1,21 @@
 
 [Background]
-Color=19,21,19
+Color=244,251,244
 
 [BackgroundIntense]
-Color=131,136,131
+Color=244,251,244
 
 [Color0] 
-Color=19,21,19
+Color=244,251,244
 
 [Color0Intense]
-Color=131,136,131
+Color=244,251,244
 
 [Color1] 
 Color=230,25,60
 
 [Color1Intense]
-Color=237,138,152
+Color=189,182,136
 
 [Color2] 
 Color=41,163,41
@@ -36,9 +36,9 @@ Color=61,98,245
 Color=152,174,244
 
 [Color5] 
-Color=173,43,238
+Color=230,25,195
 
-[Color5Intense]
+[Color5Intense] 
 Color=208,147,241
 
 [Color6] 
@@ -48,18 +48,18 @@ Color=25,153,179
 Color=134,202,211
 
 [Color7] 
-Color=140,166,140
+Color=94,110,94
 
-[Color7Intense]
-Color=192,208,192
+[Color7Intense] 
+Color=174,188,174
 
-[Foreground]
-Color=140,166,140
+[Foreground] 
+Color=19,21,19
 
-[ForegroundIntense]
-Color=192,208,192
+[ForegroundIntense]  
+Color=140,146,140
 
 [General]
-Description=Base16 Atelier Seaside
+Description=Base16 Atelier Seaside Light
 Opacity=1
 Wallpaper=
