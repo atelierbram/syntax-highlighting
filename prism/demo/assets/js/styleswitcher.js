@@ -35,7 +35,8 @@ function switchStyles(){
   document.body.className = className;
   localStorage.setItem("bodyClassName", className);
 
-  var linkTag = document.getElementsByTagName('link')[0],
+  // var linkTag = document.getElementsByTagName('link')[0],
+  var linkTag = document.getElementById('styleLink'),
       currentStylesheet = linkTag.href.replace(/^.*[\\\/]/, ''),
       newStylesheet = this.options[this.selectedIndex].value + '.css';
 

@@ -21,7 +21,6 @@ pre[class*="language-"] {
   -o-tab-size: 4;
   tab-size: 4;
   -webkit-hyphens: none;
-  -moz-hyphens: none;
   -ms-hyphens: none;
   hyphens: none;
   background: #2b2b2b;
@@ -149,4 +148,18 @@ pre[class*="language-"] {
 pre > code.highlight {
   outline: 0.4em solid #da4939;
   outline-offset: .4em;
+}
+
+.line-numbers .line-numbers-rows {
+  border-right-color: #272935 !important;
+}
+
+.line-numbers-rows > span:before {
+  color: #3a4055 !important;
+}
+
+.line-highlight {
+  background: rgba(249, 247, 243, 0.2) !important;
+  background: -webkit-linear-gradient(left, rgba(249, 247, 243, 0.2) 70%, rgba(249, 247, 243, 0)) !important;
+  background: linear-gradient(to right, rgba(249, 247, 243, 0.2) 70%, rgba(249, 247, 243, 0)) !important;
 }

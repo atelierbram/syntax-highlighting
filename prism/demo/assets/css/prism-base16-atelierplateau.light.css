@@ -1,7 +1,7 @@
 /*
 
-Name:       Base16 Atelier Sulpherpool Light
-Author:     Bram de Haan (http://atelierbram.github.io/syntax-highlighting/atelier-schemes/sulperpool)
+Name:       Base16 Atelier Plateau Light
+Author:     Bram de Haan (http://atelierbram.github.io/syntax-highlighting/atelier-schemes/plateau)
 
 Prism template by Bram de Haan (http://atelierbram.github.io/syntax-highlighting/prism/)
 Original Base16 color scheme by Chris Kempson (https://github.com/chriskempson/base16)
@@ -21,7 +21,6 @@ pre[class*="language-"] {
   -o-tab-size: 4;
   tab-size: 4;
   -webkit-hyphens: none;
-  -moz-hyphens: none;
   -ms-hyphens: none;
   hyphens: none;
   background: #f4ecec;
@@ -149,4 +148,18 @@ pre[class*="language-"] {
 pre > code.highlight {
   outline: 0.4em solid #ca4949;
   outline-offset: .4em;
+}
+
+.line-numbers .line-numbers-rows {
+  border-right-color: #e7dfdf !important;
+}
+
+.line-numbers-rows > span:before {
+  color: #8a8585 !important;
+}
+
+.line-highlight {
+  background: rgba(27, 24, 24, 0.2) !important;
+  background: -webkit-linear-gradient(left, rgba(27, 24, 24, 0.2) 70%, rgba(27, 24, 24, 0)) !important;
+  background: linear-gradient(to right, rgba(27, 24, 24, 0.2) 70%, rgba(27, 24, 24, 0)) !important;
 }
