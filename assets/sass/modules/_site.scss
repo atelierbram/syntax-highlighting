@@ -1,0 +1,48 @@
+.container {
+  margin: 0 auto;
+  max-width: 50em;
+}
+
+.tagline {
+  text-transform: uppercase;
+  font-size: .75em;
+  font-family: $wf-semibold;
+}
+
+.new-theme-svg {
+  width: 2.5em;
+  height: 1.25em;
+}
+
+.logo-avatar {
+  vertical-align: middle;
+}
+
+// footer a:hover .logo-avatar {
+//   width: 90px;
+//   height: 90px;
+// }
+
+.github-corner:hover svg[style] {
+  color: color(monochrome-bluesky-1) !important;
+}
+
+.note {
+  display: inline-block;
+  padding: 1em 1.5em;
+  margin: 1em 0 2em; 
+  background-color: color(monochrome-bluesky-4);
+  font-size: .875em;
+  border-radius: 3px;
+}
+
+.note-warning {
+  background-color: $red;
+  color: #fff;
+  letter-spacing: .75px;
+  word-spacing: -.75px;
+}
+
+.go-to-top {
+  float: right;
+}

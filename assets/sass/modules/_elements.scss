@@ -1,0 +1,406 @@
+*,
+::before,
+::after {
+  box-sizing: inherit;
+  // outline: 1px dotted salmon;
+}
+
+::before,
+::after {
+  text-decoration: inherit;
+  vertical-align: inherit;
+}
+
+// http://madebymike.com.au/writing/precise-control-responsive-typography/
+// http://codepen.io/MadeByMike/pen/YPJJYv?editors=110
+// These values are the minimum and maximum viewport sizes to apply the font scaling
+$min_width: 400;
+$max_width: 800;
+// These values represent the range of fon-tsize to apply
+// These values effect the base font-size, headings and other elements will scale proportionally
+$min_font: 12;
+$max_font: 24;
+
+:root { font-size: #{$min_font}px; }
+// This part is a little bit ugly, I will explain what is going on in a blog post soon.
+@media (min-width: #{$min_width}px) and (max-width: #{$max_width}px){
+  :root {
+    font-size: calc( #{$min_font}px + (#{$max_font} - #{$min_font}) * ( (100vw - #{$min_width}px) / ( #{$max_width} - #{$min_width}) ));
+  }
+}
+@media (min-width: #{$max_width}px){
+   :root {
+     font-size: #{$max_font}px;
+   }
+}
+
+html {
+  box-sizing: border-box;
+  cursor: default;
+  font-family: sans-serif;
+  line-height: 1.5;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+
+html,
+body {
+  background-color: color(monochrome-bluesky-1);
+  color: color(gray-20);
+  height: 100%;
+}
+
+.landingpage-base2tone,
+.page-base2tone,
+.page-base2tone .nav-site .current a {
+  background-color: #f1f1f9;
+}
+
+body {
+  margin: 0;
+  font: 100%/1.5 $bodytext;
+  min-height: 100%;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: subpixel-antialiased !important;
+}
+
+.wf-active body {
+  font-family: $wf-bodytext;
+}
+
+header {
+  position: relative;
+  z-index: 2;
+
+  @include mq($until: tablet) {
+    text-align: center;
+    padding: .5em 3em 0;
+  }
+
+  @include mq($from: tablet) {
+    background-image: linear-gradient(to bottom, $gray-dark, $gray-dark 50%, transparent 0, transparent);
+    height: 96px;
+  }
+
+}
+
+.repo-title svg {
+  @include mq($until: tablet) {
+    display: none;
+  }
+}
+
+.tagline {
+  color: $red;
+}
+
+.conditionallyhidden {
+  @include mq($from: tablet) {
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+  }
+}
+
+p {
+  margin: 0;
+  padding: .5em 0;
+}
+
+article p,
+blockquote,
+.svg-colortiles {
+  max-width: 30em;
+}
+
+.wf-active blockquote {
+  font-family: $wf-bodytext-italic;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  font-weight: normal;
+}
+
+h1 {
+  font-size: 3em;
+  margin: 0;
+  line-height: 1;
+  font-weight: normal;
+}
+
+.wf-active h1 {
+  font-family: $wf-header;
+}
+
+h2 {
+  font-size: 2.5em;
+  margin: 0 0 .5em;
+  color: color(red-14);
+}
+
+h3,
+h4 {
+  font-size: 2em;
+  margin: 1.5em 0 0;
+  color: color(monochrome-bluesky-18);
+}
+
+.wf-active h2,
+.wf-active h3 {
+  font-family: $wf-subheader;
+}
+
+h4 {
+  text-transform: uppercase;
+}
+
+.wf-active h4 {
+  font-family: $wf-semibold;
+  text-transform: uppercase;
+}
+
+code,
+pre {
+  font-family: $monospace;
+  font-size: .75rem;
+}
+
+.wf-active pre,
+.wf-active code {
+  font-family: $wf-monospace;
+}
+
+pre {
+  margin: 1rem 0 2rem;
+  padding: .25em 1.5em 1em;
+  white-space: pre;
+  word-wrap: normal;
+  overflow: auto;
+}
+
+article > pre {
+  background-color: color(monochrome-bluesky-18);
+  color: color(monochrome-bluesky-1);
+}
+
+pre code {
+  margin: 0;
+  padding: 0;
+  background-color: transparent;
+  border: none;
+  word-wrap: normal;
+  max-width: initial;
+  display: inline;
+  overflow: initial;
+  line-height: inherit;
+}
+
+pre code:before,
+pre code:after {
+  content: normal;
+}
+
+b,
+strong {
+  font-weight: inherit;
+  font-weight: bolder;
+}
+
+.wf-active b,
+.wf-active strong {
+  font-weight: normal;
+  font-family: $wf-semibold;
+}
+
+i,
+em {
+  font-style: italic
+}
+
+.wf-active i,
+.wf-active em {
+  font-style: normal;
+  font-weight: normal;
+  font-family: $wf-bodytext-italic;
+}
+
+.wf-active blockquote em,
+.wf-active blockquote b,
+.wf-active blockquote strong {
+  font-style: normal;
+  font-weight: normal;
+  font-family: $wf-semibolditalic;
+}
+
+small,
+.small {
+  font-size: 83.3333%;
+}
+
+sub,
+sup {
+  font-size: 83.3333%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+
+sub {
+  bottom: -.25em;
+}
+
+sup {
+  top: -.5em;
+}
+
+::-moz-selection {
+  background-color: adjust-color(color(bluesky-11),$lightness: 30%);
+  color: #000000;
+  text-shadow: none;
+}
+
+::selection {
+  background-color: adjust-color(color(bluesky-11),$lightness: 30%);
+  color: #000000;
+  text-shadow: none;
+}
+
+img,
+svg {
+  max-width: 100%;
+}
+
+img {
+  border-style: none;
+}
+
+svg {
+  fill: currentColor;
+}
+
+svg:not(:root) {
+  overflow: hidden;
+}
+
+a {
+  background-color: transparent;
+  color: color(bluesky-13);
+  text-decoration: none;
+  transition: all .3s;
+}
+
+article a,
+footer a {
+  box-shadow: inset 0 -.33em 0 transparent;
+}
+
+article a:hover,
+footer a:hover {
+  color: color(bluesky-16);
+  box-shadow: inset 0 -.33em 0 transparentize($blue,.5);
+}
+
+a,
+button {
+  -ms-touch-action: manipulation;
+  touch-action: manipulation;
+}
+
+article ul {
+  padding: 0 .5em;
+  margin: .5em 0 .5em -.45rem;
+}
+
+article ol ul {
+  padding-left: 1.5rem;
+}
+
+article ul li {
+  list-style: none;
+  position: relative;
+  margin-left: -.35em;
+  padding-left: .35em;
+}
+
+article p code,
+article ul code {
+  font-size: .875em;
+  margin: 0;
+  border: 1px solid #ddd;
+  background-color: #f8f8f8;
+  border-radius: 3px;
+  padding: 2px 0 0 0;
+}
+
+article p code:before,
+article p code:after,
+article ul code:before,
+article ul code:after {
+  content: "\00a0";
+  letter-spacing: -0.2em;
+}
+
+article ul li::before {
+  content: " \B7"; /* middot in unicode -> &middot; */
+  display: inline-block;
+  font-size: 1.25em;
+  line-height: 0;
+  vertical-align: middle;
+  position: relative;
+  top: -.1em;
+  padding-right: 3px;
+  color: color(lime-13);;
+}
+
+article ul ol,
+article ol ol {
+  margin: .5rem 0 1rem 1.45rem;
+}
+
+article ul li li {
+  margin-left: 0;
+}
+
+article ul ol li {
+  margin-left: -.75rem;
+}
+
+
+nav,
+footer {
+
+  @include mq($from: tablet) {
+    height: 3em;
+  }
+
+}
+
+footer {
+  text-align: center;
+  background-color: color(monochrome-bluesky-5);
+  padding: .5em;
+}
+
+main {
+  min-height: calc(100vh - 17em);
+  overflow: auto;
+  position: relative;
+  z-index: 1;
+  padding: 2em 3em;
+
+  @include mq($from: tablet) {
+    min-height: calc(100vh - 9.1em);
+  }
+
+  @include mq($from: xlwide) {
+    min-height: calc(100vh - 5.015em);
+  }
+}

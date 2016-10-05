@@ -1,0 +1,83 @@
+.nav-site {
+  display: flex;
+  justify-content: flex-end;
+  flex-direction: column;
+  padding: 1em 2em .5em 2em;
+  position: relative;
+  z-index: 3;
+  font-size: .875em;
+
+  @include mq($from: phablet) {
+  }
+
+  @include mq($from: tablet) {
+    font-size: .68em;
+  }
+
+  @include mq($from: xlwide) {
+    padding: 0;
+  }
+
+  @include mq($from: xlwide) {
+    margin-top: -5.894em !important;
+  }
+
+  ul {
+    display: flex;
+    flex-wrap: wrap;
+    line-height: 2;
+    list-style: none;
+    margin: 0;
+    justify-content: center;
+
+    @include mq($from: xlwide) {
+      justify-content: flex-end;
+    }
+
+    li {
+      letter-spacing: 1px;
+      margin-right: 1px;
+      white-space: nowrap;
+      min-height: 2em;
+
+      @include mq($until: xlwide) {
+        margin-right: .6em;
+        margin-bottom: .5em;
+      }
+    }
+
+    a {
+      padding: .4em 1em;
+      background-color: $yellow;
+      color: #fff;
+      transition: all .3s;
+      border-radius: 3px;
+
+      @include mq($from: xlwide) {
+        border-bottom-left-radius: 0;
+        border-bottom-right-radius: 0;
+      }
+
+      &:hover {
+        background-color: color(gold-12);
+      }
+    }
+
+  }
+
+  .current {
+    letter-spacing: 0;
+    a {
+      pointer-events: none;
+      cursor: pointer;
+    }
+  }
+
+}
+
+.nav-site .current a {
+  background-color: color(monochrome-bluesky-1);
+  color: color(gold-14);
+}
+
+

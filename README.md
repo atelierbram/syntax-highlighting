@@ -1,17 +1,18 @@
-Syntax Highlighting
-===================
+#[Syntax Highlighting](http://atelierbram.github.io/syntax-highlighting/)
 
 Collection of colorschemes.
 
-## DuoTones
+##[Base2Tone](http://atelierbram.github.io/syntax-highlighting/base2tone)
 Based on [DuoTone themes](http://simurai.com/projects/2016/01/01/duotone-themes) by [Simurai](http://simurai.com/) for Atom.
 
-Go to [demopage](http://atelierbram.github.io/syntax-highlighting/duotones)
+> “DuoTone themes use only 2 hues (7 shades in total). It **tones down** less important parts (like punctuation and brackets) and highlights only the **important** ones. This leads to a more calm color scheme, but still lets you find the stuff you’re looking for.”
 
-> “DuoTone themes use only 2 hues. This leads to a more calm color scheme, but still lets you find the stuff you're looking for.”
+Base2Tone has it’s own [dedicated repository](http://github.com/atelierbram/Base2Tone), and demopage on <http://base2t.one>.
 
-![DuoTones Dark theme](http://atelierbram.github.io/syntax-highlighting/assets/img/duotones-dark_sublime_960x640.png "DuoTones Dark theme")
-Screenshot of DuoTones Dark theme in SublimeText
+![Base2Tone](http://atelierbram.github.io/Base2Tone/assets/img/png/screenshot-prism_704x416.png "Screenshot Code Highlighting of Base2Tone Pool theme for Prism")
+<br/>
+Screenshot Code Syntax Highlighting with Prism and Base2Tone-Pool theme
+
 
 ## Atelier Schemes
 * [index - demopages](http://atelierbram.github.io/syntax-highlighting/atelier-schemes/)
@@ -42,20 +43,6 @@ Colorschemes for Prism [demopage](http://atelierbram.github.io/syntax-highlighti
 ![screenshot of styleswitcher for Prism themes](https://lh6.googleusercontent.com/-27KX3QAEzAc/Ug9O3QH1t2I/AAAAAAAAAlw/tdEU6foUIXM/s800/prism-styleswitcher_screenshot_546x364.png)
 
 screenshot of styleswitcher for Prism themes
-
-## Chrome DevTools
-
-Solarized Light theme [demopage](http://atelierbram.github.io/syntax-highlighting/chrome-devtools)
-
-![Screenshot of Chrome DevTools (undocked), themed with Solarized-Light](https://lh3.googleusercontent.com/-RBaou2IeYOw/Ug6SDCxgI0I/AAAAAAAAAlQ/0yR4Ugm2gGM/s800/screenshot_chrome-devtools_solarized-light_640x480.png)
-
-Screenshot of Chrome DevTools (undocked), themed with Solarized-Light
-
-## Colorscheme Lab
-
-![Screenshot of Colorscheme Lab, a Code Syntax Highlighter Builder](https://lh6.googleusercontent.com/-ZZiLu6PVYCc/UhT1RHORo3I/AAAAAAAAAnQ/bXsZ82HGwtI/s800/screenshot_colorscheme-lab_640x480.png)
-
-Screenshot of [Colorscheme Lab](http://atelierbram.github.io/syntax-highlighting/lab), a Code Syntax Highlighter Builder
 
 ## External
 * [Colorscheme Lab on CodePen](http://codepen.io/atelierbram/pen/JnbIt)

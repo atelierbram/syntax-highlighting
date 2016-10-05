@@ -1,0 +1,15 @@
+*{ box-sizing: inherit; }
+:root{ font-size: 12px; }
+@media (max-width: 800px) and (min-width: 400px){
+:root{ }
+}
+@media (min-width: 800px){
+:root{ font-size: 24px; }
+}
+html{ box-sizing: border-box; cursor: default; font-family: sans-serif; line-height: 1.5; }
+body, html{ background-color: rgb(244, 245, 246); color: rgb(20, 20, 20); height: 100%; }
+body{ margin: 0px; font-style: normal; font-variant: normal; font-weight: normal; font-size: 100%; line-height: 1.5; font-family: AvenirNext-Regular, Corbel, 'Lucida Grande', 'Trebuchet Ms', 'Segoe Ui', 'DejaVu Sans', sans-serif; min-height: 100%; text-rendering: optimizelegibility; -webkit-font-smoothing: subpixel-antialiased !important; }
+h1{ font-weight: 400; }
+h1, p{ margin: 0px; }
+p{ padding: 0.5em 0px; }
+h1{ font-size: 3em; line-height: 1; }

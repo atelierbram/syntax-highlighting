@@ -1,25 +1,33 @@
 .DS_Store
+node_modules/
+.sass-cache/
+*.css.map
+
 TODO.md
 NOTE.md
 
-schemes
-!/duotones/schemes
+archive/ 
+archive/atelier-schemes/templates
+archive/duotones/templates/*
 
-atelier-schemes/templates
+# schemes
+# !/duotones/schemes
 
-duotones/templates/*
-!duotones/templates/vim
-!duotones/templates/vim/*
-!duotones/templates/prism
-!duotones/templates/prism/*
-!duotones/templates/textmate
-!duotones/templates/textmate/*
-!duotones/output/textmate/textmate.zip
+# !duotones/templates/vim
+# !duotones/templates/vim/*
+# !duotones/templates/prism
+# !duotones/templates/prism/*
+# !duotones/templates/textmate
+# !duotones/templates/textmate/*
+# !duotones/output/textmate/textmate.zip
 
 .base16
 .prismbase16
 
+dist
 src
+assets/css/prefixed/
+assets/css/unprefixed/
 _
 _psd
 _vector
