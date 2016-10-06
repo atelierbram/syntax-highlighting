@@ -1,0 +1,22 @@
+Windows Registry Editor Version 5.00
+
+; Base16 Atelier Sulphurpool (https://github.com/chriskempson/base16)
+; Scheme: Bram de Haan (http://atelierbram.github.io/syntax-highlighting/atelier-schemes/sulphurpool)
+
+[HKEY_CURRENT_USER\Console]
+"ColorTable00"=dword:00462720
+"ColorTable01"=dword:00d18f3d
+"ColorTable02"=dword:003997ac
+"ColorTable03"=dword:00c9a222
+"ColorTable04"=dword:00296bc7
+"ColorTable05"=dword:00cc7966
+"ColorTable06"=dword:00308bc0
+"ColorTable07"=dword:00a48e89
+"ColorTable08"=dword:0094736b
+"ColorTable09"=dword:00d18f3d
+"ColorTable10"=dword:003997ac
+"ColorTable11"=dword:00c9a222
+"ColorTable12"=dword:002249c9
+"ColorTable13"=dword:007a639c
+"ColorTable14"=dword:00308bc0
+"ColorTable15"=dword:00fff7f5

@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<settings>
+	<console>
+		<colors>
+			<color id="0" r="23" g="28" b="25"/>
+			<color id="1" r="71" g="140" b="144"/>
+			<color id="2" r="72" g="153" b="99"/>
+			<color id="3" r="28" g="154" b="160"/>
+			<color id="4" r="177" g="97" b="57"/>
+			<color id="5" r="85" g="133" b="155"/>
+			<color id="6" r="160" g="126" b="59"/>
+			<color id="7" r="135" g="146" b="138"/>
+			<color id="8" r="95" g="109" b="100"/>
+			<color id="9" r="71" g="140" b="144"/>
+			<color id="10" r="72" g="153" b="99"/>
+			<color id="11" r="28" g="154" b="160"/>
+			<color id="12" r="177" g="97" b="57"/>
+			<color id="13" r="85" g="133" b="155"/>
+			<color id="14" r="160" g="126" b="59"/>
+			<color id="15" r="236" g="244" b="238"/>
+		</colors>
+	</console>
+</settings>

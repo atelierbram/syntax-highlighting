@@ -1,0 +1,23 @@
+/* Base16 Atelier Savanna
+Scheme: Bram de Haan (http://atelierbram.github.io/syntax-highlighting/atelier-schemes/savanna) */
+
+table.sourceCode, tr.sourceCode, td.sourceCode, table.sourceCode pre
+{ margin: 0; padding: 0; border: 0; vertical-align: baseline; border: none; background-color: #171c19; color: #87928a }
+td.nums { text-align: right; padding-right: 5px; padding-left: 5px; background-color: #232a25; }
+td.sourceCode { padding-left: 5px; }
+code.sourceCode { background-color: #171c19; }
+pre.sourceCode { background-color: #171c19; line-height: 125% }
+td.nums pre { background-color: #232a25; line-height: 125% }
+code.sourceCode span.kw { color: #478c90; font-weight: bold } /* Keyword */
+code.sourceCode span.dt { color: #55859b} /* Keyword.Type */
+code.sourceCode span.dv { color: #9f713c } /* Literal.Number.Integer */
+code.sourceCode span.bn { color: #9f713c } /* Literal.Number.Hex */
+code.sourceCode span.fl { color: #9f713c } /* Literal.Number.Float */
+code.sourceCode span.ch { color: #489963} /* Literal.String.Char */
+code.sourceCode span.st { color: #489963 } /* Literal.String */
+code.sourceCode span.co { color: #5f6d64 } /* Comment */
+code.sourceCode span.ot { color: #867469 } /* Comment.Preproc */
+code.sourceCode span.al { color: #55859b } /* Generic.Error */
+code.sourceCode span.fu { color: #a07e3b } /* Name.Function */
+code.sourceCode span.re { color: #1c9aa0}
+code.sourceCode span.er { color: #b16139; border: 1px solid #55859b } /* Error */

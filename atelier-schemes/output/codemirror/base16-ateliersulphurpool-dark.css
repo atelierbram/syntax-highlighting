@@ -1,0 +1,33 @@
+/*
+
+    Name:       Base16 Atelier Sulphurpool Dark
+    Author:     Bram de Haan (http://atelierbram.github.io/syntax-highlighting/atelier-schemes/sulphurpool)
+
+    CodeMirror template by Jan T. Sott (https://github.com/idleberg)
+    Original Base16 color scheme by Chris Kempson (https://github.com/chriskempson/base16)
+
+*/
+
+.cm-s-base16-ateliersulphurpool-dark.CodeMirror {background: #202746; color: #dfe2f1;}
+.cm-s-base16-ateliersulphurpool-dark div.CodeMirror-selected {background: #293256 !important;}
+.cm-s-base16-ateliersulphurpool-dark .CodeMirror-gutters {background: #202746; border-right: 0px;}
+.cm-s-base16-ateliersulphurpool-dark .CodeMirror-linenumber {color: #6b7394;}
+.cm-s-base16-ateliersulphurpool-dark .CodeMirror-cursor {border-left: 1px solid #898ea4 !important;}
+
+.cm-s-base16-ateliersulphurpool-dark span.cm-comment {color: #9c637a;}
+.cm-s-base16-ateliersulphurpool-dark span.cm-atom {color: #6679cc;}
+.cm-s-base16-ateliersulphurpool-dark span.cm-number {color: #6679cc;}
+
+.cm-s-base16-ateliersulphurpool-dark span.cm-property, .cm-s-base16-ateliersulphurpool-dark span.cm-attribute {color: #ac9739;}
+.cm-s-base16-ateliersulphurpool-dark span.cm-keyword {color: #c94922;}
+.cm-s-base16-ateliersulphurpool-dark span.cm-string {color: #c08b30;}
+
+.cm-s-base16-ateliersulphurpool-dark span.cm-variable {color: #ac9739;}
+.cm-s-base16-ateliersulphurpool-dark span.cm-variable-2 {color: #3d8fd1;}
+.cm-s-base16-ateliersulphurpool-dark span.cm-def {color: #c76b29;}
+.cm-s-base16-ateliersulphurpool-dark span.cm-error {background: #c94922; color: #898ea4;}
+.cm-s-base16-ateliersulphurpool-dark span.cm-bracket {color: #dfe2f1;}
+.cm-s-base16-ateliersulphurpool-dark span.cm-tag {color: #c94922;}
+.cm-s-base16-ateliersulphurpool-dark span.cm-link {color: #6679cc;}
+
+.cm-s-base16-ateliersulphurpool-dark .CodeMirror-matchingbracket { text-decoration: underline; color: white !important;}

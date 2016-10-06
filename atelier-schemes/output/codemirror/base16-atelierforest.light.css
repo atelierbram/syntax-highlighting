@@ -1,0 +1,33 @@
+/*
+
+    Name:       Base16 Atelier Forest Light
+    Author:     Bram de Haan (http://atelierbram.github.io/syntax-highlighting/atelier-schemes/forest)
+
+    CodeMirror template by Jan T. Sott (https://github.com/idleberg/base16-chrome-devtools)
+    Original Base16 color scheme by Chris Kempson (https://github.com/chriskempson/base16)
+
+*/
+
+.cm-s-base16-atelierforest-light.CodeMirror {background: #f1efee; color: #2c2421;}
+.cm-s-base16-atelierforest-light div.CodeMirror-selected {background: #e6e2e0 !important;}
+.cm-s-base16-atelierforest-light .CodeMirror-gutters {background: #f1efee; border-right: 0px;}
+.cm-s-base16-atelierforest-light .CodeMirror-linenumber {color: #9c9491;}
+.cm-s-base16-atelierforest-light .CodeMirror-cursor {border-left: 1px solid #766e6b !important;}
+
+.cm-s-base16-atelierforest-light span.cm-comment {color: #c33ff3;}
+.cm-s-base16-atelierforest-light span.cm-atom {color: #6666ea;}
+.cm-s-base16-atelierforest-light span.cm-number {color: #6666ea;}
+
+.cm-s-base16-atelierforest-light span.cm-property, .cm-s-base16-atelierforest-light span.cm-attribute {color: #5ab738;}
+.cm-s-base16-atelierforest-light span.cm-keyword {color: #f22c40;}
+.cm-s-base16-atelierforest-light span.cm-string {color: #d5911a;}
+
+.cm-s-base16-atelierforest-light span.cm-variable {color: #5ab738;}
+.cm-s-base16-atelierforest-light span.cm-variable-2 {color: #407ee7;}
+.cm-s-base16-atelierforest-light span.cm-def {color: #df5320;}
+.cm-s-base16-atelierforest-light span.cm-error {background: #f22c40; color: #766e6b;}
+.cm-s-base16-atelierforest-light span.cm-bracket {color: #2c2421;}
+.cm-s-base16-atelierforest-light span.cm-tag {color: #f22c40;}
+.cm-s-base16-atelierforest-light span.cm-link {color: #6666ea;}
+
+.cm-s-base16-atelierforest-light .CodeMirror-matchingbracket { text-decoration: underline; color: white !important;}

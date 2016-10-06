@@ -1,0 +1,29 @@
+# schema for konsole (KDE3)
+# put in ~/.kde/share/apps/konsole/
+
+title = Base16 Atelier Savanna
+
+
+#   slot    transparent bold
+#      | red grn blu  | |
+#      V V--color--V  V V
+color  0 135 146 138  0 0 # 0 - Foreground Color
+color  1  23  28  25  1 0 # 1 - Background Color
+color  2  23  28  25  0 0 # 2 - Color 0 (black)
+color  3 177  97  57  0 0 # 3 - Color 1 (red)
+color  4  72 153  99  0 0 # 3 - Color 2 (green)
+color  5 160 126  59  0 0 # 3 - Color 3 (yellow)
+color  6  71 140 144  0 0 # 3 - Color 4 (blue)
+color  7  85 133 155  0 0 # 3 - Color 5 (magenta)
+color  8  28 154 160  0 0 # 3 - Color 6 (cyan)
+color  9 135 146 138  0 0 # 3 - Color 7 (white)
+color 10 185 195 188  0 1 # 3 - Foreground Intensive Color
+color 11 129 136 131  1 0 # 3 - Background Intensive Color
+color 12 129 136 131  0 0 # 3 - Color 0 Intensive (grey)
+color 13 206 170 147  0 0 # 3 - Color 1 Intensive (light red)
+color 14 154 198 168  0 0 # 3 - Color 2 Intensive (light green)
+color 15 198 185 148  0 0 # 3 - Color 3 Intensive (light yellow)
+color 16 153 192 191  0 0 # 3 - Color 4 Intensive (light blue)
+color 17 160 188 196  0 0 # 3 - Color 5 Intensive (light magenta)
+color 18 132 199 199  0 0 # 3 - Color 6 Intensive (light cyan)
+color 19 185 195 188  0 0 # 3 - Color 7 Intensive (white)

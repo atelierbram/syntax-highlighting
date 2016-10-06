@@ -1,0 +1,23 @@
+/* Base16 Atelier Heath
+Scheme: Bram de Haan (http://atelierbram.github.io/syntax-highlighting/atelier-schemes/heath) */
+
+table.sourceCode, tr.sourceCode, td.sourceCode, table.sourceCode pre
+{ margin: 0; padding: 0; border: 0; vertical-align: baseline; border: none; background-color: #1b181b; color: #ab9bab }
+td.nums { text-align: right; padding-right: 5px; padding-left: 5px; background-color: #292329; }
+td.sourceCode { padding-left: 5px; }
+code.sourceCode { background-color: #1b181b; }
+pre.sourceCode { background-color: #1b181b; line-height: 125% }
+td.nums pre { background-color: #292329; line-height: 125% }
+code.sourceCode span.kw { color: #516aec; font-weight: bold } /* Keyword */
+code.sourceCode span.dt { color: #7b59c0} /* Keyword.Type */
+code.sourceCode span.dv { color: #a65926 } /* Literal.Number.Integer */
+code.sourceCode span.bn { color: #a65926 } /* Literal.Number.Hex */
+code.sourceCode span.fl { color: #a65926 } /* Literal.Number.Float */
+code.sourceCode span.ch { color: #918b3b} /* Literal.String.Char */
+code.sourceCode span.st { color: #918b3b } /* Literal.String */
+code.sourceCode span.co { color: #776977 } /* Comment */
+code.sourceCode span.ot { color: #cc33cc } /* Comment.Preproc */
+code.sourceCode span.al { color: #7b59c0 } /* Generic.Error */
+code.sourceCode span.fu { color: #bb8a35 } /* Name.Function */
+code.sourceCode span.re { color: #159393}
+code.sourceCode span.er { color: #ca402b; border: 1px solid #7b59c0 } /* Error */

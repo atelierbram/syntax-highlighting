@@ -1,0 +1,33 @@
+/*
+
+    Name:       Base16 Atelier Plateau Light
+    Author:     Bram de Haan (http://atelierbram.github.io/syntax-highlighting/atelier-schemes/plateau)
+
+    CodeMirror template by Jan T. Sott (https://github.com/idleberg)
+    Original Base16 color scheme by Chris Kempson (https://github.com/chriskempson/base16)
+
+*/
+
+.cm-s-base16-atelierplateau-light.CodeMirror {background: #f4ecec; color: #292424;}
+.cm-s-base16-atelierplateau-light div.CodeMirror-selected {background: #e7dfdf !important;}
+.cm-s-base16-atelierplateau-light .CodeMirror-gutters {background: #f4ecec; border-right: 0px;}
+.cm-s-base16-atelierplateau-light .CodeMirror-linenumber {color: #7e7777;}
+.cm-s-base16-atelierplateau-light .CodeMirror-cursor {border-left: 1px solid #655d5d !important;}
+
+.cm-s-base16-atelierplateau-light span.cm-comment {color: #bd5187;}
+.cm-s-base16-atelierplateau-light span.cm-atom {color: #8464c4;}
+.cm-s-base16-atelierplateau-light span.cm-number {color: #8464c4;}
+
+.cm-s-base16-atelierplateau-light span.cm-property, .cm-s-base16-atelierplateau-light span.cm-attribute {color: #4b8b8b;}
+.cm-s-base16-atelierplateau-light span.cm-keyword {color: #ca4949;}
+.cm-s-base16-atelierplateau-light span.cm-string {color: #a06e3b;}
+
+.cm-s-base16-atelierplateau-light span.cm-variable {color: #4b8b8b;}
+.cm-s-base16-atelierplateau-light span.cm-variable-2 {color: #7272ca;}
+.cm-s-base16-atelierplateau-light span.cm-def {color: #b45a3c;}
+.cm-s-base16-atelierplateau-light span.cm-error {background: #ca4949; color: #655d5d;}
+.cm-s-base16-atelierplateau-light span.cm-bracket {color: #292424;}
+.cm-s-base16-atelierplateau-light span.cm-tag {color: #ca4949;}
+.cm-s-base16-atelierplateau-light span.cm-link {color: #8464c4;}
+
+.cm-s-base16-atelierplateau-light .CodeMirror-matchingbracket { text-decoration: underline; color: white !important;}

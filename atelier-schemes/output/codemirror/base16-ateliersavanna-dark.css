@@ -1,0 +1,33 @@
+/*
+
+    Name:       Base16 Atelier Savanna Dark
+    Author:     Bram de Haan (http://atelierbram.github.io/syntax-highlighting/atelier-schemes/savanna)
+
+    CodeMirror template by Jan T. Sott (https://github.com/idleberg)
+    Original Base16 color scheme by Chris Kempson (https://github.com/chriskempson/base16)
+
+*/
+
+.cm-s-base16-ateliersavanna-dark.CodeMirror {background: #171c19; color: #dfe7e2;}
+.cm-s-base16-ateliersavanna-dark div.CodeMirror-selected {background: #232a25 !important;}
+.cm-s-base16-ateliersavanna-dark .CodeMirror-gutters {background: #171c19; border-right: 0px;}
+.cm-s-base16-ateliersavanna-dark .CodeMirror-linenumber {color: #5f6d64;}
+.cm-s-base16-ateliersavanna-dark .CodeMirror-cursor {border-left: 1px solid #78877d !important;}
+
+.cm-s-base16-ateliersavanna-dark span.cm-comment {color: #867469;}
+.cm-s-base16-ateliersavanna-dark span.cm-atom {color: #55859b;}
+.cm-s-base16-ateliersavanna-dark span.cm-number {color: #55859b;}
+
+.cm-s-base16-ateliersavanna-dark span.cm-property, .cm-s-base16-ateliersavanna-dark span.cm-attribute {color: #489963;}
+.cm-s-base16-ateliersavanna-dark span.cm-keyword {color: #b16139;}
+.cm-s-base16-ateliersavanna-dark span.cm-string {color: #a07e3b;}
+
+.cm-s-base16-ateliersavanna-dark span.cm-variable {color: #489963;}
+.cm-s-base16-ateliersavanna-dark span.cm-variable-2 {color: #478c90;}
+.cm-s-base16-ateliersavanna-dark span.cm-def {color: #9f713c;}
+.cm-s-base16-ateliersavanna-dark span.cm-error {background: #b16139; color: #78877d;}
+.cm-s-base16-ateliersavanna-dark span.cm-bracket {color: #dfe7e2;}
+.cm-s-base16-ateliersavanna-dark span.cm-tag {color: #b16139;}
+.cm-s-base16-ateliersavanna-dark span.cm-link {color: #55859b;}
+
+.cm-s-base16-ateliersavanna-dark .CodeMirror-matchingbracket { text-decoration: underline; color: white !important;}

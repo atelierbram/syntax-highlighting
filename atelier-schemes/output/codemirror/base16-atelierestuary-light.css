@@ -1,0 +1,33 @@
+/*
+
+    Name:       Base16 Atelier Estuary Light
+    Author:     Bram de Haan (http://atelierbram.github.io/syntax-highlighting/atelier-schemes/estuary)
+
+    CodeMirror template by Jan T. Sott (https://github.com/idleberg)
+    Original Base16 color scheme by Chris Kempson (https://github.com/chriskempson/base16)
+
+*/
+
+.cm-s-base16-atelierestuary-light.CodeMirror {background: #f4f3ec; color: #302f27;}
+.cm-s-base16-atelierestuary-light div.CodeMirror-selected {background: #e7e6df !important;}
+.cm-s-base16-atelierestuary-light .CodeMirror-gutters {background: #f4f3ec; border-right: 0px;}
+.cm-s-base16-atelierestuary-light .CodeMirror-linenumber {color: #878573;}
+.cm-s-base16-atelierestuary-light .CodeMirror-cursor {border-left: 1px solid #6c6b5a !important;}
+
+.cm-s-base16-atelierestuary-light span.cm-comment {color: #9d6c7c;}
+.cm-s-base16-atelierestuary-light span.cm-atom {color: #5f9182;}
+.cm-s-base16-atelierestuary-light span.cm-number {color: #5f9182;}
+
+.cm-s-base16-atelierestuary-light span.cm-property, .cm-s-base16-atelierestuary-light span.cm-attribute {color: #7d9726;}
+.cm-s-base16-atelierestuary-light span.cm-keyword {color: #ba6236;}
+.cm-s-base16-atelierestuary-light span.cm-string {color: #a5980d;}
+
+.cm-s-base16-atelierestuary-light span.cm-variable {color: #7d9726;}
+.cm-s-base16-atelierestuary-light span.cm-variable-2 {color: #36a166;}
+.cm-s-base16-atelierestuary-light span.cm-def {color: #ae7313;}
+.cm-s-base16-atelierestuary-light span.cm-error {background: #ba6236; color: #6c6b5a;}
+.cm-s-base16-atelierestuary-light span.cm-bracket {color: #302f27;}
+.cm-s-base16-atelierestuary-light span.cm-tag {color: #ba6236;}
+.cm-s-base16-atelierestuary-light span.cm-link {color: #5f9182;}
+
+.cm-s-base16-atelierestuary-light .CodeMirror-matchingbracket { text-decoration: underline; color: white !important;}

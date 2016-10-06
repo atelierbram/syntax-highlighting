@@ -1,0 +1,74 @@
+/*
+
+    Name:       Base16 Atelier Estuary Light
+    Author:     Bram de Haan (http://atelierbram.github.io/syntax-highlighting/atelier-schemes/estuary)
+
+    Pygments template by Jan T. Sott (https://github.com/idleberg)
+    Created with Base16 Builder by Chris Kempson (https://github.com/chriskempson/base16-builder)
+
+*/
+.syntax .hll { background-color: #e7e6df }
+.syntax  { background: #f4f3ec; color: #22221b }
+.syntax .c { color: #878573 } /* Comment */
+.syntax .err { color: #ba6236 } /* Error */
+.syntax .k { color: #5f9182 } /* Keyword */
+.syntax .l { color: #ae7313 } /* Literal */
+.syntax .n { color: #22221b } /* Name */
+.syntax .o { color: #5b9d48 } /* Operator */
+.syntax .p { color: #22221b } /* Punctuation */
+.syntax .cm { color: #878573 } /* Comment.Multiline */
+.syntax .cp { color: #878573 } /* Comment.Preproc */
+.syntax .c1 { color: #878573 } /* Comment.Single */
+.syntax .cs { color: #878573 } /* Comment.Special */
+.syntax .gd { color: #ba6236 } /* Generic.Deleted */
+.syntax .ge { font-style: italic } /* Generic.Emph */
+.syntax .gh { color: #22221b; font-weight: bold } /* Generic.Heading */
+.syntax .gi { color: #7d9726 } /* Generic.Inserted */
+.syntax .gp { color: #878573; font-weight: bold } /* Generic.Prompt */
+.syntax .gs { font-weight: bold } /* Generic.Strong */
+.syntax .gu { color: #5b9d48; font-weight: bold } /* Generic.Subheading */
+.syntax .kc { color: #5f9182 } /* Keyword.Constant */
+.syntax .kd { color: #5f9182 } /* Keyword.Declaration */
+.syntax .kn { color: #5b9d48 } /* Keyword.Namespace */
+.syntax .kp { color: #5f9182 } /* Keyword.Pseudo */
+.syntax .kr { color: #5f9182 } /* Keyword.Reserved */
+.syntax .kt { color: #a5980d } /* Keyword.Type */
+.syntax .ld { color: #7d9726 } /* Literal.Date */
+.syntax .m { color: #ae7313 } /* Literal.Number */
+.syntax .s { color: #7d9726 } /* Literal.String */
+.syntax .na { color: #36a166 } /* Name.Attribute */
+.syntax .nb { color: #22221b } /* Name.Builtin */
+.syntax .nc { color: #a5980d } /* Name.Class */
+.syntax .no { color: #ba6236 } /* Name.Constant */
+.syntax .nd { color: #5b9d48 } /* Name.Decorator */
+.syntax .ni { color: #22221b } /* Name.Entity */
+.syntax .ne { color: #ba6236 } /* Name.Exception */
+.syntax .nf { color: #36a166 } /* Name.Function */
+.syntax .nl { color: #22221b } /* Name.Label */
+.syntax .nn { color: #a5980d } /* Name.Namespace */
+.syntax .nx { color: #36a166 } /* Name.Other */
+.syntax .py { color: #22221b } /* Name.Property */
+.syntax .nt { color: #5b9d48 } /* Name.Tag */
+.syntax .nv { color: #ba6236 } /* Name.Variable */
+.syntax .ow { color: #5b9d48 } /* Operator.Word */
+.syntax .w { color: #22221b } /* Text.Whitespace */
+.syntax .mf { color: #ae7313 } /* Literal.Number.Float */
+.syntax .mh { color: #ae7313 } /* Literal.Number.Hex */
+.syntax .mi { color: #ae7313 } /* Literal.Number.Integer */
+.syntax .mo { color: #ae7313 } /* Literal.Number.Oct */
+.syntax .sb { color: #7d9726 } /* Literal.String.Backtick */
+.syntax .sc { color: #22221b } /* Literal.String.Char */
+.syntax .sd { color: #878573 } /* Literal.String.Doc */
+.syntax .s2 { color: #7d9726 } /* Literal.String.Double */
+.syntax .se { color: #ae7313 } /* Literal.String.Escape */
+.syntax .sh { color: #7d9726 } /* Literal.String.Heredoc */
+.syntax .si { color: #ae7313 } /* Literal.String.Interpol */
+.syntax .sx { color: #7d9726 } /* Literal.String.Other */
+.syntax .sr { color: #7d9726 } /* Literal.String.Regex */
+.syntax .s1 { color: #7d9726 } /* Literal.String.Single */
+.syntax .ss { color: #7d9726 } /* Literal.String.Symbol */
+.syntax .bp { color: #22221b } /* Name.Builtin.Pseudo */
+.syntax .vc { color: #ba6236 } /* Name.Variable.Class */
+.syntax .vg { color: #ba6236 } /* Name.Variable.Global */
+.syntax .vi { color: #ba6236 } /* Name.Variable.Instance */
+.syntax .il { color: #ae7313 } /* Literal.Number.Integer.Long */

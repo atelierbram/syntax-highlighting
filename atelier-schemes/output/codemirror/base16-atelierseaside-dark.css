@@ -1,0 +1,33 @@
+/*
+
+    Name:       Base16 Atelier Seaside Dark
+    Author:     Bram de Haan (http://atelierbram.github.io/syntax-highlighting/atelier-schemes/seaside/)
+
+    CodeMirror template by Jan T. Sott (https://github.com/idleberg)
+    Original Base16 color scheme by Chris Kempson (https://github.com/chriskempson/base16)
+
+*/
+
+.cm-s-base16-atelierseaside-dark.CodeMirror {background: #131513; color: #cfe8cf;}
+.cm-s-base16-atelierseaside-dark div.CodeMirror-selected {background: #242924 !important;}
+.cm-s-base16-atelierseaside-dark .CodeMirror-gutters {background: #131513; border-right: 0px;}
+.cm-s-base16-atelierseaside-dark .CodeMirror-linenumber {color: #687d68;}
+.cm-s-base16-atelierseaside-dark .CodeMirror-cursor {border-left: 1px solid #809980 !important;}
+
+.cm-s-base16-atelierseaside-dark span.cm-comment {color: #e619c3;}
+.cm-s-base16-atelierseaside-dark span.cm-atom {color: #ad2bee;}
+.cm-s-base16-atelierseaside-dark span.cm-number {color: #ad2bee;}
+
+.cm-s-base16-atelierseaside-dark span.cm-property, .cm-s-base16-atelierseaside-dark span.cm-attribute {color: #29a329;}
+.cm-s-base16-atelierseaside-dark span.cm-keyword {color: #e6193c;}
+.cm-s-base16-atelierseaside-dark span.cm-string {color: #98981b;}
+
+.cm-s-base16-atelierseaside-dark span.cm-variable {color: #29a329;}
+.cm-s-base16-atelierseaside-dark span.cm-variable-2 {color: #3d62f5;}
+.cm-s-base16-atelierseaside-dark span.cm-def {color: #87711d;}
+.cm-s-base16-atelierseaside-dark span.cm-error {background: #e6193c; color: #809980;}
+.cm-s-base16-atelierseaside-dark span.cm-bracket {color: #cfe8cf;}
+.cm-s-base16-atelierseaside-dark span.cm-tag {color: #e6193c;}
+.cm-s-base16-atelierseaside-dark span.cm-link {color: #ad2bee;}
+
+.cm-s-base16-atelierseaside-dark .CodeMirror-matchingbracket { text-decoration: underline; color: white !important;}

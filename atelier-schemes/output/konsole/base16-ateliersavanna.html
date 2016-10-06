@@ -1,0 +1,198 @@
+<html>
+  <head>
+    <meta http-equiv="content-type" content="text/html">
+    <title>Base16 Atelier Savanna</title>
+    <style type="text/css" media="screen">
+      body { margin: 5% 20%; }
+      .scheme, .author, pre, .block { font-family: "menlo", monospace; }
+  	  td, th { font-size: 13px; font-weight: bold; padding: 15px; margin: 0 5px 10px 0; }
+      th { text-align: center; }
+  	  pre {
+  	    font-size: 14px;
+  	    padding: 10px 20px;
+  	  }
+  	  
+      .base00-background { background-color: #171c19; }
+      .base01-background { background-color: #232a25; }
+      .base02-background { background-color: #526057; }
+      .base03-background { background-color: #5f6d64; }
+      .base04-background { background-color: #78877d; }
+      .base05-background { background-color: #87928a; }
+      .base06-background { background-color: #dfe7e2; }
+      .base07-background { background-color: #ecf4ee; }
+      .base08-background { background-color: #b16139; }
+      .base09-background { background-color: #9f713c; }
+      .base0A-background { background-color: #a07e3b; }
+      .base0B-background { background-color: #489963; }
+      .base0C-background { background-color: #1c9aa0; }
+      .base0D-background { background-color: #478c90; }
+      .base0E-background { background-color: #55859b; }
+      .base0F-background { background-color: #867469; }
+      
+      .base00 { color: #171c19; }
+      .base01 { color: #232a25; }
+      .base02 { color: #526057; }
+      .base03 { color: #5f6d64; }
+      .base04 { color: #78877d; }
+      .base05 { color: #87928a; }
+      .base06 { color: #dfe7e2; }
+      .base07 { color: #ecf4ee; }
+      .base08 { color: #b16139; }
+      .base09 { color: #9f713c; }
+      .base0A { color: #a07e3b; }
+      .base0B { color: #489963; }
+      .base0C { color: #1c9aa0; }
+      .base0D { color: #478c90; }
+      .base0E { color: #55859b; }
+      .base0F { color: #867469; }
+
+      .background { background-color: #171c19; }
+      .background-intense { background-color: #818883; }
+      .foreground { background-color: #87928a; }
+      .foreground-intense { background-color: #b9c3bc; }
+      .color0 { background-color: #171c19; }
+      .color0-intense { background-color: #818883; }
+      .color1 { background-color: #b16139; }
+      .color1-intense { background-color: #ceaa93; }
+      .color2 { background-color: #489963; }
+      .color2-intense { background-color: #9ac6a8; }
+      .color3 { background-color: #a07e3b; }
+      .color3-intense { background-color: #c6b994; }
+      .color4 { background-color: #478c90; }
+      .color4-intense { background-color: #99c0bf; }
+      .color5 { background-color: #55859b; }
+      .color5-intense { background-color: #a0bcc4; }
+      .color6 { background-color: #1c9aa0; }
+      .color6-intense { background-color: #84c7c7; }
+      .color7 { background-color: #87928a; }
+      .color7-intense { background-color: #b9c3bc; }
+    </style>
+  </head>
+  <body>
+    <h1 class="scheme">Base16 Atelier Savanna</h1>
+    <p class="author">Bram de Haan (http://atelierbram.github.io/syntax-highlighting/atelier-schemes/savanna)</p>
+    <table>
+      <tbody>
+        <tr>
+          <th>Name</th>
+          <th>Color</th>
+          <th>Intense</th>
+        </tr>
+        <tr>
+          <td>Foreground</td>
+          <td class='foreground'>&nbsp;</td>
+          <td class='foreground-intense'>&nbsp;</td>
+        </tr>
+        <tr>
+          <td>Background</td>
+          <td class='background'>&nbsp;</td>
+          <td class='background-intense'>&nbsp;</td>
+        </tr>
+        <tr>
+          <td>Color 0 (Black)</td>
+          <td class='color0'>&nbsp;</td>
+          <td class='color0-intense'>&nbsp;</td>
+        </tr>
+        <tr>
+          <td>Color 1 (Red)</td>
+          <td class='color1'>&nbsp;</td>
+          <td class='color1-intense'>&nbsp;</td>
+        </tr>
+        <tr>
+          <td>Color 2 (Green)</td>
+          <td class='color2'>&nbsp;</td>
+          <td class='color2-intense'>&nbsp;</td>
+        </tr>
+        <tr>
+          <td>Color 3 (Yellow)</td>
+          <td class='color3'>&nbsp;</td>
+          <td class='color3-intense'>&nbsp;</td>
+        </tr>
+        <tr>
+          <td>Color 4 (Blue)</td>
+          <td class='color4'>&nbsp;</td>
+          <td class='color4-intense'>&nbsp;</td>
+        </tr>
+        <tr>
+          <td>Color 5 (Magenta)</td>
+          <td class='color5'>&nbsp;</td>
+          <td class='color5-intense'>&nbsp;</td>
+        </tr>
+        <tr>
+          <td>Color 6 (Cyan)</td>
+          <td class='color6'>&nbsp;</td>
+          <td class='color6-intense'>&nbsp;</td>
+        </tr>
+        <tr>
+          <td>Color 7 (White)</td>
+          <td class='color7'>&nbsp;</td>
+          <td class='color7-intense'>&nbsp;</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <div>
+      <pre class="base00-background base05">
+<span class="base0E">require</span> <span class="base0B">"gem"</span>
+
+<span class="base08">string</span> = <span class="base0B">"base16"</span>
+<span class="base08">symbol</span> = <span class="base0B">:base16</span>
+<span class="base08">fixnum</span> = <span class="base09">0</span>
+<span class="base08">float</span>  = <span class="base09">0.00</span>
+<span class="base08">array</span>  = <span class="base0A">Array</span>.<span class="base0D">new</span>
+<span class="base08">array</span>  = [<span class="base0B">'chris'</span>, <span class="base09">85</span>]
+<span class="base08">hash</span>   = {<span class="base0B">"test"</span> => <span class="base0B">"test"</span>}
+<span class="base08">regexp</span> = <span class="base0C">/[abc]/</span>
+
+<span class="base03"># This is a comment</span>
+<span class="base0E">class</span> <span class="base0A">Person</span>
+  
+  <span class="base0D">attr_accessor</span> <span class="base0B">:name</span>
+  
+  <span class="base0E">def</span> <span class="base0D">initialize</span>(<span class="base08">attributes</span> = {})
+    <span class="base08">@name</span> = <span class="base08">attributes</span>[<span class="base0B">:name</span>]
+  <span class="base0E">end</span>
+  
+  <span class="base0E">def</span> <span class="base0E">self</span>.<span class="base0D">greet</span>
+    <span class="base02-background"><span class="base0B">"hello"</span></span>
+  <span class="base0E">end</span>
+<span class="base0E">end</span>
+
+<span class="base08">person1</span> = <span class="base0A">Person</span>.<span class="base0D">new</span>(<span class="base0B">:name</span> => <span class="base0B">"Chris"</span>)
+<span class="base0D">print</span> <span class="base0A">Person</span>::<span class="base0D">greet</span>, <span class="base0B">" "</span>, <span class="base08">person1</span>.<span class="base0D">name</span>, <span class="base0B">"<span class="base09">\n</span>"</span>
+<span class="base0D">puts</span> <span class="base0B">"another </span><span class="base0F">#{</span><span class="base0A">Person</span>::<span class="base0D">greet</span><span class="base0F">}</span> <span class="base0F">#{</span><span class="base08">person1</span>.<span class="base0D">name</span><span class="base0F">}</span><span class="base0B">"</span>
+      </pre>
+      
+      <pre class="base07-background base02">
+<span class="base0E">require</span> <span class="base0B">"rubygems"</span>
+
+<span class="base08">string</span> = <span class="base0B">"tomorrow"</span>
+<span class="base08">symbol</span> = <span class="base0B">:tomorrow</span>
+<span class="base08">fixnum</span> = <span class="base09">0</span>
+<span class="base08">float</span>  = <span class="base09">0.00</span>
+<span class="base08">array</span>  = <span class="base0A">Array</span>.<span class="base0D">new</span>
+<span class="base08">array</span>  = [<span class="base0B">'chris'</span>, <span class="base09">85</span>]
+<span class="base08">hash</span>   = {<span class="base0B">"test"</span> => <span class="base0B">"test"</span>}
+<span class="base08">regexp</span> = <span class="base0C">/[abc]/</span>
+
+<span class="base03"># This is a comment</span>
+<span class="base0E">class</span> <span class="base0A">Person</span>
+
+  <span class="base0D">attr_accessor</span> <span class="base0B">:name</span>
+
+  <span class="base0E">def</span> <span class="base0D">initialize</span>(<span class="base08">attributes</span> = {})
+    <span class="base08">@name</span> = <span class="base08">attributes</span>[<span class="base0B">:name</span>]
+  <span class="base0E">end</span>
+
+  <span class="base0E">def</span> <span class="base0E">self</span>.<span class="base0D">greet</span>
+    <span class="base06-background"><span class="base0B">"hello"</span></span>
+  <span class="base0E">end</span>
+<span class="base0E">end</span>
+
+<span class="base08">person1</span> = <span class="base0A">Person</span>.<span class="base0D">new</span>(<span class="base0B">:name</span> => <span class="base0B">"Chris"</span>)
+<span class="base0D">print</span> <span class="base0A">Person</span>::<span class="base0D">greet</span>, <span class="base0B">" "</span>, <span class="base08">person1</span>.<span class="base0D">name</span>, <span class="base0B">"<span class="base09">\n</span>"</span>
+<span class="base0D">puts</span> <span class="base0B">"another </span><span class="base0F">#{</span><span class="base0A">Person</span>::<span class="base0D">greet</span><span class="base0F">}</span> <span class="base0F">#{</span><span class="base08">person1</span>.<span class="base0D">name</span><span class="base0F">}</span><span class="base0B">"</span>
+      </pre>
+    </div>
+  </body>
+</html>

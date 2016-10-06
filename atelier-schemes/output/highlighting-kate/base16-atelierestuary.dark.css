@@ -1,0 +1,23 @@
+/* Base16 Atelier Estuary
+Scheme: Bram de Haan (http://atelierbram.github.io/syntax-highlighting/atelier-schemes/estuary) */
+
+table.sourceCode, tr.sourceCode, td.sourceCode, table.sourceCode pre
+{ margin: 0; padding: 0; border: 0; vertical-align: baseline; border: none; background-color: #22221b; color: #929181 }
+td.nums { text-align: right; padding-right: 5px; padding-left: 5px; background-color: #302f27; }
+td.sourceCode { padding-left: 5px; }
+code.sourceCode { background-color: #22221b; }
+pre.sourceCode { background-color: #22221b; line-height: 125% }
+td.nums pre { background-color: #302f27; line-height: 125% }
+code.sourceCode span.kw { color: #36a166; font-weight: bold } /* Keyword */
+code.sourceCode span.dt { color: #5f9182} /* Keyword.Type */
+code.sourceCode span.dv { color: #ae7313 } /* Literal.Number.Integer */
+code.sourceCode span.bn { color: #ae7313 } /* Literal.Number.Hex */
+code.sourceCode span.fl { color: #ae7313 } /* Literal.Number.Float */
+code.sourceCode span.ch { color: #7d9726} /* Literal.String.Char */
+code.sourceCode span.st { color: #7d9726 } /* Literal.String */
+code.sourceCode span.co { color: #6c6b5a } /* Comment */
+code.sourceCode span.ot { color: #9d6c7c } /* Comment.Preproc */
+code.sourceCode span.al { color: #5f9182 } /* Generic.Error */
+code.sourceCode span.fu { color: #a5980d } /* Name.Function */
+code.sourceCode span.re { color: #5b9d48}
+code.sourceCode span.er { color: #ba6236; border: 1px solid #5f9182 } /* Error */
