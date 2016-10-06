@@ -40,7 +40,7 @@ body {
 
 body {
   margin: 0;
-  font: 100%/1.5 AvenirNext-Regular, Corbel, "Lucida Grande", "Trebuchet Ms", "Segoe Ui", "DejaVu Sans", sans-serif;
+  font: 100%/1.4 AvenirNext-Regular, Corbel, "Lucida Grande", "Trebuchet Ms", "Segoe Ui", "DejaVu Sans", sans-serif;
   min-height: 100%;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: subpixel-antialiased !important; }
@@ -485,6 +485,9 @@ main {
   color: #fff;
   letter-spacing: .75px;
   word-spacing: -.75px; }
+
+.svg-colortiles {
+  margin: .75em 0 1em; }
 
 .go-to-top {
   float: right; }
