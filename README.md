@@ -9,10 +9,9 @@ Based on [DuoTone themes](http://simurai.com/projects/2016/01/01/duotone-themes)
 
 Base2Tone has it’s own [dedicated repository](http://github.com/atelierbram/Base2Tone), and demopage on <http://base2t.one>.
 
-![Base2Tone](http://atelierbram.github.io/Base2Tone/assets/img/png/screenshot-prism_704x416.png "Screenshot Code Highlighting of Base2Tone Pool theme for Prism")
+![Base2Tone](http://atelierbram.github.io/Base2Tone/assets/img/png/screenshot-prism_696x461.png "Screenshot Code Highlighting of Base2Tone Pool theme for Prism")
 <br/>
 Screenshot Code Syntax Highlighting with Prism and Base2Tone-Pool theme
-
 
 ## Atelier Schemes
 * [index - demopages](http://atelierbram.github.io/syntax-highlighting/atelier-schemes/)
