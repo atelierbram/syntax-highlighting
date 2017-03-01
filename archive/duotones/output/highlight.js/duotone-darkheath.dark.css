@@ -1,0 +1,110 @@
+/* Base16 Duotone-DarkHeath Dark - Theme */
+/* by adapted from: Simurai (https://github.com/simurai/duotone-dark-syntax/) */
+/* Original Base16 color scheme by Chris Kempson (https://github.com/chriskempson/base16) */
+
+/* Duotone-DarkHeath Comment */
+.hljs-comment {
+  color: #736774;
+}
+
+/* Duotone-DarkHeath Red */
+.hljs-variable,
+.hljs-attribute,
+.hljs-tag,
+.hljs-regexp,
+.hljs-name,
+.ruby .hljs-constant,
+.xml .hljs-tag .hljs-title,
+.xml .hljs-pi,
+.xml .hljs-doctype,
+.html .hljs-doctype,
+.css .hljs-id,
+.css .hljs-class,
+.css .hljs-pseudo {
+  color: #a021ab;
+}
+
+/* Duotone-DarkHeath Orange */
+.hljs-number,
+.hljs-preprocessor,
+.hljs-built_in,
+.hljs-literal,
+.hljs-params,
+.hljs-constant {
+  color: #d29a4b;
+}
+
+/* Duotone-DarkHeath Yellow */
+.ruby .hljs-class .hljs-title,
+.css .hljs-rule .hljs-attribute {
+  color: #e5ae61;
+}
+
+/* Duotone-DarkHeath Green */
+.hljs-string,
+.hljs-value,
+.hljs-inheritance,
+.hljs-header,
+.ruby .hljs-symbol,
+.xml .hljs-cdata {
+  color: #b9a17e;
+}
+
+/* Duotone-DarkHeath Aqua */
+.hljs-title,
+.css .hljs-hexcolor {
+  color: #ffd599;
+}
+
+/* Duotone-DarkHeath Blue */
+.hljs-function,
+.python .hljs-decorator,
+.python .hljs-title,
+.ruby .hljs-function .hljs-title,
+.ruby .hljs-title .hljs-keyword,
+.perl .hljs-sub,
+.javascript .hljs-title,
+.coffeescript .hljs-title {
+  color: #f4c27c;
+}
+
+/* Duotone-DarkHeath Purple */
+.hljs-keyword,
+.javascript .hljs-function {
+  color: #d11de2;
+}
+
+.diff .hljs-deletion,
+.diff .hljs-addition {
+  color: #222022;
+  display: inline-block;
+  width: 100%;
+}
+.diff .hljs-deletion {
+  background-color: #a021ab;
+}
+.diff .hljs-addition {
+  background-color: #b9a17e;
+}
+.diff .hljs-change {
+  color: #f4c27c;
+}
+
+.hljs {
+  display: block;
+  overflow-x: auto;
+  background: #222022;
+  color: #997d9b;
+  padding: 0.5em;
+  -webkit-text-size-adjust: none;
+}
+
+.coffeescript .javascript,
+.javascript .xml,
+.tex .hljs-formula,
+.xml .javascript,
+.xml .vbscript,
+.xml .css,
+.xml .hljs-cdata {
+  opacity: 0.5;
+}

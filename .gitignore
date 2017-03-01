@@ -6,21 +6,6 @@ node_modules/
 TODO.md
 NOTE.md
 
-archive/ 
-archive/atelier-schemes/templates
-archive/duotones/templates/*
-
-# schemes
-# !/duotones/schemes
-
-# !duotones/templates/vim
-# !duotones/templates/vim/*
-# !duotones/templates/prism
-# !duotones/templates/prism/*
-# !duotones/templates/textmate
-# !duotones/templates/textmate/*
-# !duotones/output/textmate/textmate.zip
-
 .base16
 .prismbase16
 

@@ -1,0 +1,74 @@
+<EditorStyle name="Base16 Atelier Sulphurpool Dark"
+             _description="Color schemes for hackers.">
+  <!--
+     - https://github.com/chriskempson/base16
+     - Scheme: Bram de Haan (http://atelierbram.github.io/syntax-highlighting/atelier-schemes/sulphurpool)
+     -->
+  <Color name="base00" value="#202746"/>
+  <Color name="base01" value="#293256"/>
+  <Color name="base02" value="#5e6687"/>
+  <Color name="base03" value="#6b7394"/>
+  <Color name="base04" value="#898ea4"/>
+  <Color name="base05" value="#979db4"/>
+  <Color name="base06" value="#dfe2f1"/>
+  <Color name="base07" value="#f5f7ff"/>
+  <Color name="base08" value="#c94922"/>
+  <Color name="base09" value="#c76b29"/>
+  <Color name="base0A" value="#c08b30"/>
+  <Color name="base0B" value="#ac9739"/>
+  <Color name="base0C" value="#22a2c9"/>
+  <Color name="base0D" value="#3d8fd1"/>
+  <Color name="base0E" value="#6679cc"/>
+  <Color name="base0F" value="#9c637a"/>
+
+  <!-- Text -->
+  <Style name="text" color="base05" bgColor="base00"/>
+  <Style name="text.background.readonly" color="base00"/>
+  <Style name="text.background.searchresult" color="base0F"/>
+  <Style name="text.background.searchresult-main" color="base09"/>
+  <Style name="text.preprocessor" color="base0C"/>
+  <Style name="text.selection" bgColor="base02"/>
+
+  <!-- Keywords -->
+  <Style name="keyword" color="base0E"/>
+  <Style name="keyword.access" color="base08" weight="Bold"/>
+  <Style name="keyword.exceptions" color="base08"/>
+  <Style name="keyword.jump" color="base08" weight="Bold"/>
+  <Style name="keyword.misc" color="base0A"/>
+  <Style name="keyword.operator" color="base08" weight="Bold"/>
+  <Style name="keyword.semantic.error" color="base07" bgColor="base08"/>
+  <Style name="keyword.semantic.field" color="base05"/>
+  <Style name="keyword.semantic.method" color="base05"/>
+  <Style name="keyword.semantic.property" color="base05"/>
+  <Style name="keyword.semantic.type" color="base0A"/>
+  <Style name="keyword.type" color="base0A"/>
+
+  <!-- Miscellaneous -->
+  <Style name="comment" color="base03"/>
+  <Style name="comment.keyword.todo" color="base0A" bgColor="base01"/>
+  <Style name="constant" color="base09"/>
+  <Style name="constant.language.void" color="base0A"/>
+  <Style name="iconbar" color="base01"/>
+  <Style name="iconbar.separator" color="base02"/>
+  <Style name="linenumber" color="base03" bgColor="base00"/>
+  <Style name="marker.bracket" color="base03" bgColor="base02"/>
+  <Style name="marker.line" color="base01"/>
+  <Style name="marker.ruler" color="base01"/>
+  <Style name="string" color="base0B"/>
+  <Style name="string.escape" color="base0F"/>
+  <Style name="tooltip" color="base03" bgColor="base01"/>
+  <Style name="tooltip.pager.text" color="base06"/>
+  <Style name="tooltip.pager.triangle" color="base06"/>
+  <Style name="xml" color="base05"/>
+  <Style name="xml.cdata" color="base0B"/>
+  <Style name="xml.name" color="base0D"/>
+  <Style name="xml.attribute" color="base0A"/>
+
+  <!-- Diff -->
+  <Style name="diff.header" color="base0D" weight="Bold"/>
+  <Style name="diff.header-newfile" color="base0B" weight="Bold"/>
+  <Style name="diff.header-oldfile" color="base08" weight="Bold"/>
+  <Style name="diff.line-added" color="base0B"/>
+  <Style name="diff.line-removed" color="base08"/>
+  <Style name="diff.location" color="base0A"/>
+</EditorStyle>

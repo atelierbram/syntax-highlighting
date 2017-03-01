@@ -1,0 +1,66 @@
+/*
+Error: File to import not found or unreadable: components/settings.
+       Load paths:
+         Compass::SpriteImporter
+         /Users/bram/Sites/syntax-highlighting/assets/scss
+         /Users/bram/.rvm/gems/ruby-2.1.3/gems/compass-core-1.0.3/stylesheets
+        on line 2 of /Users/bram/Sites/syntax-highlighting/assets/scss/prism/demo.scss
+
+1: @import
+2: "components/settings",
+3: "components/base",
+4: "components/headings",
+5: "components/styleswitch",
+6: "components/select"
+7: // ,
+
+Backtrace:
+/Users/bram/Sites/syntax-highlighting/assets/scss/prism/demo.scss:2
+/Users/bram/.rvm/gems/ruby-2.1.3/gems/sass-3.4.13/lib/sass/tree/import_node.rb:66:in `rescue in import'
+/Users/bram/.rvm/gems/ruby-2.1.3/gems/sass-3.4.13/lib/sass/tree/import_node.rb:45:in `import'
+/Users/bram/.rvm/gems/ruby-2.1.3/gems/sass-3.4.13/lib/sass/tree/import_node.rb:28:in `imported_file'
+/Users/bram/.rvm/gems/ruby-2.1.3/gems/sass-3.4.13/lib/sass/tree/import_node.rb:37:in `css_import?'
+/Users/bram/.rvm/gems/ruby-2.1.3/gems/sass-3.4.13/lib/sass/tree/visitors/perform.rb:311:in `visit_import'
+/Users/bram/.rvm/gems/ruby-2.1.3/gems/sass-3.4.13/lib/sass/tree/visitors/base.rb:36:in `visit'
+/Users/bram/.rvm/gems/ruby-2.1.3/gems/sass-3.4.13/lib/sass/tree/visitors/perform.rb:158:in `block in visit'
+/Users/bram/.rvm/gems/ruby-2.1.3/gems/sass-3.4.13/lib/sass/stack.rb:79:in `block in with_base'
+/Users/bram/.rvm/gems/ruby-2.1.3/gems/sass-3.4.13/lib/sass/stack.rb:115:in `with_frame'
+/Users/bram/.rvm/gems/ruby-2.1.3/gems/sass-3.4.13/lib/sass/stack.rb:79:in `with_base'
+/Users/bram/.rvm/gems/ruby-2.1.3/gems/sass-3.4.13/lib/sass/tree/visitors/perform.rb:158:in `visit'
+/Users/bram/.rvm/gems/ruby-2.1.3/gems/sass-3.4.13/lib/sass/tree/visitors/base.rb:52:in `block in visit_children'
+/Users/bram/.rvm/gems/ruby-2.1.3/gems/sass-3.4.13/lib/sass/tree/visitors/base.rb:52:in `map'
+/Users/bram/.rvm/gems/ruby-2.1.3/gems/sass-3.4.13/lib/sass/tree/visitors/base.rb:52:in `visit_children'
+/Users/bram/.rvm/gems/ruby-2.1.3/gems/sass-3.4.13/lib/sass/tree/visitors/perform.rb:167:in `block in visit_children'
+/Users/bram/.rvm/gems/ruby-2.1.3/gems/sass-3.4.13/lib/sass/tree/visitors/perform.rb:179:in `with_environment'
+/Users/bram/.rvm/gems/ruby-2.1.3/gems/sass-3.4.13/lib/sass/tree/visitors/perform.rb:166:in `visit_children'
+/Users/bram/.rvm/gems/ruby-2.1.3/gems/sass-3.4.13/lib/sass/tree/visitors/base.rb:36:in `block in visit'
+/Users/bram/.rvm/gems/ruby-2.1.3/gems/sass-3.4.13/lib/sass/tree/visitors/perform.rb:186:in `visit_root'
+/Users/bram/.rvm/gems/ruby-2.1.3/gems/sass-3.4.13/lib/sass/tree/visitors/base.rb:36:in `visit'
+/Users/bram/.rvm/gems/ruby-2.1.3/gems/sass-3.4.13/lib/sass/tree/visitors/perform.rb:157:in `visit'
+/Users/bram/.rvm/gems/ruby-2.1.3/gems/sass-3.4.13/lib/sass/tree/visitors/perform.rb:8:in `visit'
+/Users/bram/.rvm/gems/ruby-2.1.3/gems/sass-3.4.13/lib/sass/tree/root_node.rb:36:in `css_tree'
+/Users/bram/.rvm/gems/ruby-2.1.3/gems/sass-3.4.13/lib/sass/tree/root_node.rb:20:in `render'
+/Users/bram/.rvm/gems/ruby-2.1.3/gems/sass-3.4.13/lib/sass/engine.rb:268:in `render'
+/Users/bram/.rvm/gems/ruby-2.1.3/gems/sass-3.4.13/lib/sass/plugin/compiler.rb:492:in `update_stylesheet'
+/Users/bram/.rvm/gems/ruby-2.1.3/gems/sass-3.4.13/lib/sass/plugin/compiler.rb:215:in `block in update_stylesheets'
+/Users/bram/.rvm/gems/ruby-2.1.3/gems/sass-3.4.13/lib/sass/plugin/compiler.rb:209:in `each'
+/Users/bram/.rvm/gems/ruby-2.1.3/gems/sass-3.4.13/lib/sass/plugin/compiler.rb:209:in `update_stylesheets'
+/Users/bram/.rvm/gems/ruby-2.1.3/gems/sass-3.4.13/lib/sass/plugin/compiler.rb:293:in `watch'
+/Users/bram/.rvm/gems/ruby-2.1.3/gems/compass-1.0.3/lib/compass/sass_compiler.rb:46:in `watch!'
+/Users/bram/.rvm/gems/ruby-2.1.3/gems/compass-1.0.3/lib/compass/commands/watch_project.rb:41:in `perform'
+/Users/bram/.rvm/gems/ruby-2.1.3/gems/compass-1.0.3/lib/compass/commands/base.rb:18:in `execute'
+/Users/bram/.rvm/gems/ruby-2.1.3/gems/compass-1.0.3/lib/compass/commands/project_base.rb:19:in `execute'
+/Users/bram/.rvm/gems/ruby-2.1.3/gems/compass-1.0.3/lib/compass/exec/sub_command_ui.rb:43:in `perform!'
+/Users/bram/.rvm/gems/ruby-2.1.3/gems/compass-1.0.3/lib/compass/exec/sub_command_ui.rb:15:in `run!'
+/Users/bram/.rvm/gems/ruby-2.1.3/gems/compass-1.0.3/bin/compass:30:in `block in <top (required)>'
+/Users/bram/.rvm/gems/ruby-2.1.3/gems/compass-1.0.3/bin/compass:44:in `call'
+/Users/bram/.rvm/gems/ruby-2.1.3/gems/compass-1.0.3/bin/compass:44:in `<top (required)>'
+/Users/bram/.rvm/gems/ruby-2.1.3/bin/compass:23:in `load'
+/Users/bram/.rvm/gems/ruby-2.1.3/bin/compass:23:in `<main>'
+/Users/bram/.rvm/gems/ruby-2.1.3/bin/ruby_executable_hooks:15:in `eval'
+/Users/bram/.rvm/gems/ruby-2.1.3/bin/ruby_executable_hooks:15:in `<main>'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Error: File to import not found or unreadable: components/settings.\A        Load paths:\A          Compass::SpriteImporter\A          /Users/bram/Sites/syntax-highlighting/assets/scss\A          /Users/bram/.rvm/gems/ruby-2.1.3/gems/compass-core-1.0.3/stylesheets\A         on line 2 of /Users/bram/Sites/syntax-highlighting/assets/scss/prism/demo.scss\A \A 1: @import\A 2: \"components/settings\",\A 3: \"components/base\",\A 4: \"components/headings\",\A 5: \"components/styleswitch\",\A 6: \"components/select\"\A 7: // ,"; }

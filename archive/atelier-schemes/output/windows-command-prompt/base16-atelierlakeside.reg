@@ -1,0 +1,22 @@
+Windows Registry Editor Version 5.00
+
+; Base16 Atelier Lakeside (https://github.com/chriskempson/base16)
+; Scheme: Bram de Haan (http://atelierbram.github.io/syntax-highlighting/atelier-schemes/lakeside/)
+
+[HKEY_CURRENT_USER\Console]
+"ColorTable00"=dword:001d1b16
+"ColorTable01"=dword:00ad7f25
+"ColorTable02"=dword:003b8c56
+"ColorTable03"=dword:006f8f2d
+"ColorTable04"=dword:00255c93
+"ColorTable05"=dword:00b86b6b
+"ColorTable06"=dword:000f8a8a
+"ColorTable07"=dword:00a89571
+"ColorTable08"=dword:008c7b5a
+"ColorTable09"=dword:00ad7f25
+"ColorTable10"=dword:003b8c56
+"ColorTable11"=dword:006f8f2d
+"ColorTable12"=dword:00722dd2
+"ColorTable13"=dword:00d22db7
+"ColorTable14"=dword:000f8a8a
+"ColorTable15"=dword:00fff8eb

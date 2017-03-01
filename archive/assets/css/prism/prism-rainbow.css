@@ -1,0 +1,107 @@
+/* Rainbow theme 
+ * based on: http://craig.is/making/rainbows by Craig Cambell
+ * http://craig.is/
+ */
+
+code[class*="language-"], pre[class*="language-"] {
+  -moz-tab-size: 4;
+  -o-tab-size: 4;
+  tab-size: 4;
+  -webkit-hyphens: none;
+  -moz-hyphens: none;
+  -ms-hyphens: none;
+  hyphens: none;
+  white-space: pre;
+  white-space: pre-wrap;
+  word-break: break-all;
+  word-wrap: break-word;
+  font-family: Menlo, Monaco, "Courier New", monospace;
+  font-size: 15px;
+  line-height: 1.5;
+  color: #d8fa3c;
+  text-shadow: 0;
+}
+
+pre[class*="language-"], :not(pre) > code[class*="language-"] {
+  border-radius: 5px;
+  border: 1px solid #aaa;
+  color: #d8fa3c;
+  background: #000 
+}
+
+pre[class*="language-"] {
+  padding: 12px; }
+
+:not(pre) > code[class*="language-"] {
+  padding: 2px 6px; }
+
+code[class*="language-"] .namespace, pre[class*="language-"] .namespace {
+  opacity: .7; }
+code[class*="language-"] .token.comment, code[class*="language-"] .token.prolog, code[class*="language-"] .token.doctype, code[class*="language-"] .token.cdata, pre[class*="language-"] .token.comment, pre[class*="language-"] .token.prolog, pre[class*="language-"] .token.doctype, pre[class*="language-"] .token.cdata {
+  color: #535353;
+}
+code[class*="language-"] .token.null, code[class*="language-"] .token.operator, code[class*="language-"] .token.boolean, pre[class*="language-"] .token.null, pre[class*="language-"] .token.operator, pre[class*="language-"] .token.boolean {
+  color: #fff; }
+code[class*="language-"] .token.number,
+ code[class*="language-"] .token.string, pre[class*="language-"] .token.string, pre[class*="language-"] .token.number  { 
+  color: #00f50c;
+}
+
+code[class*="language-"] .token.attr-name,
+pre[class*="language-"] .token.attr-name {
+  color: #1bbbcf;
+ }
+code[class*="language-"] .token.entity, code[class*="language-"] .token.url, .language-css code[class*="language-"] .token.string, .style code[class*="language-"] .token.string, pre[class*="language-"] .token.entity, pre[class*="language-"] .token.url, .language-css pre[class*="language-"] .token.string, .style pre[class*="language-"] .token.string { 
+  color: #1bbbcf;
+  }
+code[class*="language-"] .token.selector, pre[class*="language-"] .token.selector { 
+  color: #f03200;
+  }
+code[class*="language-"] .token.atrule, code[class*="language-"] code[class*="language-"] .token.keyword, code[class*="language-"] .token.control, code[class*="language-"] .token.directive, code[class*="language-"] .token.important, code[class*="language-"] .token.unit, pre[class*="language-"] .token.atrule, pre[class*="language-"] .token.keyword, pre[class*="language-"] .token.control, pre[class*="language-"] .token.directive, pre[class*="language-"] .token.important, pre[class*="language-"] .token.unit { 
+  color: #f5e600;
+ }
+
+.token.attr-value, 
+pre[class*="language-"] .token.attr-value { 
+  color: #00f50c;
+}
+code[class*="language-"] .token.regex, code[class*="language-"] .token.statement, pre[class*="language-"] .token.regex, pre[class*="language-"] .token.statement {
+   }
+code[class*="language-"] .token.placeholder, code[class*="language-"] .token.variable, pre[class*="language-"] .token.placeholder, pre[class*="language-"] .token.variable { 
+  color: #85f;
+}
+
+.token.property, .token.tag, .token.boolean, .token.number, code[class*="language-"] .token.property, pre[class*="language-"] .token.property {
+  color: #f57900;
+}
+code[class*="language-"] .token.tag, pre[class*="language-"] .token.tag {
+  color: #0087ff; 
+}  
+code[class*="language-"] .token.important, code[class*="language-"] .token.statement, pre[class*="language-"] .token.important, pre[class*="language-"] .token.statement {
+  /* font-weight: bold; */ 
+  color: #f50419;
+}
+code[class*="language-"] .token.punctuation, pre[class*="language-"] .token.punctuation {
+  color:  #fff; }
+code[class*="language-"] .token.entity, pre[class*="language-"] .token.entity {
+  cursor: help; }
+code[class*="language-"] .token.debug, pre[class*="language-"] .token.debug {
+  color: red; }
+ 
+.rainbow--colors {  
+  color: #f50419;
+  color: #f03200;
+  color: #f57900;
+  color: #f5e600;
+  color: #d8fa3c;
+  color: #00f50c;
+  color: #223576;
+  color: #1bbbcf;
+  color: #0087ff;
+  color: #006dcf;
+  color: #5000f5;
+  color: #85f;
+  color: #7d05f5;
+  color: #535353;
+}
+

@@ -1,0 +1,29 @@
+# schema for konsole (KDE3)
+# put in ~/.kde/share/apps/konsole/
+
+title = Base16 Atelier Sulphurpool
+
+
+#   slot    transparent bold
+#      | red grn blu  | |
+#      V V--color--V  V V
+color  0 151 157 180  0 0 # 0 - Foreground Color
+color  1  32  39  70  1 0 # 1 - Background Color
+color  2  32  39  70  0 0 # 2 - Color 0 (black)
+color  3 201  73  34  0 0 # 3 - Color 1 (red)
+color  4 172 151  57  0 0 # 3 - Color 2 (green)
+color  5 192 139  48  0 0 # 3 - Color 3 (yellow)
+color  6  61 143 209  0 0 # 3 - Color 4 (blue)
+color  7 102 121 204  0 0 # 3 - Color 5 (magenta)
+color  8  34 162 201  0 0 # 3 - Color 6 (cyan)
+color  9 151 157 180  0 0 # 3 - Color 7 (white)
+color 10 198 202 217  0 1 # 3 - Foreground Intensive Color
+color 11 138 143 162  1 0 # 3 - Background Intensive Color
+color 12 138 143 162  0 0 # 3 - Color 0 Intensive (grey)
+color 13 223 160 144  0 0 # 3 - Color 1 Intensive (light red)
+color 14 208 199 156  0 0 # 3 - Color 2 Intensive (light green)
+color 15 218 193 151  0 0 # 3 - Color 3 Intensive (light yellow)
+color 16 153 195 232  0 0 # 3 - Color 4 Intensive (light blue)
+color 17 173 184 229  0 0 # 3 - Color 5 Intensive (light magenta)
+color 18 139 204 228  0 0 # 3 - Color 6 Intensive (light cyan)
+color 19 198 202 217  0 0 # 3 - Color 7 Intensive (white)

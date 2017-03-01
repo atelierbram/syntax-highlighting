@@ -1,0 +1,183 @@
+/*
+
+    Name:       Base16 Duotone-DarkLake Dark
+    Author:     adapted from: Simurai (https://github.com/simurai/duotone-dark-syntax/)
+
+    Prettify template by Jan T. Sott (https://github.com/idleberg/)
+    Original Base16 color scheme by Chris Kempson (https://github.com/chriskempson/base16)
+
+*/
+
+$base00: #182234;
+$base01: #222d44;
+$base02: #3a4b6e;
+$base03: #46587c;
+$base04: #526589;
+$base05: #4e72bc;
+$base06: #a5c2fe;
+$base07: #e1ebff;
+$base08: #295cc2;
+$base09: #f075b5;
+$base0a: #f584bf;
+$base0b: #ba97a9;
+$base0c: #ffa3d3;
+$base0d: #f994c9;
+$base0e: #406abf;
+$base0f: #3264c8;
+
+/* plain text */
+.pln {
+  color: $base07;
+}
+
+@media screen {
+  /* string content */
+  .str {
+    color: $base0b;
+  }
+
+  /* a keyword */
+  .kwd {
+    color: $base0e;
+  }
+
+  /* a comment */
+  .com {
+    color: $base03;
+  }
+
+  /* a type name */
+  .typ {
+    color: $base0d;
+  }
+
+  /* a literal value */
+  .lit {
+    color: $base09;
+  }
+
+  /* punctuation */
+  .pun {
+    color: $base07;
+  }
+
+  /* lisp open bracket */
+  .opn {
+    color: $base07;
+  }
+
+  /* lisp close bracket */
+  .clo {
+    color: $base07;
+  }
+
+  /* a markup tag name */
+  .tag {
+    color: $base08;
+  }
+
+  /* a markup attribute name */
+  .atn {
+    color: $base09;
+  }
+
+  /* a markup attribute value */
+  .atv {
+    color: $base0c;
+  }
+
+  /* a declaration */
+  .dec {
+    color: $base09;
+  }
+
+  /* a variable name */
+  .var {
+    color: $base08;
+  }
+
+  /* a function name */
+  .fun {
+    color: $base0d;
+  }
+}
+/* Use higher contrast and text-weight for printable form. */
+@media print, projection {
+  .str {
+    color: #006600;
+  }
+
+  .kwd {
+    color: #006;
+    font-weight: bold;
+  }
+
+  .com {
+    color: #600;
+    font-style: italic;
+  }
+
+  .typ {
+    color: #404;
+    font-weight: bold;
+  }
+
+  .lit {
+    color: #004444;
+  }
+
+  .pun, .opn, .clo {
+    color: #444400;
+  }
+
+  .tag {
+    color: #006;
+    font-weight: bold;
+  }
+
+  .atn {
+    color: #440044;
+  }
+
+  .atv {
+    color: #006600;
+  }
+}
+/* Style */
+pre.prettyprint {
+  background: $base00;
+  font-family: Menlo, "Bitstream Vera Sans Mono", "DejaVu Sans Mono", Monaco, Consolas, monospace;
+  font-size: 12px;
+  line-height: 1.5;
+  border: 1px solid $base07;
+  padding: 10px;
+}
+
+/* Specify class=linenums on a pre to get line numbering */
+ol.linenums {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+/* IE indents via margin-left */
+li.L0,
+li.L1,
+li.L2,
+li.L3,
+li.L4,
+li.L5,
+li.L6,
+li.L7,
+li.L8,
+li.L9 {
+  /* */
+}
+
+/* Alternate shading for lines */
+li.L1,
+li.L3,
+li.L5,
+li.L7,
+li.L9 {
+  /* */
+}

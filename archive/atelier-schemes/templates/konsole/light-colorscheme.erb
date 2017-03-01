@@ -1,0 +1,67 @@
+<%
+@ratio = 50
+%>
+[Background]
+Color=<%= @base["07"]["rgb"].join(',') %>
+
+[BackgroundIntense]
+Color=<%= tint(@base["07"]["rgb"], @ratio).join(',') %>
+
+[Color0] <%# White %>
+Color=<%= @base["07"]["rgb"].join(',') %>
+
+[Color0Intense]
+Color=<%= tint(@base["07"]["rgb"], @ratio).join(',') %>
+
+[Color1] <%# Red %>
+Color=<%= @base["08"]["rgb"].join(',') %>
+
+[Color1Intense]
+Color=<%= tint(@base["09"]["rgb"], @ratio).join(',') %>
+
+[Color2] <%# Green %>
+Color=<%= @base["0B"]["rgb"].join(',') %>
+
+[Color2Intense]
+Color=<%= tint(@base["0B"]["rgb"], @ratio).join(',') %>
+
+[Color3] <%# Yellow %>
+Color=<%= @base["0A"]["rgb"].join(',') %>
+
+[Color3Intense]
+Color=<%= tint(@base["0A"]["rgb"], @ratio).join(',') %>
+
+[Color4] <%# Blue %>
+Color=<%= @base["0D"]["rgb"].join(',') %>
+
+[Color4Intense]
+Color=<%= tint(@base["0D"]["rgb"], @ratio).join(',') %>
+
+[Color5] <%# Magenta %>
+Color=<%= @base["0F"]["rgb"].join(',') %>
+
+[Color5Intense] <%# Violet %>
+Color=<%= tint(@base["0E"]["rgb"], @ratio).join(',') %>
+
+[Color6] <%# Cyan %>
+Color=<%= @base["0C"]["rgb"].join(',') %>
+
+[Color6Intense]
+Color=<%= tint(@base["0C"]["rgb"], @ratio).join(',') %>
+
+[Color7] <%# Base02 %>
+Color=<%= @base["02"]["rgb"].join(',') %>
+
+[Color7Intense] <%# Base03 %>
+Color=<%= tint(@base["03"]["rgb"], @ratio).join(',') %>
+
+[Foreground] <%# Base00 %>
+Color=<%= @base["00"]["rgb"].join(',') %>
+
+[ForegroundIntense]  <%# Base01 %>
+Color=<%= tint(@base["01"]["rgb"], @ratio).join(',') %>
+
+[General]
+Description=Base16 <%= @scheme %> Light
+Opacity=1
+Wallpaper=

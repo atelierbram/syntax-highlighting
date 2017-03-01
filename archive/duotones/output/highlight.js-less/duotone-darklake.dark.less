@@ -1,0 +1,116 @@
+/*
+
+    Name:       Base16 Duotone-DarkLake Dark
+    Author:     adapted from: Simurai (https://github.com/simurai/duotone-dark-syntax/)
+
+    highlight.js v8.0 template by Jan T. Sott (https://github.com/idleberg/base16-highlight.js)
+    Original Base16 color scheme by Chris Kempson (https://github.com/chriskempson/base16)
+
+*/
+
+@base00: #182234;
+@base01: #222d44;
+@base02: #3a4b6e;
+@base03: #46587c;
+@base04: #526589;
+@base05: #4e72bc;
+@base06: #a5c2fe;
+@base07: #e1ebff;
+@base08: #295cc2;
+@base09: #f075b5;
+@base0a: #f584bf;
+@base0b: #ba97a9;
+@base0c: #ffa3d3;
+@base0d: #f994c9;
+@base0e: #406abf;
+@base0f: #3264c8;
+
+// Duotone-DarkLake Comment
+.hljs-comment {
+  color: @base04;
+}
+
+// Duotone-DarkLake Red
+.hljs-variable,
+.hljs-attribute,
+.hljs-tag,
+.hljs-regexp,
+.ruby .hljs-constant,
+.xml .hljs-tag .hljs-title,
+.xml .hljs-pi,
+.xml .hljs-doctype,
+.html .hljs-doctype,
+.css .hljs-id,
+.css .hljs-class,
+.css .hljs-pseudo {
+  color: @base08;
+}
+
+// Duotone-DarkLake Orange
+.hljs-number,
+.hljs-preprocessor,
+.hljs-built_in,
+.hljs-literal,
+.hljs-params,
+.hljs-constant {
+  color: @base09;
+}
+
+// Duotone-DarkLake Yellow
+.ruby .hljs-class .hljs-title,
+.css .hljs-rules .hljs-attribute {
+  color: @base0a;
+}
+
+// Duotone-DarkLake Green
+.hljs-string,
+.hljs-value,
+.hljs-inheritance,
+.hljs-header,
+.ruby .hljs-symbol,
+.xml .hljs-cdata {
+  color: @base0b;
+}
+
+// Duotone-DarkLake Aqua
+.hljs-title,
+.css .hljs-hexcolor {
+  color: @base0c;
+}
+
+// Duotone-DarkLake Blue
+.hljs-function,
+.python .hljs-decorator,
+.python .hljs-title,
+.ruby .hljs-function .hljs-title,
+.ruby .hljs-title .hljs-keyword,
+.perl .hljs-sub,
+.javascript .hljs-title,
+.coffeescript .hljs-title {
+  color: @base0d;
+}
+
+// Duotone-DarkLake Purple
+.hljs-keyword,
+.javascript .hljs-function {
+  color: @base0e;
+}
+
+.hljs {
+  display: block;
+  overflow-x: auto;
+  background: @base00;
+  color: @base05;
+  padding: 0.5em;
+  -webkit-text-size-adjust: none;
+}
+
+.coffeescript .javascript,
+.javascript .xml,
+.tex .hljs-formula,
+.xml .javascript,
+.xml .vbscript,
+.xml .css,
+.xml .hljs-cdata {
+  opacity: 0.5;
+}

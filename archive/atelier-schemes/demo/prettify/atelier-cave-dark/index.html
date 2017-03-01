@@ -1,0 +1,249 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <link rel="dns-prefetch" href="//ajax.googleapis.com" />
+
+  <title>Atelier Cave Dark - Color themes for Google Code Prettify</title>
+  <meta name="description" content="Atelier Cave Dark is a beautiful color theme for Google Code Prettify.">
+
+  <meta name="viewport" content="width=device-width">
+  <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Open+Sans:400,700">
+  <link rel="stylesheet" href="../css/style.css">
+
+  <link rel="stylesheet" href="../css/themes/atelier-cave-dark.css">
+
+  <link rel="sitemap" type="application/xml" title="Sitemap" href="sitemap.xml" />
+  <link rel="canonical" href="../atelier-cave-dark/" />
+
+</head>
+<body id="top">
+  <header class="header">
+    <div class="container">
+
+      <a href="../"><i class="icon icon-arrow-left"></i> Home</a>
+
+      <div class="page-header">
+
+        <h1>Atelier Cave Dark</h1>
+        <p>Atelier Cave Dark theme for Google Code Prettify. The original is by <a href="http://atelierbram.github.io/syntax-highlighting/atelier-schemes/cave/" target="_blank">Bram de Haan</a>.</p>
+        <div class="btn-area">
+          <a class="btn btn-large btn-primary" href="../css/themes/atelier-cave-dark.css"><i class="icon-download icon-white"></i> Download CSS file</a>
+        </div>
+
+      </div>
+    </div>
+  </header>
+    <div class="container main">
+    <h2><i class="icon icon-camera-retro icon-large"></i> Preview</h2>
+    <div class="row">
+      <div class="span8">
+<section>
+<h3>HTML</h3>
+<pre class="prettyprint lang-html">
+&lt;!doctype html&gt;
+&lt;html lang=&quot;en&quot;&gt;
+&lt;head&gt;
+  &lt;meta charset=&quot;utf-8&quot;&gt;
+  &lt;title&gt;&lt;/title&gt;
+  &lt;link rel=&quot;stylesheet&quot; href=&quot;css/style.css&quot;&gt;
+&lt;/head&gt;
+&lt;body&gt;
+  &lt;header&gt;&lt;/header&gt;
+  &lt;div role=&quot;main&quot;&gt;&lt;/div&gt;
+  &lt;footer&gt;&lt;/footer&gt;
+  &lt;script src=&quot;js/script.js&quot;&gt;&lt;/script&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+</pre>
+</section>
+
+<section>
+<h3>CSS</h3>
+<pre class="prettyprint lang-css">
+body {
+  margin: 0;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 13px;
+  line-height: 18px;
+  color: #333333;
+  background-color: #ffffff;
+}
+
+a {
+  color: #0088cc;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #005580;
+  text-decoration: underline;
+}
+</pre>
+</section>
+
+<section>
+<h3>JavaScript</h3>
+<pre class="prettyprint lang-js">
+var Account;
+
+Account = function(customer, cart) {
+  var _this = this;
+  this.customer = customer;
+  this.cart = cart;
+  return $('.shopping_cart').bind('click', function(event) {
+    return _this.customer.purchase(_this.cart);
+  });
+};
+</pre>
+</section>
+
+<section>
+<h3>CoffeeScript</h3>
+<pre class="prettyprint lang-coffee">
+class Animal
+  constructor: (@name) ->
+
+  move: (meters) ->
+    alert @name + " moved #{meters}m."
+
+class Snake extends Animal
+  move: ->
+    alert "Slithering..."
+    super 5
+
+class Horse extends Animal
+  move: ->
+    alert "Galloping..."
+    super 45
+
+sam = new Snake "Sammy the Python"
+tom = new Horse "Tommy the Palomino"
+
+sam.move()
+tom.move()
+</pre>
+</section>
+
+<section>
+<h3>Ruby</h3>
+<pre class="prettyprint lang-rb">
+class Person
+  include ActiveModel::Conversion
+  include ActiveMode::Validations
+
+  validates_presence_of :name
+
+  attr_accessor :name
+
+  def initialize(attributes = {})
+    @name = attributes[:name]
+  end
+
+  def persist
+    @persisted = true
+  end
+
+  def persisted?
+    @persisted
+  end
+
+  person1 = Person.new(:name => "mats")
+  p person1.valid?
+</pre>
+</section>
+
+<section>
+<h3>Python</h3>
+<pre class="prettyprint lang-py">
+class Reporter(models.Model):
+    full_name = models.CharField(max_length=70)
+
+    def __unicode__(self):
+        return self.full_name
+
+class Article(models.Model):
+    pub_date = models.DateTimeField()
+    headline = models.CharField(max_length=200)
+    content = models.TextField()
+    reporter = models.ForeignKey(Reporter)
+
+    def __unicode__(self):
+        return self.headline
+</pre>
+</section>
+
+<section>
+<h3>Perl</h3>
+<pre class="prettyprint lang-perl">
+#!/usr/bin/perl
+
+use strict;
+use integer;
+
+# the nth element of the fibonacci series
+# param n - an int >= 0
+# return an int >= 0
+sub fib($) {
+  my $n = shift, $a = 1, $b = 1;
+  ($a, $b) = ($a + $b, $a) until (--$n < 0);
+  return $a;
+}
+
+print fib(10);
+</pre>
+</section>
+
+<section>
+<h3>Java</h3>
+<pre class="prettyprint lang-java">
+public class Demo {
+  private static final String CONSTANT = "String";
+  private Object o;
+  /**
+   * Creates a new demo.
+   * @param o The object to demonstrate.
+   */
+  public Demo(Object o) {
+    this.o = o;
+    String s = CONSTANT;
+    int i = 1;
+  }
+  public static void main(String[] args) {
+    Demo demo = new Demo();
+  }
+}
+</pre>
+</section>
+      </div>
+
+    </div>
+  </div>
+
+  <div class="container">
+    <div class="row">
+      <div class="span6">
+        <h3 id="usage"><i class="icon icon-leaf icon-large"></i> Usage</h3>
+        <p>It's pretty simple.</p>
+        <ol>
+          <li><a href="https://github.com/google/code-prettify/blob/master/README.md">Setup</a> the Google Code Prettify.</li>
+          <li>Load a downloaded CSS file instead of <code>prettify.css</code>.</li>
+          <li>Beautiful.</li>
+        </ol>
+      </div>
+    </div>
+  </div>
+  <footer class="container">
+    <hr>
+    <p class="pull-right"><a href="#top"><i class="icon icon-chevron-up"></i> Back to top</a></p>
+  </footer>
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+  <script>window.jQuery || document.write('<script src="/js/jquery-1.7.2.min.js"><\/script>')</script>
+
+  <script src="../js/prettify.js"></script>
+  <script src="../js/lang-css.js"></script>
+
+  <script src="../js/jquery.smooth-scroll.min.js"></script>
+  <script src="../js/script.min.js"></script>
+</body>
+</html>

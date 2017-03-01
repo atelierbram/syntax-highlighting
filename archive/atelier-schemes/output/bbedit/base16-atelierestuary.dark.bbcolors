@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>BackgroundColor</key>
+	<string>rgba(0.13333333333333333,0.13333333333333333,0.10588235294117647,1.000000)</string> 
+	<key>CommentsColor</key>
+	<string>rgba(0.4235294117647059,0.4196078431372549,0.35294117647058826,1.000000)</string> 
+	<key>CtagsIdentifierColor</key>
+	<string>rgba(0.6470588235294118,0.596078431372549,0.050980392156862744,1.000000)</string> 
+	<key>ForegroundColor</key>
+	<string>rgba(0.5725490196078431,0.5686274509803921,0.5058823529411764,1.000000)</string> 
+	<key>HTMLAnchorColor</key>
+	<string>rgba(0.3568627450980392,0.615686274509804,0.2823529411764706,1.000000)</string> 
+	<key>HTMLAttributeNameColor</key>
+	<string>rgba(0.6823529411764706,0.45098039215686275,0.07450980392156863,1.000000)</string> 
+	<key>HTMLAttributeValueColor</key>
+	<string>rgba(0.49019607843137253,0.592156862745098,0.14901960784313725,1.000000)</string> 
+	<key>HTMLImageColor</key>
+	<string>rgba(0.3568627450980392,0.615686274509804,0.2823529411764706,1.000000)</string> 
+	<key>HTMLProcessingDirectiveColor</key>
+	<string>rgba(0.615686274509804,0.4235294117647059,0.48627450980392156,1.000000)</string> 
+	<key>HTMLTagColor</key>
+	<string>rgba(0.7294117647058823,0.3843137254901961,0.21176470588235294,1.000000)</string> 
+	<key>HighlightInsertionPoint</key>
+	<true/>
+	<key>InsertionPointLineHighlightColor</key>
+	<string>rgba(0.37254901960784315,0.3686274509803922,0.3058823529411765,1.000000)</string> 
+	<key>InvisibleOthersColor</key>
+	<string>rgba(0.4235294117647059,0.4196078431372549,0.35294117647058826,1.000000)</string> 
+	<key>InvisibleSpacesColor</key>
+	<string>rgba(0.4235294117647059,0.4196078431372549,0.35294117647058826,1.000000)</string> 
+	<key>KeywordsColor</key>
+	<string>rgba(0.37254901960784315,0.5686274509803921,0.5098039215686274,1.000000)</string> 
+	<key>NumericConstantColor</key>
+	<string>rgba(0.6823529411764706,0.45098039215686275,0.07450980392156863,1.000000)</string> 
+	<key>PredefinedNamesColor</key>
+	<string>rgba(0.3568627450980392,0.615686274509804,0.2823529411764706,1.000000)</string> 
+	<key>PrimaryHighlightColor</key>
+	<string>rgba(0.37254901960784315,0.3686274509803922,0.3058823529411765,1.000000)</string> 
+	<key>PythonDecoratorColor</key>
+	<string>rgba(0.3568627450980392,0.615686274509804,0.2823529411764706,1.000000)</string> 
+	<key>SecondaryHighlightColor</key>
+	<string>rgba(0.5294117647058824,0.5215686274509804,0.45098039215686275,1.000000)</string> 
+	<key>SpellingColor</key>
+	<string>rgba(0.7294117647058823,0.3843137254901961,0.21176470588235294,1.000000)</string> 
+	<key>StringColor</key>
+	<string>rgba(0.49019607843137253,0.592156862745098,0.14901960784313725,1.000000)</string> 
+	<key>UseCustomHighlightColor</key>
+	<true/>
+	<key>VariablesColor</key>
+	<string>rgba(0.7294117647058823,0.3843137254901961,0.21176470588235294,1.000000)</string> 
+</dict>
+</plist>

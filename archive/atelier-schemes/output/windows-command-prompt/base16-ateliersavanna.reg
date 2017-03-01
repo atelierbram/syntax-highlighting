@@ -1,0 +1,22 @@
+Windows Registry Editor Version 5.00
+
+; Base16 Atelier Savanna (https://github.com/chriskempson/base16)
+; Scheme: Bram de Haan (http://atelierbram.github.io/syntax-highlighting/atelier-schemes/savanna)
+
+[HKEY_CURRENT_USER\Console]
+"ColorTable00"=dword:00191c17
+"ColorTable01"=dword:00908c47
+"ColorTable02"=dword:00639948
+"ColorTable03"=dword:00a09a1c
+"ColorTable04"=dword:003c719f
+"ColorTable05"=dword:009b8555
+"ColorTable06"=dword:003b7ea0
+"ColorTable07"=dword:007d8778
+"ColorTable08"=dword:00646d5f
+"ColorTable09"=dword:00908c47
+"ColorTable10"=dword:00639948
+"ColorTable11"=dword:00a09a1c
+"ColorTable12"=dword:003961b1
+"ColorTable13"=dword:00697486
+"ColorTable14"=dword:003b7ea0
+"ColorTable15"=dword:00eef4ec

@@ -1,0 +1,83 @@
+/* Base16 <%= @scheme %> Dark - Theme */
+/* by <%= @author %> */
+/* Original Base16 color scheme by Chris Kempson (https://github.com/chriskempson/base16) */
+
+/* <%= @scheme %> Comment */
+.hljs-comment,
+.hljs-quote {
+  color: #<%= @base["04"]["hex"] %>;
+}
+
+/* <%= @scheme %> Red */
+.hljs-variable,
+.hljs-template-variable,
+.hljs-attribute,
+.hljs-regexp,
+.hljs-link,
+.hljs-tag,
+.hljs-name,
+.hljs-selector-id,
+.hljs-selector-class {
+  color: #<%= @base["08"]["hex"] %>;
+}
+
+/* <%= @scheme %> Orange */ 
+.hljs-number,
+.hljs-meta,
+.hljs-built_in,
+.hljs-builtin-name,
+.hljs-literal,
+.hljs-type,
+.hljs-params { 
+  color: #<%= @base["09"]["hex"] %>;
+}
+
+/* <%= @scheme %> Green */ 
+.hljs-string,
+.hljs-symbol,
+.hljs-bullet { 
+  color: #<%= @base["0B"]["hex"] %>;
+}
+
+/* <%= @scheme %> Blue */
+.hljs-title,
+.hljs-section {
+  color: #<%= @base["0D"]["hex"] %>;
+}
+
+/* <%= @scheme %> Purple */
+.hljs-keyword,
+.hljs-selector-tag {
+  color: #<%= @base["0E"]["hex"] %>;
+}
+
+.hljs-deletion,
+.hljs-addition {
+  color: #<%= @base["00"]["hex"] %>;
+  display: inline-block;
+  width: 100%;
+}
+
+.hljs-deletion {
+  background-color: #<%= @base["08"]["hex"] %>;
+}
+
+.hljs-addition {
+  background-color: #<%= @base["0B"]["hex"] %>;
+}
+
+.hljs {
+  display: block;
+  overflow-x: auto;
+  background: #<%= @base["00"]["hex"] %>;
+  color: #<%= @base["05"]["hex"] %>;
+  padding: 0.5em;
+}
+
+.hljs-emphasis {
+  font-style: italic;
+}
+
+.hljs-strong {
+  font-weight: bold;
+}

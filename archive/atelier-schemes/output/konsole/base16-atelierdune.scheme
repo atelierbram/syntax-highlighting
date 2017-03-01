@@ -1,0 +1,29 @@
+# schema for konsole (KDE3)
+# put in ~/.kde/share/apps/konsole/
+
+title = Base16 Atelier Dune
+
+
+#   slot    transparent bold
+#      | red grn blu  | |
+#      V V--color--V  V V
+color  0 166 162 140  0 0 # 0 - Foreground Color
+color  1  32  32  29  1 0 # 1 - Background Color
+color  2  32  32  29  0 0 # 2 - Color 0 (black)
+color  3 215  55  55  0 0 # 3 - Color 1 (red)
+color  4  96 172  57  0 0 # 3 - Color 2 (green)
+color  5 174 149  19  0 0 # 3 - Color 3 (yellow)
+color  6 102 132 225  0 0 # 3 - Color 4 (blue)
+color  7 184  84 212  0 0 # 3 - Color 5 (magenta)
+color  8  31 173 131  0 0 # 3 - Color 6 (cyan)
+color  9 166 162 140  0 0 # 3 - Color 7 (white)
+color 10 210 206 188  0 1 # 3 - Foreground Intensive Color
+color 11 143 141 132  1 0 # 3 - Background Intensive Color
+color 12 143 141 132  0 0 # 3 - Color 0 Intensive (grey)
+color 13 234 153 145  0 0 # 3 - Color 1 Intensive (light red)
+color 14 175 211 146  0 0 # 3 - Color 2 Intensive (light green)
+color 15 214 200 127  0 0 # 3 - Color 3 Intensive (light yellow)
+color 16 178 191 230  0 0 # 3 - Color 4 Intensive (light blue)
+color 17 219 167 224  0 0 # 3 - Color 5 Intensive (light magenta)
+color 18 142 212 183  0 0 # 3 - Color 6 Intensive (light cyan)
+color 19 210 206 188  0 0 # 3 - Color 7 Intensive (white)

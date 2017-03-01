@@ -1,0 +1,107 @@
+/* Forest colorscheme
+* Author: Bram de Haan <info@atelierbramdehaan.nl>
+* URL: http://atelierbram.github.io/syntax-highlighting/forest/
+* (see this url for latest release & screenshots)
+* License:  MIT license 
+*/ 
+code[class*="language-"], pre[class*="language-"] {
+  -moz-tab-size: 4;
+  -o-tab-size: 4;
+  tab-size: 4;
+  -webkit-hyphens: none;
+  -moz-hyphens: none;
+  -ms-hyphens: none;
+  hyphens: none;
+  white-space: pre;
+  white-space: pre-wrap;
+  word-break: break-all;
+  word-wrap: break-word;
+  font-family: Menlo, Monaco, "Courier New", monospace;
+  /* font-size: 15px; */
+  line-height: 1.5;
+  color: #68615e; 
+  /* color: #2c2421; */
+  text-shadow: 0;
+  background: #f1efee; }
+
+pre[class*="language-"], :not(pre) > code[class*="language-"] {
+  border-radius: 5px;
+  border: 1px solid #e1e1e8;
+  box-shadow: 1px 1px 0.3em -0.1em rgba(0,0,0,.5) inset; }
+
+pre[class*="language-"] {
+  padding: 12px; }
+
+:not(pre) > code[class*="language-"] {
+  padding: 2px 6px; }
+
+code[class*="language-"] .namespace, pre[class*="language-"] .namespace {
+  opacity: .7; }
+code[class*="language-"] .token.comment, code[class*="language-"] .token.prolog, code[class*="language-"] .token.doctype, code[class*="language-"] .token.cdata, pre[class*="language-"] .token.comment, pre[class*="language-"] .token.prolog, pre[class*="language-"] .token.doctype, pre[class*="language-"] .token.cdata {
+  color: #a8a19f; }
+code[class*="language-"] .token.null, code[class*="language-"] .token.operator, code[class*="language-"] .token.boolean, pre[class*="language-"] .token.null, pre[class*="language-"] .token.operator, pre[class*="language-"] .token.boolean {
+  color: #d5911a; }
+code[class*="language-"] .token.number,
+ code[class*="language-"] .token.string, pre[class*="language-"] .token.string, pre[class*="language-"] .token.number  {
+  color: #5ab738; 
+}
+
+code[class*="language-"] .token.attr-name,
+pre[class*="language-"] .token.attr-name {
+   color: #2c2421;
+ }
+code[class*="language-"] .token.entity, code[class*="language-"] .token.url, .language-css code[class*="language-"] .token.string, .style code[class*="language-"] .token.string, pre[class*="language-"] .token.entity, pre[class*="language-"] .token.url, .language-css pre[class*="language-"] .token.string, .style pre[class*="language-"] .token.string {
+  color: #d5911a; }
+code[class*="language-"] .token.selector, pre[class*="language-"] .token.selector {
+  color: #d5911a; }
+code[class*="language-"] .token.atrule, code[class*="language-"] code[class*="language-"] .token.keyword, code[class*="language-"] .token.control, code[class*="language-"] .token.directive, code[class*="language-"] .token.important, code[class*="language-"] .token.unit, pre[class*="language-"] .token.atrule, pre[class*="language-"] .token.keyword, pre[class*="language-"] .token.control, pre[class*="language-"] .token.directive, pre[class*="language-"] .token.important, pre[class*="language-"] .token.unit {
+  color: #00ad9c; 
+ }
+
+.token.attr-value, 
+pre[class*="language-"] .token.attr-value {
+  color: #5ab738; 
+}
+code[class*="language-"] .token.regex, code[class*="language-"] .token.statement, pre[class*="language-"] .token.regex, pre[class*="language-"] .token.statement {
+  color: ; }
+code[class*="language-"] .token.placeholder, code[class*="language-"] .token.variable, pre[class*="language-"] .token.placeholder, pre[class*="language-"] .token.variable {
+  color: #407ee7; }
+.token.property, .token.tag, .token.boolean, .token.number, code[class*="language-"] .token.property, pre[class*="language-"] .token.property {
+   color: #766e6b; 
+}
+code[class*="language-"] .token.tag, pre[class*="language-"] .token.tag {
+  color: #407ee7; }  
+code[class*="language-"] .token.important, code[class*="language-"] .token.statement, pre[class*="language-"] .token.important, pre[class*="language-"] .token.statement {
+  /* font-weight: bold; */
+  color: #f22c40;
+}
+code[class*="language-"] .token.punctuation, pre[class*="language-"] .token.punctuation {
+  color: #766e6b; }
+code[class*="language-"] .token.entity, pre[class*="language-"] .token.entity {
+  cursor: help; }
+code[class*="language-"] .token.debug, pre[class*="language-"] .token.debug {
+  color: red; }
+
+
+/* License 
+* Copyright (c) 2011 Ethan Schoonover
+
+* Permission is hereby granted, free of charge, to any person obtaining a copy
+* of this software and associated documentation files (the "Software"), to deal
+* in the Software without restriction, including without limitation the rights
+* to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+* copies of the Software, and to permit persons to whom the Software is
+* furnished to do so, subject to the following conditions:
+
+* The above copyright notice and this permission notice shall be included in
+* all copies or substantial portions of the Software.
+
+* THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+* IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+* FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+* AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+* LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+* OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+* THE SOFTWARE.  
+
+*/

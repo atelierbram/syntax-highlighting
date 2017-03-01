@@ -1,0 +1,160 @@
+<!doctype html>
+<html lang="en">
+  <head>
+<meta charset="utf-8"/>
+<title>CodeMirror: Theme Demo - DuoTone - CSS mode</title>
+<link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,300' rel='stylesheet' type='text/css'>
+<link rel=stylesheet href="../doc/docs-custom.css">
+<link rel="stylesheet" href="../lib/codemirror.css">
+<link rel="stylesheet" href="../addon/hint/show-hint.css">
+
+<link rel="stylesheet" href="../../output/codemirror/duotone-dark-cm.css">
+<link rel="stylesheet" href="../../output/codemirror/duotone-darksea-cm.css">
+<link rel="stylesheet" href="../../output/codemirror/duotone-darkspace-cm.css">
+<link rel="stylesheet" href="../../output/codemirror/duotone-darkearth-cm.css">
+<link rel="stylesheet" href="../../output/codemirror/duotone-darkforest-cm.css">
+<link rel="stylesheet" href="../../output/codemirror/duotone-darkcave-cm.css">
+<link rel="stylesheet" href="../../output/codemirror/duotone-darkdesert-cm.css">
+<link rel="stylesheet" href="../../output/codemirror/duotone-darkheath-cm.css">
+<link rel="stylesheet" href="../../output/codemirror/duotone-darkmeadow-cm.css">
+<link rel="stylesheet" href="../../output/codemirror/duotone-darkpark-cm.css">
+<link rel="stylesheet" href="../../output/codemirror/duotone-darkpool-cm.css">
+<link rel="stylesheet" href="../../output/codemirror/duotone-darklake-cm.css">
+<link rel="stylesheet" href="../../output/codemirror/duotone-light-light-cm.css">
+
+<script src="../lib/codemirror.js"></script>
+<script src="../mode/css/css.js"></script>
+<script src="../addon/hint/show-hint.js"></script>
+<script src="../addon/hint/css-hint.js"></script>
+<script src="../addon/selection/active-line.js"></script>
+<script src="../addon/edit/matchbrackets.js"></script>
+<style type="text/css">
+      .CodeMirror {border: 1px solid transparent; font-size:13px}
+    </style>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <meta name="robots" content="no-index, no-follow">
+  </head>
+  <body>
+<div id=nav>
+  <a href="http://codemirror.net"><h1>CodeMirror</h1></a>
+
+  <ul>
+    <li><a href="https://codemirror.net/index.html">CodeMirror</a></li>
+    <li><a href="https://codemirror.net/doc/manual.html">Manual</a></li>
+    <li><a href="https://github.com/codemirror/codemirror">GitHub</a></li>
+  </ul>
+  <ul>
+    <li><a class=active href="#">Theme</a></li>
+    <li><a href="http://simurai.com/projects/2016/01/01/duotone-themes">DuoTone themes</a></li>
+  </ul>
+  <ul>
+  <h3>Modes</h3>
+    <li><a href="theme-htmlmixed.html#duotone-dark-cm">HTML</a></li>
+    <li><a class=active href="#">CSS</a></li>
+    <li><a href="theme-js.html#duotone-dark-cm">JavaScript</a></li>
+    <li><a href="theme-markdown.html#duotone-dark-cm">Markdown</a></li>
+    <li><a href="theme-scss.html#duotone-dark-cm">Scss</a></li>
+    <li><a href="theme-less.html#duotone-dark-cm">Less</a></li>
+    <li><a href="theme-sass.html#duotone-dark-cm">Sass</a></li>
+    <li><a href="theme-haml.html#duotone-dark-cm">Haml</a></li>
+    <li><a href="theme-slim.html#duotone-dark-cm">Slim</a></li>
+    <!-- <li><a href="theme-jade.html#duotone-dark-cm">Jade</a></li> -->
+    <li><a href="theme-coffee.html#duotone-dark-cm">CoffeeScript</a></li>
+  </ul>
+</div>
+
+<article>
+  <h2>Theme Demo - DuoTone - CSS mode</h2>
+  <form><textarea id="code" name="code">
+/* Some example CSS */
+
+@import url("something.css");
+
+body {
+  margin: 0;
+  padding: 3em 6em;
+  font-family: tahoma, arial, sans-serif;
+  color: #000;
+}
+
+#navigation a {
+  font-weight: bold;
+  text-decoration: none !important;
+}
+
+.nav-item {
+  float: left;
+  margin-left: 1px;
+}
+
+.nav-item:first-of-type {
+  margin-left: 0;
+}
+
+h1 {
+  font-size: 2.5em;
+}
+
+h2 {
+  font-size: 1.7em;
+}
+
+h1:before, h2:before {
+  content: "::";
+}
+
+code {
+  font-family: courier, monospace;
+  font-size: 80%;
+  color: #418A8A;
+}
+</textarea></form>
+
+<p>Select a theme:</p>
+<div class="button dropdown">
+ <select onchange="selectTheme()" id="select">
+    <option selected>default</option>
+    <option>duotone-dark-cm</option>
+    <option>duotone-darksea-cm</option>
+    <option>duotone-darkspace-cm</option>
+    <option>duotone-darkearth-cm</option>
+    <option>duotone-darkforest-cm</option>
+    <option>duotone-darkcave-cm</option>
+    <option>duotone-darkdesert-cm</option>
+    <option>duotone-darkheath-cm</option>
+    <option>duotone-darkmeadow-cm</option>
+    <option>duotone-darkpark-cm</option>
+    <option>duotone-darkpool-cm</option>
+    <option>duotone-darklake-cm</option>
+    <option>duotone-light-light-cm</option>
+  </select>
+</div>
+  <script>
+var editor = CodeMirror.fromTextArea(document.getElementById("code"), {
+  lineNumbers: true,
+  styleActiveLine: true,
+  matchBrackets: true
+});
+var input = document.getElementById("select");
+function selectTheme() {
+  var theme = input.options[input.selectedIndex].textContent;
+  editor.setOption("theme", theme);
+  location.hash = "#" + theme;
+}
+var choice = (location.hash && location.hash.slice(1)) ||
+(document.location.search &&
+ decodeURIComponent(document.location.search.slice(1)));
+if (choice) {
+  input.value = choice;
+  editor.setOption("theme", choice);
+}
+CodeMirror.on(window, "hashchange", function() {
+  var theme = location.hash.slice(1);
+  if (theme) { input.value = theme; selectTheme(); }
+});
+  </script>
+</article>
+  </body>
+</html>

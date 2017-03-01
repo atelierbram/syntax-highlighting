@@ -1,0 +1,327 @@
+<!doctype html>
+<html class="no-js" lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Demos for Prism</title>
+    <link rel="stylesheet" href="assets/css/demo.css">
+    <link rel="stylesheet" href="assets/css/prism-cb.css" id="styleLink">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="robots" content="index, follow">
+    <meta name="description" content="Demos for Prism highlighting themes"/>
+<link rel="author" href="https://plus.google.com/+BramdeHaan/posts">
+<script>if ( 'querySelector' in document && 'addEventListener' in window && Array.prototype.forEach ) { document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js '; }</script>
+  </head>
+  <body>
+  <header>
+    <div class="masthead col pad-h">
+      <h1>Prism</h1>
+      <!-- <a href="http://github.com/prismjs/prism-themes" class="themes-logo" id="themesLogo"><img class="logo" src="assets/img/svg/logo-prism-themes_356x227_optimised.svg" alt="Prism themes"></a> -->
+      <p>themes</p>
+    </div>
+          <!-- these themes don't really work (IMO) in these versions: -->
+          <!-- <option value="base16-3024.light">3024-light</option> -->
+          <!-- <option value="base16-ashes.light">Ashes-light</option> -->
+          <!-- <option value="base16-bespin.light">Bespin-light</option> -->
+          <!-- <option value="base16-bright.light">Bright-light</option> -->
+          <!-- <option value="base16-chalk.light">Chalk-light</option> -->
+          <!-- <option value="base16-colors.light">Colors-light</option> -->
+          <!-- <option value="base16-default.light">Base16 Default-light</option> -->
+          <!-- <option value="base16-eighties.light">Eighties-light</option> -->
+          <!-- <option value="base16-flat.light">Flat-light</option> -->
+          <!-- <option value="base16-google.dark">Google-dark</option> -->
+          <!-- <option value="base16-greenscreen.light">Greenscreen-light</option> -->
+          <!-- <option value="base16-harmonic16.light">Harmonic16-light</option> -->
+          <!-- <option value="base16-hopscotch.light">Hopscotch-light</option> -->
+          <!-- <option value="base16-isotope.light">Isotope-light</option> -->
+          <!-- <option value="base16-londontube.dark">Londontube-dark</option>  -->
+          <!-- <option value="base16-londontube.light">Londontube-light</option> -->
+          <!-- <option value="base16-mocha.light">Mocha-light</option> -->
+          <!-- <option value="base16-monokai.light">Monokai-light</option> -->
+          <!-- <option value="base16-ocean.light">Ocean-light</option> -->
+          <!-- <option value="base16-paraiso.light">Paraiso-light</option> -->
+          <!-- <option value="base16-pop.light">Pop-light</option> -->
+          <!-- <option value="base16-railscasts.light">Railscasts-light</option> -->
+          <!-- <option value="base16-shapeshifter.light">Shapeshifter-light</option> -->
+          <!-- <option value="base16-tomorrow.light">Base16 Tomorrow-light</option> -->
+          <!-- <option value="base16-twilight.light">Twilight-light</option> -->
+
+
+          <!-- these themes suffer from to light or dark colors: -->
+          <!--<option value="prism-base16-3024.dark">3024-dark</option> -->
+          <!--<option value="prism-base16-apathy.dark">Apathy-dark</option> -->
+          <!--<option value="prism-base16-apathy.light">Apathy-light</option> -->
+          <!-- <option value="prism-base16-codeschool.dark">Codeschool-dark</option> -->
+          <!-- <option value="prism-base16-codeschool.light">Codeschool-light</option> -->
+          <!-- <option value="prism-base16-colors.dark">Colors-dark</option> -->
+          <!-- <option value="prism-base16-default.dark">Base16 Default-dark</option> -->
+          <!-- <option value="prism-base16-eighties.dark">Eighties-dark</option> -->
+          <!-- <option value="prism-base16-embers.dark">Embers-dark</option> -->
+          <!-- <option value="prism-base16-embers.light">Embers-light</option> -->
+          <!-- <option value="prism-base16-flat.dark">Flat-dark</option> -->
+          <!-- <option value="prism-base16-bespin.dark">Bespin-dark</option> -->
+          <!-- <option value="prism-base16-pop.dark">Pop-dark</option> -->
+          <!-- <option value="prism-base16-shapeshifter.dark">Shapeshifter-dark</option> -->
+    <div class="col pad-h">
+      <label for="styleSwitcher">Choose a theme:&nbsp;</label>
+      <div class="button styleswitcher">
+        <select id="styleSwitcher">
+          <option value="prism-cb">CB</option>
+          <option value="prism-ghcolors">GHColors</option>
+          <option value="prism-pojoaque">Pojoaque</option>
+          <option value="prism-xonokai">Xonokai</option>
+          <option value="prism-base16-ashes.dark">Ashes-dark</option>
+          <!-- <option value="prism&#45;base16&#45;ateliercave.dark">Ateliercave&#45;dark</option> -->
+          <!-- <option value="prism&#45;base16&#45;ateliercave.light">Ateliercave&#45;light</option> -->
+          <!-- <option value="prism&#45;base16&#45;atelierdune.dark">Atelierdune&#45;dark</option> -->
+          <!-- <option value="prism&#45;base16&#45;atelierdune.light">Atelierdune&#45;light</option> -->
+          <!-- <option value="prism&#45;base16&#45;atelierestuary.dark">Atelierestuary&#45;dark</option> -->
+          <!-- <option value="prism&#45;base16&#45;atelierestuary.light">Atelierestuary&#45;light</option> -->
+          <!-- <option value="prism&#45;base16&#45;atelierforest.dark">Atelierforest&#45;dark</option> -->
+          <!-- <option value="prism&#45;base16&#45;atelierforest.light">Atelierforest&#45;light</option> -->
+          <!-- <option value="prism&#45;base16&#45;atelierheath.dark">Atelierheath&#45;dark</option> -->
+          <!-- <option value="prism&#45;base16&#45;atelierheath.light">Atelierheath&#45;light</option> -->
+          <!-- <option value="prism&#45;base16&#45;atelierplateau.dark">Atelierplateau&#45;dark</option> -->
+          <!-- <option value="prism&#45;base16&#45;atelierplateau.light">Atelierplateau&#45;light</option> -->
+          <!-- <option value="prism&#45;base16&#45;ateliersavanna.dark">Ateliersavanna&#45;dark</option> -->
+          <!-- <option value="prism&#45;base16&#45;ateliersavanna.light">Ateliersavanna&#45;light</option> -->
+          <!-- <option value="prism&#45;base16&#45;atelierlakeside.dark">Atelierlakeside&#45;dark</option> -->
+          <!-- <option value="prism&#45;base16&#45;atelierlakeside.light">Atelierlakeside&#45;light</option> -->
+          <!-- <option value="prism&#45;base16&#45;atelierseaside.dark">Atelierseaside&#45;dark</option> -->
+          <!-- <option value="prism&#45;base16&#45;atelierseaside.light">Atelierseaside&#45;light</option> -->
+          <!-- <option value="prism&#45;base16&#45;ateliersulphurpool.dark">Ateliersulphurpool&#45;dark</option> -->
+          <!-- <option value="prism&#45;base16&#45;ateliersulphurpool.light">Ateliersulphurpool&#45;light</option> -->
+          <option value="prism-atelier-cave-dark">Ateliercave-dark</option>
+          <option value="prism-atelier-cave-light">Ateliercave-light</option>
+          <option value="prism-atelier-dune-dark">Atelierdune-dark</option>
+          <option value="prism-atelier-dune-light">Atelierdune-light</option>
+          <option value="prism-atelier-estuary-dark">Atelierestuary-dark</option>
+          <option value="prism-atelier-estuary-light">Atelierestuary-light</option>
+          <option value="prism-atelier-forest-dark">Atelierforest-dark</option>
+          <option value="prism-atelier-forest-light">Atelierforest-light</option>
+          <option value="prism-atelier-heath-dark">Atelierheath-dark</option>
+          <option value="prism-atelier-heath-light">Atelierheath-light</option>
+          <option value="prism-atelier-plateau-dark">Atelierplateau-dark</option>
+          <option value="prism-atelier-plateau-light">Atelierplateau-light</option>
+          <option value="prism-atelier-savanna-dark">Ateliersavanna-dark</option>
+          <option value="prism-atelier-savanna-light">Ateliersavanna-light</option>
+          <option value="prism-atelier-lakeside-dark">Atelierlakeside-dark</option>
+          <option value="prism-atelier-lakeside-light">Atelierlakeside-light</option>
+          <option value="prism-atelier-seaside-dark">Atelierseaside-dark</option>
+          <option value="prism-atelier-seaside-light">Atelierseaside-light</option>
+          <option value="prism-atelier-sulphurpool-dark">Ateliersulphurpool-dark</option>
+          <option value="prism-atelier-sulphurpool-light">Ateliersulphurpool-light</option>
+          <option value="prism-base16-brewer.dark">Brewer-dark</option>
+          <option value="prism-base16-brewer.light">Brewer-light</option>
+          <option value="prism-base16-bright.dark">Bright-dark</option>
+          <option value="prism-base16-chalk.dark">Chalk-dark</option>
+          <option value="base16-duotone-dark.dark">Duotone-dark</option>
+          <option value="base16-duotone-darksea.dark">Duotone-darkSea-dark</option>
+          <option value="base16-duotone-darkspace.dark">Duotone-darkSpace-dark</option>
+          <option value="base16-duotone-darkearth.dark">Duotone-darkEarth-dark</option>
+          <option value="base16-duotone-darkforest.dark">Duotone-darkForest-dark</option>
+          <option value="base16-duotone-darkpool.dark">Duotone-darkPool-dark</option>
+          <option value="prism-base16-google.light">Google-light</option>
+          <option value="prism-base16-grayscale.dark">Grayscale-dark</option>
+          <option value="prism-base16-grayscale.light">Grayscale-light</option>
+          <option value="prism-base16-greenscreen.dark">Greenscreen-dark</option>
+          <option value="prism-base16-harmonic16.dark">Harmonic16-dark</option>
+          <option value="prism-base16-hopscotch.dark">Hopscotch-dark</option>
+          <option value="prism-base16-isotope.dark">Isotope-dark</option>
+          <option value="prism-base16-marrakesh.dark">Marrakesh-dark</option>
+          <option value="prism-base16-marrakesh.light">Marrakesh-light</option>
+          <option value="prism-base16-mocha.dark">Mocha-dark</option>
+          <option value="prism-base16-monokai.dark">Monokai-dark</option>
+          <option value="prism-base16-ocean.dark">Ocean-dark</option>
+          <option value="prism-base16-paraiso.dark">Paraiso-dark</option>
+          <option value="prism-base16-paraiso.light">Paraiso-light</option>
+          <option value="prism-base16-railscasts.dark">Railscasts-dark</option>
+          <option value="prism-base16-solarized.dark">Solarized-dark</option>
+          <option value="prism-base16-solarized.light">Solarized-light</option>
+          <option value="prism-base16-summerfruit.dark">Summerfruit-dark</option>
+          <option value="prism-base16-summerfruit.light">Summerfruit-light</option>
+          <option value="prism-base16-tomorrow.dark">Base16 Tomorrow-dark</option>
+          <option value="prism-base16-twilight.dark">Twilight-dark</option>
+          <option value="prism-atom-dark">Atom dark</option>
+          <option value="prism-cb">CB</option>
+          <option value="prism-ghcolors">GH colors</option>
+          <option value="prism-hopscotch">Hopscotch</option>
+          <option value="prism-pojoaque">Pojoaque</option>
+          <option value="prism-vs">VS</option>
+          <option value="prism-xonokai">Xonokai</option>
+        </select>
+      </div>
+    </div>
+  </header>
+
+  <main>
+  <div class="col">
+    <h2>HTML</h2>
+    <pre data-line="5" class="language-markup line-numbers"><code>&lt;!doctype html&gt;
+&lt;html class=&quot;no-js&quot; lang=&quot;en&quot;&gt;
+    &lt;head&gt;
+        &lt;meta charset=&quot;utf-8&quot;&gt;
+        &lt;meta http-equiv=&quot;x-ua-compatible&quot; content=&quot;ie=edge&quot;&gt;
+        &lt;title&gt;Demo&lt;/title&gt;
+        &lt;meta name=&quot;description&quot; content=&quot;Demo&quot;&gt;
+        &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1&quot;&gt;
+
+        &lt;link rel=&quot;apple-touch-icon&quot; href=&quot;apple-touch-icon.png&quot;&gt;
+        &lt;!-- Place favicon.ico in the root directory --&gt;
+
+        &lt;link rel=&quot;stylesheet&quot; href=&quot;/normalize.css"&gt;
+        &lt;link rel=&quot;stylesheet&quot; href=&quot;/main.css"&gt;</code></pre>
+  </div>
+  <div class="col">
+    <h2>CSS</h2>
+    <pre data-line="5" data-line="5" class="language-css line-numbers"><code>h1 {
+  font-size: 2em;
+  margin: 0.67em 0;
+}
+mark {
+  background: #ff0;
+  color: #000;
+}
+small {
+  font-size: 80% !important;
+}</code></pre>
+  </div>
+
+  <div class="col">
+    <h2>Sass <small>scss</small></h2>
+    <pre data-line="5" class="language-scss line-numbers"><code>.visuallyhidden {
+// Hide only visually, but have it available for screen readers:
+// http://snook.ca/archives/html_and_css/hiding-content-for-accessibility
+  border: 0;
+  clip: rect(0 0 0 0);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  width: 1px;
+}
+
+.inner-wrap {
+  max-width: 50em;
+  margin: 0 auto;
+  padding-left: emCalc(24);
+  padding-right: emCalc(24);
+}
+
+@media only screen and (min-width: 550px) {
+  article {
+    ul {
+      list-style: circle;
+    }
+    ol {
+      list-style: decimal;
+    }
+  }
+  .inner-wrap {
+    padding-left: emCalc(48);
+    padding-right: emCalc(48);
+  }
+}</code></pre>
+  </div>
+
+  <div class="col">
+    <h2>Javascript</h2>
+    <pre data-line="5" class="language-javascript line-numbers"><code>/*! loadJS: load a JS file asynchronously. [c]2014 @scottjehl, Filament Group, Inc. (Based on http://goo.gl/REQGQ by Paul Irish). Licensed MIT */
+(function( w ){
+  var loadJS = function( src, cb ){
+    "use strict";
+    var ref = w.document.getElementsByTagName( "script" )[ 0 ];
+    var script = w.document.createElement( "script" );
+    script.src = src;
+    script.async = true;
+    ref.parentNode.insertBefore( script, ref );
+    if (cb &amp;&amp; typeof(cb) === "function") {
+      script.onload = cb;
+    }
+    return script;
+  };
+  // commonjs
+  if( typeof module !== "undefined" ){
+    module.exports = loadJS;
+  }
+  else {
+    w.loadJS = loadJS;
+  }
+}( typeof global !== "undefined" ? global : this )); }</code></pre></div>
+
+  <div class="col">
+    <h2>&nbsp;</h2>
+    <pre data-line="5" class="language-javascript screenshot line-numbers">
+<code>
+function foo(bar) {
+    var a = 42,
+        b = &#39;Prism&#39;;
+    return a + bar(b);
+}</code></pre></div>
+
+  <div class="col">
+    <h2>PHP</h2>
+    <pre data-line="5" class="language-php line-numbers">
+<code>&lt;?php namespace App\Services;
+
+use App\User;
+use Validator;
+use Illuminate\Contracts\Auth\Registrar as RegistrarContract;
+
+class Registrar implements RegistrarContract {
+
+  /**
+   * Get a validator for an incoming registration request.
+   *
+   * @param  array  $data
+   * @return \Illuminate\Contracts\Validation\Validator
+   */
+public function validator(array $data)</code></pre></div>
+
+   <div class="col">
+    <h2>Ruby</h2>
+    <pre data-line="5" class="language-ruby line-numbers">
+<code>##
+# Array ISO Test
+
+assert(&#39;Array&#39;, &#39;15.2.12&#39;) do
+  assert_equal(Class, Array.class)
+end
+
+assert(&#39;Array inclueded modules&#39;, &#39;15.2.12.3&#39;) do
+  assert_true(Array.include?(Enumerable))
+end
+
+assert(&#39;Array.[]&#39;, &#39;15.2.12.4.1&#39;) do
+  assert_equal([1, 2, 3], Array.[](1,2,3))
+end</code></pre></div>
+
+    <div class="col">
+    <h2>Python</h2>
+    <pre data-line="5" class="language-python line-numbers">
+<code>class _BaseHTMLProcessor(sgmllib.SGMLParser):
+    elements_no_end_tag = [&#39;area&#39;, &#39;base&#39;, &#39;basefont&#39;, &#39;br&#39;, &#39;col&#39;, &#39;frame&#39;, &#39;hr&#39;,
+      &#39;img&#39;, &#39;input&#39;, &#39;isindex&#39;, &#39;link&#39;, &#39;meta&#39;, &#39;param&#39;]
+
+    _r_barebang = re.compile(r&#39;&lt;!((?!DOCTYPE|--|\[))&#39;, re.IGNORECASE)
+    _r_bareamp = re.compile(&quot;&amp;(?!#\d ;|#x[0-9a-fA-F] ;|\w ;)&quot;)
+    _r_shorttag = re.compile(r&#39;&lt;([^&lt;\s] ?)\s*/&gt;&#39;)
+
+    def __init__(self, encoding):
+        self.encoding = encoding
+        if _debug: sys.stderr.write(&#39;entering BaseHTMLProcessor, encoding=%s\n&#39; % self.encoding)
+        sgmllib.SGMLParser.__init__(self)</code></pre></div>
+
+
+  </main>
+  <footer>
+    <small><a href="http://github.com/prismjs/prism-themes">Repo on Github</a></small>
+  </footer>
+
+  <!-- <script src="http://cdnjs.cloudflare.com/ajax/libs/prism/0.0.1/prism.min.js"></script> -->
+  <script src="assets/js/prism.js"></script>
+  <script src="assets/js/styleswitcher.js"></script>
+  <!-- <script>WebFontConfig = {google: {families: ['Questrial::latin','Open+Sans+Condensed:300:latin']}};(function(){var wf = document.createElement('script');wf.src = ('https:' == document.location.protocol ? 'https' : 'http') + '://ajax.googleapis.com/ajax/libs/webfont/1/webfont.js'; wf.type = 'text/javascript'; wf.async = 'true'; var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(wf, s);})();</script> -->
+  <script src="assets/js/svg-test.js"></script>
+  </body>
+  </html>

@@ -1,0 +1,111 @@
+*,
+*::before,
+*::after {
+  // box-sizing: inherit;
+  // outline: 1px dotted salmon;
+}
+html {
+  font-family: sans-serif;
+  font-size: 16px;
+}
+html,
+body {
+  height: 100%;
+}
+body {
+  margin: 0;
+  // padding: 0 2.5em;
+  font-size: 100%;
+  line-height: 1.5;
+  background: #808080;
+  color: #111;
+  min-height: 100%;
+  box-sizing: border-box;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: subpixel-antialiased!important;
+}
+body,
+select {
+  font-family: Questrial, AvenirNext-Regular, Corbel, "Lucida Grande", "Trebuchet Ms", sans-serif;
+}
+
+a:active,
+a:hover {
+  outline: 0;
+}
+
+[class*="language-"] a {
+  background: transparent;
+  color: inherit;
+  text-decoration: none;
+  pointer-events: none;
+}
+
+img,
+svg {
+  max-width: 100%;
+}
+
+header,
+main,
+footer {
+  display: block;
+}
+main,
+footer {
+  padding-right: 2.5rem;
+  padding-left: 2.5rem;
+  overflow: auto;
+}
+header,
+footer {
+  padding-top: 1rem;
+  background-color: $dark0_hard;
+//  background: $dark0_hard url(../img/spectrum.png) fixed;
+  color: $light0_hard;
+  padding-bottom: 1px; // somehow collapses otherwise
+}
+header {
+  // padding-top: 1rem;
+  // background-color: $dark0_hard;
+  // background: $dark0_hard url(../img/spectrum.png) fixed;
+  // color: $light0_hard;
+  // padding-bottom: 1px; // somehow collapses otherwise
+}
+footer {
+  text-align: center;
+}
+footer a {
+  display: block;
+  padding: .25em 0 1.5em;
+  letter-spacing: 2px;
+  color: $light0_hard;
+}
+footer a:hover {
+  color: peachpuff;
+}
+main {
+  padding-bottom: 6em;
+}
+
+.col {
+  // overflow: hidden;
+}
+.col pre {
+  max-height: 300px;
+  border-radius: 5px;
+}
+.pad-h {
+  padding-right: 3.5rem;
+  padding-left: 3.5rem;
+}
+// only for screenshot
+.col .screenshot {
+  display: inline-block;
+  font-size: 16px;
+  padding-left: 1.5em;
+  padding-right: 3.5em;
+  padding-top: .5em;
+  border: 1px solid #eee;
+  border-color: #f4f4f4 #eee #ebebeb;
+}

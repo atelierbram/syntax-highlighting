@@ -1,0 +1,39 @@
+
+
+set default-bg                  "#e2dfe7"
+set default-fg                  "#26232a"
+
+set statusbar-fg                "#585260"
+set statusbar-bg                "#7e7887"
+
+set inputbar-bg                 "#19171c"
+set inputbar-fg                 "#585260"
+
+set notification-error-bg       "#be4678"
+set notification-error-fg       "#e2dfe7"
+
+set notification-warning-bg     "#be4678"
+set notification-warning-fg     "#e2dfe7"
+
+set highlight-color             "#a06e3b"
+set highlight-active-color      "#be4678"
+
+set completion-highlight-fg     "#8b8792"
+set completion-highlight-bg     "#398bc6"
+
+set completion-bg               "#8b8792"
+set completion-fg               "#398bc6"
+
+set notification-bg             "#2a9292"
+set notification-fg             "#efecf4"
+
+set recolor-lightcolor          "#e2dfe7"
+set recolor-darkcolor           "#585260"
+set recolor                     "true"
+
+# setting recolor-keephue true will keep any color your pdf
+# has.  If it is set to false, it will just be shades of
+# gray.  (lol 50 shades of gray)
+set recolor-keephue             "true"
+
+# Rest of your configs go here:

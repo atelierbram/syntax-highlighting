@@ -1,0 +1,66 @@
+/**
+ * Base16 Duotone-DarkCave Dark
+ *
+ * @author adapted from: Simurai (https://github.com/simurai/duotone-dark-syntax/)
+ *
+ * Rainbow template by Jan T. Sott (https://github.com/idleberg/)
+ * Original Base16 color scheme by Chris Kempson (https://github.com/chriskempson/base16)
+ */
+$base00 = #222021;
+$base01 = #2f2d2d;
+$base02 = #585153;
+$base03 = #665c5f;
+$base04 = #74676c;
+$base05 = #9b7d88;
+$base06 = #dbbdc7;
+$base07 = #ffebf2;
+$base08 = #ab2151;
+$base09 = #d2bc4b;
+$base0a = #e5cf61;
+$base0b = #c6be95;
+$base0c = #ffee99;
+$base0d = #f4e07c;
+$base0e = #e21d62;
+$base0f = #c5205a;
+
+pre {
+    background-color: $base00;
+    word-wrap: break-word;
+    margin: 0px;
+    padding: 10px;
+    color: $base07;
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+
+pre, code {
+    font-family: 'Monaco', courier, monospace;
+}
+
+pre .comment {
+    color: $base03;
+}
+
+pre .variable.global, pre .variable.class, pre .variable.instance {
+    color: $base08; // red
+}
+
+pre .constant.numeric, pre .constant.language, pre .constant.hex-color, pre .keyword.unit {
+    color: $base09; // orange
+}
+
+pre .constant, pre .entity, pre .entity.class, pre .support {
+    color: $base0a; // yellow
+}
+
+pre .constant.symbol, pre .string {
+    color: $base0b; // green
+}
+
+pre .entity.function, pre .support.css-property, pre .selector {
+    color: $base0d; // blue
+}
+
+pre .keyword, pre .storage {
+    color: $base0e; // purple
+}

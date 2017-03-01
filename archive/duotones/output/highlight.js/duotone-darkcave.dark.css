@@ -1,0 +1,110 @@
+/* Base16 Duotone-DarkCave Dark - Theme */
+/* by adapted from: Simurai (https://github.com/simurai/duotone-dark-syntax/) */
+/* Original Base16 color scheme by Chris Kempson (https://github.com/chriskempson/base16) */
+
+/* Duotone-DarkCave Comment */
+.hljs-comment {
+  color: #74676c;
+}
+
+/* Duotone-DarkCave Red */
+.hljs-variable,
+.hljs-attribute,
+.hljs-tag,
+.hljs-regexp,
+.hljs-name,
+.ruby .hljs-constant,
+.xml .hljs-tag .hljs-title,
+.xml .hljs-pi,
+.xml .hljs-doctype,
+.html .hljs-doctype,
+.css .hljs-id,
+.css .hljs-class,
+.css .hljs-pseudo {
+  color: #ab2151;
+}
+
+/* Duotone-DarkCave Orange */
+.hljs-number,
+.hljs-preprocessor,
+.hljs-built_in,
+.hljs-literal,
+.hljs-params,
+.hljs-constant {
+  color: #d2bc4b;
+}
+
+/* Duotone-DarkCave Yellow */
+.ruby .hljs-class .hljs-title,
+.css .hljs-rule .hljs-attribute {
+  color: #e5cf61;
+}
+
+/* Duotone-DarkCave Green */
+.hljs-string,
+.hljs-value,
+.hljs-inheritance,
+.hljs-header,
+.ruby .hljs-symbol,
+.xml .hljs-cdata {
+  color: #c6be95;
+}
+
+/* Duotone-DarkCave Aqua */
+.hljs-title,
+.css .hljs-hexcolor {
+  color: #ffee99;
+}
+
+/* Duotone-DarkCave Blue */
+.hljs-function,
+.python .hljs-decorator,
+.python .hljs-title,
+.ruby .hljs-function .hljs-title,
+.ruby .hljs-title .hljs-keyword,
+.perl .hljs-sub,
+.javascript .hljs-title,
+.coffeescript .hljs-title {
+  color: #f4e07c;
+}
+
+/* Duotone-DarkCave Purple */
+.hljs-keyword,
+.javascript .hljs-function {
+  color: #e21d62;
+}
+
+.diff .hljs-deletion,
+.diff .hljs-addition {
+  color: #222021;
+  display: inline-block;
+  width: 100%;
+}
+.diff .hljs-deletion {
+  background-color: #ab2151;
+}
+.diff .hljs-addition {
+  background-color: #c6be95;
+}
+.diff .hljs-change {
+  color: #f4e07c;
+}
+
+.hljs {
+  display: block;
+  overflow-x: auto;
+  background: #222021;
+  color: #9b7d88;
+  padding: 0.5em;
+  -webkit-text-size-adjust: none;
+}
+
+.coffeescript .javascript,
+.javascript .xml,
+.tex .hljs-formula,
+.xml .javascript,
+.xml .vbscript,
+.xml .css,
+.xml .hljs-cdata {
+  opacity: 0.5;
+}

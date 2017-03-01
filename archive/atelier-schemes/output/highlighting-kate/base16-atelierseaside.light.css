@@ -1,0 +1,23 @@
+/* Base16 Atelier Seaside
+Scheme: Bram de Haan (http://atelierbram.github.io/syntax-highlighting/atelier-schemes/seaside/) */
+
+table.sourceCode, tr.sourceCode, td.sourceCode, table.sourceCode pre
+{ margin: 0; padding: 0; border: 0; vertical-align: baseline; border: none; background-color: #f4fbf4; color: #5e6e5e }
+td.nums { text-align: right; padding-right: 5px; padding-left: 5px; background-color: #cfe8cf; }
+td.sourceCode { padding-left: 5px; }
+code.sourceCode { background-color: #f4fbf4; }
+pre.sourceCode { background-color: #f4fbf4; line-height: 125% }
+td.nums pre { background-color: #cfe8cf; line-height: 125% }
+code.sourceCode span.kw { color: #3d62f5; font-weight: bold } /* Keyword */
+code.sourceCode span.dt { color: #ad2bee} /* Keyword.Type */
+code.sourceCode span.dv { color: #87711d } /* Literal.Number.Integer */
+code.sourceCode span.bn { color: #87711d } /* Literal.Number.Hex */
+code.sourceCode span.fl { color: #87711d } /* Literal.Number.Float */
+code.sourceCode span.ch { color: #29a329} /* Literal.String.Char */
+code.sourceCode span.st { color: #29a329 } /* Literal.String */
+code.sourceCode span.co { color: #687d68 } /* Comment */
+code.sourceCode span.ot { color: #e619c3 } /* Comment.Preproc */
+code.sourceCode span.al { color: #ad2bee } /* Generic.Error */
+code.sourceCode span.fu { color: #98981b } /* Name.Function */
+code.sourceCode span.re { color: #1999b3}
+code.sourceCode span.er { color: #e6193c; border: 1px solid #ad2bee } /* Error */

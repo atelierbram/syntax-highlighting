@@ -1,0 +1,58 @@
+.masthead {
+  // background-color: $dark0_hard;
+  // height: 150px;
+  // background: $dark0_hard url(../img/svg/logo.svg) 0 0 no-repeat;
+}
+.themes-logo {
+  display: block;
+  width: 267px;
+  // height: 170px;
+  // no-svg fallback set in svg-test.js
+  // background: url(assets/img/logo-prism-themes_356x227.png); 
+  // background-size: contain;
+}
+.masthead img {
+  // width: 267px;
+  // height: 170px;
+  // margin-bottom: .3em;
+  border: 0;
+}
+.masthead h1,
+.masthead p {
+  display: inline-block;
+}
+.svg .masthead h1,
+.svg .masthead p,
+.visuallyhidden {
+  border: 0;
+  clip: rect(0 0 0 0);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  width: 1px;
+  color: transparent;
+  font: 0/1 sans-serif;
+}
+h2 {
+  margin: 0;
+  font-weight: normal;
+}
+h2 {
+  font-family: Questrial, "Open Sans Condensed", AvenirNextCondensed-DemiBold, "DejaVu Sans Condensed", "Lucida Grande", Corbel, "Trebuchet Ms", sans-serif;
+  font-size: 1.5rem;
+  padding-left: 1rem;
+  margin-top: 2em;
+  // color: #222;
+  color: $dark0_soft;
+}
+[class*=".dark"] h2 {
+  color: silver;
+  letter-spacing: 1px;
+}
+[class*=".light"] h2 {
+  // color: $dark0_soft;
+  // text-shadow: 0 1px 2px rgba(0,0,0, .2);
+}
+

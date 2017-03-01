@@ -1,0 +1,144 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+
+    <title>Syntax highlighting</title>
+    <link href="../assets/css/screen.css" media="screen, projection" rel="stylesheet" type="text/css" />
+    <link href="../assets/css/app.css" media="screen, projection" rel="stylesheet" type="text/css" />
+
+    <meta name="viewport" content="width=device-width">
+    <meta name="author" content="Bram de Haan">
+    <meta name="robots" content="index, follow">  <meta name="description" content="Colection of colorschemes for Code Syntax highlighting"/>
+    <link rel="author" href="https://plus.google.com/111567145811003203990/posts">
+    <style>del { text-decoration: strike-through; }</style>
+  </head>
+  <body>
+    <header id="header" class="row header">
+    <div class="large-4 columns">
+
+      <h1 class="repo-title"><a href="http://atelierbram.github.io/syntax-highlighting/">Syntax Highlighting <span class="tagline sh-small">colorschemes</span></a></h1>
+    </div>
+    <nav class="large-8 columns ">
+    <ul class="inline-list right">
+      <li><a href="http://atelierbram.github.io/syntax-highlighting/prism">Prism</a>
+      <li><a href="../duotones">Duotones</a></li>
+      <li><a href="../atelier-schemes/" data-dropdown="drop-atelierschemes" class="button dropdown dropdown-atelier">Atelier Schemes<span data-dropdown="drop-atelierschemes"></span></a><br>
+      <ul id="drop-atelierschemes" class="f-dropdown small" data-dropdown-content>
+        <li><a href="../atelier-schemes/">index - overview</a></li>
+        <li><a href="../atelier-schemes/forest/">Forest</a></li>
+        <li><a href="../atelier-schemes/heath">Heath</a></li>
+        <li><a href="../atelier-schemes/sulpherpool">Sulpherpool</a></li>
+        <li><a href="../atelier-schemes/lakeside/">Lakeside</a></li>
+        <li><a href="../atelier-schemes/seaside/">Seaside</a></li>
+        <li><a href="../output">Output</a></li>
+      </ul>
+      </li>
+
+    </ul>
+    </nav>
+    </header>
+    <div class="row outer-wrap">
+      <article class="article article--demo">
+
+      <div class="inner-wrap">
+        <h2 class="project-title">Chrome Devtools <small>colorschemes</small></h2>
+        <p><del>One can change the way Chrome Developer Tools looks by having a custom CSS stylesheet, named <code>Custom.css</code>.
+        The path for the directory that contains the file:</del></p>
+        <pre><code>
+<del>Mac: "Library/Application Support/Google/Chrome/Default/User StyleSheets/"
+Linux: "~/.config/chrome/Default/User StyleSheets/"
+Windows: "C:\Users\**Your username**\AppData\Local\Google\Chrome\User Data\Default\User StyleSheets\"</del>
+</code></pre>
+
+<p>Method above will not work anymore.</p>
+<p>To make Solarized Light Theme work in <a href="https://www.google.com/intl/nl/chrome/browser/canary.html">Crome Canary</a>, follow the instructions on:</p>
+<ul>
+<li><a href="http://stackoverflow.com/questions/21207474/custom-css-stop-to-work-in-32-0-1700-76-m-google-chrome-update">Official method (Chrome 33+ only) taken from stackoverflow</a></li>
+ <li><a href="https://github.com/mauricecruz/chrome-devtools-zerodarkmatrix-theme">ZeroDarkMatrix Theme for Chrome</a></li>
+</ul>
+
+<p><a href="zero-base-themes/canary-theme-extension/styles.css">You can download the stylesheet</a>, but better (edit and) regenerate the <a href="zero-base-themes/themes/solarized-light.less">.less file</a>, which is build on top of <a href="https://github.com/mauricecruz/zero-base-themes">Zero Base Themes</a></p>
+
+        <p>For tweaking the theme you can use DevTools itself to inspect Devtools:
+        </p>
+        <ol>
+          <li>
+          undock DevTools
+          </li>
+          <li>
+          then hit Ctrl-Alt-i or Cmd+alt+i on Mac
+          </li>
+          <li>
+          now you have yet another undocked DevTools window with all the DevTools markup to inspect the DevTools-window you undocked in step 1 &hellip;
+          </li>
+
+        </ol>
+
+        <h3 id="solarized-light">Solarized Light</h3>
+
+        <p>Solarized Light is a syntax highlighting colorscheme, made by <a href="http://ethanschoonover.com/">Ethan Schoonover</a>. It is well balanced, and thoroughly tested, and comes in two varieties: a dark, or a light background. </p>
+
+        <p>For <a href="http://atelierbram.github.io/syntax-highlighting/chrome-devtools/css/Custom.css">this Chrome-DevTools colorscheme</a> the light background-color variety was the starting point. In a few places the dark background give some extra contrast.</p>
+
+        <figure class="sh-fig sh-screenshot">
+        <img src="https://lh3.googleusercontent.com/-RBaou2IeYOw/Ug6SDCxgI0I/AAAAAAAAAlQ/0yR4Ugm2gGM/s800/screenshot_chrome-devtools_solarized-light_640x480.png" alt="screenshot Chrome DevTools with solarized-light colorscheme" class="sh-img" >
+        <figcaption class="fig-cap">
+   <pre>Screenshot of Chrome DevTools (undocked), themed with Solarized-Light</pre>
+        </figcaption>
+        </figure>
+
+
+        <p><a href="http://atelierbram.github.io/syntax-highlighting/chrome-devtools/zero-base-themes/canary-theme-extension/styles.css" class="sh-button">download</a></p>
+
+        <h3 id="external-links">External Links</h3>
+        <ul>
+          <li><a href="http://darcyclarke.me/design/skin-your-chrome-inspector/">Skin your Chrome Inspector, by Darcy Clarke</a></li>
+          <li><a href="https://plus.google.com/+AddyOsmani/posts/UZF34wPJXsL">Tips and links by Addy Osmani</a></li>
+          <li><a href="http://devthemez.com/themes/chrome-developer-tools">more Themes for Chrome Developer Tools</a></li>
+          <li><a href="http://ethanschoonover.com/solarized">Solarized project page</a></li>
+          <li><a href="https://github.com/altercation/solarized">Solarized on Github</a></li>
+        </ul>
+
+        <p><a href="#header" class="go-to-top sh-button"><svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="50px" height="50px" viewBox="0 0 50 50" enable-background="new 0 0 50 50" xml:space="preserve">
+          <g id="outline-black">
+          <path opacity="0.5" d="M25,3L3,34l12-1v13h20V33l12,1L25,3z"/>
+          </g>
+          <g id="inner-white">
+          <polygon fill="#FFFFFF" points="42,31 25,7 8,31 18,30 18,44 32,44 32,30 	"/>
+          </g>
+          </svg><span class="up-arrow">&#11014;</span>
+          <span class="visuallyhidden">Go to Top</span></a>
+        </p>
+
+      </div>
+      </article>
+
+
+    <footer class="page-footer">
+    <div class="large-12 columns">
+      <div class="row">
+        <div class="large-8 columns">
+          <p id="license" class="copyright">&copy; 2013 <a href="http://atelierbramdehaan.nl" class="underline">Atelier Bram de Haan</a>, Releases under <a href="http://atelierbram.mit-license.org" class="underline">MIT License</a></p>
+        </div>
+        <div class="large-4 columns">
+          <a href="https://github.com/atelierbram/syntax-highlighting" class="sh-button">This repo on Github</a>
+        </div>
+      </div>
+    </div>
+    </footer>
+   </div>
+
+    <script>
+      document.write('<script src=' +
+        ('__proto__' in {} ? '../assets/js/vendor/zepto.min' : '../assets/js/vendor/jquery') +
+        '.js><\/script>')
+      </script>
+      <script src="../assets/js/foundation/foundation.min.js"></script>
+      <script src="../assets/js/foundation/foundation.dropdown.min.js"></script>
+      <script>
+        $(document).foundation();
+      </script>
+      <script src="../assets/js/vendor/custom.modernizr.js"></script>
+    </body>
+  </html>

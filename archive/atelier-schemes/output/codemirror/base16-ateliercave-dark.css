@@ -1,0 +1,33 @@
+/*
+
+    Name:       Base16 Atelier Cave Dark
+    Author:     Bram de Haan (http://atelierbram.github.io/syntax-highlighting/atelier-schemes/cave)
+
+    CodeMirror template by Jan T. Sott (https://github.com/idleberg)
+    Original Base16 color scheme by Chris Kempson (https://github.com/chriskempson/base16)
+
+*/
+
+.cm-s-base16-ateliercave-dark.CodeMirror {background: #19171c; color: #e2dfe7;}
+.cm-s-base16-ateliercave-dark div.CodeMirror-selected {background: #26232a !important;}
+.cm-s-base16-ateliercave-dark .CodeMirror-gutters {background: #19171c; border-right: 0px;}
+.cm-s-base16-ateliercave-dark .CodeMirror-linenumber {color: #655f6d;}
+.cm-s-base16-ateliercave-dark .CodeMirror-cursor {border-left: 1px solid #7e7887 !important;}
+
+.cm-s-base16-ateliercave-dark span.cm-comment {color: #bf40bf;}
+.cm-s-base16-ateliercave-dark span.cm-atom {color: #955ae7;}
+.cm-s-base16-ateliercave-dark span.cm-number {color: #955ae7;}
+
+.cm-s-base16-ateliercave-dark span.cm-property, .cm-s-base16-ateliercave-dark span.cm-attribute {color: #2a9292;}
+.cm-s-base16-ateliercave-dark span.cm-keyword {color: #be4678;}
+.cm-s-base16-ateliercave-dark span.cm-string {color: #a06e3b;}
+
+.cm-s-base16-ateliercave-dark span.cm-variable {color: #2a9292;}
+.cm-s-base16-ateliercave-dark span.cm-variable-2 {color: #576ddb;}
+.cm-s-base16-ateliercave-dark span.cm-def {color: #aa573c;}
+.cm-s-base16-ateliercave-dark span.cm-error {background: #be4678; color: #7e7887;}
+.cm-s-base16-ateliercave-dark span.cm-bracket {color: #e2dfe7;}
+.cm-s-base16-ateliercave-dark span.cm-tag {color: #be4678;}
+.cm-s-base16-ateliercave-dark span.cm-link {color: #955ae7;}
+
+.cm-s-base16-ateliercave-dark .CodeMirror-matchingbracket { text-decoration: underline; color: white !important;}

@@ -1,0 +1,162 @@
+/*
+
+Name:       Base16 Duotone-DarkCave Dark
+Author:     adapted from: Simurai (https://github.com/simurai/duotone-dark-syntax/)
+
+Prism template by Bram de Haan (http://atelierbram.github.io/syntax-highlighting/prism/)
+Original Base16 color scheme by Chris Kempson (https://github.com/chriskempson/base16)
+
+*/
+
+@base00: #222021;
+@base01: #2f2d2d;
+@base02: #585153;
+@base03: #665c5f;
+@base04: #74676c;
+@base05: #9b7d88;
+@base06: #dbbdc7;
+@base07: #ffebf2;
+@base08: #ab2151;
+@base09: #d2bc4b;
+@base0A: #e5cf61;
+@base0B: #c6be95;
+@base0C: #ffee99;
+@base0D: #f4e07c;
+@base0E: #e21d62;
+@base0F: #c5205a;
+
+code[class*="language-"],
+pre[class*="language-"] {
+  font-family: Consolas, Menlo, Monaco, "Andale Mono WT", "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", "DejaVu Sans Mono", "Bitstream Vera Sans Mono", "Liberation Mono", "Nimbus Mono L", "Courier New", Courier, monospace;
+  font-size: 14px;
+  line-height: 1.375;
+  direction: ltr;
+  text-align: left;
+  white-space: pre;
+  word-spacing: normal;
+  word-break: normal;
+
+  -moz-tab-size: 4;
+  -o-tab-size: 4;
+  tab-size: 4;
+
+  -webkit-hyphens: none;
+  -moz-hyphens: none;
+  -ms-hyphens: none;
+  hyphens: none;
+  background: base00;
+  color: @base05;
+}
+
+pre[class*="language-"]::-moz-selection, pre[class*="language-"] ::-moz-selection,
+code[class*="language-"]::-moz-selection, code[class*="language-"] ::-moz-selection {
+  text-shadow: none;
+  background: @base04;
+}
+
+pre[class*="language-"]::selection, pre[class*="language-"] ::selection,
+code[class*="language-"]::selection, code[class*="language-"] ::selection {
+  text-shadow: none;
+  background: @base04;
+}
+
+/* Code blocks */
+pre[class*="language-"] {
+  padding: 1em;
+  margin: .5em 0;
+  overflow: auto;
+}
+
+/* Inline code */
+:not(pre) > code[class*="language-"] {
+  padding: .1em;
+  border-radius: .3em;
+}
+
+.token.punctuation,
+.token.comment,
+.token.prolog,
+.token.doctype,
+.token.cdata {
+  color: @base03;
+}
+
+.token.namespace {
+  opacity: .7;
+}
+
+.token.tag,
+.token.operator,
+.token.boolean,
+.token.number {
+  color: @base09;
+}
+.token.property {
+  color: @base05;
+}
+
+.token.tag-id,
+.token.selector,
+.token.atrule-id {
+  color: @base07;
+}
+
+code.language-javascript,
+.token.attr-name {
+  color: @base06;
+}
+
+code.language-css,
+code.language-scss,
+.token.string,
+.token.entity,
+.token.url,
+.language-css .token.string,
+.language-scss .token.string,
+.style .token.string,
+.token.attr-value,
+.token.keyword,
+.token.control,
+.token.directive,
+.token.unit,
+.token.statement,
+.token.regex,
+.token.atrule {
+  color: @base0C;
+}
+
+.token.placeholder,
+.token.variable {
+  color: @base0D;
+}
+
+.token.deleted {
+  text-decoration: line-through;
+}
+
+.token.inserted {
+  border-bottom: 1px dotted @base07;
+  text-decoration: none;
+}
+
+.token.italic {
+  font-style: italic;
+}
+
+.token.important,
+.token.bold {
+  font-weight: bold;
+}
+
+.token.important {
+  color: @base08;
+}
+
+.token.entity {
+  cursor: help;
+}
+
+pre > code.highlight {
+  outline: .4em solid @base08;
+  outline-offset: .4em;
+}

@@ -1,0 +1,88 @@
+/*
+Name:       <%= @scheme %>
+Author:     <%= @author %>
+
+CodeMirror template by Jan T. Sott (https://github.com/idleberg), adapted by Bram de Haan (https://github.com/atelierbram/)
+*/
+
+.cm-s-<%= @slug %>-light-cm.CodeMirror { background: #<%= @base["07"]["hex"] %>; color: #<%= @base["05"]["hex"] %>; }
+.cm-s-<%= @slug %>-light-cm div.CodeMirror-selected { background: #<%= @base["02"]["hex"] %> !important; }
+.cm-s-<%= @slug %>-light-cm .CodeMirror-gutters { background: #<%= @base["07"]["hex"] %>; border-right: 0px; }
+.cm-s-<%= @slug %>-light-cm .CodeMirror-linenumber { color: #<%= @base["03"]["hex"] %>; }
+
+/* Cursor - some of these styles need to be removed: hardcoded these into the base16-builder template because base16 does not support alpha channels */
+.cm-s-<%= @slug %>-light-cm .CodeMirror-cursor { border-left: 1px solid hsla(0, 100%, 0%, 0.25); border-right: .5em solid hsla(0, 100%, 100%, 0.25); }
+.cm-s-<%= @slug %>-light-cm .CodeMirror-activeline-background { background: #<%= @base["01"]["hex"] %>; }
+.cm-s-<%= @slug %>-light-cm .cm-fat-cursor .CodeMirror-cursor { background: hsla(0, 100%, 100%, 0.25); }
+
+/* default Dark */
+.cm-s-duotone-dark-cm .CodeMirror-cursor { border-left: 1px solid hsla(30, 100%, 66%, 0.5); border-right: .5em solid hsla(20, 100%, 66%, .5); }
+.cm-s-duotone-dark-cm .cm-fat-cursor .CodeMirror-cursor { background: hsla(30, 100%, 66%, 0.5); }
+
+/* DarkSea */
+.cm-s-duotone-darksea-cm .CodeMirror-cursor { border-left: 1px solid hsla(160, 100%, 66%, 0.5); border-right: .5em solid hsla(160, 100%, 66%, .5); }
+.cm-s-duotone-darksea-cm .cm-fat-cursor .CodeMirror-cursor { background: hsla(160, 100%, 66%, 0.5); }
+
+/* DarkSpace */
+.cm-s-duotone-darkspace-cm .CodeMirror-cursor { border-left: 1px solid hsla(20, 100%, 66%, 0.5); border-right: .5em solid hsla(20, 100%, 66%, .5); }
+.cm-s-duotone-darkspace-cm .cm-fat-cursor .CodeMirror-cursor { background: hsla(20, 100%, 66%, 0.5); }
+
+/* DarkEarth */
+.cm-s-duotone-darkearth-cm .CodeMirror-cursor { border-left: 1px solid hsla(42, 100%, 66%, 0.5); border-right: .5em solid hsla(42, 100%, 66%, .5); }
+.cm-s-duotone-darkearth-cm .cm-fat-cursor .CodeMirror-cursor { background: hsla(42, 100%, 66%, 0.5); }
+
+/* DarkForest */
+.cm-s-duotone-darkforest-cm .CodeMirror-cursor { border-left: 1px solid hsla(70, 100%, 66%, 0.5); border-right: .5em solid hsla(70, 100%, 66%, .5); }
+.cm-s-duotone-darkforest-cm .cm-fat-cursor .CodeMirror-cursor { background: hsla(70, 100%, 66%, 0.5); }
+
+/* DarkCave */
+.cm-s-duotone-darkcave-cm .CodeMirror-cursor { border-left: 1px solid hsla(50, 100%, 66%, 0.5); border-right: .5em solid hsla(50, 100%, 66%, .5); }
+.cm-s-duotone-darkcave-cm .cm-fat-cursor .CodeMirror-cursor { background: hsla(50, 100%, 66%, 0.5); }
+
+/* DarkDesert */
+.cm-s-duotone-darkdesert-cm .CodeMirror-cursor { border-left: 1px solid hsla(24, 100%, 66%, 0.5); border-right: .5em solid hsla(24, 100%, 66%, .5); }
+.cm-s-duotone-darkdesert-cm .cm-fat-cursor .CodeMirror-cursor { background: hsla(24, 100%, 66%, 0.5); }
+
+/* DarkHeath */
+.cm-s-duotone-darkheath-cm .CodeMirror-cursor { border-left: 1px solid hsla(35, 100%, 66%, 0.5); border-right: .5em solid hsla(35, 100%, 66%, .5); }
+.cm-s-duotone-darkheath-cm .cm-fat-cursor .CodeMirror-cursor { background: hsla(35, 100%, 66%, 0.5); }
+
+/* DarkMeadow */
+.cm-s-duotone-darkmeadow-cm .CodeMirror-cursor { border-left: 1px solid hsla(100, 100%, 66%, 0.5); border-right: .5em solid hsla(100, 100%, 66%, .5); }
+.cm-s-duotone-darkmeadow-cm .cm-fat-cursor .CodeMirror-cursor { background: hsla(100, 100%, 66%, 0.5); }
+
+/* DarkPark */
+.cm-s-duotone-darkpark-cm .CodeMirror-cursor { border-left: 1px solid hsla(190, 100%, 66%, 0.5); border-right: .5em solid hsla(190, 100%, 66%, .5); }
+.cm-s-duotone-darkpark-cm .cm-fat-cursor .CodeMirror-cursor { background: hsla(190, 100%, 66%, 0.5); }
+
+/* DarkLake */
+.cm-s-duotone-darklake-cm .CodeMirror-cursor { border-left: 1px solid hsla(329, 100%, 66%, 0.5); border-right: .5em solid hsla(329, 100%, 66%, .5); }
+.cm-s-duotone-darklake-cm .cm-fat-cursor .CodeMirror-cursor { background: hsla(329, 100%, 66%, 0.5); }
+
+/* DarkPool */
+.cm-s-duotone-darkpool-cm .CodeMirror-cursor { border-left: 1px solid hsla(343, 100%, 66%, 0.5); border-right: .5em solid hsla(343, 100%, 66%, .5); }
+.cm-s-duotone-darkpool-cm .cm-fat-cursor .CodeMirror-cursor { background: hsla(343, 100%, 66%, 0.5); }
+
+/* Light theme */
+.cm-s-duotone-light-light-cm .CodeMirror-cursor { border-left: 1px solid hsla(220, 100%, 66%, 0.5); border-right: .5em solid hsla(220, 100%, 66%, .5); }
+.cm-s-duotone-light-light-cm .cm-fat-cursor .CodeMirror-cursor { background: hsla(220, 100%, 66%, 0.5); }
+
+/* end cursor */
+.cm-s-<%= @slug %>-light-cm span.cm-atom, .cm-s-<%= @slug %>-light-cm span.cm-number, .cm-s-<%= @slug %>-light-cm span.cm-keyword, .cm-s-<%= @slug %>-light-cm span.cm-variable, .cm-s-<%= @slug %>-light-cm span.cm-attribute, .cm-s-<%= @slug %>-light-cm span.cm-quote, .cm-s-<%= @slug %>-light-cm span.cm-hr, .cm-s-<%= @slug %>-light-cm span.cm-link { color: #<%= @base["09"]["hex"] %>; }
+
+.cm-s-<%= @slug %>-light-cm span.cm-property { color: #<%= @base["05"]["hex"] %>; }
+.cm-s-<%= @slug %>-light-cm span.cm-punctuation, .cm-s-<%= @slug %>-light-cm span.cm-unit, .cm-s-<%= @slug %>-light-cm span.cm-negative { color: #<%= @base["09"]["hex"] %>; }
+.cm-s-<%= @slug %>-light-cm span.cm-string { color: #<%= @base["0D"]["hex"] %>; }
+.cm-s-<%= @slug %>-light-cm span.cm-operator { color: #<%= @base["0A"]["hex"] %>; }
+.cm-s-<%= @slug %>-light-cm span.cm-positive { color: #<%= @base["08"]["hex"] %>; }
+
+.cm-s-<%= @slug %>-light-cm span.cm-variable-2, .cm-s-<%= @slug %>-light-cm span.cm-variable-3, .cm-s-<%= @slug %>-light-cm span.cm-string-2, .cm-s-<%= @slug %>-light-cm span.cm-url { color: #<%= @base["08"]["hex"] %>; }
+.cm-s-<%= @slug %>-light-cm span.cm-def, .cm-s-<%= @slug %>-light-cm span.cm-tag, .cm-s-<%= @slug %>-light-cm span.cm-builtin, .cm-s-<%= @slug %>-light-cm span.cm-qualifier, .cm-s-<%= @slug %>-light-cm span.cm-header, .cm-s-<%= @slug %>-light-cm span.cm-em { color: #<%= @base["00"]["hex"] %>; }
+.cm-s-<%= @slug %>-light-cm span.cm-bracket, .cm-s-<%= @slug %>-light-cm span.cm-comment { color: #<%= @base["06"]["hex"] %>; }
+
+/* using #f00 red for errors, don't think any of the colorscheme variables will stand out enough, ... maybe by giving it a background-color ... */
+/* .cm-s-<%= @slug %>-light-cm span.cm-error { background: #<%= @base["08"]["hex"] %>; color: #<%= @base["0C"]["hex"] %>; } */
+.cm-s-<%= @slug %>-light-cm span.cm-error, .cm-s-<%= @slug %>-light-cm span.cm-invalidchar { color: #f00; }
+
+.cm-s-<%= @slug %>-light-cm span.cm-header { font-weight: normal; }
+.cm-s-<%= @slug %>-light-cm .CodeMirror-matchingbracket { text-decoration: underline; color: #<%= @base["07"]["hex"] %> !important; }

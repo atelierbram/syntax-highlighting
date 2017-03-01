@@ -1,0 +1,116 @@
+/*
+
+    Name:       Base16 Duotone-DarkMeadow Dark
+    Author:     adapted from: Simurai (https://github.com/simurai/duotone-dark-sea-syntax/)
+
+    highlight.js v8.0 template by Jan T. Sott (https://github.com/idleberg/base16-highlight.js)
+    Original Base16 color scheme by Chris Kempson (https://github.com/chriskempson/base16)
+
+*/
+
+$base00: #1c2626;
+$base01: #273434;
+$base02: #495e5f;
+$base03: #556c6d;
+$base04: #62797a;
+$base05: #528c8e;
+$base06: #83f3f6;
+$base07: #e0feff;
+$base08: #207174;
+$base09: #5cb82e;
+$base0a: #71dd3c;
+$base0b: #85987c;
+$base0c: #acf986;
+$base0d: #8eed5e;
+$base0e: #3f8688;
+$base0f: #2e7d7f;
+
+// Duotone-DarkMeadow Comment
+.hljs-comment {
+  color: $base04;
+}
+
+// Duotone-DarkMeadow Red
+.hljs-variable,
+.hljs-attribute,
+.hljs-tag,
+.hljs-regexp,
+.ruby .hljs-constant,
+.xml .hljs-tag .hljs-title,
+.xml .hljs-pi,
+.xml .hljs-doctype,
+.html .hljs-doctype,
+.css .hljs-id,
+.css .hljs-class,
+.css .hljs-pseudo {
+  color: $base08;
+}
+
+// Duotone-DarkMeadow Orange
+.hljs-number,
+.hljs-preprocessor,
+.hljs-built_in,
+.hljs-literal,
+.hljs-params,
+.hljs-constant {
+  color: $base09;
+}
+
+// Duotone-DarkMeadow Yellow
+.ruby .hljs-class .hljs-title,
+.css .hljs-rules .hljs-attribute {
+  color: $base0a;
+}
+
+// Duotone-DarkMeadow Green
+.hljs-string,
+.hljs-value,
+.hljs-inheritance,
+.hljs-header,
+.ruby .hljs-symbol,
+.xml .hljs-cdata {
+  color: $base0b;
+}
+
+// Duotone-DarkMeadow Aqua
+.hljs-title,
+.css .hljs-hexcolor {
+  color: $base0c;
+}
+
+// Duotone-DarkMeadow Blue
+.hljs-function,
+.python .hljs-decorator,
+.python .hljs-title,
+.ruby .hljs-function .hljs-title,
+.ruby .hljs-title .hljs-keyword,
+.perl .hljs-sub,
+.javascript .hljs-title,
+.coffeescript .hljs-title {
+  color: $base0d;
+}
+
+// Duotone-DarkMeadow Purple
+.hljs-keyword,
+.javascript .hljs-function {
+  color: $base0e;
+}
+
+.hljs {
+  display: block;
+  overflow-x: auto;
+  background: $base00;
+  color: $base05;
+  padding: 0.5em;
+  -webkit-text-size-adjust: none;
+}
+
+.coffeescript .javascript,
+.javascript .xml,
+.tex .hljs-formula,
+.xml .javascript,
+.xml .vbscript,
+.xml .css,
+.xml .hljs-cdata {
+  opacity: 0.5;
+}

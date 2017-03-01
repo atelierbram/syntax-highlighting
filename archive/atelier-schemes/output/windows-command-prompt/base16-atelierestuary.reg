@@ -1,0 +1,22 @@
+Windows Registry Editor Version 5.00
+
+; Base16 Atelier Estuary (https://github.com/chriskempson/base16)
+; Scheme: Bram de Haan (http://atelierbram.github.io/syntax-highlighting/atelier-schemes/estuary)
+
+[HKEY_CURRENT_USER\Console]
+"ColorTable00"=dword:001b2222
+"ColorTable01"=dword:0066a136
+"ColorTable02"=dword:0026977d
+"ColorTable03"=dword:00489d5b
+"ColorTable04"=dword:001373ae
+"ColorTable05"=dword:0082915f
+"ColorTable06"=dword:000d98a5
+"ColorTable07"=dword:00738587
+"ColorTable08"=dword:005a6b6c
+"ColorTable09"=dword:0066a136
+"ColorTable10"=dword:0026977d
+"ColorTable11"=dword:00489d5b
+"ColorTable12"=dword:003662ba
+"ColorTable13"=dword:007c6c9d
+"ColorTable14"=dword:000d98a5
+"ColorTable15"=dword:00ecf3f4

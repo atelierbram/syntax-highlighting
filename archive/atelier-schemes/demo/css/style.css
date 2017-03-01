@@ -1,0 +1,107 @@
+/* Base styles */
+body {
+  color: #222;
+  background: #808080;
+  font: 100%/1.4 FiraSans-Regular, Corbel, "Segoe Ui", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", "Bitstream Vera Sans", Verdana, sans-serif;
+  margin: 0; padding: 0;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+}
+
+h1,
+h2 {
+  font-family: FiraSans-Medium, Corbel, "Segoe Ui", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", "Bitstream Vera Sans", Helvetica, sans-serif;
+  font-weight: normal;
+}
+h1 {
+  font-size: 1.5em;
+  margin: 0; padding: .5em 0 .75em;
+  letter-spacing: 1px;
+  word-spacing: -1px;
+}
+h2 {
+  font-size: 1.2em;
+  margin: 1.5em 0 0.5em 0;
+}
+#languages h2 {
+  padding-left: .875em;
+}
+
+pre {
+  font-family: Consolas, "Andale Mono WT", "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", "DejaVu Sans Mono", "Bitstream Vera Sans Mono", "Liberation Mono", "Nimbus Mono L", Monaco, "Courier New", Courier, monospace;
+  margin: 0;
+  font-size: 1em;
+}
+.hljs {
+  padding: 1em 1.5em !important;
+}
+
+#sidebar {
+  float: left; width: 10em; height: 1000em; position: fixed;
+  padding: 1px 1em;
+  background: #404040;
+  box-shadow: 0 0 15px black;
+  color: #fff;
+  font-size: .875em;
+}
+
+#sidebar ul,
+#sidebar li {
+  list-style: none;
+  margin: 0; padding: 0;
+}
+
+#sidebar ul {
+  position: relative;
+  overflow-y: hidden;
+}
+
+#sidebar li {
+  padding: 1px 1em;
+  cursor: pointer;
+}
+#sidebar li:first-of-type {
+  display: none;
+}
+
+#sidebar li:hover {
+  background: #303030;
+}
+
+#sidebar li.current {
+  position: relative;
+}
+#sidebar li.current:before {
+  content: '▶'; font-size: .75em;
+  position: absolute; top: 0; left: 0;
+  margin-top: .25em;
+}
+
+#sidebar h2 {
+  color: #bfbfbf;
+}
+#header {
+  margin: 0 -1em;
+  padding-left: 1em;
+  padding-right: 1em;
+  background-color: #600;
+  border-bottom: 1px solid #505050;
+}
+#content {
+  margin-left: 10em;
+}
+
+#languages {
+  padding: 1px 2em 0 4em;
+}
+
+#languages div {
+  display: none;
+}
+
+#languages div {
+  margin: 3em 0;
+}
