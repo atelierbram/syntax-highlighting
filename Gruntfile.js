@@ -224,7 +224,7 @@ module.exports = function(grunt) {
     grunt.registerTask('build', ['concat', 'uglify', 'sass', 'postcss:dist', 'cssmin','copy','criticalcss','htmlmin']);
     // grunt.registerTask('build', ['sass', 'autoprefixer', 'cssmin']);
     // grunt.registerTask('scss', ['sass', 'autoprefixer', 'cssmin', 'hashres']);
-    grunt.registerTask('scss', ['sass', 'postcss:dist', 'cssmin']);
+    grunt.registerTask('sass', ['sass', 'postcss:dist', 'cssmin']);
     grunt.registerTask('js', ['uglify', 'concat']);
     // grunt.registerTask('html', ['hashres']);
     grunt.registerTask('default', ['build', 'watch']);
