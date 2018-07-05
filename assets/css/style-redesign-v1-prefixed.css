@@ -1,7 +1,8 @@
 *,
 ::before,
 ::after {
-  box-sizing: inherit; }
+  -webkit-box-sizing: inherit;
+          box-sizing: inherit; }
 
 ::before,
 ::after {
@@ -20,7 +21,8 @@
     font-size: 24px; } }
 
 html {
-  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
   cursor: default;
   font-family: sans-serif;
   line-height: 1.5;
@@ -29,7 +31,7 @@ html {
 
 html,
 body {
-  background-color: #f4f5f6;
+  background-color: #f3f5f6;
   color: #141414;
   height: 100%; }
 
@@ -57,7 +59,8 @@ header {
       padding: .5em 3em 0; } }
   @media (min-width: 46.25em) {
     header {
-      background-image: linear-gradient(to bottom, #121516, #121516 50%, transparent 0, transparent);
+      background-image: -webkit-gradient(linear, left top, left bottom, from(#121517), color-stop(50%, #121517), color-stop(0, transparent), to(transparent));
+      background-image: linear-gradient(to bottom, #121517, #121517 50%, transparent 0, transparent);
       height: 96px; } }
 
 @media (max-width: 46.24em) {
@@ -108,13 +111,13 @@ h1 {
 h2 {
   font-size: 2.5em;
   margin: 0 0 .5em;
-  color: #9b1738; }
+  color: #a01336; }
 
 h3,
 h4 {
   font-size: 2em;
   margin: 1.5em 0 0;
-  color: #25292d; }
+  color: #232a2f; }
 
 .wf-active h2,
 .wf-active h3 {
@@ -144,8 +147,8 @@ pre {
   overflow: auto; }
 
 article > pre {
-  background-color: #25292d;
-  color: #f4f5f6; }
+  background-color: #232a2f;
+  color: #f3f5f6; }
 
 pre code {
   margin: 0;
@@ -233,16 +236,19 @@ a {
   background-color: transparent;
   color: #1f77ad;
   text-decoration: none;
+  -webkit-transition: all .3s;
   transition: all .3s; }
 
 article a,
 footer a {
-  box-shadow: inset 0 -.33em 0 transparent; }
+  -webkit-box-shadow: inset 0 -.33em 0 transparent;
+          box-shadow: inset 0 -.33em 0 transparent; }
 
 article a:hover,
 footer a:hover {
   color: #0a4c75;
-  box-shadow: inset 0 -0.33em 0 rgba(51, 145, 204, 0.5); }
+  -webkit-box-shadow: inset 0 -0.33em 0 rgba(51, 145, 204, 0.5);
+          box-shadow: inset 0 -0.33em 0 rgba(51, 145, 204, 0.5); }
 
 a,
 button {
@@ -307,7 +313,7 @@ article ul ol li {
 
 footer {
   text-align: center;
-  background-color: #c7cdd1;
+  background-color: #c5ced3;
   padding: .5em; }
 
 main {
@@ -324,12 +330,16 @@ main {
       min-height: calc(100vh - 5.015em); } }
 
 .nav-site {
+  display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -ms-flex-pack: end;
-      justify-content: flex-end;
-  -ms-flex-direction: column;
-      flex-direction: column;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
   padding: 1em 2em .5em 2em;
   position: relative;
   z-index: 3;
@@ -344,6 +354,7 @@ main {
     .nav-site {
       margin-top: -5.894em !important; } }
   .nav-site ul {
+    display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
     -ms-flex-wrap: wrap;
@@ -351,12 +362,14 @@ main {
     line-height: 2;
     list-style: none;
     margin: 0;
-    -ms-flex-pack: center;
-        justify-content: center; }
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center; }
     @media (min-width: 93.75em) {
       .nav-site ul {
-        -ms-flex-pack: end;
-            justify-content: flex-end; } }
+        -webkit-box-pack: end;
+            -ms-flex-pack: end;
+                justify-content: flex-end; } }
     .nav-site ul li {
       letter-spacing: 1px;
       margin-right: 1px;
@@ -370,6 +383,7 @@ main {
       padding: .4em 1em;
       background-color: #ccb833;
       color: #fff;
+      -webkit-transition: all .3s;
       transition: all .3s;
       border-radius: 3px; }
       @media (min-width: 93.75em) {
@@ -385,7 +399,7 @@ main {
       cursor: pointer; }
 
 .nav-site .current a {
-  background-color: #f4f5f6;
+  background-color: #f3f5f6;
   color: #97861c; }
 
 @font-face {
@@ -470,7 +484,7 @@ main {
   vertical-align: middle; }
 
 .github-corner:hover svg[style] {
-  color: #f4f5f6 !important; }
+  color: #f3f5f6 !important; }
 
 .note {
   display: inline-block;
