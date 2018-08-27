@@ -44,6 +44,7 @@ Colorschemes for Prism [demopage](http://atelierbram.github.io/syntax-highlighti
 screenshot of styleswitcher for Prism themes
 
 ## External
+* [Atelier Schemes on Visual Studio Marketplace](https://marketplace.visualstudio.com/items?itemName=Atelierbram.atelier-vscode-themes#overview)
 * [Colorscheme Lab on CodePen](http://codepen.io/atelierbram/pen/JnbIt)
 * [Colorscheme Lab as Github Gist](https://gist.github.com/atelierbram/6283373)
 * [More Themes for Web Developer's Toys](http://devthemez.com)
