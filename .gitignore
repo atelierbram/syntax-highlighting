@@ -9,8 +9,8 @@ NOTE.md
 .base16
 .prismbase16
 
+# src
 dist
-src
 assets/css/prefixed/
 assets/css/unprefixed/
 _
