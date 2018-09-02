@@ -7,7 +7,9 @@
 }
 
 @media (max-width: 800px) and (min-width: 400px) {
-
+  :root {
+    font-size: 3vw;
+  }
 }
 
 @media (min-width: 800px) {
@@ -21,8 +23,8 @@ html {
   cursor: default;
   font-family: sans-serif;
   line-height: 1.5;
-  -webkit-box-sizing: border-box;
   -ms-text-size-adjust: 100%;
+  -webkit-box-sizing: border-box;
   -webkit-text-size-adjust: 100%;
 }
 
@@ -36,20 +38,20 @@ html {
 }
 
 body {
-  margin: 0px;
   font-style: normal;
   font-variant: normal;
   font-weight: normal;
   font-size: 100%;
   line-height: 1.4;
   font-family: AvenirNext-Regular, Corbel, 'Lucida Grande', 'Trebuchet Ms', 'Segoe Ui', 'DejaVu Sans', sans-serif;
+  margin: 0px;
   min-height: 100%;
   text-rendering: optimizelegibility;
   -webkit-font-smoothing: subpixel-antialiased !important;
-  margin: 0;
-  font: 100%/1.4 AvenirNext-Regular,Corbel,"Lucida Grande","Trebuchet Ms","Segoe Ui","DejaVu Sans",sans-serif;
-  text-rendering: optimizeLegibility;
   -webkit-font-smoothing: subpixel-antialiased!important;
+  font: 100%/1.4 AvenirNext-Regular,Corbel,Lucida Grande,Trebuchet Ms,Segoe Ui,DejaVu Sans,sans-serif;
+  margin: 0;
+  text-rendering: optimizeLegibility;
 }
 
 p {
@@ -62,14 +64,13 @@ p {
 h1 {
   font-weight: 400;
   font-size: 3em;
-  margin: 0;
   line-height: 1;
+  margin: 0;
 }
 
 h1 {
   font-size: 3em;
-  margin: 0px;
   line-height: 1;
-  font-weight: 400;
+  margin: 0px;
   margin: 0;
 }

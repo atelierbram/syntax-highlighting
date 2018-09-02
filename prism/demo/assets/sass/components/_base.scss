@@ -1,9 +1,9 @@
-*,
-*::before,
-*::after {
+// *,
+// *::before,
+// *::after {
   // box-sizing: inherit;
   // outline: 1px dotted salmon;
-}
+// }
 html {
   font-family: sans-serif;
   font-size: 16px;
@@ -65,13 +65,13 @@ footer {
   color: $light0_hard;
   padding-bottom: 1px; // somehow collapses otherwise
 }
-header {
+// header {
   // padding-top: 1rem;
   // background-color: $dark0_hard;
   // background: $dark0_hard url(../img/spectrum.png) fixed;
   // color: $light0_hard;
   // padding-bottom: 1px; // somehow collapses otherwise
-}
+// }
 footer {
   text-align: center;
 }
@@ -88,9 +88,9 @@ main {
   padding-bottom: 6em;
 }
 
-.col {
+// .col {
   // overflow: hidden;
-}
+// }
 .col pre {
   max-height: 300px;
   border-radius: 5px;

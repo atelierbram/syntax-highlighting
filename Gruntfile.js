@@ -7,8 +7,12 @@ module.exports = function(grunt) {
     grunt.initConfig({
       pkg: grunt.file.readJSON('package.json'),
 
+      // clean: ['assets/css','assets/css/unprefixed/','assets/css/prefixed/'],
+      clean: [],
+
       sass: {
         options: {
+          implementation: require('node-sass'),
           sourceMap: true
         },
         dist: {
@@ -23,7 +27,9 @@ module.exports = function(grunt) {
             'assets/css/unprefixed/atelier-schemes/savanna.css': 'assets/sass/atelier-schemes/savanna.scss',
             'assets/css/unprefixed/atelier-schemes/seaside.css': 'assets/sass/atelier-schemes/seaside.scss',
             'assets/css/unprefixed/atelier-schemes/estuary.css': 'assets/sass/atelier-schemes/estuary.scss',
-            'assets/css/unprefixed/atelier-schemes/dune.css': 'assets/sass/atelier-schemes/dune.scss'
+            'assets/css/unprefixed/atelier-schemes/dune.css': 'assets/sass/atelier-schemes/dune.scss',
+            'assets/css/unprefixed/critical-css-custom.css': 'assets/sass/critical-css-custom.scss',
+            'prism/demo/assets/css/demo-unprefixed.css': 'prism/demo/assets/sass/demo.scss'
           }
         }
       },
@@ -36,6 +42,7 @@ module.exports = function(grunt) {
           },
           processors: [
             require('autoprefixer')({browsers: 'last 2 versions'}),
+            require('cssnano')(),
           ]
         },
 
@@ -43,17 +50,20 @@ module.exports = function(grunt) {
           expand: true,
           flatten: true,
           files: {
-            'assets/css/style-redesign-v1-prefixed.css': 'assets/css/unprefixed/style-redesign-v1.css',
-            'assets/css/prefixed/atelier-schemes/forest.css': 'assets/css/unprefixed/atelier-schemes/forest.css',
-            'assets/css/prefixed/atelier-schemes/plateau.css': 'assets/css/unprefixed/atelier-schemes/plateau.css',
-            'assets/css/prefixed/atelier-schemes/heath.css': 'assets/css/unprefixed/atelier-schemes/heath.css',
-            'assets/css/prefixed/atelier-schemes/cave.css': 'assets/css/unprefixed/atelier-schemes/cave.css',
-            'assets/css/prefixed/atelier-schemes/sulphurpool.css': 'assets/css/unprefixed/atelier-schemes/sulphurpool.css',
-            'assets/css/prefixed/atelier-schemes/lakeside.css': 'assets/css/unprefixed/atelier-schemes/lakeside.css',
-            'assets/css/prefixed/atelier-schemes/savanna.css': 'assets/css/unprefixed/atelier-schemes/savanna.css',
-            'assets/css/prefixed/atelier-schemes/seaside.css': 'assets/css/unprefixed/atelier-schemes/seaside.css',
-            'assets/css/prefixed/atelier-schemes/estuary.css': 'assets/css/unprefixed/atelier-schemes/estuary.css',
-            'assets/css/prefixed/atelier-schemes/dune.css': 'assets/css/unprefixed/atelier-schemes/dune.css'
+            'assets/css/style-redesign-v1.css': 'assets/css/unprefixed/style-redesign-v1.css',
+            'assets/css/critical.min.css': 'assets/css/critical.css',
+            'assets/css/prefixed/atelier-schemes/forest.min.css': 'assets/css/unprefixed/atelier-schemes/forest.css',
+            'assets/css/prefixed/atelier-schemes/plateau.min.css': 'assets/css/unprefixed/atelier-schemes/plateau.css',
+            'assets/css/prefixed/atelier-schemes/heath.min.css': 'assets/css/unprefixed/atelier-schemes/heath.css',
+            'assets/css/prefixed/atelier-schemes/cave.min.css': 'assets/css/unprefixed/atelier-schemes/cave.css',
+            'assets/css/prefixed/atelier-schemes/sulphurpool.min.css': 'assets/css/unprefixed/atelier-schemes/sulphurpool.css',
+            'assets/css/prefixed/atelier-schemes/lakeside.min.css': 'assets/css/unprefixed/atelier-schemes/lakeside.css',
+            'assets/css/prefixed/atelier-schemes/savanna.min.css': 'assets/css/unprefixed/atelier-schemes/savanna.css',
+            'assets/css/prefixed/atelier-schemes/seaside.min.css': 'assets/css/unprefixed/atelier-schemes/seaside.css',
+            'assets/css/prefixed/atelier-schemes/estuary.min.css': 'assets/css/unprefixed/atelier-schemes/estuary.css',
+            'assets/css/prefixed/atelier-schemes/dune.min.css': 'assets/css/unprefixed/atelier-schemes/dune.css',
+            'assets/css/prefixed/critical-css-custom.min.css': 'assets/css/unprefixed/critical-css-custom.css',
+            'prism/demo/assets/css/demo.css':'prism/demo/assets/css/demo-unprefixed.css'
           }
         }
       },
@@ -68,25 +78,6 @@ module.exports = function(grunt) {
             filename: "assets/css/style-redesign-v1.css", // Using path.resolve( path.join( ... ) ) is a good idea here
             buffer: 800*1024,
             ignoreConsole: false
-          }
-        }
-      },
-
-      cssmin: {
-        dist: {
-          files: {
-            'assets/css/style-redesign-v1.css': 'assets/css/style-redesign-v1-prefixed.css',
-            'assets/css/critical.min.css': 'assets/css/critical.css',
-            'assets/css/prefixed/atelier-schemes/forest.min.css': 'assets/css/prefixed/atelier-schemes/forest.css',
-            'assets/css/prefixed/atelier-schemes/plateau.min.css': 'assets/css/prefixed/atelier-schemes/plateau.css',
-            'assets/css/prefixed/atelier-schemes/heath.min.css': 'assets/css/prefixed/atelier-schemes/heath.css',
-            'assets/css/prefixed/atelier-schemes/cave.min.css': 'assets/css/prefixed/atelier-schemes/cave.css',
-            'assets/css/prefixed/atelier-schemes/sulphurpool.min.css': 'assets/css/prefixed/atelier-schemes/sulphurpool.css',
-            'assets/css/prefixed/atelier-schemes/lakeside.min.css': 'assets/css/prefixed/atelier-schemes/lakeside.css',
-            'assets/css/prefixed/atelier-schemes/savanna.min.css': 'assets/css/prefixed/atelier-schemes/savanna.css',
-            'assets/css/prefixed/atelier-schemes/seaside.min.css': 'assets/css/prefixed/atelier-schemes/seaside.css',
-            'assets/css/prefixed/atelier-schemes/estuary.min.css': 'assets/css/prefixed/atelier-schemes/estuary.css',
-            'assets/css/prefixed/atelier-schemes/dune.min.css': 'assets/css/prefixed/atelier-schemes/dune.css'
           }
         }
       },
@@ -107,7 +98,8 @@ module.exports = function(grunt) {
             'src/inc/savanna-css.inc' : 'assets/css/prefixed/atelier-schemes/savanna.min.css',
             'src/inc/seaside-css.inc' : 'assets/css/prefixed/atelier-schemes/seaside.min.css',
             'src/inc/estuary-css.inc' : 'assets/css/prefixed/atelier-schemes/estuary.min.css',
-            'src/inc/dune-css.inc' : 'assets/css/prefixed/atelier-schemes/dune.min.css'
+            'src/inc/dune-css.inc' : 'assets/css/prefixed/atelier-schemes/dune.min.css',
+            'src/inc/critical-css-custom.inc' : 'assets/css/prefixed/critical-css-custom.min.css',
           },
           flatten: true,
           filter: 'isFile',
@@ -182,7 +174,7 @@ module.exports = function(grunt) {
         scss: {
             files: ['assets/sass/**/*.scss'],
             // tasks: ['scss','autoprefixer','cssmin','copy','hashres'],
-            tasks: ['scss','postcss','criticalcss','cssmin','copy'],
+            tasks: ['scss','postcss','criticalcss','copy'],
             options: {
               // https://github.com/gruntjs/grunt-contrib-watch/issues/415
               // spawn: false
@@ -221,10 +213,10 @@ module.exports = function(grunt) {
   });
 
     // grunt.registerTask('build', ['concat', 'uglify', 'sass', 'autoprefixer', 'cssmin', 'copy', 'htmlmin', 'hashres']);
-    grunt.registerTask('build', ['concat', 'uglify', 'sass', 'postcss:dist', 'cssmin','copy','criticalcss','htmlmin']);
+    grunt.registerTask('build', ['concat', 'uglify', 'sass', 'postcss:dist', 'copy','criticalcss','htmlmin']);
     // grunt.registerTask('build', ['sass', 'autoprefixer', 'cssmin']);
     // grunt.registerTask('scss', ['sass', 'autoprefixer', 'cssmin', 'hashres']);
-    grunt.registerTask('sass', ['sass', 'postcss:dist', 'cssmin']);
+    grunt.registerTask('sass', ['sass', 'postcss:dist']);
     grunt.registerTask('js', ['uglify', 'concat']);
     // grunt.registerTask('html', ['hashres']);
     grunt.registerTask('default', ['build', 'watch']);

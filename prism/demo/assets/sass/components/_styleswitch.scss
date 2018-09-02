@@ -1,11 +1,3 @@
-// body[class*=".dark"] {
-//   background-color: $dark0_hard;
-// }
-// body[class*=".light"] {
-//   background-color: $light0_hard;
-// }
-//
-
 // webkit custom scrollbars for dark background (... mostly for horizontal on smaller screens)
 [class*=".dark"]::-webkit-scrollbar-track,
 [class*=".dark"] ::-webkit-scrollbar-track {
