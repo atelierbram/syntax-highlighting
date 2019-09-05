@@ -2,6 +2,12 @@
 
 Collection of colorschemes.
 
+## [Base4Tone](http://atelierbram.github.io/syntax-highlighting/base4tone)
+Base4Tone is an opinionated system for working with variables in webdesign, and is also used to generate a collection of colorthemes for many different applications in dark - and light versions.
+
+![Base4Tone_Modern_W_Dark.png](https://atelierbram.github.io/Base4Tone-vim/img/Base4Tone_Modern_W_Dark.png)
+screenshot of Base4Tone_Modern_W_Dark in Vim
+
 ## [Base2Tone](http://atelierbram.github.io/syntax-highlighting/base2tone)
 Based on [DuoTone themes](http://simurai.com/projects/2016/01/01/duotone-themes) by [Simurai](http://simurai.com/) for Atom.
 

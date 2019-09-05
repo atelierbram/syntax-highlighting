@@ -20,7 +20,18 @@ include '../inc/nav.inc';
 <main class="container" id="main">
 <article class="article article--demo">
 
-  <h3 id="base2tone"><a href="base2tone/">Base2Tone</a><svg class="new-theme-svg" width="80" height="40"><use xlink:href="#NewTheme" /></svg></h3>
+  <h3 id="base4tone"><a href="base4tone/">Base4Tone</a><svg class="new-theme-svg" width="80" height="40"><use xlink:href="#NewTheme" /></svg></h3>
+<p>Base4Tone is an opinionated system for working with variables in webdesign, and is also used to generate a collection of colorthemes for many different applications in dark - and light versions.</p>
+   <pre style="background-color:#201d1e;" class="screenshot language-javascript"><code style="color:#de5745" class="language-javascript" data-language="javascript"><span class="token lf">
+</span><span style="color:#fbbab1" class="token keyword">function</span> <span class="token function">foo<span style="color:#4b4447" class="token punctuation">(</span></span><span style="color:#f9f6f7">bar</span><span style="color:#4b4447" class="token punctuation">)</span> <span style="color:#4b4447" class="token punctuation">{</span><span class="token lf">
+</span>    <span style="color:#fbbab1" class="token keyword">var</span> <span style="color:#f9f6f7">a</span> <span style="color:#22a50d" class="token operator">=</span> <span style="color:#fbbab1" class="token number">42</span><span style="color:#4b4447" class="token punctuation">,</span><span class="token lf">
+</span>        <span style="color:#f9f6f7">b</span> <span style="color:#22a50d" class="token operator">=</span> <span style="color:#fbbab1" class="token string">'Prism'</span><span style="color:#4b4447" class="token punctuation">;</span><span class="token lf">
+</span>    <span style="color:#fbbab1" class="token keyword">return</span> <span style="color:#f9f6f7">a</span> <span style="color:#22a50d" class="token operator">+</span> <span class="token function">bar<span style="color:#4b4447" class="token punctuation">(</span></span><span style="color:#f9f6f7">b</span><span style="color:#4b4447" class="token punctuation">)</span><span style="color:#4b4447" class="token punctuation">;</span><span class="token lf"></span>
+<span style="color:#4b4447" class="token punctuation">}</span></code></pre>
+ 
+
+
+  <h3 id="base2tone"><a href="base2tone/">Base2Tone</a></h3>
   <p>Based on <a href="//simurai.com/projects/2016/01/01/duotone-themes/">DuoTone themes</a> by <a href="//simurai.com/">Simurai</a> for Atom.</p>
 
   <blockquote>“DuoTone themes use only 2 hues (7 shades in total). It <strong>tones down</strong> less important parts (like punctuation and brackets) and highlights only the <strong>important</strong> ones. This leads to a more calm color scheme, but still lets you find the stuff you’re looking for.”</blockquote>
