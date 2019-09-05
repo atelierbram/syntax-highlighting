@@ -127,6 +127,7 @@ module.exports = function(grunt) {
             'atelier-schemes/seaside/index.html': 'dist/atelier-schemes/seaside/index-max.html',
             'atelier-schemes/sulphurpool/index.html': 'dist/atelier-schemes/sulphurpool/index-max.html',
             'base2tone/index.html': 'dist/base2tone/index-max.html',
+            'base4tone/index.html': 'dist/base4tone/index-max.html',
             'chrome-devtools/index.html': 'dist/chrome-devtools/index-max.html',
             'duotones/index.html': 'dist/duotones/index-max.html',
             'lab/index.html': 'dist/lab/index-max.html',
@@ -171,10 +172,10 @@ module.exports = function(grunt) {
           livereload: true,
         },
 
-        scss: {
+        sass: {
             files: ['assets/sass/**/*.scss'],
             // tasks: ['scss','autoprefixer','cssmin','copy','hashres'],
-            tasks: ['scss','postcss','criticalcss','copy'],
+            tasks: ['sass','postcss','criticalcss','copy'],
             options: {
               // https://github.com/gruntjs/grunt-contrib-watch/issues/415
               // spawn: false

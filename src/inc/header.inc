@@ -42,10 +42,10 @@
 <rect width="252" height="96" fill="url(#svgGradient2)"/>
 </pattern>
 <symbol id="syntax">
-<text id="textSyntax" x="245" y="48" style="font-family='Brando, Verdana'; font-size: 48px" text-anchor="middle" fill="url(#patternGradient1)">Syntax Highlighting</text>
+<text id="textSyntax" x="245" y="48" style="font-family:Brando,Verdana;font-size:48px" text-anchor="middle" fill="url(#patternGradient1)">Syntax Highlighting</text>
 </symbol>
 <symbol id="colorschemes">
-<text id="textColorschemes" x="126" y="48" style="font-family:'brandosans-semibold-v100', Verdana; font-size:33px;text-transform:uppercase" text-anchor="middle" fill="url(#patternGradient2)">Colorschemes</text>
+<text id="textColorschemes" x="126" y="48" style="font-family:brandosans-semibold-v100, Verdana;font-size:33px;text-transform:uppercase" text-anchor="middle" fill="url(#patternGradient2)">Colorschemes</text>
 </symbol>
 </svg>
 

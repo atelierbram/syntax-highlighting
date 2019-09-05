@@ -9,12 +9,12 @@ main {
   z-index: 1;
   padding: 2em 3em;
 }
-header {
+.header {
   position: relative;
   z-index: 2;
 }
 @media (min-width: 46.25em) {
-  header {
+  .header {
     background-image: linear-gradient(to bottom,#121517,#121517 50%,transparent 0,transparent);
     height: 96px;
   }

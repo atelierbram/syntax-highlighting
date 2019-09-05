@@ -14,9 +14,10 @@ include '../inc/nav.inc';
 
 <main class="container" id="main">
 <article>
+<header class="tc">
 <h2 class="visuallyhidden"><a href="base2tone/">Base2Tone</a></h2>
-
 <?php include '../inc/base2tone-logo-infini_896x176_svg.inc'; ?>
+</header>
 
   <p>Based on <a href="http://simurai.com/projects/2016/01/01/duotone-themes/">DuoTone themes</a> by <a href="http://simurai.com/">Simurai</a> for Atom.</p>
 
