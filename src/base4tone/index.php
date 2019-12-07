@@ -15,7 +15,7 @@ include '../inc/nav.inc';
 <main class="container" id="main">
 <article>
 
-<header class="tc"><h2 class="visuallyhidden"><a href="base4tone/">Base4Tone</a></h2>
+<header class="tc"><h2 class="visuallyhidden"><a href="<?= $rootUrl; ?>/base4tone/">Base4Tone</a></h2>
 <?php include '../inc/base4tone-header_912x180_svg.inc'; ?>
 </header>
 

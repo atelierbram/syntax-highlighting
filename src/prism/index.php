@@ -35,8 +35,6 @@ include '../inc/nav.inc';
 
     <!-- /.row prism syntax highlight examples -->
 
-
-
     <h3 id="customising">Customising</h3>
 
     <p>Except for the themes mentioned above on the Prism repos, this repo contains more colorschemes, collected (<i>stolen</i>) from elsewhere and further adapted (<i>tweaked</i>).</p>
@@ -118,7 +116,7 @@ include '../inc/nav.inc';
     </ol>
 
     <h3 id="duotone-schemes">Duotone Schemes</h3>
-<p>Duotone themes can be found in a dedicated repo: <a href="https://github.com/atelierbram/Base2Tone-prism/">Base2Tone Prism</a>, which comes with a <a href="http://atelierbram.github.io/Base2Tone-prism/demo/evening/dark/">demo for Prism</a> as well.</p>
+<p>Duotone themes can be found in a dedicated repo: <a href="//github.com/atelierbram/Base2Tone-prism/">Base2Tone Prism</a>, which comes with a <a href="//atelierbram.github.io/Base2Tone-prism/demo/evening/dark/">demo for Prism</a> as well.</p>
     <p></p>
 
     <h3 id="#lab" class="mtm">Lab</h3>
