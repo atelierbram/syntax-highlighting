@@ -23,7 +23,7 @@ include '../../inc/nav.inc';
           <h3 id="about-seaside">Seaside</h3>
 
           <p>
-          Base color for Lakeside is green, which leads to greenish colors for the background.
+          Base color for Seaside is green, which leads to greenish colors for the background.
           </p>
 
 
