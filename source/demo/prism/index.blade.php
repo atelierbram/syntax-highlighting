@@ -14,7 +14,7 @@
     @else
       <style id="fontfaceRemoteCss">@include('_partials.fontface-remote-css')</style>
       <link rel="stylesheet" href="{{ $page->baseUrl }}{{ ('assets/css/prism/demo.min.css') }}">
-      <link rel="stylesheet" href="{{ $page->baseUrl }}{{ ('assets/css/prism/schemes/prism-atelier-sulphurpool-dark.css') }}" id="styleLink">>
+      <link rel="stylesheet" href="{{ $page->baseUrl }}{{ ('assets/css/prism/schemes/prism-atelier-sulphurpool-dark.css') }}" id="styleLink">
       <link rel="icon" href="/favicon.ico">
     @endif
 <script>if ( 'querySelector' in document && 'addEventListener' in window && Array.prototype.forEach ) { document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js '; }</script>

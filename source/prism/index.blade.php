@@ -70,8 +70,7 @@ When possible, backlinks to their origin, and information about their creators a
   <li><a href="//github.com/atelierbram/syntax-highlighting/blob/archive/docs/prism/demo/assets/css/prism-xonokai.css">Xonokai</a>,
     original scheme by <a href="//moox.fr/">Maxime Thirouin</a>,
     <a href="//github.com/MoOx/sass-prism-theme-base">colorscheme on Github </a></li>
-  <li><a href="//github.com/atelierbram/syntax-highlighting/blob/archive/docs/prism/demo/assets/css/prism-cbavota.css">CB</a>,
-    original scheme by <a href="//bavotasan.com/tag/syntax-highlighter/">C. Bavota</a></li>
+  <li><a href="//github.com/atelierbram/syntax-highlighting/blob/archive/docs/prism/demo/assets/css/prism-cb.css">CB</a>, original scheme by <a href="//bavotasan.com/tag/syntax-highlighter/">C. Bavota</a></li>
   <li><a href="//github.com/atelierbram/syntax-highlighting/blob/archive/docs/prism/demo/assets/css/prism-pojoaque.css">Pojoaque</a>,
     original scheme by <a href="//web-cms-designs.com/ftopict-10-pojoaque-style-for-highlight-js-code-highlighter.html">Jason Tate</a></li>
 </ol>
