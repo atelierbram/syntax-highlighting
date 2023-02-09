@@ -268,7 +268,7 @@ text{font-size:1.875em}]]></style>
 
 <p>One changed value for violet: base0E changed from <span class="bg-colors-inline" style="background-color:#5d5db1">#5d5db1</span> to  <span class="bg-colors-inline" style="background-color:#6b6bb8">#6b6bb8</span> (a slightly lighter violet).</p>
 
-<p class="mtm clear"><strong>Before</strong></p>
+<p class="mtm mbm-minus clear"><strong>Before</strong></p>
 <pre class="base16" style="background-color:#161b1d;color:#7ea2b4">
 
 <span style="color:#5d5db1">
