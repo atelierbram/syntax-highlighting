@@ -1,0 +1,1 @@
+<a href="#header" class="go-to-top sh-button"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 50 50" width="24" height="24"><path fill="currentColor" opacity="0.5" d="M42.86,42.75L25,14.88L7.14,42.75L2.5,39.76L23.56,7.25h2.89L47.5,39.76L42.86,42.75z"/></svg><span class="visuallyhidden">Go to Top</span></a>

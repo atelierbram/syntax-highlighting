@@ -1,0 +1,216 @@
+@charset "utf-8";
+/* #161b1d; */
+/* #1f292e; */
+/* #516d7b; */
+/* #5a7b8c; */
+/* #7195a8; */
+/* #7ea2b4; */
+/* #c1e4f6; */
+/* #ebf8ff; */
+/* #d22d72; */
+/* #935c25; */
+/* #8a8a0f; */
+/* #568c3b; */
+/* #2d8f6f; */
+/* #257fad; */
+/* #6b6bb8; */
+/* #b72dd2; */
+.article--demo > svg {
+  max-width: 30em;
+  padding: 0.75em 0;
+}
+
+.article--demo > pre[class*=-background] {
+  max-width: 40em;
+}
+
+@media (max-width: 31.24em) {
+  text {
+    font-size: 2em;
+  }
+}
+@media (min-width: 31.25em) {
+  text {
+    font-size: 1.5em;
+  }
+}
+@media (min-width: 46.25em) {
+  text {
+    font-size: 1.4em;
+  }
+}
+@media (min-width: 61.25em) {
+  text {
+    font-size: 1.33333em;
+  }
+}
+
+.base00-background {
+  background-color: hsl(200deg, 15%, 10%);
+}
+
+.base01-background {
+  background-color: hsl(200deg, 20%, 15%);
+}
+
+.base02-background {
+  background-color: hsl(200deg, 21%, 40%);
+}
+
+.base03-background {
+  background-color: hsl(200deg, 22%, 45%);
+}
+
+.base04-background {
+  background-color: hsl(200deg, 24%, 55%);
+}
+
+.base05-background {
+  background-color: hsl(200deg, 26%, 60%);
+}
+
+.base06-background {
+  background-color: hsl(200deg, 75%, 86%);
+}
+
+.base07-background {
+  background-color: hsl(200deg, 100%, 96%);
+}
+
+.base08-background,
+.red-background {
+  background-color: hsl(335deg, 65%, 50%);
+}
+
+.base09-background,
+.orange-background {
+  background-color: hsl(30deg, 60%, 36%);
+}
+
+.base0A-background,
+.yellow-background {
+  background-color: hsl(60deg, 80%, 30%);
+}
+
+.base0B-background,
+.green-background {
+  background-color: hsl(100deg, 41%, 39%);
+}
+
+.base0C-background,
+.cyan-background {
+  background-color: hsl(160deg, 52%, 37%);
+}
+
+.base0D-background,
+.blue-background {
+  background-color: hsl(200deg, 65%, 41%);
+}
+
+.base0E-background,
+.violet-background {
+  background-color: hsl(240deg, 35%, 57%);
+}
+
+.base0F-background,
+.magenta-background {
+  background-color: hsl(290deg, 65%, 50%);
+}
+
+.base00 {
+  color: hsl(200deg, 15%, 10%);
+}
+
+.base01 {
+  color: hsl(200deg, 20%, 15%);
+}
+
+.base02 {
+  color: hsl(200deg, 21%, 40%);
+}
+
+.base03 {
+  color: hsl(200deg, 22%, 45%);
+}
+
+.base04 {
+  color: hsl(200deg, 24%, 55%);
+}
+
+.base05 {
+  color: hsl(200deg, 26%, 60%);
+}
+
+.base06 {
+  color: hsl(200deg, 75%, 86%);
+}
+
+.base07 {
+  color: hsl(200deg, 100%, 96%);
+}
+
+.base08,
+.red {
+  color: hsl(335deg, 65%, 50%);
+}
+
+.base09,
+.orange {
+  color: hsl(30deg, 60%, 36%);
+}
+
+.base0A,
+.yellow {
+  color: hsl(60deg, 80%, 30%);
+}
+
+.base0B,
+.green {
+  color: hsl(100deg, 41%, 39%);
+}
+
+.base0C,
+.cyan {
+  color: hsl(160deg, 52%, 37%);
+}
+
+.base0D,
+.blue {
+  color: hsl(200deg, 65%, 41%);
+}
+
+.base0E,
+.violet {
+  color: hsl(240deg, 35%, 57%);
+}
+
+.base0F,
+.magenta {
+  color: hsl(290deg, 65%, 50%);
+}
+
+pre[class*=language].base00-background {
+  background-color: hsl(200deg, 15%, 10%);
+}
+
+.sh-c {
+  overflow: auto;
+  color: hsl(200deg, 20%, 15%);
+}
+
+.sh-c-comm {
+  padding: 0.2em 0.5em;
+  display: inline-block;
+}
+
+.sh-c-light,
+.sh-c-light .comment {
+  color: hsl(200deg, 26%, 60%);
+}
+
+.sh-c-dark,
+.sh-c-dark .comment {
+  color: hsl(200deg, 20%, 15%);
+}
+
+/*# sourceMappingURL=lakeside.css.map */

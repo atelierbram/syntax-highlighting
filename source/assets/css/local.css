@@ -1,0 +1,53 @@
+@charset "utf-8";
+@charset "UTF-8";
+@media (min-width: 20em) {
+  .server-local body::before {
+    content: "mobile ≥ 320px (20em)";
+  }
+}
+@media (min-width: 31.25em) {
+  .server-local body::before {
+    content: "phablet ≥ 500px (31.25em)";
+  }
+}
+@media (min-width: 46.25em) {
+  .server-local body::before {
+    content: "tablet ≥ 740px (46.25em)";
+  }
+}
+@media (min-width: 61.25em) {
+  .server-local body::before {
+    content: "desktop ≥ 980px (61.25em)";
+  }
+}
+@media (min-width: 81.25em) {
+  .server-local body::before {
+    content: "wide ≥ 1300px (81.25em)";
+  }
+}
+@media (min-width: 115.625em) {
+  .server-local body::before {
+    content: "xlwide ≥ 1850px (115.625em)";
+  }
+}
+
+.server-local body::before,
+.server-local body::after {
+  color: #666;
+  font-size: 0.5em;
+  padding: 3px 6px;
+  pointer-events: none;
+  position: fixed;
+  top: 0;
+  z-index: 100;
+}
+
+.server-local body::before {
+  right: 0;
+}
+
+.server-local body::after {
+  left: 0;
+}
+
+/*# sourceMappingURL=local.css.map */

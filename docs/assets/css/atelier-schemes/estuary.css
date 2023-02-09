@@ -1,0 +1,200 @@
+@charset "utf-8";
+.article--demo > svg {
+  max-width: 30em;
+  padding: 0.75em 0;
+}
+
+.article--demo > pre[class*=-background] {
+  max-width: 40em;
+}
+
+@media (max-width: 31.24em) {
+  text {
+    font-size: 2em;
+  }
+}
+@media (min-width: 31.25em) {
+  text {
+    font-size: 1.5em;
+  }
+}
+@media (min-width: 46.25em) {
+  text {
+    font-size: 1.4em;
+  }
+}
+@media (min-width: 61.25em) {
+  text {
+    font-size: 1.33333em;
+  }
+}
+
+.base00-background {
+  background-color: hsl(55deg, 12%, 12%);
+}
+
+.base01-background {
+  background-color: hsl(55deg, 11%, 17%);
+}
+
+.base02-background {
+  background-color: hsl(55deg, 10%, 34%);
+}
+
+.base03-background {
+  background-color: hsl(55deg, 9%, 39%);
+}
+
+.base04-background {
+  background-color: hsl(55deg, 8%, 49%);
+}
+
+.base05-background {
+  background-color: hsl(55deg, 7%, 54%);
+}
+
+.base06-background {
+  background-color: hsl(55deg, 15%, 89%);
+}
+
+.base07-background {
+  background-color: hsl(55deg, 25%, 94%);
+}
+
+.base08-background,
+.red-background {
+  background-color: hsl(20deg, 55%, 47%);
+}
+
+.base09-background,
+.orange-background {
+  background-color: hsl(37deg, 80%, 38%);
+}
+
+.base0A-background,
+.yellow-background {
+  background-color: hsl(55deg, 85%, 35%);
+}
+
+.base0B-background,
+.green-background {
+  background-color: hsl(74deg, 60%, 37%);
+}
+
+.base0C-background,
+.cyan-background {
+  background-color: hsl(107deg, 37%, 45%);
+}
+
+.base0D-background,
+.blue-background {
+  background-color: hsl(147deg, 50%, 42%);
+}
+
+.base0E-background,
+.violet-background {
+  background-color: hsl(162deg, 21%, 47%);
+}
+
+.base0F-background,
+.magenta-background {
+  background-color: hsl(340deg, 20%, 52%);
+}
+
+.base00 {
+  color: hsl(55deg, 12%, 12%);
+}
+
+.base01 {
+  color: hsl(55deg, 11%, 17%);
+}
+
+.base02 {
+  color: hsl(55deg, 10%, 34%);
+}
+
+.base03 {
+  color: hsl(55deg, 9%, 39%);
+}
+
+.base04 {
+  color: hsl(55deg, 8%, 49%);
+}
+
+.base05 {
+  color: hsl(55deg, 7%, 54%);
+}
+
+.base06 {
+  color: hsl(55deg, 15%, 89%);
+}
+
+.base07 {
+  color: hsl(55deg, 25%, 94%);
+}
+
+.base08,
+.red {
+  color: hsl(20deg, 55%, 47%);
+}
+
+.base09,
+.orange {
+  color: hsl(37deg, 80%, 38%);
+}
+
+.base0A,
+.yellow {
+  color: hsl(55deg, 85%, 35%);
+}
+
+.base0B,
+.green {
+  color: hsl(74deg, 60%, 37%);
+}
+
+.base0C,
+.cyan {
+  color: hsl(107deg, 37%, 45%);
+}
+
+.base0D,
+.blue {
+  color: hsl(147deg, 50%, 42%);
+}
+
+.base0E,
+.violet {
+  color: hsl(162deg, 21%, 47%);
+}
+
+.base0F,
+.magenta {
+  color: hsl(340deg, 20%, 52%);
+}
+
+pre[class*=language].base00-background {
+  background-color: hsl(55deg, 12%, 12%);
+}
+
+.sh-c {
+  overflow: auto;
+  color: hsl(55deg, 11%, 17%);
+}
+
+.sh-c-comm {
+  padding: 0.2em 0.5em;
+  display: inline-block;
+}
+
+.sh-c-light,
+.sh-c-light .comment {
+  color: hsl(55deg, 7%, 54%);
+}
+
+.sh-c-dark,
+.sh-c-dark .comment {
+  color: hsl(55deg, 11%, 17%);
+}
+
+/*# sourceMappingURL=estuary.css.map */

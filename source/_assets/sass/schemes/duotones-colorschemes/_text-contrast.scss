@@ -1,0 +1,45 @@
+// http://codepen.io/MadeByMike/pen/sDpxg/
+// Adapted from: https://gist.github.com/voxpelli/6304812
+@function luma($color){
+  $rgba: red($color), green($color), blue($color);
+  $rgba2: ();
+  @for $i from 1 through 3 {
+    $rgb: nth($rgba, $i);
+    $rgb: $rgb / 255;
+    $rgb: if($rgb < .03928, $rgb / 12.92, pow(($rgb + .055) / 1.055, 2.4));
+    $rgba2: append($rgba2, $rgb);
+  }
+  @return (.2126 * nth($rgba2, 1) + .7152 * nth($rgba2, 2) + 0.0722 * nth($rgba2, 3))*100;
+}
+@function contrast_ratio($color1, $color2) {
+  $luma1: luma($color1) + 5;
+  $luma2: luma($color2) + 5;
+  $ratio: $luma1 / $luma2;
+  @if $luma1 < $luma2 {
+    $ratio: 1 / $ratio;
+  }
+  @return $ratio;
+}
+
+@function text-contrast($color, $bgcolor: $color) {
+  $threshold: 4.5; // 4.5 = WCAG AA,7= WCAG AAA
+  $list: 20 30 40 50 60 70 80 90 100;
+  @each $percent in $list {
+    $lighter: lighten($bgcolor, $percent);
+    $darker: darken($bgcolor, $percent);
+    $darker-ratio: contrast_ratio($color, $darker);
+    $lighter-ratio: contrast_ratio($color, $lighter);
+    @if($lighter-ratio > $darker-ratio){
+      @if ($lighter-ratio > $threshold){
+        @return $lighter;
+      }
+    }
+    @if($darker-ratio > $lighter-ratio){
+      @if ($darker-ratio > $threshold){
+        @return $darker;
+      }
+    }
+  }
+  @return if(lightness($color) < 51, #FFF, #000)
+}
+

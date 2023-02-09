@@ -1,0 +1,26 @@
+@import "modules/mq";
+@import "modules/mq-local";
+
+// @media (min-aspect-ratio: 100/99) {
+//   .server-local body::after {
+//     content: "landscape mode (min-aspect-ratio: 100/99)";
+//   }
+// }
+
+.server-local body::before,
+.server-local body::after {
+  color: #666;
+  font-size: .5em;
+  padding: 3px 6px;
+  pointer-events: none;
+  position: fixed;
+  top: 0;
+  z-index: 100;
+}
+.server-local body::before {
+  right: 0;
+}
+.server-local body::after {
+  left: 0;
+}
+

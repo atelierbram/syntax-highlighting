@@ -1,0 +1,4 @@
+@charset "utf-8";
+.container{margin:0 auto;max-width:50em}main{min-height:calc(100vh - 17em);overflow:auto;position:relative;z-index:1;padding:2em 3em}.header{position:relative;z-index:2}@media(min-width: 46.25em){.header{background-image:linear-gradient(to bottom, #121517, #121517 50%, transparent 0, transparent);height:96px}}.no-js .repo-title svg{display:none}.no-js .nav-site ul{display:none}@media(min-width: 46.25em){.conditionallyhidden{border:0;clip:rect(0 0 0 0);height:1px;margin:-1px;overflow:hidden;padding:0;position:absolute;width:1px}}
+
+/*# sourceMappingURL=critical-css-custom.min.css.map */

@@ -1,0 +1,32 @@
+@use 'sass:math';
+@use 'sass:map';
+@use 'sass:list';
+
+@mixin show-breakpoints(
+  $show-breakpoints: $show-breakpoints,
+  $breakpoints: $breakpoints
+) {
+  // .server-local body::before {
+  .server-local body::before {
+    // color: #c09853;
+    // font-size: .65em;
+    // padding: 3px 6px;
+    // pointer-events: none;
+    // position: fixed;
+    // right: 0;
+    // top: 0;
+    // z-index: 100;
+
+    // Loop through the breakpoints that should be shown
+    @each $show-breakpoint in $show-breakpoints {
+      $width: get-breakpoint-width($show-breakpoint, $breakpoints);
+      @include mq($show-breakpoint, $breakpoints: $breakpoints) {
+        content: '#{$show-breakpoint} ≥ #{$width} (#{px2em($width)})';
+      }
+    }
+  }
+}
+
+@if list.length($show-breakpoints) > 0 {
+  @include show-breakpoints;
+}

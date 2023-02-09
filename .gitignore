@@ -1,7 +1,11 @@
+/build_local/
+/cache/
+/node_modules/
+/vendor/
+/.idea/
+/.vscode/
+npm-debug.log
 .DS_Store
-node_modules/
-.sass-cache/
-*.css.map
 
 TODO.md
 NOTE.md
@@ -17,3 +21,9 @@ _
 _psd
 _vector
 _test
+
+scratch.txt
+
+/build_staging/
+# /build_production/
+/source/assets/build/

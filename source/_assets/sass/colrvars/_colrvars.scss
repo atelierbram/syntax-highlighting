@@ -1,0 +1,243 @@
+@import
+"colrvars/acid-colors",
+"colrvars/blue-colors",
+"colrvars/bluebonnet-colors",
+"colrvars/blueryb-colors",
+"colrvars/bluesky-colors",
+"colrvars/byzantine-colors",
+"colrvars/chartreuse-colors",
+"colrvars/cobalt-colors",
+"colrvars/coral-colors",
+"colrvars/cyan-colors",
+"colrvars/gold-colors",
+"colrvars/gray-colors",
+"colrvars/green-colors",
+"colrvars/indigo-colors",
+"colrvars/lemon-colors",
+"colrvars/lime-colors",
+"colrvars/magenta-colors",
+"colrvars/monochrome_green-colors",
+"colrvars/monochrome_cyan-colors",
+"colrvars/monochrome_bluesky-colors",
+"colrvars/monochrome_yellow-colors",
+"colrvars/monochrome_blue-colors",
+"colrvars/ocre-colors",
+"colrvars/orange-colors",
+"colrvars/pelorous-colors",
+"colrvars/plump-colors",
+"colrvars/purple-colors",
+"colrvars/red-colors",
+"colrvars/scarlet-colors",
+"colrvars/tangelo-colors",
+"colrvars/teal-colors",
+"colrvars/vermilion-colors",
+"colrvars/violet-colors",
+"colrvars/yellow-colors";
+
+// http://codepen.io/stacy/pen/qOdWMy
+// This function will allow you to use the above variables without having to use map-get throughout your project
+// background: map-get($theme-colors, yellow);
+
+// Fuction written by Hugo Giraudel here:
+// http://www.sitepoint.com/using-sass-maps/
+
+// Name this function whatever you want that is short and memorable
+// the $color is the parameter to pass so it knows which key to use
+@function color($color) {
+
+  // checking to see if our $theme-colors map has that $color key
+  @if map-has-key($cyan-colors, $color) {
+    // and if so, it will get that color for us in the map-get syntax
+    @return map-get($cyan-colors, $color);
+  }
+
+  @if map-has-key($bluesky-colors, $color) {
+    @return map-get($bluesky-colors, $color);
+  }
+
+  @if map-has-key($cobalt-colors, $color) {
+    @return map-get($cobalt-colors, $color);
+  }
+
+  @if map-has-key($blueryb-colors, $color) {
+    @return map-get($blueryb-colors, $color);
+  }
+
+  @if map-has-key($blue-colors, $color) {
+    @return map-get($blue-colors, $color);
+  }
+
+  @if map-has-key($bluebonnet-colors, $color) {
+    @return map-get($bluebonnet-colors, $color);
+  }
+
+  @if map-has-key($purple-colors, $color) {
+    @return map-get($purple-colors, $color);
+  }
+
+  @if map-has-key($plump-colors, $color) {
+    @return map-get($plump-colors, $color);
+  }
+
+  @if map-has-key($violet-colors, $color) {
+    @return map-get($violet-colors, $color);
+  }
+
+  @if map-has-key($indigo-colors, $color) {
+    @return map-get($indigo-colors, $color);
+  }
+
+  @if map-has-key($magenta-colors, $color) {
+    @return map-get($magenta-colors, $color);
+  }
+
+  @if map-has-key($byzantine-colors, $color) {
+    @return map-get($byzantine-colors, $color);
+  }
+
+  @if map-has-key($red-colors, $color) {
+    @return map-get($red-colors, $color);
+  }
+
+  @if map-has-key($vermilion-colors, $color) {
+    @return map-get($vermilion-colors, $color);
+  }
+
+  @if map-has-key($scarlet-colors, $color) {
+    @return map-get($scarlet-colors, $color);
+  }
+
+  @if map-has-key($coral-colors, $color) {
+    @return map-get($coral-colors, $color);
+  }
+
+  @if map-has-key($tangelo-colors, $color) {
+    @return map-get($tangelo-colors, $color);
+  }
+
+  @if map-has-key($orange-colors, $color) {
+    @return map-get($orange-colors, $color);
+  }
+
+  @if map-has-key($ocre-colors, $color) {
+    @return map-get($ocre-colors, $color);
+  }
+
+  @if map-has-key($yellow-colors, $color) {
+    @return map-get($yellow-colors, $color);
+  }
+
+  @if map-has-key($gold-colors, $color) {
+    @return map-get($gold-colors, $color);
+  }
+
+  @if map-has-key($acid-colors, $color) {
+    @return map-get($acid-colors, $color);
+  }
+
+  @if map-has-key($lemon-colors, $color) {
+    @return map-get($lemon-colors, $color);
+  }
+
+  @if map-has-key($chartreuse-colors, $color) {
+    @return map-get($chartreuse-colors, $color);
+  }
+
+  @if map-has-key($lime-colors, $color) {
+    @return map-get($lime-colors, $color);
+  }
+
+  @if map-has-key($green-colors, $color) {
+    @return map-get($green-colors, $color);
+  }
+
+  @if map-has-key($teal-colors, $color) {
+    @return map-get($teal-colors, $color);
+  }
+
+  @if map-has-key($pelorous-colors, $color) {
+    @return map-get($pelorous-colors, $color);
+  }
+
+  @if map-has-key($monochrome_green-colors, $color) {
+    @return map-get($monochrome-green-colors, $color);
+  }
+
+  @if map-has-key($monochrome_cyan-colors, $color) {
+    @return map-get($monochrome-cyan-colors, $color);
+  }
+
+   @if map-has-key($monochrome_bluesky-colors, $color) {
+    @return map-get($monochrome-bluesky-colors, $color);
+  }
+
+   @if map-has-key($monochrome_yellow-colors, $color) {
+    @return map-get($monochrome-yellow-colors, $color);
+  }
+
+  @if map-has-key($gray-colors, $color) {
+    @return map-get($gray-colors, $color);
+  }
+
+  // if not, it will give us a helpful error when we compile
+  @warn "Unknown `#{$color}` in $cyan-colors.";
+  @return null;
+  @warn "Unknown `#{$color}` in $bluesky-colors.";
+  @return null;
+  @warn "Unknown `#{$color}` in $cobalt-colors.";
+  @return null;
+  @warn "Unknown `#{$color}` in $blueryb-colors.";
+  @return null;
+  @warn "Unknown `#{$color}` in $blue-colors.";
+  @return null;
+  @warn "Unknown `#{$color}` in $bluebonnet-colors.";
+  @return null;
+  @warn "Unknown `#{$color}` in $purple-colors.";
+  @return null;
+  @warn "Unknown `#{$color}` in $plump-colors.";
+  @return null;
+  @warn "Unknown `#{$color}` in $violet-colors.";
+  @return null;
+  @warn "Unknown `#{$color}` in $indigo-colors.";
+  @return null;
+  @warn "Unknown `#{$color}` in $magenta-colors.";
+  @return null;
+  @warn "Unknown `#{$color}` in $byzantine-colors.";
+  @return null;
+  @warn "Unknown `#{$color}` in $red-colors.";
+  @return null;
+  @warn "Unknown `#{$color}` in $vermilion-colors.";
+  @return null;
+  @warn "Unknown `#{$color}` in $scarlet-colors.";
+  @return null;
+  @warn "Unknown `#{$color}` in $coral-colors.";
+  @return null;
+  @warn "Unknown `#{$color}` in $orange-colors.";
+  @return null;
+  @warn "Unknown `#{$color}` in $yellow-colors.";
+  @return null;
+  @warn "Unknown `#{$color}` in $acid-colors.";
+  @return null;
+  @warn "Unknown `#{$color}` in $lemon-colors.";
+  @return null;
+  @warn "Unknown `#{$color}` in $chartreuse-colors.";
+  @return null;
+  @warn "Unknown `#{$color}` in $lime-colors.";
+  @return null;
+  @warn "Unknown `#{$color}` in $green-colors.";
+  @return null;
+  @warn "Unknown `#{$color}` in $teal-colors.";
+  @return null;
+  @warn "Unknown `#{$color}` in $pelorous-colors.";
+  @return null; 
+  @warn "Unknown `#{$color}` in $monochrome_green-colors.";
+  @return null;
+  @warn "Unknown `#{$color}` in $monochrome_cyan-colors.";
+  @return null;
+  @warn "Unknown `#{$color}` in $monochrome_bluesky-colors.";
+  @return null;
+  @warn "Unknown `#{$color}` in $monochrome_yellow-colors.";
+  @return null;
+  @warn "Unknown `#{$color}` in $gray-colors.";
+  @return null;
+}

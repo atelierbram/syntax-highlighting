@@ -1,0 +1,286 @@
+// @import "settings/colorvars";
+@import 'colrvars';
+
+// SVG palette fill colors, NOTE: renders very large file with background-classes from all color-variables!
+// @import
+// 'palette/palettes'
+// colors and background-colors
+// 'site/color-classes';
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  font-size: 16px;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  font: 100%/1.5 AvenirNext-Regular, -apple-system, BlinkMacSystemFont, "Lucida Grande", "Segoe Ui", "Corbel", Verdana, sans-serif;
+  box-sizing: border-box;
+  min-height: 100%;
+  background-color: inherit;
+}
+
+.page-wrap {
+  position: relative;
+  overflow: auto;
+  background: inherit;
+  min-height: 100%;
+  min-height: 100vh;
+}
+
+main {
+  min-height: calc(100vh - 356px);
+  padding-bottom: 120px;
+}
+
+.container {
+  max-width: 60em;
+  margin: 0 auto;
+  padding: 0 2em;
+}
+
+.palette {
+  padding: 0 2em;
+  transition: padding .5s ease-out;
+}
+
+.palette:hover {
+  padding: 0 2em 4em;
+}
+
+header {
+  margin-bottom: 2em;
+  overflow: auto;
+  height: 96px;
+  text-align: center;
+}
+
+h1 {
+  font-size: 3em;
+  padding-top: .25em;
+}
+
+h1,
+h2,
+h3 {
+  font-family: AvenirNextCondensed-Medium, -apple-system, BlinkMacSystemFont, "Lucida Grande", "Segoe Ui", "Corbel", Verdana, sans-serif;
+  font-weight: normal;
+}
+
+.wf-active h1,
+.wf-active h2,
+.wf-active .testing h3 {
+  font-family: "Ubuntu Condensed", AvenirNextCondensed-Medium, -apple-system, BlinkMacSystemFont, "Lucida Grande", "Segoe Ui", "Corbel", Verdana, sans-serif;
+}
+
+h2 {
+  font-size: 2em;
+  color: color(monochrome-cyan-16);
+  margin-bottom: 1em;
+}
+
+a {
+  color: color(blue-12);
+  transition: all .3s;
+}
+
+p > a {
+  text-decoration: none;
+  box-shadow: 0 5px 0 color(blue-06);
+  padding: 0 .125em;
+}
+
+p > a:hover {
+  color: color(blue-13);
+  box-shadow: 0 5px 0 color(blue-04);
+  background-color: color(blue-04);
+}
+
+.title {
+  display: inline-block;
+  vertical-align: middle;
+  padding: .125em 1em;
+  background-color: rgba(white, .75);
+}
+
+[id="output"] {
+  text-align: center;
+  padding: 2em 1.5em 2.5em 1.5em;
+  position: fixed;
+  top: 0;
+  left: 0;
+  min-width: 180px;
+}
+
+footer {
+  position: absolute;
+  right:0;bottom:0;left:0;
+  padding: 1em 0;
+  text-align: center;
+  height: 60px;
+}
+
+[id="output"],
+footer a {
+  color: #fff;
+  letter-spacing: 1px;
+  word-spacing: -1px;
+}
+
+svg,
+rect {
+  display: inline-block;
+  vertical-align: top;
+}
+
+rect:hover {
+  cursor: pointer;
+}
+
+.github-corner svg {
+  transition: all .3s;
+}
+
+.github-corner:hover svg[style] {
+  fill: color(monochrome-cyan-18) !important;
+}
+
+code,
+pre {
+  font-family: monospace, monospace;
+  font-size: 1em;
+}
+
+section {
+  margin: 3rem auto;
+  overflow: hidden;
+  text-align: center;
+}
+
+// Replaces classes generated in sass functions in `palette/_palette.scss` and `site/color-classes`, to avoid very large unnecessary CSS output
+.cv-cyan-02-bg {
+  background-color: color(cyan-02);
+}
+
+.cv-cobalt-12-fg {
+  color: color(cobalt-12);
+}
+
+.cv-monochrome-cyan-10-bg {
+  background-color: color(monochrome-cyan-10);
+}
+
+.cv-monochrome-cyan-18-bg {
+  background-color: color(monochrome-cyan-18);
+}
+
+.cv-monochrome-cyan-01-fg {
+  color: color(monochrome-cyan-01);
+}
+
+// testing
+$blue-11: color(blue-11);
+$gold-06: color(gold-06);
+
+.test {
+  // background-color: color(blue-11);
+  background-color: $blue-11;
+  margin-top: 2em;
+  margin-bottom: 2em;
+  padding: 1em;
+}
+
+.test p {
+  // color: color(gold-06);
+  color: $gold-06;
+  max-width: 70ch;
+}
+
+.hljs,
+.code {
+  background-color: #f5f7ff;
+}
+
+.hljs,
+.code,
+p > code {
+  font-family: Consolas, Menlo, Monaco, "Courier New", monospace;
+}
+
+p > code {
+  font-size: .875em;
+  color: color(monochrome-cyan-16);
+  background-color: color(monochrome-cyan-03);
+  display: inline-block;
+  padding: 3px 8px;
+  border-radius: 5px;
+}
+
+.code {
+  padding: 1.5em 3em;
+  margin-top: 2em;
+  margin-bottom: 2em;
+}
+
+.testing p {
+  font-size: 1.25em;
+}
+
+.testing h3 {
+  font-size: 2.25em;
+  color: color(coral-12);
+  margin-top: 2em;
+  font-weight: normal;
+}
+
+// atelier-sulphurpool-light.css
+.hljs-comment, .hljs-quote {
+    color: #6b7394;
+}
+
+.hljs-variable, .hljs-template-variable, .hljs-attribute, .hljs-tag,
+.hljs-name, .hljs-regexp, .hljs-link, .hljs-name, .hljs-selector-id,
+.hljs-selector-class {
+    color: #c94922;
+}
+
+.hljs-number, .hljs-meta, .hljs-built_in, .hljs-builtin-name, .hljs-literal,
+.hljs-type, .hljs-params {
+    color: #c76b29;
+}
+
+.hljs-string, .hljs-symbol, .hljs-bullet {
+    color: #ac9739;
+}
+
+.hljs-title, .hljs-section {
+    color: #3d8fd1;
+}
+
+.hljs-keyword, .hljs-selector-tag {
+    color: #6679cc;
+}
+
+.hljs {
+    display: block;
+    overflow-x: auto;
+    color: #5e6687;
+    padding: 0.5em;
+}
+
+.hljs-emphasis {
+    font-style: italic;
+}
+
+.hljs-strong {
+    font-weight: bold;
+}

@@ -1,0 +1,34 @@
+// colours
+$sh-bg-color: #bdbab9;
+$sh-blue-color: #00478f;
+$sh-yellow-color: #f5e000;
+$sh-red-color: #b30;
+$sh-darkbrown-color: #23231a; 
+$sh-success-color: $sh-red-color;
+
+$sh-pad: .25em .5em;
+$sh-alt-float: float-right;
+$sh-code-color: darken($sh-success-color, 5%);
+$sh-code-font-family: Consolas, Menlo, "DejaVu Sans Mono", "Bitstream Vera Sans Mono", Monaco, "Andale Mono WT", "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", "Liberation Mono", "Nimbus Mono L", "Courier New", monospace; 
+$sh-code-font-weight: normal; 
+
+// buttons
+/* This controls padding around the buttons. Use a variable or em value */
+$padding: $button-med;
+
+/* This controls button color. Set to one of our variables or a custom hex value */
+$bg: $sh-success-color;
+
+/* This controls button radius. Set to a variable, true/false, or custom px value */
+$radius: 3px;
+
+/* This whether button is full-width. Set to true or false */
+$full-width: false;
+
+/* This controls whether disabled styles are used. Set to true or false */
+$disabled: false;
+
+/* This controls padding for inputs, they are a little different */
+$is-input: false;
+// end buttons
+

@@ -1,0 +1,50 @@
+$fontfam-base: FiraSans-Regular, FeuraSans-Regular, AvenirNext-Regular, "Lucida Grande", "Lucida Sans Unicode", Corbel, "DejaVuSansCondensed", "DejaVu Sans", "Bitstream Vera Sans", Verdana, sans-serif;
+$fontfam-header: FiraSans-Bold, FeuraSans-Bold, "Open Sans Condensed", AvenirNextCondensed-Demibold, "Lucida Grande", Corbel, "Segoe Ui", "DejaVuSansCondensed", "DejaVu Sans", "Bitstream Vera Sans", "Liberation Sans", Verdana, "Verdana Ref", sans-serif;
+// http://www.stubbornella.org/content/2013/07/01/easy-peasy-rem-conversion-with-sass/
+
+//Default font size on html element is 100%, equivalent to 16px;
+@function calculateRem($pxsize) {
+  $remSize: $pxsize / 16px;
+  @return #{$remSize}rem;
+}
+
+// Mixin that will include the fall back px declaration as well as the calculated rem value.
+@mixin fontSize($pxsize) {
+  font-size: $pxsize;
+  font-size: calculateRem($pxsize);
+} 
+// https://github.com/zurb/foundation/blob/master/scss/foundation/components/_global.scss
+$base-font-size: 100% !default;
+
+// $base-line-height is 24px while $base-font-size is 16px
+$base-line-height: 1.375 !default;
+
+// This is the default html and body font-size for the base em value.
+$em-base: 16 !default;
+
+// It strips the unit of measure and returns it
+@function strip-unit($num) {
+  @return $num / ($num * 0 + 1);
+}
+
+// Converts "px" to "em" using the ($)em-base
+@function convert-to-em($value)  {
+  $value: strip-unit($value) / strip-unit($em-base) * 1em;
+  @if ($value == 0em) { $value: 0; } // Turn 0em into 0
+  @return $value;
+}
+
+// Working in ems is annoying. Think in pixels by using this handy function, emCalc(#)
+// Just enter the number, no need to mention "px"
+@function emCalc($values...) {
+  $max: length($values); 
+  @if $max == 1 { @return convert-to-em(nth($values, 1)); }
+
+  // This will eventually store the converted $values in a list
+  $emValues: (); 
+  @for $i from 1 through $max {
+    $emValues: append($emValues, convert-to-em(nth($values, $i)));
+  }
+  @return $emValues;
+}
+ 

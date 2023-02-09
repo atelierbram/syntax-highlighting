@@ -1,0 +1,224 @@
+@mixin custom-fancy-gradient($color1, $color2) {
+  @include background-image(radial-gradient(50% 10%, $color1, darken($color2, 5) 30px));
+}
+@mixin custom-fancy-gradient-active($color1, $color2) {
+  @include custom-fancy-gradient(lighten($color2, 10), lighten($color2, 25));
+} 
+
+.fancy-button-base {
+  @include fancy-button;
+  margin: 0 2px;
+  vertical-align: middle;
+  // font-size: 1rem;
+  @include fontSize(16px);
+}
+
+.button, button {
+  @extend .fancy-button-base;
+  &[disabled] {
+    @include disable-fancy-button($base0);
+  }
+} 
+.blue {
+  @include fancy-button-colors($blue); 
+  @include fancy-button-padding(2px, 8px, 2px);
+} 
+
+.app-header,
+.page-footer {
+  width: 100%;
+  display: block;
+} 
+.app-header {
+  height: 64px;
+} 
+.page-footer {
+  float: left;
+  width: 100%;
+  clear: both;
+  text-align: center;
+  font-size: .875rem;
+  padding: .25rem 0;
+  margin: 3rem 0 2rem;
+} 
+.page-footer ul {
+  list-style: none;
+} 
+.page-footer li:before {
+  content: " \25C8";
+  padding: 0 .75em 0 2em;
+  font-size: .75em;
+  color: $green;
+} 
+.page-footer li:last-child {
+  float: right; 
+  margin-right: 1em;
+} 
+.page-footer li:last-child:before { 
+  content: "";
+}
+.app-title {
+  font-size: 2.5em;
+  margin: 0 0 0 72px;
+  padding: 0; 
+  text-shadow: rgba(black,.75) 1px 1px 1px; 
+}
+// http://www.stubbornella.org/content/2013/07/01/easy-peasy-rem-conversion-with-sass/
+.tagline { 
+  display: none; 
+  @include fontSize(16px);
+  font-family: $fontfam-base;
+  font-weight: normal;
+  color: lighten($base1,25%);
+  // text-shadow: none; 
+  text-shadow: 1px 1px 0 black;
+}
+.menu-active .app-title {
+  margin-left: 322px; 
+}
+h1, h2, h3 { font-family: $fontfam-header;
+  font-weight: 700;
+}
+
+pre {
+  background-color: #eee;
+  -moz-border-radius: 6px;
+  -webkit-border-radius: 6px;
+  border-radius: 6px;
+  padding: 1em;
+}
+
+pre.code {
+  margin: 0 1em;
+}
+
+.grey {
+  background-color: #eee;
+  border-radius: 6px;
+  margin-bottom: 1.65em;
+  margin-top: 0.825em;
+  padding: 0.825em 1.65em;
+  position: relative;
+}
+
+img.logo {
+  position: absolute;
+  right: -1em;
+  bottom: 4px;
+  max-width: 23.6875em; /* Scale image down with text to prevent clipping */
+}
+
+.grey > pre {
+  background:none;
+  border-radius:0;
+  padding:0;
+  margin:0;
+  font-size:2.2em;
+  /*  line-height:1.2em; */
+}
+
+a, 
+a:visited, 
+.quasilink,
+.code_box--css .call-modal--sass {
+  color: $magenta;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+a:hover, .quasilink:hover {
+  color: $red;
+}
+
+h1 a:link, h1 a:visited, h1 a:hover {
+  color: black;
+}
+
+ul {
+  margin: 0;
+  padding-left: 1.2em;
+}
+
+a.download {
+  color: white;
+  background-color: #df0019;
+  width: 100%;
+  display: block;
+  text-align: center;
+  font-size: 1.23em;
+  font-weight: bold;
+  text-decoration: none;
+  -moz-border-radius: 6px;
+  -webkit-border-radius: 6px;
+  border-radius: 6px;
+  padding: .5em 0;
+  margin-bottom: 1em;
+}
+
+a.download:hover {
+  background-color: #bb0010;
+}
+
+.rel {
+  margin-bottom: 0;
+}
+
+.rel-note {
+  color: #777;
+  font-size: .9em;
+  margin-top: .1em;
+}
+
+.logo-braces {
+  color: #df0019;
+  position: relative;
+  top: -4px;
+}
+
+.blk {
+  float: left;
+}
+
+.left {
+  margin-right: 20.68em;
+  max-width: 37em;
+  padding-right: 6.53em;
+  padding-bottom: 1em;
+}
+
+.left1 {
+  width: 15.24em;
+  padding-right: 6.45em;
+}
+
+.left2 {
+  max-width: 15.24em;
+}
+
+.right {
+  width: 20.68em;
+  margin-left: -20.68em;
+}
+
+.leftbig {
+  width: 42.44em;
+  padding-right: 6.53em;
+}
+
+.rightsmall {
+  width: 15.24em;
+}
+
+.clear:after {
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: " ";
+  clear: both;
+  height: 0;
+}
+.clear { display: inline-block; }
+/* start commented backslash hack \*/
+* html .clear { height: 1%; }
+.clear { display: block; }
+/* close commented backslash hack */

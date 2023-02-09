@@ -1,0 +1,286 @@
+// http://codepen.io/stacy/pen/qOdWMy
+// Create our color classes
+// Each loop goes through each $color (key) and $color-value (value) in our map ($theme-colors)
+// sets values for `fill` on SVG `rect`-elements
+
+@each $color, $color-value in $cyan-colors {
+  [data-color_id*="#{$color}"] {
+    fill: color($color);
+  }
+}
+
+@each $color, $color-value in $bluesky-colors {
+  [data-color_id*="#{$color}"] {
+    fill: color($color);
+  }
+}
+
+@each $color, $color-value in $cobalt-colors {
+  [data-color_id*="#{$color}"] {
+    fill: color($color);
+  }
+}
+
+@each $color, $color-value in $blueryb-colors {
+  [data-color_id*="#{$color}"] {
+    fill: color($color);
+  }
+}
+
+@each $color, $color-value in $blue-colors {
+  [data-color_id*="#{$color}"] {
+    fill: color($color);
+  }
+}
+
+@each $color, $color-value in $bluebonnet-colors {
+  [data-color_id*="#{$color}"] {
+    fill: color($color);
+  }
+}
+
+@each $color, $color-value in $purple-colors {
+  [data-color_id*="#{$color}"] {
+    fill: color($color);
+  }
+}
+
+@each $color, $color-value in $plump-colors {
+  [data-color_id*="#{$color}"] {
+    fill: color($color);
+  }
+}
+
+@each $color, $color-value in $violet-colors {
+  [data-color_id*="#{$color}"] {
+    fill: color($color);
+  }
+}
+
+@each $color, $color-value in $indigo-colors {
+  [data-color_id*="#{$color}"] {
+    fill: color($color);
+  }
+}
+
+@each $color, $color-value in $magenta-colors {
+  [data-color_id*="#{$color}"] {
+    fill: color($color);
+  }
+}
+
+@each $color, $color-value in $byzantine-colors {
+  [data-color_id*="#{$color}"] {
+    fill: color($color);
+  }
+}
+
+@each $color, $color-value in $red-colors {
+  [data-color_id*="#{$color}"] {
+    fill: color($color);
+  }
+}
+
+@each $color, $color-value in $vermilion-colors {
+  [data-color_id*="#{$color}"] {
+    fill: color($color);
+  }
+}
+
+@each $color, $color-value in $scarlet-colors {
+  [data-color_id*="#{$color}"] {
+    fill: color($color);
+  }
+}
+
+@each $color, $color-value in $coral-colors {
+  [data-color_id*="#{$color}"] {
+    fill: color($color);
+  }
+}
+
+@each $color, $color-value in $tangelo-colors {
+  [data-color_id*="#{$color}"] {
+    fill: color($color);
+  }
+}
+
+@each $color, $color-value in $orange-colors {
+  [data-color_id*="#{$color}"] {
+    fill: color($color);
+  }
+}
+
+@each $color, $color-value in $ocre-colors {
+  [data-color_id*="#{$color}"] {
+    fill: color($color);
+  }
+}
+
+@each $color, $color-value in $yellow-colors {
+  [data-color_id*="#{$color}"] {
+    fill: color($color);
+  }
+}
+
+@each $color, $color-value in $gold-colors {
+  [data-color_id*="#{$color}"] {
+    fill: color($color);
+  }
+}
+
+@each $color, $color-value in $acid-colors {
+  [data-color_id*="#{$color}"] {
+    fill: color($color);
+  }
+}
+
+@each $color, $color-value in $lemon-colors {
+  [data-color_id*="#{$color}"] {
+    fill: color($color);
+  }
+}
+
+@each $color, $color-value in $chartreuse-colors {
+  [data-color_id*="#{$color}"] {
+    fill: color($color);
+  }
+}
+
+@each $color, $color-value in $lime-colors {
+  [data-color_id*="#{$color}"] {
+    fill: color($color);
+  }
+}
+
+@each $color, $color-value in $green-colors {
+  [data-color_id*="#{$color}"] {
+    fill: color($color);
+  }
+}
+
+@each $color, $color-value in $teal-colors {
+  [data-color_id*="#{$color}"] {
+    fill: color($color);
+  }
+}
+
+@each $color, $color-value in $pelorous-colors {
+  [data-color_id*="#{$color}"] {
+    fill: color($color);
+  }
+}
+
+@each $color, $color-value in $monochrome-cyan-colors {
+  [data-color_id*="#{$color}"] {
+    fill: color($color);
+  }
+}
+
+// @each $color, $color-value in $monochrome-cobalt-colors {
+//  [data-color_id*="#{$color}"] {
+//    fill: color($color);
+//  }
+// }
+
+@each $color, $color-value in $monochrome-bluesky-colors {
+ [data-color_id*="#{$color}"] {
+   fill: color($color);
+ }
+}
+
+@each $color, $color-value in $monochrome-blue-colors {
+ [data-color_id*="#{$color}"] {
+   fill: color($color);
+ }
+}
+
+//@each $color, $color-value in $monochrome-purple-colors {
+//  [data-color_id*="#{$color}"] {
+//    fill: color($color);
+//  }
+//}
+//
+//@each $color, $color-value in $monochrome-violet-colors {
+//  [data-color_id*="#{$color}"] {
+//    fill: color($color);
+//  }
+//}
+//
+//@each $color, $color-value in $monochrome-magenta-colors {
+//  [data-color_id*="#{$color}"] {
+//    fill: color($color);
+//  }
+//}
+// @each $color, $color-value in $monochrome-byzantine-colors {
+//  [data-color_id*="#{$color}"] {
+//    fill: color($color);
+//  }
+// }
+//
+// @each $color, $color-value in $monochrome-red-colors {
+//  [data-color_id*="#{$color}"] {
+//    fill: color($color);
+//  }
+// }
+//
+// @each $color, $color-value in $monochrome-vermilion-colors {
+//  [data-color_id*="#{$color}"] {
+//    fill: color($color);
+//  }
+// }
+
+//@each $color, $color-value in $monochrome-coral-colors {
+//  [data-color_id*="#{$color}"] {
+//    fill: color($color);
+//  }
+//}
+//
+//@each $color, $color-value in $monochrome-orange-colors {
+//  [data-color_id*="#{$color}"] {
+//    fill: color($color);
+//  }
+//}
+//
+// @each $color, $color-value in $monochrome-yellow-colors {
+//  [data-color_id*="#{$color}"] {
+//    fill: color($color);
+//  }
+// }
+
+//@each $color, $color-value in $monochrome-lemon-colors {
+//  [data-color_id*="#{$color}"] {
+//    fill: color($color);
+//  }
+//}
+//
+//@each $color, $color-value in $monochrome-chartreuse-colors {
+//  [data-color_id*="#{$color}"] {
+//    fill: color($color);
+//  }
+//}
+//
+//@each $color, $color-value in $monochrome-lime-colors {
+//  [data-color_id*="#{$color}"] {
+//    fill: color($color);
+//  }
+//}
+//
+
+// @each $color, $color-value in $monochrome-green-colors {
+//  [data-color_id*="#{$color}"] {
+//    fill: color($color);
+//  }
+// }
+//
+//@each $color, $color-value in $monochrome-teal-colors {
+//  [data-color_id*="#{$color}"] {
+//    fill: color($color);
+//  }
+//}
+
+@each $color, $color-value in $gray-colors {
+  [data-color_id*="#{$color}"] {
+    fill: color($color);
+  }
+}

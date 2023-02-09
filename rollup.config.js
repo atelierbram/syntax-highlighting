@@ -1,0 +1,77 @@
+// Plugins
+import { rollupTerser } from '@rollup/plugin-terser';
+const pkg = JSON.parse(rollupTerser('package.json', {encoding: 'utf8'}));
+// import pkg from './package.json';
+
+// Configs
+var configs = {
+  name: 'blog',
+  files: ['prism.js','styleswitcher.js'],
+  formats: ['es'],
+  default: 'es',
+  pathIn: 'source/_assets/js',
+  pathOut: 'source/assets/js',
+  minify: true,
+  sourceMap: false
+};
+
+// Banner
+// var banner = `/*! ${configs.name ? configs.name : pkg.name} v${pkg.version} | (c) ${new Date().getFullYear()} ${pkg.author.name} | ${pkg.license} License | ${pkg.repository.url} */`;
+var banner = ``;
+
+var createOutput = function (filename, minify) {
+  return configs.formats.map(function (format) {
+    var output = {
+      file: `${configs.pathOut}/${filename}${format === configs.default ? '' : `.${format}`}${minify ? '.min' : ''}.js`,
+      format: format,
+      banner: banner
+    };
+    if (format === 'iife') {
+      output.name = configs.name ? configs.name : pkg.name;
+    }
+    if (minify) {
+      output.plugins = [terser()];
+    }
+
+    output.sourcemap = configs.sourceMap
+
+    return output;
+  });
+};
+
+/**
+ * Create output formats
+ * @param  {String} filename The filename
+ * @return {Array}           The outputs array
+ */
+var createOutputs = function (filename) {
+
+  // Create base outputs
+  var outputs = createOutput(filename);
+
+  // If not minifying, return outputs
+  if (!configs.minify) return outputs;
+
+  // Otherwise, ceate second set of outputs
+  var outputsMin = createOutput(filename, true);
+
+  // Merge and return the two arrays
+  return outputs.concat(outputsMin);
+
+};
+
+/**
+ * Create export object
+ * @return {Array} The export object
+ */
+var createExport = function (file) {
+  return configs.files.map(function (file) {
+    var filename = file.replace('.js', '');
+    return {
+      input: `${configs.pathIn}/${file}`,
+      output: createOutputs(filename)
+    };
+  });
+};
+
+export default createExport();

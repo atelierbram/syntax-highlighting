@@ -1,0 +1,127 @@
+/* Code Editors */ 
+@media only screen and (min-width: 800px) {
+  body {
+    overflow: hidden;
+  } 
+  .tagline { 
+    display: inline-block; 
+  } 
+  .code-editors {
+    margin-top: 0;
+    height: 100%;
+    width: 40%; 
+    padding-right: 0;
+  }
+  .alt .code-editors {
+    height: 25%; 
+    height: calc(25% - 34px);
+    width: 100%; 
+  } 
+  .code_box {
+    height: 50%; 
+    height: calc(50% - 80px); 
+    min-height: 0;
+    width: 100%;
+  } 
+
+  .alt .code_box { 
+    float: left;
+    height: 100%;
+    width: calc(50% - 12px); 
+    margin-right: 12px;
+  }
+
+  .alt .code_box:last-child {
+    margin-right: 0;
+  }
+
+  .alt .code_box h3 { 
+    /* display: inline; */
+    margin: 0;
+  }
+  .section-output {
+    width: 60%;
+    height: 100%;
+    height: calc(100% - 100px);
+  } 
+  .alt .section-output {
+    width: 100%;
+    height: 75%;
+    height: calc(75% - 100px);
+  } 
+
+  .page-footer {
+    float: none;
+    position: fixed;
+    left: 0;
+    bottom:0;
+    margin: 1em 0 0 0;
+  } 
+  .page-footer li {
+  display: inline-block;  }
+
+  /* http://www.impressivewebs.com/pure-css-tool-tips/ */
+  a .tooltip, 
+  a:visited .tooltip {
+    position: relative;
+    padding: 0 1.5em;
+    margin: 0 -1.5em; 
+    z-index: 2;
+  } 
+  .tooltip:before {
+    content: "";
+    position: absolute;
+    border-top: 20px solid #0090ff;
+    border-left: 30px solid transparent;
+    border-right: 30px solid transparent;
+    visibility: hidden;
+    top: -18px;
+    left: 0;
+  }
+
+  .tooltip:after {
+    content: attr(data-tooltip);
+    position: absolute;
+    top: -35px;
+    left: 0;
+    background: $blue;
+    padding: 5px 15px;
+    font-family: Verdana, Tahoma, "Lucida Grande", "Lucida Sans Unicode", Corbel, "Segoe Ui", "DejaVuSansCondensed", "DejaVu Sans", "Bitstream Vera Sans", "Liberation Sans", "Verdana Ref", sans-serif;
+    font-size: 1rem;
+    font-weight: normal;
+    display: inline-block; 
+    color: #fff;
+    //  text-shadow: rgba(black,.75) 0 1px 1px; 
+    text-shadow: none; 
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    white-space: nowrap;
+    visibility: hidden;
+    box-shadow: rgba(black, .5) 1px 1px 12px;
+  } 
+  .tooltip:hover:before, .tooltip:hover:after {
+    visibility: visible; 
+  } 
+  .app-header a .tooltip:after { 
+    left: auto;
+    right: 0;
+  } 
+}
+@media only screen and (min-width: 1250px) {
+  .code-editors {
+    width: 30%; 
+  } 
+  .section-output {
+    width: 70%;
+  } 
+} 
+@media only screen and (min-width: 1650px) {
+  .code-editors {
+    width: 25%; 
+  } 
+  .section-output {
+    width: 75%;
+  } 
+} 
+

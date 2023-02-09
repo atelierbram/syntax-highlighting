@@ -1,0 +1,200 @@
+@charset "utf-8";
+.article--demo > svg {
+  max-width: 30em;
+  padding: 0.75em 0;
+}
+
+.article--demo > pre[class*=-background] {
+  max-width: 40em;
+}
+
+@media (max-width: 31.24em) {
+  text {
+    font-size: 2em;
+  }
+}
+@media (min-width: 31.25em) {
+  text {
+    font-size: 1.5em;
+  }
+}
+@media (min-width: 46.25em) {
+  text {
+    font-size: 1.4em;
+  }
+}
+@media (min-width: 61.25em) {
+  text {
+    font-size: 1.33333em;
+  }
+}
+
+.base00-background {
+  background-color: hsl(0deg, 7%, 10%);
+}
+
+.base01-background {
+  background-color: hsl(0deg, 6%, 15%);
+}
+
+.base02-background {
+  background-color: hsl(0deg, 5%, 33%);
+}
+
+.base03-background {
+  background-color: hsl(0deg, 4%, 38%);
+}
+
+.base04-background {
+  background-color: hsl(0deg, 3%, 48%);
+}
+
+.base05-background {
+  background-color: hsl(0deg, 2%, 53%);
+}
+
+.base06-background {
+  background-color: hsl(0deg, 15%, 89%);
+}
+
+.base07-background {
+  background-color: hsl(0deg, 25%, 94%);
+}
+
+.base08-background,
+.red-background {
+  background-color: hsl(0deg, 55%, 54%);
+}
+
+.base09-background,
+.orange-background {
+  background-color: hsl(15deg, 50%, 47%);
+}
+
+.base0A-background,
+.yellow-background {
+  background-color: hsl(30deg, 46%, 43%);
+}
+
+.base0B-background,
+.green-background {
+  background-color: hsl(180deg, 30%, 42%);
+}
+
+.base0C-background,
+.cyan-background {
+  background-color: hsl(210deg, 40%, 52%);
+}
+
+.base0D-background,
+.blue-background {
+  background-color: hsl(240deg, 45%, 62%);
+}
+
+.base0E-background,
+.violet-background {
+  background-color: hsl(260deg, 45%, 58%);
+}
+
+.base0F-background,
+.magenta-background {
+  background-color: hsl(330deg, 45%, 53%);
+}
+
+.base00 {
+  color: hsl(0deg, 7%, 10%);
+}
+
+.base01 {
+  color: hsl(0deg, 6%, 15%);
+}
+
+.base02 {
+  color: hsl(0deg, 5%, 33%);
+}
+
+.base03 {
+  color: hsl(0deg, 4%, 38%);
+}
+
+.base04 {
+  color: hsl(0deg, 3%, 48%);
+}
+
+.base05 {
+  color: hsl(0deg, 2%, 53%);
+}
+
+.base06 {
+  color: hsl(0deg, 15%, 89%);
+}
+
+.base07 {
+  color: hsl(0deg, 25%, 94%);
+}
+
+.base08,
+.red {
+  color: hsl(0deg, 55%, 54%);
+}
+
+.base09,
+.orange {
+  color: hsl(15deg, 50%, 47%);
+}
+
+.base0A,
+.yellow {
+  color: hsl(30deg, 46%, 43%);
+}
+
+.base0B,
+.green {
+  color: hsl(180deg, 30%, 42%);
+}
+
+.base0C,
+.cyan {
+  color: hsl(210deg, 40%, 52%);
+}
+
+.base0D,
+.blue {
+  color: hsl(240deg, 45%, 62%);
+}
+
+.base0E,
+.violet {
+  color: hsl(260deg, 45%, 58%);
+}
+
+.base0F,
+.magenta {
+  color: hsl(330deg, 45%, 53%);
+}
+
+pre[class*=language].base00-background {
+  background-color: hsl(0deg, 7%, 10%);
+}
+
+.sh-c {
+  overflow: auto;
+  color: hsl(0deg, 6%, 15%);
+}
+
+.sh-c-comm {
+  padding: 0.2em 0.5em;
+  display: inline-block;
+}
+
+.sh-c-light,
+.sh-c-light .comment {
+  color: hsl(0deg, 2%, 53%);
+}
+
+.sh-c-dark,
+.sh-c-dark .comment {
+  color: hsl(0deg, 6%, 15%);
+}
+
+/*# sourceMappingURL=plateau.css.map */

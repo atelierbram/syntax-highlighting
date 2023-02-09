@@ -1,0 +1,101 @@
+@import "partials/foundation-app";
+
+// http://codepen.io/progers/pen/mGcLz
+body {
+  background-image: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI1IiBoZWlnaHQ9IjUiPgo8cmVjdCB3aWR0aD0iNSIgaGVpZ2h0PSI1IiBmaWxsPSIjYmRiYWI5Ij48L3JlY3Q+CjxwYXRoIGQ9Ik0wIDVMNSAwWk02IDRMNCA2Wk0tMSAxTDEgLTFaIiBzdHJva2U9IiM4MzdlN2MiIHN0cm9rZS13aWR0aD0iMSI+PC9wYXRoPgo8L3N2Zz4=");
+}
+.styleswitchers {
+  // position: fixed;
+  position: absolute;
+  top: 0;
+  z-index: 200;
+  width: 100%;
+}
+.styleswitchers .dropdown {
+  box-shadow: 0 0 12px rgba(0,0,0,.5);
+  background-color: $sh-blue-color;
+  text-transform: uppercase;
+  border-color: darken($sh-blue-color,5);
+}
+.styleswitchers .dropdown:hover {
+  background-color: adjust-hue($sh-blue-color,-20);
+}
+.f-dropdown.open,
+.styleswitchers .open {
+  box-shadow: 0 .5em 1em rgba(black,.25);
+  max-height: 260px;
+  overflow-y: auto;
+}
+.styleswitchers a {
+  display: block;
+  padding: .25em .5em;
+  line-height: 1.25;
+}
+
+.f-dropdown li a {
+  border-top: 1px solid #fff;
+  border-bottom: 1px solid rgba(black,.2);
+  // outline: 1px solid rgba(black,.25);
+}
+.f-dropdown li:first-child a {
+  border-top: none;
+}
+.f-dropdown li:last-child a {
+  border-bottom: none;
+}
+.f-dropdown a {
+  background: lighten($sh-bg-color,20);
+  color: #111;
+}
+
+.f-dropdown a:hover,
+.f-dropdown a:focus {
+  background: #fff;
+}
+.f-dropdown:before {
+  border-bottom-color: lighten($sh-bg-color,20) ;
+}
+.f-dropdown .is-selected,
+.f-dropdown .is-selected:hover,
+.f-dropdown .is-selected:active {
+  background: adjust-hue($sh-blue-color,-20) !important;
+  color: #fff;
+  border-top-color: transparent;
+  border-bottom-color: transparent;
+  pointer-events: none;
+  cursor: default;
+}
+.header .f-dropdown.small {
+  max-width: 170px;
+  z-index: 999;
+}
+.dropdown-atelier.button:before {
+  border-color: #000 transparent transparent transparent;
+  right: 0.5em;
+}
+/* grid helpers */
+.ptl {
+  padding-top: 2em;
+}
+.pbl {
+  padding-bottom: 2em;
+}
+.mbl {
+  margin-bottom: 2em;
+}
+.pad-v  {
+  padding: 1em 0;
+}
+.outer-wrap {
+  position: relative;
+}
+.language-markup pre[class*="language-"] {
+  margin-bottom: 2em;
+  font-size: emCalc(16);
+}
+@media only screen and (min-width: 768px) {
+  .section-container.auto {
+    overflow-x: hidden;
+  }
+}
+

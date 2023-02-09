@@ -1,0 +1,76 @@
+.page-wrap {
+  min-height: 100vh;
+  overflow: auto;
+  position: relative;
+}
+.container {
+  margin: 0 auto;
+  max-width: 50em;
+}
+
+.tagline {
+  text-transform: uppercase;
+  font-size: .75em;
+  font-family: $wf-semibold;
+  color: color(red-12);
+}
+
+.new-theme-svg {
+  width: 2.5em;
+  height: 1.25em;
+}
+
+.logo-avatar {
+  vertical-align: middle;
+}
+
+// footer a:hover .logo-avatar {
+//   width: 90px;
+//   height: 90px;
+// }
+
+.github-corner:hover svg[style] {
+  color: color(monochrome-bluesky-01) !important;
+}
+
+.note {
+  display: inline-block;
+  padding: 1em 1.5em;
+  margin: 1em 0 2em;
+  background-color: color(yellow-05);
+  font-size: .875em;
+  border-radius: 3px;
+}
+
+.note-warning {
+  background-color: $red;
+  color: #fff;
+  letter-spacing: .75px;
+  word-spacing: -.75px;
+}
+
+.cp_embed_wrapper,
+.svg-colortiles {
+  margin: .75em 0 1em;
+}
+
+.go-to-top {
+  position: absolute;
+  width: 24px;
+  height: 24px;
+  top: auto;
+  bottom: 4.5em;
+  right: 1.5em;
+  z-index: 1;
+
+  &:hover {
+    color: color(red-12);
+    box-shadow: none;
+  }
+ .page-base2tone & {
+   display: none;
+ }
+ @include mq($until: tablet) {
+   bottom: 1.5em;
+ }
+}

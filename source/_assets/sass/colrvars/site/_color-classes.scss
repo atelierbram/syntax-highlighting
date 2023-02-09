@@ -1,0 +1,432 @@
+// http://codepen.io/stacy/pen/qOdWMy
+// Create our color classes
+// Each loop goes through each $color (key) and $color-value (value) in our map ($theme-colors)
+//
+@each $color, $color-value in $cyan-colors {
+
+  // Append the color name to the class with interpolation #{$color}
+  .cv-#{$color}-fg {
+
+    // Assign the color with the color function we created earlier
+    color: color($color);
+  }
+
+  // Create background color the same way
+  .cv-#{$color}-bg {
+    background-color: color($color);
+  }
+}
+
+@each $color, $color-value in $bluesky-colors {
+  .cv-#{$color}-fg {
+    color: color($color);
+  }
+  .cv-#{$color}-bg {
+    background-color: color($color);
+  }
+}
+
+@each $color, $color-value in $cobalt-colors {
+  .cv-#{$color}-fg {
+    color: color($color);
+  }
+  .cv-#{$color}-bg {
+    background-color: color($color);
+  }
+}
+
+@each $color, $color-value in $blueryb-colors {
+  .cv-#{$color}-fg {
+    color: color($color);
+  }
+  .cv-#{$color}-bg {
+    background-color: color($color);
+  }
+}
+
+@each $color, $color-value in $blue-colors {
+  .cv-#{$color}-fg {
+    color: color($color);
+  }
+  .cv-#{$color}-bg {
+    background-color: color($color);
+  }
+}
+
+@each $color, $color-value in $bluebonnet-colors {
+  .cv-#{$color}-fg {
+    color: color($color);
+  }
+  .cv-#{$color}-bg {
+    background-color: color($color);
+  }
+}
+
+@each $color, $color-value in $purple-colors {
+  .cv-#{$color}-fg {
+    color: color($color);
+  }
+  .cv-#{$color}-bg {
+    background-color: color($color);
+  }
+}
+
+@each $color, $color-value in $plump-colors {
+  .cv-#{$color}-fg {
+    color: color($color);
+  }
+  .cv-#{$color}-bg {
+    background-color: color($color);
+  }
+}
+
+@each $color, $color-value in $indigo-colors {
+  .cv-#{$color}-fg {
+    color: color($color);
+  }
+  .cv-#{$color}-bg {
+    background-color: color($color);
+  }
+}
+
+@each $color, $color-value in $violet-colors {
+  .cv-#{$color}-fg {
+    color: color($color);
+  }
+  .cv-#{$color}-bg {
+    background-color: color($color);
+  }
+}
+
+@each $color, $color-value in $magenta-colors {
+  .cv-#{$color}-fg {
+    color: color($color);
+  }
+  .cv-#{$color}-bg {
+    background-color: color($color);
+  }
+}
+
+@each $color, $color-value in $byzantine-colors {
+  .cv-#{$color}-fg {
+    color: color($color);
+  }
+  .cv-#{$color}-bg {
+    background-color: color($color);
+  }
+}
+
+@each $color, $color-value in $red-colors {
+  .cv-#{$color}-fg {
+    color: color($color);
+  }
+  .cv-#{$color}-bg {
+    background-color: color($color);
+  }
+}
+
+@each $color, $color-value in $vermilion-colors {
+  .cv-#{$color}-fg {
+    color: color($color);
+  }
+  .cv-#{$color}-bg {
+    background-color: color($color);
+  }
+}
+
+@each $color, $color-value in $scarlet-colors {
+  .cv-#{$color}-fg {
+    color: color($color);
+  }
+  .cv-#{$color}-bg {
+    background-color: color($color);
+  }
+}
+
+@each $color, $color-value in $coral-colors {
+  .cv-#{$color}-fg {
+    color: color($color);
+  }
+  .cv-#{$color}-bg {
+    background-color: color($color);
+  }
+}
+
+@each $color, $color-value in $tangelo-colors {
+  .cv-#{$color}-fg {
+    color: color($color);
+  }
+  .cv-#{$color}-bg {
+    background-color: color($color);
+  }
+}
+
+@each $color, $color-value in $orange-colors {
+  .cv-#{$color}-fg {
+    color: color($color);
+  }
+  .cv-#{$color}-bg {
+    background-color: color($color);
+  }
+}
+
+@each $color, $color-value in $ocre-colors {
+  .cv-#{$color}-fg {
+    color: color($color);
+  }
+  .cv-#{$color}-bg {
+    background-color: color($color);
+  }
+}
+
+@each $color, $color-value in $yellow-colors {
+  .cv-#{$color}-fg {
+    color: color($color);
+  }
+  .cv-#{$color}-bg {
+    background-color: color($color);
+  }
+}
+
+@each $color, $color-value in $gold-colors {
+  .cv-#{$color}-fg {
+    color: color($color);
+  }
+  .cv-#{$color}-bg {
+    background-color: color($color);
+  }
+}
+
+@each $color, $color-value in $acid-colors {
+  .cv-#{$color}-fg {
+    color: color($color);
+  }
+  .cv-#{$color}-bg {
+    background-color: color($color);
+  }
+}
+
+@each $color, $color-value in $lemon-colors {
+  .cv-#{$color}-fg {
+    color: color($color);
+  }
+  .cv-#{$color}-bg {
+    background-color: color($color);
+  }
+}
+
+@each $color, $color-value in $chartreuse-colors {
+  .cv-#{$color}-fg {
+    color: color($color);
+  }
+  .cv-#{$color}-bg {
+    background-color: color($color);
+  }
+}
+
+@each $color, $color-value in $lime-colors {
+  .cv-#{$color}-fg {
+    color: color($color);
+  }
+  .cv-#{$color}-bg {
+    background-color: color($color);
+  }
+}
+
+@each $color, $color-value in $green-colors {
+  .cv-#{$color}-fg {
+    color: color($color);
+  }
+  .cv-#{$color}-bg {
+    background-color: color($color);
+  }
+}
+
+@each $color, $color-value in $teal-colors {
+  .cv-#{$color}-fg {
+    color: color($color);
+  }
+  .cv-#{$color}-bg {
+    background-color: color($color);
+  }
+}
+
+@each $color, $color-value in $pelorous-colors {
+  .cv-#{$color}-fg {
+    color: color($color);
+  }
+  .cv-#{$color}-bg {
+    background-color: color($color);
+  }
+}
+
+@each $color, $color-value in $monochrome-cyan-colors {
+  .cv-#{$color}-fg {
+    color: color($color);
+  }
+  .cv-#{$color}-bg {
+    background-color: color($color);
+  }
+}
+
+// @each $color, $color-value in $monochrome-cobalt-colors {
+//  .cv-#{$color}-fg {
+//    color: color($color);
+//  }
+//  .cv-#{$color}-bg {
+//    background-color: color($color);
+//  }
+// }
+//
+
+each $color, $color-value in $monochrome-bluesky-colors {
+ .cv-#{$color}-fg {
+   color: color($color);
+ }
+ .cv-#{$color}-bg {
+   background-color: color($color);
+ }
+}
+ 
+@each $color, $color-value in $monochrome-blue-colors {
+ .cv-#{$color}-fg {
+   color: color($color);
+ }
+ .cv-#{$color}-bg {
+   background-color: color($color);
+ }
+}
+
+//@each $color, $color-value in $monochrome-purple-colors {
+//  .cv-#{$color}-fg {
+//    color: color($color);
+//  }
+//  .cv-#{$color}-bg {
+//    background-color: color($color);
+//  }
+//}
+//
+//@each $color, $color-value in $monochrome-violet-colors {
+//  .cv-#{$color}-fg {
+//    color: color($color);
+//  }
+//  .cv-#{$color}-bg {
+//    background-color: color($color);
+//  }
+//}
+//
+//@each $color, $color-value in $monochrome-magenta-colors {
+//  .cv-#{$color}-fg {
+//    color: color($color);
+//  }
+//  .cv-#{$color}-bg {
+//    background-color: color($color);
+//  }
+//}
+
+// @each $color, $color-value in $monochrome-byzantine-colors {
+//  .cv-#{$color}-fg {
+//    color: color($color);
+//  }
+//  .cv-#{$color}-bg {
+//    background-color: color($color);
+//  }
+// }
+//
+// @each $color, $color-value in $monochrome-red-colors {
+//  .cv-#{$color}-fg {
+//    color: color($color);
+//  }
+//  .cv-#{$color}-bg {
+//    background-color: color($color);
+//  }
+// }
+//
+// @each $color, $color-value in $monochrome-vermilion-colors {
+//  .cv-#{$color}-fg {
+//    color: color($color);
+//  }
+//  .cv-#{$color}-bg {
+//    background-color: color($color);
+//  }
+// } 
+//@each $color, $color-value in $monochrome-coral-colors {
+//  .cv-#{$color}-fg {
+//    color: color($color);
+//  }
+//  .cv-#{$color}-bg {
+//    background-color: color($color);
+//  }
+//}
+//
+//@each $color, $color-value in $monochrome-orange-colors {
+//  .cv-#{$color}-fg {
+//    color: color($color);
+//  }
+//  .cv-#{$color}-bg {
+//    background-color: color($color);
+//  }
+//}
+//
+// @each $color, $color-value in $monochrome-yellow-colors {
+//  .cv-#{$color}-fg {
+//    color: color($color);
+//  }
+//  .cv-#{$color}-bg {
+//    background-color: color($color);
+//  }
+// }
+//
+//@each $color, $color-value in $monochrome-lemon-colors {
+//  .cv-#{$color}-fg {
+//    color: color($color);
+//  }
+//  .cv-#{$color}-bg {
+//    background-color: color($color);
+//  }
+//}
+//
+//@each $color, $color-value in $monochrome-chartreuse-colors {
+//  .cv-#{$color}-fg {
+//    color: color($color);
+//  }
+//  .cv-#{$color}-bg {
+//    background-color: color($color);
+//  }
+//}
+//
+//@each $color, $color-value in $monochrome-lime-colors {
+//  .cv-#{$color}-fg {
+//    color: color($color);
+//  }
+//  .cv-#{$color}-bg {
+//    background-color: color($color);
+//  }
+//}
+// 
+// @each $color, $color-value in $monochrome-green-colors {
+//  .cv-#{$color}-fg {
+//    color: color($color);
+//  }
+//  .cv-#{$color}-bg {
+//    background-color: color($color);
+//  }
+// }
+//
+//@each $color, $color-value in $monochrome-teal-colors {
+//  .cv-#{$color}-fg {
+//    color: color($color);
+//  }
+//  .cv-#{$color}-bg {
+//    background-color: color($color);
+//  }
+//}
+
+@each $color, $color-value in $gray-colors {
+  .cv-#{$color}-fg {
+    color: color($color);
+  }
+  .cv-#{$color}-bg {
+    background-color: color($color);
+  }
+}

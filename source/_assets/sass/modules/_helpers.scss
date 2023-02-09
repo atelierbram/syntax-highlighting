@@ -1,0 +1,54 @@
+.visuallyhidden {
+  border: 0;
+  clip: rect(0 0 0 0);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  width: 1px;
+}
+
+.mtl {
+  margin-top: 3em;
+}
+
+.mtm {
+  margin-top: 2em;
+}
+.mbm-minus {
+  margin-bottom: -2em;
+}
+.mbl {
+  margin-bottom: 3em;
+}
+
+.tc {
+  text-align: center;
+}
+
+.button {
+  padding: .4em 1em;
+  background-color: $yellow;
+  color: #fff;
+  transition: all .3s;
+  border-radius: 3px;
+  box-shadow: none !important;
+
+  &:hover {
+    color: #fff !important;
+    background-color: color(gold-12);
+  }
+}
+.list-inline {
+  display: flex;
+  padding: 0.785em 0;
+  text-indent: 0;
+  margin: 0 0 1.5em;
+  overflow: auto;
+  li {
+    display: inline-block;
+    margin: 0 1em 0 0;
+    padding: 0;
+  }
+}

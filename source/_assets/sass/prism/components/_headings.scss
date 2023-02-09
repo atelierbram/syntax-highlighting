@@ -1,0 +1,42 @@
+.themes-logo {
+  display: block;
+  width: 267px;
+}
+.masthead img {
+  border: 0;
+}
+.masthead h1,
+.masthead p {
+  display: inline-block;
+}
+.visuallyhidden {
+  border: 0;
+  clip: rect(0 0 0 0);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  width: 1px;
+  color: transparent;
+  font: 0/1 sans-serif;
+}
+h2 {
+  margin: 0;
+  font-weight: normal;
+}
+h1,
+h2 {
+  font-family: brandosans-semibold-v100, "Open Sans Condensed", AvenirNextCondensed-DemiBold, "DejaVu Sans Condensed", "Lucida Grande", Corbel, "Trebuchet Ms", sans-serif;
+  font-weight: 400;
+}
+h2 {
+  font-size: 1.5rem;
+  margin-top: 2em;
+  // color: #222;
+  color: $dark0_soft;
+}
+[class*=".dark"] h2 {
+  color: silver;
+  letter-spacing: 1px;
+}

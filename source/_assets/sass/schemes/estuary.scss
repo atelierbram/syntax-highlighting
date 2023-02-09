@@ -1,0 +1,27 @@
+$base00:  hsl(55, 12%, 12%);
+$base01:  hsl(55, 11%, 17%);
+$base02:  hsl(55, 10%, 34%);
+$base03:  hsl(55, 9%, 39%);
+$base04:  hsl(55, 8%, 49%);
+$base05:  hsl(55, 7%, 54%);
+$base06:  hsl(55, 15%, 89%);
+$base07:  hsl(55, 25%, 94%);
+$base08:  hsl(20, 55%, 47%);
+$base09:  hsl(37, 80%, 38%);
+$base0a:  hsl(55, 85%, 35%);
+$base0b:  hsl(74, 60%, 37%);
+$base0c:  hsl(107, 37%, 45%);
+$base0d:  hsl(147, 50%, 42%);
+$base0e:  hsl(162, 21%, 47%);
+$base0f:  hsl(340, 20%, 52%);
+
+$red:     $base08;
+$orange:  $base09;
+$yellow:  $base0a;
+$green:   $base0b;
+$cyan:    $base0c;
+$blue:    $base0d;
+$violet:  $base0e;
+$magenta: $base0f;
+
+@import "partials/atelier-schemes";
