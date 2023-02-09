@@ -31,23 +31,16 @@ Screenshot Code Syntax Highlighting with Prism and Base2Tone-Pool theme
     * [Seaside](https://atelierbram.github.io/syntax-highlighting/atelier-schemes/seaside)
     * [Estuary](https://atelierbram.github.io/syntax-highlighting/atelier-schemes/estuary)
     * [Dune](https://atelierbram.github.io/syntax-highlighting/atelier-schemes/dune)
-    * [Downloads](https://github.com/atelierbram/syntax-highlighting/tree/master/atelier-schemes/output)
+    * [Downloads](https://github.com/atelierbram/syntax-highlighting/tree/master/docs/assets/css/prism/schemes)
 
 ![Atelier Schemes, demotiles for Dune, syntax highlighting colorscheme](https://atelierbram.github.io/syntax-highlighting/assets/img/svg/atelierschemes-demotiles-dune_1200x300.svg)
 
 Atelier Schemes, demotiles for Dune, syntax highlighting colorscheme
 
-![screenshot of Sulphurpool colorscheme - dark version - in Vim](https://atelierbram.github.io/syntax-highlighting/assets/img/sulphurpool-dark_vim_640x425.png)
-
-screenshot of Dune colorscheme - dark version - in Vim
-
 ## Prism
 
 Colorschemes for Prism [demopage](https://atelierbram.github.io/syntax-highlighting/prism)
 
-![screenshot of styleswitcher for Prism themes](https://lh6.googleusercontent.com/-27KX3QAEzAc/Ug9O3QH1t2I/AAAAAAAAAlw/tdEU6foUIXM/s800/prism-styleswitcher_screenshot_546x364.png)
-
-screenshot of styleswitcher for Prism themes
 
 ## External
 * [Atelier Schemes on Visual Studio Marketplace](https://marketplace.visualstudio.com/items?itemName=Atelierbram.atelier-vscode-themes#overview)
