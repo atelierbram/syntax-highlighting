@@ -13,7 +13,7 @@ slug: 'atelier-schemes/changelog'
 <h3>Changes <time class="smll" datetime="2015-03-14">&#8212; March, 2015</time></h3>
 <p>Nothing is ever perfect, and the act of creation is an iterative process. But there is also a fine line between improving something, and “falsification of ones growth process”. Trying to avoid the latter, this is one of the reasons for documenting the changes I made in syntax-highlighting colorschemes, I started to make now almost two years ago &hellip;. </p>
 
-<h3 class="bn" id="forest"><a href="{{ $page->baseUrl }}/atelier-schemes/forest/">Forest</a></h3>
+<h3 class="bn" id="forest"><a href="{{ $page->baseUrl }}atelier-schemes/forest/">Forest</a></h3>
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 300" class="svg-colortiles">
 <style type="text/css">
 <![CDATA[

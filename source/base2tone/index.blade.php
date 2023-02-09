@@ -9,7 +9,7 @@ slug: 'base2tone'
 @section('body')
 
 <header class="tc">
-<h2 class="visuallyhidden"><a href="{{ $page->baseUrl; }}base2tone/">Base2Tone</a></h2>
+<h2 class="visuallyhidden"><a href="{{ $page->baseUrl }}base2tone/">Base2Tone</a></h2>
 
 @include('_partials.base2tone-logo-infini_896x176_svg')
 </header>

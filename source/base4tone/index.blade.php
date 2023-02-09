@@ -8,7 +8,7 @@ slug: base4tone
 
 @section('body')
 
-<header class="tc"><h2 class="visuallyhidden"><a href="{{ $page->baseUrl; }}/base4tone/">Base4Tone</a></h2>
+<header class="tc"><h2 class="visuallyhidden"><a href="{{ $page->baseUrl }}/base4tone/">Base4Tone</a></h2>
 @include('_partials.base4tone-header_912x180_svg')
 </header>
 

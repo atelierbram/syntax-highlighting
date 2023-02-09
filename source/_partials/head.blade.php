@@ -19,8 +19,8 @@
       <link rel="icon" href="http://localhost/favicon.ico">
     @else
       <style id="fontfaceRemoteCss">@include('_partials.fontface-remote-css')</style>
-      <link rel="prefetch" href="{{ $page->baseUrl }}/assets/css/style-redesign-v1.css">
-      <link href="{{ $page->baseUrl }}/{{ ('assets/css/style-redesign-v1.min.css?v1') }}" rel="stylesheet" media="print" onload="this.media='all'">
+      <link rel="prefetch" href="{{ $page->baseUrl }}assets/css/style-redesign-v1.css">
+      <link href="{{ $page->baseUrl }}{{ ('assets/css/style-redesign-v1.min.css?v1') }}" rel="stylesheet" media="print" onload="this.media='all'">
       <link rel="icon" href="/favicon.ico">
     @endif
     <script id="headDetectJs">@include('_partials.head-detect-js')</script>
@@ -30,7 +30,7 @@
     @endif
 
     @if ( ($page->page_type === "themepage") &&  ($page->server === "remote"))
-      <link href="{{ $page->baseUrl }}/{{ ('assets/css/single.min.css?v1') }}" rel="stylesheet" media="print" onload="this.media='all'">
+      <link href="{{ $page->baseUrl }}{{ ('assets/css/single.min.css?v1') }}" rel="stylesheet" media="print" onload="this.media='all'">
     @endif
 
     @if ($page->page_id === "cave")

@@ -13,7 +13,7 @@ slug: prism
 
 <h3>Go to the demo page for:</h3>
 <ul class="list-inline">
-  <li><a href="{{ $page->baseUrl }}/demo/prism/" class="button">Atelier Schemes</a></li>
+  <li><a href="{{ $page->baseUrl }}demo/prism/" class="button">Atelier Schemes</a></li>
   <li><a href="//atelierbram.github.io/Base2Tone-prism/evening/dark/" class="button">Base2Tone</a></li>
   <li><a href="//atelierbram.github.io/Base4Tone-prism/b4t_classic-a/dark/" class="button">Base4Tone</a></li>
 </ul>
@@ -23,26 +23,26 @@ slug: prism
 
 <details><summary>Atelier Schemes for Prism (CSS files - direct links):</summary>
 <ol>
-  <li><a href="//atelierbram.github.io/syntax-highlighting/assets/css/prism/schemes/atelier-forest-light.css">Forest Light</a></li>
-  <li><a href="//atelierbram.github.io/syntax-highlighting/assets/css/prism/schemes/atelier-forest-dark.css">Forest Dark</a></li>
-  <li><a href="//atelierbram.github.io/syntax-highlighting/assets/css/prism/schemes/atelier-plateau-light.css">Plateau Light</a></li>
-  <li><a href="//atelierbram.github.io/syntax-highlighting/assets/css/prism/schemes/atelier-plateau-dark.css">Plateau Dark</a></li>
-  <li><a href="//atelierbram.github.io/syntax-highlighting/assets/css/prism/schemes/atelier-heath-light.css">Heath Light</a></li>
-  <li><a href="//atelierbram.github.io/syntax-highlighting/assets/css/prism/schemes/atelier-heath-dark.css">Heath Dark</a></li>
-  <li><a href="//atelierbram.github.io/syntax-highlighting/assets/css/prism/schemes/atelier-cave-light.css">Cave Light</a></li>
-  <li><a href="//atelierbram.github.io/syntax-highlighting/assets/css/prism/schemes/atelier-cave-dark.css">Cave Dark</a></li>
-  <li><a href="//atelierbram.github.io/syntax-highlighting/assets/css/prism/schemes/atelier-sulphurpool-light.css">Sulphurpool Light</a></li>
-  <li><a href="//atelierbram.github.io/syntax-highlighting/assets/css/prism/schemes/atelier-sulphurpool-dark.css">Sulphurpool Dark</a></li>
-  <li><a href="//atelierbram.github.io/syntax-highlighting/assets/css/prism/schemes/atelier-lakeside-light.css">Lakeside Light</a></li>
-  <li><a href="//atelierbram.github.io/syntax-highlighting/assets/css/prism/schemes/atelier-lakeside-dark.css">lakeside Dark</a></li>
-  <li><a href="//atelierbram.github.io/syntax-highlighting/assets/css/prism/schemes/atelier-savanna-light.css">Savanna Light</a></li>
-  <li><a href="//atelierbram.github.io/syntax-highlighting/assets/css/prism/schemes/atelier-savanna-dark.css">Savanna Dark</a></li>
-  <li><a href="//atelierbram.github.io/syntax-highlighting/assets/css/prism/schemes/atelier-seaside-light.css">Seaside Light</a></li>
-  <li><a href="//atelierbram.github.io/syntax-highlighting/assets/css/prism/schemes/atelier-seaside-dark.css">Seaside Dark</a></li>
-  <li><a href="//atelierbram.github.io/syntax-highlighting/assets/css/prism/schemes/atelier-estuary-light.css">Estuary Light</a></li>
-  <li><a href="//atelierbram.github.io/syntax-highlighting/assets/css/prism/schemes/atelier-estuary-dark.css">Estuary Dark</a></li>
-  <li><a href="//atelierbram.github.io/syntax-highlighting/assets/css/prism/schemes/atelier-dune-light.css">Dune Light</a></li>
-  <li><a href="//atelierbram.github.io/syntax-highlighting/assets/css/prism/schemes/atelier-dune-dark.css">Dune Dark</a></li>
+  <li><a href="//atelierbram.github.io/syntax-highlighting/assets/css/prism/schemes/prism-atelier-forest-light.css">Forest Light</a></li>
+  <li><a href="//atelierbram.github.io/syntax-highlighting/assets/css/prism/schemes/prism-atelier-forest-dark.css">Forest Dark</a></li>
+  <li><a href="//atelierbram.github.io/syntax-highlighting/assets/css/prism/schemes/prism-atelier-plateau-light.css">Plateau Light</a></li>
+  <li><a href="//atelierbram.github.io/syntax-highlighting/assets/css/prism/schemes/prism-atelier-plateau-dark.css">Plateau Dark</a></li>
+  <li><a href="//atelierbram.github.io/syntax-highlighting/assets/css/prism/schemes/prism-atelier-heath-light.css">Heath Light</a></li>
+  <li><a href="//atelierbram.github.io/syntax-highlighting/assets/css/prism/schemes/prism-atelier-heath-dark.css">Heath Dark</a></li>
+  <li><a href="//atelierbram.github.io/syntax-highlighting/assets/css/prism/schemes/prism-atelier-cave-light.css">Cave Light</a></li>
+  <li><a href="//atelierbram.github.io/syntax-highlighting/assets/css/prism/schemes/prism-atelier-cave-dark.css">Cave Dark</a></li>
+  <li><a href="//atelierbram.github.io/syntax-highlighting/assets/css/prism/schemes/prism-atelier-sulphurpool-light.css">Sulphurpool Light</a></li>
+  <li><a href="//atelierbram.github.io/syntax-highlighting/assets/css/prism/schemes/prism-atelier-sulphurpool-dark.css">Sulphurpool Dark</a></li>
+  <li><a href="//atelierbram.github.io/syntax-highlighting/assets/css/prism/schemes/prism-atelier-lakeside-light.css">Lakeside Light</a></li>
+  <li><a href="//atelierbram.github.io/syntax-highlighting/assets/css/prism/schemes/prism-atelier-lakeside-dark.css">lakeside Dark</a></li>
+  <li><a href="//atelierbram.github.io/syntax-highlighting/assets/css/prism/schemes/prism-atelier-savanna-light.css">Savanna Light</a></li>
+  <li><a href="//atelierbram.github.io/syntax-highlighting/assets/css/prism/schemes/prism-atelier-savanna-dark.css">Savanna Dark</a></li>
+  <li><a href="//atelierbram.github.io/syntax-highlighting/assets/css/prism/schemes/prism-atelier-seaside-light.css">Seaside Light</a></li>
+  <li><a href="//atelierbram.github.io/syntax-highlighting/assets/css/prism/schemes/prism-atelier-seaside-dark.css">Seaside Dark</a></li>
+  <li><a href="//atelierbram.github.io/syntax-highlighting/assets/css/prism/schemes/prism-atelier-estuary-light.css">Estuary Light</a></li>
+  <li><a href="//atelierbram.github.io/syntax-highlighting/assets/css/prism/schemes/prism-atelier-estuary-dark.css">Estuary Dark</a></li>
+  <li><a href="//atelierbram.github.io/syntax-highlighting/assets/css/prism/schemes/prism-atelier-dune-light.css">Dune Light</a></li>
+  <li><a href="//atelierbram.github.io/syntax-highlighting/assets/css/prism/schemes/prism-atelier-dune-dark.css">Dune Dark</a></li>
 </ol>
 </details>
 
