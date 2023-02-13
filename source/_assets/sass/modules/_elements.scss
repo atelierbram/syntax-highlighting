@@ -74,7 +74,7 @@ body {
 
   @include mq($until: tablet) {
     text-align: center;
-    padding: .5em 3em 0;
+    padding: 0.55em 1.5em 1em;
   }
 
   @include mq($from: tablet) {
@@ -137,15 +137,14 @@ h4 {
 }
 
 h1 {
-  font-size: 3em;
+  font-family: $wf-semibold;
+  font-size: 2em;
   margin: 0;
   line-height: 1;
   font-weight: normal;
+  letter-spacing: -.0125em;
 }
 
-h1 {
-  font-family: $wf-header;
-}
 
 h2 {
   font-family: $wf-extralight;
@@ -427,10 +426,14 @@ main {
   overflow: auto;
   position: relative;
   z-index: 1;
-  padding: 2em 3em;
+  padding: 2em 1.5em;
 
   @include mq($from: tablet) {
     min-height: calc(100vh - 9.1em);
+  }
+  @include mq($from: desktop) {
+    padding-right: 3em;
+    padding-left: 3em;
   }
 
   @include mq($from: xlwide) {

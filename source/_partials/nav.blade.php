@@ -1,4 +1,4 @@
-<nav class="nav nav-site container">
+<nav class="nav nav-site container" id="navSite">
   <ul class="nav_list nav-site_list">
     <li class='nav_list_item @if ($page->page_id === ("home"))current @endif'><a href="{{ $page->baseUrl }}">Home</a></li>
     <li class='nav_list_item {{ $page->isActive("/atelier-schemes/") ? "current" : "" }}'><a href="{{ $page->baseUrl }}atelier-schemes/">Atelier Schemes</a></li>

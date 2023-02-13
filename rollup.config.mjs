@@ -7,7 +7,7 @@ const pkg = JSON.parse(readFileSync('package.json', {encoding: 'utf8'}));
 // Configs
 var configs = {
   name: 'blog',
-  files: ['prism.js','styleswitcher.js'],
+  files: ['menu-toggle.js','prism.js','styleswitcher.js'],
   formats: ['es'],
   default: 'es',
   pathIn: 'source/_assets/js',

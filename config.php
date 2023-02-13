@@ -2,7 +2,7 @@
 use Illuminate\Support\Str;
 
 return [
-  'baseUrl' => 'http://localhost/github.com/atelierbram/syntax-highlighting/docs',
+  'baseUrl' => 'http://localhost/github.com/atelierbram/syntax-highlighting/docs/',
   'localUrl' => 'http://localhost/github.com/atelierbram/syntax-highlighting/',
   'localAssetPath' => 'http://localhost/github.com/atelierbram/syntax-highlighting/source/assets/',
   'localAssetPathFonts' => 'http://localhost/github.com/atelierbram/atelierbram.github.io/type/',

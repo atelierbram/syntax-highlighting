@@ -1,66 +1,67 @@
 .nav-site {
-  display: flex;
-  justify-content: flex-end;
-  flex-direction: column;
-  padding: 1em 2em .5em 2em;
   position: relative;
   z-index: 3;
-  font-size: .875em;
-
-  @include mq($from: phablet) {
-  }
-
-  @include mq($from: tablet) {
-    font-size: .68em;
-  }
-
-  @include mq($from: xlwide) {
-    padding: 0;
-  }
-
-  @include mq($from: xlwide) {
-    margin-top: -5.894em !important;
-  }
 
   ul {
-    display: flex;
-    flex-wrap: wrap;
-    line-height: 2;
     list-style: none;
     margin: 0;
-    justify-content: center;
+    padding: 0;
 
-    @include mq($from: xlwide) {
-      justify-content: flex-end;
-    }
 
     li {
-      letter-spacing: 1px;
-      margin-right: 1px;
       white-space: nowrap;
-      min-height: 2em;
 
-      @include mq($until: xlwide) {
-        margin-right: .6em;
+      @include mq($until: tablet) {
+        font-family: $wf-semibold;
+      }
+      @include mq($from: tablet) {
+        min-height: 2em;
+        letter-spacing: .05em;
+        margin-right: .5em;
         margin-bottom: .5em;
+      }
+
+    }
+
+    li,
+    a {
+      @include mq($until: tablet) {
+        display: block;
       }
     }
 
     a {
-      padding: .4em 1em;
-      background-color: $yellow;
-      color: #fff;
+      padding: .75em 1.5em;
       transition: all .3s;
-      border-radius: 3px;
 
+      @include mq($from: tablet) {
+        background-color: $yellow;
+        color: #fff;
+        border-radius: 3px;
+        padding: .4em 1em;
+      }
       @include mq($from: xlwide) {
         border-bottom-left-radius: 0;
         border-bottom-right-radius: 0;
       }
 
       &:hover {
-        background-color: color(gold-12);
+        @include mq($from: tablet) {
+          background-color: color(gold-12);
+        }
       }
+    }
+
+    @include mq($from: tablet) {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      line-height: 2;
+    }
+
+    @include mq($from: xlwide) {
+      padding-top: 15px;
+      justify-content: flex-end;
     }
 
   }
@@ -73,6 +74,31 @@
     }
   }
 
+  @include mq($until: tablet) {
+    display: none;
+  }
+  &.has-nav-toggled {
+    @include mq($until: tablet) {
+      display: block;
+    }
+  }
+  @include mq($from: tablet) {
+    // display: flex;
+    // justify-content: flex-end;
+    // flex-direction: column;
+    display: block;
+    font-size: .68em;
+    padding: 1em 2em .5em 2em;
+  }
+
+  @include mq($from: xlwide) {
+    padding: 0;
+  }
+
+  @include mq($from: xlwide) {
+    margin-top: -5.894em !important;
+  }
+
 }
 
 .nav-site .current a {
@@ -80,4 +106,21 @@
   color: color(gold-14);
 }
 
+.menu-toggle {
+  position: absolute;
+  font-size: inherit;
+  padding: 12px 1.5em;
+  background-color: transparent;
+  border: 0;
+  color: color(monochrome-bluesky-12);
+  cursor: pointer;
+  z-index: 3;
 
+  &.is-active {
+    color: color(bluesky-12);
+  }
+
+  @include mq($from: tablet) {
+    display: none;
+  }
+}

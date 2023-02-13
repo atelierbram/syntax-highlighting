@@ -12,6 +12,7 @@ cp "source/assets/css/atelier-schemes/plateau.min.css" "source/_partials/plateau
 cp "source/assets/css/atelier-schemes/savanna.min.css" "source/_partials/savanna-css.blade.php"
 cp "source/assets/css/atelier-schemes/seaside.min.css" "source/_partials/seaside-css.blade.php"
 cp "source/assets/css/atelier-schemes/sulphurpool.min.css" "source/_partials/sulphurpool-css.blade.php"
+cp "source/assets/js/menu-toggle.min.js" "source/_partials/menu-toggle-js.blade.php"
 }
 
 # do it!

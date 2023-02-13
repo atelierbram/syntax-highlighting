@@ -48,7 +48,8 @@
 </symbol>
 </svg>
 
-<header class="row header" id="header">
+<button class="menu-toggle" id="menuToggle"><svg width="36" height="24"><use xlink:href="#shape-hamburger"/></svg>
+  <span class="visuallyhidden">Menu</span></button><header class="row header" id="header">
 <h1 class="repo-title"><a href="https://github.com/atelierbram/syntax-highlighting">
 <svg width="452" height="96"><use xlink:href="#syntax"/></svg>
 <svg width="256" height="96"><use xlink:href="#colorschemes"/></svg>

@@ -67,7 +67,7 @@ body {
 @media (max-width: 46.24em) {
   .header {
     text-align: center;
-    padding: 0.5em 3em 0;
+    padding: 0.55em 1.5em 1em;
   }
 }
 @media (min-width: 46.25em) {
@@ -126,14 +126,12 @@ h4 {
 }
 
 h1 {
-  font-size: 3em;
+  font-family: brandosans-semibold-v100, AvenirNext-DemiBold, Corbel, "Lucida Grande", "Trebuchet Ms", "Segoe Ui", "DejaVu Sans Condensed", sans-serif;
+  font-size: 2em;
   margin: 0;
   line-height: 1;
   font-weight: normal;
-}
-
-h1 {
-  font-family: Brando, AvenirNext-Regular, Corbel, "Lucida Grande", "Trebuchet Ms", "Segoe Ui", "DejaVu Sans", sans-serif;
+  letter-spacing: -0.0125em;
 }
 
 h2 {
@@ -417,11 +415,17 @@ main {
   overflow: auto;
   position: relative;
   z-index: 1;
-  padding: 2em 3em;
+  padding: 2em 1.5em;
 }
 @media (min-width: 46.25em) {
   main {
     min-height: calc(100vh - 9.1em);
+  }
+}
+@media (min-width: 61.25em) {
+  main {
+    padding-right: 3em;
+    padding-left: 3em;
   }
 }
 @media (min-width: 115.625em) {
@@ -441,17 +445,95 @@ details > summary:first-of-type::marker {
 }
 
 .nav-site {
-  display: flex;
-  justify-content: flex-end;
-  flex-direction: column;
-  padding: 1em 2em 0.5em 2em;
   position: relative;
   z-index: 3;
-  font-size: 0.875em;
+}
+.nav-site ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.nav-site ul li {
+  white-space: nowrap;
+}
+@media (max-width: 46.24em) {
+  .nav-site ul li {
+    font-family: brandosans-semibold-v100, AvenirNext-DemiBold, Corbel, "Lucida Grande", "Trebuchet Ms", "Segoe Ui", "DejaVu Sans Condensed", sans-serif;
+  }
+}
+@media (min-width: 46.25em) {
+  .nav-site ul li {
+    min-height: 2em;
+    letter-spacing: 0.05em;
+    margin-right: 0.5em;
+    margin-bottom: 0.5em;
+  }
+}
+@media (max-width: 46.24em) {
+  .nav-site ul li,
+  .nav-site ul a {
+    display: block;
+  }
+}
+.nav-site ul a {
+  padding: 0.75em 1.5em;
+  transition: all 0.3s;
+}
+@media (min-width: 46.25em) {
+  .nav-site ul a {
+    background-color: hsl(52deg, 60%, 50%);
+    color: #fff;
+    border-radius: 3px;
+    padding: 0.4em 1em;
+  }
+}
+@media (min-width: 115.625em) {
+  .nav-site ul a {
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+  }
+}
+@media (min-width: 46.25em) {
+  .nav-site ul a:hover {
+    background-color: hsl(52deg, 63%, 45%);
+  }
+}
+@media (min-width: 46.25em) {
+  .nav-site ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    line-height: 2;
+  }
+}
+@media (min-width: 115.625em) {
+  .nav-site ul {
+    padding-top: 15px;
+    justify-content: flex-end;
+  }
+}
+.nav-site .current {
+  letter-spacing: 0;
+}
+.nav-site .current a {
+  pointer-events: none;
+  cursor: pointer;
+}
+@media (max-width: 46.24em) {
+  .nav-site {
+    display: none;
+  }
+}
+@media (max-width: 46.24em) {
+  .nav-site.has-nav-toggled {
+    display: block;
+  }
 }
 @media (min-width: 46.25em) {
   .nav-site {
+    display: block;
     font-size: 0.68em;
+    padding: 1em 2em 0.5em 2em;
   }
 }
 @media (min-width: 115.625em) {
@@ -464,58 +546,29 @@ details > summary:first-of-type::marker {
     margin-top: -5.894em !important;
   }
 }
-.nav-site ul {
-  display: flex;
-  flex-wrap: wrap;
-  line-height: 2;
-  list-style: none;
-  margin: 0;
-  justify-content: center;
-}
-@media (min-width: 115.625em) {
-  .nav-site ul {
-    justify-content: flex-end;
-  }
-}
-.nav-site ul li {
-  letter-spacing: 1px;
-  margin-right: 1px;
-  white-space: nowrap;
-  min-height: 2em;
-}
-@media (max-width: 115.615em) {
-  .nav-site ul li {
-    margin-right: 0.6em;
-    margin-bottom: 0.5em;
-  }
-}
-.nav-site ul a {
-  padding: 0.4em 1em;
-  background-color: hsl(52deg, 60%, 50%);
-  color: #fff;
-  transition: all 0.3s;
-  border-radius: 3px;
-}
-@media (min-width: 115.625em) {
-  .nav-site ul a {
-    border-bottom-left-radius: 0;
-    border-bottom-right-radius: 0;
-  }
-}
-.nav-site ul a:hover {
-  background-color: hsl(52deg, 63%, 45%);
-}
-.nav-site .current {
-  letter-spacing: 0;
-}
-.nav-site .current a {
-  pointer-events: none;
-  cursor: pointer;
-}
 
 .nav-site .current a {
   background-color: hsl(203deg, 14%, 96%);
   color: hsl(52deg, 69%, 35%);
+}
+
+.menu-toggle {
+  position: absolute;
+  font-size: inherit;
+  padding: 12px 1.5em;
+  background-color: transparent;
+  border: 0;
+  color: hsl(203deg, 14%, 45%);
+  cursor: pointer;
+  z-index: 3;
+}
+.menu-toggle.is-active {
+  color: hsl(203deg, 65%, 45%);
+}
+@media (min-width: 46.25em) {
+  .menu-toggle {
+    display: none;
+  }
 }
 
 .visuallyhidden {
@@ -586,11 +639,12 @@ details > summary:first-of-type::marker {
   max-width: 50em;
 }
 
+.repo-title a {
+  color: hsl(203deg, 14%, 40%);
+}
+
 .tagline {
-  text-transform: uppercase;
-  font-size: 0.75em;
-  font-family: brandosans-semibold-v100, AvenirNext-DemiBold, Corbel, "Lucida Grande", "Trebuchet Ms", "Segoe Ui", "DejaVu Sans Condensed", sans-serif;
-  color: hsl(345deg, 73%, 45%);
+  padding-top: 0.125em;
 }
 
 .new-theme-svg {

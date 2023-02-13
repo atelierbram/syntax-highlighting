@@ -8,11 +8,16 @@
   max-width: 50em;
 }
 
+.repo-title a {
+  color: color(monochrome-bluesky-13);
+}
+
 .tagline {
-  text-transform: uppercase;
-  font-size: .75em;
-  font-family: $wf-semibold;
-  color: color(red-12);
+  // text-transform: uppercase;
+  // font-size: .75em;
+  // font-family: $wf-semibold;
+  // color: color(red-12);
+  padding-top: .125em;
 }
 
 .new-theme-svg {
