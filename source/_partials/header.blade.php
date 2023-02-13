@@ -47,8 +47,7 @@
 <text id="textColorschemes" x="126" y="48" style="font-family:brandosans-semibold-v100, Verdana;font-size:33px;text-transform:uppercase" text-anchor="middle" fill="url(#patternGradient2)">Colorschemes</text>
 </symbol>
 </svg>
-
-<button class="menu-toggle" id="menuToggle"><svg width="36" height="24"><use xlink:href="#shape-hamburger"/></svg>
+<button class="menu-toggle" id="menuToggle"><svg width="18" height="12"><use xlink:href="#shape-hamburger"/></svg>
   <span class="visuallyhidden">Menu</span></button><header class="row header" id="header">
 <h1 class="repo-title"><a href="https://github.com/atelierbram/syntax-highlighting">
 <svg width="452" height="96"><use xlink:href="#syntax"/></svg>
