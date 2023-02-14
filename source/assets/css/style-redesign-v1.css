@@ -67,7 +67,7 @@ body {
 @media (max-width: 46.24em) {
   .header {
     text-align: center;
-    padding: 0.85em 1.5em 1em;
+    padding: 0.9em 1.5em 1em;
   }
 }
 @media (min-width: 46.25em) {
