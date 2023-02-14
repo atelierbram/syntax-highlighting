@@ -74,7 +74,7 @@ body {
 
   @include mq($until: tablet) {
     text-align: center;
-    padding: 0.55em 1.5em 1em;
+    padding: 0.85em 1.5em 1em;
   }
 
   @include mq($from: tablet) {
@@ -334,17 +334,18 @@ button {
 
 article ul,
 article ol {
-  padding: .75em .5em;
+  // padding: .75em .5em;
+  padding: .75em 0;
   margin-top: 0;
   margin-bottom: .5em;
 }
 
 article ul {
-  text-indent: -.2em;
-  margin-left: -.55em;
+  // text-indent: -.2em;
+  // margin-left: -.55em;
 }
 article ol {
-  margin-left: -.5em;
+//   margin-left: -.5em;
 }
 
 article ol ul {
@@ -354,8 +355,39 @@ article ol ul {
 article ul li {
   list-style: none;
   position: relative;
-  margin-left: -.35em;
-  padding-left: .35em;
+  text-indent: -.15rem;
+  // padding-left: .35em;
+}
+
+article ul li::before {
+  content: " \B7"; /* middot in unicode -> &middot; */
+  display: inline-block;
+  font-size: 1.25em;
+  line-height: 0;
+  vertical-align: middle;
+  position: relative;
+  // top: -.05em;
+  // padding-right: 4px;
+  color: color(lime-13);;
+  transform: translate(-.15rem,-.1em);
+}
+
+article .list-inline li::before {
+  content: "";
+  display: none;
+}
+
+article ul ol,
+article ol ol {
+  margin: .5rem 0 1rem 1.45rem;
+}
+
+article ul li li {
+  margin-left: 0;
+}
+
+article ul ol li {
+  margin-left: -.75rem;
 }
 
 article p code,
@@ -376,35 +408,6 @@ article ul code:after {
   letter-spacing: -0.2em;
 }
 
-article ul li::before {
-  content: " \B7"; /* middot in unicode -> &middot; */
-  display: inline-block;
-  font-size: 1.25em;
-  line-height: 0;
-  vertical-align: middle;
-  position: relative;
-  top: -.05em;
-  padding-right: 4px;
-  color: color(lime-13);;
-}
-
-article .list-inline li::before {
-  content: "";
-  display: none;
-}
-
-article ul ol,
-article ol ol {
-  margin: .5rem 0 1rem 1.45rem;
-}
-
-article ul li li {
-  margin-left: 0;
-}
-
-article ul ol li {
-  margin-left: -.75rem;
-}
 
 .nav-site,
 .footer {

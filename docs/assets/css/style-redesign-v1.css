@@ -67,7 +67,7 @@ body {
 @media (max-width: 46.24em) {
   .header {
     text-align: center;
-    padding: 0.55em 1.5em 1em;
+    padding: 0.85em 1.5em 1em;
   }
 }
 @media (min-width: 46.25em) {
@@ -324,18 +324,9 @@ button {
 
 article ul,
 article ol {
-  padding: 0.75em 0.5em;
+  padding: 0.75em 0;
   margin-top: 0;
   margin-bottom: 0.5em;
-}
-
-article ul {
-  text-indent: -0.2em;
-  margin-left: -0.55em;
-}
-
-article ol {
-  margin-left: -0.5em;
 }
 
 article ol ul {
@@ -345,26 +336,7 @@ article ol ul {
 article ul li {
   list-style: none;
   position: relative;
-  margin-left: -0.35em;
-  padding-left: 0.35em;
-}
-
-article p code,
-article ul code {
-  font-size: 0.875em;
-  margin: 0;
-  border: 1px solid #ddd;
-  background-color: #e6e6e6;
-  border-radius: 3px;
-  padding: 2px 0 0 0;
-}
-
-article p code:before,
-article p code:after,
-article ul code:before,
-article ul code:after {
-  content: " ";
-  letter-spacing: -0.2em;
+  text-indent: -0.15rem;
 }
 
 article ul li::before {
@@ -374,9 +346,8 @@ article ul li::before {
   line-height: 0;
   vertical-align: middle;
   position: relative;
-  top: -0.05em;
-  padding-right: 4px;
   color: hsl(130deg, 60%, 40%);
+  transform: translate(-0.15rem, -0.1em);
 }
 
 article .list-inline li::before {
@@ -395,6 +366,24 @@ article ul li li {
 
 article ul ol li {
   margin-left: -0.75rem;
+}
+
+article p code,
+article ul code {
+  font-size: 0.875em;
+  margin: 0;
+  border: 1px solid #ddd;
+  background-color: #e6e6e6;
+  border-radius: 3px;
+  padding: 2px 0 0 0;
+}
+
+article p code:before,
+article p code:after,
+article ul code:before,
+article ul code:after {
+  content: " ";
+  letter-spacing: -0.2em;
 }
 
 @media (min-width: 46.25em) {
@@ -555,7 +544,7 @@ details > summary:first-of-type::marker {
 .menu-toggle {
   position: absolute;
   font-size: inherit;
-  padding: 12px 1.5em;
+  padding: 1.5em;
   background-color: transparent;
   border: 0;
   color: hsl(203deg, 14%, 45%);
