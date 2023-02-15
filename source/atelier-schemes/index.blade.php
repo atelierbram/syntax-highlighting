@@ -7,7 +7,11 @@ slug: atelier-schemes
 ---
 
 @section('body')
-<h2>Atelier colorschemes</h2>
+
+<header class="tc"><h2 class="visuallyhidden"><a href="{{ $page->baseUrl }}/atelier-schemes/">Atelier colorschemes</a></h2>
+@include('_partials.atelier-schemes-logo_900x300_svg')
+</header>
+
 <p>For the construction of these colorschemes, <a href="//ethanschoonover.com/solarized">Solarized colorscheme</a> stood as a model, and  <a href="//github.com/chriskempson/base16-builder">Base16 Builder</a> was a building tool. Like in <a href="//github.com/altercation/solarized/">Solarized</a>, the colorschemes come in a light &#8211; and in a dark background version. It&#8217;s really just variations on the same idea, but each with it&#8217;s own color-value relations, interdependent on each other and their base (background-)color, giving each colorscheme it’s own character.</p>
 <p>More about the thought process behind some of the <a href="changelog/">documented updates and changes</a> made halfway during the time of creation.</p>
 

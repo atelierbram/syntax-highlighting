@@ -62,7 +62,7 @@ body {
 @media (max-width: 46.24em) {
   .header {
     text-align: center;
-    padding: 0.66667em 1.5em 0.309em;
+    padding: 0.5em 1.5em 0.309em;
   }
 }
 @media (min-width: 46.25em) {
@@ -512,7 +512,7 @@ details > summary:first-of-type::marker {
   .nav-site {
     position: absolute;
     top: 5.65rem;
-    padding-top: 2rem;
+    padding-top: 8.125rem;
     left: 0;
     right: 0;
     bottom: 0;
@@ -731,33 +731,24 @@ details > summary:first-of-type::marker {
 }
 
 @media (max-width: 46.24em) {
-  .page-base2tone main {
+  .page-base2tone main,
+  .page-base4tone main,
+  .page-atelier-schemes main {
     padding-top: 2.75em;
   }
 }
-.page-base2tone header + p:first-of-type {
-  padding-top: 4rem;
-}
-
-@media (max-width: 46.24em) {
-  .page-base4tone main {
-    padding-top: 2.75em;
-  }
-}
-@media (max-width: 46.24em) {
-  .page-base4tone header + p:first-of-type {
-    margin-top: 3.35em;
-  }
+.page-base2tone header + p:first-of-type,
+.page-base4tone header + p:first-of-type,
+.page-atelier-schemes header + p:first-of-type {
+  padding-top: 4.35rem;
 }
 
 @media (max-width: 31.24em) {
-  .page-atelier-schemes main,
   .page-prism main {
     padding-top: 1.35em;
   }
 }
 @media (min-width: 31.25em) and (max-width: 46.24em) {
-  .page-atelier-schemes main,
   .page-prism main {
     padding-top: 3.9em;
   }

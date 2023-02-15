@@ -69,7 +69,8 @@ body {
 
   @include mq($until: tablet) {
     text-align: center;
-    padding: #{$half-line-height}em 1.5em .309em;
+    // padding: #{$half-line-height}em 1.5em .309em;
+    padding: .5em 1.5em .309em;
   }
 
   @include mq($from: tablet) {

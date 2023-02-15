@@ -95,7 +95,9 @@
     }
   }
 }
-.page-base2tone {
+.page-base2tone,
+.page-base4tone,
+.page-atelier-schemes {
   main {
     @include mq($until: tablet) {
       padding-top: 2.75em;
@@ -103,16 +105,16 @@
   }
 
   header + p:first-of-type {
-    padding-top: 4rem;
+    padding-top: 4.35rem;
   }
 }
 .page-base4tone {
-  main {
-    @include mq($until: tablet) {
-      padding-top: 2.75em;
-    }
-  }
-
+  // main {
+  //   @include mq($until: tablet) {
+  //     padding-top: 2.75em;
+  //   }
+  // }
+  //
   // header > svg {
   //   transform: translateY(-10px);
   //   @include mq($from: tablet) {
@@ -122,14 +124,14 @@
   //     transform: translateY(35px);
   //   }
   // }
-  header + p:first-of-type {
-    @include mq($until: tablet) {
-      // margin-top: 47px;
-      margin-top: 3.35em;
-    }
-  }
+  // header + p:first-of-type {
+  //   @include mq($until: tablet) {
+  //     // margin-top: 47px;
+  //     margin-top: 3.35em;
+  //   }
+  // }
 }
-.page-atelier-schemes,
+// .page-atelier-schemes,
 .page-prism {
   main {
     @include mq($until: phablet) {
