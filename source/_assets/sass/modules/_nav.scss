@@ -13,6 +13,7 @@
 
       @include mq($until: tablet) {
         font-family: $wf-semibold;
+        font-size: 1.33334em;
       }
       @include mq($from: tablet) {
         min-height: 2em;
@@ -31,7 +32,7 @@
     }
 
     a {
-      padding: .75em 1.5em;
+      padding: .33334em 1.5rem;
       transition: all .3s;
 
       @include mq($from: tablet) {
@@ -75,11 +76,21 @@
   }
 
   @include mq($until: tablet) {
-    display: none;
+    position: absolute;
+    top: 5.65rem;
+    padding-top: 2rem;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    transform: translateX(-100%);
+    background-color: rgba(#fff,0);
+    transition: all .25s ease-out;
   }
   &.has-nav-toggled {
     @include mq($until: tablet) {
-      display: block;
+      // display: block;
+      transform: translateX(0);
+      background-color: color(monochrome-bluesky-01);
     }
   }
   @include mq($from: tablet) {
@@ -89,6 +100,8 @@
     display: block;
     font-size: .68em;
     padding: 1em 2em .5em 2em;
+    margin-top: -1.3rem;
+    margin-bottom: 1.5rem;
   }
 
   @include mq($from: xlwide) {
@@ -109,7 +122,7 @@
 .menu-toggle {
   position: absolute;
   font-size: inherit;
-  padding: 1.5em;
+  padding: 1.33334em;
   background-color: transparent;
   border: 0;
   color: color(monochrome-bluesky-12);

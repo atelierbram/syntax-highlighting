@@ -13,12 +13,12 @@
 }
 
 :root {
-  font-size: 12px;
+  font-size: 14px;
 }
 
 @media (min-width: 400px) and (max-width: 800px) {
   :root {
-    font-size: calc( 12px + (24 - 12) * ( (100vw - 400px) / ( 800 - 400) ));
+    font-size: calc( 14px + (24 - 14) * ( (100vw - 400px) / ( 800 - 400) ));
   }
 }
 @media (min-width: 800px) {
@@ -42,15 +42,9 @@ body {
   min-height: 100vh;
 }
 
-.landingpage-base2tone,
-.page-base2tone,
-.page-base2tone .nav-site .current a {
-  background-color: #f1f1f9;
-}
-
 body {
   margin: 0;
-  font: 100%/1.5 brandosans-regular-v100, AvenirNext-Regular, Corbel, "Lucida Grande", "Trebuchet Ms", "Segoe Ui", "DejaVu Sans", sans-serif;
+  font: 100%/1.33334 brandosans-regular-v100, AvenirNext-Regular, Corbel, "Lucida Grande", "Trebuchet Ms", "Segoe Ui", "DejaVu Sans", sans-serif;
   min-height: 100vh;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: subpixel-antialiased !important;
@@ -63,17 +57,17 @@ body {
 .header {
   position: relative;
   z-index: 2;
+  height: 96px;
 }
 @media (max-width: 46.24em) {
   .header {
     text-align: center;
-    padding: 0.9em 1.5em 1em;
+    padding: 0.66667em 1.5em 0.309em;
   }
 }
 @media (min-width: 46.25em) {
   .header {
     background-image: linear-gradient(to bottom, hsl(203deg, 14%, 8%), hsl(203deg, 14%, 8%) 50%, transparent 0, transparent);
-    height: 96px;
   }
 }
 
@@ -98,7 +92,7 @@ body {
 
 p {
   margin: 0;
-  padding: 0.75em 0;
+  padding: 0.66667em 0;
 }
 
 h3 + p,
@@ -129,20 +123,20 @@ h1 {
   font-family: brandosans-semibold-v100, AvenirNext-DemiBold, Corbel, "Lucida Grande", "Trebuchet Ms", "Segoe Ui", "DejaVu Sans Condensed", sans-serif;
   font-size: 2em;
   margin: 0;
-  line-height: 1;
+  line-height: 1.075;
   font-weight: normal;
   letter-spacing: -0.0125em;
 }
 
 h2 {
-  font-family: "Brando ExtraLight", Avenir-Light, Corbel, "Lucida Grande", "Trebuchet Ms", "Segoe Ui", "DejaVu Sans", sans-serif;
-  font-size: 2.5em;
+  font-size: 1.5em;
   color: hsl(345deg, 79%, 35%);
   margin: 0 0 0.5em;
   line-height: 0.95;
 }
 @media (min-width: 46.25em) {
   h2 {
+    font-family: "Brando ExtraLight", Avenir-Light, Corbel, "Lucida Grande", "Trebuchet Ms", "Segoe Ui", "DejaVu Sans", sans-serif;
     font-size: 3em;
   }
 }
@@ -164,7 +158,7 @@ h3 {
 h3,
 h4 {
   font-size: 1.33334em;
-  margin: 0.75em 0 -0.1em;
+  margin: 0.66667em 0 -0.05em;
   color: hsl(203deg, 14%, 16%);
 }
 
@@ -394,6 +388,11 @@ article ul code:after {
 }
 
 footer {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  min-height: 62px;
   text-align: center;
   background-color: hsl(203deg, 14%, 80%);
   padding: 0.5em;
@@ -404,7 +403,7 @@ main {
   overflow: auto;
   position: relative;
   z-index: 1;
-  padding: 2em 1.5em;
+  padding: 0 1.5em 8em;
 }
 @media (min-width: 46.25em) {
   main {
@@ -448,6 +447,7 @@ details > summary:first-of-type::marker {
 @media (max-width: 46.24em) {
   .nav-site ul li {
     font-family: brandosans-semibold-v100, AvenirNext-DemiBold, Corbel, "Lucida Grande", "Trebuchet Ms", "Segoe Ui", "DejaVu Sans Condensed", sans-serif;
+    font-size: 1.33334em;
   }
 }
 @media (min-width: 46.25em) {
@@ -465,7 +465,7 @@ details > summary:first-of-type::marker {
   }
 }
 .nav-site ul a {
-  padding: 0.75em 1.5em;
+  padding: 0.33334em 1.5rem;
   transition: all 0.3s;
 }
 @media (min-width: 46.25em) {
@@ -510,12 +510,21 @@ details > summary:first-of-type::marker {
 }
 @media (max-width: 46.24em) {
   .nav-site {
-    display: none;
+    position: absolute;
+    top: 5.65rem;
+    padding-top: 2rem;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    transform: translateX(-100%);
+    background-color: rgba(255, 255, 255, 0);
+    transition: all 0.25s ease-out;
   }
 }
 @media (max-width: 46.24em) {
   .nav-site.has-nav-toggled {
-    display: block;
+    transform: translateX(0);
+    background-color: hsl(203deg, 14%, 96%);
   }
 }
 @media (min-width: 46.25em) {
@@ -523,6 +532,8 @@ details > summary:first-of-type::marker {
     display: block;
     font-size: 0.68em;
     padding: 1em 2em 0.5em 2em;
+    margin-top: -1.3rem;
+    margin-bottom: 1.5rem;
   }
 }
 @media (min-width: 115.625em) {
@@ -544,7 +555,7 @@ details > summary:first-of-type::marker {
 .menu-toggle {
   position: absolute;
   font-size: inherit;
-  padding: 1.5em;
+  padding: 1.33334em;
   background-color: transparent;
   border: 0;
   color: hsl(203deg, 14%, 45%);
@@ -605,16 +616,26 @@ details > summary:first-of-type::marker {
 }
 
 .list-inline {
-  display: flex;
   padding: 0.785em 0;
   text-indent: 0;
   margin: 0 0 1.5em;
   overflow: auto;
 }
 .list-inline li {
-  display: inline-block;
-  margin: 0 1em 0 0;
+  text-indent: 0;
+  margin: 0 1em 1.5em 0;
   padding: 0;
+}
+@media (min-width: 46.25em) {
+  .list-inline li {
+    display: inline-block;
+  }
+}
+@media (min-width: 46.25em) {
+  .list-inline {
+    display: flex;
+    flex-wrap: wrap;
+  }
 }
 
 .page-wrap {
@@ -624,7 +645,8 @@ details > summary:first-of-type::marker {
 }
 
 .container {
-  margin: 0 auto;
+  margin-right: auto;
+  margin-left: auto;
   max-width: 50em;
 }
 
@@ -689,6 +711,55 @@ details > summary:first-of-type::marker {
 @media (max-width: 46.24em) {
   .go-to-top {
     bottom: 1.5em;
+  }
+}
+
+@media (max-width: 31.24em) {
+  .page-home main {
+    padding-top: 17px;
+  }
+}
+@media (min-width: 31.25em) and (max-width: 46.24em) {
+  .page-home main {
+    padding-top: 41px;
+  }
+}
+@media (min-width: 46.25em) {
+  .page-home main {
+    padding-top: 120px;
+  }
+}
+
+@media (max-width: 46.24em) {
+  .page-base2tone main {
+    padding-top: 2.75em;
+  }
+}
+.page-base2tone header + p:first-of-type {
+  padding-top: 4rem;
+}
+
+@media (max-width: 46.24em) {
+  .page-base4tone main {
+    padding-top: 2.75em;
+  }
+}
+@media (max-width: 46.24em) {
+  .page-base4tone header + p:first-of-type {
+    margin-top: 3.35em;
+  }
+}
+
+@media (max-width: 31.24em) {
+  .page-atelier-schemes main,
+  .page-prism main {
+    padding-top: 1.35em;
+  }
+}
+@media (min-width: 31.25em) and (max-width: 46.24em) {
+  .page-atelier-schemes main,
+  .page-prism main {
+    padding-top: 3.9em;
   }
 }
 

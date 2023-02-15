@@ -41,14 +41,21 @@
   }
 }
 .list-inline {
-  display: flex;
   padding: 0.785em 0;
   text-indent: 0;
   margin: 0 0 1.5em;
   overflow: auto;
   li {
-    display: inline-block;
-    margin: 0 1em 0 0;
+    text-indent: 0;
+    margin: 0 1em 1.5em 0;
     padding: 0;
+    @include mq($from: tablet) {
+      display: inline-block;
+    }
+  }
+
+  @include mq($from: tablet) {
+    display: flex;
+    flex-wrap: wrap;
   }
 }

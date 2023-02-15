@@ -9,7 +9,7 @@ slug: base4tone
 @section('body')
 
 <header class="tc"><h2 class="visuallyhidden"><a href="{{ $page->baseUrl }}/base4tone/">Base4Tone</a></h2>
-@include('_partials.base4tone-header_912x180_svg')
+@include('_partials.base4tone-logo_896x176_svg')
 </header>
 
 <p class="mtl">Base4Tone is an opinionated system for working with variables in webdesign, and is also used to generate a collection of colorthemes for many different applications in dark - and light versions. Applications like:</p>

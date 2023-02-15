@@ -18,7 +18,7 @@ $min_width: 400;
 $max_width: 800;
 // These values represent the range of fon-tsize to apply
 // These values effect the base font-size, headings and other elements will scale proportionally
-$min_font: 12;
+$min_font: 14;
 $max_font: 24;
 
 :root { font-size: #{$min_font}px; }
@@ -50,15 +50,9 @@ body {
   min-height: 100vh;
 }
 
-.landingpage-base2tone,
-.page-base2tone,
-.page-base2tone .nav-site .current a {
-  background-color: #f1f1f9;
-}
-
 body {
   margin: 0;
-  font: 100%/1.5 $bodytext;
+  font: 100%/#{$line-height} $bodytext;
   min-height: 100vh;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: subpixel-antialiased !important;
@@ -71,15 +65,15 @@ body {
 .header {
   position: relative;
   z-index: 2;
+  height: 96px;
 
   @include mq($until: tablet) {
     text-align: center;
-    padding: 0.9em 1.5em 1em;
+    padding: #{$half-line-height}em 1.5em .309em;
   }
 
   @include mq($from: tablet) {
     background-image: linear-gradient(to bottom, $gray-dark, $gray-dark 50%, transparent 0, transparent);
-    height: 96px;
   }
 
 }
@@ -109,7 +103,8 @@ body {
 
 p {
   margin: 0;
-  padding: .75em 0;
+  // padding: .75em 0;
+  padding: #{$half-line-height}em 0;
 }
 
 h3 + p,
@@ -140,20 +135,20 @@ h1 {
   font-family: $wf-semibold;
   font-size: 2em;
   margin: 0;
-  line-height: 1;
+  line-height: 1.075;
   font-weight: normal;
   letter-spacing: -.0125em;
 }
 
 
 h2 {
-  font-family: $wf-extralight;
-  font-size: 2.5em;
+  font-size: 1.5em;
   color: color(red-14);
   margin: 0 0 .5em;
   line-height: .95;
 
   @include mq($from: tablet) {
+    font-family: $wf-extralight;
     font-size: 3em;
   }
   @include mq($from: desktop) {
@@ -172,7 +167,7 @@ h3 {
 h3,
 h4 {
   font-size: 1.33334em;
-  margin: 0.75em 0 -0.1em;
+  margin: #{$half-line-height}em 0 -.05em;
   // padding: 0;
   color: color(monochrome-bluesky-18);
 }
@@ -419,6 +414,9 @@ article ul code:after {
 }
 
 footer {
+  position: absolute;
+  right:0;bottom:0;left:0;
+  min-height: 62px;
   text-align: center;
   background-color: color(monochrome-bluesky-05);
   padding: .5em;
@@ -429,7 +427,7 @@ main {
   overflow: auto;
   position: relative;
   z-index: 1;
-  padding: 2em 1.5em;
+  padding: 0 1.5em 8em;
 
   @include mq($from: tablet) {
     min-height: calc(100vh - 9.1em);

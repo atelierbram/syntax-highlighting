@@ -4,7 +4,8 @@
   position: relative;
 }
 .container {
-  margin: 0 auto;
+  margin-right: auto;
+  margin-left: auto;
   max-width: 50em;
 }
 
@@ -78,4 +79,64 @@
  @include mq($until: tablet) {
    bottom: 1.5em;
  }
+}
+
+.page-home {
+  main {
+    @include mq($until: phablet) {
+      // padding-top: 2.6em;
+      padding-top: 17px;
+    }
+    @include mq($from: phablet, $until: tablet) {
+      padding-top: 41px;
+    }
+    @include mq($from: tablet) {
+      padding-top: 120px;
+    }
+  }
+}
+.page-base2tone {
+  main {
+    @include mq($until: tablet) {
+      padding-top: 2.75em;
+    }
+  }
+
+  header + p:first-of-type {
+    padding-top: 4rem;
+  }
+}
+.page-base4tone {
+  main {
+    @include mq($until: tablet) {
+      padding-top: 2.75em;
+    }
+  }
+
+  // header > svg {
+  //   transform: translateY(-10px);
+  //   @include mq($from: tablet) {
+  //     transform: translateY(8px);
+  //   }
+  //   @include mq($from: desktop) {
+  //     transform: translateY(35px);
+  //   }
+  // }
+  header + p:first-of-type {
+    @include mq($until: tablet) {
+      // margin-top: 47px;
+      margin-top: 3.35em;
+    }
+  }
+}
+.page-atelier-schemes,
+.page-prism {
+  main {
+    @include mq($until: phablet) {
+      padding-top: 1.35em;
+    }
+    @include mq($from: phablet, $until: tablet) {
+      padding-top: 3.9em;
+    }
+  }
 }

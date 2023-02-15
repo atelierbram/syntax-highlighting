@@ -14,23 +14,23 @@
     <style id="fontfaceMonochrome">@include('_partials.fontface-monospace-css')</style>
     @if ($page->server === "local")
       <style id="fontfaceLocalCss">@include('_partials.fontface-local-css')</style>
-      <link href="{{ $page->localAssetPath }}{{ ('css/style-redesign-v1.css?v2') }}" rel="stylesheet" media="all">
+      <link href="{{ $page->localAssetPath }}{{ ('css/style-redesign-v1.css?v3') }}" rel="stylesheet" media="all">
       <link href="{{ $page->localAssetPath }}{{ ('css/local.css') }}" rel="stylesheet" media="all">
       <link rel="icon" href="http://localhost/favicon.ico">
     @else
       <style id="fontfaceRemoteCss">@include('_partials.fontface-remote-css')</style>
       <link rel="prefetch" href="{{ $page->baseUrl }}assets/css/style-redesign-v1.css">
-      <link href="{{ $page->baseUrl }}{{ ('assets/css/style-redesign-v1.min.css?v2') }}" rel="stylesheet" media="print" onload="this.media='all'">
+      <link href="{{ $page->baseUrl }}{{ ('assets/css/style-redesign-v1.min.css?v3') }}" rel="stylesheet" media="print" onload="this.media='all'">
       <link rel="icon" href="/favicon.ico">
     @endif
     <script id="headDetectJs">@include('_partials.head-detect-js')</script>
 
     @if ( ($page->page_type === "themepage") &&  ($page->server === "local"))
-      <link href="{{ $page->localAssetPath }}{{ ('css/single.css?v2') }}" rel="stylesheet" media="all">
+      <link href="{{ $page->localAssetPath }}{{ ('css/single.css?v3') }}" rel="stylesheet" media="all">
     @endif
 
     @if ( ($page->page_type === "themepage") &&  ($page->server === "remote"))
-      <link href="{{ $page->baseUrl }}{{ ('assets/css/single.min.css?v2') }}" rel="stylesheet" media="print" onload="this.media='all'">
+      <link href="{{ $page->baseUrl }}{{ ('assets/css/single.min.css?v3') }}" rel="stylesheet" media="print" onload="this.media='all'">
     @endif
 
     @if ($page->page_id === "cave")
