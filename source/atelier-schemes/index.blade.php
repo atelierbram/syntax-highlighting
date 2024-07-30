@@ -89,8 +89,8 @@ slug: atelier-schemes
     <p>More <a href="{{ $page->baseUrl }}/{{ $page->slug }}/dune">information</a> on code, color-values and more &hellip;.</p>
 
     <h3 id="downloads" class="mtm">Downloads</h3>
-    <p>All downloads can be <a href="https://github.com/atelierbram/syntax-highlighting/tree/master/docs/archive/atelier-schemes/output">found in the output</a> folder.</p>
-    <p class="note">Note: Visual Studio Code has it’s own <a href="https://github.com/atelierbram/Atelier-VSCode-Themes">dedicated implementation and repository</a>). It’s on <a href="https://marketplace.visualstudio.com/items?itemName=Atelierbram.atelier-vscode-themes#overview">Visual Studio Marketplace</a> as well. Looking for extensions within VS Code, search for atelier or atelier-vscode-themes.<br>For Sublime Text, go to <a href="https://github.com/atelierbram/syntax-highlighting/tree/master/docs/archive/atelier-schemes/output/textmate">Textmate folder</a>, or <a href="https://github.com/atelierbram/syntax-highlighting/tree/master/docs/archive/atelier-schemes/output/textmate/textmate.zip">download the zip-file directly</a>.</p>
+    <p>All downloads can be <a href="https://github.com/atelierbram/syntax-highlighting/tree/archive/docs/archive/atelier-schemes/output">found in the output</a> folder.</p>
+    <p class="note">Note: Visual Studio Code has it’s own <a href="https://github.com/atelierbram/Atelier-VSCode-Themes">dedicated implementation and repository</a>). It’s on <a href="https://marketplace.visualstudio.com/items?itemName=Atelierbram.atelier-vscode-themes#overview">Visual Studio Marketplace</a> as well. Looking for extensions within VS Code, search for atelier or atelier-vscode-themes.<br>For Sublime Text, go to <a href="https://github.com/atelierbram/syntax-highlighting/tree/archive/docs/archive/atelier-schemes/output/textmate">Textmate folder</a>, or <a href="https://github.com/atelierbram/syntax-highlighting/tree/archive/docs/archive/atelier-schemes/output/textmate/textmate.zip">download the zip-file directly</a>.</p>
 
     <p>For <a href="https://github.com/tpope/vim-pathogen">Vim with Pathogen</a> you can clone <a href="https://github.com/atelierbram/vim-colors_atelier-schemes">the dedicated repo for this purpose</a> in the <code>~/.vim/bundle</code> directory like so:</p>
     <pre class="language-bashrc"><code class="language-bash">
@@ -103,6 +103,13 @@ cd <span style="color:#935c25">~</span><span style="color:#935c25">/</span><span
 git clone https<span class="token punctuation">:</span><span style="color:#935c25">/</span><span class="token operator" style="color:#935c25">/</span>github<span class="token punctuation">.</span>com<span style="color:#935c25">/</span>atelierbram<span style="color:#935c25">/</span>vim<span style="color:#935c25">-</span>colors_atelier<span style="color:#935c25">-</span>schemes<span class="token punctuation">.</span>git
 
 </code></pre>
+
+<h3 id="terminal-emulators" class="mtm">Terminal emulators</h3>
+<ul>
+<li><a href="https://github.com/atelierbram/AtelierSchemes-kitty">kitty</a></li>
+<li><a href="https://github.com/atelierbram/atelier-schemes-alacritty">Alacritty</a></li>
+<li><a href="https://github.com/atelierbram/atelier-schemes-terminal">Mac terminal</a></li>
+</ul>
 
     <h3 id="demo" class="mtm">Demo</h3>
     <ul>

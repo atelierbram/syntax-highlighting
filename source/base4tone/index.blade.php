@@ -17,6 +17,7 @@ slug: base4tone
   <li><a href="https://github.com/atelierbram/Base4Tone-iterm2/">iTerm2</a></li>
   <li><a href="https://github.com/atelierbram/Base4Tone-hyper/">Hyper</a></li>
   <li><a href="https://github.com/atelierbram/Base4Tone-alacritty/">Alacritty</a></li>
+  <li><a href="https://github.com/atelierbram/Base4Tone-kitty/">kitty</a></li>
   <li><a href="https://github.com/atelierbram/Base4Tone-vim/">Vim</a></li>
   <li><a href="https://github.com/atelierbram/Base4Tone-nvim/">Neovim</a></li>
   <li><a href="https://github.com/atelierbram/Base4Tone-VSCode-Themes">VSCode</a></li>
