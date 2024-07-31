@@ -12,7 +12,7 @@ page_description: Collection of colorschemes for Code Syntax highlighting
 
 <h3 id="base4tone"><a href="{{ $page->baseUrl; }}/base4tone/">Base4Tone</a><svg class="new-theme-svg" width="80" height="40"><use xlink:href="#NewTheme" /></svg></h3>
 <p>Base4Tone is an opinionated system for working with variables in webdesign, and is also used to generate a collection of colorthemes for many different applications in dark - and light versions.</p>
-<pre style="background-color:#201d1e;" class="screenshot language-javascript"><code style="color:#de5745" class="language-javascript" data-language="javascript"><span class="token lf">
+<pre style="background-color:#201d1e;display:inline-block" class="screenshot language-javascript"><code style="color:#de5745" class="language-javascript" data-language="javascript"><span class="token lf">
 </span><span style="color:#fbbab1" class="token keyword">function</span> <span class="token function">foo<span style="color:#4b4447" class="token punctuation">(</span></span><span style="color:#f9f6f7">bar</span><span style="color:#4b4447" class="token punctuation">)</span> <span style="color:#4b4447" class="token punctuation">{</span><span class="token lf">
 </span>    <span style="color:#fbbab1" class="token keyword">var</span> <span style="color:#f9f6f7">a</span> <span style="color:#22a50d" class="token operator">=</span> <span style="color:#fbbab1" class="token number">42</span><span style="color:#4b4447" class="token punctuation">,</span><span class="token lf">
 </span>        <span style="color:#f9f6f7">b</span> <span style="color:#22a50d" class="token operator">=</span> <span style="color:#fbbab1" class="token string">'Prism'</span><span style="color:#4b4447" class="token punctuation">;</span><span class="token lf">
@@ -26,7 +26,7 @@ page_description: Collection of colorschemes for Code Syntax highlighting
 
 <p>Base2Tone has it’s own <a href="//github.com/atelierbram/Base2Tone">dedicated repository</a>, and demopage on <a href="//base2t.one/">base2t.one</a>.</p>
 
-<pre style="background-color:#2a2734;" class="screenshot language-javascript"><code style="color:#b3a5fe" class="language-javascript" data-language="javascript"><span class="token lf">
+<pre style="background-color:#2a2734;display:inline-block" class="screenshot language-javascript"><code style="color:#b3a5fe" class="language-javascript" data-language="javascript"><span class="token lf">
 </span><span style="color:#fc9" class="token keyword">function</span> <span class="token function">foo<span style="color:#726e87" class="token punctuation">(</span></span>bar<span style="color:#726e87" class="token punctuation">)</span> <span style="color:#726e87" class="token punctuation">{</span><span class="token lf">
 </span>    <span style="color:#fc9" class="token keyword">var</span> a <span style="color:#e09142" class="token operator">=</span> <span style="color:#e09142" class="token number">42</span><span style="color:#726e87" class="token punctuation">,</span><span class="token lf">
 </span>        b <span style="color:#e09142" class="token operator">=</span> <span style="color:#fc9" class="token string">'Prism'</span><span style="color:#726e87" class="token punctuation">;</span><span class="token lf">
@@ -39,7 +39,7 @@ page_description: Collection of colorschemes for Code Syntax highlighting
   <li><a href="//atelierbram.github.io/syntax-highlighting/atelier-schemes">index - demopages</a></li>
   <li><a href="https://github.com/atelierbram/syntax-highlighting/tree/archive/docs/archive/atelier-schemes/output">Downloads - archived</a></li>
 </ul>
-<figure class="mtm mbl">
+<figure class="mtm mbl" style="max-width:640px">
 <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1200 300">
 <style type="text/css">
 <![CDATA[
